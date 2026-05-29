@@ -1,0 +1,14 @@
+{
+  "title": "OQUL Runtime Dashboard",
+  "panels": [
+    {
+      "title": "Queue Lag"
+    },
+    {
+      "title": "Redis Saturation"
+    },
+    {
+      "title": "AI Runtime Latency"
+    }
+  ]
+}

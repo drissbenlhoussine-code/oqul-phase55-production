@@ -1,0 +1,1106 @@
+[
+  {
+    "lessonId": "1BAC_history_geography_01_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "morocco_history",
+    "title": "التاريخ والجغرافيا — morocco history — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور morocco history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_morocco_history_understanding",
+      "history_geography_morocco_history_problem_solving",
+      "history_geography_morocco_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_01_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "morocco_history",
+    "title": "التاريخ والجغرافيا — morocco history — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور morocco history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_morocco_history_understanding",
+      "history_geography_morocco_history_problem_solving",
+      "history_geography_morocco_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_01_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "morocco_history",
+    "title": "التاريخ والجغرافيا — morocco history — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور morocco history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_morocco_history_understanding",
+      "history_geography_morocco_history_problem_solving",
+      "history_geography_morocco_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_01_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "morocco_history",
+    "title": "التاريخ والجغرافيا — morocco history — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور morocco history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_morocco_history_understanding",
+      "history_geography_morocco_history_problem_solving",
+      "history_geography_morocco_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_02_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "world_history",
+    "title": "التاريخ والجغرافيا — world history — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور world history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_world_history_understanding",
+      "history_geography_world_history_problem_solving",
+      "history_geography_world_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_02_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "world_history",
+    "title": "التاريخ والجغرافيا — world history — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور world history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_world_history_understanding",
+      "history_geography_world_history_problem_solving",
+      "history_geography_world_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_02_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "world_history",
+    "title": "التاريخ والجغرافيا — world history — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور world history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_world_history_understanding",
+      "history_geography_world_history_problem_solving",
+      "history_geography_world_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_02_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "world_history",
+    "title": "التاريخ والجغرافيا — world history — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور world history",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_world_history_understanding",
+      "history_geography_world_history_problem_solving",
+      "history_geography_world_history_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_03_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "geography",
+    "title": "التاريخ والجغرافيا — geography — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور geography",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_geography_understanding",
+      "history_geography_geography_problem_solving",
+      "history_geography_geography_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_03_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "geography",
+    "title": "التاريخ والجغرافيا — geography — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور geography",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_geography_understanding",
+      "history_geography_geography_problem_solving",
+      "history_geography_geography_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_03_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "geography",
+    "title": "التاريخ والجغرافيا — geography — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور geography",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_geography_understanding",
+      "history_geography_geography_problem_solving",
+      "history_geography_geography_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_03_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "geography",
+    "title": "التاريخ والجغرافيا — geography — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور geography",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_geography_understanding",
+      "history_geography_geography_problem_solving",
+      "history_geography_geography_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_04_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "population",
+    "title": "التاريخ والجغرافيا — population — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور population",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_population_understanding",
+      "history_geography_population_problem_solving",
+      "history_geography_population_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_04_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "population",
+    "title": "التاريخ والجغرافيا — population — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور population",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_population_understanding",
+      "history_geography_population_problem_solving",
+      "history_geography_population_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_04_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "population",
+    "title": "التاريخ والجغرافيا — population — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور population",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_population_understanding",
+      "history_geography_population_problem_solving",
+      "history_geography_population_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_04_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "population",
+    "title": "التاريخ والجغرافيا — population — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور population",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_population_understanding",
+      "history_geography_population_problem_solving",
+      "history_geography_population_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_05_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "development",
+    "title": "التاريخ والجغرافيا — development — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور development",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_development_understanding",
+      "history_geography_development_problem_solving",
+      "history_geography_development_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_05_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "development",
+    "title": "التاريخ والجغرافيا — development — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور development",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_development_understanding",
+      "history_geography_development_problem_solving",
+      "history_geography_development_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_05_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "development",
+    "title": "التاريخ والجغرافيا — development — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور development",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_development_understanding",
+      "history_geography_development_problem_solving",
+      "history_geography_development_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_05_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "development",
+    "title": "التاريخ والجغرافيا — development — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور development",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_development_understanding",
+      "history_geography_development_problem_solving",
+      "history_geography_development_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_06_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "resources",
+    "title": "التاريخ والجغرافيا — resources — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور resources",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_resources_understanding",
+      "history_geography_resources_problem_solving",
+      "history_geography_resources_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_06_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "resources",
+    "title": "التاريخ والجغرافيا — resources — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور resources",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_resources_understanding",
+      "history_geography_resources_problem_solving",
+      "history_geography_resources_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_06_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "resources",
+    "title": "التاريخ والجغرافيا — resources — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور resources",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_resources_understanding",
+      "history_geography_resources_problem_solving",
+      "history_geography_resources_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_history_geography_06_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "history_geography",
+    "subjectLabelAr": "التاريخ والجغرافيا",
+    "unit": "resources",
+    "title": "التاريخ والجغرافيا — resources — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور resources",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "history_geography_resources_understanding",
+      "history_geography_resources_problem_solving",
+      "history_geography_resources_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "title": "OQUL Reliability SLOs",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Queue Lag Threshold"
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Reconnects"
+    },
+    {
+      "type": "timeseries",
+      "title": "Worker Recovery Time"
+    }
+  ]
+}

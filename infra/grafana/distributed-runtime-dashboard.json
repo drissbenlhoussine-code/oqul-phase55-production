@@ -1,0 +1,17 @@
+{
+  "title": "Distributed Runtime Dashboard",
+  "panels": [
+    {
+      "title": "Redis Saturation"
+    },
+    {
+      "title": "Queue Lag"
+    },
+    {
+      "title": "Worker Health"
+    },
+    {
+      "title": "AI Runtime Latency"
+    }
+  ]
+}

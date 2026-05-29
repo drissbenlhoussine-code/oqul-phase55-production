@@ -1,0 +1,31 @@
+{
+  "schema": "phase54_competency_matrix",
+  "competencyTypes": [
+    "knowledge",
+    "understanding",
+    "application",
+    "reasoning",
+    "methodology",
+    "exam_readiness",
+    "remediation"
+  ],
+  "levels": {
+    "primary": [
+      "observe",
+      "name",
+      "practice"
+    ],
+    "middle": [
+      "understand",
+      "apply",
+      "justify",
+      "solve"
+    ],
+    "secondary": [
+      "analyze",
+      "prove",
+      "solve_exam",
+      "justify_rigorously"
+    ]
+  }
+}

@@ -1,0 +1,1842 @@
+[
+  {
+    "lessonId": "TC_physics_chemistry_01_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "motion",
+    "title": "الفيزياء والكيمياء — motion — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور motion",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_motion_understanding",
+      "physics_chemistry_motion_problem_solving",
+      "physics_chemistry_motion_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_01_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "motion",
+    "title": "الفيزياء والكيمياء — motion — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور motion",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_motion_understanding",
+      "physics_chemistry_motion_problem_solving",
+      "physics_chemistry_motion_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_01_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "motion",
+    "title": "الفيزياء والكيمياء — motion — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور motion",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_motion_understanding",
+      "physics_chemistry_motion_problem_solving",
+      "physics_chemistry_motion_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_01_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "motion",
+    "title": "الفيزياء والكيمياء — motion — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور motion",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_motion_understanding",
+      "physics_chemistry_motion_problem_solving",
+      "physics_chemistry_motion_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_02_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "forces",
+    "title": "الفيزياء والكيمياء — forces — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور forces",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_forces_understanding",
+      "physics_chemistry_forces_problem_solving",
+      "physics_chemistry_forces_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_02_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "forces",
+    "title": "الفيزياء والكيمياء — forces — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور forces",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_forces_understanding",
+      "physics_chemistry_forces_problem_solving",
+      "physics_chemistry_forces_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_02_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "forces",
+    "title": "الفيزياء والكيمياء — forces — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور forces",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_forces_understanding",
+      "physics_chemistry_forces_problem_solving",
+      "physics_chemistry_forces_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_02_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "forces",
+    "title": "الفيزياء والكيمياء — forces — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور forces",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_forces_understanding",
+      "physics_chemistry_forces_problem_solving",
+      "physics_chemistry_forces_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_03_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "energy",
+    "title": "الفيزياء والكيمياء — energy — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور energy",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_energy_understanding",
+      "physics_chemistry_energy_problem_solving",
+      "physics_chemistry_energy_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_03_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "energy",
+    "title": "الفيزياء والكيمياء — energy — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور energy",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_energy_understanding",
+      "physics_chemistry_energy_problem_solving",
+      "physics_chemistry_energy_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_03_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "energy",
+    "title": "الفيزياء والكيمياء — energy — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور energy",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_energy_understanding",
+      "physics_chemistry_energy_problem_solving",
+      "physics_chemistry_energy_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_03_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "energy",
+    "title": "الفيزياء والكيمياء — energy — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور energy",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_energy_understanding",
+      "physics_chemistry_energy_problem_solving",
+      "physics_chemistry_energy_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_04_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "electricity",
+    "title": "الفيزياء والكيمياء — electricity — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور electricity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_electricity_understanding",
+      "physics_chemistry_electricity_problem_solving",
+      "physics_chemistry_electricity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_04_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "electricity",
+    "title": "الفيزياء والكيمياء — electricity — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور electricity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_electricity_understanding",
+      "physics_chemistry_electricity_problem_solving",
+      "physics_chemistry_electricity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_04_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "electricity",
+    "title": "الفيزياء والكيمياء — electricity — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور electricity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_electricity_understanding",
+      "physics_chemistry_electricity_problem_solving",
+      "physics_chemistry_electricity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_04_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "electricity",
+    "title": "الفيزياء والكيمياء — electricity — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور electricity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_electricity_understanding",
+      "physics_chemistry_electricity_problem_solving",
+      "physics_chemistry_electricity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_05_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "waves",
+    "title": "الفيزياء والكيمياء — waves — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور waves",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_waves_understanding",
+      "physics_chemistry_waves_problem_solving",
+      "physics_chemistry_waves_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_05_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "waves",
+    "title": "الفيزياء والكيمياء — waves — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور waves",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_waves_understanding",
+      "physics_chemistry_waves_problem_solving",
+      "physics_chemistry_waves_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_05_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "waves",
+    "title": "الفيزياء والكيمياء — waves — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور waves",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_waves_understanding",
+      "physics_chemistry_waves_problem_solving",
+      "physics_chemistry_waves_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_05_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "waves",
+    "title": "الفيزياء والكيمياء — waves — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور waves",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_waves_understanding",
+      "physics_chemistry_waves_problem_solving",
+      "physics_chemistry_waves_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_06_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "optics",
+    "title": "الفيزياء والكيمياء — optics — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور optics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_optics_understanding",
+      "physics_chemistry_optics_problem_solving",
+      "physics_chemistry_optics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_06_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "optics",
+    "title": "الفيزياء والكيمياء — optics — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور optics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_optics_understanding",
+      "physics_chemistry_optics_problem_solving",
+      "physics_chemistry_optics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_06_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "optics",
+    "title": "الفيزياء والكيمياء — optics — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور optics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_optics_understanding",
+      "physics_chemistry_optics_problem_solving",
+      "physics_chemistry_optics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_06_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "optics",
+    "title": "الفيزياء والكيمياء — optics — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور optics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_optics_understanding",
+      "physics_chemistry_optics_problem_solving",
+      "physics_chemistry_optics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_07_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "matter",
+    "title": "الفيزياء والكيمياء — matter — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور matter",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_matter_understanding",
+      "physics_chemistry_matter_problem_solving",
+      "physics_chemistry_matter_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_07_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "matter",
+    "title": "الفيزياء والكيمياء — matter — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور matter",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_matter_understanding",
+      "physics_chemistry_matter_problem_solving",
+      "physics_chemistry_matter_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_07_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "matter",
+    "title": "الفيزياء والكيمياء — matter — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور matter",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_matter_understanding",
+      "physics_chemistry_matter_problem_solving",
+      "physics_chemistry_matter_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_07_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "matter",
+    "title": "الفيزياء والكيمياء — matter — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور matter",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_matter_understanding",
+      "physics_chemistry_matter_problem_solving",
+      "physics_chemistry_matter_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_08_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "reactions",
+    "title": "الفيزياء والكيمياء — reactions — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور reactions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_reactions_understanding",
+      "physics_chemistry_reactions_problem_solving",
+      "physics_chemistry_reactions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_08_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "reactions",
+    "title": "الفيزياء والكيمياء — reactions — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور reactions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_reactions_understanding",
+      "physics_chemistry_reactions_problem_solving",
+      "physics_chemistry_reactions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_08_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "reactions",
+    "title": "الفيزياء والكيمياء — reactions — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور reactions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_reactions_understanding",
+      "physics_chemistry_reactions_problem_solving",
+      "physics_chemistry_reactions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_08_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "reactions",
+    "title": "الفيزياء والكيمياء — reactions — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور reactions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_reactions_understanding",
+      "physics_chemistry_reactions_problem_solving",
+      "physics_chemistry_reactions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_09_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "acid_base",
+    "title": "الفيزياء والكيمياء — acid base — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور acid base",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_acid_base_understanding",
+      "physics_chemistry_acid_base_problem_solving",
+      "physics_chemistry_acid_base_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_09_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "acid_base",
+    "title": "الفيزياء والكيمياء — acid base — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور acid base",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_acid_base_understanding",
+      "physics_chemistry_acid_base_problem_solving",
+      "physics_chemistry_acid_base_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_09_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "acid_base",
+    "title": "الفيزياء والكيمياء — acid base — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور acid base",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_acid_base_understanding",
+      "physics_chemistry_acid_base_problem_solving",
+      "physics_chemistry_acid_base_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_09_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "acid_base",
+    "title": "الفيزياء والكيمياء — acid base — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور acid base",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_acid_base_understanding",
+      "physics_chemistry_acid_base_problem_solving",
+      "physics_chemistry_acid_base_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_10_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "organic_chemistry",
+    "title": "الفيزياء والكيمياء — organic chemistry — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور organic chemistry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_organic_chemistry_understanding",
+      "physics_chemistry_organic_chemistry_problem_solving",
+      "physics_chemistry_organic_chemistry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_10_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "organic_chemistry",
+    "title": "الفيزياء والكيمياء — organic chemistry — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور organic chemistry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_organic_chemistry_understanding",
+      "physics_chemistry_organic_chemistry_problem_solving",
+      "physics_chemistry_organic_chemistry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_10_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "organic_chemistry",
+    "title": "الفيزياء والكيمياء — organic chemistry — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور organic chemistry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_organic_chemistry_understanding",
+      "physics_chemistry_organic_chemistry_problem_solving",
+      "physics_chemistry_organic_chemistry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_physics_chemistry_10_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "physics_chemistry",
+    "subjectLabelAr": "الفيزياء والكيمياء",
+    "unit": "organic_chemistry",
+    "title": "الفيزياء والكيمياء — organic chemistry — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور organic chemistry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "physics_chemistry_organic_chemistry_understanding",
+      "physics_chemistry_organic_chemistry_problem_solving",
+      "physics_chemistry_organic_chemistry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "lessonId": "TC_english_01_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "reading",
+    "title": "اللغة الإنجليزية — reading — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_reading_understanding",
+      "english_reading_problem_solving",
+      "english_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_01_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "reading",
+    "title": "اللغة الإنجليزية — reading — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_reading_understanding",
+      "english_reading_problem_solving",
+      "english_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_01_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "reading",
+    "title": "اللغة الإنجليزية — reading — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_reading_understanding",
+      "english_reading_problem_solving",
+      "english_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_01_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "reading",
+    "title": "اللغة الإنجليزية — reading — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_reading_understanding",
+      "english_reading_problem_solving",
+      "english_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_02_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "grammar",
+    "title": "اللغة الإنجليزية — grammar — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_grammar_understanding",
+      "english_grammar_problem_solving",
+      "english_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_02_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "grammar",
+    "title": "اللغة الإنجليزية — grammar — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_grammar_understanding",
+      "english_grammar_problem_solving",
+      "english_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_02_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "grammar",
+    "title": "اللغة الإنجليزية — grammar — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_grammar_understanding",
+      "english_grammar_problem_solving",
+      "english_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_02_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "grammar",
+    "title": "اللغة الإنجليزية — grammar — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_grammar_understanding",
+      "english_grammar_problem_solving",
+      "english_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_03_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "vocabulary",
+    "title": "اللغة الإنجليزية — vocabulary — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور vocabulary",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_vocabulary_understanding",
+      "english_vocabulary_problem_solving",
+      "english_vocabulary_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_03_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "vocabulary",
+    "title": "اللغة الإنجليزية — vocabulary — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور vocabulary",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_vocabulary_understanding",
+      "english_vocabulary_problem_solving",
+      "english_vocabulary_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_03_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "vocabulary",
+    "title": "اللغة الإنجليزية — vocabulary — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور vocabulary",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_vocabulary_understanding",
+      "english_vocabulary_problem_solving",
+      "english_vocabulary_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_03_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "vocabulary",
+    "title": "اللغة الإنجليزية — vocabulary — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور vocabulary",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_vocabulary_understanding",
+      "english_vocabulary_problem_solving",
+      "english_vocabulary_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_04_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "writing",
+    "title": "اللغة الإنجليزية — writing — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور writing",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_writing_understanding",
+      "english_writing_problem_solving",
+      "english_writing_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_04_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "writing",
+    "title": "اللغة الإنجليزية — writing — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور writing",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_writing_understanding",
+      "english_writing_problem_solving",
+      "english_writing_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_04_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "writing",
+    "title": "اللغة الإنجليزية — writing — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور writing",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_writing_understanding",
+      "english_writing_problem_solving",
+      "english_writing_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_04_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "writing",
+    "title": "اللغة الإنجليزية — writing — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور writing",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_writing_understanding",
+      "english_writing_problem_solving",
+      "english_writing_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_05_1",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "communication",
+    "title": "اللغة الإنجليزية — communication — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور communication",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_communication_understanding",
+      "english_communication_problem_solving",
+      "english_communication_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_05_2",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "communication",
+    "title": "اللغة الإنجليزية — communication — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور communication",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_communication_understanding",
+      "english_communication_problem_solving",
+      "english_communication_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_05_3",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "communication",
+    "title": "اللغة الإنجليزية — communication — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور communication",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_communication_understanding",
+      "english_communication_problem_solving",
+      "english_communication_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "TC_english_05_4",
+    "grade": "TC",
+    "gradeLabelAr": "الجذع المشترك",
+    "subject": "english",
+    "subjectLabelAr": "اللغة الإنجليزية",
+    "unit": "communication",
+    "title": "اللغة الإنجليزية — communication — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور communication",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "english_communication_understanding",
+      "english_communication_problem_solving",
+      "english_communication_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

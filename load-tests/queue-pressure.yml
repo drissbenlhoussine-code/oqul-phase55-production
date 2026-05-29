@@ -1,0 +1,14 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 50
+
+scenarios:
+  - name: "Queue pressure simulation"
+    flow:
+      - post:
+          url: "/api/ai/leila"
+          json:
+            message: "شرح سريع مع ضغط على queue"

@@ -1,0 +1,71 @@
+name: OQUL CI
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: oqul
+          POSTGRES_PASSWORD: oqul
+          POSTGRES_DB: oqul_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U oqul -d oqul_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      DATABASE_URL: postgresql://oqul:oqul@localhost:5432/oqul_test
+      REDIS_URL: redis://localhost:6379
+      AUTH_SECRET: ci-auth-secret-change-me
+      DELIVERY_RECEIPT_SECRET: ci-delivery-secret
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Assert lockfile
+        run: npm run assert:lockfile
+
+      - name: Install frozen dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm run test
+
+      - name: Build
+        run: npm run build
+
+      - name: Docker build
+        run: docker build -t oqul-platform:ci .

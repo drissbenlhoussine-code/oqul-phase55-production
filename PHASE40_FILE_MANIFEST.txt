@@ -1,0 +1,11 @@
+package.json
+PHASE40_RELEASE_REPORT.md
+docs/PHASE40_LEARNING_EXPERIENCE_CORE.md
+docs/Oqul_Phase40_Upgrade_Blueprint.md
+src/server/learning-experience/types.ts
+src/server/learning-experience/phase40-engine.ts
+src/app/api/learning/phase40/route.ts
+src/features/learning-experience/learning-world-card.tsx
+src/server/ai/leila.ts
+src/app/api/ai/leila/route.ts
+src/features/dashboard/student-dashboard.tsx

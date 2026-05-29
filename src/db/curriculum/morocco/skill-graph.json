@@ -1,0 +1,253 @@
+{
+  "version": "living-learning-v1",
+  "country": "Morocco",
+  "purpose": "Skill graph for adaptive Moroccan primary learning with Leila.",
+  "skills": [
+    {
+      "skillId": "g1-ar-letter-sounds",
+      "grade": 1,
+      "subject": "arabic",
+      "title": "تمييز أصوات الحروف",
+      "difficulty": 1,
+      "prerequisites": []
+    },
+    {
+      "skillId": "g1-ar-short-vowels",
+      "grade": 1,
+      "subject": "arabic",
+      "title": "الحركات القصيرة",
+      "difficulty": 1,
+      "prerequisites": [
+        "g1-ar-letter-sounds"
+      ]
+    },
+    {
+      "skillId": "g1-ar-read-words",
+      "grade": 1,
+      "subject": "arabic",
+      "title": "قراءة كلمات قصيرة",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ar-short-vowels"
+      ]
+    },
+    {
+      "skillId": "g1-ar-read-sentences",
+      "grade": 1,
+      "subject": "arabic",
+      "title": "قراءة جمل قصيرة",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ar-read-words"
+      ]
+    },
+    {
+      "skillId": "g1-ma-count-100",
+      "grade": 1,
+      "subject": "math",
+      "title": "العد إلى 100",
+      "difficulty": 1,
+      "prerequisites": []
+    },
+    {
+      "skillId": "g1-ma-compare-order",
+      "grade": 1,
+      "subject": "math",
+      "title": "المقارنة والترتيب",
+      "difficulty": 1,
+      "prerequisites": [
+        "g1-ma-count-100"
+      ]
+    },
+    {
+      "skillId": "g1-ma-addition-basic",
+      "grade": 1,
+      "subject": "math",
+      "title": "الجمع البسيط",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ma-count-100"
+      ]
+    },
+    {
+      "skillId": "g1-ma-subtraction-basic",
+      "grade": 1,
+      "subject": "math",
+      "title": "الطرح البسيط",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ma-addition-basic"
+      ]
+    },
+    {
+      "skillId": "g2-ar-comprehension-basic",
+      "grade": 2,
+      "subject": "arabic",
+      "title": "فهم نص قصير",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ar-read-sentences"
+      ]
+    },
+    {
+      "skillId": "g2-ar-writing-short",
+      "grade": 2,
+      "subject": "arabic",
+      "title": "تعبير كتابي قصير",
+      "difficulty": 3,
+      "prerequisites": [
+        "g2-ar-comprehension-basic"
+      ]
+    },
+    {
+      "skillId": "g2-ma-place-value-999",
+      "grade": 2,
+      "subject": "math",
+      "title": "القيمة المكانية إلى 999",
+      "difficulty": 2,
+      "prerequisites": [
+        "g1-ma-count-100"
+      ]
+    },
+    {
+      "skillId": "g2-ma-add-carry",
+      "grade": 2,
+      "subject": "math",
+      "title": "الجمع باحتفاظ",
+      "difficulty": 3,
+      "prerequisites": [
+        "g2-ma-place-value-999",
+        "g1-ma-addition-basic"
+      ]
+    },
+    {
+      "skillId": "g2-ma-sub-borrow",
+      "grade": 2,
+      "subject": "math",
+      "title": "الطرح باحتفاظ",
+      "difficulty": 3,
+      "prerequisites": [
+        "g2-ma-place-value-999",
+        "g1-ma-subtraction-basic"
+      ]
+    },
+    {
+      "skillId": "g3-ar-paragraph",
+      "grade": 3,
+      "subject": "arabic",
+      "title": "إنتاج فقرة بسيطة",
+      "difficulty": 3,
+      "prerequisites": [
+        "g2-ar-writing-short"
+      ]
+    },
+    {
+      "skillId": "g3-ma-multiplication",
+      "grade": 3,
+      "subject": "math",
+      "title": "الضرب",
+      "difficulty": 3,
+      "prerequisites": [
+        "g2-ma-add-carry"
+      ]
+    },
+    {
+      "skillId": "g3-ma-division-sharing",
+      "grade": 3,
+      "subject": "math",
+      "title": "القسمة كمشاركة",
+      "difficulty": 4,
+      "prerequisites": [
+        "g3-ma-multiplication"
+      ]
+    },
+    {
+      "skillId": "g4-ar-summary",
+      "grade": 4,
+      "subject": "arabic",
+      "title": "تلخيص نص",
+      "difficulty": 4,
+      "prerequisites": [
+        "g3-ar-paragraph"
+      ]
+    },
+    {
+      "skillId": "g4-ma-fractions",
+      "grade": 4,
+      "subject": "math",
+      "title": "الكسور",
+      "difficulty": 4,
+      "prerequisites": [
+        "g3-ma-division-sharing"
+      ]
+    },
+    {
+      "skillId": "g4-ma-decimals-intro",
+      "grade": 4,
+      "subject": "math",
+      "title": "الأعداد العشرية الأولى",
+      "difficulty": 4,
+      "prerequisites": [
+        "g4-ma-fractions"
+      ]
+    },
+    {
+      "skillId": "g5-ar-argument",
+      "grade": 5,
+      "subject": "arabic",
+      "title": "النص الحجاجي",
+      "difficulty": 5,
+      "prerequisites": [
+        "g4-ar-summary"
+      ]
+    },
+    {
+      "skillId": "g5-ma-proportionality",
+      "grade": 5,
+      "subject": "math",
+      "title": "التناسبية الأولى",
+      "difficulty": 5,
+      "prerequisites": [
+        "g4-ma-decimals-intro"
+      ]
+    },
+    {
+      "skillId": "g5-ma-word-problems",
+      "grade": 5,
+      "subject": "math",
+      "title": "مسائل إدماجية",
+      "difficulty": 5,
+      "prerequisites": [
+        "g5-ma-proportionality"
+      ]
+    },
+    {
+      "skillId": "g6-ar-integrated-writing",
+      "grade": 6,
+      "subject": "arabic",
+      "title": "الوضعية الإدماجية في العربية",
+      "difficulty": 5,
+      "prerequisites": [
+        "g5-ar-argument"
+      ]
+    },
+    {
+      "skillId": "g6-ma-exam-problems",
+      "grade": 6,
+      "subject": "math",
+      "title": "وضعيات رياضية للموحد",
+      "difficulty": 5,
+      "prerequisites": [
+        "g5-ma-word-problems"
+      ]
+    },
+    {
+      "skillId": "g6-fr-production",
+      "grade": 6,
+      "subject": "french",
+      "title": "Production écrite",
+      "difficulty": 5,
+      "prerequisites": []
+    }
+  ]
+}

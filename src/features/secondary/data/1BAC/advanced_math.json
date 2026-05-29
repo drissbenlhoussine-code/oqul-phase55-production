@@ -1,0 +1,2210 @@
+[
+  {
+    "lessonId": "1BAC_advanced_math_01_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sets_logic",
+    "title": "الرياضيات — sets logic — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور sets logic",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sets_logic_understanding",
+      "advanced_math_sets_logic_problem_solving",
+      "advanced_math_sets_logic_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_01_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sets_logic",
+    "title": "الرياضيات — sets logic — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور sets logic",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sets_logic_understanding",
+      "advanced_math_sets_logic_problem_solving",
+      "advanced_math_sets_logic_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_01_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sets_logic",
+    "title": "الرياضيات — sets logic — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور sets logic",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sets_logic_understanding",
+      "advanced_math_sets_logic_problem_solving",
+      "advanced_math_sets_logic_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_01_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sets_logic",
+    "title": "الرياضيات — sets logic — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور sets logic",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sets_logic_understanding",
+      "advanced_math_sets_logic_problem_solving",
+      "advanced_math_sets_logic_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_02_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "algebra",
+    "title": "الرياضيات — algebra — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور algebra",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_algebra_understanding",
+      "advanced_math_algebra_problem_solving",
+      "advanced_math_algebra_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_02_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "algebra",
+    "title": "الرياضيات — algebra — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور algebra",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_algebra_understanding",
+      "advanced_math_algebra_problem_solving",
+      "advanced_math_algebra_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_02_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "algebra",
+    "title": "الرياضيات — algebra — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور algebra",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_algebra_understanding",
+      "advanced_math_algebra_problem_solving",
+      "advanced_math_algebra_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_02_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "algebra",
+    "title": "الرياضيات — algebra — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور algebra",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_algebra_understanding",
+      "advanced_math_algebra_problem_solving",
+      "advanced_math_algebra_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_03_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "equations",
+    "title": "الرياضيات — equations — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور equations",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_equations_understanding",
+      "advanced_math_equations_problem_solving",
+      "advanced_math_equations_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_03_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "equations",
+    "title": "الرياضيات — equations — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور equations",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_equations_understanding",
+      "advanced_math_equations_problem_solving",
+      "advanced_math_equations_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_03_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "equations",
+    "title": "الرياضيات — equations — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور equations",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_equations_understanding",
+      "advanced_math_equations_problem_solving",
+      "advanced_math_equations_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_03_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "equations",
+    "title": "الرياضيات — equations — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور equations",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_equations_understanding",
+      "advanced_math_equations_problem_solving",
+      "advanced_math_equations_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_04_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "functions",
+    "title": "الرياضيات — functions — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور functions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_functions_understanding",
+      "advanced_math_functions_problem_solving",
+      "advanced_math_functions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_04_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "functions",
+    "title": "الرياضيات — functions — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور functions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_functions_understanding",
+      "advanced_math_functions_problem_solving",
+      "advanced_math_functions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_04_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "functions",
+    "title": "الرياضيات — functions — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور functions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_functions_understanding",
+      "advanced_math_functions_problem_solving",
+      "advanced_math_functions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_04_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "functions",
+    "title": "الرياضيات — functions — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور functions",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_functions_understanding",
+      "advanced_math_functions_problem_solving",
+      "advanced_math_functions_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_05_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "limits",
+    "title": "الرياضيات — limits — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور limits",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_limits_understanding",
+      "advanced_math_limits_problem_solving",
+      "advanced_math_limits_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_05_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "limits",
+    "title": "الرياضيات — limits — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور limits",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_limits_understanding",
+      "advanced_math_limits_problem_solving",
+      "advanced_math_limits_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_05_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "limits",
+    "title": "الرياضيات — limits — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور limits",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_limits_understanding",
+      "advanced_math_limits_problem_solving",
+      "advanced_math_limits_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_05_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "limits",
+    "title": "الرياضيات — limits — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور limits",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_limits_understanding",
+      "advanced_math_limits_problem_solving",
+      "advanced_math_limits_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_06_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "derivatives",
+    "title": "الرياضيات — derivatives — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور derivatives",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_derivatives_understanding",
+      "advanced_math_derivatives_problem_solving",
+      "advanced_math_derivatives_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_06_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "derivatives",
+    "title": "الرياضيات — derivatives — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور derivatives",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_derivatives_understanding",
+      "advanced_math_derivatives_problem_solving",
+      "advanced_math_derivatives_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_06_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "derivatives",
+    "title": "الرياضيات — derivatives — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور derivatives",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_derivatives_understanding",
+      "advanced_math_derivatives_problem_solving",
+      "advanced_math_derivatives_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_06_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "derivatives",
+    "title": "الرياضيات — derivatives — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور derivatives",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_derivatives_understanding",
+      "advanced_math_derivatives_problem_solving",
+      "advanced_math_derivatives_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_07_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sequences",
+    "title": "الرياضيات — sequences — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور sequences",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sequences_understanding",
+      "advanced_math_sequences_problem_solving",
+      "advanced_math_sequences_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_07_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sequences",
+    "title": "الرياضيات — sequences — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور sequences",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sequences_understanding",
+      "advanced_math_sequences_problem_solving",
+      "advanced_math_sequences_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_07_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sequences",
+    "title": "الرياضيات — sequences — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور sequences",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sequences_understanding",
+      "advanced_math_sequences_problem_solving",
+      "advanced_math_sequences_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_07_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "sequences",
+    "title": "الرياضيات — sequences — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور sequences",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_sequences_understanding",
+      "advanced_math_sequences_problem_solving",
+      "advanced_math_sequences_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_08_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "trigonometry",
+    "title": "الرياضيات — trigonometry — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور trigonometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_trigonometry_understanding",
+      "advanced_math_trigonometry_problem_solving",
+      "advanced_math_trigonometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_08_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "trigonometry",
+    "title": "الرياضيات — trigonometry — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور trigonometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_trigonometry_understanding",
+      "advanced_math_trigonometry_problem_solving",
+      "advanced_math_trigonometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_08_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "trigonometry",
+    "title": "الرياضيات — trigonometry — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور trigonometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_trigonometry_understanding",
+      "advanced_math_trigonometry_problem_solving",
+      "advanced_math_trigonometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_08_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "trigonometry",
+    "title": "الرياضيات — trigonometry — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور trigonometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_trigonometry_understanding",
+      "advanced_math_trigonometry_problem_solving",
+      "advanced_math_trigonometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_09_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "geometry",
+    "title": "الرياضيات — geometry — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور geometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_geometry_understanding",
+      "advanced_math_geometry_problem_solving",
+      "advanced_math_geometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_09_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "geometry",
+    "title": "الرياضيات — geometry — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور geometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_geometry_understanding",
+      "advanced_math_geometry_problem_solving",
+      "advanced_math_geometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_09_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "geometry",
+    "title": "الرياضيات — geometry — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور geometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_geometry_understanding",
+      "advanced_math_geometry_problem_solving",
+      "advanced_math_geometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_09_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "geometry",
+    "title": "الرياضيات — geometry — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور geometry",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_geometry_understanding",
+      "advanced_math_geometry_problem_solving",
+      "advanced_math_geometry_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_10_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "probability",
+    "title": "الرياضيات — probability — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور probability",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_probability_understanding",
+      "advanced_math_probability_problem_solving",
+      "advanced_math_probability_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_10_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "probability",
+    "title": "الرياضيات — probability — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور probability",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_probability_understanding",
+      "advanced_math_probability_problem_solving",
+      "advanced_math_probability_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_10_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "probability",
+    "title": "الرياضيات — probability — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور probability",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_probability_understanding",
+      "advanced_math_probability_problem_solving",
+      "advanced_math_probability_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_10_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "probability",
+    "title": "الرياضيات — probability — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور probability",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_probability_understanding",
+      "advanced_math_probability_problem_solving",
+      "advanced_math_probability_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_11_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "statistics",
+    "title": "الرياضيات — statistics — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور statistics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_statistics_understanding",
+      "advanced_math_statistics_problem_solving",
+      "advanced_math_statistics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_11_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "statistics",
+    "title": "الرياضيات — statistics — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور statistics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_statistics_understanding",
+      "advanced_math_statistics_problem_solving",
+      "advanced_math_statistics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_11_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "statistics",
+    "title": "الرياضيات — statistics — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور statistics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_statistics_understanding",
+      "advanced_math_statistics_problem_solving",
+      "advanced_math_statistics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_11_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "statistics",
+    "title": "الرياضيات — statistics — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور statistics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_statistics_understanding",
+      "advanced_math_statistics_problem_solving",
+      "advanced_math_statistics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_12_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "complex_numbers",
+    "title": "الرياضيات — complex numbers — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور complex numbers",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_complex_numbers_understanding",
+      "advanced_math_complex_numbers_problem_solving",
+      "advanced_math_complex_numbers_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_12_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "complex_numbers",
+    "title": "الرياضيات — complex numbers — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور complex numbers",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_complex_numbers_understanding",
+      "advanced_math_complex_numbers_problem_solving",
+      "advanced_math_complex_numbers_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_12_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "complex_numbers",
+    "title": "الرياضيات — complex numbers — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور complex numbers",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_complex_numbers_understanding",
+      "advanced_math_complex_numbers_problem_solving",
+      "advanced_math_complex_numbers_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_advanced_math_12_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "advanced_math",
+    "subjectLabelAr": "الرياضيات",
+    "unit": "complex_numbers",
+    "title": "الرياضيات — complex numbers — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور complex numbers",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "advanced_math_complex_numbers_understanding",
+      "advanced_math_complex_numbers_problem_solving",
+      "advanced_math_complex_numbers_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

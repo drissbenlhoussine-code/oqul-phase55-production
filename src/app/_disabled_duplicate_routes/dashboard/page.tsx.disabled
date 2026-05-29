@@ -1,0 +1,19 @@
+export const dynamic = "force-dynamic";
+
+import { StudentDashboard } from "@/features/dashboard/student-dashboard";
+import { TutorChat } from "@/features/ai-tutor/tutor-chat";
+import { LessonViewer } from "@/features/learning/lesson-viewer";
+
+export default function DashboardPage() {
+  return (
+    <main className="min-h-screen bg-slate-50 px-4 py-8 md:px-10" dir="rtl">
+      <div className="mx-auto grid max-w-7xl gap-8 xl:grid-cols-[1fr_420px]">
+        <div className="space-y-8">
+          <StudentDashboard />
+          <LessonViewer />
+        </div>
+        <TutorChat />
+      </div>
+    </main>
+  );
+}

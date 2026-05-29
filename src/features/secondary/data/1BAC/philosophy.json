@@ -1,0 +1,1290 @@
+[
+  {
+    "lessonId": "1BAC_philosophy_01_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "person",
+    "title": "الفلسفة — person — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور person",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_person_understanding",
+      "philosophy_person_problem_solving",
+      "philosophy_person_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_01_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "person",
+    "title": "الفلسفة — person — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور person",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_person_understanding",
+      "philosophy_person_problem_solving",
+      "philosophy_person_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_01_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "person",
+    "title": "الفلسفة — person — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور person",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_person_understanding",
+      "philosophy_person_problem_solving",
+      "philosophy_person_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_01_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "person",
+    "title": "الفلسفة — person — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور person",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_person_understanding",
+      "philosophy_person_problem_solving",
+      "philosophy_person_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_02_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "other",
+    "title": "الفلسفة — other — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور other",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_other_understanding",
+      "philosophy_other_problem_solving",
+      "philosophy_other_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_02_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "other",
+    "title": "الفلسفة — other — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور other",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_other_understanding",
+      "philosophy_other_problem_solving",
+      "philosophy_other_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_02_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "other",
+    "title": "الفلسفة — other — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور other",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_other_understanding",
+      "philosophy_other_problem_solving",
+      "philosophy_other_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_02_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "other",
+    "title": "الفلسفة — other — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور other",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_other_understanding",
+      "philosophy_other_problem_solving",
+      "philosophy_other_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_03_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "truth",
+    "title": "الفلسفة — truth — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور truth",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_truth_understanding",
+      "philosophy_truth_problem_solving",
+      "philosophy_truth_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_03_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "truth",
+    "title": "الفلسفة — truth — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور truth",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_truth_understanding",
+      "philosophy_truth_problem_solving",
+      "philosophy_truth_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_03_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "truth",
+    "title": "الفلسفة — truth — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور truth",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_truth_understanding",
+      "philosophy_truth_problem_solving",
+      "philosophy_truth_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_03_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "truth",
+    "title": "الفلسفة — truth — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور truth",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_truth_understanding",
+      "philosophy_truth_problem_solving",
+      "philosophy_truth_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_04_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "freedom",
+    "title": "الفلسفة — freedom — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور freedom",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_freedom_understanding",
+      "philosophy_freedom_problem_solving",
+      "philosophy_freedom_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_04_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "freedom",
+    "title": "الفلسفة — freedom — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور freedom",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_freedom_understanding",
+      "philosophy_freedom_problem_solving",
+      "philosophy_freedom_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_04_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "freedom",
+    "title": "الفلسفة — freedom — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور freedom",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_freedom_understanding",
+      "philosophy_freedom_problem_solving",
+      "philosophy_freedom_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_04_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "freedom",
+    "title": "الفلسفة — freedom — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور freedom",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_freedom_understanding",
+      "philosophy_freedom_problem_solving",
+      "philosophy_freedom_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_05_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "justice",
+    "title": "الفلسفة — justice — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور justice",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_justice_understanding",
+      "philosophy_justice_problem_solving",
+      "philosophy_justice_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_05_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "justice",
+    "title": "الفلسفة — justice — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور justice",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_justice_understanding",
+      "philosophy_justice_problem_solving",
+      "philosophy_justice_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_05_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "justice",
+    "title": "الفلسفة — justice — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور justice",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_justice_understanding",
+      "philosophy_justice_problem_solving",
+      "philosophy_justice_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_05_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "justice",
+    "title": "الفلسفة — justice — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور justice",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_justice_understanding",
+      "philosophy_justice_problem_solving",
+      "philosophy_justice_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_06_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "state",
+    "title": "الفلسفة — state — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور state",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_state_understanding",
+      "philosophy_state_problem_solving",
+      "philosophy_state_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_06_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "state",
+    "title": "الفلسفة — state — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور state",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_state_understanding",
+      "philosophy_state_problem_solving",
+      "philosophy_state_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_06_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "state",
+    "title": "الفلسفة — state — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور state",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_state_understanding",
+      "philosophy_state_problem_solving",
+      "philosophy_state_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_06_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "state",
+    "title": "الفلسفة — state — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور state",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_state_understanding",
+      "philosophy_state_problem_solving",
+      "philosophy_state_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_07_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "ethics",
+    "title": "الفلسفة — ethics — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_ethics_understanding",
+      "philosophy_ethics_problem_solving",
+      "philosophy_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_07_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "ethics",
+    "title": "الفلسفة — ethics — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_ethics_understanding",
+      "philosophy_ethics_problem_solving",
+      "philosophy_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_07_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "ethics",
+    "title": "الفلسفة — ethics — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_ethics_understanding",
+      "philosophy_ethics_problem_solving",
+      "philosophy_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_philosophy_07_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "philosophy",
+    "subjectLabelAr": "الفلسفة",
+    "unit": "ethics",
+    "title": "الفلسفة — ethics — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "philosophy_ethics_understanding",
+      "philosophy_ethics_problem_solving",
+      "philosophy_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

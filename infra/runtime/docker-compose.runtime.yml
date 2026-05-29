@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: oqul-runtime-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 2s
+      retries: 10
+
+  redis-exporter:
+    image: oliver006/redis_exporter:v1.67.0
+    container_name: oqul-runtime-redis-exporter
+    environment:
+      REDIS_ADDR: redis://redis:6379
+    ports:
+      - "9121:9121"
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: oqul-runtime-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      - redis-exporter
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    container_name: oqul-runtime-grafana
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus
+
+  queue-worker-a:
+    image: node:20-alpine
+    container_name: oqul-runtime-worker-a
+    working_dir: /app
+    command: ["sh", "-c", "npm run outbox:worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  queue-worker-b:
+    image: node:20-alpine
+    container_name: oqul-runtime-worker-b
+    working_dir: /app
+    command: ["sh", "-c", "npm run outbox:worker"]
+    depends_on:
+      redis:
+        condition: service_healthy

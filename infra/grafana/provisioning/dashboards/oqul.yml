@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: OQUL Runtime
+    orgId: 1
+    folder: OQUL
+    type: file
+    disableDeletion: true
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards

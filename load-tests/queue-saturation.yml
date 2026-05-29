@@ -1,0 +1,13 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 90
+      arrivalRate: 50
+
+scenarios:
+  - name: "Queue saturation pressure"
+    flow:
+      - post:
+          url: "/api/ai/leila"
+          json:
+            message: "اختبار ضغط queue"

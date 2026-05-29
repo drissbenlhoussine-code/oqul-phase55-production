@@ -1,0 +1,21 @@
+{
+  "primarySource": {
+    "name": "TelmidTICE",
+    "url": "https://telmidtice.men.gov.ma/",
+    "role": "source_of_truth_for_curriculum_map",
+    "notes": "Use for level/subject/unit/lesson mapping. Do not copy lesson text."
+  },
+  "crossCheckSources": [
+    {
+      "name": "Moutamadris",
+      "url": "https://moutamadris.ma/cours/",
+      "role": "cross_check_level_subject_order"
+    },
+    {
+      "name": "AlloSchool",
+      "url": "https://www.alloschool.com/",
+      "role": "cross_check_program_structure"
+    }
+  ],
+  "copyrightRule": "Extract lesson titles/order only. Generate original Oqul explanations, examples and exercises."
+}

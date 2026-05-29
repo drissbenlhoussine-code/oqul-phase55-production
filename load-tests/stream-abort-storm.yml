@@ -1,0 +1,13 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 45
+      arrivalRate: 20
+
+scenarios:
+  - name: "Stream abort storm"
+    flow:
+      - post:
+          url: "/api/ai/leila"
+          json:
+            message: "اختبار stream طويل"

@@ -1,0 +1,1106 @@
+[
+  {
+    "lessonId": "2BAC_arabic_01_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "texts",
+    "title": "اللغة العربية — texts — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور texts",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_texts_understanding",
+      "arabic_texts_problem_solving",
+      "arabic_texts_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_01_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "texts",
+    "title": "اللغة العربية — texts — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور texts",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_texts_understanding",
+      "arabic_texts_problem_solving",
+      "arabic_texts_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_01_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "texts",
+    "title": "اللغة العربية — texts — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور texts",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_texts_understanding",
+      "arabic_texts_problem_solving",
+      "arabic_texts_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_01_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "texts",
+    "title": "اللغة العربية — texts — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور texts",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_texts_understanding",
+      "arabic_texts_problem_solving",
+      "arabic_texts_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_02_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "grammar",
+    "title": "اللغة العربية — grammar — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_grammar_understanding",
+      "arabic_grammar_problem_solving",
+      "arabic_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_02_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "grammar",
+    "title": "اللغة العربية — grammar — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_grammar_understanding",
+      "arabic_grammar_problem_solving",
+      "arabic_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_02_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "grammar",
+    "title": "اللغة العربية — grammar — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_grammar_understanding",
+      "arabic_grammar_problem_solving",
+      "arabic_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_02_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "grammar",
+    "title": "اللغة العربية — grammar — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور grammar",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_grammar_understanding",
+      "arabic_grammar_problem_solving",
+      "arabic_grammar_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_03_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "بلاغة",
+    "title": "اللغة العربية — بلاغة — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور بلاغة",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_بلاغة_understanding",
+      "arabic_بلاغة_problem_solving",
+      "arabic_بلاغة_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_03_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "بلاغة",
+    "title": "اللغة العربية — بلاغة — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور بلاغة",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_بلاغة_understanding",
+      "arabic_بلاغة_problem_solving",
+      "arabic_بلاغة_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_03_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "بلاغة",
+    "title": "اللغة العربية — بلاغة — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور بلاغة",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_بلاغة_understanding",
+      "arabic_بلاغة_problem_solving",
+      "arabic_بلاغة_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_03_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "بلاغة",
+    "title": "اللغة العربية — بلاغة — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور بلاغة",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_بلاغة_understanding",
+      "arabic_بلاغة_problem_solving",
+      "arabic_بلاغة_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_04_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "composition",
+    "title": "اللغة العربية — composition — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور composition",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_composition_understanding",
+      "arabic_composition_problem_solving",
+      "arabic_composition_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_04_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "composition",
+    "title": "اللغة العربية — composition — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور composition",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_composition_understanding",
+      "arabic_composition_problem_solving",
+      "arabic_composition_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_04_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "composition",
+    "title": "اللغة العربية — composition — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور composition",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_composition_understanding",
+      "arabic_composition_problem_solving",
+      "arabic_composition_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_04_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "composition",
+    "title": "اللغة العربية — composition — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور composition",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_composition_understanding",
+      "arabic_composition_problem_solving",
+      "arabic_composition_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_05_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "literature",
+    "title": "اللغة العربية — literature — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور literature",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_literature_understanding",
+      "arabic_literature_problem_solving",
+      "arabic_literature_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_05_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "literature",
+    "title": "اللغة العربية — literature — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور literature",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_literature_understanding",
+      "arabic_literature_problem_solving",
+      "arabic_literature_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_05_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "literature",
+    "title": "اللغة العربية — literature — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور literature",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_literature_understanding",
+      "arabic_literature_problem_solving",
+      "arabic_literature_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_05_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "literature",
+    "title": "اللغة العربية — literature — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور literature",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_literature_understanding",
+      "arabic_literature_problem_solving",
+      "arabic_literature_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_06_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "critical_reading",
+    "title": "اللغة العربية — critical reading — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور critical reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_critical_reading_understanding",
+      "arabic_critical_reading_problem_solving",
+      "arabic_critical_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_06_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "critical_reading",
+    "title": "اللغة العربية — critical reading — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور critical reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_critical_reading_understanding",
+      "arabic_critical_reading_problem_solving",
+      "arabic_critical_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_06_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "critical_reading",
+    "title": "اللغة العربية — critical reading — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور critical reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_critical_reading_understanding",
+      "arabic_critical_reading_problem_solving",
+      "arabic_critical_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_arabic_06_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "arabic",
+    "subjectLabelAr": "اللغة العربية",
+    "unit": "critical_reading",
+    "title": "اللغة العربية — critical reading — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور critical reading",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "arabic_critical_reading_understanding",
+      "arabic_critical_reading_problem_solving",
+      "arabic_critical_reading_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

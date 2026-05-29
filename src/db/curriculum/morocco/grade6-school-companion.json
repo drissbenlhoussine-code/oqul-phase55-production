@@ -1,0 +1,1229 @@
+{
+  "country": "Morocco",
+  "curriculum": "Moroccan Primary School Companion",
+  "grade": 6,
+  "purpose": "تحضير الطفل قبل الذهاب إلى المدرسة ومراجعته بعد العودة، وفق بنية المواد والوحدات المعتمدة في التعليم الابتدائي المغربي.",
+  "alignmentLevel": "professional-aligned-draft-requires-teacher-review",
+  "subjects": {
+    "arabic": "اللغة العربية",
+    "math": "الرياضيات",
+    "french": "اللغة الفرنسية",
+    "islamic": "التربية الإسلامية",
+    "science": "النشاط العلمي",
+    "social": "الاجتماعيات",
+    "art": "التربية الفنية"
+  },
+  "semesters": [
+    {
+      "id": "g6-s1",
+      "title": "الأسدوس الأول",
+      "units": [
+        {
+          "id": "g6-s1-u1",
+          "title": "الانطلاق نحو الشهادة",
+          "focus": "تشخيص ودعم المكتسبات",
+          "weeks": "1-5",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u1-01",
+                "title": "تشخيص القراءة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u1-02",
+                "title": "الوضعية الإدماجية",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u1-review",
+                "title": "مراجعة وحدة 1: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u1-01",
+                "title": "تشخيص مكتسبات الرياضيات",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u1-02",
+                "title": "الإحصاء",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u1-review",
+                "title": "مراجعة وحدة 1: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u1-01",
+                "title": "Compréhension écrite",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u1-02",
+                "title": "Préparation examen",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u1-review",
+                "title": "مراجعة وحدة 1: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u1-01",
+                "title": "التلاوة والفهم",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u1-01",
+                "title": "جسم الإنسان والصحة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u1-01",
+                "title": "تاريخ المغرب",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": [
+              {
+                "id": "g6-ar-u1-01",
+                "title": "مشروع فني",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g6-s1-u2",
+          "title": "تقوية الأساسيات",
+          "focus": "لغات، رياضيات، علوم، اجتماعيات",
+          "weeks": "6-10",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u2-01",
+                "title": "النصوص الوظيفية",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u2-02",
+                "title": "منهجية الامتحان",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u2-review",
+                "title": "مراجعة وحدة 2: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u2-01",
+                "title": "الأعداد والعمليات",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u2-02",
+                "title": "الوضعيات المشكلة",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u2-review",
+                "title": "مراجعة وحدة 2: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u2-01",
+                "title": "Production écrite",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u2-02",
+                "title": "Évaluation finale",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u2-review",
+                "title": "مراجعة وحدة 2: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u2-01",
+                "title": "العبادات",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u2-01",
+                "title": "الطاقة والكهرباء",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u2-01",
+                "title": "الجغرافيا العامة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": [
+              {
+                "id": "g6-ar-u2-01",
+                "title": "مسرح وتواصل",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g6-s1-u3",
+          "title": "التدريب على الوضعيات",
+          "focus": "وضعيات إدماجية وتمارين مركبة",
+          "weeks": "11-15",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u3-01",
+                "title": "النص الحجاجي",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u3-02",
+                "title": "اختبارات تجريبية",
+                "lessonType": "assessment",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u3-review",
+                "title": "مراجعة وحدة 3: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u3-01",
+                "title": "الكسور والعشريات",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u3-02",
+                "title": "امتحان تجريبي",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u3-review",
+                "title": "مراجعة وحدة 3: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u3-01",
+                "title": "Grammaire",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u3-review",
+                "title": "مراجعة وحدة 3: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u3-01",
+                "title": "السيرة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u3-01",
+                "title": "المادة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u3-01",
+                "title": "المواطنة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": [
+              {
+                "id": "g6-ar-u3-01",
+                "title": "نشيد",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "g6-s2",
+      "title": "الأسدوس الثاني",
+      "units": [
+        {
+          "id": "g6-s2-u4",
+          "title": "الاستعداد للموحد المحلي",
+          "focus": "منهجية الإجابة والمراجعة",
+          "weeks": "16-20",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u4-01",
+                "title": "التراكيب والصرف",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u4-02",
+                "title": "مراجعة نهائية",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u4-review",
+                "title": "مراجعة وحدة 4: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u4-01",
+                "title": "التناسبية",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u4-02",
+                "title": "مراجعة نهائية",
+                "lessonType": "practice",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u4-review",
+                "title": "مراجعة وحدة 4: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u4-01",
+                "title": "Conjugaison",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u4-review",
+                "title": "مراجعة وحدة 4: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u4-01",
+                "title": "الأخلاق",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u4-01",
+                "title": "البيئة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u4-01",
+                "title": "تحليل وثيقة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": [
+              {
+                "id": "g6-ar-u4-01",
+                "title": "تصميم عرض",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g6-s2-u5",
+          "title": "التثبيت والامتحانات التجريبية",
+          "focus": "محاكاة فروض واختبارات",
+          "weeks": "21-25",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u5-01",
+                "title": "الإملاء",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u5-review",
+                "title": "مراجعة وحدة 5: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u5-01",
+                "title": "الهندسة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u5-review",
+                "title": "مراجعة وحدة 5: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u5-01",
+                "title": "Lexique",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u5-review",
+                "title": "مراجعة وحدة 5: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u5-01",
+                "title": "المراجعة للموحد",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u5-01",
+                "title": "الأرض والفضاء مبسط",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u5-01",
+                "title": "منهجية الإجابة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": [
+              {
+                "id": "g6-ar-u5-01",
+                "title": "مراجعة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g6-s2-u6",
+          "title": "الانتقال للإعدادي",
+          "focus": "مراجعة شاملة ومهارات تنظيم التعلم",
+          "weeks": "26-30",
+          "subjects": {
+            "arabic": [
+              {
+                "id": "g6-ar-u6-01",
+                "title": "التعبير الكتابي",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ar-u6-review",
+                "title": "مراجعة وحدة 6: اللغة العربية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "math": [
+              {
+                "id": "g6-ma-u6-01",
+                "title": "القياس",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-ma-u6-review",
+                "title": "مراجعة وحدة 6: الرياضيات",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "french": [
+              {
+                "id": "g6-fr-u6-01",
+                "title": "Communication",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              },
+              {
+                "id": "g6-fr-u6-review",
+                "title": "مراجعة وحدة 6: اللغة الفرنسية",
+                "lessonType": "review",
+                "schoolUse": "weekly-revision",
+                "leilaBlocks": [
+                  "summary",
+                  "practice",
+                  "miniQuiz",
+                  "parentNote"
+                ],
+                "estimatedMinutes": 20,
+                "status": "aligned-draft"
+              }
+            ],
+            "islamic": [
+              {
+                "id": "g6-is-u6-01",
+                "title": "اختبار تجريبي",
+                "lessonType": "assessment",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "science": [
+              {
+                "id": "g6-sc-u6-01",
+                "title": "تجارب ومراجعة",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "social": [
+              {
+                "id": "g6-so-u6-01",
+                "title": "مراجعة للموحد",
+                "lessonType": "preparation",
+                "schoolUse": "prepare-before-school-and-revise-after",
+                "leilaBlocks": [
+                  "explanation",
+                  "example",
+                  "guidedPractice",
+                  "correction",
+                  "miniQuiz",
+                  "reviewPrompt"
+                ],
+                "estimatedMinutes": 18,
+                "status": "aligned-draft"
+              }
+            ],
+            "art": []
+          }
+        }
+      ]
+    }
+  ]
+}

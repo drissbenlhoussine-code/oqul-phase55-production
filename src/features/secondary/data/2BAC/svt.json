@@ -1,0 +1,1474 @@
+[
+  {
+    "lessonId": "2BAC_svt_01_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "cell_biology",
+    "title": "علوم الحياة والأرض — cell biology — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور cell biology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_cell_biology_understanding",
+      "svt_cell_biology_problem_solving",
+      "svt_cell_biology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_01_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "cell_biology",
+    "title": "علوم الحياة والأرض — cell biology — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور cell biology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_cell_biology_understanding",
+      "svt_cell_biology_problem_solving",
+      "svt_cell_biology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_01_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "cell_biology",
+    "title": "علوم الحياة والأرض — cell biology — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور cell biology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_cell_biology_understanding",
+      "svt_cell_biology_problem_solving",
+      "svt_cell_biology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_01_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "cell_biology",
+    "title": "علوم الحياة والأرض — cell biology — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور cell biology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_cell_biology_understanding",
+      "svt_cell_biology_problem_solving",
+      "svt_cell_biology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_02_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "genetics",
+    "title": "علوم الحياة والأرض — genetics — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور genetics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_genetics_understanding",
+      "svt_genetics_problem_solving",
+      "svt_genetics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_02_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "genetics",
+    "title": "علوم الحياة والأرض — genetics — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور genetics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_genetics_understanding",
+      "svt_genetics_problem_solving",
+      "svt_genetics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_02_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "genetics",
+    "title": "علوم الحياة والأرض — genetics — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور genetics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_genetics_understanding",
+      "svt_genetics_problem_solving",
+      "svt_genetics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_02_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "genetics",
+    "title": "علوم الحياة والأرض — genetics — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور genetics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_genetics_understanding",
+      "svt_genetics_problem_solving",
+      "svt_genetics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_03_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "immunity",
+    "title": "علوم الحياة والأرض — immunity — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور immunity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_immunity_understanding",
+      "svt_immunity_problem_solving",
+      "svt_immunity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_03_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "immunity",
+    "title": "علوم الحياة والأرض — immunity — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور immunity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_immunity_understanding",
+      "svt_immunity_problem_solving",
+      "svt_immunity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_03_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "immunity",
+    "title": "علوم الحياة والأرض — immunity — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور immunity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_immunity_understanding",
+      "svt_immunity_problem_solving",
+      "svt_immunity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_03_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "immunity",
+    "title": "علوم الحياة والأرض — immunity — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور immunity",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_immunity_understanding",
+      "svt_immunity_problem_solving",
+      "svt_immunity_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_04_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "nervous_system",
+    "title": "علوم الحياة والأرض — nervous system — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور nervous system",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_nervous_system_understanding",
+      "svt_nervous_system_problem_solving",
+      "svt_nervous_system_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_04_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "nervous_system",
+    "title": "علوم الحياة والأرض — nervous system — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور nervous system",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_nervous_system_understanding",
+      "svt_nervous_system_problem_solving",
+      "svt_nervous_system_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_04_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "nervous_system",
+    "title": "علوم الحياة والأرض — nervous system — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور nervous system",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_nervous_system_understanding",
+      "svt_nervous_system_problem_solving",
+      "svt_nervous_system_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_04_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "nervous_system",
+    "title": "علوم الحياة والأرض — nervous system — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور nervous system",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_nervous_system_understanding",
+      "svt_nervous_system_problem_solving",
+      "svt_nervous_system_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_05_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "reproduction",
+    "title": "علوم الحياة والأرض — reproduction — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور reproduction",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_reproduction_understanding",
+      "svt_reproduction_problem_solving",
+      "svt_reproduction_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_05_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "reproduction",
+    "title": "علوم الحياة والأرض — reproduction — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور reproduction",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_reproduction_understanding",
+      "svt_reproduction_problem_solving",
+      "svt_reproduction_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_05_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "reproduction",
+    "title": "علوم الحياة والأرض — reproduction — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور reproduction",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_reproduction_understanding",
+      "svt_reproduction_problem_solving",
+      "svt_reproduction_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_05_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "reproduction",
+    "title": "علوم الحياة والأرض — reproduction — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور reproduction",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_reproduction_understanding",
+      "svt_reproduction_problem_solving",
+      "svt_reproduction_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_06_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "geology",
+    "title": "علوم الحياة والأرض — geology — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور geology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_geology_understanding",
+      "svt_geology_problem_solving",
+      "svt_geology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_06_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "geology",
+    "title": "علوم الحياة والأرض — geology — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور geology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_geology_understanding",
+      "svt_geology_problem_solving",
+      "svt_geology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_06_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "geology",
+    "title": "علوم الحياة والأرض — geology — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور geology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_geology_understanding",
+      "svt_geology_problem_solving",
+      "svt_geology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_06_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "geology",
+    "title": "علوم الحياة والأرض — geology — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور geology",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_geology_understanding",
+      "svt_geology_problem_solving",
+      "svt_geology_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_07_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "ecosystems",
+    "title": "علوم الحياة والأرض — ecosystems — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور ecosystems",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_ecosystems_understanding",
+      "svt_ecosystems_problem_solving",
+      "svt_ecosystems_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_07_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "ecosystems",
+    "title": "علوم الحياة والأرض — ecosystems — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور ecosystems",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_ecosystems_understanding",
+      "svt_ecosystems_problem_solving",
+      "svt_ecosystems_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_07_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "ecosystems",
+    "title": "علوم الحياة والأرض — ecosystems — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور ecosystems",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_ecosystems_understanding",
+      "svt_ecosystems_problem_solving",
+      "svt_ecosystems_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_07_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "ecosystems",
+    "title": "علوم الحياة والأرض — ecosystems — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور ecosystems",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_ecosystems_understanding",
+      "svt_ecosystems_problem_solving",
+      "svt_ecosystems_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_08_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "environment",
+    "title": "علوم الحياة والأرض — environment — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور environment",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_environment_understanding",
+      "svt_environment_problem_solving",
+      "svt_environment_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_08_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "environment",
+    "title": "علوم الحياة والأرض — environment — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور environment",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_environment_understanding",
+      "svt_environment_problem_solving",
+      "svt_environment_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_08_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "environment",
+    "title": "علوم الحياة والأرض — environment — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور environment",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_environment_understanding",
+      "svt_environment_problem_solving",
+      "svt_environment_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_svt_08_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "svt",
+    "subjectLabelAr": "علوم الحياة والأرض",
+    "unit": "environment",
+    "title": "علوم الحياة والأرض — environment — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور environment",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "svt_environment_understanding",
+      "svt_environment_problem_solving",
+      "svt_environment_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

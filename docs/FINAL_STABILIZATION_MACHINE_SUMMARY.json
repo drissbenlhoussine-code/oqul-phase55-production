@@ -1,0 +1,11 @@
+{
+  "stray_top_dirs_remaining": [],
+  "package_next": "15.1.4",
+  "lock_next": "15.1.4",
+  "leila_backticks_even": true,
+  "schema_has_decimal_import": true,
+  "dashboard_routes": [
+    "src/app/(dashboard)/dashboard/page.tsx"
+  ],
+  "phase29_inside_project": true
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "lessonId": "1BAC_islamic_education_01_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "quran_hadith",
+    "title": "التربية الإسلامية — quran hadith — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور quran hadith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_quran_hadith_understanding",
+      "islamic_education_quran_hadith_problem_solving",
+      "islamic_education_quran_hadith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_01_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "quran_hadith",
+    "title": "التربية الإسلامية — quran hadith — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور quran hadith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_quran_hadith_understanding",
+      "islamic_education_quran_hadith_problem_solving",
+      "islamic_education_quran_hadith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_01_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "quran_hadith",
+    "title": "التربية الإسلامية — quran hadith — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور quran hadith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_quran_hadith_understanding",
+      "islamic_education_quran_hadith_problem_solving",
+      "islamic_education_quran_hadith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_01_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "quran_hadith",
+    "title": "التربية الإسلامية — quran hadith — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور quran hadith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_quran_hadith_understanding",
+      "islamic_education_quran_hadith_problem_solving",
+      "islamic_education_quran_hadith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_02_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "faith",
+    "title": "التربية الإسلامية — faith — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور faith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_faith_understanding",
+      "islamic_education_faith_problem_solving",
+      "islamic_education_faith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_02_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "faith",
+    "title": "التربية الإسلامية — faith — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور faith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_faith_understanding",
+      "islamic_education_faith_problem_solving",
+      "islamic_education_faith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_02_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "faith",
+    "title": "التربية الإسلامية — faith — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور faith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_faith_understanding",
+      "islamic_education_faith_problem_solving",
+      "islamic_education_faith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_02_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "faith",
+    "title": "التربية الإسلامية — faith — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور faith",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_faith_understanding",
+      "islamic_education_faith_problem_solving",
+      "islamic_education_faith_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_03_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "worship",
+    "title": "التربية الإسلامية — worship — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور worship",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_worship_understanding",
+      "islamic_education_worship_problem_solving",
+      "islamic_education_worship_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_03_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "worship",
+    "title": "التربية الإسلامية — worship — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور worship",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_worship_understanding",
+      "islamic_education_worship_problem_solving",
+      "islamic_education_worship_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_03_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "worship",
+    "title": "التربية الإسلامية — worship — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور worship",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_worship_understanding",
+      "islamic_education_worship_problem_solving",
+      "islamic_education_worship_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_03_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "worship",
+    "title": "التربية الإسلامية — worship — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور worship",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_worship_understanding",
+      "islamic_education_worship_problem_solving",
+      "islamic_education_worship_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_04_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "ethics",
+    "title": "التربية الإسلامية — ethics — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_ethics_understanding",
+      "islamic_education_ethics_problem_solving",
+      "islamic_education_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_04_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "ethics",
+    "title": "التربية الإسلامية — ethics — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_ethics_understanding",
+      "islamic_education_ethics_problem_solving",
+      "islamic_education_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_04_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "ethics",
+    "title": "التربية الإسلامية — ethics — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_ethics_understanding",
+      "islamic_education_ethics_problem_solving",
+      "islamic_education_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_04_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "ethics",
+    "title": "التربية الإسلامية — ethics — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور ethics",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_ethics_understanding",
+      "islamic_education_ethics_problem_solving",
+      "islamic_education_ethics_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_05_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "family",
+    "title": "التربية الإسلامية — family — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور family",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_family_understanding",
+      "islamic_education_family_problem_solving",
+      "islamic_education_family_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_05_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "family",
+    "title": "التربية الإسلامية — family — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور family",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_family_understanding",
+      "islamic_education_family_problem_solving",
+      "islamic_education_family_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_05_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "family",
+    "title": "التربية الإسلامية — family — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور family",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_family_understanding",
+      "islamic_education_family_problem_solving",
+      "islamic_education_family_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_05_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "family",
+    "title": "التربية الإسلامية — family — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور family",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_family_understanding",
+      "islamic_education_family_problem_solving",
+      "islamic_education_family_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_06_1",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "society",
+    "title": "التربية الإسلامية — society — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور society",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_society_understanding",
+      "islamic_education_society_problem_solving",
+      "islamic_education_society_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_06_2",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "society",
+    "title": "التربية الإسلامية — society — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور society",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_society_understanding",
+      "islamic_education_society_problem_solving",
+      "islamic_education_society_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_06_3",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "society",
+    "title": "التربية الإسلامية — society — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور society",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_society_understanding",
+      "islamic_education_society_problem_solving",
+      "islamic_education_society_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "1BAC_islamic_education_06_4",
+    "grade": "1BAC",
+    "gradeLabelAr": "الأولى باكالوريا",
+    "subject": "islamic_education",
+    "subjectLabelAr": "التربية الإسلامية",
+    "unit": "society",
+    "title": "التربية الإسلامية — society — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور society",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "islamic_education_society_understanding",
+      "islamic_education_society_problem_solving",
+      "islamic_education_society_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]

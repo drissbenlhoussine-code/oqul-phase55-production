@@ -1,0 +1,43 @@
+{
+  "title": "OQUL Failover & Consistency",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Redis Up",
+      "targets": [
+        {
+          "expr": "up{job='redis'}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Commands/sec",
+      "targets": [
+        {
+          "expr": "rate(redis_commands_processed_total[1m])"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Connected Clients",
+      "targets": [
+        {
+          "expr": "redis_connected_clients"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Memory",
+      "targets": [
+        {
+          "expr": "redis_memory_used_bytes"
+        }
+      ]
+    }
+  ]
+}

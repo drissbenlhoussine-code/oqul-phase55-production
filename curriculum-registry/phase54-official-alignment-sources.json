@@ -1,0 +1,22 @@
+{
+  "phase": "Phase54",
+  "primaryReference": {
+    "name": "TelmidTICE",
+    "url": "https://telmidtice.men.gov.ma/"
+  },
+  "crossCheckReferences": [
+    {
+      "name": "Moutamadris",
+      "url": "https://moutamadris.ma/cours/"
+    },
+    {
+      "name": "AlloSchool",
+      "url": "https://www.alloschool.com/"
+    }
+  ],
+  "policy": [
+    "Use sources for mapping/order only.",
+    "Do not copy explanations.",
+    "Oqul content remains original."
+  ]
+}

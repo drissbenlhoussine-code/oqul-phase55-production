@@ -1,0 +1,10 @@
+src/server/middle-school/types.ts
+src/server/middle-school/curriculum.ts
+src/server/middle-school/language-policy.ts
+src/server/middle-school/lesson-engine.ts
+src/server/middle-school/phase42-engine.ts
+src/features/middle-school/middle-school-intelligence-card.tsx
+src/app/api/learning/phase42/route.ts
+src/app/(dashboard)/dashboard/middle-school/page.tsx
+docs/PHASE42_MIDDLE_SCHOOL_INTELLIGENCE.md
+PHASE42_RELEASE_REPORT.md

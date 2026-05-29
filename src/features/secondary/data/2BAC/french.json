@@ -1,0 +1,1290 @@
+[
+  {
+    "lessonId": "2BAC_french_01_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "lecture",
+    "title": "اللغة الفرنسية — lecture — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور lecture",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_lecture_understanding",
+      "french_lecture_problem_solving",
+      "french_lecture_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_01_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "lecture",
+    "title": "اللغة الفرنسية — lecture — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور lecture",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_lecture_understanding",
+      "french_lecture_problem_solving",
+      "french_lecture_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_01_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "lecture",
+    "title": "اللغة الفرنسية — lecture — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور lecture",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_lecture_understanding",
+      "french_lecture_problem_solving",
+      "french_lecture_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_01_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "lecture",
+    "title": "اللغة الفرنسية — lecture — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور lecture",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_lecture_understanding",
+      "french_lecture_problem_solving",
+      "french_lecture_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_02_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "grammaire",
+    "title": "اللغة الفرنسية — grammaire — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور grammaire",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_grammaire_understanding",
+      "french_grammaire_problem_solving",
+      "french_grammaire_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_02_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "grammaire",
+    "title": "اللغة الفرنسية — grammaire — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور grammaire",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_grammaire_understanding",
+      "french_grammaire_problem_solving",
+      "french_grammaire_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_02_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "grammaire",
+    "title": "اللغة الفرنسية — grammaire — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور grammaire",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_grammaire_understanding",
+      "french_grammaire_problem_solving",
+      "french_grammaire_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_02_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "grammaire",
+    "title": "اللغة الفرنسية — grammaire — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور grammaire",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_grammaire_understanding",
+      "french_grammaire_problem_solving",
+      "french_grammaire_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_03_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "conjugaison",
+    "title": "اللغة الفرنسية — conjugaison — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور conjugaison",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_conjugaison_understanding",
+      "french_conjugaison_problem_solving",
+      "french_conjugaison_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_03_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "conjugaison",
+    "title": "اللغة الفرنسية — conjugaison — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور conjugaison",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_conjugaison_understanding",
+      "french_conjugaison_problem_solving",
+      "french_conjugaison_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_03_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "conjugaison",
+    "title": "اللغة الفرنسية — conjugaison — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور conjugaison",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_conjugaison_understanding",
+      "french_conjugaison_problem_solving",
+      "french_conjugaison_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_03_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "conjugaison",
+    "title": "اللغة الفرنسية — conjugaison — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور conjugaison",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_conjugaison_understanding",
+      "french_conjugaison_problem_solving",
+      "french_conjugaison_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_04_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "production_ecrite",
+    "title": "اللغة الفرنسية — production ecrite — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور production ecrite",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_production_ecrite_understanding",
+      "french_production_ecrite_problem_solving",
+      "french_production_ecrite_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_04_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "production_ecrite",
+    "title": "اللغة الفرنسية — production ecrite — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور production ecrite",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_production_ecrite_understanding",
+      "french_production_ecrite_problem_solving",
+      "french_production_ecrite_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_04_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "production_ecrite",
+    "title": "اللغة الفرنسية — production ecrite — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور production ecrite",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_production_ecrite_understanding",
+      "french_production_ecrite_problem_solving",
+      "french_production_ecrite_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_04_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "production_ecrite",
+    "title": "اللغة الفرنسية — production ecrite — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور production ecrite",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_production_ecrite_understanding",
+      "french_production_ecrite_problem_solving",
+      "french_production_ecrite_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_05_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "argumentation",
+    "title": "اللغة الفرنسية — argumentation — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور argumentation",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_argumentation_understanding",
+      "french_argumentation_problem_solving",
+      "french_argumentation_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_05_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "argumentation",
+    "title": "اللغة الفرنسية — argumentation — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور argumentation",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_argumentation_understanding",
+      "french_argumentation_problem_solving",
+      "french_argumentation_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_05_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "argumentation",
+    "title": "اللغة الفرنسية — argumentation — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور argumentation",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_argumentation_understanding",
+      "french_argumentation_problem_solving",
+      "french_argumentation_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_05_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "argumentation",
+    "title": "اللغة الفرنسية — argumentation — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور argumentation",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_argumentation_understanding",
+      "french_argumentation_problem_solving",
+      "french_argumentation_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_06_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "theatre",
+    "title": "اللغة الفرنسية — theatre — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور theatre",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_theatre_understanding",
+      "french_theatre_problem_solving",
+      "french_theatre_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_06_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "theatre",
+    "title": "اللغة الفرنسية — theatre — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور theatre",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_theatre_understanding",
+      "french_theatre_problem_solving",
+      "french_theatre_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_06_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "theatre",
+    "title": "اللغة الفرنسية — theatre — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور theatre",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_theatre_understanding",
+      "french_theatre_problem_solving",
+      "french_theatre_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_06_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "theatre",
+    "title": "اللغة الفرنسية — theatre — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور theatre",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_theatre_understanding",
+      "french_theatre_problem_solving",
+      "french_theatre_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_07_1",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "roman",
+    "title": "اللغة الفرنسية — roman — درس 1",
+    "lessonType": "concept",
+    "objectives": [
+      "فهم محور roman",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_roman_understanding",
+      "french_roman_problem_solving",
+      "french_roman_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_07_2",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "roman",
+    "title": "اللغة الفرنسية — roman — درس 2",
+    "lessonType": "worked_example",
+    "objectives": [
+      "فهم محور roman",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_roman_understanding",
+      "french_roman_problem_solving",
+      "french_roman_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_07_3",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "roman",
+    "title": "اللغة الفرنسية — roman — درس 3",
+    "lessonType": "guided_practice",
+    "objectives": [
+      "فهم محور roman",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_roman_understanding",
+      "french_roman_problem_solving",
+      "french_roman_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  },
+  {
+    "lessonId": "2BAC_french_07_4",
+    "grade": "2BAC",
+    "gradeLabelAr": "الثانية باكالوريا",
+    "subject": "french",
+    "subjectLabelAr": "اللغة الفرنسية",
+    "unit": "roman",
+    "title": "اللغة الفرنسية — roman — درس 4",
+    "lessonType": "exam_application",
+    "objectives": [
+      "فهم محور roman",
+      "تطبيق المفهوم في وضعيات مختلفة",
+      "حل تمارين تدريجية",
+      "الاستعداد للفروض والامتحانات"
+    ],
+    "competencies": [
+      "french_roman_understanding",
+      "french_roman_problem_solving",
+      "french_roman_exam_readiness"
+    ],
+    "prerequisites": [
+      "مراجعة المكتسبات السابقة",
+      "فهم المصطلحات الأساسية"
+    ],
+    "misconceptions": [
+      "خلط في المفهوم أو القانون",
+      "استعمال قاعدة صحيحة في سياق غير مناسب",
+      "القفز إلى النتيجة دون تبرير"
+    ],
+    "assessment": {
+      "quickCheck": 3,
+      "guidedExercises": 5,
+      "examStyleQuestions": 2,
+      "masteryThreshold": 80
+    },
+    "leilaMode": {
+      "defaultLanguage": "formal_arabic",
+      "canSwitchTo": [
+        "darija",
+        "french",
+        "english"
+      ],
+      "teachingStyle": "socratic_step_by_step",
+      "tone": "serious_motivating"
+    }
+  }
+]
