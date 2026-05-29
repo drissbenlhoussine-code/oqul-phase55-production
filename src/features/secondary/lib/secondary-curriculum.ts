@@ -9,11 +9,34 @@ export type SecondaryLesson = {
   subjectLabelAr: string;
   unit: string;
   title: string;
+  description?: string;
   lessonType: string;
   objectives: string[];
   competencies: string[];
   prerequisites: string[];
   misconceptions: string[];
+  content?: {
+    explanation: string;
+    definitions?: { term: string; definition: string }[];
+    stepByStepExample?: {
+      prompt: string;
+      steps: string[];
+      answer: string;
+    };
+    vocabulary?: { word: string; definition: string }[];
+    examples?: { text: string; note?: string }[];
+    exercises?: {
+      level: "easy" | "medium" | "hard";
+      question: string;
+      hint: string;
+      answer: string;
+    }[];
+    commonMistakes?: { mistake: string; correction: string }[];
+    hints?: string[];
+    correctionMethod?: string[];
+    summary?: string;
+    leilaInstructions?: string[];
+  };
   assessment: {
     quickCheck: number;
     guidedExercises: number;
@@ -25,6 +48,7 @@ export type SecondaryLesson = {
     canSwitchTo: string[];
     teachingStyle: string;
     tone: string;
+    instructions?: string[];
   };
 };
 
