@@ -27,6 +27,9 @@ export async function POST(request: NextRequest) {
     if (session.role !== "admin") {
       throw new AppError("Ù„ÙŠØ³ Ù„Ø¯ÙŠÙƒ ØµÙ„Ø§Ø­ÙŠØ© Ù„Ù„ÙˆØµÙˆÙ„", "FORBIDDEN", 403);
     }
+    if (!process.env.GROQ_API_KEY) {
+      throw new AppError("خدمة توليد الدروس غير مفعلة حالياً. يرجى ضبط مفتاح مزود الذكاء الاصطناعي.", "AI_PROVIDER_NOT_CONFIGURED", 503);
+    }
     const body = schema.parse(await request.json());
     const lesson = await generateLesson(body);
     return ok(lesson);

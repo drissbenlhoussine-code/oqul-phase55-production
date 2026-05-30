@@ -35,10 +35,13 @@ export default function AdminPage() {
   const [difficulty, setDifficulty] = useState<"easy"|"medium"|"hard">("easy");
   const [result,     setResult]     = useState<GeneratedContent | null>(null);
   const [loading,    setLoading]    = useState(false);
+  const [error,      setError]      = useState<string | null>(null);
 
   async function generate() {
     if (!topic.trim()) { toast("أدخل موضوع الدرس", "error"); return; }
     setLoading(true);
+    setError(null);
+    setResult(null);
     try {
       const res = await fetch("/api/admin/generate-lesson", {
         method:  "POST",
@@ -49,12 +52,16 @@ export default function AdminPage() {
           difficulty,
         }),
       });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.message);
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data?.success) {
+        throw new Error(data?.message ?? "تعذر توليد الدرس. يرجى المحاولة لاحقاً.");
+      }
       setResult(data.data);
       toast("تم توليد الدرس بنجاح! ✅", "success");
     } catch (e) {
-      toast(e instanceof Error ? e.message : "حدث خطأ", "error");
+      const message = e instanceof Error ? e.message : "تعذر توليد الدرس. يرجى المحاولة لاحقاً.";
+      setError(message);
+      toast(message, "error");
     } finally {
       setLoading(false);
     }
@@ -125,6 +132,13 @@ export default function AdminPage() {
           <Button onClick={generate} className="w-full gap-2" disabled={loading}>
             {loading ? <><Spinner className="w-4 h-4" /> يُولّد الدرس...</> : <><Sparkles className="w-4 h-4" /> ولّد الدرس</>}
           </Button>
+
+          {error && (
+            <div className="flex items-start gap-2 rounded-xl border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+              <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" />
+              <p>{error}</p>
+            </div>
+          )}
         </CardContent>
       </Card>
 
