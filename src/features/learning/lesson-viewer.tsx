@@ -5,14 +5,13 @@ import Link from "next/link";
 import {
   ArrowRight, BookOpen, MessageCircle, CheckCircle,
   ChevronLeft, ChevronRight, Star, Trophy,
-  Clock, RotateCcw, Sparkles, Lock,
+  Clock, RotateCcw, Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Spinner } from "@/components/ui/spinner";
 import { useToast } from "@/components/ui/toast";
-import { getLevelInfo } from "@/lib/gamification-level";
 import { XPCelebration } from "@/features/gamification/xp-celebration";
 import { QuizQuestion } from "./quiz-question";
 
@@ -49,6 +48,161 @@ interface QuizResult {
 }
 
 type Tab = "objectives" | "lesson" | "quiz" | "result";
+
+type LessonChunkKey = "learn" | "explain" | "examples" | "practice" | "summary";
+
+interface LessonChunk {
+  key: LessonChunkKey;
+  title: string;
+  helper: string;
+  content: string[];
+  defaultOpen?: boolean;
+}
+
+const SECTION_MATCHERS: { key: LessonChunkKey; patterns: string[] }[] = [
+  { key: "learn", patterns: ["أهداف التعلم", "ماذا سنتعلم", "what we will learn", "learning objectives", "objectives"] },
+  {
+    key: "explain",
+    patterns: [
+      "مقدمة",
+      "شرح مفصل",
+      "مفاهيم أساسية",
+      "تعريفات دقيقة",
+      "simple explanation",
+      "detailed explanation",
+      "key concepts",
+      "key definitions",
+      "introduction",
+    ],
+  },
+  { key: "examples", patterns: ["أمثلة محلولة", "مثال محلول", "solved examples", "worked examples"] },
+  {
+    key: "practice",
+    patterns: [
+      "تطبيقات وتدريب",
+      "تطبيقات",
+      "تدريب موجه",
+      "أخطاء شائعة",
+      "تعليمات ليلى",
+      "practice with leila",
+      "guided practice",
+      "common mistakes",
+      "leila tutor instructions",
+    ],
+  },
+  { key: "summary", patterns: ["ملخص", "خلاصة", "summary"] },
+];
+
+const CHUNK_META: Record<LessonChunkKey, { title: string; helper: string }> = {
+  learn: { title: "ماذا سنتعلم؟", helper: "نبدأ بصورة واضحة عن هدف الدرس." },
+  explain: { title: "شرح بسيط", helper: "نقرأ الشرح على مراحل قصيرة." },
+  examples: { title: "أمثلة محلولة", helper: "نتبع الخطوات واحدة واحدة." },
+  practice: { title: "نتدرب مع ليلى", helper: "نحاول، نخطئ بأمان، ثم نصحح." },
+  summary: { title: "الخلاصة", helper: "نراجع أهم فكرة قبل التمارين." },
+};
+
+function detectChunkKey(line: string): LessonChunkKey | null {
+  const normalized = line.trim().replace(/^#+\s*/, "").replace(/[：:]\s*$/, "").toLowerCase();
+  if (!normalized) return null;
+  const match = SECTION_MATCHERS.find(({ patterns }) => patterns.some((pattern) => normalized.startsWith(pattern.toLowerCase())));
+  return match?.key ?? null;
+}
+
+function pushChunkText(chunks: Record<LessonChunkKey, string[]>, key: LessonChunkKey, text: string) {
+  const cleaned = text.trim();
+  if (cleaned) chunks[key].push(cleaned);
+}
+
+function buildLessonChunks(lesson: Lesson): LessonChunk[] {
+  const chunks: Record<LessonChunkKey, string[]> = {
+    learn: [],
+    explain: [],
+    examples: [],
+    practice: [],
+    summary: [],
+  };
+
+  if (lesson.objectives.length) {
+    pushChunkText(chunks, "learn", lesson.objectives.map((objective, index) => `${index + 1}. ${objective}`).join("\n"));
+  }
+
+  const explanation = lesson.content?.explanation ?? "";
+  let currentKey: LessonChunkKey = "explain";
+  let buffer: string[] = [];
+  let detectedHeadings = 0;
+
+  const flush = () => {
+    pushChunkText(chunks, currentKey, buffer.join("\n"));
+    buffer = [];
+  };
+
+  for (const rawLine of explanation.split(/\r?\n/)) {
+    const nextKey = detectChunkKey(rawLine);
+    if (nextKey) {
+      flush();
+      currentKey = nextKey;
+      detectedHeadings += 1;
+      buffer.push(rawLine.trim());
+    } else {
+      buffer.push(rawLine);
+    }
+  }
+  flush();
+
+  if (!detectedHeadings && explanation.trim()) {
+    chunks.explain = [explanation.trim()];
+  }
+
+  if (lesson.content?.examples?.length) {
+    pushChunkText(
+      chunks,
+      "examples",
+      lesson.content.examples.map((example, index) => `${index + 1}. ${example.text}${example.note ? `\n${example.note}` : ""}`).join("\n\n")
+    );
+  }
+
+  if (lesson.content?.summary) {
+    pushChunkText(chunks, "summary", lesson.content.summary);
+  }
+
+  return (["learn", "explain", "examples", "practice", "summary"] as LessonChunkKey[])
+    .map((key, index) => ({
+      key,
+      ...CHUNK_META[key],
+      content: chunks[key],
+      defaultOpen: index < 2 || key === "summary",
+    }))
+    .filter((chunk) => chunk.content.length > 0);
+}
+
+function LessonChunkCard({ chunk }: { chunk: LessonChunk }) {
+  return (
+    <Card className="overflow-hidden border-2 border-primary/10 bg-gradient-to-br from-white to-emerald-50/40">
+      <details open={chunk.defaultOpen} className="group">
+        <summary className="cursor-pointer list-none p-4 sm:p-5">
+          <div className="flex items-start justify-between gap-3">
+            <div className="space-y-1">
+              <h3 className="text-lg sm:text-xl font-bold text-foreground">{chunk.title}</h3>
+              <p className="text-sm sm:text-base text-muted-foreground">{chunk.helper}</p>
+            </div>
+            <span className="mt-1 rounded-full border bg-background px-3 py-1 text-xs font-bold text-primary transition-transform group-open:rotate-180">
+              فتح
+            </span>
+          </div>
+        </summary>
+        <CardContent className="px-4 pb-5 pt-0 sm:px-5">
+          <div className="space-y-4">
+            {chunk.content.map((paragraph, index) => (
+              <div key={index} className="rounded-2xl bg-background/85 p-4 text-base leading-9 text-foreground shadow-sm sm:text-lg sm:leading-10 whitespace-pre-wrap">
+                {paragraph}
+              </div>
+            ))}
+          </div>
+        </CardContent>
+      </details>
+    </Card>
+  );
+}
 
 export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?: string }) {
   const { toast }      = useToast();
@@ -134,6 +288,7 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
   const diffColor = { easy: "success", medium: "warning", hard: "destructive" } as Record<string, string>;
   const answered  = Object.keys(answers).length;
   const total     = lesson.exercises.length;
+  const lessonChunks = buildLessonChunks(lesson);
 
   const tabs: { key: Tab; label: string; locked?: boolean }[] = [
     { key: "objectives", label: "الأهداف" },
@@ -228,16 +383,40 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
       {/* LESSON */}
       {tab === "lesson" && lesson.content && (
         <div className="space-y-4 animate-fade-in">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-base flex items-center gap-2">
-                <BookOpen className="w-4 h-4 text-primary" /> الشرح
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-sm leading-loose whitespace-pre-wrap">{lesson.content.explanation}</div>
+          <Card className="bg-gradient-to-br from-emerald-50 via-amber-50 to-white border-primary/20">
+            <CardContent className="p-4 sm:p-5">
+              <div className="flex items-start gap-3">
+                <div className="rounded-2xl bg-primary/10 p-3">
+                  <BookOpen className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-primary">درس مقسم لخطوات صغيرة</p>
+                  <p className="mt-1 text-base leading-8 text-muted-foreground sm:text-lg">
+                    اقرأ بطاقة واحدة، ثم انتقل للتي بعدها. يمكنك فتح وإغلاق كل جزء حسب الحاجة.
+                  </p>
+                </div>
+              </div>
             </CardContent>
           </Card>
+
+          {lessonChunks.map((chunk) => (
+            <LessonChunkCard key={chunk.key} chunk={chunk} />
+          ))}
+
+          {lessonChunks.length === 0 && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-base flex items-center gap-2">
+                  <BookOpen className="w-4 h-4 text-primary" /> الشرح
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-base leading-9 whitespace-pre-wrap sm:text-lg sm:leading-10">
+                  {lesson.content.explanation || lesson.content.summary || "لا يوجد شرح متاح لهذا الدرس بعد."}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
           {lesson.content.vocabulary && lesson.content.vocabulary.length > 0 && (
             <Card>
@@ -267,6 +446,34 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
                     </div>
                   ))}
                 </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {lesson.exercises.length > 0 && (
+            <Card className="border-primary/20">
+              <CardHeader>
+                <CardTitle className="text-lg sm:text-xl flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-primary" /> تمارين واضحة
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid gap-3">
+                  {lesson.exercises.map((ex, index) => (
+                    <div key={ex.id} className="rounded-2xl border bg-background p-4 shadow-sm">
+                      <div className="mb-2 flex items-center justify-between gap-2">
+                        <span className="rounded-full bg-primary/10 px-3 py-1 text-sm font-bold text-primary">
+                          تمرين {index + 1}
+                        </span>
+                        <span className="text-xs text-muted-foreground">{ex.points} نقطة</span>
+                      </div>
+                      <p className="text-base leading-8 sm:text-lg sm:leading-9">{ex.question}</p>
+                    </div>
+                  ))}
+                </div>
+                <Button onClick={() => setTab("quiz")} className="mt-4 w-full gap-1">
+                  حل التمارين الآن <ChevronLeft className="w-4 h-4" />
+                </Button>
               </CardContent>
             </Card>
           )}
