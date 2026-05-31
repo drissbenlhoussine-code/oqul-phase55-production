@@ -45,7 +45,7 @@ export function XPCelebration({ xpEarned, newXP, newBadges, streak, passed, scor
             <div className="bg-white rounded-2xl p-4 mb-4 space-y-3 shadow-sm">
               <div className="flex items-center justify-center gap-2">
                 <span className="text-2xl">⭐</span>
-                <span className="text-2xl font-bold text-amber-600">+{xpEarned} XP</span>
+                <span className="text-2xl font-bold text-amber-600">+{xpEarned} نقطة</span>
               </div>
               <div className="space-y-1">
                 <div className="flex justify-between text-xs text-gray-500">

@@ -13,9 +13,9 @@ export function Testimonials() {
     <section id="testimonials" className="bg-muted/30 py-24">
       <div className="container">
         <SectionHeading
-          eyebrow="آراء المستخدمين"
-          title="ماذا يقول طلابنا؟"
-          description="تجارب من أطفال وأولياء أمور يبحثون عن دعم تعليمي منظم وواضح."
+          eyebrow="آراء الأهل"
+          title="ماذا يقول الأهل؟"
+          description="تجارب حقيقية من أولياء أمور يبحثون عن دعم تعليمي منظم وواضح لأبنائهم."
         />
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           {testimonials.map((item) => (

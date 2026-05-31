@@ -43,7 +43,7 @@ export function MilestoneAlert({ streak, xp, completed }: MilestoneAlertProps) {
     if (lvl.xpToNext <= 50) {
       return {
         icon:    <Star className="w-5 h-5 text-amber-500" />,
-        title:   `${lvl.xpToNext} XP للمستوى ${lvl.level + 1}!`,
+        title:   `${lvl.xpToNext} نقطة للمستوى ${lvl.level + 1}!`,
         action:  "درس واحد يكفي ⚡",
         href:    "/dashboard/lessons",
         urgent:  lvl.xpToNext <= 20,

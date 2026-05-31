@@ -19,9 +19,9 @@ export default function PrimarySchoolPage() {
       <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 p-6 text-white shadow-sm">
         <div className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold text-white">
           <Sparkles className="h-3.5 w-3.5" />
-          Oqul Phase46 Primary Complete Layer
+          الابتدائي
         </div>
-        <h1 className="mt-4 text-3xl font-black tracking-tight">الابتدائي داخل Oqul — طفل أولًا</h1>
+        <h1 className="mt-4 text-3xl font-black tracking-tight">تعليم الابتدائي — طفل أولًا</h1>
         <p className="mt-3 max-w-3xl leading-8 text-white/90">
           طبقة كاملة للابتدائي: 6 مستويات، 6 مواد، دروس قصيرة، صوت، دارجة مغربية دافئة، ألعاب صغيرة، تشجيع نفسي، وربط مباشر مع ليلى.
         </p>
@@ -36,21 +36,21 @@ export default function PrimarySchoolPage() {
         <Card>
           <CardContent className="space-y-2 p-5">
             <Heart className="h-5 w-5 text-rose-600" />
-            <h2 className="font-bold">Emotional Tutoring</h2>
+            <h2 className="font-bold">تعليم يراعي المشاعر</h2>
             <p className="text-sm leading-7 text-muted-foreground">الطفل يحتاج ثقة قبل الصعوبة. ليلى تكافئ المحاولة وتعيد الشرح بدون ضغط.</p>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="space-y-2 p-5">
             <Mic className="h-5 w-5 text-orange-600" />
-            <h2 className="font-bold">Voice-first</h2>
+            <h2 className="font-bold">الصوت أولاً</h2>
             <p className="text-sm leading-7 text-muted-foreground">الأولوية للصوت والأسئلة القصيرة بدل القراءة الطويلة.</p>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="space-y-2 p-5">
             <Brain className="h-5 w-5 text-amber-700" />
-            <h2 className="font-bold">Micro Learning</h2>
+            <h2 className="font-bold">دروس قصيرة ومركزة</h2>
             <p className="text-sm leading-7 text-muted-foreground">كل درس: تهيئة، شرح بصري، سؤال، لعبة، تطبيق، تشجيع، ملاحظة للولي.</p>
           </CardContent>
         </Card>
@@ -72,9 +72,9 @@ export default function PrimarySchoolPage() {
       </section>
 
       <div className="rounded-3xl border bg-white p-5 shadow-sm">
-        <h2 className="font-bold">Primary Real Lesson Engine</h2>
+        <h2 className="font-bold">محرك دروس الابتدائي</h2>
         <p className="mt-2 leading-8 text-muted-foreground">
-          الابتدائي ليس نسخة سهلة من الإعدادي. لذلك أضفنا محركًا خاصًا: micro-lessons، ألعاب صغيرة، إشارات للولي، دارجة افتراضية، وفصحى/فرنسية عند الطلب.
+          الابتدائي ليس نسخة سهلة من الإعدادي. لذلك أضفنا محركًا خاصًا: دروس قصيرة، ألعاب صغيرة، إشارات للولي، دارجة افتراضية، وفصحى/فرنسية عند الطلب.
         </p>
         <Link href="/dashboard/leila" className="mt-4 inline-flex rounded-2xl bg-primary px-5 py-2.5 text-sm font-bold text-white">
           جرّب ليلى مع الابتدائي

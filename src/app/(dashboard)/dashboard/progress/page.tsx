@@ -85,14 +85,14 @@ export default function ProgressPage() {
                 <p className="text-emerald-200 text-xs">المستوى {lvl.level}</p>
                 <p className="text-xl font-bold">{lvl.title}</p>
               </div>
-              <div className="text-left">
+              <div className="text-right">
                 <p className="text-3xl font-black">{child.xp}</p>
-                <p className="text-emerald-200 text-xs">XP مكتسب</p>
+                <p className="text-emerald-200 text-xs">نقطة مكتسبة</p>
               </div>
             </div>
             <div className="space-y-1">
               <div className="flex justify-between text-xs text-emerald-200">
-                <span>التقدم للمستوى التالي</span><span>{lvl.xpToNext} XP</span>
+                <span>التقدم للمستوى التالي</span><span>{lvl.xpToNext} نقطة</span>
               </div>
               <div className="h-2.5 bg-white/20 rounded-full overflow-hidden">
                 <div className="h-full bg-amber-400 rounded-full transition-all duration-700" style={{ width: `${lvl.progress}%` }} />

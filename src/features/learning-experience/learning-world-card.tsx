@@ -61,7 +61,7 @@ export function LearningWorldCard({ childId }: { childId: string }) {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-emerald-700 shadow-sm">
               <Compass className="h-3.5 w-3.5" />
-              عالم التعلّم Phase40
+              خطة تعلّمك اليوم
             </div>
             <h2 className="mt-3 text-lg font-bold text-slate-900">{bandCopy[snapshot.masteryBand]}</h2>
             <p className="mt-1 text-sm leading-7 text-slate-600">{snapshot.nextTeacherMove}</p>
@@ -95,7 +95,7 @@ export function LearningWorldCard({ childId }: { childId: string }) {
                   <p className="truncate text-sm font-semibold text-slate-900">{mission.title}</p>
                   <p className="truncate text-xs text-slate-500">{mission.description}</p>
                 </div>
-                <span className="rounded-full bg-amber-100 px-2 py-1 text-xs font-bold text-amber-700">+{mission.xpReward} XP</span>
+                <span className="rounded-full bg-amber-100 px-2 py-1 text-xs font-bold text-amber-700">+{mission.xpReward} نقطة</span>
               </div>
             </Link>
           ))}

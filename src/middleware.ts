@@ -82,10 +82,21 @@ function buildCSP(nonce: string, isDev: boolean): string {
   ].join("; ");
 }
 
+/** Paths that require admin role — non-admins are redirected to /dashboard */
+const ADMIN_PREFIXES = [
+  "/admin",
+  "/dashboard/pipeline",
+  "/dashboard/research",
+];
+
 function isPublic(pathname: string): boolean {
   if (PUBLIC_PATHS.has(pathname)) return true;
   if (PUBLIC_PREFIXES.some((p) => pathname.startsWith(p))) return true;
   return false;
+}
+
+function isAdminOnly(pathname: string): boolean {
+  return ADMIN_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + "/"));
 }
 
 export async function middleware(request: NextRequest) {
@@ -122,6 +133,11 @@ export async function middleware(request: NextRequest) {
 
   try {
     const payload = await verifyToken(token);
+
+    // Admin-only routes: non-admin users are redirected to /dashboard
+    if (isAdminOnly(pathname) && payload.role !== "admin") {
+      return NextResponse.redirect(new URL("/dashboard", request.url));
+    }
 
     const response = NextResponse.next();
 

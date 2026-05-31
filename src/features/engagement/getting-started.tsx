@@ -38,7 +38,7 @@ export function GettingStarted({ childName, gradeName }: GettingStartedProps) {
         <div className="rounded-2xl bg-gradient-to-l from-primary to-emerald-600 p-5 text-white cursor-pointer hover:opacity-95 transition-opacity shadow-md">
           <div className="flex items-center justify-between mb-3">
             <span className="text-xs font-semibold bg-white/20 px-2.5 py-1 rounded-full">ابدأ من هنا ✨</span>
-            <span className="text-xs bg-white/20 px-2.5 py-1 rounded-full">+25 XP</span>
+            <span className="text-xs bg-white/20 px-2.5 py-1 rounded-full">+25 نقطة</span>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center text-3xl flex-shrink-0">

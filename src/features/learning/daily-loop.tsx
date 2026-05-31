@@ -101,7 +101,7 @@ export function DailyLoop({ childId, streak }: DailyLoopProps) {
           </div>
           <div>
             <p className="font-bold text-emerald-800">أحسنت! أكملت درس اليوم 🎉</p>
-            <p className="text-sm text-emerald-600">+{action.xpReward} XP مكتسبة — استمر غداً!</p>
+            <p className="text-sm text-emerald-600">+{action.xpReward} نقطة مكتسبة — استمر غداً!</p>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ export function DailyLoop({ childId, streak }: DailyLoopProps) {
           </div>
           <div className="flex items-center gap-1 text-sm font-medium bg-white/20 px-3 py-1 rounded-full">
             <Star className="w-4 h-4 text-amber-300" />
-            <span>+{action.xpReward} XP</span>
+            <span>+{action.xpReward} نقطة</span>
           </div>
         </div>
 

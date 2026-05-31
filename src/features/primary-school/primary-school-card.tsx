@@ -2,9 +2,9 @@ import { Baby, Gamepad2, Mic, Sparkles, Star, type LucideIcon } from "lucide-rea
 import { Card, CardContent } from "@/components/ui/card";
 
 const features: Array<[LucideIcon, string, string]> = [
-  [Mic, "Voice-first", "ليلى تتكلم أكثر، تسأل بصوت، وتشجع الطفل بجمل قصيرة."],
-  [Gamepad2, "Mini-games", "مطابقة، ترتيب، اختيار، وعدّ سريع بدل تمارين طويلة."],
-  [Star, "Rewards", "نجوم، ملصقات، مهام يومية، ورسائل نجاح صغيرة."],
+  [Mic, "الصوت أولاً", "ليلى تتكلم أكثر، تسأل بصوت، وتشجع الطفل بجمل قصيرة."],
+  [Gamepad2, "ألعاب صغيرة", "مطابقة، ترتيب، اختيار، وعدّ سريع بدل تمارين طويلة."],
+  [Star, "مكافآت وتشجيع", "نجوم، ملصقات، مهام يومية، ورسائل نجاح صغيرة."],
 ];
 
 export function PrimarySchoolCard() {
@@ -25,9 +25,9 @@ export function PrimarySchoolCard() {
             <Baby className="h-6 w-6" />
           </div>
           <div>
-            <h3 className="font-black">Primary Layer جاهزة كطبقة طفل أولًا</h3>
+            <h3 className="font-black">طبقة الابتدائي — طفل أولًا</h3>
             <p className="text-sm leading-7 text-muted-foreground">
-              نفس قلب Oqul، لكن بتجربة مختلفة: دارجة دافئة، دروس قصيرة، ألعاب، صوت، وتشجيع نفسي مستمر.
+              نفس قلب عقول، لكن بتجربة مختلفة: دارجة دافئة، دروس قصيرة، ألعاب، صوت، وتشجيع نفسي مستمر.
             </p>
           </div>
           <Sparkles className="ms-auto hidden h-6 w-6 text-amber-600 md:block" />
