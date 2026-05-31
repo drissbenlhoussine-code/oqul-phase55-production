@@ -18,7 +18,7 @@ await withDb(async (client) => {
     lessonId: args["lesson-id"],
     grade: args.grade ?? "tc",
     subject: args.subject ?? "advanced-math",
-    title: args.title ?? defaultTitle,
+    title: args["lesson-id"] ? undefined : args.title ?? defaultTitle,
     limit: Number(args.limit ?? 10),
   });
 

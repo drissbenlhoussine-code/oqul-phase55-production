@@ -54,6 +54,13 @@ Hard quality requirements. These are exact counts, not suggestions:
 - Exactly 3 guided practice activities, each with hint and expected answer.
 - Exactly 8 exercises: exercises 1-3 easy, exercises 4-6 medium, exercises 7-8 hard.
 - Every exercise must include question, difficulty, answer, detailed explanation, hint, and skillTag.
+- Every exercise detailedExplanation must be child-friendly and must include four parts: Reasoning, Calculation, Answer, and Explanation.
+- Do not use one short generic explanation such as "لأننا جمعنا العددين" or "اقرأ الأعداد بعناية".
+- For Grade 1 and Grade 2 math, make the calculation concrete and simple. Example:
+  Reasoning: We count all objects first.
+  Calculation: 40 + 20 = 60
+  Answer: There are 60 objects.
+  Explanation: Because 40 and 20 together make 60.
 - Exactly 3 common mistakes with correction.
 - Exactly 2 exam preparation questions.
 - Include key concepts, key definitions, prerequisites, introduction, detailed explanation, summary.
@@ -111,14 +118,14 @@ Return exactly this JSON shape:
   "vocabulary": [{"word": "word", "definition": "definition"}],
   "examples": [{"text": "short example text", "note": "teaching note"}],
   "exercises": [
-    {"type": "short_answer", "difficulty": "easy", "question": "exercise 1", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 10},
-    {"type": "short_answer", "difficulty": "easy", "question": "exercise 2", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 10},
-    {"type": "short_answer", "difficulty": "easy", "question": "exercise 3", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 10},
-    {"type": "short_answer", "difficulty": "medium", "question": "exercise 4", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 15},
-    {"type": "short_answer", "difficulty": "medium", "question": "exercise 5", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 15},
-    {"type": "short_answer", "difficulty": "medium", "question": "exercise 6", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 15},
-    {"type": "short_answer", "difficulty": "hard", "question": "exercise 7", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 20},
-    {"type": "short_answer", "difficulty": "hard", "question": "exercise 8", "hint": "hint", "answer": "answer", "detailedExplanation": "detailed explanation", "skillTag": "skill tag", "points": 20}
+    {"type": "short_answer", "difficulty": "easy", "question": "exercise 1", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 10},
+    {"type": "short_answer", "difficulty": "easy", "question": "exercise 2", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 10},
+    {"type": "short_answer", "difficulty": "easy", "question": "exercise 3", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 10},
+    {"type": "short_answer", "difficulty": "medium", "question": "exercise 4", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 15},
+    {"type": "short_answer", "difficulty": "medium", "question": "exercise 5", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 15},
+    {"type": "short_answer", "difficulty": "medium", "question": "exercise 6", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 15},
+    {"type": "short_answer", "difficulty": "hard", "question": "exercise 7", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 20},
+    {"type": "short_answer", "difficulty": "hard", "question": "exercise 8", "hint": "hint", "answer": "answer", "detailedExplanation": "Reasoning: explain how to think. Calculation: show the operation. Answer: give the final answer. Explanation: explain why the answer is correct in child-friendly words.", "skillTag": "skill tag", "points": 20}
   ]
 }
 `;
@@ -327,6 +334,46 @@ export function isGroqRateLimitError(error) {
   return error?.status === 429 || error?.error?.error?.code === "rate_limit_exceeded" || String(error?.message ?? "").includes("rate_limit");
 }
 
+function meaningfulSentenceCount(text) {
+  return String(text ?? "")
+    .split(/[.!؟?\n]+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.length >= 14).length;
+}
+
+function hasCalculationStep(text) {
+  const value = String(text ?? "");
+  return /[0-9٠-٩]+\s*[+\-×x*/=<>]\s*[0-9٠-٩]+/.test(value) || /[0-9٠-٩]+\s*=\s*[0-9٠-٩]/.test(value);
+}
+
+function hasExplanationSentence(text) {
+  const value = String(text ?? "").toLowerCase();
+  return /(لأن|بما أن|إذن|لذلك|معا|معًا|نقارن|نحسب|نعد|نضيف|نطرح|يساوي|أكبر|أصغر)/.test(value);
+}
+
+export function isWeakExerciseExplanation(explanation) {
+  const text = String(explanation ?? "").trim();
+  if (!text) return true;
+
+  const genericOneLiners = [
+    "لأننا جمعنا العددين",
+    "اقرأ الأعداد بعناية",
+    "قارن الأعداد بعناية",
+    "انظر إلى الآحاد والعشرات",
+  ];
+  if (genericOneLiners.some((line) => text === line || text.includes(line))) return true;
+
+  const hasRequiredStructure =
+    /(reasoning|التفكير|السبب|الاستدلال)/i.test(text) &&
+    /(calculation|الحساب|العملية)/i.test(text) &&
+    /(answer|الجواب|الإجابة)/i.test(text) &&
+    /(explanation|الشرح|التفسير)/i.test(text);
+  const hasEnoughSentences = meaningfulSentenceCount(text) >= 2;
+  const hasCalculationAndExplanation = hasCalculationStep(text) && hasExplanationSentence(text);
+
+  return text.length < 80 || !(hasRequiredStructure || hasEnoughSentences || hasCalculationAndExplanation);
+}
+
 export async function saveGeneratedLessonArtifact(lesson, payload, report, metadata = {}) {
   if (!payload || !report) return null;
 
@@ -392,6 +439,9 @@ export function validateGeneratedLesson(payload) {
   if (payload.exercises?.some((exercise) => !exercise.correctAnswer || !exercise.explanation)) {
     failures.push("one or more exercises missing answers or explanations");
   }
+  if (payload.exercises?.some((exercise) => isWeakExerciseExplanation(exercise.explanation))) {
+    failures.push("one or more exercise explanations are too short or missing reasoning/calculation");
+  }
   if (/[\u3400-\u9fff]/.test(JSON.stringify(payload))) failures.push("contains non-Arabic CJK characters");
   if (/طرح رقمين|طرح ثلاثة أرقام|طرح أربعة أرقام/.test(JSON.stringify(payload))) {
     failures.push("uses vague probability experiment wording");
@@ -412,8 +462,8 @@ export function findWeakSections(payload) {
   if (payload.workedExamples?.some((example) => (example.steps?.length ?? 0) < 4)) {
     weak.push("one or more worked examples has fewer than 4 steps");
   }
-  if (payload.exercises?.some((exercise) => String(exercise.explanation ?? "").length < 40)) {
-    weak.push("one or more exercise explanations are short");
+  if (payload.exercises?.some((exercise) => isWeakExerciseExplanation(exercise.explanation))) {
+    weak.push("one or more exercise explanations are short or missing reasoning/calculation");
   }
   return weak;
 }
@@ -496,6 +546,7 @@ export async function generateEnhancedLessonWithReport(lesson, options = {}) {
         "Regenerate the full lesson, not only the missing fields.",
         "Make every missing or weak section explicit with Arabic headings and enough detail.",
         "If prerequisites are weak, provide at least 3 concrete prerequisites such as fractions, set notation, counting cases, percentages.",
+        "For every exercise explanation, include reasoning, calculation, final answer, and a child-friendly explanation. Do not use one-sentence generic explanations.",
       ];
       console.log(`\nRegenerating with quality feedback (${attempt + 1}/${maxAttempts})...`);
     }
