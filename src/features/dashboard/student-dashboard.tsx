@@ -35,20 +35,25 @@ export function StudentDashboard() {
   const [loading,  setLoading]  = useState(true);
   const [error,    setError]    = useState(false);
 
+  const safeJson = (url: string) =>
+    fetch(url, { signal: AbortSignal.timeout(8000) })
+      .then((r) => r.json())
+      .catch(() => ({ success: false, data: null }));
+
   async function load() {
     setLoading(true);
     setError(false);
     try {
-      const d = await fetch("/api/children").then((r) => r.json());
+      const d = await safeJson("/api/children");
       if (!d.success || !d.data?.[0]) { setLoading(false); return; }
       const c = d.data[0] as Child;
       setChild(c);
 
       const [sumRes, recRes, adaptiveRes, progRes] = await Promise.all([
-        fetch(`/api/analytics/learning?childId=${c.id}`).then((r) => r.json()),
-        fetch(`/api/recommendations?childId=${c.id}`).then((r) => r.json()),
-        fetch(`/api/adaptive?childId=${c.id}`).then((r) => r.json()),
-        fetch(`/api/progress?childId=${c.id}`).then((r) => r.json()),
+        safeJson(`/api/analytics/learning?childId=${c.id}`),
+        safeJson(`/api/recommendations?childId=${c.id}`),
+        safeJson(`/api/adaptive?childId=${c.id}`),
+        safeJson(`/api/progress?childId=${c.id}`),
       ]);
 
       if (sumRes.success)  setSummary(sumRes.data);

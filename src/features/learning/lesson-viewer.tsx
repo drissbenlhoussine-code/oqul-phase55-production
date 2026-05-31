@@ -217,7 +217,7 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   useEffect(() => {
-    fetch(`/api/curriculum/lessons/${lessonId}`)
+    fetch(`/api/curriculum/lessons/${lessonId}`, { signal: AbortSignal.timeout(8000) })
       .then((r) => r.json())
       .then((d) => { if (d.success) setLesson(d.data); })
       .catch(() => toast("تعذر تحميل الدرس", "error"))

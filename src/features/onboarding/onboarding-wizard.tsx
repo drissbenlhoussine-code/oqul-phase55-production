@@ -28,6 +28,7 @@ export function OnboardingWizard({ grades }: OnboardingWizardProps) {
 
   const stepIdx   = STEP_ORDER.indexOf(step);
   const progress  = Math.round((stepIdx / (STEP_ORDER.length - 1)) * 100);
+  const progressClass = progress === 0 ? "w-0" : progress <= 34 ? "w-1/3" : progress <= 68 ? "w-2/3" : "w-full";
 
   function next() {
     const idx = STEP_ORDER.indexOf(step);
@@ -74,7 +75,7 @@ export function OnboardingWizard({ grades }: OnboardingWizardProps) {
         {step !== "done" && (
           <div className="space-y-1">
             <div className="h-1.5 bg-border rounded-full overflow-hidden">
-              <div className="h-full bg-primary rounded-full transition-all duration-500" style={{ width: `${progress}%` }} />
+              <div className={`h-full bg-primary rounded-full transition-all duration-500 ${progressClass}`} />
             </div>
             <p className="text-xs text-muted-foreground text-center">خطوة {stepIdx + 1} من {STEP_ORDER.length - 1}</p>
           </div>

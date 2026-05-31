@@ -12,6 +12,7 @@ export async function GET() {
       id: user.id,
       fullName: user.fullName,
       email: user.email,
+      role: user.role,
       plan: user.plan,
       trialEndsAt: user.trialEndsAt,
       isOnTrial: user.trialEndsAt ? new Date(user.trialEndsAt) > new Date() : false,

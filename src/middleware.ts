@@ -71,7 +71,7 @@ function buildCSP(nonce: string, isDev: boolean): string {
   return [
     `default-src 'self'`,
     `script-src ${scriptSrc}`,
-    `style-src 'self' https://fonts.googleapis.com`,
+    `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
     `font-src 'self' https://fonts.gstatic.com`,
     `img-src 'self' data: blob: https:`,
     `connect-src 'self' https://api.groq.com https://*.neon.tech`,

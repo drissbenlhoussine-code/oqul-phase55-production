@@ -13,7 +13,7 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/children")
+    fetch("/api/children", { signal: AbortSignal.timeout(8000) })
       .then((r) => r.json())
       .then((d) => { if (d.success && d.data?.[0]) setChildId(d.data[0].id); })
       .catch(() => {})

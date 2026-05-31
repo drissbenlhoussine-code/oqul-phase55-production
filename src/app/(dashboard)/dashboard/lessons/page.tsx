@@ -21,7 +21,7 @@ const ICON_MAP: Record<string, string> = {
 };
 
 async function getJson(url: string) {
-  const res = await fetch(url, { cache: "no-store" });
+  const res = await fetch(url, { cache: "no-store", signal: AbortSignal.timeout(8000) });
   const data = await res.json().catch(() => ({}));
   if (!res.ok || data.success === false) throw new Error(data.message || `تعذر تحميل ${url}`);
   return data.data ?? data;

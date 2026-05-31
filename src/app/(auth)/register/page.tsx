@@ -63,9 +63,12 @@ export default function RegisterPage() {
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
-                <Label>الاسم الكامل</Label>
+                <Label htmlFor="fullName">الاسم الكامل</Label>
                 <Input
+                  id="fullName"
+                  type="text"
                   placeholder="محمد الأمين"
+                  autoComplete="name"
                   required
                   value={form.fullName}
                   onChange={(e) => setForm({ ...form, fullName: e.target.value })}
@@ -73,10 +76,12 @@ export default function RegisterPage() {
               </div>
 
               <div className="space-y-2">
-                <Label>البريد الإلكتروني</Label>
+                <Label htmlFor="email">البريد الإلكتروني</Label>
                 <Input
+                  id="email"
                   type="email"
                   placeholder="example@gmail.com"
+                  autoComplete="email"
                   required
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -84,10 +89,12 @@ export default function RegisterPage() {
               </div>
 
               <div className="space-y-2">
-                <Label>كلمة المرور</Label>
+                <Label htmlFor="password">كلمة المرور</Label>
                 <Input
+                  id="password"
                   type="password"
                   placeholder="8 أحرف على الأقل"
+                  autoComplete="new-password"
                   required
                   value={form.password}
                   onChange={(e) => setForm({ ...form, password: e.target.value })}

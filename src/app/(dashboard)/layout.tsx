@@ -20,11 +20,16 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   const router = useRouter();
   const [activeChild,  setActiveChild]  = useState<Child | null>(null);
   const [sidebarOpen,  setSidebarOpen]  = useState(false);
+  const [isAdmin,      setIsAdmin]      = useState(false);
 
   useEffect(() => {
     fetch("/api/children")
       .then((r) => r.json())
       .then((d) => { if (d.success && d.data?.length) setActiveChild(d.data[0]); })
+      .catch(() => {});
+    fetch("/api/me")
+      .then((r) => r.json())
+      .then((d) => { if (d.success && d.data?.role === "admin") setIsAdmin(true); })
       .catch(() => {});
   }, []);
 
@@ -40,6 +45,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         onLogout={handleLogout}
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
+        isAdmin={isAdmin}
       />
       <div className="flex flex-col flex-1 overflow-hidden min-w-0">
         <Header
