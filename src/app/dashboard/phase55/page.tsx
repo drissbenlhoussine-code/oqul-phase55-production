@@ -1,4 +1,57 @@
-async function getReport(){
- try{const res=await fetch(`${process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"}/api/phase55/intelligence-report`,{cache:"no-store"}); if(!res.ok)return null; const data=await res.json(); return data.report;}catch{return null;}
+async function getReport() {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"}/api/phase55/intelligence-report`,
+      { cache: "no-store" }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.report;
+  } catch {
+    return null;
+  }
 }
-export default async function Phase55Dashboard(){const report=await getReport();return <main className="mx-auto max-w-6xl space-y-8 p-6"><section className="rounded-3xl border p-8"><p className="text-sm text-muted-foreground">Oqul Phase55</p><h1 className="mt-2 text-3xl font-bold">Adaptive AI Learning Platform</h1><p className="mt-3 text-muted-foreground">مسارات تعلم شخصية، توقع مخاطر الامتحان، ودروس ديناميكية.</p></section>{report?<section className="grid gap-4 md:grid-cols-4"><div className="rounded-2xl border p-5"><p className="text-sm text-muted-foreground">الدروس</p><p className="mt-2 text-3xl font-bold">{report.totalLessons}</p></div><div className="rounded-2xl border p-5"><p className="text-sm text-muted-foreground">خطر عالي</p><p className="mt-2 text-3xl font-bold">{report.byRisk?.high}</p></div><div className="rounded-2xl border p-5"><p className="text-sm text-muted-foreground">خطر متوسط</p><p className="mt-2 text-3xl font-bold">{report.byRisk?.medium}</p></div><div className="rounded-2xl border p-5"><p className="text-sm text-muted-foreground">منخفض</p><p className="mt-2 text-3xl font-bold">{report.byRisk?.low}</p></div></section>:<section className="rounded-3xl border p-6"><h2 className="text-xl font-semibold">لا يوجد تقرير بعد</h2><pre className="mt-4 rounded-2xl bg-muted p-4 text-sm">node scripts/generate-phase55-intelligence-report.mjs</pre></section>}</main>}
+
+export default async function Phase55Dashboard() {
+  const report = await getReport();
+
+  return (
+    <main className="mx-auto max-w-6xl space-y-8 p-6">
+      <section className="rounded-3xl border p-8">
+        <p className="text-sm text-muted-foreground">لوحة الذكاء التكيفي</p>
+        <h1 className="mt-2 text-3xl font-bold">منصة التعلم الذكي التكيفي</h1>
+        <p className="mt-3 text-muted-foreground">
+          مسارات تعلم شخصية، توقع مخاطر الامتحان، ودروس ديناميكية.
+        </p>
+      </section>
+
+      {report ? (
+        <section className="grid gap-4 md:grid-cols-4">
+          <div className="rounded-2xl border p-5">
+            <p className="text-sm text-muted-foreground">الدروس</p>
+            <p className="mt-2 text-3xl font-bold">{report.totalLessons}</p>
+          </div>
+          <div className="rounded-2xl border p-5">
+            <p className="text-sm text-muted-foreground">خطر عالي</p>
+            <p className="mt-2 text-3xl font-bold">{report.byRisk?.high}</p>
+          </div>
+          <div className="rounded-2xl border p-5">
+            <p className="text-sm text-muted-foreground">خطر متوسط</p>
+            <p className="mt-2 text-3xl font-bold">{report.byRisk?.medium}</p>
+          </div>
+          <div className="rounded-2xl border p-5">
+            <p className="text-sm text-muted-foreground">منخفض</p>
+            <p className="mt-2 text-3xl font-bold">{report.byRisk?.low}</p>
+          </div>
+        </section>
+      ) : (
+        <section className="rounded-3xl border p-6">
+          <h2 className="text-xl font-semibold">لا يوجد تقرير بعد</h2>
+          <p className="mt-3 text-sm text-muted-foreground">
+            شغّل سكريبت توليد التقرير من سطر الأوامر لرؤية البيانات هنا.
+          </p>
+        </section>
+      )}
+    </main>
+  );
+}

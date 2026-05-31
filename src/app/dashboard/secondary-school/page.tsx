@@ -6,7 +6,7 @@ export default function SecondarySchoolDashboardPage() {
   return (
     <main className="mx-auto max-w-6xl space-y-8 p-6">
       <section className="rounded-3xl border bg-background p-8 shadow-sm">
-        <p className="text-sm font-medium text-muted-foreground">Oqul Phase47</p>
+        <p className="text-sm font-medium text-muted-foreground">الثانوي والباكالوريا</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight">مركز الثانوي والباكالوريا</h1>
         <p className="mt-3 max-w-3xl text-muted-foreground">
           طبقة تعليمية موجهة للثانوي: استدلال عميق، استعداد للامتحانات،
@@ -34,11 +34,11 @@ export default function SecondarySchoolDashboardPage() {
         <div className="mt-4 grid gap-3 md:grid-cols-2">
           {[
             "حل خطوة بخطوة",
-            "Bac preparation",
-            "Exam intelligence",
-            "Misconception detection",
-            "Adaptive revision",
-            "Formal Arabic + French support",
+            "الاستعداد للباكالوريا",
+            "ذكاء الامتحانات",
+            "كشف الأخطاء الشائعة",
+            "المراجعة التكيفية",
+            "دعم العربية والفرنسية",
           ].map((item) => (
             <div key={item} className="rounded-2xl bg-muted/40 p-4">{item}</div>
           ))}
