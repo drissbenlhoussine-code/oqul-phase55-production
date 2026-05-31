@@ -19,6 +19,7 @@ const nav = [
 
 const adminNav = [
   { href: "/admin", icon: Sparkles, label: "محتوى AI" },
+  { href: "/admin/curriculum-progress", icon: BarChart3, label: "Curriculum Progress" },
 ];
 
 interface SidebarProps {
