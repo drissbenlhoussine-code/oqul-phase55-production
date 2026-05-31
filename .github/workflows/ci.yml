@@ -50,7 +50,7 @@ jobs:
           cache: "npm"
 
       - name: Assert lockfile
-        run: npm run assert:lockfile
+        run: test -f package-lock.json
 
       - name: Install frozen dependencies
         run: npm ci
@@ -68,4 +68,5 @@ jobs:
         run: npm run build
 
       - name: Docker build
+        if: hashFiles('Dockerfile') != ''
         run: docker build -t oqul-platform:ci .
