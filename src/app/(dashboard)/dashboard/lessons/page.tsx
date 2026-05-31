@@ -8,12 +8,25 @@ import { Button } from "@/components/ui/button";
 import { Spinner } from "@/components/ui/spinner";
 import Link from "next/link";
 
-interface Grade { id: string; titleAr: string; color?: string; }
+interface Grade { id: string; titleAr: string; color?: string; ageMin?: number | null; }
 interface Subject { id: string; titleAr: string; icon?: string; color?: string; }
 interface Lesson { id: string; titleAr: string; difficulty: string; estimatedDurationMinutes: number; isPublished: boolean; }
 interface Unit { id: string; titleAr: string; lessons: Lesson[]; }
 interface ProgressItem { lessonId: string; status: string; score?: number; }
-interface Child { id: string; name?: string; grade?: { id: string; titleAr?: string } | null; gradeId?: string | null; }
+interface Child { id: string; name?: string; grade?: { id: string; titleAr?: string; ageMin?: number | null } | null; gradeId?: string | null; }
+
+function schoolCycle(ageMin?: number | null): "primary" | "middle" | "secondary" | null {
+  if (ageMin == null) return null;
+  if (ageMin <= 11) return "primary";
+  if (ageMin < 15)  return "middle";
+  return "secondary";
+}
+
+function filterGradesByCycle(all: Grade[], childAgeMin?: number | null): Grade[] {
+  const cycle = schoolCycle(childAgeMin);
+  if (!cycle) return all;
+  return all.filter((g) => schoolCycle(g.ageMin) === cycle);
+}
 
 const ICON_MAP: Record<string, string> = {
   BookOpen: "📖", Calculator: "🔢", Globe: "🌍", Star: "⭐",
@@ -51,11 +64,12 @@ export default function LessonsPage() {
       const allGrades: Grade[] = Array.isArray(gradeData) ? gradeData : [];
       const children: Child[] = Array.isArray(childData) ? childData : [];
       const firstChild = children[0] ?? null;
-      setGrades(allGrades);
+      const visibleGrades = filterGradesByCycle(allGrades, firstChild?.grade?.ageMin);
+      setGrades(visibleGrades);
       setChild(firstChild);
 
       const childGradeId = firstChild?.grade?.id || firstChild?.gradeId || null;
-      const initialGrade = allGrades.find((g) => g.id === childGradeId) ?? allGrades[0] ?? null;
+      const initialGrade = visibleGrades.find((g) => g.id === childGradeId) ?? visibleGrades[0] ?? null;
       if (initialGrade) await selectGrade(initialGrade, firstChild?.id ?? null, true);
     } catch (e) {
       setError(e instanceof Error ? e.message : "تعذر تحميل الدروس");
