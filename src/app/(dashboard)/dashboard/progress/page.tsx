@@ -72,8 +72,12 @@ export default function ProgressPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-5 animate-fade-in">
       <div>
-        <h1 className="text-2xl font-bold">تقدمي</h1>
-        <p className="text-muted-foreground text-sm">إنجازاتك ومستواك</p>
+        <h1 className="text-2xl font-bold">
+          {child ? `تقدم ${child.name}` : "التقدم"}
+        </h1>
+        <p className="text-muted-foreground text-sm">
+          {child ? `متابعة إنجازات ${child.name} ومستواه` : "تتبع تقدم طفلك"}
+        </p>
       </div>
 
       {/* Level card */}
