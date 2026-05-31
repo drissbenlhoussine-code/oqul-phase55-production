@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "عقول — التعليم الذكي المغربي",
   description: "منصة تعليمية ذكية للأطفال المغاربة مع المعلمة ليلى",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"),
+  icons: { icon: "/favicon.svg" },
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

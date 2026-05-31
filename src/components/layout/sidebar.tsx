@@ -19,16 +19,17 @@ const nav = [
 
 const adminNav = [
   { href: "/admin", icon: Sparkles, label: "محتوى AI" },
-  { href: "/admin/curriculum-progress", icon: BarChart3, label: "Curriculum Progress" },
+  { href: "/admin/curriculum-progress", icon: BarChart3, label: "تقدم المنهج" },
 ];
 
 interface SidebarProps {
   onLogout?: () => void;
   isOpen?: boolean;
   onClose?: () => void;
+  isAdmin?: boolean;
 }
 
-export function Sidebar({ onLogout, isOpen = false, onClose }: SidebarProps) {
+export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false }: SidebarProps) {
   const pathname = usePathname();
 
   const content = (
@@ -64,7 +65,7 @@ export function Sidebar({ onLogout, isOpen = false, onClose }: SidebarProps) {
 
       {/* Nav */}
       <nav className="flex-1 px-3 py-4 space-y-1">
-        {[...nav, ...adminNav].map(({ href, icon: Icon, label }) => {
+        {[...nav, ...(isAdmin ? adminNav : [])].map(({ href, icon: Icon, label }) => {
           const active = pathname === href || (href !== "/dashboard" && pathname.startsWith(href));
           return (
             <Link

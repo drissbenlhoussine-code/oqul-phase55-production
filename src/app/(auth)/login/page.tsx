@@ -96,6 +96,7 @@ function LoginForm() {
                   id="email"
                   type="email"
                   placeholder="example@gmail.com"
+                  autoComplete="email"
                   required
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -116,6 +117,7 @@ function LoginForm() {
                   id="password"
                   type="password"
                   placeholder="••••••••"
+                  autoComplete="current-password"
                   required
                   value={form.password}
                   onChange={(e) => setForm({ ...form, password: e.target.value })}

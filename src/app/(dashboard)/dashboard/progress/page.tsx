@@ -22,13 +22,18 @@ export default function ProgressPage() {
   const [loading,  setLoading]  = useState(true);
 
   useEffect(() => {
-    fetch("/api/children").then((r) => r.json()).then(async (d) => {
+    const safeJson = (url: string) =>
+      fetch(url, { signal: AbortSignal.timeout(8000) })
+        .then((r) => r.json())
+        .catch(() => ({ success: false }));
+
+    safeJson("/api/children").then(async (d) => {
       if (!d.success || !d.data?.[0]) return;
       const c: Child = d.data[0];
       setChild(c);
       const [pr, bg] = await Promise.all([
-        fetch(`/api/progress?childId=${c.id}`).then((r) => r.json()),
-        fetch(`/api/children/badges?childId=${c.id}`).then((r) => r.json()),
+        safeJson(`/api/progress?childId=${c.id}`),
+        safeJson(`/api/children/badges?childId=${c.id}`),
       ]);
       if (pr.success) setProgress(pr.data);
       if (bg.success) setBadges(bg.data);

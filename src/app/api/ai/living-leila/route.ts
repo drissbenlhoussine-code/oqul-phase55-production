@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
       progressRepo.getChildProgress(body.childId),
     ]);
 
-    if (!child) throw new AppError("Child not found", "NOT_FOUND", 404);
+    if (!child) throw new AppError("لم يتم العثور على الطفل", "NOT_FOUND", 404);
 
     const completed = progress.filter((p) => p.status === "completed");
     const needsReview = progress.filter((p) => p.status === "needs_review");
