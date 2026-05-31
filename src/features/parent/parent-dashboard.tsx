@@ -70,7 +70,7 @@ function WeeklyComparison({ lessons, childName }: { lessons: ProgressItem[]; chi
               <p className="font-black text-xl text-foreground">{thisWeek}</p>
               <p className="text-xs text-muted-foreground">هذا الأسبوع</p>
             </div>
-            <div className="text-muted-foreground text-xs">vs</div>
+            <div className="text-muted-foreground text-xs opacity-50">/</div>
             <div className="text-center opacity-70">
               <p className="font-bold text-lg text-foreground">{lastWeek}</p>
               <p className="text-xs text-muted-foreground">الأسبوع الماضي</p>
