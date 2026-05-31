@@ -18,6 +18,9 @@ build/
 # Drizzle
 drizzle/
 
+# Generated lesson review artifacts
+.generated-lessons/
+
 # Misc
 .DS_Store
 *.pem
