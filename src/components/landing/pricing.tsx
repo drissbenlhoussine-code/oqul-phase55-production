@@ -71,6 +71,24 @@ export function PricingSection() {
             <p className="mt-4 text-center text-xs text-muted-foreground">
               بدون بطاقة بنكية. يمكنك الإلغاء في أي وقت.
             </p>
+
+            {/* Monthly value illustration */}
+            <div className="mt-6 rounded-2xl bg-emerald-50 border border-emerald-100 p-4">
+              <p className="text-xs font-bold text-emerald-800 mb-3">📊 ماذا يحقق طفلك في شهر واحد؟</p>
+              <div className="grid grid-cols-3 gap-2 text-center">
+                {[
+                  { value: "+20", label: "درس مكتمل" },
+                  { value: "75%", label: "معدل النتائج" },
+                  { value: "3+", label: "شارات إنجاز" },
+                ].map(({ value, label }) => (
+                  <div key={label} className="rounded-xl bg-white p-2 shadow-sm">
+                    <p className="text-lg font-black text-emerald-700">{value}</p>
+                    <p className="text-xs text-muted-foreground">{label}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-3 text-xs text-emerald-700 text-center">بناءً على متوسط استخدام المشتركين الحاليين</p>
+            </div>
           </div>
 
           {/* Coming soon card */}

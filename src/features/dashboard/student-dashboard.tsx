@@ -11,7 +11,7 @@
  */
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { BookOpen, Sparkles, BarChart3, ArrowLeft, Trophy, AlertCircle, RefreshCcw } from "lucide-react";
+import { BookOpen, Sparkles, BarChart3, ArrowLeft, Trophy, AlertCircle, RefreshCcw, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { DashboardSkeleton } from "./dashboard-skeleton";
 import { DailyGreeting }     from "./daily-greeting";
@@ -172,6 +172,24 @@ export function StudentDashboard() {
           </Link>
         ))}
       </div>
+
+      {/* Parent quick-access banner — answers "why am I paying 20 DH?" */}
+      {child && (
+        <Link href="/parent">
+          <div className="flex items-center justify-between gap-3 rounded-2xl border-2 border-emerald-100 bg-gradient-to-l from-emerald-50 to-white px-4 py-3 hover:border-emerald-200 hover:shadow-sm transition-all cursor-pointer">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-emerald-100 flex items-center justify-center flex-shrink-0">
+                <Users className="w-5 h-5 text-emerald-700" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-emerald-900">لوحة ولي الأمر</p>
+                <p className="text-xs text-emerald-700">تقرير تقدم {child.name} — الدروس والنتائج</p>
+              </div>
+            </div>
+            <ArrowLeft className="w-4 h-4 text-emerald-600 flex-shrink-0" />
+          </div>
+        </Link>
+      )}
 
       {recs.length > 0 && (
         <div>

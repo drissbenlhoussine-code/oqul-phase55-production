@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { BarChart3, BookOpen, Clock, Star, Flame, Trophy, AlertTriangle, ArrowLeft } from "lucide-react";
+import { BarChart3, BookOpen, Flame, Trophy, AlertTriangle, ArrowLeft, CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Spinner } from "@/components/ui/spinner";
@@ -11,12 +11,53 @@ import { getLevelInfo } from "@/lib/gamification-level";
 interface Child { id: string; name: string; xp: number; streak: number; grade?: { titleAr: string }; }
 interface Summary { completedLessons: number; averageScore: number; weakPointCount: number; streakDays: number; xp: number; }
 interface Rec { type: string; lessonId?: string; title: string; reason: string; }
+interface ProgressItem {
+  id: string; status: string; score?: number; completedAt?: string | null;
+  lesson: { titleAr: string; unit: { subject: { titleAr: string; color?: string } } };
+}
+
+const diffColors: Record<string, string> = {
+  completed: "text-emerald-600 bg-emerald-50",
+};
+
+function RecentLessons({ lessons }: { lessons: ProgressItem[] }) {
+  const done = lessons
+    .filter((p) => p.status === "completed")
+    .sort((a, b) => (b.completedAt ?? "").localeCompare(a.completedAt ?? ""))
+    .slice(0, 6);
+
+  if (done.length === 0) return (
+    <div className="rounded-xl bg-secondary/50 p-4 text-center text-sm text-muted-foreground">
+      لم يُكمل طفلك أي درس بعد — شجّعه على أول خطوة 👋
+    </div>
+  );
+
+  return (
+    <div className="space-y-2">
+      {done.map((item) => (
+        <div key={item.id} className="flex items-center gap-3 rounded-xl border bg-card p-3">
+          <div className="w-8 h-8 rounded-lg bg-emerald-50 flex items-center justify-center flex-shrink-0">
+            <CheckCircle className="w-4 h-4 text-emerald-600" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-medium truncate">{item.lesson?.titleAr}</p>
+            <p className="text-xs text-muted-foreground truncate">{item.lesson?.unit?.subject?.titleAr}</p>
+          </div>
+          {item.score != null && (
+            <span className="text-sm font-bold text-emerald-600 flex-shrink-0">{Math.round(item.score)}%</span>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export function ParentDashboard() {
-  const [children, setChildren]     = useState<Child[]>([]);
-  const [summaries, setSummaries]   = useState<Record<string, Summary>>({});
-  const [recs, setRecs]             = useState<Record<string, Rec[]>>({});
-  const [loading, setLoading]       = useState(true);
+  const [children, setChildren]   = useState<Child[]>([]);
+  const [summaries, setSummaries] = useState<Record<string, Summary>>({});
+  const [recs, setRecs]           = useState<Record<string, Rec[]>>({});
+  const [progress, setProgress]   = useState<Record<string, ProgressItem[]>>({});
+  const [loading, setLoading]     = useState(true);
 
   useEffect(() => {
     fetch("/api/children")
@@ -27,17 +68,19 @@ export function ParentDashboard() {
         setChildren(kids);
 
         const results = await Promise.all(kids.map(async (c) => {
-          const [s, r] = await Promise.all([
-            fetch(`/api/analytics/learning?childId=${c.id}`).then((x) => x.json()),
-            fetch(`/api/recommendations?childId=${c.id}`).then((x) => x.json()),
+          const [s, r, p] = await Promise.all([
+            fetch(`/api/analytics/learning?childId=${c.id}`).then((x) => x.json()).catch(() => ({ data: null })),
+            fetch(`/api/recommendations?childId=${c.id}`).then((x) => x.json()).catch(() => ({ data: [] })),
+            fetch(`/api/progress?childId=${c.id}`).then((x) => x.json()).catch(() => ({ success: false, data: [] })),
           ]);
-          return { id: c.id, summary: s.data, recs: r.data ?? [] };
+          return { id: c.id, summary: s.data, recs: r.data ?? [], progress: p.success ? (p.data ?? []) : [] };
         }));
 
-        const sMap: Record<string, Summary> = {};
-        const rMap: Record<string, Rec[]>   = {};
-        for (const r of results) { sMap[r.id] = r.summary; rMap[r.id] = r.recs; }
-        setSummaries(sMap); setRecs(rMap);
+        const sMap: Record<string, Summary>       = {};
+        const rMap: Record<string, Rec[]>         = {};
+        const pMap: Record<string, ProgressItem[]> = {};
+        for (const r of results) { sMap[r.id] = r.summary; rMap[r.id] = r.recs; pMap[r.id] = r.progress; }
+        setSummaries(sMap); setRecs(rMap); setProgress(pMap);
       })
       .finally(() => setLoading(false));
   }, []);
@@ -52,11 +95,22 @@ export function ParentDashboard() {
       </div>
 
       {children.length === 0 ? (
-        <Card><CardContent className="py-12 text-center"><p className="text-muted-foreground">لم تُضف أي طفل بعد</p></CardContent></Card>
+        <Card>
+          <CardContent className="py-12 text-center space-y-3">
+            <p className="text-4xl">👶</p>
+            <p className="font-semibold">لم تُضف أي طفل بعد</p>
+            <Link href="/onboarding">
+              <button className="mt-2 rounded-xl bg-primary px-5 py-2 text-sm font-semibold text-white hover:bg-primary/90 transition-colors">
+                أضف طفلاً الآن
+              </button>
+            </Link>
+          </CardContent>
+        </Card>
       ) : (
         children.map((child) => {
           const s    = summaries[child.id];
           const r    = recs[child.id] ?? [];
+          const p    = progress[child.id] ?? [];
           const lvl  = getLevelInfo(child.xp);
 
           return (
@@ -65,7 +119,7 @@ export function ParentDashboard() {
               <div className="bg-gradient-to-l from-emerald-600 to-emerald-700 p-5 text-white">
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center text-2xl">👦</div>
+                    <div className="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center text-2xl">🧒</div>
                     <div>
                       <h2 className="font-bold text-lg">{child.name}</h2>
                       <p className="text-emerald-200 text-sm">{child.grade?.titleAr ?? "لم يُحدد المستوى"}</p>
@@ -94,10 +148,10 @@ export function ParentDashboard() {
                 {s && (
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     {[
-                      { icon: BookOpen, label: "دروس مكتملة", value: s.completedLessons,  color: "text-blue-600 bg-blue-50" },
-                      { icon: BarChart3, label: "متوسط النتيجة", value: `${s.averageScore}%`, color: s.averageScore >= 70 ? "text-emerald-600 bg-emerald-50" : "text-amber-600 bg-amber-50" },
-                      { icon: Flame,    label: "أيام متتالية",  value: `${child.streak} يوم`, color: "text-orange-600 bg-orange-50" },
-                      { icon: AlertTriangle, label: "نقاط ضعيفة", value: s.weakPointCount, color: s.weakPointCount > 0 ? "text-red-600 bg-red-50" : "text-emerald-600 bg-emerald-50" },
+                      { icon: BookOpen,      label: "دروس مكتملة",   value: s.completedLessons,          color: "text-blue-600 bg-blue-50" },
+                      { icon: BarChart3,     label: "متوسط النتيجة", value: `${s.averageScore}%`,         color: s.averageScore >= 70 ? "text-emerald-600 bg-emerald-50" : "text-amber-600 bg-amber-50" },
+                      { icon: Flame,         label: "أيام متتالية",  value: `${child.streak} يوم`,        color: "text-orange-600 bg-orange-50" },
+                      { icon: AlertTriangle, label: "نقاط ضعيفة",   value: s.weakPointCount,             color: s.weakPointCount > 0 ? "text-red-600 bg-red-50" : "text-emerald-600 bg-emerald-50" },
                     ].map(({ icon: Icon, label, value, color }) => (
                       <div key={label} className={`p-3 rounded-xl ${color.split(" ")[1]} flex items-center gap-2`}>
                         <Icon className={`w-5 h-5 ${color.split(" ")[0]} flex-shrink-0`} />
@@ -109,6 +163,15 @@ export function ParentDashboard() {
                     ))}
                   </div>
                 )}
+
+                {/* ── Recently completed lessons — the core "what did my child learn?" answer ── */}
+                <div>
+                  <h3 className="font-semibold text-sm mb-2 flex items-center gap-1.5">
+                    <CheckCircle className="w-4 h-4 text-emerald-600" />
+                    آخر الدروس المكتملة
+                  </h3>
+                  <RecentLessons lessons={p} />
+                </div>
 
                 {/* Recommendations */}
                 {r.length > 0 && (
