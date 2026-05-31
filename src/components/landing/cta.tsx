@@ -17,7 +17,7 @@ export function CTA() {
             </p>
             <Link href="/register" className="inline-flex">
               <Button size="lg" variant="secondary" className="mt-9 text-lg">
-                ابدأ مجانًا <ArrowLeft className="h-5 w-5" />
+                ابدأ 7 أيام مجاناً <ArrowLeft className="h-5 w-5" />
               </Button>
             </Link>
           </div>

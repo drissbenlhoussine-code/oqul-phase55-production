@@ -1,24 +1,18 @@
 "use client";
-/**
- * Hero — Phase 32
- * Replaces: src/components/landing/hero.tsx
- *
- * Changes: real social proof counter, animated Leila avatar,
- * dual CTA (parent + demo), trust badges, mobile-first layout.
- */
 import Link from "next/link";
-import { ArrowLeft, Star, Shield, BookOpen } from "lucide-react";
+import { ArrowLeft, CheckCircle } from "lucide-react";
 
 const TRUST_BADGES = [
   { icon: "🇲🇦", text: "المنهج المغربي الرسمي" },
-  { icon: "🔒", text: "آمن للأطفال 100%" },
-  { icon: "🎓", text: "من الابتدائي إلى الثانوي" },
+  { icon: "🔒",  text: "آمن للأطفال" },
+  { icon: "🎓",  text: "من الابتدائي إلى الثانوي التأهيلي" },
+  { icon: "🎁",  text: "7 أيام مجانية" },
 ];
 
-const STATS = [
-  { value: "+2,400", label: "طفل يتعلم الآن" },
-  { value: "98%",   label: "رضا الأهل" },
-  { value: "7 أيام", label: "تجربة مجانية" },
+const BENEFITS = [
+  "متابعة واضحة لتقدم طفلك",
+  "دروس وتمارين منظمة حسب المنهج",
+  "تجربة مجانية 7 أيام — بدون بطاقة بنكية",
 ];
 
 export function Hero() {
@@ -32,15 +26,6 @@ export function Hero() {
 
       <div className="container relative z-10">
         <div className="mx-auto max-w-3xl text-center">
-          {/* Social proof pill */}
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm backdrop-blur-sm">
-            <span className="flex gap-0.5">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
-              ))}
-            </span>
-            <span className="text-white/70">أكثر من 2,400 طفل يتعلمون معنا</span>
-          </div>
 
           {/* Main headline */}
           <h1 className="text-5xl font-black leading-tight tracking-tight md:text-7xl">
@@ -51,36 +36,30 @@ export function Hero() {
               </span>
             </span>
             <br />
-            معلمتك في البيت
+            معلمة ذكية لطفلك في البيت
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-lg leading-9 text-white/65">
-            ذكاء اصطناعي يتحدث الدارجة المغربية، يتابع تقدم طفلك درساً بدرس، ويتكيف مع أسلوب تعلّمه — بالمنهج الرسمي المغربي.
+            تساعد طفلك على فهم الدروس، إنجاز التمارين، ومراجعة نقاط الضعف خطوة بخطوة — حسب المنهج المغربي وبأسلوب بسيط.
           </p>
 
           {/* CTAs */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link href="/register">
               <button className="group flex items-center gap-2 rounded-2xl bg-gradient-to-r from-primary to-emerald-500 px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/30 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/40">
-                ابدأ مجاناً 7 أيام
+                ابدأ 7 أيام مجاناً
                 <ArrowLeft className="h-5 w-5 transition-transform group-hover:-translate-x-1" />
-              </button>
-            </Link>
-            <Link href="/register">
-              <button className="flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-8 py-4 text-base font-bold backdrop-blur-sm transition-all hover:bg-white/10">
-                <BookOpen className="h-5 w-5 text-amber-400" />
-                شوف كيف تشتغل
               </button>
             </Link>
           </div>
 
-          {/* Stats row */}
-          <div className="mt-14 grid grid-cols-3 divide-x divide-x-reverse divide-white/10 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm">
-            {STATS.map((s) => (
-              <div key={s.label} className="px-6 py-5 text-center">
-                <p className="text-2xl font-black text-amber-400">{s.value}</p>
-                <p className="mt-1 text-xs text-white/55">{s.label}</p>
-              </div>
+          {/* Benefits row */}
+          <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+            {BENEFITS.map((b) => (
+              <span key={b} className="flex items-center gap-2 text-sm text-white/70">
+                <CheckCircle className="h-4 w-4 shrink-0 text-emerald-400" />
+                {b}
+              </span>
             ))}
           </div>
 

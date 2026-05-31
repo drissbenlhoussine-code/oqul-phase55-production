@@ -58,7 +58,7 @@ export default function TermsPage() {
 
         <TermsSection title="4. الاشتراكات والدفع">
           <ul className="space-y-2 text-sm">
-            <li className="flex gap-2"><span className="text-emerald-500 mt-1">•</span><span>الخطة المجانية متاحة دائماً مع محدودية في الميزات.</span></li>
+            <li className="flex gap-2"><span className="text-emerald-500 mt-1">•</span><span>التجربة المجانية لمدة 7 أيام متاحة عند التسجيل، دون الحاجة لبطاقة بنكية.</span></li>
             <li className="flex gap-2"><span className="text-emerald-500 mt-1">•</span><span>يمكن إلغاء الاشتراك في أي وقت.</span></li>
             <li className="flex gap-2"><span className="text-emerald-500 mt-1">•</span><span>لا يوجد استرداد للمبالغ عن فترات الاشتراك المستخدمة.</span></li>
           </ul>

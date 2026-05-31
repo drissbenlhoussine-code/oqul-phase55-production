@@ -13,7 +13,6 @@ const LINKS = {
     { label: "كيف يعمل عقول؟",  href: "/#how" },
     { label: "المميزات",          href: "/#features" },
     { label: "الأسعار",           href: "/#pricing" },
-    { label: "للمدارس",           href: "mailto:schools@oqul.ma" },
   ],
   support: [
     { label: "الأسئلة الشائعة",   href: "/faq" },
@@ -44,7 +43,7 @@ export function Footer() {
               <span className="text-2xl font-black">عقول</span>
             </Link>
             <p className="mt-4 max-w-sm leading-8 text-muted-foreground text-sm">
-              منصة تعليمية مغربية بالذكاء الاصطناعي للتلاميذ المغاربة من الابتدائي إلى الثانوي. أستاذة ليلى تتحدث الدارجة وتتكيف مع كل طفل.
+              منصة تعليمية مغربية بالذكاء الاصطناعي للابتدائي والإعدادي والثانوي التأهيلي. أستاذة ليلى تتحدث الدارجة وتتكيف مع كل طفل.
             </p>
 
             {/* Social */}
