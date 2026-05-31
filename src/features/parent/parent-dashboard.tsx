@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { BarChart3, BookOpen, Clock, Star, Flame, Trophy, AlertTriangle, ArrowRight } from "lucide-react";
+import { BarChart3, BookOpen, Clock, Star, Flame, Trophy, AlertTriangle, ArrowLeft } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Spinner } from "@/components/ui/spinner";
@@ -71,7 +71,7 @@ export function ParentDashboard() {
                       <p className="text-emerald-200 text-sm">{child.grade?.titleAr ?? "لم يُحدد المستوى"}</p>
                     </div>
                   </div>
-                  <div className="text-left">
+                  <div className="text-right">
                     <p className="text-emerald-200 text-xs">المستوى {lvl.level}</p>
                     <p className="font-bold">{lvl.title}</p>
                   </div>
@@ -80,7 +80,7 @@ export function ParentDashboard() {
                 {/* XP bar */}
                 <div className="mt-4">
                   <div className="flex justify-between text-xs text-emerald-200 mb-1">
-                    <span>{child.xp} XP</span>
+                    <span>{child.xp} نقطة</span>
                     <span>{lvl.xpToNext} للمستوى التالي</span>
                   </div>
                   <div className="h-2 bg-white/20 rounded-full overflow-hidden">
@@ -123,7 +123,7 @@ export function ParentDashboard() {
                               <p className="text-sm font-medium truncate">{rec.title}</p>
                               <p className="text-xs text-muted-foreground truncate">{rec.reason}</p>
                             </div>
-                            <ArrowRight className="w-3.5 h-3.5 text-muted-foreground flex-shrink-0" />
+                            <ArrowLeft className="w-3.5 h-3.5 text-muted-foreground flex-shrink-0" />
                           </div>
                         </Link>
                       ))}

@@ -88,7 +88,7 @@ export function DailyGreeting({ childName, xp = 0, streak = 0, completedToday = 
       {/* XP Progress */}
       <div className="mt-4 space-y-1.5">
         <div className="flex justify-between text-xs text-emerald-200">
-          <span>{xp} XP</span>
+          <span>{xp} نقطة</span>
           <span>{lvl.xpToNext} للمستوى {lvl.level + 1}</span>
         </div>
         <div className="h-2 bg-white/20 rounded-full overflow-hidden">

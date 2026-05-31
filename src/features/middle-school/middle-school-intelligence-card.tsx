@@ -63,7 +63,7 @@ export function MiddleSchoolIntelligenceCard({ childId }: { childId: string }) {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-indigo-100">
               <Brain className="h-3.5 w-3.5" />
-              Phase42 Middle School Intelligence
+              مسارك الدراسي
             </div>
             <h2 className="mt-3 text-xl font-bold">{gradeLabel[profile.grade]} — مسار ذكي للإعدادي</h2>
             <p className="mt-1 text-sm leading-7 text-indigo-100">ليلى تبدأ بالفصحى السلسة، وتغير اللغة فورًا حسب طلب التلميذ.</p>

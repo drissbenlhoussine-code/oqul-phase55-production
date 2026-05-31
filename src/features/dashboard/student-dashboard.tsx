@@ -22,7 +22,7 @@ import { GettingStarted }    from "@/features/engagement/getting-started";
 import { LearningWorldCard } from "@/features/learning-experience/learning-world-card";
 import { MiddleSchoolIntelligenceCard } from "@/features/middle-school/middle-school-intelligence-card";
 
-interface Child        { id: string; name: string; xp: number; streak: number; grade?: { titleAr: string }; }
+interface Child        { id: string; name: string; xp: number; streak: number; grade?: { titleAr: string; ageMin?: number | null }; }
 interface Summary      { completedLessons: number; averageScore: number; weakPointCount: number; streakDays: number; xp: number; }
 interface Rec          { type: string; lessonId?: string; title: string; reason: string; }
 interface ProgressItem { status: string; lesson?: { titleAr: string }; }
@@ -124,9 +124,13 @@ export function StudentDashboard() {
         completedToday={completedToday}
       />
 
-      {child && <LearningWorldCard childId={child.id} />}
+      {child && (!child.grade?.ageMin || child.grade.ageMin <= 11) && (
+        <LearningWorldCard childId={child.id} />
+      )}
 
-      {child && <MiddleSchoolIntelligenceCard childId={child.id} />}
+      {child && child.grade?.ageMin != null && child.grade.ageMin >= 12 && child.grade.ageMin < 15 && (
+        <MiddleSchoolIntelligenceCard childId={child.id} />
+      )}
 
       {child && progress.length === 0 ? (
         <GettingStarted childName={child.name} gradeName={child.grade?.titleAr} />

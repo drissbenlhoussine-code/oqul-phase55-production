@@ -11,8 +11,6 @@ const nav = [
   { href: "/dashboard",          icon: LayoutDashboard, label: "الرئيسية" },
   { href: "/dashboard/lessons",  icon: BookOpen,         label: "الدروس" },
   { href: "/dashboard/leila",    icon: MessageCircle,    label: "ليلى" },
-  { href: "/dashboard/pipeline", icon: Brain,            label: "عقول المتعدد" },
-  { href: "/dashboard/research", icon: FlaskConical,    label: "البحث الذكي" },
   { href: "/dashboard/progress", icon: BarChart3,        label: "تقدمي" },
   { href: "/parent",             icon: Users,            label: "الأهل" },
 ];
@@ -20,6 +18,8 @@ const nav = [
 const adminNav = [
   { href: "/admin", icon: Sparkles, label: "محتوى AI" },
   { href: "/admin/curriculum-progress", icon: BarChart3, label: "تقدم المنهج" },
+  { href: "/dashboard/pipeline", icon: Brain,            label: "عقول المتعدد" },
+  { href: "/dashboard/research", icon: FlaskConical,     label: "البحث الذكي" },
 ];
 
 interface SidebarProps {

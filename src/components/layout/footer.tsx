@@ -44,7 +44,7 @@ export function Footer() {
               <span className="text-2xl font-black">عقول</span>
             </Link>
             <p className="mt-4 max-w-sm leading-8 text-muted-foreground text-sm">
-              منصة تعليمية مغربية بالذكاء الاصطناعي للأطفال من السنة 1 إلى 6. أستاذة ليلى تتحدث الدارجة وتتكيف مع كل طفل.
+              منصة تعليمية مغربية بالذكاء الاصطناعي للتلاميذ المغاربة من الابتدائي إلى الثانوي. أستاذة ليلى تتحدث الدارجة وتتكيف مع كل طفل.
             </p>
 
             {/* Social */}

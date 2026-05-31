@@ -137,7 +137,7 @@ export default function PipelinePage() {
             <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
               <Brain className="h-4 w-4" /> ميزة v13 الأسطورية مدمجة الآن
             </div>
-            <h1 className="text-3xl font-black tracking-tight text-foreground md:text-4xl">عقول المتعدد — Multi‑Agent</h1>
+            <h1 className="text-3xl font-black tracking-tight text-foreground md:text-4xl">عقول المتعدد</h1>
             <p className="mt-2 max-w-2xl text-muted-foreground">
               منظومة وكلاء ذكية: منسق، باحث، محلل، خبير تربوي، وكاتب نهائي. صممت لتوليد دروس، تحليل مشاكل التعلم، وبناء محتوى مغربي أفضل.
             </p>

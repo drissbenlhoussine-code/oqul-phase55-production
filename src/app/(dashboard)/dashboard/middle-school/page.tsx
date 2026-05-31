@@ -17,11 +17,11 @@ export default function MiddleSchoolPage() {
       <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 p-6 text-white shadow-sm">
         <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-indigo-100">
           <Brain className="h-3.5 w-3.5" />
-          Oqul Phase42
+          الإعدادي
         </div>
-        <h1 className="mt-4 text-3xl font-black tracking-tight">Middle School Intelligence Upgrade</h1>
+        <h1 className="mt-4 text-3xl font-black tracking-tight">مركز التعليم الإعدادي</h1>
         <p className="mt-3 max-w-2xl leading-8 text-indigo-100">
-          مركز ذكي للإعدادي: Curriculum Intelligence، دروس منظمة، أسئلة سقراطية، تحليل أخطاء، وليلى بالفصحى السلسة مع تغيير اللغة حسب طلب التلميذ.
+          مركز ذكي للإعدادي: ذكاء المنهج، دروس منظمة، أسئلة سقراطية، تحليل أخطاء، وليلى بالفصحى السلسة مع تغيير اللغة حسب طلب التلميذ.
         </p>
         <div className="mt-5 flex flex-wrap gap-3 text-sm">
           <span className="rounded-full bg-white/10 px-3 py-1">الأولى إعدادي</span>
@@ -32,9 +32,9 @@ export default function MiddleSchoolPage() {
 
       <div className="grid gap-4 md:grid-cols-3">
         {([
-          [Target, "Competencies", "كفاءات، أهداف، متطلبات قبلية، وأخطاء شائعة."],
-          [Languages, "Dynamic Language", "فصحى أولًا، ثم دارجة أو فرنسية أو إنجليزية عند الطلب."],
-          [LineChart, "Adaptive Progression", "تقدم حسب الفهم، الثقة، ونوع الخطأ."],
+          [Target, "الكفاءات", "كفاءات، أهداف، متطلبات قبلية، وأخطاء شائعة."],
+          [Languages, "اللغة بالاختيار", "فصحى أولًا، ثم دارجة أو فرنسية أو إنجليزية عند الطلب."],
+          [LineChart, "التقدم حسب الفهم", "تقدم حسب الفهم، الثقة، ونوع الخطأ."],
         ] satisfies Array<[LucideIcon, string, string]>).map(([Icon, title, body]) => (
           <Card key={String(title)}>
             <CardContent className="space-y-2 p-5">
@@ -62,9 +62,9 @@ export default function MiddleSchoolPage() {
       </section>
 
       <div className="rounded-3xl border bg-white p-5 shadow-sm">
-        <h2 className="font-bold">Real Lesson Engine</h2>
+        <h2 className="font-bold">محرك الدروس</h2>
         <p className="mt-2 leading-8 text-muted-foreground">
-          كل درس في Phase42 يُبنى كمسار: هدف، شرح قصير، مثال، سؤال تفاعلي، علاج خطأ، تقييم مصغر، وملخص. هذا ليس dump للمحتوى، بل محرك تعلّم قابل للتوسع والمراجعة.
+          كل درس في الإعدادي يُبنى كمسار: هدف، شرح قصير، مثال، سؤال تفاعلي، علاج خطأ، تقييم مصغر، وملخص. محرك تعلّم قابل للتوسع والمراجعة.
         </p>
         <Link href="/dashboard/leila" className="mt-4 inline-flex rounded-2xl bg-primary px-5 py-2.5 text-sm font-bold text-white">
           جرّب ليلى الآن

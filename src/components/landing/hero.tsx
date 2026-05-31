@@ -12,7 +12,7 @@ import { ArrowLeft, Star, Shield, BookOpen } from "lucide-react";
 const TRUST_BADGES = [
   { icon: "🇲🇦", text: "المنهج المغربي الرسمي" },
   { icon: "🔒", text: "آمن للأطفال 100%" },
-  { icon: "🎓", text: "من السنة 1 إلى 6" },
+  { icon: "🎓", text: "من الابتدائي إلى الثانوي" },
 ];
 
 const STATS = [
