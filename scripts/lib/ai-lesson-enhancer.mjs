@@ -20,11 +20,29 @@ export function requireGroqApiKey() {
   return process.env.GROQ_API_KEY;
 }
 
-function buildPrompt(lesson, feedback = []) {
+function isPrimaryMathLesson(lesson) {
+  const grade = String(lesson.grade_slug ?? lesson.grade_title ?? "").toLowerCase();
+  const subject = String(lesson.subject_slug ?? lesson.subject_title ?? "").toLowerCase();
+  return /^(1ap|2ap|3ap|4ap|5ap|6ap)$/.test(grade) && (subject.includes("math") || subject.includes("رياض"));
+}
+
+function buildPrompt(lesson, feedback = [], options = {}) {
+  const compact = Boolean(options.compact);
+  const primaryMath = isPrimaryMathLesson(lesson);
   const feedbackBlock = feedback.length
     ? `
 The previous generation failed quality checks. Fix these failures explicitly:
 ${feedback.map((item) => `- ${item}`).join("\n")}
+`
+    : "";
+  const compactBlock = compact
+    ? `
+Compact mode is ON.
+- Target 2500-3500 Arabic characters in the combined lesson body.
+- Keep prose short and avoid repeated paragraphs.
+- Still include objectives, short explanation, 3 solved examples, 8 exercises, hints, answers, structured explanations, common mistakes, guided practice, and Leila instructions.
+- Use concise Grade 1/Grade 2 language for primary math.
+${primaryMath ? "- Do not mention الجذع المشترك, الباكالوريا, or secondary-school exams for primary lessons." : ""}
 `
     : "";
 
@@ -75,6 +93,7 @@ Use these exact Arabic section ideas naturally in the content so automated quali
 تعريف، مفهوم، مثال محلول، خطوة، نحسب، الحل، تمرين، تطبيق، تدريب، أجب، احسب،
 الجواب، شرح، خطأ شائع، أخطاء شائعة، تصحيح، تلميح، العلاج، فرض، امتحان، وضعية، استعداد، ملخص، خلاصة، ليلى.
 
+${compactBlock}
 ${feedbackBlock}
 
 Return exactly this JSON shape:
@@ -129,6 +148,19 @@ Return exactly this JSON shape:
   ]
 }
 `;
+}
+
+export function estimateLessonGenerationTokens(lesson, options = {}) {
+  const prompt = buildPrompt(lesson, [], options);
+  const estimatedInputTokens = Math.ceil(prompt.length / 3.6);
+  const estimatedExpectedOutputTokens = options.compact ? 1800 : 3400;
+  return {
+    mode: options.compact ? "compact" : "standard",
+    inputPromptChars: prompt.length,
+    estimatedInputTokens,
+    estimatedExpectedOutputTokens,
+    estimatedTotalTokens: estimatedInputTokens + estimatedExpectedOutputTokens,
+  };
 }
 
 function stripJsonFences(text) {
@@ -468,20 +500,20 @@ export function findWeakSections(payload) {
   return weak;
 }
 
-async function callGroq(prompt) {
+async function callGroq(prompt, options = {}) {
   const groq = new Groq({ apiKey: requireGroqApiKey() });
   const completion = await groq.chat.completions.create({
     model: process.env.GROQ_MODEL ?? "llama-3.3-70b-versatile",
     messages: [{ role: "user", content: prompt }],
     temperature: 0.25,
-    max_tokens: Number(process.env.GROQ_MAX_TOKENS ?? 4500),
+    max_tokens: Number(process.env.GROQ_MAX_TOKENS ?? (options.compact ? 3000 : 4500)),
     stream: false,
   });
   return completion.choices[0]?.message?.content ?? "{}";
 }
 
-async function generateOnce(lesson, feedback = []) {
-  const text = await callGroq(buildPrompt(lesson, feedback));
+async function generateOnce(lesson, feedback = [], options = {}) {
+  const text = await callGroq(buildPrompt(lesson, feedback, options), options);
   return normalizeGeneratedLesson(parseGeneratedJson(text));
 }
 
@@ -490,6 +522,7 @@ export async function generateEnhancedLessonWithReport(lesson, options = {}) {
   const targetScore = Number(options.targetScore ?? MIN_TARGET_SCORE);
   const maxAttempts = Number(options.noRetry ? 1 : options.maxAttempts ?? 4);
   const saveArtifact = Boolean(options.saveArtifact);
+  const skipIfRateLimited = Boolean(options.skipIfRateLimited);
   let payload;
   let report;
   let feedback = [];
@@ -497,9 +530,9 @@ export async function generateEnhancedLessonWithReport(lesson, options = {}) {
 
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
     try {
-      payload = await generateOnce(lesson, feedback);
+      payload = await generateOnce(lesson, feedback, options);
     } catch (error) {
-      if (isGroqRateLimitError(error) && payload && report) {
+      if (isGroqRateLimitError(error) && (skipIfRateLimited || payload || report)) {
         const message = "Generation incomplete because retry was rate-limited.";
         artifactPath = saveArtifact
           ? await saveGeneratedLessonArtifact(lesson, payload, report, {
