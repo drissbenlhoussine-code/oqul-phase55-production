@@ -8,16 +8,21 @@ Branch: `claude/oqul-ux-stabilization-y9wBI`
 
 ## Status Overview
 
-| Category                      | Count / Status |
-|-------------------------------|---------------|
-| Scripts ready                 | 30            |
-| Scripts applied               | 0             |
-| Scripts verified in UI        | 0             |
-| Lessons completed end-to-end  | 0             |
-| Parent verification passed    | No            |
-| Leila verification passed     | No            |
+| Category                                          | Target | Current |
+|---------------------------------------------------|--------|---------|
+| Scripts ready                                     | 30     | 30      |
+| Scripts applied                                   | 30     | 0       |
+| Scripts verified in UI                            | 30     | 0       |
+| Lessons completed end-to-end (test accounts)      | ≥ 10   | 0       |
+| Parent verification passed                        | Yes    | No      |
+| Leila verification passed                         | Yes    | No      |
 
-**Gate:** Do not start Grade 3, Grade 2 French, or Grade 2 Science until all rows above are complete.
+**Gate:** Do not start Grade 3, Grade 2 French, or Grade 2 Science until every row in Current matches Target.
+
+> "Lesson opens" ≠ "Lesson completed."
+> The ≥ 10 completed sessions metric exists specifically to catch silent failures:
+> broken progress saving, scoring bugs, or Leila not engaging —
+> none of which are visible until a lesson is actually finished.
 
 ---
 
@@ -150,10 +155,16 @@ Day 3 verification checklist:
 Update the Status Overview table at the top of this file as each phase completes.
 Sprint 0 is complete when:
 
-- Scripts applied: **30**
-- Scripts verified in UI: **30**
-- Lessons completed end-to-end: **≥ 3**
-- Parent verification passed: **Yes**
-- Leila verification passed: **Yes**
+| Metric                                         | Target | Status |
+|------------------------------------------------|--------|--------|
+| Scripts applied                                | 30     | [ ]    |
+| Scripts verified in UI                         | 30     | [ ]    |
+| Lessons completed end-to-end (test accounts)   | ≥ 10   | [ ]    |
+| Parent verification passed                     | Yes    | [ ]    |
+| Leila verification passed                      | Yes    | [ ]    |
 
-Only after Sprint 0 sign-off: proceed to Grade 3 Arabic, Grade 2 French, or Grade 2 Science.
+All five rows must be checked before any of the following may begin:
+- Grade 3 Arabic
+- Grade 2 French
+- Grade 2 Science
+- Any new UI features
