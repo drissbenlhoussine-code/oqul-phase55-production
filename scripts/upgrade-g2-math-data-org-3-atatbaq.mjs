@@ -225,7 +225,7 @@ await withDb(async (client) => {
   const lesson = matches.find((r) =>
     (r.lesson_title ?? "").includes("أطبق") &&
     (r.lesson_title ?? "").includes("السنة الثانية")
-  ) ?? matches[2];
+  );
 
   if (!lesson) {
     console.error("❌ Lesson not found.");

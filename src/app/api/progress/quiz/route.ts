@@ -7,6 +7,18 @@ import { gamificationService, getLevelInfo } from "@/server/services/gamificatio
 import { masteryService } from "@/server/services/mastery-service";
 import { AppError } from "@/server/errors";
 
+// Normalize Arabic text for fill_blank comparison:
+// - strip diacritics (حركات) so missing tashkeel is never penalised
+// - unify hamza forms (أإآ → ا) since placement is a keyboard concern, not a Grade 2 skill
+// - ة is kept strict because الإملاء exercises explicitly test ة vs ه
+function normalizeAnswer(s: string): string {
+  return s
+    .trim()
+    .replace(/[ً-ْ]/g, "")   // remove diacritics
+    .replace(/[أإآٱ]/g, "ا")            // normalise hamza variants
+    .replace(/\s+/g, " ");              // collapse multiple spaces
+}
+
 const quizSchema = z.object({
   childId:  z.string().uuid(),
   lessonId: z.string().uuid(),
@@ -25,8 +37,8 @@ export const POST = withAuth(async ({ session, request }) => {
   const totalPoints = lesson.exercises.reduce((s, e) => s + e.points, 0);
 
   const feedback = lesson.exercises.map((ex) => {
-    const given   = body.answers[ex.id]?.trim().toLowerCase() ?? "";
-    const correct = given === ex.correctAnswer.trim().toLowerCase();
+    const given   = normalizeAnswer(body.answers[ex.id] ?? "");
+    const correct = given === normalizeAnswer(ex.correctAnswer);
     if (correct) earnedPoints += ex.points;
     return { exerciseId: ex.id, correct, yourAnswer: body.answers[ex.id] ?? "", correctAnswer: ex.correctAnswer, explanation: ex.explanation ?? null, points: ex.points };
   });

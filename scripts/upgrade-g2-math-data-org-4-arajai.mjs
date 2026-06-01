@@ -240,7 +240,7 @@ await withDb(async (client) => {
   const lesson = matches.find((r) =>
     (r.lesson_title ?? "").includes("أراجع") &&
     (r.lesson_title ?? "").includes("السنة الثانية")
-  ) ?? matches[matches.length - 1];
+  );
 
   if (!lesson) {
     console.error("❌ Lesson not found.");

@@ -224,23 +224,6 @@ const PAYLOAD = {
   ],
 };
 
-function selfScore() {
-  const { scoreLessonQuality } = await import("./lib/lesson-quality-tools.mjs");
-  const fakeRow = {
-    lesson_title: PAYLOAD.title,
-    unit_title: "تنظيم البيانات",
-    subject_title: "الرياضيات",
-    grade_title: "السنة الثانية ابتدائي",
-    explanation: PAYLOAD.explanation,
-    summary: PAYLOAD.summary,
-    objectives: PAYLOAD.objectives,
-    vocabulary: PAYLOAD.vocabulary,
-    examples: PAYLOAD.examples,
-    exercise_count: PAYLOAD.exercises.length,
-  };
-  return scoreLessonQuality(fakeRow);
-}
-
 await withDb(async (client) => {
   const matches = await fetchLessons(client, {
     grade: "2ap",
@@ -252,7 +235,7 @@ await withDb(async (client) => {
   const lesson = matches.find((r) =>
     (r.lesson_title ?? "").includes("أفهم") &&
     (r.lesson_title ?? "").includes("السنة الثانية")
-  ) ?? matches[0];
+  );
 
   if (!lesson) {
     console.error("❌ Lesson not found. Run db:seed and seed-full-curriculum first.");
