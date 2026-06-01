@@ -1,12 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
-import pg from "pg";
+import { neonConfig, Pool as NeonPool } from "@neondatabase/serverless";
+import { WebSocket } from "ws";
 import dotenv from "dotenv";
 
 dotenv.config({ path: ".env.local" });
 dotenv.config({ path: ".env" });
 
-const { Client } = pg;
+// Use WebSocket transport so connections go over port 443 (port 5432 is blocked in sandbox)
+neonConfig.webSocketConstructor = WebSocket;
 
 export const DEFAULT_PLACEHOLDER_THRESHOLD = 75;
 
@@ -30,22 +32,14 @@ export function requireDatabaseUrl() {
   return process.env.DATABASE_URL;
 }
 
-export function createDbClient() {
-  return new Client({
-    connectionString: requireDatabaseUrl(),
-    connectionTimeoutMillis: Number(process.env.PGCONNECT_TIMEOUT_MS ?? 15000),
-    query_timeout: Number(process.env.PGQUERY_TIMEOUT_MS ?? 30000),
-    statement_timeout: Number(process.env.PGSTATEMENT_TIMEOUT_MS ?? 30000),
-  });
-}
-
 export async function withDb(fn) {
-  const client = createDbClient();
-  await client.connect();
+  const pool = new NeonPool({ connectionString: requireDatabaseUrl() });
+  const client = await pool.connect();
   try {
     return await fn(client);
   } finally {
-    await client.end();
+    client.release();
+    await pool.end();
   }
 }
 
