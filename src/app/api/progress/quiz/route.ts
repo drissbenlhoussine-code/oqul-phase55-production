@@ -48,12 +48,17 @@ export const POST = withAuth(async ({ session, request }) => {
   const isPerfect = score === 100;
 
   // ── Persist ─────────────────────────────────────────────────────────────────
+  // Check before writing: if lesson already completed, skip gamification (idempotency)
+  const existingProgress = await progressRepo.getLessonProgress(body.childId, body.lessonId);
+  const alreadyCompleted = existingProgress?.status === "completed";
+
   const attempt = await progressRepo.saveQuizAttempt({ childId: body.childId, lessonId: body.lessonId, score, totalPoints, earnedPoints, answers: body.answers });
   await progressRepo.upsertLessonProgress({ childId: body.childId, lessonId: body.lessonId, status: passed ? "completed" : "needs_review", score });
 
   // ── Gamification ─────────────────────────────────────────────────────────────
+  // XP is awarded exactly once: skip if lesson was already completed before this attempt
   let gamification = null;
-  if (passed) {
+  if (passed && !alreadyCompleted) {
     const xpAmount = isPerfect ? 50 : Math.round(earnedPoints * 0.5);
     const source   = isPerfect ? "perfect_score" : "quiz_pass";
     const [{ streak }, xpResult] = await Promise.all([

@@ -9,6 +9,12 @@ export const progressRepo = {
     });
   },
 
+  async getLessonProgress(childId: string, lessonId: string) {
+    return db.query.lessonProgress.findFirst({
+      where: and(eq(lessonProgress.childId, childId), eq(lessonProgress.lessonId, lessonId)),
+    });
+  },
+
   async upsertLessonProgress(data: {
     childId: string;
     lessonId: string;
@@ -21,6 +27,10 @@ export const progressRepo = {
     });
 
     if (existing) {
+      // Never downgrade a completed lesson to in_progress or needs_review
+      if (existing.status === "completed" && data.status !== "completed") {
+        return existing;
+      }
       const [updated] = await db.update(lessonProgress)
         .set({ ...data, updatedAt: new Date(), completedAt: data.status === "completed" ? new Date() : existing.completedAt })
         .where(eq(lessonProgress.id, existing.id))
@@ -44,11 +54,6 @@ export const progressRepo = {
     answers: Record<string, string>;
   }) {
     const [attempt] = await db.insert(quizAttempts).values(data).returning();
-
-    // Update XP
-    const xpGain = Math.round(data.earnedPoints * 0.5);
-    await db.update(children).set({ xp: sql`xp + ${xpGain}` }).where(eq(children.id, data.childId));
-
     return attempt;
   },
 

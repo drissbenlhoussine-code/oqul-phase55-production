@@ -90,12 +90,24 @@ export class GamificationService {
     return { newXP, levelInfo, newBadges };
   }
 
-  /** Update daily streak — call on any learning activity */
+  /** Update daily streak — idempotent per child/day */
   async updateStreak(childId: string): Promise<{ streak: number; streakBonus: boolean }> {
-    const today  = new Date().toISOString().slice(0, 10);
+    const today     = new Date().toISOString().slice(0, 10);
     const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
 
-    // Upsert today's event
+    // Check if today's event already exists before inserting
+    const [existingToday] = await db
+      .select()
+      .from(streakEvents)
+      .where(and(eq(streakEvents.childId, childId), eq(streakEvents.date, today)));
+
+    if (existingToday) {
+      // Already processed today — return current streak without modifying it
+      const [child] = await db.select({ streak: children.streak }).from(children).where(eq(children.id, childId));
+      const streak = child?.streak ?? 0;
+      return { streak, streakBonus: streak % 7 === 0 };
+    }
+
     await db
       .insert(streakEvents)
       .values({ childId, date: today, xpEarned: 10 })
@@ -110,19 +122,11 @@ export class GamificationService {
     const [child] = await db.select({ streak: children.streak }).from(children).where(eq(children.id, childId));
     const currentStreak = child?.streak ?? 0;
 
-    let newStreak: number;
-    if (yesterdayEvent || currentStreak === 0) {
-      newStreak = currentStreak + 1;
-    } else {
-      newStreak = 1; // streak broken
-    }
+    const newStreak = (yesterdayEvent || currentStreak === 0) ? currentStreak + 1 : 1;
 
     await db.update(children).set({ streak: newStreak }).where(eq(children.id, childId));
 
-    // Streak badges
-    const streakBonus = newStreak % 7 === 0;
-
-    return { streak: newStreak, streakBonus };
+    return { streak: newStreak, streakBonus: newStreak % 7 === 0 };
   }
 
   /** Check which badges the child just earned */
