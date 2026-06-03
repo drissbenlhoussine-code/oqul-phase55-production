@@ -6,7 +6,7 @@ import { type NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { usersEmailRepo } from "@/server/repositories/users-email-repo";
 import { hashPassword } from "@/server/auth/password";
-import { isExpired } from "@/server/auth/tokens";
+import { hashToken, isExpired } from "@/server/auth/tokens";
 import { errorResponse } from "@/server/http/response";
 import { Errors } from "@/server/errors";
 import { audit } from "@/server/security/audit";
@@ -20,7 +20,8 @@ export async function POST(request: NextRequest) {
   try {
     const { token, password } = schema.parse(await request.json());
 
-    const user = await usersEmailRepo.findByResetToken(token);
+    // DB stores the SHA-256 hash; look up by hash of the incoming plain token
+    const user = await usersEmailRepo.findByResetToken(hashToken(token));
 
     if (!user) {
       throw Errors.validation("الرابط غير صالح أو منتهي الصلاحية.");

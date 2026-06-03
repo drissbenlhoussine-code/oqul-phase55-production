@@ -16,8 +16,12 @@ async function send(opts: SendEmailOptions): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY;
   const from   = process.env.EMAIL_FROM ?? "Oqul <no-reply@oqul.ma>";
 
-  // Dev fallback — log instead of send
   if (!apiKey) {
+    if (process.env.NODE_ENV === "production") {
+      // Throw so the caller's .catch() logs it — without this the bug is invisible
+      throw new Error("RESEND_API_KEY is not configured. Email not sent. Set this env variable in production.");
+    }
+    // Dev fallback — log instead of send
     console.info("[EMAIL:dev]", { to: opts.to, subject: opts.subject });
     console.info("[EMAIL:dev] HTML preview:\n", opts.html.replace(/<[^>]+>/g, "").slice(0, 400));
     return;

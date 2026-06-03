@@ -9,7 +9,7 @@ import { z } from "zod";
 import { usersRepo } from "@/server/repositories/users";
 import { usersEmailRepo } from "@/server/repositories/users-email-repo";
 import { emailService } from "@/server/email/email-service";
-import { generateSecureToken, passwordResetExpiry } from "@/server/auth/tokens";
+import { generateSecureToken, hashToken, passwordResetExpiry } from "@/server/auth/tokens";
 import { errorResponse } from "@/server/http/response";
 
 const schema = z.object({
@@ -33,7 +33,8 @@ export async function POST(request: NextRequest) {
     const token     = generateSecureToken();
     const expiresAt = passwordResetExpiry();
 
-    await usersEmailRepo.setResetToken(user.id, token, expiresAt);
+    // Store the hash — never the raw token — so a DB leak can't be used to reset accounts
+    await usersEmailRepo.setResetToken(user.id, hashToken(token), expiresAt);
 
     // Fire-and-forget — don't block the response on email delivery
     emailService.sendPasswordReset({
