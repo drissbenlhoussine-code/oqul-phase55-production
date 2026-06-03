@@ -11,7 +11,12 @@
 
 import { fetchLessons, scoreLessonQuality, updateLessonWithPayload, withDb, printLessonSummary, parseArgs } from "./lib/lesson-quality-tools.mjs";
 
-const args = parseArgs();
+// ── Artifact metadata ────────────────────────────────────────────────────────
+const LESSON_ID      = "eecdb95f-f91c-4404-828c-3b84c516cd27"; // exact UUID — no fallback
+const SAFE_TO_APPLY  = true;                                     // artifact validation flag
+const EXPECTED_TITLE = "أطبق";                                   // title guard: wrong row → abort
+
+const args  = parseArgs();
 const apply = Boolean(args.apply);
 
 const PAYLOAD = {
@@ -215,51 +220,74 @@ const PAYLOAD = {
 };
 
 await withDb(async (client) => {
-  const matches = await fetchLessons(client, {
-    grade: "2ap",
-    subject: "الرياضيات",
-    title: "تنظيم البيانات",
-    limit: 10,
-  });
+  // ── Safety gate ────────────────────────────────────────────────────────────
+  if (!SAFE_TO_APPLY) {
+    console.error("❌ Artifact not marked safe_to_apply. Aborting.");
+    process.exit(1);
+  }
 
-  const lesson = matches.find((r) =>
-    (r.lesson_title ?? "").includes("أطبق") &&
-    (r.lesson_title ?? "").includes("السنة الثانية")
-  );
+  // ── Exact ID lookup — no fuzzy matching, no fallback ──────────────────────
+  const rows = await fetchLessons(client, { lessonId: LESSON_ID, limit: 1 });
+  const lesson = rows[0];
 
   if (!lesson) {
-    console.error("❌ Lesson not found.");
+    console.error(`❌ Lesson not found: ${LESSON_ID}`);
     process.exit(1);
   }
 
+  // ── Title guard: confirm we have the right row ─────────────────────────────
+  if (!(lesson.lesson_title ?? "").includes(EXPECTED_TITLE)) {
+    console.error(`❌ ID matched but title "${lesson.lesson_title}" does not contain "${EXPECTED_TITLE}". Wrong lesson — aborting.`);
+    process.exit(1);
+  }
+
+  // ── Before summary ─────────────────────────────────────────────────────────
+  console.log("\n── BEFORE ───────────────────────────────────────────────────");
+  console.log("Lesson ID:   ", lesson.lesson_id);
+  console.log("Title:       ", lesson.lesson_title);
   printLessonSummary("Current state", lesson);
-  const dryQuality = scoreLessonQuality({
+  const beforeQuality = scoreLessonQuality(lesson);
+  console.log("Before score:", beforeQuality.score, "| Issues:", beforeQuality.issues.join(", ") || "none");
+
+  // ── After (dry-run) quality check ─────────────────────────────────────────
+  const afterQuality = scoreLessonQuality({
     ...lesson,
-    explanation: PAYLOAD.explanation,
-    summary: PAYLOAD.summary,
-    objectives: PAYLOAD.objectives,
-    vocabulary: PAYLOAD.vocabulary,
-    examples: PAYLOAD.examples,
+    explanation:    PAYLOAD.explanation,
+    summary:        PAYLOAD.summary,
+    objectives:     PAYLOAD.objectives,
+    vocabulary:     PAYLOAD.vocabulary,
+    examples:       PAYLOAD.examples,
     exercise_count: PAYLOAD.exercises.length,
   });
-  console.log("\nNew content score:", dryQuality.score, "| Issues:", dryQuality.issues.join(", ") || "none ✓");
 
-  if (dryQuality.score < 85) {
-    console.error(`❌ Quality gate failed: ${dryQuality.score}/100`);
+  console.log("\n── AFTER (dry-run) ──────────────────────────────────────────");
+  console.log("Content chars:", PAYLOAD.explanation.length);
+  console.log("Exercises:   ", PAYLOAD.exercises.length);
+  console.log("After score: ", afterQuality.score, "| Issues:", afterQuality.issues.join(", ") || "none ✓");
+
+  if (afterQuality.score < 85) {
+    console.error(`\n❌ Quality gate failed: score ${afterQuality.score} < 85. Do not apply.`);
     process.exit(1);
   }
-  console.log(`✅ Quality gate passed: ${dryQuality.score}/100`);
+  console.log(`\n✅ Quality gate passed: ${afterQuality.score}/100`);
 
   if (!apply) {
-    console.log("\nDry run. Lesson ID:", lesson.lesson_id);
-    console.log("To apply: node scripts/upgrade-g2-math-data-org-3-atatbaq.mjs --apply");
+    console.log("\n── DRY RUN — no DB writes ────────────────────────────────────");
+    console.log("Lesson ID:  ", LESSON_ID);
+    console.log("Title:      ", lesson.lesson_title);
+    console.log("safe_to_apply:", SAFE_TO_APPLY);
+    console.log("\nTo apply: node scripts/upgrade-g2-math-data-org-3-atatbaq.mjs --apply");
     return;
   }
 
-  const counts = await updateLessonWithPayload(client, lesson.lesson_id, PAYLOAD, { replaceExercises: true });
+  // ── Apply ──────────────────────────────────────────────────────────────────
+  const counts = await updateLessonWithPayload(client, LESSON_ID, PAYLOAD, { replaceExercises: true });
+  console.log("\n── APPLIED ──────────────────────────────────────────────────");
   console.table([counts]);
-  const [verified] = await fetchLessons(client, { lessonId: lesson.lesson_id, limit: 1 });
+
+  const [verified] = await fetchLessons(client, { lessonId: LESSON_ID, limit: 1 });
   const verifiedQ = scoreLessonQuality(verified);
-  console.log("Post-apply score:", verifiedQ.score);
+  console.log("Post-apply score:", verifiedQ.score, "| Content chars:", String(verified.explanation ?? "").length);
   if (verifiedQ.score >= 85) console.log("✅ Upgrade complete!");
+  else console.warn("⚠️  Score below 85 after apply — check the DB.");
 });
