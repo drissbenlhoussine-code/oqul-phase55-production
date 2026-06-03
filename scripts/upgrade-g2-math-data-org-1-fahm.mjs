@@ -300,4 +300,4 @@ await withDb(async (client) => {
   console.log("Post-apply score:", verifiedQ.score, "| Content chars:", String(verified.explanation ?? "").length);
   if (verifiedQ.score >= 85) console.log("✅ Upgrade complete!");
   else console.warn("⚠️  Score below 85 after apply — check the DB.");
-});
+}, { useHttp: !apply });

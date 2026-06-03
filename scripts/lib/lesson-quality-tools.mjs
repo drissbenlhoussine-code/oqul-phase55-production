@@ -1,14 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import { neonConfig, Pool as NeonPool } from "@neondatabase/serverless";
+import { neon, neonConfig, Pool as NeonPool } from "@neondatabase/serverless";
 import { WebSocket } from "ws";
 import dotenv from "dotenv";
 
 dotenv.config({ path: ".env.local" });
 dotenv.config({ path: ".env" });
-
-// Use WebSocket transport so connections go over port 443 (port 5432 is blocked in sandbox)
-neonConfig.webSocketConstructor = WebSocket;
 
 export const DEFAULT_PLACEHOLDER_THRESHOLD = 75;
 
@@ -32,8 +29,30 @@ export function requireDatabaseUrl() {
   return process.env.DATABASE_URL;
 }
 
-export async function withDb(fn) {
-  const pool = new NeonPool({ connectionString: requireDatabaseUrl() });
+function makeHttpClient(connectionString) {
+  const sql = neon(connectionString);
+  return {
+    async query(text, params = []) {
+      const rows = await sql(text, params);
+      return { rows, rowCount: rows.length };
+    },
+    release() {},
+  };
+}
+
+export async function withDb(fn, { useHttp = false } = {}) {
+  if (useHttp) {
+    const client = makeHttpClient(requireDatabaseUrl());
+    return await fn(client);
+  }
+  // WebSocket pool — required for transactional writes (BEGIN/COMMIT/ROLLBACK)
+  neonConfig.webSocketConstructor = WebSocket;
+  const pool = new NeonPool({
+    connectionString: requireDatabaseUrl(),
+    connectionTimeoutMillis: 20_000,
+    idleTimeoutMillis: 30_000,
+    max: 1,
+  });
   const client = await pool.connect();
   try {
     return await fn(client);
@@ -41,6 +60,10 @@ export async function withDb(fn) {
     client.release();
     await pool.end();
   }
+}
+
+export async function withReadDb(fn) {
+  return withDb(fn, { useHttp: true });
 }
 
 export async function getColumns(client, tableName) {
