@@ -84,18 +84,16 @@ function buildCSP(nonce: string, isDev: boolean): string {
 
 /** Paths that require admin role — non-admins are redirected to /dashboard */
 const ADMIN_PREFIXES = [
+  // Content management — can alter official lessons
   "/admin",
   "/dashboard/pipeline",
-  "/dashboard/research",
-  "/dashboard/phase55",
-  "/dashboard/exam-prediction",
-  "/dashboard/exam-intelligence",
   "/dashboard/content-enhancement",
-  "/dashboard/learning-paths",
   "/dashboard/official-alignment",
-  "/dashboard/quality-depth",
+  // Quality & monitoring — admin visibility only
+  "/dashboard/phase55",
   "/dashboard/curriculum-quality",
-  "/dashboard/secondary-school",
+  "/dashboard/quality-depth",
+  "/dashboard/exam-intelligence",
 ];
 
 function isPublic(pathname: string): boolean {
