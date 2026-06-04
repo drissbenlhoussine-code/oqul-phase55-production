@@ -5,6 +5,8 @@ import { cn } from "@/lib/cn";
 import {
   LayoutDashboard, BookOpen, MessageCircle, BarChart3,
   Settings, LogOut, Star, Users, Sparkles, X, Brain, FlaskConical,
+  Activity, Wand2, Layers, ClipboardCheck, GitBranch, AlignLeft,
+  TrendingUp, Zap, GraduationCap,
 } from "lucide-react";
 
 const nav = [
@@ -16,10 +18,19 @@ const nav = [
 ];
 
 const adminNav = [
-  { href: "/admin", icon: Sparkles, label: "محتوى AI" },
-  { href: "/admin/curriculum-progress", icon: BarChart3, label: "تقدم المنهج" },
-  { href: "/dashboard/pipeline", icon: Brain,            label: "عقول المتعدد" },
-  { href: "/dashboard/research", icon: FlaskConical,     label: "البحث الذكي" },
+  { href: "/admin",                          icon: Sparkles,       label: "محتوى AI" },
+  { href: "/admin/curriculum-progress",      icon: BarChart3,      label: "تقدم المنهج" },
+  { href: "/dashboard/pipeline",             icon: Brain,          label: "عقول المتعدد" },
+  { href: "/dashboard/research",             icon: FlaskConical,   label: "البحث الذكي" },
+  { href: "/dashboard/phase55",              icon: Activity,       label: "Phase55" },
+  { href: "/dashboard/content-enhancement", icon: Wand2,          label: "تحسين المحتوى" },
+  { href: "/dashboard/quality-depth",        icon: Layers,         label: "عمق الجودة" },
+  { href: "/dashboard/curriculum-quality",   icon: ClipboardCheck, label: "جودة المنهج" },
+  { href: "/dashboard/learning-paths",       icon: GitBranch,      label: "مسارات التعلم" },
+  { href: "/dashboard/official-alignment",   icon: AlignLeft,      label: "المواءمة الرسمية" },
+  { href: "/dashboard/exam-prediction",      icon: TrendingUp,     label: "توقع الامتحان" },
+  { href: "/dashboard/exam-intelligence",    icon: Zap,            label: "ذكاء الامتحان" },
+  { href: "/dashboard/secondary-school",     icon: GraduationCap,  label: "الثانوي" },
 ];
 
 interface SidebarProps {

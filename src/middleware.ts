@@ -87,6 +87,15 @@ const ADMIN_PREFIXES = [
   "/admin",
   "/dashboard/pipeline",
   "/dashboard/research",
+  "/dashboard/phase55",
+  "/dashboard/exam-prediction",
+  "/dashboard/exam-intelligence",
+  "/dashboard/content-enhancement",
+  "/dashboard/learning-paths",
+  "/dashboard/official-alignment",
+  "/dashboard/quality-depth",
+  "/dashboard/curriculum-quality",
+  "/dashboard/secondary-school",
 ];
 
 function isPublic(pathname: string): boolean {
