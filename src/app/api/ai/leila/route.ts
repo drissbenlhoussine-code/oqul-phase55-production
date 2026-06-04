@@ -103,12 +103,15 @@ export async function POST(request: Request) {
     });
 
     const context = {
-      childName:      child.name,
-      gradeName:      child.grade?.titleAr,
+      childName:         child.name,
+      gradeName:         child.grade?.titleAr,
       gradeLevel,
-      lessonTitle:    lesson?.titleAr,
-      lessonContent:  lesson?.content?.explanation,
-      subjectName:    lesson?.unit?.subject?.titleAr,
+      lessonTitle:       lesson?.titleAr,
+      lessonContent:     lesson?.content?.explanation,
+      lessonVocabulary:  lesson?.content?.vocabulary ?? [],
+      lessonExamples:    lesson?.content?.examples ?? [],
+      lessonSummary:     lesson?.content?.summary ?? undefined,
+      subjectName:       lesson?.unit?.subject?.titleAr,
       weakPoints:     needsReview,
       recentErrors:   needsReview,
       completedCount: completed.length,

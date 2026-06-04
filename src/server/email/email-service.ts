@@ -12,15 +12,68 @@ export interface SendEmailOptions {
   html:    string;
 }
 
+// ─── Startup validation ───────────────────────────────────────────────────────
+
+/**
+ * Call at app startup (instrumentation.ts) to fail loudly in production
+ * when required email env vars are absent.
+ */
+export function validateEmailConfig(): void {
+  const missing: string[] = [];
+  if (!process.env.RESEND_API_KEY?.trim())      missing.push("RESEND_API_KEY");
+  if (!process.env.NEXT_PUBLIC_APP_URL?.trim()) missing.push("NEXT_PUBLIC_APP_URL");
+
+  if (missing.length === 0) return;
+
+  const msg = `[Email] Missing required env vars: ${missing.join(", ")}`;
+  if (process.env.NODE_ENV === "production") {
+    throw new Error(msg);
+  } else {
+    console.warn(`[Email:dev] ${msg}`);
+  }
+}
+
+// ─── Resend error categorization ─────────────────────────────────────────────
+
+type ResendErrorCode =
+  | "INVALID_API_KEY"
+  | "DOMAIN_NOT_VERIFIED"
+  | "INVALID_PAYLOAD"
+  | "RATE_LIMITED"
+  | "RESEND_SERVER_ERROR"
+  | "UNKNOWN";
+
+function categorizeResendError(status: number): ResendErrorCode {
+  if (status === 401) return "INVALID_API_KEY";
+  if (status === 403) return "DOMAIN_NOT_VERIFIED";
+  if (status === 422) return "INVALID_PAYLOAD";
+  if (status === 429) return "RATE_LIMITED";
+  if (status >= 500)  return "RESEND_SERVER_ERROR";
+  return "UNKNOWN";
+}
+
+// ─── Send ─────────────────────────────────────────────────────────────────────
+
 async function send(opts: SendEmailOptions): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY;
   const from   = process.env.EMAIL_FROM ?? "Oqul <no-reply@oqul.ma>";
 
-  // Dev fallback — log instead of send
-  if (!apiKey) {
+  const keyPresent = Boolean(apiKey?.trim());
+  const urlPresent = Boolean(process.env.NEXT_PUBLIC_APP_URL?.trim());
+
+  if (!keyPresent) {
+    if (process.env.NODE_ENV === "production") {
+      throw new Error("[Email] RESEND_API_KEY: MISSING — email not sent.");
+    }
+    console.info("[EMAIL:dev] RESEND_API_KEY: MISSING — logging instead of sending");
+    console.info("[EMAIL:dev] NEXT_PUBLIC_APP_URL:", urlPresent ? "PRESENT" : "MISSING");
     console.info("[EMAIL:dev]", { to: opts.to, subject: opts.subject });
     console.info("[EMAIL:dev] HTML preview:\n", opts.html.replace(/<[^>]+>/g, "").slice(0, 400));
     return;
+  }
+
+  if (!urlPresent && process.env.NODE_ENV === "production") {
+    throw new Error("[Email] NEXT_PUBLIC_APP_URL: MISSING — reset links will be broken.");
   }
 
   const res = await fetch("https://api.resend.com/emails", {
@@ -34,7 +87,8 @@ async function send(opts: SendEmailOptions): Promise<void> {
 
   if (!res.ok) {
     const body = await res.text();
-    throw new Error(`[Email] Resend error ${res.status}: ${body}`);
+    const code = categorizeResendError(res.status);
+    throw new Error(`[Email] Resend ${res.status} (${code}): ${body}`);
   }
 }
 

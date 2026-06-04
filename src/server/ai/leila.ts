@@ -20,6 +20,9 @@ export interface LeilaContext {
   gradeLevel?:     number; // 1-12
   lessonTitle?:    string;
   lessonContent?:  string;
+  lessonVocabulary?: { word: string; definition: string }[];
+  lessonExamples?:   { text: string; note?: string }[];
+  lessonSummary?:    string;
   subjectName?:    string;
   weakPoints?:     string[];
   recentErrors?:   string[];
@@ -111,10 +114,20 @@ export function buildLeilaSystemPrompt(ctx: LeilaContext): string {
   const adaptiveNote = getAdaptiveNote(name, ctx.attemptCount ?? 0);
   const clarificationRule = getClarificationRule(name, ctx.lastMessage);
 
+  const vocabCtx = ctx.lessonVocabulary?.length
+    ? `\n📖 مفردات الدرس:\n${ctx.lessonVocabulary.slice(0, 8).map((v) => `• ${v.word}: ${v.definition}`).join("\n")}`
+    : "";
+  const examplesCtx = ctx.lessonExamples?.length
+    ? `\n✏️ أمثلة الدرس:\n${ctx.lessonExamples.slice(0, 4).map((e) => `• ${e.text}${e.note ? ` (${e.note})` : ""}`).join("\n")}`
+    : "";
+  const summaryCtx = ctx.lessonSummary
+    ? `\n📝 ملخص الدرس: ${ctx.lessonSummary.slice(0, 300)}`
+    : "";
+
   const lessonCtx = ctx.lessonTitle
-    ? `\n📚 الدرس الحالي: "${ctx.lessonTitle}" — ${ctx.subjectName ?? ""}\n${
-        ctx.lessonContent ? `\nمحتوى الدرس:\n${ctx.lessonContent.slice(0, 800)}\n` : ""
-      }`
+    ? `\n📚 الدرس الحالي: "${ctx.lessonTitle}" — ${ctx.subjectName ?? ""}${
+        ctx.lessonContent ? `\n\nمحتوى الدرس:\n${ctx.lessonContent.slice(0, 800)}` : ""
+      }${vocabCtx}${examplesCtx}${summaryCtx}\n`
     : "";
 
   const weakCtx = ctx.weakPoints?.length
