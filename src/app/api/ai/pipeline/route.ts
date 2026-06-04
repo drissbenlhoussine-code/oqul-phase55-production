@@ -41,8 +41,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: false, message: "GROQ_API_KEY غير موجود في البيئة" }, { status: 503 });
   }
 
-  const { input, model } = parsed.data as { input: string; flow: PipelineFlowId | "edu"; model: string };
-  const flow = parsed.data.flow === "edu" ? "lesson" : parsed.data.flow as PipelineFlowId;
+  const { input, flow, model } = parsed.data as { input: string; flow: PipelineFlowId; model: string };
   const agentIds = getPipelineAgents(flow);
   const groq = new Groq({ apiKey });
 

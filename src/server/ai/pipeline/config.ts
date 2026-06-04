@@ -1,6 +1,13 @@
-export type PipelineFlowId = "full" | "research" | "analysis" | "quick" | "lesson";
+export type PipelineFlowId = "full" | "research" | "analysis" | "quick" | "lesson" | "edu";
 
-export type AgentId = "orchestrator" | "researcher" | "analyst" | "pedagogue" | "writer";
+export type AgentId =
+  | "orchestrator"
+  | "researcher"
+  | "analyst"
+  | "pedagogue"
+  | "writer"
+  | "checker"
+  | "exercise_gen";
 
 export const PIPELINE_FLOWS: Array<{
   id: PipelineFlowId;
@@ -10,6 +17,14 @@ export const PIPELINE_FLOWS: Array<{
   agents: AgentId[];
   estimatedSeconds: number;
 }> = [
+  {
+    id: "edu",
+    nameAr: "بحث تعليمي",
+    descriptionAr: "جميع الوكلاء — ملخص + شرح + تمارين + خطة مراجعة",
+    icon: "🧠",
+    agents: ["orchestrator", "researcher", "analyst", "pedagogue", "checker", "exercise_gen"],
+    estimatedSeconds: 60,
+  },
   {
     id: "full",
     nameAr: "بحث شامل",
@@ -54,8 +69,8 @@ export const PIPELINE_FLOWS: Array<{
 
 export const AGENTS: Record<AgentId, { nameAr: string; roleAr: string; icon: string; color: string }> = {
   orchestrator: {
-    nameAr: "المنسق",
-    roleAr: "يفهم الطلب، يحدد الخطة، ويقسم العمل",
+    nameAr: "منظم الخطة",
+    roleAr: "يفهم الطلب، يحدد الهدف، ويضع خطة العمل",
     icon: "⬡",
     color: "#6366f1",
   },
@@ -72,10 +87,22 @@ export const AGENTS: Record<AgentId, { nameAr: string; roleAr: string; icon: str
     color: "#8b5cf6",
   },
   pedagogue: {
-    nameAr: "الخبير التربوي",
-    roleAr: "يحوّل المعرفة إلى تعلم مناسب للطفل المغربي",
+    nameAr: "الشارح",
+    roleAr: "يحوّل المعرفة إلى شرح واضح مناسب للطالب المغربي",
     icon: "🌸",
     color: "#ec4899",
+  },
+  checker: {
+    nameAr: "المدقق",
+    roleAr: "يتحقق من دقة المعلومات وجودتها قبل إنتاج النتيجة",
+    icon: "✓",
+    color: "#f59e0b",
+  },
+  exercise_gen: {
+    nameAr: "مولد التمارين",
+    roleAr: "ينتج تمارين مقترحة وخطة مراجعة منظمة",
+    icon: "📝",
+    color: "#06b6d4",
   },
   writer: {
     nameAr: "الكاتب النهائي",
