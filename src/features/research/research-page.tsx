@@ -174,7 +174,7 @@ function FinalOutput({ text }: { text: string }) {
       <div className="flex items-center justify-between px-5 py-3 border-b border-primary/10">
         <div className="flex items-center gap-2">
           <CheckCircle className="w-4 h-4 text-primary" />
-          <span className="text-sm font-semibold text-primary">النتيجة النهائية</span>
+          <span className="text-sm font-semibold text-primary">نتيجة الفريق</span>
         </div>
         <button
           onClick={() => void copy()}
@@ -336,7 +336,7 @@ export function ResearchPage() {
           البحث الذكي متعدد الوكلاء
         </h1>
         <p className="text-sm text-muted-foreground mt-1">
-          فريق من الوكلاء الذكيين يعملون بالتسلسل — كل وكيل متخصص يُكمل عمل من سبقه
+          للبحث والتحليل والمقارنة وحل المشكلات — فريق متكامل من الوكلاء يعملون بالتسلسل
         </p>
       </div>
 
@@ -431,12 +431,12 @@ export function ResearchPage() {
       {/* ── Empty state ── */}
       {!hasRun && !error && (
         <div className="text-center py-10 text-muted-foreground">
-          <p className="text-sm">اكتب سؤالاً أو موضوعاً واضغط <strong>ابحث</strong> — سيعمل الوكلاء أعلاه بالتسلسل وتتابع تقدمهم مباشرةً.</p>
+          <p className="text-sm">اكتب سؤالاً بحثياً أو مشكلة دراسية أو طلب مقارنة — سيعمل الفريق أعلاه بالتسلسل وتتابع كل وكيل مباشرةً.</p>
           <div className="mt-4 flex flex-wrap gap-2 justify-center">
             {[
-              "ما هي الكسور الاعتيادية وكيف أجمعها؟",
-              "اشرح درس التعبير الكتابي للإعدادي",
-              "ما هو دور الخلية في جسم الإنسان؟",
+              "قارن بين الفيزياء الكلاسيكية والكميّة",
+              "ما أسباب ضعفي في الرياضيات وكيف أحسّن؟",
+              "ساعدني على التحضير لامتحان العلوم",
             ].map((s) => (
               <button
                 key={s}
