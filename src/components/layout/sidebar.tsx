@@ -6,7 +6,7 @@ import {
   LayoutDashboard, BookOpen, MessageCircle, BarChart3,
   Settings, LogOut, Star, Users, Sparkles, X, Brain, FlaskConical,
   Activity, Wand2, Layers, ClipboardCheck, GitBranch, AlignLeft,
-  TrendingUp, Zap, GraduationCap,
+  TrendingUp, Zap, GraduationCap, BookMarked,
 } from "lucide-react";
 
 // ── Nav types ──────────────────────────────────────────────────────────────────
@@ -14,28 +14,30 @@ import {
 type NavItem    = { href: string; icon: React.ElementType; label: string };
 type NavSection = { title: string; items: NavItem[] };
 
-// ── Student sections (all authenticated users) ─────────────────────────────────
+// ── Base learning section (all authenticated users, including primary) ──────────
 
-const studentSections: NavSection[] = [
-  {
-    title: "التعلم",
-    items: [
-      { href: "/dashboard",          icon: LayoutDashboard, label: "الرئيسية" },
-      { href: "/dashboard/lessons",  icon: BookOpen,         label: "الدروس" },
-      { href: "/dashboard/leila",    icon: MessageCircle,    label: "اسألي ليلى" },
-      { href: "/dashboard/progress", icon: BarChart3,         label: "تقدمي" },
-    ],
-  },
-  {
-    title: "أدوات ذكية",
-    items: [
-      { href: "/dashboard/research",         icon: FlaskConical,  label: "البحث الذكي" },
-      { href: "/dashboard/learning-paths",   icon: GitBranch,     label: "مساري التعليمي" },
-      { href: "/dashboard/exam-prediction",  icon: TrendingUp,    label: "استعداد للامتحان" },
-      { href: "/dashboard/secondary-school", icon: GraduationCap, label: "الثانوي" },
-    ],
-  },
-];
+const learnSection: NavSection = {
+  title: "التعلم",
+  items: [
+    { href: "/dashboard",          icon: LayoutDashboard, label: "الرئيسية" },
+    { href: "/dashboard/lessons",  icon: BookOpen,         label: "الدروس" },
+    { href: "/dashboard/leila",    icon: MessageCircle,    label: "اسألي ليلى" },
+    { href: "/dashboard/progress", icon: BarChart3,         label: "تقدمي" },
+  ],
+};
+
+// ── Advanced AI tools (middle/secondary/common-core only — hidden for primary) ──
+
+const aiToolsSection: NavSection = {
+  title: "أدوات ذكية",
+  items: [
+    { href: "/dashboard/research",        icon: FlaskConical,  label: "البحث الذكي متعدد الوكلاء" },
+    { href: "/dashboard/lesson-helper",   icon: BookMarked,    label: "مولد الدروس" },
+    { href: "/dashboard/learning-paths",  icon: GitBranch,     label: "مساري التعليمي" },
+    { href: "/dashboard/exam-prediction", icon: TrendingUp,    label: "استعداد للامتحان" },
+    { href: "/dashboard/secondary-school",icon: GraduationCap, label: "الثانوي والباكالوريا" },
+  ],
+};
 
 // ── Parent section ─────────────────────────────────────────────────────────────
 
@@ -73,10 +75,11 @@ const adminSections: NavSection[] = [
 // ── Sidebar props ──────────────────────────────────────────────────────────────
 
 interface SidebarProps {
-  onLogout?: () => void;
-  isOpen?:   boolean;
-  onClose?:  () => void;
-  isAdmin?:  boolean;
+  onLogout?:  () => void;
+  isOpen?:    boolean;
+  onClose?:   () => void;
+  isAdmin?:   boolean;
+  isPrimary?: boolean;
 }
 
 // ── Section renderer ───────────────────────────────────────────────────────────
@@ -120,7 +123,7 @@ function SidebarSection({
 
 // ── Sidebar ────────────────────────────────────────────────────────────────────
 
-export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false }: SidebarProps) {
+export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false, isPrimary = false }: SidebarProps) {
   const pathname = usePathname();
 
   const content = (
@@ -156,9 +159,8 @@ export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false }: 
 
       {/* Nav sections */}
       <nav className="flex-1 px-3 py-2 overflow-y-auto">
-        {studentSections.map((section) => (
-          <SidebarSection key={section.title} section={section} pathname={pathname} onClose={onClose} />
-        ))}
+        <SidebarSection section={learnSection} pathname={pathname} onClose={onClose} />
+        {!isPrimary && <SidebarSection section={aiToolsSection} pathname={pathname} onClose={onClose} />}
         <SidebarSection section={parentSection} pathname={pathname} onClose={onClose} />
         {isAdmin && adminSections.map((section) => (
           <SidebarSection key={section.title} section={section} pathname={pathname} onClose={onClose} />

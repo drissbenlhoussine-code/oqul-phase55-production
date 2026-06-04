@@ -14,18 +14,26 @@ import { useRouter } from "next/navigation";
 import { Sidebar } from "@/components/layout/sidebar";
 import { Header }  from "@/components/layout/header";
 
-interface Child { id: string; name: string; xp: number; }
+interface Child { id: string; name: string; xp: number; grade?: { slug?: string } }
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const [activeChild,  setActiveChild]  = useState<Child | null>(null);
   const [sidebarOpen,  setSidebarOpen]  = useState(false);
   const [isAdmin,      setIsAdmin]      = useState(false);
+  const [isPrimary,    setIsPrimary]    = useState(false);
 
   useEffect(() => {
     fetch("/api/children")
       .then((r) => r.json())
-      .then((d) => { if (d.success && d.data?.length) setActiveChild(d.data[0]); })
+      .then((d) => {
+        if (d.success && d.data?.length) {
+          const child = d.data[0] as Child;
+          setActiveChild(child);
+          // Primary school: grade slugs ap1–ap6
+          setIsPrimary(Boolean(child.grade?.slug?.startsWith("ap")));
+        }
+      })
       .catch(() => {});
     fetch("/api/me")
       .then((r) => r.json())
@@ -46,6 +54,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
         isAdmin={isAdmin}
+        isPrimary={isPrimary}
       />
       <div className="flex flex-col flex-1 overflow-hidden min-w-0">
         <Header
