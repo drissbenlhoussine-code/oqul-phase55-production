@@ -14,7 +14,9 @@ import {
 type NavItem    = { href: string; icon: React.ElementType; label: string };
 type NavSection = { title: string; items: NavItem[] };
 
-// ── Base learning section (all authenticated users, including primary) ──────────
+export type GradeLevel = "primary" | "middle" | "secondary" | "unknown";
+
+// ── Base learning section (all authenticated users) ────────────────────────────
 
 const learnSection: NavSection = {
   title: "التعلم",
@@ -26,7 +28,7 @@ const learnSection: NavSection = {
   ],
 };
 
-// ── Advanced AI tools (middle/secondary/common-core only — hidden for primary) ──
+// ── AI tools — middle school and above (hidden for primary) ────────────────────
 
 const aiToolsSection: NavSection = {
   title: "أدوات ذكية",
@@ -35,7 +37,15 @@ const aiToolsSection: NavSection = {
     { href: "/dashboard/lesson-helper",   icon: BookMarked,    label: "مولد الدروس" },
     { href: "/dashboard/learning-paths",  icon: GitBranch,     label: "مساري التعليمي" },
     { href: "/dashboard/exam-prediction", icon: TrendingUp,    label: "استعداد للامتحان" },
-    { href: "/dashboard/secondary-school",icon: GraduationCap, label: "الثانوي والباكالوريا" },
+  ],
+};
+
+// ── Secondary-only item ────────────────────────────────────────────────────────
+
+const secondarySection: NavSection = {
+  title: "الثانوي",
+  items: [
+    { href: "/dashboard/secondary-school", icon: GraduationCap, label: "الثانوي والباكالوريا" },
   ],
 };
 
@@ -75,11 +85,11 @@ const adminSections: NavSection[] = [
 // ── Sidebar props ──────────────────────────────────────────────────────────────
 
 interface SidebarProps {
-  onLogout?:  () => void;
-  isOpen?:    boolean;
-  onClose?:   () => void;
-  isAdmin?:   boolean;
-  isPrimary?: boolean;
+  onLogout?:   () => void;
+  isOpen?:     boolean;
+  onClose?:    () => void;
+  isAdmin?:    boolean;
+  gradeLevel?: GradeLevel;
 }
 
 // ── Section renderer ───────────────────────────────────────────────────────────
@@ -123,8 +133,14 @@ function SidebarSection({
 
 // ── Sidebar ────────────────────────────────────────────────────────────────────
 
-export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false, isPrimary = false }: SidebarProps) {
+export function Sidebar({
+  onLogout, isOpen = false, onClose, isAdmin = false, gradeLevel = "unknown",
+}: SidebarProps) {
   const pathname = usePathname();
+
+  // Visibility flags
+  const showAiTools  = gradeLevel !== "primary";
+  const showSecondary = gradeLevel === "secondary";
 
   const content = (
     <>
@@ -160,7 +176,12 @@ export function Sidebar({ onLogout, isOpen = false, onClose, isAdmin = false, is
       {/* Nav sections */}
       <nav className="flex-1 px-3 py-2 overflow-y-auto">
         <SidebarSection section={learnSection} pathname={pathname} onClose={onClose} />
-        {!isPrimary && <SidebarSection section={aiToolsSection} pathname={pathname} onClose={onClose} />}
+        {showAiTools && (
+          <SidebarSection section={aiToolsSection} pathname={pathname} onClose={onClose} />
+        )}
+        {showSecondary && (
+          <SidebarSection section={secondarySection} pathname={pathname} onClose={onClose} />
+        )}
         <SidebarSection section={parentSection} pathname={pathname} onClose={onClose} />
         {isAdmin && adminSections.map((section) => (
           <SidebarSection key={section.title} section={section} pathname={pathname} onClose={onClose} />

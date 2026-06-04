@@ -1,22 +1,82 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BookOpen, Send, RotateCcw, Copy, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
+import type { GradeLevel } from "@/components/layout/sidebar";
 
-const STUDY_PROMPTS = [
-  "اشرح قاعدة الكسور في الرياضيات مع أمثلة مغربية",
+// ── Grade-appropriate quick prompts ────────────────────────────────────────────
+
+const PROMPTS_MIDDLE: string[] = [
+  "اشرح قاعدة الكسور في الرياضيات مع أمثلة بسيطة",
   "اشرح تركيب الجملة الفعلية في اللغة العربية",
-  "كيف أحل معادلة من الدرجة الأولى؟",
-  "لخص لي درس الكهرباء للثانوي مع تمارين",
-  "ما هو مفهوم التفاضل والتكامل وكيف أطبقه؟",
+  "كيف أحل معادلة من الدرجة الأولى بطريقة واضحة؟",
+  "ما هي العوامل المؤثرة في شدة التيار الكهربائي؟",
+  "اشرح مفهوم الكثافة ووحداتها مع تمارين",
 ];
 
+const PROMPTS_SECONDARY: string[] = [
+  "اشرح مفهوم التفاضل والتكامل مع تطبيقات على المنهج المغربي",
+  "كيف أحل مسائل اللوغاريتم في امتحانات الباكالوريا؟",
+  "لخص درس الكهرومغناطيس مع تمارين نمط الباك",
+  "اشرح نظرية النسبية الخاصة لأينشتاين بطريقة مبسطة",
+  "ما هي تقنيات التحليل الأدبي في اللغة العربية للثانوي؟",
+];
+
+const PROMPTS_DEFAULT = PROMPTS_MIDDLE;
+
+// ── Grade context prefix injected into the pipeline prompt ─────────────────────
+
+const GRADE_CONTEXT: Record<GradeLevel, string> = {
+  middle:    "المستوى: إعدادي (collège). اشرح بأسلوب واضح ومبسط مناسب لطالب إعدادي، مع أمثلة من الحياة اليومية وتمارين بسيطة.\n\n",
+  secondary: "المستوى: ثانوي / جذع مشترك / باكالوريا. قدّم شرحاً عميقاً مناسباً لامتحانات الباكالوريا مع أمثلة متقدمة وتطبيقات رياضية دقيقة.\n\n",
+  primary:   "",
+  unknown:   "",
+};
+
+// ── Grade detection helper (mirrors layout.tsx logic) ─────────────────────────
+
+function detectGradeLevel(slug: string | undefined): GradeLevel {
+  if (!slug) return "unknown";
+  const s = slug.toLowerCase().trim();
+  if (s === "ap" || s.startsWith("ap") || /^\dap/.test(s)) return "primary";
+  if (
+    s === "ac" || /^\dac/.test(s) || s.startsWith("ac") ||
+    s.includes("college") || s.includes("collège") || s.includes("middle") ||
+    s.includes("اعدادي") || s.includes("الإعدادي")
+  ) return "middle";
+  if (
+    s === "tc" || s.startsWith("tc") ||
+    s.includes("common-core") || s.includes("trunk-common") ||
+    s.includes("bac") || s.includes("lycee") || s.includes("lycée") ||
+    s.includes("secondary") || s.includes("ثانوي") || s.includes("الجذع")
+  ) return "secondary";
+  return "unknown";
+}
+
+// ── Page ───────────────────────────────────────────────────────────────────────
+
 export default function LessonHelperPage() {
-  const [query,   setQuery]   = useState("");
-  const [output,  setOutput]  = useState("");
-  const [running, setRunning] = useState(false);
-  const [copied,  setCopied]  = useState(false);
+  const [query,      setQuery]      = useState("");
+  const [output,     setOutput]     = useState("");
+  const [running,    setRunning]    = useState(false);
+  const [copied,     setCopied]     = useState(false);
+  const [gradeLevel, setGradeLevel] = useState<GradeLevel>("unknown");
+
+  // Fetch child grade on mount — no DB write, read-only
+  useEffect(() => {
+    fetch("/api/children")
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.success && d.data?.length) {
+          setGradeLevel(detectGradeLevel(d.data[0]?.grade?.slug));
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  const prompts = gradeLevel === "secondary" ? PROMPTS_SECONDARY : PROMPTS_DEFAULT;
+  const gradePrefix = GRADE_CONTEXT[gradeLevel];
 
   async function generate() {
     if (!query.trim() || running) return;
@@ -26,7 +86,11 @@ export default function LessonHelperPage() {
       const res = await fetch("/api/ai/pipeline", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ input: query.trim(), flow: "lesson", model: "llama-3.3-70b-versatile" }),
+        body:    JSON.stringify({
+          input: gradePrefix + query.trim(),
+          flow:  "lesson",
+          model: "llama-3.3-70b-versatile",
+        }),
       });
       if (!res.ok || !res.body) { setRunning(false); return; }
 
@@ -67,6 +131,12 @@ export default function LessonHelperPage() {
 
   const hasOutput = Boolean(output);
 
+  const levelLabel = gradeLevel === "secondary"
+    ? "الثانوي والباكالوريا"
+    : gradeLevel === "middle"
+    ? "الإعدادي"
+    : "";
+
   return (
     <div className="mx-auto max-w-3xl space-y-6" dir="rtl">
       {/* Header */}
@@ -76,6 +146,11 @@ export default function LessonHelperPage() {
             📖
           </span>
           مولد الدروس الذكي
+          {levelLabel && (
+            <span className="text-sm font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-lg">
+              {levelLabel}
+            </span>
+          )}
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
           اكتب موضوعاً أو سؤالاً دراسياً — ستحصل على شرح كامل مع أمثلة وتمارين من منظور المنهج المغربي
@@ -84,13 +159,13 @@ export default function LessonHelperPage() {
 
       {/* Quick prompts */}
       <div className="flex flex-wrap gap-2">
-        {STUDY_PROMPTS.map((p) => (
+        {prompts.map((p) => (
           <button
             key={p}
             onClick={() => setQuery(p)}
             className="rounded-full border border-border px-3 py-1.5 text-xs text-muted-foreground hover:border-primary hover:text-primary transition-colors"
           >
-            {p.length > 42 ? `${p.slice(0, 42)}…` : p}
+            {p.length > 48 ? `${p.slice(0, 48)}…` : p}
           </button>
         ))}
       </div>
