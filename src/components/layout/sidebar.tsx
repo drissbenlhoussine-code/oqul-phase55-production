@@ -11,7 +11,7 @@ import {
 
 // ── Nav types ──────────────────────────────────────────────────────────────────
 
-type NavItem    = { href: string; icon: React.ElementType; label: string };
+type NavItem    = { href: string; icon: React.ElementType; label: string; description?: string };
 type NavSection = { title: string; items: NavItem[] };
 
 export type GradeLevel = "primary" | "middle" | "secondary" | "unknown";
@@ -23,7 +23,7 @@ const learnSection: NavSection = {
   items: [
     { href: "/dashboard",          icon: LayoutDashboard, label: "الرئيسية" },
     { href: "/dashboard/lessons",  icon: BookOpen,         label: "الدروس" },
-    { href: "/dashboard/leila",    icon: MessageCircle,    label: "اسألي ليلى" },
+    { href: "/dashboard/leila",    icon: MessageCircle,    label: "اسألي ليلى",  description: "اسألي أي سؤال واحصلي على شرح فوري" },
     { href: "/dashboard/progress", icon: BarChart3,         label: "تقدمي" },
   ],
 };
@@ -33,10 +33,10 @@ const learnSection: NavSection = {
 const aiToolsSection: NavSection = {
   title: "أدوات ذكية",
   items: [
-    { href: "/dashboard/research",        icon: FlaskConical,  label: "البحث الذكي متعدد الوكلاء" },
-    { href: "/dashboard/lesson-helper",   icon: BookMarked,    label: "مولد الدروس" },
-    { href: "/dashboard/learning-paths",  icon: GitBranch,     label: "مساري التعليمي" },
-    { href: "/dashboard/exam-prediction", icon: TrendingUp,    label: "استعداد للامتحان" },
+    { href: "/dashboard/research",        icon: FlaskConical,  label: "البحث الذكي متعدد الوكلاء", description: "فريق خبراء: بحث وتحليل ومقارنة" },
+    { href: "/dashboard/lesson-helper",   icon: BookMarked,    label: "مولد الدروس",               description: "درس كامل مع أمثلة وتمارين" },
+    { href: "/dashboard/learning-paths",  icon: GitBranch,     label: "مساري التعليمي",            description: "خطة تعلم مخصصة حسب مستواك" },
+    { href: "/dashboard/exam-prediction", icon: TrendingUp,    label: "استعداد للامتحان",          description: "اكتشف نقاط الضعف وخطة المراجعة" },
   ],
 };
 
@@ -106,7 +106,7 @@ function SidebarSection({
       <p className="px-3 pb-1 pt-3 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground/50">
         {section.title}
       </p>
-      {section.items.map(({ href, icon: Icon, label }) => {
+      {section.items.map(({ href, icon: Icon, label, description }) => {
         const active =
           pathname === href ||
           (href !== "/dashboard" && pathname.startsWith(href));
@@ -116,14 +116,19 @@ function SidebarSection({
             href={href}
             onClick={onClose}
             className={cn(
-              "flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm transition-colors",
+              "flex items-center gap-3 px-3 py-2 rounded-xl text-sm transition-colors",
               active
                 ? "bg-primary/10 text-primary font-medium"
                 : "text-muted-foreground hover:bg-secondary hover:text-foreground"
             )}
           >
-            <Icon className="w-4 h-4 flex-shrink-0" />
-            {label}
+            <Icon className="w-4 h-4 flex-shrink-0 mt-0.5" />
+            <div className="min-w-0 flex-1">
+              <span className="block leading-5">{label}</span>
+              {description && (
+                <span className="block text-[10px] leading-4 mt-0.5 opacity-60">{description}</span>
+              )}
+            </div>
           </Link>
         );
       })}

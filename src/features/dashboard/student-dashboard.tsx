@@ -104,6 +104,7 @@ export function StudentDashboard() {
   const needsReview    = progress.filter((p) => p.status === "needs_review");
   const completedToday = progress.filter((p) => p.status === "completed").length;
   const recIcons: Record<string, string> = { lesson: "📚", review: "🔄", quiz: "✏️" };
+  const isNewUser = !!(child && (child.xp ?? 0) === 0 && (!summary || summary.completedLessons === 0));
 
   return (
     <div className="max-w-3xl mx-auto space-y-4 animate-fade-in">
@@ -153,11 +154,27 @@ export function StudentDashboard() {
         </div>
       )}
 
+      {/* Welcome card — new users only */}
+      {isNewUser && (
+        <div className="rounded-2xl border-2 border-primary/20 bg-gradient-to-l from-primary/5 to-white px-5 py-6 text-center space-y-3" dir="rtl">
+          <div className="text-4xl">🎉</div>
+          <p className="font-bold text-lg">مرحباً بك في عقول!</p>
+          <p className="text-sm text-muted-foreground leading-6">
+            ابدأ أول درس لك اليوم واحصل على أول نقاطك
+          </p>
+          <div className="flex flex-wrap gap-2 justify-center">
+            <span className="bg-primary/10 text-primary text-xs px-3 py-1.5 rounded-full">📚 أول درس = +25 نقطة</span>
+            <span className="bg-primary/10 text-primary text-xs px-3 py-1.5 rounded-full">❓ اسألي ليلى = +5 نقاط</span>
+            <span className="bg-primary/10 text-primary text-xs px-3 py-1.5 rounded-full">🔥 يومان متتاليان = سلسلة</span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-3 gap-3">
         {[
-          { href: "/dashboard/lessons", icon: BookOpen, label: "الدروس",  sub: `${summary?.completedLessons ?? 0} مكتمل`,    color: "bg-emerald-50 text-emerald-700" },
-          { href: "/dashboard/leila",   icon: Sparkles,  label: "ليلى",    sub: "اسألني أي شيء",                              color: "bg-blue-50 text-blue-700" },
-          { href: "/dashboard/progress",icon: BarChart3,  label: "تقدمي",  sub: `${summary?.averageScore ?? 0}% معدل`,        color: "bg-amber-50 text-amber-700" },
+          { href: "/dashboard/lessons", icon: BookOpen, label: "الدروس",  sub: isNewUser ? "ابدأ أول درس ✨"        : `${summary?.completedLessons ?? 0} مكتمل`,    color: "bg-emerald-50 text-emerald-700" },
+          { href: "/dashboard/leila",   icon: Sparkles,  label: "ليلى",    sub: "اسألني أي شيء",                                                                    color: "bg-blue-50 text-blue-700" },
+          { href: "/dashboard/progress",icon: BarChart3,  label: "تقدمي",  sub: isNewUser ? "اجتز أول تمرين 🎯"   : `${summary?.averageScore ?? 0}% معدل`,        color: "bg-amber-50 text-amber-700" },
         ].map(({ href, icon: Icon, label, sub, color }) => (
           <Link key={href} href={href}>
             <Card className="hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer h-full">
