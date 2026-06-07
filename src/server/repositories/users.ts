@@ -4,7 +4,8 @@ import { hash, compare } from "bcryptjs";
 
 export const usersRepo = {
   async findByEmail(email: string) {
-    const [user] = await db.select().from(users).where(eq(users.email, email.toLowerCase())).limit(1);
+    const normalized = email.trim().toLowerCase();
+    const [user] = await db.select().from(users).where(eq(users.email, normalized)).limit(1);
     return user ?? null;
   },
 
@@ -18,7 +19,7 @@ export const usersRepo = {
     const trialEndsAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
     const [user] = await db.insert(users).values({
       fullName: data.fullName,
-      email: data.email.toLowerCase(),
+      email: data.email.trim().toLowerCase(),
       passwordHash,
       trialEndsAt,
     }).returning();

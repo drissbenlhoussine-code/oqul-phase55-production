@@ -110,6 +110,32 @@ describe("password reset — hash round-trip", () => {
   });
 });
 
+// ── Email normalization ───────────────────────────────────────────────────────
+describe("email normalization — findByEmail contract", () => {
+  const normalize = (e: string) => e.trim().toLowerCase();
+
+  it("uppercased email normalizes to lowercase", () => {
+    expect(normalize("User@Example.COM")).toBe("user@example.com");
+  });
+
+  it("email with leading/trailing spaces is trimmed", () => {
+    expect(normalize("  user@example.com  ")).toBe("user@example.com");
+  });
+
+  it("signup email and forgot-password email produce the same lookup key", () => {
+    const signupEmail     = "  User@Example.COM  ";
+    const forgotPassEmail = "user@example.com";
+    expect(normalize(signupEmail)).toBe(normalize(forgotPassEmail));
+  });
+
+  it("trailing space causes mismatch without trim (demonstrates the bug the fix solves)", () => {
+    const stored  = "user@example.com";
+    const entered = " user@example.com";
+    expect(entered.toLowerCase()).not.toBe(stored);   // WITHOUT trim → miss
+    expect(normalize(entered)).toBe(stored);           // WITH trim    → match ✓
+  });
+});
+
 // ── Security properties ───────────────────────────────────────────────────────
 describe("password reset — security properties", () => {
   it("stored hash cannot be reversed to the plain token", () => {

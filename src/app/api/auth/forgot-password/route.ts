@@ -3,37 +3,41 @@
  * Sends a password-reset email if the address is registered.
  *
  * Always returns 200 for known/unknown emails (security: never reveal if email exists).
+ * Logs use a SHA-256 email hash for correlation — never raw email or tokens.
  */
-import { type NextRequest, NextResponse } from "next/server";
-import { z, ZodError } from "zod";
-import { usersRepo } from "@/server/repositories/users";
-import { usersEmailRepo } from "@/server/repositories/users-email-repo";
+import { createHash }                                           from "crypto";
+import { type NextRequest, NextResponse }                       from "next/server";
+import { z, ZodError }                                         from "zod";
+import { usersRepo }                                           from "@/server/repositories/users";
+import { usersEmailRepo }                                      from "@/server/repositories/users-email-repo";
 import { EmailDeliveryError, emailService, getEmailConfigDiagnostics } from "@/server/email/email-service";
 import { generateSecureToken, hashToken, passwordResetExpiry } from "@/server/auth/tokens";
 
-export const dynamic = "force-dynamic";
+export const dynamic   = "force-dynamic";
 export const revalidate = 0;
 
 const JSON_HEADERS = {
   "Cache-Control": "no-store",
-  "Content-Type": "application/json; charset=utf-8",
+  "Content-Type":  "application/json; charset=utf-8",
 } as const;
 
 const schema = z.object({
   email: z.string().trim().toLowerCase().email("بريد إلكتروني غير صالح"),
 });
 
+/** 16-char hex prefix of SHA-256(email) — safe for log correlation without revealing PII. */
+function safeEmailHash(email: string): string {
+  return createHash("sha256").update(email.trim().toLowerCase()).digest("hex").slice(0, 16);
+}
+
 function jsonResponse(body: Record<string, unknown>, status = 200) {
-  return NextResponse.json(body, {
-    status,
-    headers: JSON_HEADERS,
-  });
+  return NextResponse.json(body, { status, headers: JSON_HEADERS });
 }
 
 function acceptedResponse() {
   return jsonResponse({
     success: true,
-    code: "RESET_EMAIL_REQUEST_ACCEPTED",
+    code:    "RESET_EMAIL_REQUEST_ACCEPTED",
     message: "If this email exists, we sent reset instructions.",
   });
 }
@@ -43,8 +47,8 @@ function forgotPasswordErrorResponse(error: unknown) {
     return jsonResponse(
       {
         success: false,
-        code: "VALIDATION_ERROR",
-        message: error.errors.map((entry) => entry.message).join(". "),
+        code:    "VALIDATION_ERROR",
+        message: error.errors.map((e) => e.message).join(". "),
       },
       422
     );
@@ -52,7 +56,7 @@ function forgotPasswordErrorResponse(error: unknown) {
 
   if (error instanceof Error) {
     console.error("[forgot-password] request failed", {
-      code: "FORGOT_PASSWORD_ERROR",
+      code:    "FORGOT_PASSWORD_ERROR",
       message: error.message,
     });
   }
@@ -60,29 +64,29 @@ function forgotPasswordErrorResponse(error: unknown) {
   return jsonResponse(
     {
       success: false,
-      code: "FORGOT_PASSWORD_ERROR",
+      code:    "FORGOT_PASSWORD_ERROR",
       message: "Unable to process password reset right now. Please try again later.",
     },
     500
   );
 }
 
-function logEmailFailure(error: unknown, email: string) {
+function logEmailFailure(error: unknown, emailHash: string) {
   if (error instanceof EmailDeliveryError) {
     console.error("[forgot-password] email failed", {
-      code: error.code,
-      status: error.status,
-      details: error.details,
-      email,
+      code:               error.code,
+      status:             error.status,
+      details:            error.details,
+      emailHash,
       emailSendAttempted: true,
     });
     return;
   }
 
   console.error("[forgot-password] email failed", {
-    code: "EMAIL_UNKNOWN_ERROR",
-    message: error instanceof Error ? error.message : "Unknown email error",
-    email,
+    code:               "EMAIL_UNKNOWN_ERROR",
+    message:            error instanceof Error ? error.message : "Unknown email error",
+    emailHash,
     emailSendAttempted: true,
   });
 }
@@ -92,63 +96,60 @@ export async function POST(request: NextRequest) {
     console.info("[forgot-password] email config", getEmailConfigDiagnostics());
 
     const { email } = schema.parse(await request.json());
-    console.info("[forgot-password] submitted", {
-      email,
-    });
+    const emailHash = safeEmailHash(email);
+
+    console.info("[forgot-password] submitted", { emailHash });
 
     const user = await usersRepo.findByEmail(email);
-    console.info("[forgot-password] user lookup", {
-      email,
-      userFound: Boolean(user),
-    });
+    console.info("[forgot-password] user lookup", { emailHash, userFound: Boolean(user) });
 
     if (!user) {
       console.info("[forgot-password] flow result", {
-        email,
-        userFound: false,
-        resetTokenCreated: false,
-        resetTokenStored: false,
+        emailHash,
+        userFound:          false,
+        resetTokenCreated:  false,
+        resetTokenStored:   false,
         emailSendAttempted: false,
       });
       return acceptedResponse();
     }
 
-    const token = generateSecureToken();
+    const token     = generateSecureToken();
     const expiresAt = passwordResetExpiry();
     const tokenHash = hashToken(token);
     console.info("[forgot-password] reset token created", {
-      email,
-      userFound: true,
-      resetTokenCreated: Boolean(token),
+      emailHash,
+      userFound:         true,
+      resetTokenCreated: true,
     });
 
-    // Store only the hash so a database leak cannot be used to reset accounts.
+    // Store only the hash — a DB leak cannot be used to reset accounts
     await usersEmailRepo.setResetToken(user.id, tokenHash, expiresAt);
     console.info("[forgot-password] reset token stored", {
-      email,
-      userFound: true,
+      emailHash,
+      userFound:         true,
       resetTokenCreated: true,
-      resetTokenStored: true,
+      resetTokenStored:  true,
     });
 
     try {
       console.info("[forgot-password] email send attempting", {
-        email,
+        emailHash,
         emailSendAttempted: true,
       });
       const emailResult = await emailService.sendPasswordReset({
-        to: user.email,
-        name: user.fullName,
+        to:    user.email,
+        name:  user.fullName,
         token,
       });
       console.info("[forgot-password] email send accepted", {
-        code: "RESET_EMAIL_SEND_ACCEPTED",
-        email,
+        code:               "RESET_EMAIL_SEND_ACCEPTED",
+        emailHash,
         emailSendAttempted: true,
-        resendId: emailResult.id,
+        resendId:           emailResult.id,
       });
     } catch (error) {
-      logEmailFailure(error, email);
+      logEmailFailure(error, emailHash);
     }
 
     return acceptedResponse();
