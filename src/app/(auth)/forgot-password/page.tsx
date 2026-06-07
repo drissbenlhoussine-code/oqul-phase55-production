@@ -1,34 +1,68 @@
 "use client";
+
 import { useState } from "react";
 import Link from "next/link";
 import { Key } from "lucide-react";
-import { Button }  from "@/components/ui/button";
-import { Input }   from "@/components/ui/input";
-import { Label }   from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { useToast } from "@/components/ui/toast";
-import { Spinner }  from "@/components/ui/spinner";
+import { Spinner } from "@/components/ui/spinner";
+
+type ForgotPasswordResponse = {
+  success?: boolean;
+  message?: string;
+  code?: string;
+};
+
+async function readJsonSafely(response: Response): Promise<ForgotPasswordResponse> {
+  const text = await response.text();
+
+  if (!text.trim()) {
+    return {
+      success: false,
+      code: "EMPTY_RESPONSE",
+      message: "تعذر قراءة رد الخادم. حاول مرة أخرى بعد قليل.",
+    };
+  }
+
+  try {
+    return JSON.parse(text) as ForgotPasswordResponse;
+  } catch {
+    return {
+      success: false,
+      code: "INVALID_JSON_RESPONSE",
+      message: "وصل رد غير متوقع من الخادم. حاول مرة أخرى بعد قليل.",
+    };
+  }
+}
 
 export default function ForgotPasswordPage() {
-  const { toast }  = useToast();
-  const [loading, setLoading]  = useState(false);
-  const [sent, setSent]        = useState(false);
-  const [email, setEmail]      = useState("");
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [email, setEmail] = useState("");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
+
     try {
-      const res  = await fetch("/api/auth/forgot-password", {
-        method:  "POST",
+      const res = await fetch("/api/auth/forgot-password", {
+        method: "POST",
         headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({ email }),
+        body: JSON.stringify({ email }),
       });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.message);
+      const data = await readJsonSafely(res);
+
+      if (!res.ok || !data.success) {
+        throw new Error(data.message ?? "تعذر إرسال رابط الاسترداد الآن. حاول مرة أخرى بعد قليل.");
+      }
+
       setSent(true);
     } catch (err: unknown) {
-      toast(err instanceof Error ? err.message : "حدث خطأ", "error");
+      toast(err instanceof Error ? err.message : "حدث خطأ غير متوقع", "error");
     } finally {
       setLoading(false);
     }
