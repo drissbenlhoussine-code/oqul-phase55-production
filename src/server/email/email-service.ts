@@ -10,6 +10,10 @@ export interface SendEmailOptions {
   html: string;
 }
 
+export interface SendEmailResult {
+  id: string | null;
+}
+
 export type EmailDeliveryErrorCode =
   | "EMAIL_CONFIG_MISSING"
   | "RESEND_INVALID_API_KEY"
@@ -127,7 +131,7 @@ function baseTemplate(title: string, body: string): string {
 </html>`;
 }
 
-async function send(opts: SendEmailOptions): Promise<void> {
+async function send(opts: SendEmailOptions): Promise<SendEmailResult> {
   validateEmailConfig();
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -136,7 +140,7 @@ async function send(opts: SendEmailOptions): Promise<void> {
   if (!apiKey) {
     console.info("[EMAIL:dev]", { to: opts.to, subject: opts.subject });
     console.info("[EMAIL:dev] HTML preview:\n", opts.html.replace(/<[^>]+>/g, "").slice(0, 400));
-    return;
+    return { id: null };
   }
 
   let response: Response;
@@ -162,13 +166,23 @@ async function send(opts: SendEmailOptions): Promise<void> {
       details: safeResendDetails(body),
     });
   }
+
+  const body = await response.text();
+  if (!body.trim()) return { id: null };
+
+  try {
+    const json = JSON.parse(body) as { id?: unknown };
+    return { id: typeof json.id === "string" ? json.id : null };
+  } catch {
+    return { id: null };
+  }
 }
 
 export const emailService = {
   async sendVerification(opts: { to: string; name: string; token: string }) {
     const link = `${appUrl()}/api/auth/verify-email?token=${opts.token}`;
 
-    await send({
+    return send({
       to: opts.to,
       subject: "تأكيد بريدك الإلكتروني — Oqul",
       html: baseTemplate("تأكيد البريد الإلكتروني", `
@@ -188,7 +202,7 @@ export const emailService = {
   async sendPasswordReset(opts: { to: string; name: string; token: string }) {
     const link = `${appUrl()}/reset-password?token=${opts.token}`;
 
-    await send({
+    return send({
       to: opts.to,
       subject: "إعادة تعيين كلمة المرور — Oqul",
       html: baseTemplate("إعادة تعيين كلمة المرور", `
