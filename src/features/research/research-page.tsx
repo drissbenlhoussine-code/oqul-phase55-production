@@ -322,7 +322,9 @@ export function ResearchPage() {
     setExpanded({});
   }
 
-  const hasRun = agents.some((a) => a.status !== "waiting");
+  const hasRun     = agents.some((a) => a.status !== "waiting");
+  const doneCount  = agents.filter((a) => a.status === "done").length;
+  const runningIdx = agents.findIndex((a) => a.status === "running");
 
   return (
     <div className="max-w-3xl mx-auto space-y-6" dir="rtl">
@@ -367,11 +369,15 @@ export function ResearchPage() {
           <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground/60">
             الوكلاء
           </p>
-          {hasRun && totalMs && (
-            <span className="text-xs text-muted-foreground">
-              اكتمل في {(totalMs / 1000).toFixed(1)} ث
-            </span>
-          )}
+          <span className="text-xs text-muted-foreground">
+            {running && runningIdx !== -1
+              ? `الوكيل ${runningIdx + 1}/${agents.length} يعمل…`
+              : hasRun && !running && totalMs
+              ? `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`
+              : hasRun && !running
+              ? `${doneCount}/${agents.length} وكلاء اكتملوا`
+              : ""}
+          </span>
         </div>
         {agents.map((a) => (
           <AgentCard
@@ -431,12 +437,17 @@ export function ResearchPage() {
       {/* ── Empty state ── */}
       {!hasRun && !error && (
         <div className="text-center py-10 text-muted-foreground">
-          <p className="text-sm">اكتب سؤالاً بحثياً أو مشكلة دراسية أو طلب مقارنة — سيعمل الفريق أعلاه بالتسلسل وتتابع كل وكيل مباشرةً.</p>
+          <p className="text-sm leading-7">
+            اكتب سؤالاً بحثياً، مشكلة دراسية، أو طلب مقارنة — سيعمل الفريق بالتسلسل وتتابع كل وكيل في الوقت الفعلي.
+          </p>
+          <p className="text-xs mt-1 opacity-60">اختر "بحث تعليمي" للإجابة الأعمق والأكمل.</p>
           <div className="mt-4 flex flex-wrap gap-2 justify-center">
             {[
-              "قارن بين الفيزياء الكلاسيكية والكميّة",
-              "ما أسباب ضعفي في الرياضيات وكيف أحسّن؟",
-              "ساعدني على التحضير لامتحان العلوم",
+              "قارن بين الطاقة المتجددة والطاقة الأحفورية في المغرب",
+              "ما أسباب ضعفي في الرياضيات وكيف أتحسن؟",
+              "أريد بحثاً حول التغير المناخي وتأثيره على المغرب",
+              "اشرح قانون أوم مع تطبيقات وتمارين",
+              "خطة مراجعة شاملة للفلسفة قبل الباكالوريا",
             ].map((s) => (
               <button
                 key={s}
