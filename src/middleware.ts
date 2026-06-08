@@ -50,6 +50,7 @@ const PUBLIC_PATHS = new Set([
  */
 const PUBLIC_PREFIXES = [
   "/api/auth/",
+  "/api/debug/",   // debug endpoints are self-protected by DEBUG_SECRET
   "/_next/",
   "/favicon",
 ];
