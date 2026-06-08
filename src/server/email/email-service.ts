@@ -38,28 +38,58 @@ export class EmailDeliveryError extends Error {
 }
 
 export function getEmailConfigDiagnostics() {
+  const appUrl    = process.env.NEXT_PUBLIC_APP_URL ?? null;
+  const emailFrom = process.env.EMAIL_FROM ?? null;
+
+  // Extract the sender domain from EMAIL_FROM for log visibility (not a secret).
+  // e.g. "Oqul <no-reply@oqul.tech>" → "oqul.tech"
+  const fromDomain = emailFrom
+    ? (emailFrom.match(/@([^\s>]+)/)?.[1] ?? emailFrom)
+    : "(default: oqul.tech)";
+
+  const isLocalhost = appUrl ? appUrl.includes("localhost") || appUrl.includes("127.0.0.1") : false;
+
   return {
-    RESEND_API_KEY: process.env.RESEND_API_KEY ? "PRESENT" : "MISSING",
-    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL ? "PRESENT" : "MISSING",
-    EMAIL_FROM: process.env.EMAIL_FROM ? "PRESENT" : "MISSING",
+    RESEND_API_KEY:      process.env.RESEND_API_KEY ? "PRESENT" : "MISSING",
+    NEXT_PUBLIC_APP_URL: appUrl ?? "MISSING",      // public value — safe to log
+    EMAIL_FROM_DOMAIN:   fromDomain,               // domain only — safe to log
+    ...(isLocalhost && {
+      LOCALHOST_WARNING:
+        "NEXT_PUBLIC_APP_URL is localhost — password reset links in emails will not work from production",
+    }),
   } as const;
 }
 
 export function validateEmailConfig(): void {
-  const diagnostics = getEmailConfigDiagnostics();
-  const missing = Object.entries(diagnostics)
-    .filter(([name, status]) => status === "MISSING" && name !== "EMAIL_FROM")
-    .map(([name]) => name);
+  const appUrl  = process.env.NEXT_PUBLIC_APP_URL;
+  const apiKey  = process.env.RESEND_API_KEY;
+  const missing: string[] = [];
 
-  if (missing.length === 0) return;
+  if (!apiKey?.trim())  missing.push("RESEND_API_KEY");
+  if (!appUrl?.trim())  missing.push("NEXT_PUBLIC_APP_URL");
 
-  const message = `[Email] Missing required env vars: ${missing.join(", ")}`;
-
-  if (process.env.NODE_ENV === "production") {
-    throw new EmailDeliveryError("EMAIL_CONFIG_MISSING", message);
+  if (missing.length > 0) {
+    const message = `[Email] Missing required env vars: ${missing.join(", ")}`;
+    if (process.env.NODE_ENV === "production") {
+      throw new EmailDeliveryError("EMAIL_CONFIG_MISSING", message);
+    }
+    console.warn(`[Email:dev] ${message}`);
   }
 
-  console.warn(`[Email:dev] ${message}`);
+  // Catch misconfigured NEXT_PUBLIC_APP_URL pointing to localhost in production.
+  // This is a silent killer: email is sent, but the reset link goes to localhost:3000.
+  if (
+    process.env.NODE_ENV === "production" &&
+    appUrl &&
+    (appUrl.includes("localhost") || appUrl.includes("127.0.0.1"))
+  ) {
+    throw new EmailDeliveryError(
+      "EMAIL_CONFIG_MISSING",
+      `[Email] NEXT_PUBLIC_APP_URL is set to "${appUrl}" in production — ` +
+      "password reset links will point to localhost and not work. " +
+      "Set NEXT_PUBLIC_APP_URL=https://www.oqul.tech in Vercel and redeploy."
+    );
+  }
 }
 
 function classifyResendError(status: number, body: string): EmailDeliveryErrorCode {
