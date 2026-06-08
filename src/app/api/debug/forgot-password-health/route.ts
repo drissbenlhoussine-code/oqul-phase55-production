@@ -39,9 +39,8 @@ function json(body: unknown, status = 200) {
 }
 
 export async function GET(request: NextRequest) {
-  if (!authorized(request)) {
-    return json({ error: "Unauthorized" }, 401);
-  }
+  if (!process.env.DEBUG_SECRET?.trim()) return json({ error: "Not Found" }, 404);
+  if (!authorized(request)) return json({ error: "Unauthorized" }, 401);
 
   const emailDiag = getEmailConfigDiagnostics();
 

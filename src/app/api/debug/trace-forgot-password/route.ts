@@ -52,9 +52,8 @@ function redactId(id: string): string {
 }
 
 export async function POST(request: NextRequest) {
-  if (!authorized(request)) {
-    return json({ ok: false, error: "Unauthorized" }, 401);
-  }
+  if (!process.env.DEBUG_SECRET?.trim()) return json({ ok: false, error: "Not Found" }, 404);
+  if (!authorized(request)) return json({ ok: false, error: "Unauthorized" }, 401);
 
   let email: string;
   try {
