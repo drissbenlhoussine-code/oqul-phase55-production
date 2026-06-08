@@ -33,7 +33,7 @@ function makeHttpClient(connectionString) {
   const sql = neon(connectionString);
   return {
     async query(text, params = []) {
-      const rows = await sql(text, params);
+      const rows = await sql.query(text, params);
       return { rows, rowCount: rows.length };
     },
     release() {},

@@ -440,7 +440,7 @@ export function ResearchPage() {
           <p className="text-sm leading-7">
             اكتب سؤالاً بحثياً، مشكلة دراسية، أو طلب مقارنة — سيعمل الفريق بالتسلسل وتتابع كل وكيل في الوقت الفعلي.
           </p>
-          <p className="text-xs mt-1 opacity-60">اختر "بحث تعليمي" للإجابة الأعمق والأكمل.</p>
+          <p className="text-xs mt-1 opacity-60">اختر &ldquo;بحث تعليمي&rdquo; للإجابة الأعمق والأكمل.</p>
           <div className="mt-4 flex flex-wrap gap-2 justify-center">
             {[
               "قارن بين الطاقة المتجددة والطاقة الأحفورية في المغرب",
