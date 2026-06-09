@@ -4,6 +4,16 @@ import { Search, Copy, RotateCcw, ChevronDown, ChevronUp, CheckCircle, AlertCirc
 import { Button } from "@/components/ui/button";
 import { cn }     from "@/lib/cn";
 
+// Estimated total duration (seconds) per flow — used for ETA display only
+const FLOW_ETA: Record<string, number> = {
+  edu:      60,
+  research: 35,
+  full:     75,
+  analysis: 40,
+  quick:    15,
+  lesson:   30,
+};
+
 // ── Types ──────────────────────────────────────────────────────────────────────
 
 type FlowId     = "edu" | "research" | "full" | "analysis" | "quick" | "lesson";
@@ -203,7 +213,8 @@ export function ResearchPage() {
   const [error,      setError]       = useState("");
   const [expanded,   setExpanded]    = useState<Record<string, boolean>>({});
   const [totalMs,    setTotalMs]     = useState<number | null>(null);
-  const abortRef = useRef<AbortController | null>(null);
+  const abortRef    = useRef<AbortController | null>(null);
+  const startTimeRef = useRef<number | null>(null);
 
   // Build a "waiting" preview for the selected flow's agents
   function buildAgentPreview(flowId: FlowId): AgentState[] {
@@ -237,6 +248,7 @@ export function ResearchPage() {
     setTotalMs(null);
     setExpanded({});
     setRunning(true);
+    startTimeRef.current = Date.now();
 
     abortRef.current = new AbortController();
 
@@ -326,6 +338,28 @@ export function ResearchPage() {
   const doneCount  = agents.filter((a) => a.status === "done").length;
   const runningIdx = agents.findIndex((a) => a.status === "running");
 
+  // Progress % and ETA (live during run)
+  const pct        = agents.length ? Math.round((doneCount / agents.length) * 100) : 0;
+  const etaSec     = FLOW_ETA[flow] ?? 45;
+  const elapsedSec = startTimeRef.current ? (Date.now() - startTimeRef.current) / 1000 : 0;
+  const remainSec  = Math.max(0, Math.round(etaSec - elapsedSec));
+
+  function progressLabel(): string {
+    if (running && runningIdx !== -1) {
+      const parts = [
+        `الوكيل ${runningIdx + 1}/${agents.length}`,
+        `${pct}%`,
+        remainSec > 0 ? `~${remainSec}s` : "",
+      ].filter(Boolean);
+      return parts.join(" | ");
+    }
+    if (hasRun && !running && totalMs)
+      return `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`;
+    if (hasRun && !running)
+      return `${doneCount}/${agents.length} وكلاء اكتملوا`;
+    return "";
+  }
+
   return (
     <div className="max-w-3xl mx-auto space-y-6" dir="rtl">
 
@@ -369,14 +403,8 @@ export function ResearchPage() {
           <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground/60">
             الوكلاء
           </p>
-          <span className="text-xs text-muted-foreground">
-            {running && runningIdx !== -1
-              ? `الوكيل ${runningIdx + 1}/${agents.length} يعمل…`
-              : hasRun && !running && totalMs
-              ? `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`
-              : hasRun && !running
-              ? `${doneCount}/${agents.length} وكلاء اكتملوا`
-              : ""}
+          <span className="text-xs text-muted-foreground tabular-nums">
+            {progressLabel()}
           </span>
         </div>
         {agents.map((a) => (
