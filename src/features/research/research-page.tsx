@@ -1,63 +1,92 @@
 "use client";
-/**
- * ResearchPage — Phase 36 Merge
- * Path: src/features/research/research-page.tsx
- *
- * Beautiful UI for the multi-agent research pipeline.
- * Shows each agent's progress live as SSE events stream in.
- */
 import { useState, useRef, useCallback } from "react";
-import { Search, Sparkles, Copy, RotateCcw, ChevronDown, ChevronUp, CheckCircle } from "lucide-react";
+import { Search, Copy, RotateCcw, ChevronDown, ChevronUp, CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn }     from "@/lib/cn";
 
 // ── Types ──────────────────────────────────────────────────────────────────────
 
-type FlowId = "research" | "full" | "analysis" | "quick" | "lesson";
+type FlowId     = "edu" | "research" | "full" | "analysis" | "quick" | "lesson";
 type AgentStatus = "waiting" | "running" | "done";
 
 interface AgentState {
-  id:      string;
-  label:   string;
-  status:  AgentStatus;
-  output:  string;
+  id:          string;
+  nameAr:      string;
+  roleAr:      string;
+  status:      AgentStatus;
+  output:      string;
   durationMs?: number;
 }
 
-interface Flow {
-  id:    FlowId;
-  label: string;
-  desc:  string;
+// ── Agent display config — matches backend config.ts ──────────────────────────
+
+const AGENT_META: Record<string, { nameAr: string; roleAr: string; color: string }> = {
+  orchestrator: { nameAr: "منظم الخطة",    roleAr: "يفهم الطلب ويضع خطة العمل",                      color: "indigo"  },
+  researcher:   { nameAr: "الباحث",         roleAr: "يجمع المعطيات ويبني الأساس المعرفي",              color: "blue"    },
+  analyst:      { nameAr: "المحلل",          roleAr: "يستخرج الأنماط والأسباب والحلول",                 color: "violet"  },
+  pedagogue:    { nameAr: "الشارح",          roleAr: "يبسّط الشرح لمستوى الطالب المغربي",               color: "pink"    },
+  checker:      { nameAr: "المدقق",          roleAr: "يتحقق من دقة المعلومات وجودتها",                  color: "amber"   },
+  exercise_gen: { nameAr: "مولد التمارين",   roleAr: "ينتج التمارين وخطة المراجعة",                    color: "cyan"    },
+  writer:       { nameAr: "الكاتب النهائي",  roleAr: "ينتج جوابًا منظمًا وعمليًا",                     color: "emerald" },
+};
+
+// ── Flow selector ──────────────────────────────────────────────────────────────
+
+interface FlowOption {
+  id:     FlowId;
+  label:  string;
+  desc:   string;
   agents: string[];
 }
 
-// ── Config ─────────────────────────────────────────────────────────────────────
-
-const FLOWS: Flow[] = [
-  { id: "research",  label: "بحث",        desc: "بحث عميق في الموضوع",         agents: ["orchestrator", "researcher", "writer"] },
-  { id: "full",      label: "متكامل",     desc: "بحث + تحليل + كتابة",        agents: ["orchestrator", "researcher", "analyst", "writer"] },
-  { id: "analysis",  label: "تحليل",      desc: "تحليل نقدي ومقارنة",         agents: ["orchestrator", "analyst", "writer"] },
-  { id: "lesson",    label: "تعليمي",     desc: "من منظور المنهج المغربي",     agents: ["orchestrator", "pedagogue", "writer"] },
-  { id: "quick",     label: "سريع",       desc: "إجابة مباشرة وسريعة",        agents: ["orchestrator", "writer"] },
+const FLOWS: FlowOption[] = [
+  {
+    id:     "edu",
+    label:  "بحث تعليمي",
+    desc:   "ملخص + شرح + تمارين + خطة مراجعة",
+    agents: ["orchestrator", "researcher", "analyst", "pedagogue", "checker", "exercise_gen"],
+  },
+  {
+    id:     "research",
+    label:  "بحث وملخص",
+    desc:   "بحث عميق ثم تلخيص منظم",
+    agents: ["orchestrator", "researcher", "writer"],
+  },
+  {
+    id:     "analysis",
+    label:  "تحليل",
+    desc:   "تحليل نقدي ومقارنة",
+    agents: ["orchestrator", "analyst", "writer"],
+  },
+  {
+    id:     "quick",
+    label:  "سريع",
+    desc:   "إجابة مباشرة وسريعة",
+    agents: ["orchestrator", "writer"],
+  },
 ];
 
-const AGENT_LABELS: Record<string, string> = {
-  orchestrator:      "🎯 المنسق",
-  researcher:        "🔍 الباحث",
-  analyst:           "📊 المحلل",
-  pedagogue: "📚 خبير المنهج",
-  writer:            "✍️ الكاتب",
+// ── Color map for status rings ─────────────────────────────────────────────────
+
+const STATUS_RING: Record<AgentStatus, string> = {
+  waiting: "border-border bg-muted/20 text-muted-foreground",
+  running: "border-primary bg-primary/5 text-primary",
+  done:    "border-emerald-400 bg-emerald-50 text-emerald-800",
 };
 
-const AGENT_COLORS: Record<AgentStatus, string> = {
-  waiting: "border-border text-muted-foreground bg-muted/30",
-  running: "border-primary text-primary bg-primary/5 animate-pulse",
-  done:    "border-emerald-500 text-emerald-700 bg-emerald-50",
+// ── Status label ───────────────────────────────────────────────────────────────
+
+const STATUS_LABEL: Record<AgentStatus, string> = {
+  waiting: "ينتظر",
+  running: "يعمل",
+  done:    "اكتمل",
 };
 
-// ── Sub-components ─────────────────────────────────────────────────────────────
+// ── Agent card ─────────────────────────────────────────────────────────────────
 
-function AgentCard({ agent, expanded, onToggle }: {
+function AgentCard({
+  agent, expanded, onToggle,
+}: {
   agent:    AgentState;
   expanded: boolean;
   onToggle: () => void;
@@ -65,33 +94,63 @@ function AgentCard({ agent, expanded, onToggle }: {
   return (
     <div className={cn(
       "rounded-2xl border transition-all duration-300",
-      AGENT_COLORS[agent.status]
+      STATUS_RING[agent.status]
     )}>
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between px-4 py-3 text-right"
+        disabled={!agent.output}
+        className="w-full flex items-center justify-between px-4 py-3 text-right disabled:cursor-default"
+        type="button"
       >
-        <div className="flex items-center gap-3">
-          <span className="text-sm font-semibold">{AGENT_LABELS[agent.id] ?? agent.id}</span>
+        <div className="flex items-center gap-3 min-w-0">
+          <span className="text-sm font-semibold truncate">{agent.nameAr}</span>
+          <span className={cn(
+            "shrink-0 text-[10px] px-2 py-0.5 rounded-full font-medium",
+            agent.status === "waiting" && "bg-muted text-muted-foreground",
+            agent.status === "running" && "bg-primary/15 text-primary animate-pulse",
+            agent.status === "done"    && "bg-emerald-100 text-emerald-700",
+          )}>
+            {STATUS_LABEL[agent.status]}
+          </span>
           {agent.status === "running" && (
-            <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
+            <span className="w-2 h-2 shrink-0 rounded-full bg-primary animate-ping" />
           )}
           {agent.status === "done" && agent.durationMs && (
-            <span className="text-xs opacity-60">{(agent.durationMs / 1000).toFixed(1)}s</span>
+            <span className="text-xs opacity-50 shrink-0">{(agent.durationMs / 1000).toFixed(1)}s</span>
           )}
         </div>
-        {agent.output && (agent.status === "done"
-          ? expanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />
-          : null
+        {agent.output && (
+          expanded
+            ? <ChevronUp className="w-4 h-4 shrink-0" />
+            : <ChevronDown className="w-4 h-4 shrink-0" />
         )}
       </button>
 
+      {/* Role description — always visible when waiting */}
+      {agent.status === "waiting" && (
+        <p className="px-4 pb-3 text-xs text-muted-foreground leading-5">{agent.roleAr}</p>
+      )}
+
       {/* Streaming output */}
-      {(agent.status === "running" || (expanded && agent.status === "done")) && agent.output && (
+      {agent.status === "running" && agent.output && (
         <div className="px-4 pb-4">
-          <div className="text-sm leading-7 whitespace-pre-wrap opacity-80 max-h-60 overflow-y-auto scrollbar-hide">
+          <div className="text-sm leading-7 whitespace-pre-wrap opacity-80 max-h-48 overflow-y-auto">
             {agent.output}
-            {agent.status === "running" && <span className="animate-pulse">▊</span>}
+            <span className="animate-pulse">▊</span>
+          </div>
+        </div>
+      )}
+
+      {/* Collapsed preview when done */}
+      {agent.status === "done" && !expanded && agent.output && (
+        <p className="px-4 pb-3 text-xs text-muted-foreground truncate">{agent.output.slice(0, 120)}…</p>
+      )}
+
+      {/* Full output when expanded */}
+      {agent.status === "done" && expanded && agent.output && (
+        <div className="px-4 pb-4">
+          <div className="text-sm leading-7 whitespace-pre-wrap max-h-72 overflow-y-auto">
+            {agent.output}
           </div>
         </div>
       )}
@@ -99,7 +158,9 @@ function AgentCard({ agent, expanded, onToggle }: {
   );
 }
 
-function FinalAnswer({ text }: { text: string }) {
+// ── Final output ───────────────────────────────────────────────────────────────
+
+function FinalOutput({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
 
   async function copy() {
@@ -113,15 +174,18 @@ function FinalAnswer({ text }: { text: string }) {
       <div className="flex items-center justify-between px-5 py-3 border-b border-primary/10">
         <div className="flex items-center gap-2">
           <CheckCircle className="w-4 h-4 text-primary" />
-          <span className="text-sm font-semibold text-primary">النتيجة النهائية</span>
+          <span className="text-sm font-semibold text-primary">نتيجة الفريق</span>
         </div>
-        <button onClick={copy}
-          className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors">
+        <button
+          onClick={() => void copy()}
+          className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+          type="button"
+        >
           <Copy className="w-3.5 h-3.5" />
           {copied ? "تم النسخ ✓" : "نسخ"}
         </button>
       </div>
-      <div className="px-5 py-4 text-sm leading-8 whitespace-pre-wrap max-h-[500px] overflow-y-auto scrollbar-hide">
+      <div className="px-5 py-4 text-sm leading-8 whitespace-pre-wrap max-h-[600px] overflow-y-auto">
         {text}
       </div>
     </div>
@@ -131,25 +195,45 @@ function FinalAnswer({ text }: { text: string }) {
 // ── Main component ─────────────────────────────────────────────────────────────
 
 export function ResearchPage() {
-  const [query,      setQuery]      = useState("");
-  const [flow,       setFlow]       = useState<FlowId>("research");
-  const [agents,     setAgents]     = useState<AgentState[]>([]);
+  const [query,      setQuery]       = useState("");
+  const [flow,       setFlow]        = useState<FlowId>("edu");
+  const [agents,     setAgents]      = useState<AgentState[]>(() => buildAgentPreview("edu"));
   const [finalOutput, setFinalOutput] = useState("");
-  const [running,    setRunning]    = useState(false);
-  const [expanded,   setExpanded]   = useState<Record<string, boolean>>({});
-  const [totalMs,    setTotalMs]    = useState<number | null>(null);
+  const [running,    setRunning]     = useState(false);
+  const [error,      setError]       = useState("");
+  const [expanded,   setExpanded]    = useState<Record<string, boolean>>({});
+  const [totalMs,    setTotalMs]     = useState<number | null>(null);
   const abortRef = useRef<AbortController | null>(null);
+
+  // Build a "waiting" preview for the selected flow's agents
+  function buildAgentPreview(flowId: FlowId): AgentState[] {
+    const agentIds = FLOWS.find((f) => f.id === flowId)?.agents ?? ["orchestrator", "writer"];
+    return agentIds.map((id) => ({
+      id,
+      nameAr: AGENT_META[id]?.nameAr ?? id,
+      roleAr: AGENT_META[id]?.roleAr ?? "",
+      status: "waiting",
+      output: "",
+    }));
+  }
+
+  function selectFlow(f: FlowId) {
+    if (running) return;
+    setFlow(f);
+    setAgents(buildAgentPreview(f));
+    setFinalOutput("");
+    setError("");
+    setTotalMs(null);
+    setExpanded({});
+  }
 
   const run = useCallback(async () => {
     if (!query.trim() || running) return;
 
-    // Reset
-    const selectedFlow = FLOWS.find((f) => f.id === flow)!;
-    const initialAgents: AgentState[] = selectedFlow.agents.map((id) => ({
-      id, label: AGENT_LABELS[id] ?? id, status: "waiting", output: "",
-    }));
-    setAgents(initialAgents);
+    // Reset to waiting state for the selected flow
+    setAgents(buildAgentPreview(flow));
     setFinalOutput("");
+    setError("");
     setTotalMs(null);
     setExpanded({});
     setRunning(true);
@@ -165,8 +249,8 @@ export function ResearchPage() {
       });
 
       if (!res.ok) {
-        const err = await res.json();
-        console.error("[Research]", err.message);
+        const err = await res.json().catch(() => ({})) as { message?: string };
+        setError(err.message ?? "حدث خطأ غير متوقع. تحقق من الاتصال وحاول مرة أخرى.");
         setRunning(false);
         return;
       }
@@ -186,38 +270,41 @@ export function ResearchPage() {
         for (const line of lines) {
           if (!line.startsWith("data: ")) continue;
           try {
-            const event = JSON.parse(line.slice(6)) as Record<string, unknown>;
-            const e = event.event as string;
+            const ev = JSON.parse(line.slice(6)) as Record<string, unknown>;
+            const e  = ev.event as string;
+            const id = (ev.agentId ?? ev.agent_id) as string;
 
             if (e === "agent_start") {
-              const id = (event.agent_id ?? event.agentId) as string;
               setAgents((prev) => prev.map((a) =>
                 a.id === id ? { ...a, status: "running" } : a
               ));
             } else if (e === "agent_delta") {
-              const id    = event.agent_id as string;
-              const delta = event.delta as string;
+              const delta = ev.delta as string;
               setAgents((prev) => prev.map((a) =>
                 a.id === id ? { ...a, output: a.output + delta } : a
               ));
             } else if (e === "agent_done") {
-              const id  = event.agent_id as string;
-              const dur = (event.duration_ms ?? event.durationMs) as number;
+              const dur = (ev.durationMs ?? ev.duration_ms) as number;
               setAgents((prev) => prev.map((a) =>
                 a.id === id ? { ...a, status: "done", durationMs: dur } : a
               ));
             } else if (e === "end") {
-              setFinalOutput(((event.final_output ?? event.finalOutput) as string) ?? "");
-              setTotalMs(((event.total_ms ?? event.totalMs) as number) ?? null);
+              setFinalOutput(((ev.finalOutput ?? ev.final_output) as string) ?? "");
+              setTotalMs((ev.totalMs ?? ev.total_ms) as number ?? null);
+            } else if (e === "error") {
+              setError((ev.message as string) ?? "حدث خطأ أثناء تشغيل الوكلاء.");
             }
           } catch { /* ignore malformed events */ }
         }
       }
     } catch (err) {
-      if ((err as Error).name !== "AbortError") console.error("[Research]", err);
+      if ((err as Error).name !== "AbortError") {
+        setError("تعذّر الاتصال بالخادم. تحقق من الاتصال بالإنترنت وأعد المحاولة.");
+      }
     } finally {
       setRunning(false);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, flow, running]);
 
   function handleStop() {
@@ -227,38 +314,47 @@ export function ResearchPage() {
 
   function handleReset() {
     handleStop();
-    setAgents([]);
+    setAgents(buildAgentPreview(flow));
     setFinalOutput("");
+    setError("");
     setQuery("");
     setTotalMs(null);
+    setExpanded({});
   }
 
-  const hasResults = agents.length > 0;
+  const hasRun     = agents.some((a) => a.status !== "waiting");
+  const doneCount  = agents.filter((a) => a.status === "done").length;
+  const runningIdx = agents.findIndex((a) => a.status === "running");
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6 animate-fade-in" dir="rtl">
-      {/* Header */}
+    <div className="max-w-3xl mx-auto space-y-6" dir="rtl">
+
+      {/* ── Header ── */}
       <div>
         <h1 className="text-2xl font-black flex items-center gap-3">
-          <span className="w-10 h-10 rounded-2xl bg-gradient-to-br from-violet-500 to-primary flex items-center justify-center text-white text-lg">🔬</span>
-          البحث الذكي
+          <span className="w-10 h-10 rounded-2xl bg-gradient-to-br from-violet-500 to-primary flex items-center justify-center text-white text-lg">
+            🔬
+          </span>
+          البحث الذكي متعدد الوكلاء
         </h1>
         <p className="text-sm text-muted-foreground mt-1">
-          نظام متعدد الوكلاء — كل وكيل متخصص يعمل بالتسلسل لإنتاج إجابة شاملة ودقيقة
+          للبحث والتحليل والمقارنة وحل المشكلات — فريق متكامل من الوكلاء يعملون بالتسلسل
         </p>
       </div>
 
-      {/* Flow selector */}
+      {/* ── Flow selector ── */}
       <div className="flex gap-2 flex-wrap">
         {FLOWS.map((f) => (
           <button
             key={f.id}
-            onClick={() => setFlow(f.id)}
+            onClick={() => selectFlow(f.id)}
+            disabled={running}
+            type="button"
             className={cn(
               "px-4 py-2 rounded-xl text-sm font-medium transition-all border",
               flow === f.id
                 ? "bg-primary text-white border-primary shadow-sm"
-                : "border-border hover:border-primary hover:text-primary bg-card"
+                : "border-border hover:border-primary hover:text-primary bg-card disabled:opacity-50"
             )}
           >
             {f.label}
@@ -267,15 +363,41 @@ export function ResearchPage() {
         ))}
       </div>
 
-      {/* Query input */}
+      {/* ── Agent cards — always visible ── */}
+      <div className="space-y-2">
+        <div className="flex items-center justify-between">
+          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground/60">
+            الوكلاء
+          </p>
+          <span className="text-xs text-muted-foreground">
+            {running && runningIdx !== -1
+              ? `الوكيل ${runningIdx + 1}/${agents.length} يعمل…`
+              : hasRun && !running && totalMs
+              ? `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`
+              : hasRun && !running
+              ? `${doneCount}/${agents.length} وكلاء اكتملوا`
+              : ""}
+          </span>
+        </div>
+        {agents.map((a) => (
+          <AgentCard
+            key={a.id}
+            agent={a}
+            expanded={!!expanded[a.id]}
+            onToggle={() => setExpanded((prev) => ({ ...prev, [a.id]: !prev[a.id] }))}
+          />
+        ))}
+      </div>
+
+      {/* ── Query input ── */}
       <div className="flex gap-3">
         <div className="flex-1 relative">
-          <Search className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+          <Search className="absolute right-4 top-3 w-4 h-4 text-muted-foreground" />
           <textarea
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); run(); } }}
-            placeholder="اكتب سؤالك أو موضوعك للبحث..."
+            onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); void run(); } }}
+            placeholder="اكتب سؤالك أو موضوعك الدراسي..."
             rows={2}
             disabled={running}
             className="w-full rounded-2xl border border-border bg-background pr-11 pl-4 py-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-60 transition-shadow"
@@ -283,14 +405,17 @@ export function ResearchPage() {
         </div>
         <div className="flex flex-col gap-2">
           <Button
-            onClick={running ? handleStop : run}
-            disabled={!query.trim() && !running}
+            onClick={running ? handleStop : () => void run()}
+            disabled={!running && !query.trim()}
             variant={running ? "outline" : "default"}
             className="rounded-2xl h-auto py-3 px-5"
           >
-            {running ? "إيقاف" : "ابحث"}
+            {running
+              ? <span className="flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-primary animate-ping" />إيقاف</span>
+              : "ابحث"
+            }
           </Button>
-          {hasResults && (
+          {hasRun && (
             <Button onClick={handleReset} variant="ghost" size="sm" className="rounded-xl">
               <RotateCcw className="w-4 h-4" />
             </Button>
@@ -298,46 +423,63 @@ export function ResearchPage() {
         </div>
       </div>
 
-      {/* Agents progress */}
-      {hasResults && (
-        <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <p className="text-sm font-semibold">تقدم الوكلاء</p>
-            {totalMs && (
-              <span className="text-xs text-muted-foreground">
-                اكتمل في {(totalMs / 1000).toFixed(1)} ثانية
-              </span>
-            )}
-          </div>
-          {agents.map((a) => (
-            <AgentCard
-              key={a.id}
-              agent={a}
-              expanded={!!expanded[a.id]}
-              onToggle={() => setExpanded((prev) => ({ ...prev, [a.id]: !prev[a.id] }))}
-            />
-          ))}
+      {/* ── Error state ── */}
+      {error && (
+        <div className="flex items-start gap-3 rounded-2xl border border-red-200 bg-red-50 px-4 py-3">
+          <AlertCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
+          <p className="text-sm text-red-700 leading-6">{error}</p>
         </div>
       )}
 
-      {/* Final answer */}
-      {finalOutput && <FinalAnswer text={finalOutput} />}
+      {/* ── Final output ── */}
+      {finalOutput && <FinalOutput text={finalOutput} />}
 
-      {/* Empty state */}
-      {!hasResults && (
-        <div className="text-center py-16 text-muted-foreground">
-          <div className="text-5xl mb-4">🔬</div>
-          <p className="font-semibold mb-2">اكتشف المعرفة مع نظام الوكلاء</p>
-          <p className="text-sm max-w-sm mx-auto leading-7">
-            اطرح أي سؤال أكاديمي أو تعليمي — سيعمل فريق من الوكلاء الذكيين بالتسلسل لإنتاج إجابة شاملة ودقيقة.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-2 justify-center">
-            {["ما هي الكسور الاعتيادية؟", "اشرح تركيب الجملة الفعلية", "ما هو دور النيل في الحضارة المصرية؟"].map((s) => (
-              <button key={s} onClick={() => setQuery(s)}
-                className="px-4 py-2 rounded-full border border-border text-sm hover:border-primary hover:text-primary transition-colors">
-                {s}
+      {/* ── Empty state ── */}
+      {!hasRun && !error && (
+        <div className="space-y-5 py-4 text-muted-foreground">
+          {/* Type cards */}
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {([
+              { icon: "📚", label: "بحث تعليمي",       desc: "شرح عميق + تمارين + مراجعة", flow: "edu"      as FlowId, query: "" },
+              { icon: "✏️", label: "شرح درس",           desc: "اشرح خطوة بخطوة",            flow: "edu"      as FlowId, query: "اشرح لي درس: " },
+              { icon: "⚖️", label: "مقارنة",            desc: "قارن بين مفهومين أو أكثر",  flow: "analysis" as FlowId, query: "قارن بين: " },
+              { icon: "🔧", label: "حل مشكلة دراسية",  desc: "تشخيص وتصحيح خطأ",          flow: "quick"    as FlowId, query: "كيف أحل: " },
+              { icon: "📋", label: "خطة مراجعة",        desc: "استعداد ذكي للامتحان",      flow: "edu"      as FlowId, query: "خطة مراجعة لـ: " },
+            ] as const).map((t) => (
+              <button
+                key={t.label}
+                type="button"
+                onClick={() => { selectFlow(t.flow); if (t.query) setQuery(t.query); }}
+                className="flex flex-col items-start gap-1 rounded-2xl border border-border bg-card px-4 py-3 text-right transition-colors hover:border-primary hover:text-foreground"
+              >
+                <span className="text-xl">{t.icon}</span>
+                <span className="text-sm font-semibold text-foreground">{t.label}</span>
+                <span className="text-xs leading-4 opacity-60">{t.desc}</span>
               </button>
             ))}
+          </div>
+
+          {/* Moroccan examples */}
+          <div>
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest opacity-40">أمثلة من المنهج المغربي</p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "قارن بين الطاقة الشمسية والريحية في المغرب",
+                "كيف أستعد لامتحان الجهوي؟",
+                "ما أسباب ضعفي في الرياضيات؟",
+                "اشرح قانون أوم",
+                "بحث حول التغير المناخي في المغرب",
+              ].map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setQuery(s)}
+                  type="button"
+                  className="px-3 py-1.5 rounded-full border border-border text-xs hover:border-primary hover:text-primary transition-colors"
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}

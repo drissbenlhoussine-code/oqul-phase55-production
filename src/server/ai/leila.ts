@@ -1,5 +1,6 @@
 import Groq from "groq-sdk";
 import { LEILA_DARIJA_FEW_SHOTS, LEILA_CORE_RULES } from "./personas/leila-darija";
+import { LEILA_SAFETY_RULES } from "./leila-safety";
 import { PRIMARY_PERSONALITY, PRIMARY_EXAMPLES } from "./personas/leila-primary";
 import { MIDDLE_PERSONALITY, MIDDLE_EXAMPLES } from "./personas/leila-middle";
 import { HIGH_PERSONALITY, HIGH_EXAMPLES } from "./personas/leila-high";
@@ -188,7 +189,9 @@ ${persona.examples}
 - للإعدادي: ابدئي بفصحى سلسة وواضحة، وليس بلغة طفولية. غيّري إلى الدارجة/الفرنسية/الإنجليزية إذا طلب ذلك.
 - الأمثلة تكون من الواقع المغربي: المدرسة، النقل، الرياضة، الهاتف، السوق، الأسرة، والمدينة
 - ما تردديش نفس الجملة مرتين
-- إجابة قصيرة أفضل من إجابة طويلة — الطفل يمل`;
+- إجابة قصيرة أفضل من إجابة طويلة — الطفل يمل
+
+${LEILA_SAFETY_RULES}`;
 }
 
 export interface LeilaStreamOptions {
