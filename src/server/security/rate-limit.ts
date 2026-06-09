@@ -81,7 +81,10 @@ export async function rateLimitAsync(key: string, limit: number, windowMs: numbe
 }
 
 // ── Preset limiters ────────────────────────────────────────────────────────
-export const loginLimiter    = (ip: string)     => rateLimitAsync(`login:${ip}`,    5,  15 * 60 * 1000);
-export const registerLimiter = (ip: string)     => rateLimitAsync(`register:${ip}`, 3,  60 * 60 * 1000);
-export const aiChatLimiter   = (userId: string) => rateLimitAsync(`ai:${userId}`,   10, 60 * 1000);
-export const refreshLimiter  = (ip: string)     => rateLimitAsync(`refresh:${ip}`,  20, 60 * 1000);
+export const loginLimiter               = (ip: string)   => rateLimitAsync(`login:${ip}`,          5,  15 * 60 * 1000);
+export const registerLimiter            = (ip: string)   => rateLimitAsync(`register:${ip}`,        3,  60 * 60 * 1000);
+export const aiChatLimiter              = (id: string)   => rateLimitAsync(`ai:${id}`,              10,      60 * 1000);
+export const refreshLimiter             = (ip: string)   => rateLimitAsync(`refresh:${ip}`,         20,      60 * 1000);
+export const forgotPasswordIpLimiter    = (ip: string)   => rateLimitAsync(`forgot:ip:${ip}`,        3, 60 * 60 * 1000);
+export const forgotPasswordEmailLimiter = (hash: string) => rateLimitAsync(`forgot:email:${hash}`,   2, 60 * 60 * 1000);
+export const resetPasswordLimiter       = (ip: string)   => rateLimitAsync(`reset:ip:${ip}`,        10, 60 * 60 * 1000);

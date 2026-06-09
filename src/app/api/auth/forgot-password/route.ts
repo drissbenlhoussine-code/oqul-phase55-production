@@ -12,6 +12,7 @@ import { usersRepo }                                           from "@/server/re
 import { usersEmailRepo }                                      from "@/server/repositories/users-email-repo";
 import { EmailDeliveryError, emailService, getEmailConfigDiagnostics } from "@/server/email/email-service";
 import { generateSecureToken, hashToken, passwordResetExpiry } from "@/server/auth/tokens";
+import { forgotPasswordIpLimiter, forgotPasswordEmailLimiter } from "@/server/security/rate-limit";
 
 export const dynamic   = "force-dynamic";
 export const revalidate = 0;
@@ -93,10 +94,19 @@ function logEmailFailure(error: unknown, emailHash: string) {
 
 export async function POST(request: NextRequest) {
   try {
+    // Rate limit by IP (3/hr) — return accepted response to avoid oracle attacks
+    const ip = request.headers.get("x-forwarded-for") ?? "unknown";
+    const ipLimit = await forgotPasswordIpLimiter(ip);
+    if (!ipLimit.allowed) return acceptedResponse();
+
     console.info("[forgot-password] email config", getEmailConfigDiagnostics());
 
     const { email } = schema.parse(await request.json());
     const emailHash = safeEmailHash(email);
+
+    // Rate limit by email hash (2/hr) — still return accepted to avoid oracle attacks
+    const emailLimit = await forgotPasswordEmailLimiter(emailHash);
+    if (!emailLimit.allowed) return acceptedResponse();
 
     console.info("[forgot-password] submitted", { emailHash });
 

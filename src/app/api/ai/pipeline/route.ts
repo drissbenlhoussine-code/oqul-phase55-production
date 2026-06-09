@@ -10,10 +10,12 @@ import type { AgentId, PipelineFlowId } from "@/server/ai/pipeline/config";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+const ALLOWED_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"] as const;
+
 const inputSchema = z.object({
   input: z.string().min(3, "اكتب طلبًا أو سؤالًا واضحًا").max(5000),
   flow: z.enum(["full", "research", "analysis", "quick", "lesson", "edu"]).default("full"),
-  model: z.string().min(3).default("llama-3.3-70b-versatile"),
+  model: z.enum(ALLOWED_MODELS).default("llama-3.3-70b-versatile"),
 });
 
 function sse(data: Record<string, unknown>) {
@@ -41,7 +43,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: false, message: "GROQ_API_KEY غير موجود في البيئة" }, { status: 503 });
   }
 
-  const { input, flow, model } = parsed.data as { input: string; flow: PipelineFlowId; model: string };
+  const { input, flow, model } = parsed.data as { input: string; flow: PipelineFlowId; model: typeof ALLOWED_MODELS[number] };
   const agentIds = getPipelineAgents(flow);
   const groq = new Groq({ apiKey });
 

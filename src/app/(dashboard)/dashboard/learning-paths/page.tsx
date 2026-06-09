@@ -51,7 +51,7 @@ const WEAKNESS_CHIPS = [
 const TOOL_LINKS: Record<string, { href: string; icon: React.ElementType; color: string }> = {
   "ليلى":             { href: "/dashboard/leila",          icon: MessageCircle, color: "text-violet-600 bg-violet-50 border-violet-200" },
   "مولد الدروس":      { href: "/dashboard/lesson-helper",  icon: BookOpen,      color: "text-emerald-600 bg-emerald-50 border-emerald-200" },
-  "استعداد للامتحان": { href: "/dashboard/secondary-school", icon: GraduationCap, color: "text-blue-600 bg-blue-50 border-blue-200" },
+  "استعداد للامتحان": { href: "/dashboard/exam-prediction", icon: GraduationCap, color: "text-blue-600 bg-blue-50 border-blue-200" },
 };
 
 function getCsrfToken(): string {
@@ -410,7 +410,7 @@ export default function LearningPathsPage() {
                 [
                   { key: "leila",        label: "اسألي ليلى",    href: "/dashboard/leila",           icon: MessageCircle, desc: result.toolConnections.leila,        color: "border-violet-200 bg-violet-50" },
                   { key: "lessonHelper", label: "مولد الدروس",   href: "/dashboard/lesson-helper",   icon: BookOpen,      desc: result.toolConnections.lessonHelper,  color: "border-emerald-200 bg-emerald-50" },
-                  { key: "examPrep",     label: "الثانوي والباك", href: "/dashboard/secondary-school", icon: GraduationCap, desc: result.toolConnections.examPrep,      color: "border-blue-200 bg-blue-50" },
+                  { key: "examPrep",     label: "استعداد للامتحان", href: "/dashboard/exam-prediction", icon: GraduationCap, desc: result.toolConnections.examPrep,      color: "border-blue-200 bg-blue-50" },
                 ] as const
               ).map((tool) => (
                 <Link

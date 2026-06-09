@@ -10,6 +10,7 @@ import { hashToken, isExpired } from "@/server/auth/tokens";
 import { errorResponse } from "@/server/http/response";
 import { Errors } from "@/server/errors";
 import { audit } from "@/server/security/audit";
+import { resetPasswordLimiter } from "@/server/security/rate-limit";
 
 const schema = z.object({
   token:    z.string().length(64, "رابط غير صالح"),
@@ -18,6 +19,15 @@ const schema = z.object({
 
 export async function POST(request: NextRequest) {
   try {
+    const ip = request.headers.get("x-forwarded-for") ?? "unknown";
+    const limit = await resetPasswordLimiter(ip);
+    if (!limit.allowed) {
+      return NextResponse.json(
+        { success: false, code: "RATE_LIMITED", message: "Too many attempts. Try again later." },
+        { status: 429 }
+      );
+    }
+
     const { token, password } = schema.parse(await request.json());
 
     // DB stores the SHA-256 hash; look up by hash of the incoming plain token
