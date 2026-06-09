@@ -21,10 +21,11 @@ export type GradeLevel = "primary" | "middle" | "secondary" | "unknown";
 const learnSection: NavSection = {
   title: "التعلم",
   items: [
-    { href: "/dashboard",          icon: LayoutDashboard, label: "الرئيسية" },
-    { href: "/dashboard/lessons",  icon: BookOpen,         label: "الدروس" },
-    { href: "/dashboard/leila",    icon: MessageCircle,    label: "اسألي ليلى",  description: "اسألي أي سؤال واحصلي على شرح فوري" },
-    { href: "/dashboard/progress", icon: BarChart3,         label: "تقدمي" },
+    { href: "/dashboard",               icon: LayoutDashboard, label: "الرئيسية" },
+    { href: "/dashboard/lessons",       icon: BookOpen,        label: "الدروس" },
+    { href: "/dashboard/leila",         icon: MessageCircle,   label: "اسألي ليلى",  description: "اسألي أي سؤال واحصلي على شرح فوري" },
+    { href: "/dashboard/progress",      icon: BarChart3,       label: "تقدمي" },
+    { href: "/dashboard/lesson-helper", icon: BookMarked,      label: "مولد الدروس", description: "درس كامل مع أمثلة وتمارين" },
   ],
 };
 
@@ -33,10 +34,9 @@ const learnSection: NavSection = {
 const aiToolsSection: NavSection = {
   title: "أدوات ذكية",
   items: [
-    { href: "/dashboard/research",        icon: FlaskConical,  label: "البحث الذكي متعدد الوكلاء", description: "فريق خبراء: بحث وتحليل ومقارنة" },
-    { href: "/dashboard/lesson-helper",   icon: BookMarked,    label: "مولد الدروس",               description: "درس كامل مع أمثلة وتمارين" },
-    { href: "/dashboard/learning-paths",  icon: GitBranch,     label: "مساري التعليمي",            description: "خطة تعلم مخصصة حسب مستواك" },
-    { href: "/dashboard/exam-prediction", icon: TrendingUp,    label: "استعداد للامتحان",          description: "اكتشف نقاط الضعف وخطة المراجعة" },
+    { href: "/dashboard/research",        icon: FlaskConical, label: "البحث الذكي متعدد الوكلاء", description: "فريق خبراء: بحث وتحليل ومقارنة" },
+    { href: "/dashboard/learning-paths",  icon: GitBranch,    label: "مساري التعليمي",            description: "خطة تعلم مخصصة حسب مستواك" },
+    { href: "/dashboard/exam-prediction", icon: TrendingUp,   label: "استعداد للامتحان",          description: "اكتشف نقاط الضعف وخطة المراجعة" },
   ],
 };
 
@@ -144,7 +144,7 @@ export function Sidebar({
   const pathname = usePathname();
 
   // Visibility flags
-  const showAiTools  = gradeLevel !== "primary";
+  const showAiTools   = gradeLevel !== "primary";
   const showSecondary = gradeLevel === "secondary";
 
   const content = (

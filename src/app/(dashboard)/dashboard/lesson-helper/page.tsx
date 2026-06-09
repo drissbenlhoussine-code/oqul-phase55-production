@@ -7,20 +7,28 @@ import type { GradeLevel } from "@/components/layout/sidebar";
 
 // ── Grade-appropriate quick prompts ────────────────────────────────────────────
 
+const PROMPTS_PRIMARY: string[] = [
+  "كيف أجمع الأعداد بسهولة؟",
+  "اشرح لي الكسور بطريقة سهلة",
+  "كيف أحل مسائل الضرب؟",
+  "ما هو الفاعل في الجملة؟",
+  "ساعدني في فهم الهندسة",
+];
+
 const PROMPTS_MIDDLE: string[] = [
-  "اشرح قاعدة الكسور في الرياضيات مع أمثلة بسيطة",
-  "اشرح تركيب الجملة الفعلية في اللغة العربية",
-  "كيف أحل معادلة من الدرجة الأولى بطريقة واضحة؟",
-  "ما هي العوامل المؤثرة في شدة التيار الكهربائي؟",
-  "اشرح مفهوم الكثافة ووحداتها مع تمارين",
+  "كيف أحل معادلة من الدرجة الأولى؟",
+  "اشرح لي الدارة الكهربائية",
+  "ما الفرق بين المناخ والطقس؟",
+  "ساعدني في الإعراب",
+  "كيف أراجع للفرض؟",
 ];
 
 const PROMPTS_SECONDARY: string[] = [
-  "اشرح مفهوم التفاضل والتكامل مع تطبيقات على المنهج المغربي",
-  "كيف أحل مسائل اللوغاريتم في امتحانات الباكالوريا؟",
-  "لخص درس الكهرومغناطيس مع تمارين نمط الباك",
-  "اشرح نظرية النسبية الخاصة لأينشتاين بطريقة مبسطة",
-  "ما هي تقنيات التحليل الأدبي في اللغة العربية للثانوي؟",
+  "تمارين الباك في الاشتقاق",
+  "شرح اللوغاريتم",
+  "تحليل نص فلسفي",
+  "مراجعة الكهرباء",
+  "خطة مراجعة للباك",
 ];
 
 const PROMPTS_DEFAULT = PROMPTS_MIDDLE;
@@ -28,10 +36,10 @@ const PROMPTS_DEFAULT = PROMPTS_MIDDLE;
 // ── Grade context prefix injected into the pipeline prompt ─────────────────────
 
 const GRADE_CONTEXT: Record<GradeLevel, string> = {
+  primary:   "المستوى: ابتدائي. اشرح بأسلوب بسيط جداً ومحبب مناسب لطفل في المرحلة الابتدائية، مع أمثلة من الحياة اليومية وكلمات سهلة.\n\n",
   middle:    "المستوى: إعدادي (collège). اشرح بأسلوب واضح ومبسط مناسب لطالب إعدادي، مع أمثلة من الحياة اليومية وتمارين بسيطة.\n\n",
   secondary: "المستوى: ثانوي / جذع مشترك / باكالوريا. قدّم شرحاً عميقاً مناسباً لامتحانات الباكالوريا مع أمثلة متقدمة وتطبيقات رياضية دقيقة.\n\n",
-  primary:   "",
-  unknown:   "",
+  unknown:   "المستوى: إعدادي (collège). اشرح بأسلوب واضح ومبسط مناسب لطالب إعدادي، مع أمثلة من الحياة اليومية وتمارين بسيطة.\n\n",
 };
 
 // ── Grade detection helper (mirrors layout.tsx logic) ─────────────────────────
@@ -75,7 +83,10 @@ export default function LessonHelperPage() {
       .catch(() => {});
   }, []);
 
-  const prompts = gradeLevel === "secondary" ? PROMPTS_SECONDARY : PROMPTS_DEFAULT;
+  const prompts =
+    gradeLevel === "secondary" ? PROMPTS_SECONDARY :
+    gradeLevel === "primary"   ? PROMPTS_PRIMARY :
+    PROMPTS_DEFAULT;
   const gradePrefix = GRADE_CONTEXT[gradeLevel];
 
   async function generate() {
@@ -131,11 +142,11 @@ export default function LessonHelperPage() {
 
   const hasOutput = Boolean(output);
 
-  const levelLabel = gradeLevel === "secondary"
-    ? "الثانوي والباكالوريا"
-    : gradeLevel === "middle"
-    ? "الإعدادي"
-    : "";
+  const levelLabel =
+    gradeLevel === "secondary" ? "الثانوي والباكالوريا" :
+    gradeLevel === "middle"    ? "الإعدادي" :
+    gradeLevel === "primary"   ? "الابتدائي" :
+    "";
 
   return (
     <div className="mx-auto max-w-3xl space-y-6" dir="rtl">

@@ -4,6 +4,16 @@ import { Search, Copy, RotateCcw, ChevronDown, ChevronUp, CheckCircle, AlertCirc
 import { Button } from "@/components/ui/button";
 import { cn }     from "@/lib/cn";
 
+// Estimated total duration (seconds) per flow — used for ETA display only
+const FLOW_ETA: Record<string, number> = {
+  edu:      60,
+  research: 35,
+  full:     75,
+  analysis: 40,
+  quick:    15,
+  lesson:   30,
+};
+
 // ── Types ──────────────────────────────────────────────────────────────────────
 
 type FlowId     = "edu" | "research" | "full" | "analysis" | "quick" | "lesson";
@@ -203,7 +213,8 @@ export function ResearchPage() {
   const [error,      setError]       = useState("");
   const [expanded,   setExpanded]    = useState<Record<string, boolean>>({});
   const [totalMs,    setTotalMs]     = useState<number | null>(null);
-  const abortRef = useRef<AbortController | null>(null);
+  const abortRef    = useRef<AbortController | null>(null);
+  const startTimeRef = useRef<number | null>(null);
 
   // Build a "waiting" preview for the selected flow's agents
   function buildAgentPreview(flowId: FlowId): AgentState[] {
@@ -237,6 +248,7 @@ export function ResearchPage() {
     setTotalMs(null);
     setExpanded({});
     setRunning(true);
+    startTimeRef.current = Date.now();
 
     abortRef.current = new AbortController();
 
@@ -326,6 +338,28 @@ export function ResearchPage() {
   const doneCount  = agents.filter((a) => a.status === "done").length;
   const runningIdx = agents.findIndex((a) => a.status === "running");
 
+  // Progress % and ETA (live during run)
+  const pct        = agents.length ? Math.round((doneCount / agents.length) * 100) : 0;
+  const etaSec     = FLOW_ETA[flow] ?? 45;
+  const elapsedSec = startTimeRef.current ? (Date.now() - startTimeRef.current) / 1000 : 0;
+  const remainSec  = Math.max(0, Math.round(etaSec - elapsedSec));
+
+  function progressLabel(): string {
+    if (running && runningIdx !== -1) {
+      const parts = [
+        `الوكيل ${runningIdx + 1}/${agents.length}`,
+        `${pct}%`,
+        remainSec > 0 ? `~${remainSec}s` : "",
+      ].filter(Boolean);
+      return parts.join(" | ");
+    }
+    if (hasRun && !running && totalMs)
+      return `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`;
+    if (hasRun && !running)
+      return `${doneCount}/${agents.length} وكلاء اكتملوا`;
+    return "";
+  }
+
   return (
     <div className="max-w-3xl mx-auto space-y-6" dir="rtl">
 
@@ -369,14 +403,8 @@ export function ResearchPage() {
           <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground/60">
             الوكلاء
           </p>
-          <span className="text-xs text-muted-foreground">
-            {running && runningIdx !== -1
-              ? `الوكيل ${runningIdx + 1}/${agents.length} يعمل…`
-              : hasRun && !running && totalMs
-              ? `اكتمل في ${(totalMs / 1000).toFixed(1)} ث — ${doneCount}/${agents.length} وكلاء`
-              : hasRun && !running
-              ? `${doneCount}/${agents.length} وكلاء اكتملوا`
-              : ""}
+          <span className="text-xs text-muted-foreground tabular-nums">
+            {progressLabel()}
           </span>
         </div>
         {agents.map((a) => (
@@ -436,28 +464,50 @@ export function ResearchPage() {
 
       {/* ── Empty state ── */}
       {!hasRun && !error && (
-        <div className="text-center py-10 text-muted-foreground">
-          <p className="text-sm leading-7">
-            اكتب سؤالاً بحثياً، مشكلة دراسية، أو طلب مقارنة — سيعمل الفريق بالتسلسل وتتابع كل وكيل في الوقت الفعلي.
-          </p>
-          <p className="text-xs mt-1 opacity-60">اختر &ldquo;بحث تعليمي&rdquo; للإجابة الأعمق والأكمل.</p>
-          <div className="mt-4 flex flex-wrap gap-2 justify-center">
-            {[
-              "قارن بين الطاقة المتجددة والطاقة الأحفورية في المغرب",
-              "ما أسباب ضعفي في الرياضيات وكيف أتحسن؟",
-              "أريد بحثاً حول التغير المناخي وتأثيره على المغرب",
-              "اشرح قانون أوم مع تطبيقات وتمارين",
-              "خطة مراجعة شاملة للفلسفة قبل الباكالوريا",
-            ].map((s) => (
+        <div className="space-y-5 py-4 text-muted-foreground">
+          {/* Type cards */}
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {([
+              { icon: "📚", label: "بحث تعليمي",       desc: "شرح عميق + تمارين + مراجعة", flow: "edu"      as FlowId, query: "" },
+              { icon: "✏️", label: "شرح درس",           desc: "اشرح خطوة بخطوة",            flow: "edu"      as FlowId, query: "اشرح لي درس: " },
+              { icon: "⚖️", label: "مقارنة",            desc: "قارن بين مفهومين أو أكثر",  flow: "analysis" as FlowId, query: "قارن بين: " },
+              { icon: "🔧", label: "حل مشكلة دراسية",  desc: "تشخيص وتصحيح خطأ",          flow: "quick"    as FlowId, query: "كيف أحل: " },
+              { icon: "📋", label: "خطة مراجعة",        desc: "استعداد ذكي للامتحان",      flow: "edu"      as FlowId, query: "خطة مراجعة لـ: " },
+            ] as const).map((t) => (
               <button
-                key={s}
-                onClick={() => setQuery(s)}
+                key={t.label}
                 type="button"
-                className="px-3 py-1.5 rounded-full border border-border text-xs hover:border-primary hover:text-primary transition-colors"
+                onClick={() => { selectFlow(t.flow); if (t.query) setQuery(t.query); }}
+                className="flex flex-col items-start gap-1 rounded-2xl border border-border bg-card px-4 py-3 text-right transition-colors hover:border-primary hover:text-foreground"
               >
-                {s}
+                <span className="text-xl">{t.icon}</span>
+                <span className="text-sm font-semibold text-foreground">{t.label}</span>
+                <span className="text-xs leading-4 opacity-60">{t.desc}</span>
               </button>
             ))}
+          </div>
+
+          {/* Moroccan examples */}
+          <div>
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest opacity-40">أمثلة من المنهج المغربي</p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "قارن بين الطاقة الشمسية والريحية في المغرب",
+                "كيف أستعد لامتحان الجهوي؟",
+                "ما أسباب ضعفي في الرياضيات؟",
+                "اشرح قانون أوم",
+                "بحث حول التغير المناخي في المغرب",
+              ].map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setQuery(s)}
+                  type="button"
+                  className="px-3 py-1.5 rounded-full border border-border text-xs hover:border-primary hover:text-primary transition-colors"
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}

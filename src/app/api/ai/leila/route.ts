@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import { getSession } from "@/server/auth/session";
 import { assertOwnsChild } from "@/server/auth/ownership";
 import { buildLeilaSystemPrompt, streamLeila } from "@/server/ai/leila";
+import { sanitizeUserInput } from "@/server/ai/leila-safety";
 import { progressRepo } from "@/server/repositories/progress";
 import { curriculumRepo } from "@/server/repositories/curriculum";
 import { chatRepo } from "@/server/repositories/chat";
@@ -68,8 +69,9 @@ export async function POST(request: Request) {
       .filter((m) => m.role === "user" || m.role === "assistant")
       .map((m) => ({ role: m.role as "user" | "assistant", content: m.content }));
 
-    // The new user message (last in the array)
-    const latestUserMsg = body.messages[body.messages.length - 1];
+    // The new user message (last in the array) — sanitize before processing
+    const rawUserMsg    = body.messages[body.messages.length - 1];
+    const latestUserMsg = { ...rawUserMsg, content: sanitizeUserInput(rawUserMsg.content) };
 
     // Save user message to DB
     await chatRepo.saveMessage(chatSession.id, "user", latestUserMsg.content);
