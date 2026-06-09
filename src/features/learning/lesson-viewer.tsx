@@ -381,6 +381,42 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
       )}
 
       {/* LESSON */}
+      {tab === "lesson" && !lesson.content && (
+        <div className="space-y-4 animate-fade-in">
+          <Card className="border-amber-200 bg-amber-50">
+            <CardContent className="p-6">
+              <div className="flex flex-col items-center gap-4 text-center">
+                <div className="rounded-2xl bg-amber-100 p-4">
+                  <Sparkles className="w-8 h-8 text-amber-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-amber-900">محتوى هذا الدرس قيد الإعداد</h3>
+                  <p className="mt-2 text-sm leading-6 text-amber-700">
+                    فريقنا يعمل على تجهيز شرح كامل لهذا الدرس. في الوقت الحالي يمكنك استخدام الأدوات أدناه للحصول على مساعدة فورية.
+                  </p>
+                </div>
+                <div className="flex flex-wrap justify-center gap-3 pt-1">
+                  <Link
+                    href="/dashboard/leila"
+                    className="flex items-center gap-2 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    اسألي ليلى عن هذا الدرس
+                  </Link>
+                  <Link
+                    href="/dashboard/lesson-helper"
+                    className="flex items-center gap-2 rounded-xl border border-primary/30 bg-white px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/5"
+                  >
+                    <BookOpen className="w-4 h-4" />
+                    توليد درس كامل
+                  </Link>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
       {tab === "lesson" && lesson.content && (
         <div className="space-y-4 animate-fade-in">
           <Card className="bg-gradient-to-br from-emerald-50 via-amber-50 to-white border-primary/20">
@@ -403,7 +439,41 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
             <LessonChunkCard key={chunk.key} chunk={chunk} />
           ))}
 
-          {lessonChunks.length === 0 && (
+          {lessonChunks.length === 0 && !lesson.content.explanation && !lesson.content.summary && (
+            <Card className="border-amber-200 bg-amber-50">
+              <CardContent className="p-6">
+                <div className="flex flex-col items-center gap-4 text-center">
+                  <div className="rounded-2xl bg-amber-100 p-4">
+                    <Sparkles className="w-8 h-8 text-amber-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-amber-900">محتوى هذا الدرس قيد الإعداد</h3>
+                    <p className="mt-2 text-sm leading-6 text-amber-700">
+                      فريقنا يعمل على تجهيز شرح كامل لهذا الدرس. في الوقت الحالي يمكنك استخدام الأدوات أدناه للحصول على مساعدة فورية.
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap justify-center gap-3 pt-1">
+                    <Link
+                      href="/dashboard/leila"
+                      className="flex items-center gap-2 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                      اسألي ليلى عن هذا الدرس
+                    </Link>
+                    <Link
+                      href="/dashboard/lesson-helper"
+                      className="flex items-center gap-2 rounded-xl border border-primary/30 bg-white px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/5"
+                    >
+                      <BookOpen className="w-4 h-4" />
+                      توليد درس كامل
+                    </Link>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {lessonChunks.length === 0 && (lesson.content.explanation || lesson.content.summary) && (
             <Card>
               <CardHeader>
                 <CardTitle className="text-base flex items-center gap-2">
@@ -412,7 +482,7 @@ export function LessonViewer({ lessonId, childId }: { lessonId: string; childId?
               </CardHeader>
               <CardContent>
                 <div className="text-base leading-9 whitespace-pre-wrap sm:text-lg sm:leading-10">
-                  {lesson.content.explanation || lesson.content.summary || "لا يوجد شرح متاح لهذا الدرس بعد."}
+                  {lesson.content.explanation || lesson.content.summary}
                 </div>
               </CardContent>
             </Card>

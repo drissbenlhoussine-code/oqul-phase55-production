@@ -115,7 +115,6 @@ export async function POST(request: Request) {
       lessonSummary:     lesson?.content?.summary ?? undefined,
       subjectName:       lesson?.unit?.subject?.titleAr,
       weakPoints:     needsReview,
-      recentErrors:   needsReview,
       completedCount: completed.length,
       avgScore,
       streak:         child.streak,
@@ -131,9 +130,13 @@ export async function POST(request: Request) {
     };
 
     // Merge DB history with current messages (prefer DB for continuity)
+    // Sanitize user messages in the client-sent fallback (DB messages are already trusted)
     const fullHistory = historyMessages.length > 2
       ? historyMessages
-      : body.messages.slice(0, -1); // use client-sent history if DB empty
+      : body.messages.slice(0, -1).map((m) => ({
+          role:    m.role as "user" | "assistant",
+          content: m.role === "user" ? sanitizeUserInput(m.content) : m.content,
+        }));
 
     const messagesForAI = [
       ...fullHistory,
