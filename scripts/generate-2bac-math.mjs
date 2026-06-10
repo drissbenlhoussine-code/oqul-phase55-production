@@ -30,9 +30,9 @@ const GROQ_API_KEY = process.env.GROQ_API_KEY;
 if (!DATABASE_URL) throw new Error("DATABASE_URL manquant");
 if (!GROQ_API_KEY)  throw new Error("GROQ_API_KEY manquant");
 
-// ── DB client ───────────────────────────────────────────────────────────────
-const { default: postgres } = await import("postgres");
-const sql = postgres(DATABASE_URL, { ssl: DATABASE_URL.includes("localhost") ? false : "require" });
+// ── DB client — Neon HTTP driver (port 443, works in sandboxed envs) ────────
+const { neon } = await import("@neondatabase/serverless");
+const sql = neon(DATABASE_URL);
 
 // ── Groq client ─────────────────────────────────────────────────────────────
 const { default: Groq } = await import("groq-sdk");
@@ -402,19 +402,19 @@ async function replaceExercises(lessonId, exercises) {
   for (let i = 0; i < exercises.length; i++) {
     const ex = exercises[i];
     const opts = ex.options ? JSON.stringify(ex.options) : null;
-    await sql`
-      insert into exercises (lesson_id, type, question, options, correct_answer, explanation, order_index, points)
-      values (
-        ${lessonId},
-        ${ex.type ?? "mcq"},
-        ${ex.question},
-        ${opts ? sql`${opts}::jsonb` : null},
-        ${ex.correctAnswer ?? ex.correct_answer ?? ""},
-        ${ex.explanation ?? ""},
-        ${i + 1},
-        ${ex.points ?? 10}
-      )
-    `;
+    if (opts) {
+        await sql`
+          insert into exercises (lesson_id, type, question, options, correct_answer, explanation, order_index, points)
+          values (${lessonId}, ${ex.type ?? "mcq"}, ${ex.question}, ${opts}::jsonb,
+                  ${ex.correctAnswer ?? ex.correct_answer ?? ""}, ${ex.explanation ?? ""}, ${i + 1}, ${ex.points ?? 10})
+        `;
+      } else {
+        await sql`
+          insert into exercises (lesson_id, type, question, options, correct_answer, explanation, order_index, points)
+          values (${lessonId}, ${ex.type ?? "mcq"}, ${ex.question}, null,
+                  ${ex.correctAnswer ?? ex.correct_answer ?? ""}, ${ex.explanation ?? ""}, ${i + 1}, ${ex.points ?? 10})
+        `;
+      }
   }
 }
 
@@ -514,5 +514,4 @@ async function main() {
 }
 
 main()
-  .catch((err) => { console.error("\n❌ Script failed:", err); process.exitCode = 1; })
-  .finally(async () => { await sql.end(); });
+  .catch((err) => { console.error("\n❌ Script failed:", err); process.exitCode = 1; });
