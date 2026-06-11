@@ -539,3 +539,4 @@ export async function updateLessonWithPayload(client, lessonId, payload, options
     throw error;
   }
 }
+
