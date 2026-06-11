@@ -6,11 +6,11 @@
  *
  * Events: { event:"delta", delta:"..." } | { event:"end" } | { event:"error", message:"..." }
  */
-import { NextResponse }          from "next/server";
-import Groq                      from "groq-sdk";
-import { z }                     from "zod";
-import { getSession }            from "@/server/auth/session";
-import { aiChatLimiter }         from "@/server/security/rate-limit";
+import { NextResponse } from "next/server";
+import Groq from "groq-sdk";
+import { z } from "zod";
+import { getSession } from "@/server/auth/session";
+import { aiChatLimiter } from "@/server/security/rate-limit";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,38 +19,44 @@ const inputSchema = z.object({
   prompt: z.string().min(20, "الطلب قصير جداً").max(8000),
 });
 
-const EXAM_PREP_SYSTEM = `أنت أستاذ مغربي خبير في إعداد الطلاب للامتحانات الرسمية (الفرض المحروس، الامتحان الموحد الإقليمي، الامتحان الموحد الجهوي، الباكالوريا).
+const EXAM_PREP_SYSTEM = `أنت أستاذ مغربي خبير في إعداد التلاميذ للفروض والامتحانات الرسمية: الفرض المحروس، الامتحان الموحد الإقليمي، الامتحان الموحد الجهوي، والامتحان الوطني للبكالوريا.
 
-**قواعد صارمة لا استثناء فيها:**
-1. كل مثال وتمرين وسؤال يجب أن يرتبط حصرياً بالمادة والمحور المحدد في الطلب.
-2. إذا كان المحور "الدوال العددية": لا تكتب معادلات منفصلة مثل "2x+3=5" — كل تمرين يجب أن يدور حول الدوال (مجال التعريف، الصور، السوابق، قراءة البيان، جدول التغيرات).
-3. إذا كان المحور "الكسور": جميع التمارين تتعلق بالكسور فقط.
-4. إذا كان المحور "اللغة العربية" أو "الفلسفة": أنتج تمارين لغوية أو فلسفية ملائمة، لا معادلات رياضية.
-5. الأرقام والحسابات يجب أن تكون حقيقية وواضحة — لا نص إرشادي عام مثل "[أدخل الحل هنا]".
-6. استخدم مستوى الصعوبة المناسب للمرحلة المحددة في الطلب (إعدادي، جذع مشترك، أولى باك، ثانية باك).
+قواعد صارمة:
+1. ابق داخل المادة والمحور والمستوى المذكور في طلب المستخدم فقط.
+2. إذا كانت المادة هي اللغة العربية أو الفلسفة، فلا تولد معادلات رياضية.
+3. إذا كان المحور حول الدوال، فاستعمل تمارين مرتبطة بالدوال فقط: مجال التعريف، الصور، السوابق، قراءة البيان، جدول التغيرات، النهايات، الاشتقاق أو التحليل المناسب للمستوى.
+4. استعمل سياق المدرسة المغربية والفرض أو الامتحان الوطني أو البكالوريا عند الحاجة.
+5. طابق مستوى الصعوبة المطلوب: إعدادي، جذع مشترك، أولى باك، ثانية باك، أو مستوى آخر يذكره المستخدم.
+6. أدرج حلولاً كاملة ومفصلة لكل تمرين.
+7. تجنب أي placeholders مثل: [أدخل الحل هنا] أو [نص التمرين].
+8. لا تخترع قواعد امتحان غير موجودة، ولا تخرج عن المادة المختارة.
 
-**أنتج بالترتيب الآتي حصرياً هذه الأقسام:**
+أنتج الخطة بالترتيب التالي:
 
 ## نقاط الضعف المحتملة
-قائمة بالمفاهيم التي يخطئ فيها الطلاب عادةً في هذا المحور تحديداً. اذكر الخطأ الشائع وكيف يتجنبه الطالب.
+اذكر المفاهيم التي يخطئ فيها التلاميذ عادة في هذا المحور تحديداً، مع توضيح الخطأ الشائع وكيف يتجنبه الطالب.
 
 ## خطة مراجعة قصيرة
-مقسمة على محاور فرعية أو أيام (3–5 أيام). عملية وقابلة للتطبيق. ركّز على الأولويات حسب الوقت المتاح.
+اقترح خطة عملية ومختصرة مقسمة إلى محاور فرعية أو أيام، مع ترتيب الأولويات حسب الوقت المتاح.
 
 ## نموذج فرض مصغر
-فرض محروس مصغر مكون من 3 تمارين متدرجة — جميعها من المحور المحدد:
-- **التمرين 1 (سهل — 4 نقط):** [نص التمرين] | **الحل:** [حل كامل مفصّل]
-- **التمرين 2 (متوسط — 6 نقط):** [نص التمرين] | **الحل:** [حل كامل مفصّل]
-- **التمرين 3 (متقدم — 10 نقط):** [نص التمرين] | **الحل:** [حل كامل مفصّل]
+أنشئ نموذج فرض مصغر من ثلاثة تمارين متدرجة من نفس المحور:
+- التمرين 1: سهل، مع الحل الكامل.
+- التمرين 2: متوسط، مع الحل الكامل.
+- التمرين 3: متقدم، مع الحل الكامل.
 
-## تمارين مقترحة إضافية مع الحلول
-تمرينان أو ثلاثة تمارين إضافية تحاكي أسلوب الامتحان الرسمي، مع الحلول الكاملة.
+## تمارين إضافية مع الحلول
+اقترح تمرينين أو ثلاثة تمارين إضافية تحاكي أسلوب الفرض أو الامتحان الرسمي، مع حلول كاملة وخطوات واضحة.
 
 ## نصائح للفرض والامتحان
-إدارة الوقت، ترتيب الأجوبة، الأخطاء الشائعة التي يجب تجنبها، ما يُنصح به في آخر يوم قبل الامتحان.
+قدم نصائح حول إدارة الوقت، ترتيب الأجوبة، الأخطاء الشائعة، وما يجب مراجعته في آخر يوم قبل الامتحان.
 
 ## مستوى التوقعات
-ما الذي يُتوقع تحديداً من طالب هذا المستوى في هذا المحور: المفاهيم الإلزامية، نوع الأسئلة، مستوى الصعوبة في الامتحان الرسمي.`;
+وضح ما المتوقع من طالب هذا المستوى في هذا المحور: المفاهيم الإلزامية، نوع الأسئلة، مستوى الصعوبة، وطريقة عرض الحل التي ينتظرها الأستاذ أو المصحح.`;
+
+function hasMojibake(text: string): boolean {
+  return ["Ø", "Ù", "Ã", "â", "�"].some((marker) => text.includes(marker));
+}
 
 function sse(data: Record<string, unknown>) {
   return new TextEncoder().encode(`data: ${JSON.stringify(data)}\n\n`);
@@ -59,12 +65,15 @@ function sse(data: Record<string, unknown>) {
 export async function POST(request: Request) {
   const session = await getSession();
   if (!session) {
-    return NextResponse.json({ success: false, message: "يجب تسجيل الدخول أولًا" }, { status: 401 });
+    return NextResponse.json({ success: false, message: "يجب تسجيل الدخول أولاً" }, { status: 401 });
   }
 
   const limit = await aiChatLimiter(`${session.sub}:exam-prep`);
   if (!limit.allowed) {
-    return NextResponse.json({ success: false, message: "طلبات كثيرة. انتظر دقيقة ثم جرّب مرة أخرى." }, { status: 429 });
+    return NextResponse.json(
+      { success: false, message: "طلبات كثيرة. انتظر دقيقة ثم جرّب مرة أخرى." },
+      { status: 429 },
+    );
   }
 
   const parsed = inputSchema.safeParse(await request.json().catch(() => null));
@@ -78,8 +87,19 @@ export async function POST(request: Request) {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) {
     return NextResponse.json(
-      { success: false, message: "GROQ_API_KEY غير موجود — تحقق من إعدادات البيئة." },
+      {
+        success: false,
+        message: "مفتاح GROQ_API_KEY غير موجود. تحقق من ملف .env.local أو إعدادات Vercel.",
+      },
       { status: 503 },
+    );
+  }
+
+  if (hasMojibake(EXAM_PREP_SYSTEM)) {
+    console.error("[exam-prep] Mojibake detected in EXAM_PREP_SYSTEM");
+    return NextResponse.json(
+      { success: false, message: "خطأ داخلي في ترميز نص إعداد الامتحان." },
+      { status: 500 },
     );
   }
 
@@ -90,13 +110,13 @@ export async function POST(request: Request) {
     async start(controller) {
       try {
         const completion = await groq.chat.completions.create({
-          model:       "llama-3.3-70b-versatile",
+          model: "llama-3.3-70b-versatile",
           temperature: 0.6,
-          max_tokens:  2500,
-          stream:      true,
+          max_tokens: 2500,
+          stream: true,
           messages: [
             { role: "system", content: EXAM_PREP_SYSTEM },
-            { role: "user",   content: prompt },
+            { role: "user", content: prompt },
           ],
         });
 
@@ -110,8 +130,8 @@ export async function POST(request: Request) {
       } catch (error) {
         console.error("[exam-prep]", error);
         controller.enqueue(sse({
-          event:   "error",
-          message: "حدث خطأ أثناء توليد الخطة. تحقق من إعدادات GROQ_API_KEY أو جرّب مرة أخرى.",
+          event: "error",
+          message: "حدث خطأ أثناء توليد خطة المراجعة. تحقق من إعدادات GROQ_API_KEY أو جرّب مرة أخرى.",
         }));
       } finally {
         controller.close();
@@ -121,9 +141,9 @@ export async function POST(request: Request) {
 
   return new Response(stream, {
     headers: {
-      "Content-Type":    "text/event-stream; charset=utf-8",
-      "Cache-Control":   "no-cache, no-transform",
-      "Connection":      "keep-alive",
+      "Content-Type": "text/event-stream; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      "Connection": "keep-alive",
       "X-Accel-Buffering": "no",
     },
   });
