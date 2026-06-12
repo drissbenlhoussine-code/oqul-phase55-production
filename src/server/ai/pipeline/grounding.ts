@@ -164,6 +164,7 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
     return {
       mode: "grounded",
       languageOfInstruction: fallback.languageOfInstruction,
+      intent: fallback.intent,
       confidence: "high",
       missingDbLesson: false,
       cycle: matches[0]?.cycle ?? null,

@@ -5,13 +5,15 @@ import {
   type CurriculumGrounding,
   guardAgentOutput,
   hasMojibake,
+  inferIntent,
   isClarificationNeeded,
 } from "@/server/ai/pipeline/quality";
 
 function strongGrounding(input: string): CurriculumGrounding {
   return {
     mode: "grounded",
-    languageOfInstruction: "bilingual",
+    languageOfInstruction: "french",
+    intent: inferIntent(input),
     confidence: "high",
     missingDbLesson: false,
     cycle: "الإعدادي",
@@ -61,7 +63,7 @@ describe("pipeline curriculum quality guards", () => {
     expect(classifySubject(input)).toBe("french");
     expect(grounding.mode).toBe("aligned_fallback");
     expect(grounding.missingDbLesson).toBe(true);
-    expect(grounding.languageOfInstruction).toBe("bilingual");
+    expect(grounding.languageOfInstruction).toBe("french");
     expect(grounding.studentFacingNotice).toContain("لم أجد هذا الدرس محفوظًا");
 
     const result = guardAgentOutput({
@@ -90,6 +92,12 @@ describe("pipeline curriculum quality guards", () => {
     const input = "اشرح لي درس grammaire";
     expect(isClarificationNeeded(input)).toBe(false);
     expect(buildWeakGrounding(input).mode).toBe("aligned_fallback");
+  });
+
+  it("separates lesson, exam, and research intents", () => {
+    expect(inferIntent("اشرح لي grammaire")).toBe("lesson");
+    expect(inferIntent("فرض محروس في grammaire مع barème")).toBe("exam");
+    expect(inferIntent("قارن بين مفهومين في الفلسفة")).toBe("research");
   });
 
   it("classifies French grammar and rejects Arabic grammar/economic drift", () => {
@@ -210,9 +218,28 @@ describe("pipeline curriculum quality guards", () => {
     expect(result.issues).toContain("placeholder_output");
   });
 
-  it("requires corrections, barème, examiner expectations, and common mistakes from exercise generator", () => {
+  it("allows lesson mode without exam-only barème requirements", () => {
     const input = "اشرح grammaire مع تمارين";
     const grounding = strongGrounding(input);
+    const result = guardAgentOutput({
+      agentId: "exercise_gen",
+      input,
+      grounding,
+      final: true,
+      output: [
+        "Grammaire française: définition, nature des mots, fonction grammaticale, phrase simple, groupe nominal, verbe, sujet et complément.",
+        "Exercice: Soulignez le verbe dans la phrase: Le garçon lit un livre.",
+        "Correction: Le verbe est 'lit'. Il indique l'action dans la phrase.",
+        "أخطاء شائعة: الخلط بين verbe و sujet، ونسيان accord.",
+      ].join("\n"),
+    });
+
+    expect(result.ok).toBe(true);
+  });
+
+  it("requires corrections, barème, examiner expectations, and common mistakes in exam mode", () => {
+    const input = "اشرح grammaire مع تمارين";
+    const grounding = { ...strongGrounding("فرض محروس في grammaire"), intent: "exam" as const };
     const weak = guardAgentOutput({
       agentId: "exercise_gen",
       input,

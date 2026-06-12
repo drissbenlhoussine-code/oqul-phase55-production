@@ -12,6 +12,7 @@ export type PipelineSubject =
 export type GroundingMode = "grounded" | "aligned_fallback" | "clarification_needed";
 export type LanguageOfInstruction = "arabic" | "french" | "bilingual" | "math_symbols";
 export type GroundingConfidence = "high" | "medium" | "low";
+export type PipelineIntent = "lesson" | "exam" | "research";
 
 export interface CurriculumMatch {
   lessonId: string;
@@ -28,6 +29,7 @@ export interface CurriculumMatch {
 export interface CurriculumGrounding {
   mode: GroundingMode;
   languageOfInstruction: LanguageOfInstruction;
+  intent: PipelineIntent;
   confidence: GroundingConfidence;
   missingDbLesson: boolean;
   studentFacingNotice?: string;
@@ -116,9 +118,19 @@ export function inferGrade(input: string): string | null {
 }
 
 export function languageForSubject(subject: PipelineSubject): LanguageOfInstruction {
-  if (subject === "french") return "bilingual";
+  if (subject === "french") return "french";
   if (subject === "math") return "math_symbols";
   return "arabic";
+}
+
+export function inferIntent(input: string): PipelineIntent {
+  if (/فرض|امتحان|اختبار|bac|باك|جهوي|إقليمي|موحد|مراجعة|استعد|استعداد|devoir|examen|contr[oô]le|bar[eè]me/i.test(input)) {
+    return "exam";
+  }
+  if (/قارن|حلل|ابحث|بحث|ناقش|analyse|compare|recherche/i.test(input)) {
+    return "research";
+  }
+  return "lesson";
 }
 
 export function isClarificationNeeded(input: string, subject = classifySubject(input), topic = extractRequestedTopic(input)): boolean {
@@ -145,6 +157,7 @@ export function buildWeakGrounding(input: string): CurriculumGrounding {
   return {
     mode: clarification ? "clarification_needed" : "aligned_fallback",
     languageOfInstruction: languageForSubject(subject),
+    intent: inferIntent(input),
     confidence: clarification ? "low" : subject === "unknown" ? "low" : "medium",
     missingDbLesson: true,
     studentFacingNotice: clarification
@@ -206,11 +219,17 @@ export function guardAgentOutput(params: {
     issues.push("generic_explanation");
   }
 
-  if (params.agentId === "exercise_gen" || params.final) {
+  const needsExerciseCorrection = params.agentId === "exercise_gen" || params.final;
+  const needsExamStructure = params.grounding.intent === "exam";
+
+  if (needsExerciseCorrection) {
     if (!/تصحيح|الحل|correction|solution/i.test(output)) issues.push("missing_corrections");
+    if (!/أخطاء شائعة|pi[eè]ges fr[eé]quents|erreurs? fr[eé]quentes?/i.test(output)) issues.push("missing_common_mistakes");
+  }
+
+  if (needsExamStructure) {
     if (!/نقط|نقطة|bar[eè]me|point/i.test(output)) issues.push("missing_point_allocation");
     if (!/انتظارات|المصحح|examinateur|professeur|crit[eè]res d'[ée]valuation/i.test(output)) issues.push("missing_examiner_expectations");
-    if (!/أخطاء شائعة|pi[eè]ges fr[eé]quents|erreurs? fr[eé]quentes?/i.test(output)) issues.push("missing_common_mistakes");
     if (!/فرض|موحد|جهوي|وطني|امتحان|examen|contr[oô]le|devoir|évaluation/i.test(output)) issues.push("missing_moroccan_exam_style");
   }
 
@@ -263,6 +282,14 @@ function containsMathSignal(output: string): boolean {
 function isGenericExplanation(output: string, grounding: CurriculumGrounding): boolean {
   const text = output.toLowerCase();
   const lesson = grounding.matches[0];
+  if (
+    grounding.intent === "lesson"
+    && grounding.topic
+    && containsRequestedTopic(output, grounding.topic)
+    && /définition|definition|exercice|example|exemple|correction|شرح|مثال|تمرين|تصحيح|خطوة/i.test(output)
+  ) {
+    return false;
+  }
   const curriculumSignals = [
     grounding.grade,
     grounding.unit,

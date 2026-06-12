@@ -13,6 +13,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const ALLOWED_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"] as const;
+const MAX_REPAIR_ATTEMPTS = 3;
 
 const inputSchema = z.object({
   input: z.string().min(3, "اكتب طلبًا أو سؤالًا واضحًا").max(5000),
@@ -33,6 +34,41 @@ function streamResponse(stream: ReadableStream<Uint8Array>) {
       "X-Accel-Buffering": "no",
     },
   });
+}
+
+function buildRepairPrompt(params: {
+  input: string;
+  output: string;
+  issues: string[];
+  agentId: AgentId;
+}) {
+  return [
+    "Your previous answer failed OQUL quality validation.",
+    "",
+    `Agent: ${params.agentId}`,
+    `Issues: ${params.issues.join(", ")}`,
+    "",
+    "Rewrite the answer.",
+    "",
+    "Mandatory repair rules:",
+    "- Return only the corrected answer. Do not explain the validation errors.",
+    "- Stay strictly inside the selected subject, level, and topic.",
+    "- If the subject is French, make the main lesson and exercises French. Arabic may be used only as short support.",
+    "- If the issue includes missing_french_grammar_concepts, include: définition, nature des mots, fonction grammaticale, phrase simple, exemples, exercices, correction.",
+    "- If the issue includes wrong_language_for_subject, switch to the required language immediately.",
+    "- If the issue includes missing_moroccan_exam_style, use Moroccan school assessment style.",
+    "- If the issue includes missing_point_allocation, add barème / point allocation.",
+    "- If the issue includes missing_examiner_expectations, add examiner expectations.",
+    "- If the issue includes missing_corrections, add full correction.",
+    "- If the issue includes missing_common_mistakes, add common mistakes.",
+    "- Never output placeholders or mojibake.",
+    "",
+    "Original student request:",
+    params.input,
+    "",
+    "Previous answer to repair:",
+    params.output,
+  ].join("\n");
 }
 
 export async function POST(request: Request) {
@@ -82,6 +118,8 @@ export async function POST(request: Request) {
             grade: grounding.grade,
             topic: grounding.topic,
             confidence: grounding.confidence,
+            intent: grounding.intent,
+            languageOfInstruction: grounding.languageOfInstruction,
             warnings: grounding.warnings,
           },
         }));
@@ -119,6 +157,8 @@ export async function POST(request: Request) {
           topic: grounding.topic,
           matches: grounding.matches.length,
           confidence: grounding.confidence,
+          intent: grounding.intent,
+          languageOfInstruction: grounding.languageOfInstruction,
           missingDbLesson: grounding.missingDbLesson,
           studentFacingNotice: grounding.studentFacingNotice,
           warnings: grounding.warnings,
@@ -130,29 +170,59 @@ export async function POST(request: Request) {
           const agentStart = Date.now();
           controller.enqueue(sse({ event: "agent_start", agentId, agent_id: agentId, ts: agentStart }));
 
-          const completion = await groq.chat.completions.create({
-            model,
-            temperature: agentId === "writer" || agentId === "exercise_gen" ? 0.45 : 0.6,
-            max_tokens: agentId === "writer" || agentId === "exercise_gen" ? 1900 : 1000,
-            stream: true,
-            messages: [
-              { role: "system", content: AGENT_PROMPTS[agentId] },
-              { role: "user", content: buildAgentContext(agentId, input, previousOutputs, grounding) },
-            ],
-          });
-
           let output = "";
-          for await (const chunk of completion) {
-            output += chunk.choices[0]?.delta?.content ?? "";
+          let guardIssues: string[] = [];
+          let userPrompt = buildAgentContext(agentId, input, previousOutputs, grounding);
+
+          for (let attempt = 0; attempt <= MAX_REPAIR_ATTEMPTS; attempt += 1) {
+            const completion = await groq.chat.completions.create({
+              model,
+              temperature: attempt === 0 ? (agentId === "writer" || agentId === "exercise_gen" ? 0.45 : 0.6) : 0.25,
+              max_tokens: agentId === "writer" || agentId === "exercise_gen" ? 1900 : 1000,
+              stream: true,
+              messages: [
+                { role: "system", content: AGENT_PROMPTS[agentId] },
+                { role: "user", content: userPrompt },
+              ],
+            });
+
+            output = "";
+            for await (const chunk of completion) {
+              output += chunk.choices[0]?.delta?.content ?? "";
+            }
+
+            const guard = guardAgentOutput({ agentId, output, input, grounding, final: agentId === agentIds[agentIds.length - 1] });
+            if (guard.ok) {
+              guardIssues = [];
+              break;
+            }
+
+            guardIssues = guard.issues;
+            console.error("[Oqul Pipeline Guard]", {
+              agentId,
+              attempt,
+              issues: guard.issues,
+              subject: grounding.subject,
+              topic: grounding.topic,
+            });
+
+            if (attempt < MAX_REPAIR_ATTEMPTS) {
+              controller.enqueue(sse({
+                event: "agent_repair",
+                agentId,
+                agent_id: agentId,
+                attempt: attempt + 1,
+                guardIssues: guard.issues,
+              }));
+              userPrompt = buildRepairPrompt({ input, output, issues: guard.issues, agentId });
+            }
           }
 
-          const guard = guardAgentOutput({ agentId, output, input, grounding, final: agentId === agentIds[agentIds.length - 1] });
-          if (!guard.ok) {
-            console.error("[Oqul Pipeline Guard]", { agentId, issues: guard.issues, subject: grounding.subject, topic: grounding.topic });
+          if (guardIssues.length) {
             controller.enqueue(sse({
               event: "error",
-              message: `تم إيقاف النتيجة لأن الوكيل خرج عن السياق المنهجي أو أنتج محتوى ضعيفًا: ${guard.issues.join(", ")}`,
-              guardIssues: guard.issues,
+              message: `تم إيقاف النتيجة بعد محاولات إصلاح تلقائية لأنها لم تجتز حارس الجودة: ${guardIssues.join(", ")}`,
+              guardIssues,
               agentId,
               agent_id: agentId,
             }));
