@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 import Groq from "groq-sdk";
 import { z } from "zod";
 import { getSession } from "@/server/auth/session";
@@ -6,7 +6,7 @@ import { aiChatLimiter } from "@/server/security/rate-limit";
 import { AGENT_PROMPTS, buildAgentContext } from "@/server/ai/pipeline/prompts";
 import { getPipelineAgents } from "@/server/ai/pipeline/config";
 import { buildCurriculumGrounding } from "@/server/ai/pipeline/grounding";
-import { guardAgentOutput } from "@/server/ai/pipeline/quality";
+import { clarificationMessage, guardAgentOutput } from "@/server/ai/pipeline/quality";
 import type { AgentId, PipelineFlowId } from "@/server/ai/pipeline/config";
 
 export const runtime = "nodejs";
@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic";
 const ALLOWED_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"] as const;
 
 const inputSchema = z.object({
-  input: z.string().min(3, "اكتب طلباً أو سؤالاً واضحاً").max(5000),
+  input: z.string().min(3, "اكتب طلبًا أو سؤالًا واضحًا").max(5000),
   flow: z.enum(["full", "research", "analysis", "quick", "lesson", "edu"]).default("full"),
   model: z.enum(ALLOWED_MODELS).default("llama-3.3-70b-versatile"),
 });
@@ -24,10 +24,21 @@ function sse(data: Record<string, unknown>) {
   return new TextEncoder().encode(`data: ${JSON.stringify(data)}\n\n`);
 }
 
+function streamResponse(stream: ReadableStream<Uint8Array>) {
+  return new Response(stream, {
+    headers: {
+      "Content-Type": "text/event-stream; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      "Connection": "keep-alive",
+      "X-Accel-Buffering": "no",
+    },
+  });
+}
+
 export async function POST(request: Request) {
   const session = await getSession();
   if (!session) {
-    return NextResponse.json({ success: false, message: "يجب تسجيل الدخول أولاً" }, { status: 401 });
+    return NextResponse.json({ success: false, message: "يجب تسجيل الدخول أولًا" }, { status: 401 });
   }
 
   const limit = await aiChatLimiter(`${session.sub}:pipeline`);
@@ -46,19 +57,48 @@ export async function POST(request: Request) {
     );
   }
 
-  const apiKey = process.env.GROQ_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json({ success: false, message: "GROQ_API_KEY غير موجود في البيئة" }, { status: 503 });
-  }
-
   const { input, flow, model } = parsed.data as {
     input: string;
     flow: PipelineFlowId;
     model: typeof ALLOWED_MODELS[number];
   };
   const agentIds = getPipelineAgents(flow);
-  const groq = new Groq({ apiKey });
   const grounding = await buildCurriculumGrounding(input);
+
+  if (grounding.mode === "clarification_needed") {
+    const message = clarificationMessage();
+    const stream = new ReadableStream<Uint8Array>({
+      start(controller) {
+        const runId = crypto.randomUUID();
+        controller.enqueue(sse({
+          event: "start",
+          runId,
+          flow,
+          agents: [],
+          curriculumGrounding: {
+            mode: grounding.mode,
+            strength: grounding.strength,
+            subject: grounding.subject,
+            grade: grounding.grade,
+            topic: grounding.topic,
+            confidence: grounding.confidence,
+            warnings: grounding.warnings,
+          },
+        }));
+        controller.enqueue(sse({ event: "end", status: "clarification_needed", finalOutput: message, final_output: message }));
+        controller.close();
+      },
+    });
+
+    return streamResponse(stream);
+  }
+
+  const apiKey = process.env.GROQ_API_KEY;
+  if (!apiKey) {
+    return NextResponse.json({ success: false, message: "GROQ_API_KEY غير موجود في البيئة" }, { status: 503 });
+  }
+
+  const groq = new Groq({ apiKey });
 
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
@@ -72,11 +112,15 @@ export async function POST(request: Request) {
         flow,
         agents: agentIds,
         curriculumGrounding: {
+          mode: grounding.mode,
           strength: grounding.strength,
           subject: grounding.subject,
           grade: grounding.grade,
           topic: grounding.topic,
           matches: grounding.matches.length,
+          confidence: grounding.confidence,
+          missingDbLesson: grounding.missingDbLesson,
+          studentFacingNotice: grounding.studentFacingNotice,
           warnings: grounding.warnings,
         },
       }));
@@ -107,7 +151,7 @@ export async function POST(request: Request) {
             console.error("[Oqul Pipeline Guard]", { agentId, issues: guard.issues, subject: grounding.subject, topic: grounding.topic });
             controller.enqueue(sse({
               event: "error",
-              message: `تم إيقاف النتيجة لأن الوكيل خرج عن السياق المنهجي أو أنتج محتوى ضعيفاً: ${guard.issues.join(", ")}`,
+              message: `تم إيقاف النتيجة لأن الوكيل خرج عن السياق المنهجي أو أنتج محتوى ضعيفًا: ${guard.issues.join(", ")}`,
               guardIssues: guard.issues,
               agentId,
               agent_id: agentId,
@@ -150,7 +194,7 @@ export async function POST(request: Request) {
         console.error("[Oqul Pipeline]", error);
         controller.enqueue(sse({
           event: "error",
-          message: "حدث خطأ أثناء تشغيل الوكلاء. تحقق من GROQ_API_KEY أو جرّب نموذجاً آخر.",
+          message: "حدث خطأ أثناء تشغيل الوكلاء. تحقق من GROQ_API_KEY أو جرّب نموذجًا آخر.",
         }));
       } finally {
         controller.close();
@@ -158,12 +202,5 @@ export async function POST(request: Request) {
     },
   });
 
-  return new Response(stream, {
-    headers: {
-      "Content-Type": "text/event-stream; charset=utf-8",
-      "Cache-Control": "no-cache, no-transform",
-      "Connection": "keep-alive",
-      "X-Accel-Buffering": "no",
-    },
-  });
+  return streamResponse(stream);
 }
