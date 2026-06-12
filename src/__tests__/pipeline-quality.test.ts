@@ -44,6 +44,7 @@ function strongGrounding(input: string): CurriculumGrounding {
 function validFrenchGrammarOutput() {
   return [
     "لم أجد هذا الدرس محفوظًا بعد داخل قاعدة OQUL، لذلك سأقدمه كدرس جديد متوافق مع توقعات المنهاج المغربي.",
+    "Les déterminants: articles définis, articles indéfinis et déterminants possessifs dans le groupe nominal.",
     "Grammaire française: définition, nature des mots, fonction grammaticale, phrase simple, groupe nominal, verbe, sujet, complément et accords.",
     "الأولى إعدادي - Langue et grammaire - grammaire.",
     "Devoir surveillé: Analysez les phrases et indiquez la nature des mots et la fonction grammaticale.",
@@ -56,15 +57,24 @@ function validFrenchGrammarOutput() {
 }
 
 describe("pipeline curriculum quality guards", () => {
-  it("uses aligned fallback for clear French grammar requests when no DB lesson is grounded", () => {
+  it("asks for a specific lesson when French grammar is too broad", () => {
     const input = "اشرح لي درس grammaire";
     const grounding = buildWeakGrounding(input);
 
     expect(classifySubject(input)).toBe("french");
-    expect(grounding.mode).toBe("aligned_fallback");
+    expect(grounding.mode).toBe("clarification_needed");
     expect(grounding.missingDbLesson).toBe(true);
+    expect(grounding.studentFacingNotice).toContain("La phrase simple");
+    expect(grounding.studentFacingNotice).toContain("Les déterminants");
+  });
+
+  it("uses aligned fallback for a specific French grammar lesson when no DB lesson is grounded", () => {
+    const input = "اشرح لي les déterminants";
+    const grounding = buildWeakGrounding(input);
+
+    expect(classifySubject(input)).toBe("french");
+    expect(grounding.mode).toBe("aligned_fallback");
     expect(grounding.languageOfInstruction).toBe("french");
-    expect(grounding.studentFacingNotice).toContain("لم أجد هذا الدرس محفوظًا");
 
     const result = guardAgentOutput({
       agentId: "exercise_gen",
@@ -89,7 +99,7 @@ describe("pipeline curriculum quality guards", () => {
   });
 
   it("does not ask clarification when subject and topic can be inferred", () => {
-    const input = "اشرح لي درس grammaire";
+    const input = "اشرح لي les déterminants";
     expect(isClarificationNeeded(input)).toBe(false);
     expect(buildWeakGrounding(input).mode).toBe("aligned_fallback");
   });
@@ -118,8 +128,8 @@ describe("pipeline curriculum quality guards", () => {
   });
 
   it("requires French grammar output to stay in French subject language", () => {
-    const input = "اشرح لي درس: grammaire";
-    const grounding = buildWeakGrounding(input);
+    const input = "اشرح لي les déterminants";
+    const grounding = { ...buildWeakGrounding(input), topic: "grammaire" };
     const result = guardAgentOutput({
       agentId: "exercise_gen",
       input,

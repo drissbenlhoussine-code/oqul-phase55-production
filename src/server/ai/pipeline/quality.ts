@@ -54,7 +54,7 @@ const MOJIBAKE_MARKERS = ["Ø", "Ù", "Ã", "â", "�"];
 const PLACEHOLDER_MARKERS = ["[أدخل", "[نص", "placeholder", "lorem ipsum", "TODO", "à compléter", "أدخل الحل هنا"];
 
 const SUBJECT_PATTERNS: Array<{ subject: PipelineSubject; patterns: RegExp[] }> = [
-  { subject: "french", patterns: [/fran[cç]ais/i, /\bgrammaire\b/i, /\bconjugaison\b/i, /\borthographe\b/i, /\bvocabulaire\b/i, /compr[ée]hension/i, /production [ée]crite/i, /الفرنسية|لغة فرنسية|قواعد فرنسية/] },
+  { subject: "french", patterns: [/fran[cç]ais/i, /\bgrammaire\b/i, /\bconjugaison\b/i, /\borthographe\b/i, /\bvocabulaire\b/i, /compr[ée]hension/i, /production [ée]crite/i, /\bphrase simple\b/i, /\bgroupe nominal\b/i, /\bd[ée]terminants?\b/i, /\badjectifs? qualificatifs?\b/i, /\bpronoms?\b/i, /\bfonctions? grammaticales?\b/i, /الفرنسية|لغة فرنسية|قواعد فرنسية/] },
   { subject: "arabic", patterns: [/العربية|اللغة العربية|النحو العربي|الصرف|الإملاء|البلاغة|النصوص القرائية/] },
   { subject: "math", patterns: [/math|math[ée]matiques|رياضيات|الدوال|الأعداد|الهندسة|الجبر|الاشتقاق|التكامل|النهايات|معادلة|احسب/] },
   { subject: "physics", patterns: [/physique|فيزياء|الكهرباء|الميكانيك|الموجات|النووي|الحركة|الكيمياء|تفاعل كيميائي|حمض|قاعدة/] },
@@ -80,6 +80,8 @@ const CLARIFICATION_PATTERNS = [
   /^درس صعب\.?$/i,
   /^ساعدني\.?$/i,
 ];
+
+const BROAD_FRENCH_GRAMMAR_TOPICS = ["grammaire", "قواعد", "القواعد", "قواعد الفرنسية", "قواعد اللغة الفرنسية"];
 
 export function hasMojibake(text: string): boolean {
   return MOJIBAKE_MARKERS.some((marker) => text.includes(marker));
@@ -136,6 +138,7 @@ export function inferIntent(input: string): PipelineIntent {
 export function isClarificationNeeded(input: string, subject = classifySubject(input), topic = extractRequestedTopic(input)): boolean {
   const normalized = input.trim();
   if (CLARIFICATION_PATTERNS.some((pattern) => pattern.test(normalized))) return true;
+  if (subject === "french" && isBroadFrenchGrammarTopic(topic)) return true;
   return subject === "unknown" && !topic;
 }
 
@@ -161,7 +164,7 @@ export function buildWeakGrounding(input: string): CurriculumGrounding {
     confidence: clarification ? "low" : subject === "unknown" ? "low" : "medium",
     missingDbLesson: true,
     studentFacingNotice: clarification
-      ? "ما المستوى والمادة؟"
+      ? clarificationMessage(input)
       : "لم أجد هذا الدرس محفوظًا بعد داخل قاعدة OQUL، لذلك سأقدمه كدرس جديد متوافق مع توقعات المنهاج المغربي حسب المستوى والمادة المحددين.",
     grade: inferGrade(input),
     subject,
@@ -175,7 +178,20 @@ export function buildWeakGrounding(input: string): CurriculumGrounding {
   };
 }
 
-export function clarificationMessage(): string {
+export function clarificationMessage(input?: string): string {
+  const subject = input ? classifySubject(input) : "unknown";
+  const topic = input ? extractRequestedTopic(input) : null;
+  if (subject === "french" && isBroadFrenchGrammarTopic(topic)) {
+    return [
+      "كلمة grammaire واسعة جدًا. أي درس تريد؟",
+      "- La phrase simple",
+      "- Le groupe nominal",
+      "- Les déterminants",
+      "- Les adjectifs qualificatifs",
+      "- Les pronoms",
+      "- Les fonctions grammaticales",
+    ].join("\n");
+  }
   return "ما المستوى والمادة؟";
 }
 
@@ -250,6 +266,13 @@ function containsRequestedTopic(output: string, topic: string): boolean {
   const hits = tokens.filter((token) => text.includes(token) || normalizedText.includes(token)).length;
   return hits >= Math.min(tokens.length, 2);
 }
+
+function isBroadFrenchGrammarTopic(topic?: string | null): boolean {
+  if (!topic) return false;
+  const normalized = topic.trim().toLowerCase();
+  return BROAD_FRENCH_GRAMMAR_TOPICS.some((candidate) => normalized === candidate);
+}
+
 function mentionsSubject(output: string, subject: PipelineSubject): boolean {
   if (subject === "unknown") return true;
   return SUBJECT_PATTERNS.find((item) => item.subject === subject)?.patterns.some((pattern) => pattern.test(output)) ?? true;

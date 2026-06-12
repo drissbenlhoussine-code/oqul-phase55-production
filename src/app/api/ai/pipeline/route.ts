@@ -102,7 +102,7 @@ export async function POST(request: Request) {
   const grounding = await buildCurriculumGrounding(input);
 
   if (grounding.mode === "clarification_needed") {
-    const message = clarificationMessage();
+    const message = clarificationMessage(input);
     const stream = new ReadableStream<Uint8Array>({
       start(controller) {
         const runId = crypto.randomUUID();
