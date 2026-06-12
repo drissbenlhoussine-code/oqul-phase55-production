@@ -4,6 +4,7 @@ import type { CurriculumGrounding } from "./quality";
 const SHARED_AGENT_RULES = `
 قواعد مشتركة لكل الوكلاء:
 - استعمل السياق المنهجي المرفق قبل أي معرفة عامة.
+- إذا وُجدت معرفة منظمة CurriculumKnowledge، فهي المصدر الأول: الأهداف، التعريفات، القواعد، المنهجية، الأخطاء الشائعة، والتمارين.
 - إذا كان الوضع grounded فالتزم بالدرس والوحدة والمقتطفات والأهداف كما هي.
 - إذا كان الوضع aligned_fallback فقل إن الدرس غير محفوظ بعد في قاعدة OQUL، ثم ابن شرحًا متوافقًا مع توقعات المنهاج المغربي دون الادعاء أنه من وثيقة رسمية.
 - إذا كان الوضع clarification_needed فلا تولد درسًا؛ اطلب فقط المستوى والمادة.
@@ -125,6 +126,21 @@ function formatCurriculumContext(curriculum: CurriculumGrounding): string {
         lesson.exerciseCount != null ? `عدد التمارين المتاحة: ${lesson.exerciseCount}` : "",
       ].filter(Boolean).join("\n")).join("\n\n")
     : "لا توجد دروس مطابقة مؤكدة في قاعدة البيانات. استعمل وضع aligned_fallback فقط إذا كانت المادة والموضوع واضحين.";
+  const knowledge = curriculum.knowledge ? [
+    "## المعرفة المنظمة المستخرجة من الدرس",
+    `الثقة: ${curriculum.knowledge.confidence}`,
+    curriculum.knowledge.objectives.length ? `الأهداف: ${curriculum.knowledge.objectives.join("؛ ")}` : "",
+    curriculum.knowledge.prerequisites.length ? `المكتسبات القبلية: ${curriculum.knowledge.prerequisites.join("؛ ")}` : "",
+    curriculum.knowledge.definitions.length ? `التعريفات: ${curriculum.knowledge.definitions.map((item) => `${item.term}: ${item.definition}`).join("؛ ")}` : "",
+    curriculum.knowledge.rules.length ? `القواعد: ${curriculum.knowledge.rules.join("؛ ")}` : "",
+    curriculum.knowledge.methodology.length ? `المنهجية: ${curriculum.knowledge.methodology.join("؛ ")}` : "",
+    curriculum.knowledge.commonMistakes.length ? `أخطاء شائعة: ${curriculum.knowledge.commonMistakes.join("؛ ")}` : "",
+    curriculum.knowledge.examHints.length ? `تلميحات الامتحان: ${curriculum.knowledge.examHints.join("؛ ")}` : "",
+    curriculum.knowledge.examples.length ? `أمثلة: ${curriculum.knowledge.examples.map((item) => item.note ? `${item.text} (${item.note})` : item.text).join("؛ ")}` : "",
+    curriculum.knowledge.exercises.length ? `تمارين متاحة: ${curriculum.knowledge.exercises.map((item) => `${item.question} => ${item.correctAnswer}`).join("؛ ")}` : "",
+    curriculum.knowledge.summary ? `ملخص: ${curriculum.knowledge.summary}` : "",
+    curriculum.knowledge.gaps.length ? `نواقص معروفة: ${curriculum.knowledge.gaps.join(", ")}` : "",
+  ].filter(Boolean).join("\n") : "";
 
   return [
     "## السياق المنهجي من OQUL",
@@ -145,6 +161,7 @@ function formatCurriculumContext(curriculum: CurriculumGrounding): string {
     "",
     "## الدروس المطابقة",
     lessons,
+    knowledge,
   ].filter(Boolean).join("\n");
 }
 

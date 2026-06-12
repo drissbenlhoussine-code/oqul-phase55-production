@@ -120,6 +120,7 @@ export async function POST(request: Request) {
             confidence: grounding.confidence,
             intent: grounding.intent,
             languageOfInstruction: grounding.languageOfInstruction,
+            hasKnowledge: Boolean(grounding.knowledge),
             warnings: grounding.warnings,
           },
         }));
@@ -159,6 +160,7 @@ export async function POST(request: Request) {
           confidence: grounding.confidence,
           intent: grounding.intent,
           languageOfInstruction: grounding.languageOfInstruction,
+          hasKnowledge: Boolean(grounding.knowledge),
           missingDbLesson: grounding.missingDbLesson,
           studentFacingNotice: grounding.studentFacingNotice,
           warnings: grounding.warnings,

@@ -160,6 +160,11 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
     }));
 
     if (!matches.length) return fallback;
+    const { curriculumRepo } = await import("@/server/repositories/curriculum");
+    const knowledge = await curriculumRepo.getLessonKnowledge(matches[0].lessonId).catch((error) => {
+      console.error("[pipeline-grounding] knowledge extraction failed", error);
+      return null;
+    });
 
     return {
       mode: "grounded",
@@ -173,6 +178,7 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
       unit: matches[0]?.unit ?? null,
       lesson: matches[0]?.title ?? null,
       topic,
+      knowledge,
       examContext: examContextFor(input, subject),
       strength: "strong",
       matches,

@@ -1,4 +1,5 @@
 ﻿import type { AgentId } from "./config";
+import type { CurriculumKnowledge } from "@/server/curriculum/knowledge-engine";
 
 export type PipelineSubject =
   | "french"
@@ -39,6 +40,7 @@ export interface CurriculumGrounding {
   unit?: string | null;
   lesson?: string | null;
   topic?: string | null;
+  knowledge?: CurriculumKnowledge | null;
   examContext: string;
   strength: "strong" | "weak";
   matches: CurriculumMatch[];
@@ -332,6 +334,8 @@ function isGenericExplanation(output: string, grounding: CurriculumGrounding): b
   const signalHits = curriculumSignals.filter((signal) => text.includes(signal)).length;
   return signalHits < 2;
 }
+
+
 
 
 
