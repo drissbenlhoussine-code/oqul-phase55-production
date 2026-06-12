@@ -1,5 +1,6 @@
 import { and, eq, asc } from "drizzle-orm";
 import { db, cycles, grades, subjects, units, lessons, lessonContents, exercises } from "@/db";
+import { buildExamIntelligence } from "@/server/curriculum/exam-intelligence";
 import { buildCurriculumKnowledge } from "@/server/curriculum/knowledge-engine";
 
 export const curriculumRepo = {
@@ -57,5 +58,10 @@ export const curriculumRepo = {
   async getLessonKnowledge(lessonId: string) {
     const lesson = await this.getLessonWithContent(lessonId);
     return lesson ? buildCurriculumKnowledge(lesson) : null;
+  },
+
+  async getLessonExamIntelligence(lessonId: string) {
+    const knowledge = await this.getLessonKnowledge(lessonId);
+    return knowledge ? buildExamIntelligence(knowledge) : null;
   },
 };
