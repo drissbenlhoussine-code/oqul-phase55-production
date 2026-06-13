@@ -1,5 +1,6 @@
 import { eq, desc, and, sql, gte } from "drizzle-orm";
-import { db, lessonProgress, quizAttempts, weakPoints, children, aiUsageEvents } from "@/db";
+import { buildStudentKnowledgeProfile } from "@/server/adaptive/student-knowledge-model";
+import { db, lessonProgress, quizAttempts, weakPoints, studentLearningProfiles, aiUsageEvents } from "@/db";
 
 export const progressRepo = {
   async getChildProgress(childId: string) {
@@ -12,6 +13,37 @@ export const progressRepo = {
   async getLessonProgress(childId: string, lessonId: string) {
     return db.query.lessonProgress.findFirst({
       where: and(eq(lessonProgress.childId, childId), eq(lessonProgress.lessonId, lessonId)),
+    });
+  },
+
+  async getStudentKnowledgeProfile(childId: string) {
+    const [progress, attempts, points, learningProfile] = await Promise.all([
+      db.query.lessonProgress.findMany({
+        where: eq(lessonProgress.childId, childId),
+        with: { lesson: { with: { unit: { with: { subject: { with: { grade: true } } } } } } },
+        orderBy: desc(lessonProgress.updatedAt),
+      }),
+      db.query.quizAttempts.findMany({
+        where: eq(quizAttempts.childId, childId),
+        with: { lesson: { with: { unit: { with: { subject: { with: { grade: true } } } } } } },
+        orderBy: desc(quizAttempts.completedAt),
+      }),
+      db.query.weakPoints.findMany({
+        where: eq(weakPoints.childId, childId),
+        with: { subject: { with: { grade: true } } },
+        orderBy: desc(weakPoints.severity),
+      }),
+      db.query.studentLearningProfiles.findFirst({
+        where: eq(studentLearningProfiles.studentId, childId),
+      }),
+    ]);
+
+    return buildStudentKnowledgeProfile({
+      childId,
+      lessonProgress: progress,
+      quizAttempts: attempts,
+      weakPoints: points,
+      learningProfile,
     });
   },
 
