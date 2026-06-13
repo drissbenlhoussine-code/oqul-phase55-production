@@ -1,4 +1,5 @@
 ﻿import type { AgentId } from "./config";
+import type { ExamIntelligence } from "@/server/curriculum/exam-intelligence";
 import type { CurriculumKnowledge } from "@/server/curriculum/knowledge-engine";
 
 export type PipelineSubject =
@@ -41,6 +42,7 @@ export interface CurriculumGrounding {
   lesson?: string | null;
   topic?: string | null;
   knowledge?: CurriculumKnowledge | null;
+  examIntelligence?: ExamIntelligence | null;
   examContext: string;
   strength: "strong" | "weak";
   matches: CurriculumMatch[];
@@ -249,6 +251,13 @@ export function guardAgentOutput(params: {
     if (!/نقط|نقطة|bar[eè]me|point/i.test(output)) issues.push("missing_point_allocation");
     if (!/انتظارات|المصحح|examinateur|professeur|crit[eè]res d'[ée]valuation/i.test(output)) issues.push("missing_examiner_expectations");
     if (!/فرض|موحد|جهوي|وطني|امتحان|examen|contr[oô]le|devoir|évaluation/i.test(output)) issues.push("missing_moroccan_exam_style");
+    if (
+      params.final &&
+      params.grounding.examIntelligence &&
+      !reflectsExamIntelligence(output, params.grounding.examIntelligence)
+    ) {
+      issues.push("missing_exam_intelligence_alignment");
+    }
   }
 
   return { ok: issues.length === 0, issues };
@@ -269,6 +278,25 @@ function containsRequestedTopic(output: string, topic: string): boolean {
   return hits >= Math.min(tokens.length, 2);
 }
 
+function reflectsExamIntelligence(output: string, examIntelligence: ExamIntelligence): boolean {
+  const text = output.toLowerCase();
+  const signals = [
+    ...examIntelligence.examKeywords,
+    ...examIntelligence.methodology,
+    ...examIntelligence.commonMistakes,
+    ...examIntelligence.examinerExpectations,
+    ...examIntelligence.scoringRules,
+    ...examIntelligence.commonQuestions,
+  ]
+    .flatMap((item) => item.split(/[\s،:؛.\-_/]+/))
+    .map((item) => item.trim().toLowerCase())
+    .filter((item) => item.length >= 4);
+
+  const uniqueSignals = [...new Set(signals)];
+  if (!uniqueSignals.length) return true;
+  const hits = uniqueSignals.filter((signal) => text.includes(signal)).length;
+  return hits >= Math.min(2, uniqueSignals.length);
+}
 function isBroadFrenchGrammarTopic(topic?: string | null): boolean {
   if (!topic) return false;
   const normalized = topic.trim().toLowerCase();
@@ -334,8 +362,4 @@ function isGenericExplanation(output: string, grounding: CurriculumGrounding): b
   const signalHits = curriculumSignals.filter((signal) => text.includes(signal)).length;
   return signalHits < 2;
 }
-
-
-
-
 

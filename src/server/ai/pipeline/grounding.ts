@@ -1,4 +1,5 @@
 ﻿import { ilike, or, sql } from "drizzle-orm";
+import { buildExamIntelligence } from "@/server/curriculum/exam-intelligence";
 import { buildWeakGrounding, classifySubject, examContextFor, extractRequestedTopic, inferGrade } from "./quality";
 import type { CurriculumGrounding, PipelineSubject } from "./quality";
 
@@ -165,6 +166,7 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
       console.error("[pipeline-grounding] knowledge extraction failed", error);
       return null;
     });
+    const examIntelligence = knowledge ? buildExamIntelligence(knowledge) : null;
 
     return {
       mode: "grounded",
@@ -179,6 +181,7 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
       lesson: matches[0]?.title ?? null,
       topic,
       knowledge,
+      examIntelligence,
       examContext: examContextFor(input, subject),
       strength: "strong",
       matches,
@@ -195,3 +198,4 @@ export async function buildCurriculumGrounding(input: string): Promise<Curriculu
     };
   }
 }
+

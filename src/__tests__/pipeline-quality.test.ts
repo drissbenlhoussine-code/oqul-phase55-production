@@ -1,4 +1,5 @@
 ﻿import { describe, expect, it } from "vitest";
+import { buildAgentContext } from "@/server/ai/pipeline/prompts";
 import {
   buildWeakGrounding,
   classifySubject,
@@ -9,6 +10,22 @@ import {
   isClarificationNeeded,
 } from "@/server/ai/pipeline/quality";
 
+import type { ExamIntelligence } from "@/server/curriculum/exam-intelligence";
+function examIntelligenceFixture(): ExamIntelligence {
+  return {
+    lessonId: "lesson-grammar",
+    title: "Grammaire française: nature et fonction des mots",
+    commonQuestions: ["Analysez la nature des mots dans une phrase simple."],
+    methodology: ["Méthode: repérer le verbe, puis le sujet et le complément."],
+    commonMistakes: ["Ne confonds pas nature et fonction."],
+    examinerExpectations: ["Le professeur attend une justification grammaticale claire."],
+    scoringRules: ["2 points: identifier le verbe et le sujet."],
+    revisionChecklist: ["Revoir nature des mots", "Revoir fonction grammaticale"],
+    examKeywords: ["verbe", "sujet", "fonction", "nature"],
+    difficulty: "medium",
+    readinessScore: 88,
+  };
+}
 function strongGrounding(input: string): CurriculumGrounding {
   return {
     mode: "grounded",
@@ -247,6 +264,73 @@ describe("pipeline curriculum quality guards", () => {
     expect(result.ok).toBe(true);
   });
 
+
+  it("grounded context can include structured exam intelligence in agent prompts", () => {
+    const input = "فرض محروس في grammaire";
+    const grounding = { ...strongGrounding(input), examIntelligence: examIntelligenceFixture() };
+    const context = buildAgentContext("exercise_gen", input, {}, grounding);
+
+    expect(context).toContain("Structured Exam Intelligence from OQUL");
+    expect(context).toContain("Readiness score: 88/100");
+    expect(context).toContain("Common questions");
+    expect(context).toContain("prioritize this structured exam intelligence");
+  });
+
+  it("exam intent prefers outputs aligned with exam intelligence when available", () => {
+    const input = "فرض محروس في grammaire";
+    const grounding = { ...strongGrounding(input), intent: "exam" as const, examIntelligence: examIntelligenceFixture() };
+    const weak = guardAgentOutput({
+      agentId: "exercise_gen",
+      input,
+      grounding,
+      final: true,
+      output: [
+        "Grammaire française.",
+        "Devoir surveillé.",
+        "Correction: réponse expliquée.",
+        "Barème: 4 points.",
+        "انتظارات المصحح: جواب واضح.",
+        "أخطاء شائعة: جواب عام.",
+      ].join("\n"),
+    });
+
+    expect(weak.ok).toBe(false);
+    expect(weak.issues).toContain("missing_exam_intelligence_alignment");
+
+    const strong = guardAgentOutput({
+      agentId: "exercise_gen",
+      input,
+      grounding,
+      final: true,
+      output: [
+        "Grammaire française: nature des mots et fonction grammaticale.",
+        "Devoir surveillé: Analysez la nature des mots dans une phrase simple.",
+        "Méthode: repérer le verbe, puis le sujet et le complément.",
+        "Correction: le verbe exprime l'action, le sujet fait l'action, le complément complète le verbe.",
+        "Barème: 2 points pour identifier le verbe et le sujet.",
+        "انتظارات المصحح: Le professeur attend une justification grammaticale claire.",
+        "أخطاء شائعة: Ne confonds pas nature et fonction.",
+      ].join("\n"),
+    });
+
+    expect(strong.ok).toBe(true);
+  });
+
+  it("missing exam intelligence does not break fallback", () => {
+    const input = "فرض محروس في les déterminants";
+    const grounding = buildWeakGrounding(input);
+    const result = guardAgentOutput({
+      agentId: "exercise_gen",
+      input,
+      grounding,
+      final: true,
+      output: validFrenchGrammarOutput(),
+    });
+
+    expect(grounding.mode).toBe("aligned_fallback");
+    expect(grounding.examIntelligence).toBeUndefined();
+    expect(result.issues).not.toContain("missing_exam_intelligence_alignment");
+  });
   it("requires corrections, barème, examiner expectations, and common mistakes in exam mode", () => {
     const input = "اشرح grammaire مع تمارين";
     const grounding = { ...strongGrounding("فرض محروس في grammaire"), intent: "exam" as const };
@@ -274,3 +358,4 @@ describe("pipeline curriculum quality guards", () => {
     expect(strong.ok).toBe(true);
   });
 });
+

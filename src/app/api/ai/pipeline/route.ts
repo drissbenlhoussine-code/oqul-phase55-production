@@ -121,6 +121,8 @@ export async function POST(request: Request) {
             intent: grounding.intent,
             languageOfInstruction: grounding.languageOfInstruction,
             hasKnowledge: Boolean(grounding.knowledge),
+            hasExamIntelligence: Boolean(grounding.examIntelligence),
+            examReadinessScore: grounding.examIntelligence?.readinessScore,
             warnings: grounding.warnings,
           },
         }));
@@ -161,6 +163,8 @@ export async function POST(request: Request) {
           intent: grounding.intent,
           languageOfInstruction: grounding.languageOfInstruction,
           hasKnowledge: Boolean(grounding.knowledge),
+          hasExamIntelligence: Boolean(grounding.examIntelligence),
+          examReadinessScore: grounding.examIntelligence?.readinessScore,
           missingDbLesson: grounding.missingDbLesson,
           studentFacingNotice: grounding.studentFacingNotice,
           warnings: grounding.warnings,
@@ -276,3 +280,4 @@ export async function POST(request: Request) {
 
   return streamResponse(stream);
 }
+

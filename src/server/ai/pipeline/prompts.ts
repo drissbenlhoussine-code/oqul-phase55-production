@@ -5,6 +5,10 @@ const SHARED_AGENT_RULES = `
 قواعد مشتركة لكل الوكلاء:
 - استعمل السياق المنهجي المرفق قبل أي معرفة عامة.
 - إذا وُجدت معرفة منظمة CurriculumKnowledge، فهي المصدر الأول: الأهداف، التعريفات، القواعد، المنهجية، الأخطاء الشائعة، والتمارين.
+- إذا وُجد Structured Exam Intelligence from OQUL، فهو مفضل على أي نصائح امتحان عامة.
+- لا تخترع قواعد امتحان رسمية؛ استعمل فقط ما هو مستخرج أو قل إنه توجيه مراجعة عام.
+- في lesson mode استعمل Exam Intelligence بخفة فقط للأخطاء الشائعة، اقتراحات المراجعة، وما يجب مراجعته لاحقًا.
+- في exam mode أعط الأولوية للأسئلة الشائعة، المنهجية، توقعات المصحح، قواعد التنقيط، وchecklist المراجعة.
 - إذا كان الوضع grounded فالتزم بالدرس والوحدة والمقتطفات والأهداف كما هي.
 - إذا كان الوضع aligned_fallback فقل إن الدرس غير محفوظ بعد في قاعدة OQUL، ثم ابن شرحًا متوافقًا مع توقعات المنهاج المغربي دون الادعاء أنه من وثيقة رسمية.
 - إذا كان الوضع clarification_needed فلا تولد درسًا؛ اطلب فقط المستوى والمادة.
@@ -141,6 +145,21 @@ function formatCurriculumContext(curriculum: CurriculumGrounding): string {
     curriculum.knowledge.summary ? `ملخص: ${curriculum.knowledge.summary}` : "",
     curriculum.knowledge.gaps.length ? `نواقص معروفة: ${curriculum.knowledge.gaps.join(", ")}` : "",
   ].filter(Boolean).join("\n") : "";
+  const examIntelligence = curriculum.examIntelligence ? [
+    "## Structured Exam Intelligence from OQUL",
+    `Readiness score: ${curriculum.examIntelligence.readinessScore}/100`,
+    `Difficulty: ${curriculum.examIntelligence.difficulty}`,
+    curriculum.examIntelligence.commonQuestions.length ? `Common questions: ${curriculum.examIntelligence.commonQuestions.join("؛ ")}` : "",
+    curriculum.examIntelligence.methodology.length ? `Methodology: ${curriculum.examIntelligence.methodology.join("؛ ")}` : "",
+    curriculum.examIntelligence.commonMistakes.length ? `Common mistakes: ${curriculum.examIntelligence.commonMistakes.join("؛ ")}` : "",
+    curriculum.examIntelligence.examinerExpectations.length ? `Examiner expectations: ${curriculum.examIntelligence.examinerExpectations.join("؛ ")}` : "",
+    curriculum.examIntelligence.scoringRules.length ? `Scoring rules: ${curriculum.examIntelligence.scoringRules.join("؛ ")}` : "",
+    curriculum.examIntelligence.revisionChecklist.length ? `Revision checklist: ${curriculum.examIntelligence.revisionChecklist.join("؛ ")}` : "",
+    curriculum.examIntelligence.examKeywords.length ? `Exam keywords: ${curriculum.examIntelligence.examKeywords.join("؛ ")}` : "",
+    curriculum.intent === "exam"
+      ? "Instruction: because this is exam mode, prioritize this structured exam intelligence over generic exam advice."
+      : "Instruction: because this is lesson mode, use this only for common mistakes, revision suggestions, and what to review next. Do not force barème or examiner expectations.",
+  ].filter(Boolean).join("\n") : "";
 
   return [
     "## السياق المنهجي من OQUL",
@@ -162,6 +181,7 @@ function formatCurriculumContext(curriculum: CurriculumGrounding): string {
     "## الدروس المطابقة",
     lessons,
     knowledge,
+    examIntelligence,
   ].filter(Boolean).join("\n");
 }
 
