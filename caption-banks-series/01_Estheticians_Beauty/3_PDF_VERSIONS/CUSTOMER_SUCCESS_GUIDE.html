@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Customer Success Guide — 365 Instagram Captions for Estheticians</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --primary: #1A1A1A;
+    --gold: #C9A84C;
+    --gold-light: #E8D5A0;
+    --bg: #F5F0E8;
+    --white: #FFFFFF;
+    --gray: #6B6B6B;
+    --light-gray: #E8E4DC;
+  }
+  @page { size: A4; margin: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--primary); font-size: 11pt; line-height: 1.7; }
+
+  .page { width: 210mm; min-height: 297mm; background: var(--bg); position: relative; page-break-after: always; overflow: hidden; }
+
+  /* Cover */
+  .cover { background: var(--primary); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 60px 50px; position: relative; }
+  .cover::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px; background: var(--gold); }
+  .cover::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 5px; background: var(--gold); }
+  .cover-badge { display: inline-block; border: 1px solid var(--gold); color: var(--gold); font-family: 'DM Sans', sans-serif; font-size: 8pt; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; padding: 6px 20px; margin-bottom: 40px; }
+  .cover-title { font-family: 'Playfair Display', serif; font-size: 34pt; font-weight: 700; color: var(--white); line-height: 1.15; margin-bottom: 16px; max-width: 460px; }
+  .cover-subtitle { font-family: 'Playfair Display', serif; font-size: 15pt; color: var(--gold); font-style: italic; margin-bottom: 50px; }
+  .cover-divider { width: 60px; height: 1px; background: var(--gold); margin: 0 auto 50px; }
+  .cover-tagline { font-family: 'DM Sans', sans-serif; font-size: 11pt; color: rgba(255,255,255,0.55); letter-spacing: 0.5px; max-width: 380px; }
+  .cover-version { position: absolute; bottom: 28px; left: 0; right: 0; text-align: center; font-family: 'DM Sans', sans-serif; font-size: 8pt; color: rgba(255,255,255,0.3); }
+
+  /* Content pages */
+  .content-page { padding: 48px 52px; position: relative; }
+  .content-page::after { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--gold); }
+
+  .page-header { display: flex; align-items: center; justify-content: space-between; padding-bottom: 20px; border-bottom: 1px solid var(--light-gray); margin-bottom: 36px; }
+  .page-header-title { font-family: 'DM Sans', sans-serif; font-size: 8pt; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); }
+  .page-number { font-family: 'DM Sans', sans-serif; font-size: 8pt; color: var(--gray); }
+
+  .section-label { font-family: 'DM Sans', sans-serif; font-size: 8pt; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; display: block; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 24pt; font-weight: 700; color: var(--primary); line-height: 1.2; margin-bottom: 14px; }
+  h2 { font-family: 'Playfair Display', serif; font-size: 15pt; font-weight: 600; color: var(--primary); margin-bottom: 10px; margin-top: 28px; }
+  h3 { font-family: 'DM Sans', sans-serif; font-size: 10pt; font-weight: 600; color: var(--primary); margin-bottom: 5px; margin-top: 16px; }
+  p { font-family: 'DM Sans', sans-serif; font-size: 10pt; color: var(--primary); line-height: 1.75; margin-bottom: 12px; }
+  p.lead { font-size: 12.5pt; color: var(--gray); font-style: italic; line-height: 1.6; margin-bottom: 24px; }
+
+  /* Frequency grid */
+  .freq-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 20px 0; }
+  .freq-day { background: var(--white); padding: 10px 6px; text-align: center; }
+  .freq-day .day-name { font-family: 'DM Sans', sans-serif; font-size: 7.5pt; font-weight: 600; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 6px; }
+  .freq-day .day-pillar { font-family: 'DM Sans', sans-serif; font-size: 7pt; color: var(--primary); display: block; font-weight: 500; }
+  .freq-day.active { border-top: 2px solid var(--gold); }
+  .freq-day.rest { opacity: 0.4; }
+
+  /* Pillar mix */
+  .pillar-table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+  .pillar-table th { font-family: 'DM Sans', sans-serif; font-size: 8pt; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--gold-light); }
+  .pillar-table td { font-family: 'DM Sans', sans-serif; font-size: 9.5pt; color: var(--primary); padding: 10px 12px; border-bottom: 1px solid var(--light-gray); }
+  .pillar-table tr:last-child td { border-bottom: none; }
+  .pillar-table td:first-child { font-weight: 600; }
+  .tag { display: inline-block; background: var(--bg); border: 1px solid var(--light-gray); padding: 2px 8px; font-size: 8pt; color: var(--gray); }
+
+  /* Dark callout */
+  .dark-box { background: var(--primary); padding: 22px 26px; margin: 20px 0; }
+  .dark-box h3 { font-family: 'Playfair Display', serif; font-size: 12pt; color: var(--white); margin: 0 0 8px; }
+  .dark-box p { color: rgba(255,255,255,0.65); font-size: 9.5pt; margin: 0; line-height: 1.6; }
+
+  /* Gold callout */
+  .gold-box { background: var(--gold); padding: 18px 22px; margin: 16px 0; }
+  .gold-box p { color: var(--primary); font-size: 10pt; font-weight: 500; margin: 0; }
+
+  /* Mistakes list */
+  .mistake-list { list-style: none; margin: 16px 0; }
+  .mistake-list li { display: flex; gap: 14px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--light-gray); }
+  .mistake-list li:last-child { border-bottom: none; }
+  .mistake-icon { font-size: 14pt; min-width: 24px; }
+  .mistake-text { font-family: 'DM Sans', sans-serif; font-size: 9.5pt; color: var(--primary); line-height: 1.55; }
+  .mistake-text strong { display: block; font-size: 10pt; margin-bottom: 2px; }
+  .mistake-text em { color: var(--gray); font-style: normal; }
+
+  /* Workflow timeline */
+  .timeline { margin: 20px 0; }
+  .timeline-item { display: flex; gap: 18px; align-items: flex-start; padding: 12px 0; }
+  .tl-marker { display: flex; flex-direction: column; align-items: center; min-width: 36px; }
+  .tl-dot { width: 28px; height: 28px; border-radius: 50%; background: var(--gold); display: flex; align-items: center; justify-content: center; font-family: 'DM Sans', sans-serif; font-size: 9pt; font-weight: 700; color: var(--primary); flex-shrink: 0; }
+  .tl-line { width: 1px; flex: 1; background: var(--light-gray); margin-top: 4px; min-height: 20px; }
+  .timeline-item:last-child .tl-line { display: none; }
+  .tl-content h3 { font-family: 'DM Sans', sans-serif; font-size: 10pt; font-weight: 600; color: var(--primary); margin: 4px 0 3px; }
+  .tl-content p { font-size: 9pt; color: var(--gray); margin: 0; line-height: 1.5; }
+  .tl-time { font-family: 'DM Sans', sans-serif; font-size: 7.5pt; color: var(--gold); font-weight: 600; letter-spacing: 1px; display: block; }
+
+  /* Tips */
+  .tip-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 18px 0; }
+  .tip-card { background: var(--white); padding: 16px 18px; border-top: 2px solid var(--gold); }
+  .tip-card h3 { font-size: 9.5pt; font-weight: 600; color: var(--primary); margin: 0 0 6px; }
+  .tip-card p { font-size: 9pt; color: var(--gray); margin: 0; line-height: 1.55; }
+
+  @media print { body { background: white; } .page { margin: 0; box-shadow: none; } }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="page cover">
+  <span class="cover-badge">Customer Success Guide</span>
+  <h1 class="cover-title">How to Get Results<br>From Your Caption Bank</h1>
+  <p class="cover-subtitle">Post Smarter. Grow Faster.</p>
+  <div class="cover-divider"></div>
+  <p class="cover-tagline">The strategy behind consistent, converting content for estheticians.</p>
+  <span class="cover-version">Part of the Done-For-You Caption Bank Series</span>
+</div>
+
+<!-- PAGE 2 — FREQUENCY + PILLAR MIX -->
+<div class="page content-page">
+  <div class="page-header">
+    <span class="page-header-title">Customer Success Guide</span>
+    <span class="page-number">02</span>
+  </div>
+
+  <span class="section-label">Strategy</span>
+  <h1>Post 5 Times a Week.<br>Nothing More. Nothing Less.</h1>
+  <p class="lead">Consistency beats frequency. Five focused posts per week outperforms daily posting with no strategy — every time.</p>
+
+  <h2>Your Recommended Weekly Schedule</h2>
+
+  <div class="freq-grid">
+    <div class="freq-day active">
+      <span class="day-name">Mon</span>
+      <span class="day-pillar">Educational</span>
+    </div>
+    <div class="freq-day active">
+      <span class="day-name">Tue</span>
+      <span class="day-pillar">Behind Scenes</span>
+    </div>
+    <div class="freq-day active">
+      <span class="day-name">Wed</span>
+      <span class="day-pillar">Engagement</span>
+    </div>
+    <div class="freq-day active">
+      <span class="day-name">Thu</span>
+      <span class="day-pillar">Promotional</span>
+    </div>
+    <div class="freq-day active">
+      <span class="day-name">Fri</span>
+      <span class="day-pillar">Testimonial</span>
+    </div>
+    <div class="freq-day rest">
+      <span class="day-name">Sat</span>
+      <span class="day-pillar">Optional</span>
+    </div>
+    <div class="freq-day rest">
+      <span class="day-name">Sun</span>
+      <span class="day-pillar">Rest</span>
+    </div>
+  </div>
+
+  <h2>How to Mix Your Content Pillars</h2>
+
+  <table class="pillar-table">
+    <thead>
+      <tr>
+        <th>Pillar</th>
+        <th>Weekly Frequency</th>
+        <th>Purpose</th>
+        <th>What It Builds</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Educational</td>
+        <td>2× per week</td>
+        <td>Teach something</td>
+        <td>Authority &amp; trust</td>
+      </tr>
+      <tr>
+        <td>Promotional</td>
+        <td>1× per week</td>
+        <td>Drive bookings</td>
+        <td>Revenue</td>
+      </tr>
+      <tr>
+        <td>Engagement</td>
+        <td>1× per week</td>
+        <td>Ask questions</td>
+        <td>Community &amp; reach</td>
+      </tr>
+      <tr>
+        <td>Behind the Scenes</td>
+        <td>1× per week</td>
+        <td>Show your world</td>
+        <td>Connection &amp; loyalty</td>
+      </tr>
+      <tr>
+        <td>Testimonial</td>
+        <td>2× per month</td>
+        <td>Showcase results</td>
+        <td>Social proof</td>
+      </tr>
+      <tr>
+        <td>Seasonal</td>
+        <td>As relevant</td>
+        <td>Stay timely</td>
+        <td>Discoverability</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gold-box">
+    <p>Rule of thirds: 1/3 of your posts educate, 1/3 build connection, 1/3 drive bookings. This ratio is what keeps followers engaged without feeling sold to.</p>
+  </div>
+</div>
+
+<!-- PAGE 3 — HASHTAGS + MISTAKES -->
+<div class="page content-page">
+  <div class="page-header">
+    <span class="page-header-title">Customer Success Guide</span>
+    <span class="page-number">03</span>
+  </div>
+
+  <span class="section-label">Hashtag Strategy</span>
+  <h2>How to Rotate Your Hashtags</h2>
+  <p>Using identical hashtags on every post triggers Instagram's spam filters and reduces reach. Rotate between your hashtag sets to maintain visibility.</p>
+
+  <div class="tip-row">
+    <div class="tip-card">
+      <h3>Week 1</h3>
+      <p>Use Sets 1, 3, 5, 9, 11<br>Rotate between educational and engagement sets.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Week 2</h3>
+      <p>Use Sets 2, 4, 6, 10, 12<br>Rotate between promotional and results sets.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Week 3</h3>
+      <p>Use Sets 7, 8, 13, 15, 16<br>Mix seasonal, tips, and new client sets.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Week 4</h3>
+      <p>Return to Week 1 sets.<br>Your audience has cycled — old sets feel fresh.</p>
+    </div>
+  </div>
+
+  <div class="dark-box">
+    <h3>The 5–10 Rule</h3>
+    <p>Use 5–10 hashtags per post, not 30. Smaller, targeted sets consistently outperform large generic stacks. Instagram's algorithm rewards relevance over volume.</p>
+  </div>
+
+  <span class="section-label" style="margin-top: 28px;">Common Mistakes</span>
+  <h2>What to Avoid</h2>
+
+  <ul class="mistake-list">
+    <li>
+      <span class="mistake-icon">✕</span>
+      <span class="mistake-text">
+        <strong>Posting without personalizing</strong>
+        <em>Generic captions get ignored. The [BRACKETS] are there for a reason — fill them in. One business name changes everything.</em>
+      </span>
+    </li>
+    <li>
+      <span class="mistake-icon">✕</span>
+      <span class="mistake-text">
+        <strong>Only posting promotions</strong>
+        <em>If every post is a booking CTA, followers tune out. Use the promotional pillar once per week — no more.</em>
+      </span>
+    </li>
+    <li>
+      <span class="mistake-icon">✕</span>
+      <span class="mistake-text">
+        <strong>Identical hashtags every day</strong>
+        <em>Rotate your sets weekly. Same hashtags every post = reduced reach. The hashtag bank gives you 20 sets for this reason.</em>
+      </span>
+    </li>
+    <li>
+      <span class="mistake-icon">✕</span>
+      <span class="mistake-text">
+        <strong>Posting then disappearing</strong>
+        <em>Spend 15 minutes after posting replying to every comment. Early engagement signals tell Instagram your post is worth showing to more people.</em>
+      </span>
+    </li>
+    <li>
+      <span class="mistake-icon">✕</span>
+      <span class="mistake-text">
+        <strong>Skipping the call to action</strong>
+        <em>Every promotional caption needs one clear next step. "Link in bio," "DM me," or "Book now" — choose one. Two CTAs in one post reduces action by 50%.</em>
+      </span>
+    </li>
+  </ul>
+</div>
+
+<!-- PAGE 4 — 30-SECOND WORKFLOW + PERSONALIZATION -->
+<div class="page content-page">
+  <div class="page-header">
+    <span class="page-header-title">Customer Success Guide</span>
+    <span class="page-number">04</span>
+  </div>
+
+  <span class="section-label">Daily Workflow</span>
+  <h1>The 30-Second<br>Posting Workflow</h1>
+  <p class="lead">Once you know the system, posting takes less time than choosing what to eat for lunch.</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="tl-marker">
+        <div class="tl-dot">1</div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <span class="tl-time">0:00 – 0:05</span>
+        <h3>Check your content plan</h3>
+        <p>Open 30_Day_Content_Plan.csv. Find today. See which pillar and which caption number is scheduled.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-marker">
+        <div class="tl-dot">2</div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <span class="tl-time">0:05 – 0:35</span>
+        <h3>Copy and personalize</h3>
+        <p>Open the caption bank, find the caption, replace all [BRACKETS] with your real information. Copy the final text.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-marker">
+        <div class="tl-dot">3</div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <span class="tl-time">0:35 – 0:45</span>
+        <h3>Add hashtags</h3>
+        <p>Open the Hashtag Bank, pick the matching set for your post type. Copy and paste below your caption.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-marker">
+        <div class="tl-dot">4</div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <span class="tl-time">0:45 – 1:00</span>
+        <h3>Post and mark done</h3>
+        <p>Publish. Mark the row as "Posted" in your content plan. Come back in 15 minutes to reply to the first comments.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>How to Avoid Sounding Generic</h2>
+
+  <div class="tip-row">
+    <div class="tip-card">
+      <h3>Add your location</h3>
+      <p>"Serving clients in [CITY]" turns a generic post into a local discovery post. Essential for booking-focused captions.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Name your treatment</h3>
+      <p>Replace "facial" with your actual service name. "HydraFacial" or "Custom Deep Pore Treatment" is specific. "Facial" is not.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Reference a real moment</h3>
+      <p>Add one sentence from your actual week. "Had a client come in today who..." immediately makes the caption feel live and real.</p>
+    </div>
+    <div class="tip-card">
+      <h3>Match your voice</h3>
+      <p>If you usually say "y'all" or sign off with "xo" — do that here too. Consistent voice builds recognizable brand identity over time.</p>
+    </div>
+  </div>
+
+  <div class="dark-box" style="margin-top: 24px;">
+    <h3>The One Sentence Rule</h3>
+    <p>Add one sentence that is 100% yours — something only you could write about your specific business, client, or day. That one sentence is the difference between a caption that converts and one that scrolls by.</p>
+  </div>
+</div>
+
+</body>
+</html>
