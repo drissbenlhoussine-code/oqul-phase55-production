@@ -1,123 +1,135 @@
 ==============================================================
-LISTING IMAGE BRIEF — 6 Images for Etsy
+LISTING IMAGES BRIEF
 365 Instagram Captions for Estheticians
+==============================================================
+6 Images Required | Recommended Size: 2700 x 2025px (4:3) or 3000 x 2250px
+File Format: JPG or PNG | Color Mode: sRGB
 ==============================================================
 
 --------------------------------------------------------------
-IMAGE 1: COVER / HERO IMAGE (Most Important — First Impression)
+IMAGE 1 — HERO / COVER IMAGE
+(This is the first image shoppers see in search results)
 --------------------------------------------------------------
-Background Color: Warm cream (#F5F0E8) or soft sage green (#D4E4D0)
+Background Color: Soft sage green (#C8D9C0) or warm cream (#F5F0E8)
 Text to Display:
-  Line 1 (large): "365 Instagram Captions"
-  Line 2 (medium): "for Estheticians"
-  Line 3 (small): "Done-For-You | Post Every Day for a Year"
-Layout Direction: Centered, vertical stacking
-Mockup Type: iPhone screen mockup showing a preview of one caption on Instagram, or iPad flatlay on a marble desk with skincare products nearby
-Mood/Feel: Clean, premium, spa-adjacent. Think quiet luxury meets organized professional.
-Objection/Desire Addressed: "Is this product real and complete?" — this image communicates volume, quality, and immediate usability. The "365" number stops the scroll.
+  - Main headline: "365 Instagram Captions for Estheticians"
+  - Subheadline: "Done-For-You Caption Bank"
+  - Supporting line: "Never Stare at a Blank Screen Again"
+Layout Direction: Centered, clean, generous white space
+Mockup Type: iPhone 14 Pro mockup (screen showing the caption document open in Notes or a clean text view) — displayed at slight angle on the right side of the composition
+Mood/Feel: Clean, professional, spa-like. Think: calm luxury, not busy beauty
+Objection/Desire Addressed: "I need something that looks credible and professional before I even click." This image builds immediate trust and communicates the product value in 2 seconds.
 
 --------------------------------------------------------------
-IMAGE 2: WHAT'S INSIDE / CONTENTS BREAKDOWN
+IMAGE 2 — WHAT'S INSIDE BREAKDOWN
 --------------------------------------------------------------
-Background Color: White or pale blush (#FDF5F0)
+Background Color: Warm white (#FAFAF8) with a thin sage green (#C8D9C0) border accent
 Text to Display:
-  Header: "What's Inside"
-  Bullet 1: "✓ 365 Done-For-You Instagram Captions"
-  Bullet 2: "✓ 200 Hashtags Organized by Post Type"
-  Bullet 3: "✓ Customization Guide with Examples"
-  Bullet 4: "✓ 30-Day Content Calendar (CSV)"
-Layout Direction: Left-aligned list layout. Clean checklist format.
-Mockup Type: Flat document layout (no phone/device needed). Just a clean graphic with the checklist styled against a minimal background.
-Mood/Feel: Organized, trustworthy, comprehensive. Communicates "you're getting more than you expected."
-Objection/Desire Addressed: "What exactly am I buying?" — this image removes all ambiguity and shows the full scope of the product.
+  - Bold header: "What's Inside"
+  - Bulleted list (clean icons or dashes):
+      - 365 Fully Written Captions
+      - 200 Hashtags + Ready-to-Use Sets
+      - Customization Guide with Examples
+      - 30-Day Content Calendar (CSV)
+  - Footer line: "Instant Digital Download"
+Layout Direction: Left-aligned text list on clean background. Icons or subtle decorative elements optional.
+Mockup Type: No device mockup needed — clean flat text layout with perhaps a small folder/file icon set on the right side
+Mood/Feel: Organized, clear, trustworthy. The visual equivalent of "this is exactly what you need."
+Objection/Desire Addressed: "What exactly am I getting for my money?" This image answers that question completely and removes hesitation.
 
 --------------------------------------------------------------
-IMAGE 3: PILLAR BREAKDOWN / CAPTION CATEGORIES
+IMAGE 3 — CAPTION PREVIEW
 --------------------------------------------------------------
-Background Color: Soft terracotta or warm taupe (#E8D5C4)
+Background Color: Dusty rose or blush (#E8C9C0) — warm and beauty-forward
 Text to Display:
-  Header: "6 Caption Categories Included"
-  Listed with icons or numbers:
-  1. Educational (90 captions)
-  2. Promotional (75 captions)
-  3. Engagement (60 captions)
-  4. Behind the Scenes (60 captions)
-  5. Testimonial & Social Proof (40 captions)
-  6. Seasonal & Trending (40 captions)
-Layout Direction: Two-column list or vertical numbered list, centered
-Mockup Type: Styled graphic — no device mockup needed. Clean typography on textured or gradient background.
-Mood/Feel: Strategic and organized. Communicates that this is a thought-out system, not a random dump of text.
-Objection/Desire Addressed: "Is there variety, or will my feed look repetitive?" — this image shows exactly how much strategic diversity is built in.
+  - Small label at top: "Caption Preview — Ready to Post"
+  - Feature a real caption from the bank (suggested: Caption #1 or #35) displayed in a clean, readable font as if shown in an Instagram caption box
+  - Small tag or badge: "365 Captions Like This One"
+Layout Direction: Vertical iPhone mockup centered on the image showing the caption inside an Instagram-style post layout (photo placeholder + caption text visible)
+Mockup Type: iPhone front-facing mockup with Instagram app UI shown
+Mood/Feel: Aspirational. The viewer should think "I could post this today." Makes the product feel immediately usable.
+Objection/Desire Addressed: "Will these actually sound like something a real person would say?" This image demonstrates the quality and tone directly.
 
 --------------------------------------------------------------
-IMAGE 4: SAMPLE CAPTION PREVIEW
+IMAGE 4 — THE 6 CONTENT PILLARS
 --------------------------------------------------------------
-Background Color: White with subtle blush border or shadow
+Background Color: Deep forest green (#2C4A3E) or charcoal (#2F2F2F) — dark background for high contrast and premium feel
 Text to Display:
-  Header (small, top): "Sample Caption — Educational"
-  Main content: One actual caption from the bank displayed as if it were an Instagram post. Use Caption #1 or #15 (hyaluronic acid myth) — something punchy and immediately useful.
-  Bottom: "365 captions like this one, ready to post"
-Layout Direction: Centered, portrait orientation, formatted to look like an actual Instagram feed post
-Mockup Type: iPhone or iPad showing the caption in an Instagram draft or feed preview
-Mood/Feel: Proof of quality. The caption itself does the selling here. Choose one that sounds smart, conversational, and professional.
-Objection/Desire Addressed: "Will these actually sound good? Will they sound like me?" — showing a real sample caption eliminates doubt better than any headline.
+  - Header: "6 Pillars. Every Post. All Year."
+  - Six labeled sections (numbered or with icons):
+      1. Educational — 90 Captions
+      2. Promotional — 75 Captions
+      3. Engagement — 60 Captions
+      4. Behind the Scenes — 60 Captions
+      5. Testimonial & Social Proof — 40 Captions
+      6. Seasonal & Trending — 40 Captions
+  - Total at bottom: "= 365 Captions Total"
+Layout Direction: Clean grid or numbered list, white text on dark background, elegant spacing
+Mockup Type: Flat text layout — no device needed
+Mood/Feel: Strategic, organized, premium. Communicates that this isn't random content — it's a system.
+Objection/Desire Addressed: "Is there variety, or are these all the same type of post?" This image makes it unmistakably clear how comprehensive and strategic the content is.
 
 --------------------------------------------------------------
-IMAGE 5: THE TRANSFORMATION / BEFORE-AFTER POSITIONING
+IMAGE 5 — THE TIME-SAVING STORY
 --------------------------------------------------------------
-Background Color: Split design — left half in pale gray (#EBEBEB), right half in warm cream (#FAF3EA)
+Background Color: Soft lavender-grey (#D4CFE0) or warm linen (#EDE8DF)
 Text to Display:
-  Left side label: "Before"
-  Left side text: "Staring at a blank caption box. No idea what to say. Skip posting again."
-  Right side label: "After"
-  Right side text: "365 captions ready to go. Pick one. Personalize in 2 minutes. Post with confidence."
-  Bottom text (small): "For Estheticians & Beauty Professionals"
-Layout Direction: Horizontal split, two-column
-Mockup Type: No device needed. Pure text-based graphic.
-Mood/Feel: Relatable and validating. The "Before" side should feel like something the buyer has lived. The "After" side should feel like genuine relief.
-Objection/Desire Addressed: "Will this actually solve my problem?" — this image speaks directly to the frustration of showing up consistently on social media and makes the product feel like the obvious solution.
+  - Headline: "Stop Spending Hours on Captions"
+  - Three short value statements stacked:
+      "Pick a caption."
+      "Customize in 2 minutes."
+      "Post with confidence."
+  - Optional supporting line: "So you can focus on what you actually do best — transforming skin."
+Layout Direction: Centered, large readable type, generous padding. Text-first design.
+Mockup Type: Optional: small desk flatlay in corner showing a laptop open to the document alongside a coffee cup, notebook, and skincare product
+Mood/Feel: Relatable and empathetic. The image speaks directly to the exhausted esthetician who is doing everything herself. It acknowledges the pain point and offers relief.
+Objection/Desire Addressed: "Is this actually going to save me time, or is it just another thing I have to figure out?" The messaging here clearly answers: yes, this saves you time, and here's exactly how.
 
 --------------------------------------------------------------
-IMAGE 6: SOCIAL PROOF / TRUST + CLOSING CTA
+IMAGE 6 — SOCIAL PROOF / TRUST BUILDER
 --------------------------------------------------------------
-Background Color: Deep forest green (#2D4A3E) or navy (#1E2D40) for contrast and premium feel
+Background Color: Clean white (#FFFFFF) or very light sage (#EFF4EE)
 Text to Display:
-  Header (light text on dark background): "Built for Estheticians Who Are Done Guessing"
-  Sub-text: "365 captions. 200 hashtags. A 30-day content plan. Everything you need to show up consistently and book more clients."
-  CTA text (smaller, bottom): "Instant Download | Works on Any Device | No Subscription Required"
-Layout Direction: Centered, large bold headline, supporting text below
-Mockup Type: Laptop flatlay on a clean desk with a glass of water, small plant, and treatment tools nearby to reinforce the esthetician environment
-Mood/Feel: Premium, confident, final-call energy. This is the image a browser sees if they've scrolled through the others and are still deciding.
-Objection/Desire Addressed: "Is this worth the price? Should I trust this seller?" — this image reinforces the value proposition and communicates that the product is professional, complete, and ready to deliver results.
+  - Header: "What Estheticians Are Saying"
+  - 2–3 short testimonial-style quotes (use placeholder text until you have real reviews, then update):
+      "I booked 3 new clients my first week using these. The engagement captions especially — my comments section actually has people in it now."
+      "The hashtag bank alone was worth it. My reach improved immediately."
+      "I actually look forward to posting now."
+  - Small disclaimer at bottom in very small text: "Individual results vary."
+  - Footer text: "Instant Download | All File Types Included"
+Layout Direction: Clean quote cards or stacked testimonial blocks, spaced cleanly on a light background
+Mockup Type: No device mockup — text/quote card layout
+Mood/Feel: Warm, credible, community-oriented. The social proof image is the final "yes" moment before clicking Buy.
+Objection/Desire Addressed: "Has this actually worked for other estheticians?" This image provides the peer validation that converts browsers into buyers.
 
 ==============================================================
 DESIGN NOTES FOR ALL 6 IMAGES
 ==============================================================
 
-Font Recommendations:
-- Headline font: A clean serif (Playfair Display, Cormorant Garamond) for premium feel
-- Body/list font: A sans-serif (DM Sans, Lato, Inter) for readability
-- Avoid script fonts in small sizes — illegible at thumbnail scale
+Font Suggestions:
+  - Headline font: A clean serif (Playfair Display, Cormorant Garamond) or a modern sans-serif (DM Sans, Jost, Libre Franklin)
+  - Body/caption font: Clean readable sans-serif at 14–18pt minimum
+  - Avoid: Script fonts at small sizes, overly decorative fonts, more than 2 font families per image
 
-Image Size: 2000 x 2000 px (square) for Etsy listing images
+Color Consistency:
+  Use 2–3 colors across all 6 images for a cohesive listing. Suggested palette:
+    Primary: Sage green (#C8D9C0)
+    Accent: Dusty rose (#E8C9C0)
+    Neutral: Warm cream (#F5F0E8)
+    Dark: Deep forest green (#2C4A3E)
 
-Consistent Branding Elements Across All 6:
-- Same color palette (warm neutrals: cream, sage, blush, terracotta)
-- Same font pairing used consistently
-- Small logo or business name in corner of each image
-- Consistent border or margin treatment
+Avoid:
+  - Clutter or too many design elements
+  - Stock photos that look generic
+  - Clip art or low-resolution graphics
+  - All-caps text in body copy (harder to read and can feel aggressive)
+  - Filters that make the listing look overly "Instagram-aesthetic" rather than professional
 
-Tools for DIY Creation:
-- Canva (free or Pro) — search "Etsy listing" templates and customize
-- Adobe Express (free tier available)
-- Pixelmator (Mac)
+Design Tools That Work Well:
+  - Canva (free/pro) — easiest for Etsy listing images
+  - Adobe Express
+  - Figma (for more design-forward results)
 
-File Export: PNG at 300 DPI for best quality at full zoom
-
-Order of Images in Etsy Listing:
-1. Hero (stops the scroll)
-2. What's Inside (removes doubt)
-3. Pillar Breakdown (shows variety)
-4. Sample Caption (proves quality)
-5. Before/After Positioning (creates desire)
-6. Trust + CTA (closes the sale)
+==============================================================
+END OF IMAGE BRIEF
+==============================================================
