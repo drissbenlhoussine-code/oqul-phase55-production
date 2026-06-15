@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Start Guide — 365 Captions for Barbers</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #1A1A1A;
+    --gold: #C9A84C;
+    --cream: #F5F0E8;
+    --gray: #6B6B6B;
+    --white: #FFFFFF;
+  }
+  body { font-family: 'DM Sans', sans-serif; background: #E8E8E8; }
+
+  .page {
+    width: 794px;
+    min-height: 1123px;
+    margin: 40px auto;
+    background: var(--white);
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+
+  /* PAGE 1 — COVER */
+  .cover {
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 80px;
+  }
+  .cover-top-bar { position: absolute; top: 0; left: 0; right: 0; height: 7px; background: var(--gold); }
+  .cover-bottom-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 7px; background: var(--gold); }
+  .cover-eyebrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .cover-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+  .cover-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: var(--gold);
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  .cover-rule { width: 50px; height: 1px; background: var(--gold); margin: 0 auto 40px; }
+  .cover-bullets {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+  }
+  .cover-bullets li {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .cover-bullets li::before { content: '✓'; position: absolute; left: 0; color: var(--gold); }
+  .cover-badge {
+    margin-top: 48px;
+    background: var(--gold);
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+  }
+
+  /* PAGES 2–3 CONTENT */
+  .content-page { padding: 64px 72px; }
+  .content-page .gold-top { height: 4px; background: var(--gold); position: absolute; top: 0; left: 0; right: 0; }
+
+  .section-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 32px;
+    line-height: 1.2;
+  }
+
+  .step-block {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+    align-items: flex-start;
+  }
+  .step-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    min-width: 52px;
+  }
+  .step-content h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .step-content p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--gray);
+    line-height: 1.65;
+  }
+  .step-content .example {
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+    padding: 10px 14px;
+    margin-top: 10px;
+    font-size: 10.5px;
+    color: var(--black);
+    line-height: 1.55;
+    font-style: italic;
+  }
+  .divider { height: 1px; background: #E5E0D8; margin: 28px 0; }
+
+  .timeline {
+    background: var(--black);
+    padding: 28px 36px;
+    margin-top: 32px;
+  }
+  .timeline-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .timeline-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+  }
+  .timeline-time {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: var(--gold);
+    min-width: 64px;
+  }
+  .timeline-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.5;
+  }
+
+  .faq-block { margin-bottom: 22px; }
+  .faq-q {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 5px;
+  }
+  .faq-a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--gray);
+    line-height: 1.6;
+  }
+
+  .footer-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 44px;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 36px;
+  }
+  .footer-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+  }
+  .footer-page {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    color: var(--gold);
+  }
+
+  @media print {
+    body { background: white; }
+    .page { margin: 0; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="page cover">
+  <div class="cover-top-bar"></div>
+  <div class="cover-bottom-bar"></div>
+  <div class="cover-eyebrow">Done-For-You Caption Bank</div>
+  <div class="cover-title">Quick Start<br>Guide</div>
+  <div class="cover-subtitle">365 Instagram Captions for Barbers &amp; Hair Salons</div>
+  <div class="cover-rule"></div>
+  <ul class="cover-bullets">
+    <li>Post in under 60 seconds — every time</li>
+    <li>5-step system for busy barbers</li>
+    <li>No writing required. No creative blocks.</li>
+    <li>Works from your phone or laptop</li>
+  </ul>
+  <div class="cover-badge">Read This First</div>
+</div>
+
+<!-- PAGE 2: THE SYSTEM -->
+<div class="page content-page">
+  <div class="gold-top"></div>
+  <div class="section-label">The 5-Step System</div>
+  <div class="section-title">From Zero to Posted<br>in Under 60 Seconds</div>
+
+  <div class="step-block">
+    <div class="step-number">01</div>
+    <div class="step-content">
+      <h3>Open Your Captions File</h3>
+      <p>Open 365_Captions_Barbers.md or the PDF version on your phone, tablet, or laptop. You can also upload it to Google Drive for fast mobile access anytime.</p>
+    </div>
+  </div>
+
+  <div class="step-block">
+    <div class="step-number">02</div>
+    <div class="step-content">
+      <h3>Choose Your Content Goal for Today</h3>
+      <p>Ask yourself: what do I want this post to do? Use the pillar guide to find the right section fast:</p>
+      <div class="example">
+        Build trust → Pillar 1: Educational<br>
+        Get bookings → Pillar 2: Promotional<br>
+        Drive comments → Pillar 3: Engagement<br>
+        Show authenticity → Pillar 4: Behind the Scenes<br>
+        Show results → Pillar 5: Testimonial<br>
+        Stay relevant → Pillar 6: Seasonal
+      </div>
+    </div>
+  </div>
+
+  <div class="step-block">
+    <div class="step-number">03</div>
+    <div class="step-content">
+      <h3>Customize the Brackets</h3>
+      <p>Every caption uses [BRACKETS] for personalization. Replace them with your real information:</p>
+      <div class="example">
+        [SHOP NAME] → Kings Cuts<br>
+        [YOUR NAME] → Marcus<br>
+        [CITY] → Atlanta<br>
+        [PRICE] → $35
+      </div>
+    </div>
+  </div>
+
+  <div class="step-block">
+    <div class="step-number">04</div>
+    <div class="step-content">
+      <h3>Add Hashtags From the Hashtag Bank</h3>
+      <p>Open Hashtag_Bank_200.txt. Each Set (1–20) is pre-built for a specific type of post. Copy the matching set. Paste below your caption or in the first comment.</p>
+      <div class="example">Educational post → Use SET 1<br>Fade showcase → Use SET 2<br>Booking CTA → Use SET 4<br>Before/after → Use SET 5</div>
+    </div>
+  </div>
+
+  <div class="step-block">
+    <div class="step-number">05</div>
+    <div class="step-content">
+      <h3>Attach Your Photo or Video and Post</h3>
+      <p>Pick your best recent cut photo, a shop video, or a before/after. Attach it to the caption. Post during peak hours (see below). Done.</p>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-label">The 60-Second Workflow</div>
+    <div class="timeline-row">
+      <div class="timeline-time">0:00</div>
+      <div class="timeline-desc">Open captions file. Decide on content goal for today.</div>
+    </div>
+    <div class="timeline-row">
+      <div class="timeline-time">0:15</div>
+      <div class="timeline-desc">Pick a caption from the right pillar. Read it once.</div>
+    </div>
+    <div class="timeline-row">
+      <div class="timeline-time">0:30</div>
+      <div class="timeline-desc">Replace brackets. Add your shop name and city.</div>
+    </div>
+    <div class="timeline-row">
+      <div class="timeline-time">0:45</div>
+      <div class="timeline-desc">Paste matching hashtag set below the caption.</div>
+    </div>
+    <div class="timeline-row">
+      <div class="timeline-time">1:00</div>
+      <div class="timeline-desc">Attach your photo. Hit post. You're done.</div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <span class="footer-text">365 Instagram Captions for Barbers — Quick Start Guide</span>
+    <span class="footer-page">02</span>
+  </div>
+</div>
+
+<!-- PAGE 3: FAQ + BEST TIMES -->
+<div class="page content-page">
+  <div class="gold-top"></div>
+  <div class="section-label">Common Questions</div>
+  <div class="section-title">Everything You Need<br>to Know Before You Start</div>
+
+  <div class="faq-block">
+    <div class="faq-q">What if a caption doesn't sound exactly like me?</div>
+    <div class="faq-a">Read the Customization Guide for voice adjustment tips. Most captions only need 1–2 small word swaps to match your personality. The structure is the hardest part — that's already done for you.</div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">Can I use these on Facebook, TikTok, or LinkedIn too?</div>
+    <div class="faq-a">Yes. The captions are written for Instagram but work on any text-based social platform. On TikTok, use the first 1–2 sentences as your on-screen text or hook, and the rest as the caption.</div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">How often should I post?</div>
+    <div class="faq-a">For barber accounts, 4–5 times per week consistently outperforms 7 times one week and 0 the next. Consistency is the strategy. Use the 30-Day Content Calendar to stay on track without thinking about it.</div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">I run a hair salon, not a barbershop. Will these work?</div>
+    <div class="faq-a">Yes. The educational, promotional, engagement, and BTS pillars are easily adapted for any hair salon. Simply swap "barber" with "stylist" and "fade" with "cut" or "color" where relevant. The structure and strategy are universal for hair professionals.</div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">What photos should I use with these captions?</div>
+    <div class="faq-a">Your own work is always best. Before/after shots, process videos, and clean studio photos perform well. The 30-Day Content Calendar includes a "Photo/Video Idea" column for every post. Phone quality is fine — good lighting matters more than a professional camera.</div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">What are the best times to post for a barber account?</div>
+    <div class="faq-a">
+      Monday 7–9 AM (men planning their week) · Thursday 7–9 PM (making weekend plans) · Friday 8–10 AM (booking weekend cuts) · Saturday 8–10 AM (pre-appointment scrolling). Full schedule in the Customization Guide.
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="faq-block">
+    <div class="faq-q">What local hashtags should I add every post?</div>
+    <div class="faq-a">Add at minimum: #[YOURCITY]barber, #[YOURCITY]barbershop, #[YOURCITY]haircut. These are low-competition, high-intent hashtags. A man searching #AtlantaBarber is looking to BOOK — that's your most valuable audience.</div>
+  </div>
+
+  <div style="margin-top: 40px; background: var(--cream); padding: 24px 28px; border-left: 4px solid var(--gold);">
+    <div style="font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 10px;">Remember This</div>
+    <div style="font-family: 'Playfair Display', serif; font-size: 16px; color: var(--black); line-height: 1.5;">
+      "The barbers who grow their Instagram aren't more creative than you.<br>They're more consistent."
+    </div>
+    <div style="font-family: 'DM Sans', sans-serif; font-size: 10px; color: var(--gray); margin-top: 10px;">
+      This product removes the friction. You provide the consistency.
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <span class="footer-text">365 Instagram Captions for Barbers — Quick Start Guide</span>
+    <span class="footer-page">03</span>
+  </div>
+</div>
+
+</body>
+</html>
