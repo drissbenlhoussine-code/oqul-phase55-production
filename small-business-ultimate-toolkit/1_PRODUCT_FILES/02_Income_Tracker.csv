@@ -1,16 +1,16 @@
 Date,Client/Customer,Product/Service,Payment Method,Gross Income,Fees,Net Income,Notes
-2024-01-03,Sarah Thompson,Custom Embroidered Tote Bag - Set of 3,Etsy,87.00,9.57,77.43,Etsy fees: listing + transaction + payment processing
-2024-01-07,Mark Rivera,Brand Identity Package - Logo + Business Cards Design,PayPal Invoice,450.00,13.05,436.95,50% deposit paid upfront - remaining due on delivery
-2024-01-10,Online Store - Direct,Handmade Soy Candle Bundle (6-pack),Shopify/Stripe,124.00,4.96,119.04,Stripe processing fee 2.9% + $0.30 per transaction
-2024-01-14,Jennifer Liu,Monthly Social Media Management - January,Bank Transfer,600.00,0.00,600.00,Ongoing retainer - 15 posts per month + analytics report
-2024-01-19,Etsy Shop Sales,Printable Budget Planner - Digital Download,Etsy,34.00,4.42,29.58,Top seller this week - 2 sales in one day
-2024-01-24,David Nguyen,Website Copywriting - 5 Service Pages,Stripe,750.00,22.05,727.95,Invoice #2024-015 - net 14 days
-2024-01-28,Amanda Foster,Newborn Photography Session + 20 Edited Photos,Venmo Business,325.00,4.88,320.12,Venmo business fee 1.9% per transaction
-2024-02-02,Community Workshop,DIY Jewelry Making Workshop - 8 Attendees,Square,320.00,9.28,310.72,Square in-person payment - $40 per person
-2024-02-09,Rachel Kim,Virtual Assistant Services - February Retainer,PayPal,500.00,14.80,485.20,Ongoing monthly VA work - 20 hours at $25/hr
-2024-02-15,Instagram Sale - @businessname,Custom Resin Art Piece - 12x12 inch,Cash App Business,195.00,2.93,192.08,Cash App Business 1.5% fee - shipped next day
-2024-02-20,Wholesale Order - Bloom Boutique,Handmade Soap Set - 24 units,Bank Transfer,288.00,0.00,288.00,Wholesale at $12/unit (retail $22) - net 30 invoice
-2024-02-26,Claire Bennett,E-commerce Consulting - 2-Hour Strategy Call,Stripe,200.00,6.10,193.90,Recorded session - follow-up action plan sent via email
-2024-03-04,Etsy Shop Sales,Editable Canva Resume Template,Etsy,22.00,3.08,18.92,Digital download - instant delivery via Etsy
-2024-03-11,Thomas Patel,Meal Prep Coaching Program - 4 Weeks,Teachable,297.00,8.91,288.09,Teachable platform fee 3% - course delivered via email
-2024-03-18,Corporate Client - TechFlow Inc.,Team Training Workshop - Productivity Systems,Bank Transfer,1200.00,0.00,1200.00,Invoice #2024-032 - corporate rate - 3 hour session for 12 employees
+2024-01-05,Sarah Mitchell,Logo Design Package,PayPal,$450.00,$13.50,$436.50,30% deposit received
+2024-01-12,Green Valley Cafe,Social Media Management - Monthly,Stripe,$800.00,$23.50,$776.50,January retainer
+2024-01-18,James Okafor,Product Photography Session,Square,$325.00,$9.75,$315.25,5 product shots
+2024-01-25,Bloom & Co Boutique,Website Build - Phase 1,Bank Transfer,$2500.00,$0.00,$2500.00,50% milestone payment
+2024-02-03,TechStart Solutions,Copywriting - 5 Blog Posts,PayPal,$600.00,$18.00,$582.00,SEO-optimized content
+2024-02-10,Rachel Nguyen,Brand Identity Package,Stripe,$1200.00,$35.10,$1164.90,Logo + brand guidelines
+2024-02-14,Sunrise Yoga Studio,Email Marketing Setup,Check,$250.00,$0.00,$250.00,MailChimp integration
+2024-02-22,Daniel Torres,Consulting Session - 2hrs,PayPal,$150.00,$4.50,$145.50,Business strategy session
+2024-03-01,Harper Home Decor,Product Listing Copywriting x10,Stripe,$480.00,$14.22,$465.78,Etsy shop optimization
+2024-03-08,Kevin Blackwell,SEO Audit + Report,Bank Transfer,$750.00,$0.00,$750.00,Full technical audit
+2024-03-15,City Roast Coffee,Monthly Retainer - Social Media,Stripe,$950.00,$27.86,$922.14,March retainer
+2024-03-20,Amara Osei,Graphic Design - Flyer Pack x5,Cash,$75.00,$0.00,$75.00,Local market stalls promo
+2024-03-28,Pinnacle Real Estate,LinkedIn Content Strategy,Square,$520.00,$15.60,$504.40,4-week content plan
+2024-04-04,Luna Handmade Goods,eCommerce Store Setup,Bank Transfer,$1800.00,$0.00,$1800.00,Shopify build, first payment
+2024-04-11,Marcus Reid,Brand Refresh - Full Package,Stripe,$2200.00,$64.10,$2135.90,Rebrand for established business

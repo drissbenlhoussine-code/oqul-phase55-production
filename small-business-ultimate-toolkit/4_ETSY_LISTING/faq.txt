@@ -1,0 +1,65 @@
+FREQUENTLY ASKED QUESTIONS
+
+---
+
+Q1: What file formats are included?
+
+A: The spreadsheet files (Expense Tracker, Income Tracker, Invoice Template, etc.) are provided in .xlsx format, which is compatible with both Google Sheets and Microsoft Excel. The AI Prompt Pack, Email Templates Pack, guides, and reference documents are provided in .md (Markdown) and .txt formats, which can be opened in any text editor, word processor, or Markdown viewer. A complete list of included files and formats is provided in the Quick-Start Guide.
+
+---
+
+Q2: Do I need special software to use these files?
+
+A: No special or paid software is required. A free Google account gives you access to Google Sheets, which opens all spreadsheet files. If you prefer a desktop application, Microsoft Excel 2016 or later works with all included spreadsheets. The text and Markdown files can be opened in any basic text editor (Notepad, TextEdit, VS Code, Notion, Obsidian, etc.).
+
+---
+
+Q3: Can I use these templates with Google Sheets?
+
+A: Yes. All spreadsheet files work fully with Google Sheets. After downloading, upload the .xlsx files to your Google Drive and open them with Google Sheets, or use File > Import from within Google Sheets. We recommend making a copy of each file (File > Make a Copy) before editing so your original template is preserved.
+
+---
+
+Q4: Will this work on a Mac?
+
+A: Yes. Google Sheets works on any device with a web browser, including Mac computers, iPad, iPhone, and Android devices. Microsoft Excel for Mac (2016 or later) is also fully compatible with the included file formats. The text files open in any standard text editor on any operating system.
+
+---
+
+Q5: Will I receive a physical product?
+
+A: No. This is a digital download product. Nothing will be shipped to you. After completing your purchase, you can download your files immediately from your Etsy downloads page. You will also receive a download link via email from Etsy. No waiting, no shipping costs.
+
+---
+
+Q6: Can I customize these templates for my business?
+
+A: Absolutely. Every template in this bundle is fully editable. You can change colors, fonts, column names, add or remove rows, insert your business logo, and adapt the layout to suit your workflow. The templates are intentionally designed to be flexible so they work for a wide range of business types and industries.
+
+---
+
+Q7: Can I share, resell, or redistribute this product?
+
+A: No. This toolkit is licensed for personal use by the purchaser only, for use within a single business. You may not resell, redistribute, share, give away, or re-upload any part of this product — including modified versions — to any platform, marketplace, or file-sharing service. If you have questions about licensing for business coaching or educational use, please message me before purchasing.
+
+---
+
+Q8: What if I need help or have questions after purchasing?
+
+A: Please send me a message through Etsy and I will do my best to help. Include a description of the issue and, if helpful, a screenshot. I aim to respond within one to two business days. Please note that I am not able to provide personalized business, financial, or legal advice, but I am happy to assist with questions about how to use the files.
+
+---
+
+Q9: Do you offer refunds on digital products?
+
+A: Due to the nature of digital downloads — which are accessible immediately after purchase — all sales are final once the files have been downloaded or accessed. This is standard policy for digital products on Etsy. However, if you experience a technical problem with your files (corrupted download, missing file, etc.), please contact me right away and I will work to resolve it promptly.
+
+---
+
+Q10: Is this a one-time purchase or a subscription?
+
+A: This is a one-time purchase. You pay once and you own the files indefinitely — there are no monthly fees, renewal charges, or subscriptions of any kind. Any future updates I make to this specific listing may be available to past purchasers at no additional cost, though this is not guaranteed. You are purchasing a license to use the files as they exist at the time of download.
+
+---
+
+Have a question not answered here? Send me an Etsy message and I'll be happy to help.

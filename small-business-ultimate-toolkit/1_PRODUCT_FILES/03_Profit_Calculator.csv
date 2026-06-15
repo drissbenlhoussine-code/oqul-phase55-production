@@ -1,14 +1,14 @@
-INSTRUCTIONS: Replace the sample data below with your actual monthly figures. Net Profit = Revenue minus Expenses. Profit Margin = (Net Profit divided by Revenue) x 100. Break-Even = Total Fixed Costs divided by Profit Margin percentage as a decimal.,,,,,,,
-Month,Total Revenue,Total Expenses,Net Profit,Profit Margin %,Break-Even Point ($),Notes
-January,3250.00,1875.00,1375.00,42.31%,2640.00,Strong start - January sale drove Etsy traffic
-February,2980.00,1620.00,1360.00,45.64%,2100.00,Lower revenue but tighter expense control improved margins
-March,3750.00,2100.00,1650.00,44.00%,2800.00,Spring collection launch boosted product sales
-April,4200.00,2350.00,1850.00,44.05%,3100.00,Best month so far - Easter weekend drove sales spike
-May,3900.00,2050.00,1850.00,47.44%,2450.00,Overhead reduced by cancelling unused subscriptions
-June,4500.00,2600.00,1900.00,42.22%,3400.00,Summer launch and wholesale order added bulk revenue
-July,3100.00,1950.00,1150.00,37.10%,2700.00,Slower summer month - focused on content creation and systems
-August,3400.00,2200.00,1200.00,35.29%,3100.00,Back-to-school marketing campaign investment higher costs
-September,4800.00,2400.00,2400.00,50.00%,2600.00,Best profit margin of the year - efficient operations
-October,5200.00,2800.00,2400.00,46.15%,3200.00,Q4 prep and holiday product launches performing well
-November,6800.00,3100.00,3700.00,54.41%,3300.00,Black Friday and Cyber Monday generated record sales
-December,7200.00,3500.00,3700.00,51.39%,3600.00,Holiday season peak - Christmas gifts and bundles sold well
+Month,Total Revenue,Total Expenses,Net Profit,Profit Margin %,Break-Even Point,Notes
+INSTRUCTIONS,Enter your monthly revenue in Total Revenue column,Enter all expenses in Total Expenses column,Net Profit = Revenue minus Expenses,Profit Margin = (Net Profit / Revenue) x 100,Break-Even = Total Fixed Costs / Profit Margin %,Use this to track profitability month by month
+January 2024,$4200.00,$3100.00,$1100.00,26.19%,$2860.00,Slow start to year - focused on lead generation
+February 2024,$5800.00,$3400.00,$2400.00,41.38%,$2600.00,Valentine promo worked well - 3 new clients
+March 2024,$7200.00,$4100.00,$3100.00,43.06%,$2950.00,Best month Q1 - retainer clients stable
+April 2024,$6500.00,$3800.00,$2700.00,41.54%,$2800.00,One large project delayed payment to May
+May 2024,$8900.00,$5200.00,$3700.00,41.57%,$3100.00,Received delayed April payment - inflated slightly
+June 2024,$9400.00,$5800.00,$3600.00,38.30%,$3400.00,Hired part-time assistant - expenses up
+July 2024,$7100.00,$4900.00,$2200.00,30.99%,$3200.00,Summer slowdown expected - pushed marketing
+August 2024,$5200.00,$5600.00,-$400.00,-7.69%,$3500.00,LOSS MONTH - equipment purchase + slow bookings
+September 2024,$8300.00,$4700.00,$3600.00,43.37%,$2900.00,Strong comeback - 4 new project starts
+October 2024,$10200.00,$6100.00,$4100.00,40.20%,$3300.00,Q4 surge - holiday prep clients
+November 2024,$11500.00,$7000.00,$4500.00,39.13%,$3600.00,Best month of year - holiday campaigns
+December 2024,$6800.00,$4200.00,$2600.00,38.24%,$2800.00,Holiday wind-down - fewer working days

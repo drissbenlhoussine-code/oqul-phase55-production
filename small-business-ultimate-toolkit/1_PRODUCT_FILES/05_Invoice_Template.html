@@ -1,526 +1,190 @@
+<!-- SMALL BUSINESS ULTIMATE TOOLKIT - Invoice Template. Customize all sections marked with [BRACKETS]. This template is for organizational purposes only, not professional financial or legal advice. -->
 <!DOCTYPE html>
-<!-- ============================================================
-     SMALL BUSINESS ULTIMATE TOOLKIT — INVOICE TEMPLATE
-     CUSTOMIZE THIS TEMPLATE:
-     - Replace all [PLACEHOLDER] text with your business details
-     - Update the color scheme by editing the CSS variables below
-     - Add/remove line items as needed in the table section
-     - Save as PDF using File > Print > Save as PDF in your browser
-     Color Palette: Black #1A1A1A | Cream #F5F0E8 | Gold #C9A84C | Gray #8A8A8A
-     ============================================================ -->
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invoice</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invoice - [YOUR BUSINESS NAME]</title>
   <style>
-    /* ===== ROOT VARIABLES — EDIT COLORS HERE ===== */
-    :root {
-      --black: #1A1A1A;
-      --cream: #F5F0E8;
-      --gold: #C9A84C;
-      --gray: #8A8A8A;
-      --white: #FFFFFF;
-      --light-gray: #F0F0F0;
-      --border: #E0D8CC;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Georgia', 'Times New Roman', serif;
-      background-color: var(--cream);
-      color: var(--black);
-      padding: 40px 20px;
-      min-height: 100vh;
-    }
-
-    .invoice-wrapper {
-      max-width: 820px;
-      margin: 0 auto;
-      background-color: var(--white);
-      border: 1px solid var(--border);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    }
-
-    /* ===== HEADER ===== */
-    .invoice-header {
-      background-color: var(--black);
-      color: var(--white);
-      padding: 40px 48px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-
-    .business-info h1 {
-      font-size: 26px;
-      font-weight: normal;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 8px;
-    }
-
-    .business-info p {
-      font-size: 13px;
-      color: #CCCCCC;
-      line-height: 1.7;
-    }
-
-    .invoice-label {
-      text-align: right;
-    }
-
-    .invoice-label h2 {
-      font-size: 36px;
-      font-weight: normal;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      color: var(--gold);
-    }
-
-    .invoice-label .invoice-number {
-      font-size: 13px;
-      color: #CCCCCC;
-      margin-top: 6px;
-      letter-spacing: 1px;
-    }
-
-    /* ===== GOLD ACCENT BAR ===== */
-    .gold-bar {
-      height: 4px;
-      background: linear-gradient(90deg, var(--gold), #E8C96E, var(--gold));
-    }
-
-    /* ===== BODY PADDING ===== */
-    .invoice-body {
-      padding: 40px 48px;
-    }
-
-    /* ===== BILLING SECTION ===== */
-    .billing-section {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 40px;
-      gap: 30px;
-    }
-
-    .billing-block {
-      flex: 1;
-    }
-
-    .billing-block h3 {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: var(--gold);
-      margin-bottom: 12px;
-      padding-bottom: 6px;
-      border-bottom: 1px solid var(--gold);
-    }
-
-    .billing-block p {
-      font-size: 14px;
-      color: var(--black);
-      line-height: 1.8;
-    }
-
-    .billing-block .client-name {
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 4px;
-    }
-
-    /* ===== INVOICE META ===== */
-    .invoice-meta {
-      background-color: var(--cream);
-      border-left: 3px solid var(--gold);
-      padding: 16px 20px;
-      margin-bottom: 36px;
-      display: flex;
-      gap: 40px;
-    }
-
-    .meta-item {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .meta-label {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: var(--gray);
-      margin-bottom: 4px;
-    }
-
-    .meta-value {
-      font-size: 14px;
-      font-weight: bold;
-      color: var(--black);
-    }
-
-    .meta-value.due-date {
-      color: #B85C38;
-    }
-
-    /* ===== LINE ITEMS TABLE ===== */
-    .items-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 24px;
-    }
-
-    .items-table thead tr {
-      background-color: var(--black);
-      color: var(--white);
-    }
-
-    .items-table thead th {
-      padding: 13px 16px;
-      text-align: left;
-      font-size: 11px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      font-weight: normal;
-    }
-
-    .items-table thead th:last-child,
-    .items-table thead th:nth-child(3),
-    .items-table thead th:nth-child(2) {
-      text-align: right;
-    }
-
-    .items-table tbody tr {
-      border-bottom: 1px solid var(--border);
-    }
-
-    .items-table tbody tr:nth-child(even) {
-      background-color: #FAFAF8;
-    }
-
-    .items-table tbody tr:hover {
-      background-color: #F7F3ED;
-    }
-
-    .items-table tbody td {
-      padding: 14px 16px;
-      font-size: 14px;
-      color: var(--black);
-      line-height: 1.5;
-    }
-
-    .items-table tbody td:nth-child(2),
-    .items-table tbody td:nth-child(3),
-    .items-table tbody td:last-child {
-      text-align: right;
-    }
-
-    .item-description {
-      font-weight: 500;
-    }
-
-    .item-detail {
-      font-size: 12px;
-      color: var(--gray);
-      margin-top: 3px;
-    }
-
-    /* ===== TOTALS SECTION ===== */
-    .totals-section {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 40px;
-    }
-
-    .totals-box {
-      width: 300px;
-    }
-
-    .totals-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 8px 0;
-      font-size: 14px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .totals-row .label {
-      color: var(--gray);
-    }
-
-    .totals-row .value {
-      color: var(--black);
-      font-weight: 500;
-    }
-
-    .totals-row.total-final {
-      background-color: var(--black);
-      color: var(--white);
-      padding: 14px 16px;
-      margin-top: 4px;
-      border: none;
-    }
-
-    .totals-row.total-final .label {
-      color: var(--gold);
-      font-size: 13px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    .totals-row.total-final .value {
-      color: var(--white);
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    /* ===== PAYMENT SECTION ===== */
-    .payment-section {
-      background-color: var(--cream);
-      border: 1px solid var(--border);
-      padding: 24px 28px;
-      margin-bottom: 32px;
-    }
-
-    .payment-section h3 {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: var(--gold);
-      margin-bottom: 14px;
-    }
-
-    .payment-section p {
-      font-size: 13px;
-      color: var(--black);
-      line-height: 1.8;
-      margin-bottom: 6px;
-    }
-
-    .payment-section p strong {
-      color: var(--black);
-    }
-
-    /* ===== NOTES SECTION ===== */
-    .notes-section {
-      margin-bottom: 32px;
-    }
-
-    .notes-section h3 {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: var(--gold);
-      margin-bottom: 10px;
-    }
-
-    .notes-section p {
-      font-size: 13px;
-      color: var(--gray);
-      line-height: 1.8;
-      font-style: italic;
-    }
-
-    /* ===== FOOTER ===== */
-    .invoice-footer {
-      background-color: var(--black);
-      color: var(--white);
-      text-align: center;
-      padding: 24px 48px;
-    }
-
-    .invoice-footer .thank-you {
-      font-size: 18px;
-      color: var(--gold);
-      letter-spacing: 2px;
-      margin-bottom: 8px;
-    }
-
-    .invoice-footer p {
-      font-size: 12px;
-      color: #AAAAAA;
-      line-height: 1.6;
-    }
-
-    .footer-divider {
-      width: 40px;
-      height: 1px;
-      background-color: var(--gold);
-      margin: 10px auto;
-    }
-
-    @media print {
-      body { padding: 0; background: white; }
-      .invoice-wrapper { box-shadow: none; border: none; }
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Georgia', serif; background-color: #F5F0E8; color: #1A1A1A; }
   </style>
 </head>
 <body>
 
-<div class="invoice-wrapper">
+<div style="max-width: 860px; margin: 40px auto; background: #ffffff; border: 1px solid #e0d8cc; box-shadow: 0 4px 24px rgba(0,0,0,0.10);">
 
   <!-- HEADER -->
-  <div class="invoice-header">
-    <div class="business-info">
-      <h1>[YOUR BUSINESS NAME]</h1>
-      <p>
-        [123 Business Street, Suite 100]<br>
+  <div style="background-color: #1A1A1A; padding: 40px 48px 32px 48px; display: flex; justify-content: space-between; align-items: flex-start;">
+
+    <!-- Logo + Business Info -->
+    <div>
+      <!-- Logo Placeholder -->
+      <div style="width: 90px; height: 90px; background-color: #C9A84C; border-radius: 6px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+        <span style="color: #1A1A1A; font-size: 13px; font-weight: bold; text-align: center; line-height: 1.3; padding: 6px;">[YOUR<br>LOGO]</span>
+      </div>
+      <div style="color: #F5F0E8; font-size: 22px; font-weight: bold; letter-spacing: 0.5px; margin-bottom: 6px;">[YOUR BUSINESS NAME]</div>
+      <div style="color: #8A8A8A; font-size: 13px; line-height: 1.8;">
+        [Your Street Address]<br>
         [City, State, ZIP Code]<br>
-        [your@email.com] | [(555) 000-0000]<br>
-        [www.yourbusiness.com]
-      </p>
+        [youremail@yourbusiness.com]<br>
+        [Your Phone Number]
+      </div>
     </div>
-    <div class="invoice-label">
-      <h2>Invoice</h2>
-      <p class="invoice-number">#INV-2024-001</p>
+
+    <!-- INVOICE Title -->
+    <div style="text-align: right;">
+      <div style="color: #C9A84C; font-size: 52px; font-weight: bold; letter-spacing: 3px; line-height: 1;">INVOICE</div>
+      <div style="color: #8A8A8A; font-size: 13px; margin-top: 10px; letter-spacing: 1px;">THANK YOU FOR YOUR BUSINESS</div>
+    </div>
+
+  </div>
+
+  <!-- INVOICE DETAILS GRID -->
+  <div style="background-color: #F5F0E8; padding: 24px 48px; display: flex; gap: 0; border-bottom: 2px solid #C9A84C;">
+    <div style="flex: 1; border-right: 1px solid #d4ccc0; padding-right: 32px;">
+      <div style="font-size: 11px; color: #8A8A8A; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Invoice Number</div>
+      <div style="font-size: 18px; font-weight: bold; color: #1A1A1A;">#[INV-0001]</div>
+    </div>
+    <div style="flex: 1; border-right: 1px solid #d4ccc0; padding: 0 32px;">
+      <div style="font-size: 11px; color: #8A8A8A; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Invoice Date</div>
+      <div style="font-size: 18px; font-weight: bold; color: #1A1A1A;">[January 1, 2024]</div>
+    </div>
+    <div style="flex: 1; padding-left: 32px;">
+      <div style="font-size: 11px; color: #8A8A8A; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Due Date</div>
+      <div style="font-size: 18px; font-weight: bold; color: #C9A84C;">[January 15, 2024]</div>
     </div>
   </div>
 
-  <!-- GOLD ACCENT BAR -->
-  <div class="gold-bar"></div>
-
-  <!-- INVOICE BODY -->
-  <div class="invoice-body">
-
-    <!-- BILLING SECTION -->
-    <div class="billing-section">
-      <div class="billing-block">
-        <h3>Bill To</h3>
-        <p class="client-name">[Client Full Name]</p>
-        <p>
-          [Client Company Name]<br>
-          [Client Street Address]<br>
-          [City, State, ZIP Code]<br>
-          [client@email.com]
-        </p>
-      </div>
-      <div class="billing-block">
-        <h3>Ship To (if applicable)</h3>
-        <p>
-          [Delivery Name]<br>
-          [Delivery Address Line 1]<br>
-          [City, State, ZIP Code]<br>
-          [Same as billing address]
-        </p>
+  <!-- BILL TO -->
+  <div style="padding: 32px 48px 20px 48px; display: flex; gap: 0;">
+    <div style="flex: 1;">
+      <div style="font-size: 11px; color: #8A8A8A; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; border-bottom: 1px solid #e0d8cc; padding-bottom: 8px;">Bill To</div>
+      <div style="font-size: 17px; font-weight: bold; color: #1A1A1A; margin-bottom: 4px;">[Client Full Name]</div>
+      <div style="font-size: 14px; color: #1A1A1A; margin-bottom: 2px;">[Client Company Name]</div>
+      <div style="font-size: 13px; color: #8A8A8A; line-height: 1.8;">
+        [Client Street Address]<br>
+        [City, State, ZIP Code]<br>
+        [client@email.com]
       </div>
     </div>
-
-    <!-- INVOICE META -->
-    <div class="invoice-meta">
-      <div class="meta-item">
-        <span class="meta-label">Invoice Number</span>
-        <span class="meta-value">#INV-2024-001</span>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">Invoice Date</span>
-        <span class="meta-value">January 15, 2024</span>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">Due Date</span>
-        <span class="meta-value due-date">January 29, 2024</span>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">Payment Terms</span>
-        <span class="meta-value">Net 14 Days</span>
-      </div>
+    <div style="flex: 1; text-align: right;">
+      <div style="font-size: 11px; color: #8A8A8A; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; border-bottom: 1px solid #e0d8cc; padding-bottom: 8px;">Project / Reference</div>
+      <div style="font-size: 14px; color: #1A1A1A; margin-bottom: 4px;">[Project Name or Reference]</div>
+      <div style="font-size: 13px; color: #8A8A8A;">[PO Number if applicable]</div>
     </div>
+  </div>
 
-    <!-- LINE ITEMS TABLE -->
-    <table class="items-table">
+  <!-- LINE ITEMS TABLE -->
+  <div style="padding: 8px 48px 0 48px;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
       <thead>
-        <tr>
-          <th style="width:45%;">Description</th>
-          <th style="width:15%;">Qty</th>
-          <th style="width:20%;">Unit Price</th>
-          <th style="width:20%;">Amount</th>
+        <tr style="background-color: #1A1A1A; color: #F5F0E8;">
+          <th style="padding: 14px 16px; text-align: left; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: bold;">Description</th>
+          <th style="padding: 14px 16px; text-align: center; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: bold; width: 90px;">Quantity</th>
+          <th style="padding: 14px 16px; text-align: right; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: bold; width: 120px;">Unit Price</th>
+          <th style="padding: 14px 16px; text-align: right; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: bold; width: 120px;">Amount</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>
-            <div class="item-description">Brand Identity Package</div>
-            <div class="item-detail">Primary logo, secondary logo, color palette, typography guide, brand style guide PDF</div>
+        <!-- LINE ITEM 1 -->
+        <tr style="border-bottom: 1px solid #e0d8cc;">
+          <td style="padding: 18px 16px;">
+            <div style="font-weight: bold; color: #1A1A1A; margin-bottom: 3px;">Website Design - Homepage</div>
+            <div style="font-size: 12px; color: #8A8A8A;">Custom homepage design including responsive layout, hero section, and core page structure</div>
           </td>
-          <td>1</td>
-          <td>$750.00</td>
-          <td>$750.00</td>
+          <td style="padding: 18px 16px; text-align: center; color: #1A1A1A;">1</td>
+          <td style="padding: 18px 16px; text-align: right; color: #1A1A1A;">$1,200.00</td>
+          <td style="padding: 18px 16px; text-align: right; font-weight: bold; color: #1A1A1A;">$1,200.00</td>
         </tr>
-        <tr>
-          <td>
-            <div class="item-description">Social Media Template Pack</div>
-            <div class="item-detail">15 Canva templates sized for Instagram, Facebook, and Pinterest — editable and branded</div>
+        <!-- LINE ITEM 2 -->
+        <tr style="border-bottom: 1px solid #e0d8cc; background-color: #faf8f4;">
+          <td style="padding: 18px 16px;">
+            <div style="font-weight: bold; color: #1A1A1A; margin-bottom: 3px;">Logo Design Package</div>
+            <div style="font-size: 12px; color: #8A8A8A;">Full brand logo suite: primary logo, alternate version, favicon, and brand color palette</div>
           </td>
-          <td>1</td>
-          <td>$200.00</td>
-          <td>$200.00</td>
+          <td style="padding: 18px 16px; text-align: center; color: #1A1A1A;">1</td>
+          <td style="padding: 18px 16px; text-align: right; color: #1A1A1A;">$650.00</td>
+          <td style="padding: 18px 16px; text-align: right; font-weight: bold; color: #1A1A1A;">$650.00</td>
         </tr>
-        <tr>
-          <td>
-            <div class="item-description">Revision Rounds</div>
-            <div class="item-detail">Two rounds of revisions included as per project agreement dated January 5, 2024</div>
+        <!-- LINE ITEM 3 -->
+        <tr style="border-bottom: 1px solid #e0d8cc;">
+          <td style="padding: 18px 16px;">
+            <div style="font-weight: bold; color: #1A1A1A; margin-bottom: 3px;">Social Media Setup</div>
+            <div style="font-size: 12px; color: #8A8A8A;">Profile optimization for Instagram, Facebook, and LinkedIn with branded graphics and bio copy</div>
           </td>
-          <td>2</td>
-          <td>$0.00</td>
-          <td>$0.00</td>
+          <td style="padding: 18px 16px; text-align: center; color: #1A1A1A;">3</td>
+          <td style="padding: 18px 16px; text-align: right; color: #1A1A1A;">$150.00</td>
+          <td style="padding: 18px 16px; text-align: right; font-weight: bold; color: #1A1A1A;">$450.00</td>
         </tr>
-        <!-- ADD MORE LINE ITEMS HERE — COPY THE TR BLOCK ABOVE -->
+        <!-- EMPTY ROW PLACEHOLDER -->
+        <tr style="border-bottom: 1px solid #e0d8cc; background-color: #faf8f4;">
+          <td style="padding: 14px 16px; color: #c5bdb0; font-style: italic; font-size: 13px;">[Add additional line item here]</td>
+          <td style="padding: 14px 16px; text-align: center; color: #c5bdb0;">—</td>
+          <td style="padding: 14px 16px; text-align: right; color: #c5bdb0;">$0.00</td>
+          <td style="padding: 14px 16px; text-align: right; color: #c5bdb0;">$0.00</td>
+        </tr>
       </tbody>
     </table>
-
-    <!-- TOTALS -->
-    <div class="totals-section">
-      <div class="totals-box">
-        <div class="totals-row">
-          <span class="label">Subtotal</span>
-          <span class="value">$950.00</span>
-        </div>
-        <div class="totals-row">
-          <span class="label">Discount (0%)</span>
-          <span class="value">-$0.00</span>
-        </div>
-        <div class="totals-row">
-          <span class="label">Tax (8.5%)</span>
-          <span class="value">$80.75</span>
-        </div>
-        <div class="totals-row total-final">
-          <span class="label">Total Due</span>
-          <span class="value">$1,030.75</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- PAYMENT INSTRUCTIONS -->
-    <div class="payment-section">
-      <h3>Payment Instructions</h3>
-      <p><strong>Bank Transfer (ACH/Wire):</strong> Account Name: [Your Business Name] | Bank: [Bank Name] | Account #: [Account Number] | Routing #: [Routing Number]</p>
-      <p><strong>PayPal:</strong> Send payment to [paypal@yourbusiness.com] — please include invoice number in the note</p>
-      <p><strong>Check:</strong> Make payable to [Your Business Name] and mail to [Your Business Address]</p>
-      <p style="margin-top:10px; color:#8A8A8A; font-size:12px;">Please reference invoice #INV-2024-001 with all payments. A late fee of 1.5% per month may be applied to overdue balances.</p>
-    </div>
-
-    <!-- NOTES -->
-    <div class="notes-section">
-      <h3>Notes</h3>
-      <p>All files will be delivered via email within 48 hours of payment confirmation. Final deliverables include print-ready and web-optimized file formats. This invoice is for services rendered as described. This is a professional services invoice — not a financial or legal document.</p>
-    </div>
-
-  </div><!-- end invoice-body -->
-
-  <!-- FOOTER -->
-  <div class="invoice-footer">
-    <p class="thank-you">Thank You for Your Business</p>
-    <div class="footer-divider"></div>
-    <p>Questions? Contact us at [your@email.com] | [www.yourbusiness.com]</p>
-    <p style="margin-top:6px; font-size:11px; color:#666666;">This invoice was generated using the Small Business Ultimate Toolkit — available at your favorite digital marketplace.</p>
   </div>
 
-</div><!-- end invoice-wrapper -->
+  <!-- TOTALS -->
+  <div style="padding: 0 48px 32px 48px; display: flex; justify-content: flex-end;">
+    <table style="width: 320px; font-size: 14px;">
+      <tr>
+        <td style="padding: 10px 16px 6px 0; color: #8A8A8A; text-align: right;">Subtotal</td>
+        <td style="padding: 10px 0 6px 16px; text-align: right; font-weight: bold; color: #1A1A1A;">$2,300.00</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px 16px 6px 0; color: #8A8A8A; text-align: right;">Tax Rate</td>
+        <td style="padding: 6px 0 6px 16px; text-align: right; color: #1A1A1A;">8.5%</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e0d8cc;">
+        <td style="padding: 6px 16px 14px 0; color: #8A8A8A; text-align: right;">Tax Amount</td>
+        <td style="padding: 6px 0 14px 16px; text-align: right; color: #1A1A1A;">$195.50</td>
+      </tr>
+      <tr style="background-color: #1A1A1A;">
+        <td style="padding: 16px 16px 16px 20px; color: #C9A84C; font-size: 15px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; text-align: right;">TOTAL DUE</td>
+        <td style="padding: 16px 20px 16px 16px; text-align: right; color: #C9A84C; font-size: 20px; font-weight: bold;">$2,495.50</td>
+      </tr>
+    </table>
+  </div>
 
+  <!-- PAYMENT INSTRUCTIONS -->
+  <div style="margin: 0 48px 28px 48px; background-color: #F5F0E8; border-left: 4px solid #C9A84C; padding: 20px 24px;">
+    <div style="font-size: 13px; font-weight: bold; color: #1A1A1A; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px;">Payment Instructions</div>
+    <div style="font-size: 13px; color: #1A1A1A; line-height: 2.0;">
+      <strong>Bank Transfer:</strong> [Bank Name] &bull; Routing: [Routing Number] &bull; Account: [Account Number]<br>
+      <strong>PayPal:</strong> [paypal.me/yourbusiness or your PayPal email]<br>
+      <strong>Venmo / Zelle:</strong> [@YourHandle or your phone number]<br>
+      <strong>Check Payable To:</strong> [Your Business Name] &bull; Mail to address above
+    </div>
+  </div>
+
+  <!-- TERMS & CONDITIONS -->
+  <div style="margin: 0 48px 28px 48px; padding: 20px 24px; border: 1px solid #e0d8cc; border-radius: 4px;">
+    <div style="font-size: 13px; font-weight: bold; color: #1A1A1A; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px;">Terms &amp; Conditions</div>
+    <div style="font-size: 12px; color: #8A8A8A; line-height: 1.9;">
+      Payment is due within <strong style="color: #1A1A1A;">[14] days</strong> of the invoice date. Late payments are subject to a [1.5%] monthly interest charge.
+      All work remains the property of [Your Business Name] until payment is received in full.
+      Disputes must be raised in writing within 7 days of receiving this invoice.
+      By accepting deliverables, the client agrees to these terms.
+      [Add any project-specific terms here.]
+    </div>
+  </div>
+
+  <!-- THANK YOU FOOTER -->
+  <div style="background-color: #1A1A1A; padding: 28px 48px; text-align: center;">
+    <div style="color: #C9A84C; font-size: 20px; font-weight: bold; letter-spacing: 1px; margin-bottom: 8px;">Thank You for Your Business!</div>
+    <div style="color: #8A8A8A; font-size: 13px; line-height: 1.8;">
+      We truly appreciate the opportunity to work with you.<br>
+      Questions about this invoice? Contact us at <span style="color: #F5F0E8;">[youremail@yourbusiness.com]</span> or <span style="color: #F5F0E8;">[Your Phone Number]</span>
+    </div>
+    <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #333; font-size: 11px; color: #555; letter-spacing: 0.5px;">
+      [YOUR BUSINESS NAME] &bull; [Website URL] &bull; [youremail@yourbusiness.com]
+    </div>
+  </div>
+
+</div>
 </body>
 </html>
