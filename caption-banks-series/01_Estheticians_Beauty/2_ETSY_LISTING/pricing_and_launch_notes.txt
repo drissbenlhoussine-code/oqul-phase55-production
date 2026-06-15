@@ -1,90 +1,114 @@
-PRICING & LAUNCH STRATEGY NOTES
-Product: 365 Instagram Captions for Estheticians
+==============================================================
+PRICING & LAUNCH STRATEGY
+365 Instagram Captions for Estheticians
 ==============================================================
 
-PRICING TIMELINE
-- Launch price: $12.00
-- After 10 reviews: raise to $15.00
-- After 50 reviews: introduce 3-niche bundle at $35.00
+--------------------------------------------------------------
+RECOMMENDED PRICING
+--------------------------------------------------------------
 
-Do NOT launch at $7. A low price signals low quality to a professional audience.
-Estheticians charge $80–$150/hour. They expect professional-quality tools.
-$12 is the sweet spot — low enough to be impulsive, high enough to signal value.
+LAUNCH PRICE: $12.00
+Use this price for the first 10 reviews. It lowers the barrier for first buyers, increases conversion rate, and helps you accumulate the social proof needed to justify a higher price. A $12 digital download with 365 ready-to-use captions, a hashtag bank, and a 30-day content plan is objectively underpriced — and that's the point at launch. Getting those first reviews matters more than margin right now.
+
+RAISE TO $15.00 after 10 reviews.
+Once you have 10 reviews (ideally all 5-star), raise the price to $15.00. At this price point you are still highly competitive in the digital product market, especially with the volume and quality of content included. The reviews provide the trust signal that justifies the higher price.
+
+RAISE TO $18.00 after 25 reviews.
+A natural second tier. By this point your listing has proven conversion history and a review record that builds trust automatically. You can also use the $18 price as a lever — dropping back to $15 for seasonal promotions feels like a genuine deal.
+
+--------------------------------------------------------------
+WHEN TO INTRODUCE A BUNDLE
+--------------------------------------------------------------
+
+After 50 reviews, introduce a bundle offering.
+
+Suggested Bundle: "Complete Esthetician Marketing Kit"
+Include:
+- 365 Instagram Captions for Estheticians (this product)
+- Email Newsletter Templates for Estheticians (create this as your next product)
+- Booking Page Copy Templates (potential third product)
+
+Bundle Price: $29-$35 (represents 20-30% savings vs. buying separately)
+
+Why wait until 50 reviews? Because the bundle strategy only works when each individual product in the bundle already has credibility. Launch the bundle after your flagship product is established, not before.
+
+--------------------------------------------------------------
+SUGGESTED ETSY LISTING CATEGORIES
+--------------------------------------------------------------
+
+Primary Category: Templates > Social Media Templates
+Secondary Category: Tools > Business Tools
+Shop Section (create this in your Etsy shop): "Social Media & Marketing" or "Content Templates"
+
+Tags already in tags.txt are optimized for Etsy search. Do not change them without testing.
+
+--------------------------------------------------------------
+FIRST 7 DAYS LAUNCH STRATEGY
+--------------------------------------------------------------
+
+Day 1 (Listing Goes Live):
+- Share the listing to your personal Instagram Stories
+- Post in at least two Facebook groups for estheticians or beauty professionals (see below)
+- Tell any colleagues who might benefit — word of mouth from a trusted peer is gold
+- Pin the listing link in your Instagram bio for the first 30 days
+
+Day 2-3:
+- Post one of the sample captions from the product on your own Instagram with a caption like: "I just created something for estheticians who freeze up on Instagram. One example below. The full pack of 365 is in my bio link. Grab it while it's at launch pricing."
+- Follow up with Stories showing the product files (screenshot of the .md document with captions, screenshot of the hashtag bank)
+
+Day 4-5:
+- If you have an email list, send one email to your list. Subject line: "I made something for you (estheticians especially)." Keep it short — one paragraph, one link.
+- Request reviews from the first 1-3 buyers via Etsy's message system. Be warm and genuine: "Hi [Name], thank you so much for your purchase! I'd love to know how the caption bank works for you — and if you have a moment, an honest Etsy review means the world to a small digital product shop like mine."
+
+Day 6-7:
+- Analyze: Which referral source drove the most traffic? (Check Etsy Stats)
+- Double down on whatever worked. If Facebook groups drove purchases, post in two more groups. If Instagram Stories drove traffic, post another Story.
+
+--------------------------------------------------------------
+ETSY ADS TIMING
+--------------------------------------------------------------
+
+DO NOT run Etsy Ads until you have at least 3 reviews.
+
+Here is why: Etsy Ads drive traffic to your listing, but listings without reviews convert poorly. You will spend money sending people to a listing that fails to close the sale, which wastes your ad budget and teaches the Etsy algorithm that your listing has low engagement.
+
+Once you have 3+ reviews:
+- Start with a low daily budget: $1.00-$3.00/day
+- Let the campaign run for 7-10 days before evaluating performance
+- Target keywords: Etsy will suggest them automatically based on your listing title and tags
+- Do not adjust your campaign more than once per week — Etsy's algorithm needs time to optimize
+
+Once you have 10+ reviews and a conversion rate above 2%:
+- Consider increasing your daily budget to $5.00-$10.00/day
+- Test one creative variable at a time (title, price, first listing image)
+- Ads should not be your primary growth engine at launch. Reviews and organic search are.
+
+--------------------------------------------------------------
+FACEBOOK GROUP STRATEGY
+--------------------------------------------------------------
+
+Sharing a sample caption in esthetician Facebook groups is one of the highest-ROI launch tactics available for this product. Here's how to do it without being spammy:
+
+1. Find 3-5 active Facebook groups for estheticians. Search terms: "esthetician community," "estheticians support group," "licensed estheticians," "beauty professional network," "esthetic business owners."
+
+2. Post a genuine value-first message. Example:
+"Hey everyone! I just put together a caption bank for estheticians who want to post consistently but run out of ideas — I know that struggle is SO real. Sharing one caption from it below in case it's useful for anyone this week. If you want the full pack (365 captions + 200 hashtags + 30-day content plan), I just listed it on my Etsy shop for $12 this week. Link in comments if you want it. No pressure at all — just thought the community might find this useful!"
+
+3. Then post the sample caption (or two) as a follow-up comment, not as part of the original post. This keeps the original post value-forward.
+
+4. Engage genuinely: respond to everyone who comments, likes, or asks questions. Warm engagement converts to sales in community spaces far more reliably than passive link-dropping.
+
+5. Wait 3-4 days before posting in any single group again. Facebook groups have community standards and moderators — respect the space.
+
+--------------------------------------------------------------
+QUICK NOTES ON LONG-TERM GROWTH
+--------------------------------------------------------------
+
+- List more products in the same niche over time. The "series" model (caption banks for different niches) compounds because buyers of one trust your shop enough to buy others.
+- SEO in your Etsy title and tags is the most important free traffic driver. Review your tags every 90 days using Etsy Rank or eRank (free tools) to see which keywords are actually driving impressions.
+- Your listing thumbnail (first image) is responsible for roughly 80% of whether someone clicks. If clicks are low, the thumbnail is the first thing to improve.
+- Customer messages answered within 24 hours improve your Etsy seller score and occasionally convert hesitant buyers.
 
 ==============================================================
-ETSY CATEGORY
-Primary: Templates > Social Media Templates
-Secondary: Business Tools > Marketing Templates
-==============================================================
-
-FIRST 7 DAYS — LAUNCH CHECKLIST
-
-Day 1: Go live. Share in your personal Instagram stories.
-Day 2: Post in 2–3 esthetician Facebook Groups. Do NOT pitch.
-  Comment value first. Post listing only when a relevant question appears.
-  Example groups to search: "Esthetician Network," "Licensed Estheticians,"
-  "Beauty Business Owners," "Esty Business Support"
-
-Day 3: Post a TikTok or Instagram Reel: "POV: I just launched my first digital
-  product — 365 captions for estheticians." Document the process. Not the product.
-
-Day 4: Reach out to 2 esthetician contacts and ask them to purchase and leave
-  an honest review. Offer them the product at no charge if needed for early reviews.
-
-Day 5: Post one sample caption in an esthetician community with the note:
-  "I have a full caption bank of 365 for sale — here's a sample of what's inside."
-  Let the quality sell itself.
-
-Day 6: Check Etsy stats. Look at impressions vs. clicks. If impressions are
-  high but clicks are low, your thumbnail image needs work. If impressions
-  are low, your title or tags need adjustment.
-
-Day 7: Reply to every message, every question. Response time affects Etsy ranking.
-
-==============================================================
-ETSY ADS
-- Do NOT run Etsy Ads until you have at least 3 reviews
-- Low review count + paid traffic = wasted budget and reduced conversion
-- Start Etsy Ads at $1–2/day after 5+ reviews
-- Run ads on this listing first before expanding to new listings
-
-OFFSITE ADS
-- Etsy automatically runs Offsite Ads if your shop makes over $10,000/year
-- If your shop is under that threshold, you can opt out
-- For new shops: opt in only after you have at least 5 reviews
-
-==============================================================
-EXPANSION PLAN — NEXT LISTINGS IN THE SERIES
-
-Use the exact same product structure for each new niche.
-Change: niche-specific vocabulary, services, pain points, seasonal content.
-Keep: the same 6 pillars, the same file structure, the same pricing.
-
-Recommended order:
-02 — Personal Trainers & Fitness Coaches
-03 — Real Estate Agents
-04 — Hair Salons & Barbers
-05 — Life Coaches & Business Coaches
-06 — Nail Technicians
-07 — Dentists & Dental Offices
-08 — Airbnb Hosts
-09 — Restaurants & Cafes
-10 — Photographers (Wedding & Portrait)
-
-Each listing = same template, different niche vocabulary.
-After 10 listings, introduce cross-niche bundles (e.g., "Service Business Caption Bundle — 3 Niches").
-
-==============================================================
-REVENUE PROJECTION
-
-Listings   Avg Sales/Month/Listing   Price   Monthly Revenue
-5          4                         $12     $240
-10         7                         $12     $840
-20         9                         $12     $2,160
-30         11                        $12     $3,960
-
-These are conservative projections based on consistent listing quality
-and organic Etsy discovery. Results depend on listing quality,
-reviews, SEO, and consistency of adding new listings.
-
+END OF PRICING & LAUNCH NOTES
 ==============================================================
