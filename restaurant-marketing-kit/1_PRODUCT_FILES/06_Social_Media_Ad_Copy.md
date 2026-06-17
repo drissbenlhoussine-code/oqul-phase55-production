@@ -1,279 +1,267 @@
 # Social Media & Paid Advertising Copy Templates
 
-*Part of the Restaurant Marketing Kit — customize all bracketed fields with your restaurant's specific details, pricing, and offers before running any ad campaign.*
+## How to Use These Templates
+
+Paid social advertising is one of the most cost-effective tools a restaurant can use to fill seats, drive reservations, and grow awareness — but only when the copy and creative work together. These templates are written specifically for Facebook and Instagram Ads Manager, where the format is consistent: primary text above the image, a bold headline below, a supporting description beneath that, and a call-to-action button. Each ad has been crafted with restaurant-specific buyer psychology in mind: hunger triggers, time-sensitive language, sensory specificity, and the kind of social warmth that makes people stop scrolling and think "I need to be there." Before you run any ad, replace every bracketed placeholder with your specific details — your restaurant name, your actual dishes, your real pricing — because specificity is what converts.
+
+Food photography is the single most important variable in restaurant ad performance. The best-written ad in the world will underperform if the image is dark, cluttered, or unappetizing. These templates are designed to pair with high-quality, well-lit food photography or short video content — ideally shot in natural light with minimal props and a clean background. Before launching a campaign, make sure you have at least three to five strong food images to test against each other. Run the same copy with multiple images to see what stops the scroll. The Google Business Profile posts in Section 2 follow a different format — shorter, direct, and built for people already searching for you — and the principles section at the end gives you a foundation for making smart decisions about your ad spend over time.
 
 ---
 
 ## SECTION 1 — FACEBOOK & INSTAGRAM AD COPY
 
-*Instructions: Each ad set below contains four components: Primary Text (the main body of the ad), Headline (the bold line under the image), Description (the supporting subline), and CTA Button Recommendation. Swap in your restaurant's specifics for every bracketed item.*
+---
+
+**AD 1 — Grand Opening / Re-Opening**
+
+Primary Text:
+Something new is happening at [Address / Neighborhood Name], and we couldn't be more excited to finally share it with you. [Restaurant Name] is now open — a [brief concept description, e.g., "neighborhood restaurant rooted in seasonal cooking and genuine hospitality"]. We've built a space where great food, a warm room, and a team that actually cares about your evening all come together. Whether you've been following along since the beginning or you're hearing about us for the first time, your table is ready and we'd love to welcome you in.
+
+Headline:
+[Restaurant Name] Is Now Open
+
+Description:
+[Neighborhood / City] — [brief concept tagline, e.g., "Seasonal kitchen. Warm room. Open now."]
+
+CTA: Get Directions
 
 ---
 
-### Ad Set 1: Grand Opening / Re-Opening
+**AD 2 — Weekend Brunch Promotion**
 
-**Primary Text:**
-Something new is happening on [Street Name] — and you're invited to be part of it from day one. [Restaurant Name] is officially open, and we're serving [brief cuisine description, e.g., "wood-fired Italian classics, hand-crafted cocktails, and a weekend brunch that's already causing a scene"]. Come meet us. First impressions are kind of our thing.
+Primary Text:
+Weekends are better when you don't have to cook. Join us for brunch at [Restaurant Name] — we're talking [specific dish, e.g., "lemon ricotta pancakes with whipped honey butter"], [specific dish, e.g., "a smoked salmon eggs Benedict that will ruin you for all others"], and a Bloody Mary built the way it should be. We're open [brunch hours] on Saturday and Sunday, and we've got a patio that was made for mornings exactly like this one. Come in hungry.
 
-**Headline:**
-[Restaurant Name] Is Open in [City/Neighborhood]
+Headline:
+Brunch Is Served — [Saturday & Sunday], [Hours]
 
-**Description:**
-Now open — reservations available online. Walk-ins welcome.
+Description:
+[Restaurant Name] | [Address] | Reservations at [link] or walk-ins welcome
 
-**CTA Button Recommendation:**
-Use **"Book Now"** — it drives direct reservation intent at the moment of peak curiosity. If you don't have an online booking system, use **"Learn More"** pointing to your Google Business profile or website. Avoid "Like Page" for this objective; you want people through the door, not passive followers.
-
----
-
-### Ad Set 2: Weekend Brunch Promotion
-
-**Primary Text:**
-Weekends were made for this. [Restaurant Name]'s brunch runs every [Saturday and Sunday] from [Time] to [Time], and we're bringing [signature item, e.g., "bottomless mimosas, a smash burger that took us six months to perfect, and a shakshuka that will ruin all other shakshuka for you forever"]. No better way to spend a Saturday morning. Reservations recommended — link below.
-
-**Headline:**
-Brunch at [Restaurant Name] — [City/Neighborhood]
-
-**Description:**
-Sat & Sun [Time]–[Time]. Reserve your table today.
-
-**CTA Button Recommendation:**
-Use **"Book Now"** linked directly to your reservation page or OpenTable/Resy listing. Brunch ads perform best when there's zero friction between "I want this" and "I have a table" — the fewer clicks, the better. If you run a walk-in-only brunch, switch to **"Get Directions"** or **"Learn More"** and highlight the walk-in availability in the primary text.
+CTA: Book Now
 
 ---
 
-### Ad Set 3: Happy Hour Traffic Driver
+**AD 3 — Happy Hour Traffic Driver**
 
-**Primary Text:**
-[Time] hits differently at [Restaurant Name]. We're pouring [drink specials, e.g., "$5 drafts, $7 house wines, and half-price apps"] every [day(s) of week] from [Start Time] to [End Time]. No dress code. No minimum. Just a seat at the bar and something worth drinking. Come decompress. You've earned it.
+Primary Text:
+Not every after-work drink deserves a dive bar. [Restaurant Name] happy hour runs [Time – Time], [Days of Week], and we pour the kind of cocktails you actually want to talk about. Half off select wines, $[X] craft cocktails, and bar bites that make it easy to stay for dinner. [Address, e.g., "We're right off [cross street], two minutes from [landmark or transit stop]"]. Come decompress somewhere that's actually worth it.
 
-**Headline:**
-Happy Hour: [Days], [Time]–[Time]
+Headline:
+Happy Hour at [Restaurant Name] — [Time] to [Time], [Days]
 
-**Description:**
-[$X drinks / Half-off apps / Your special offer] at [Restaurant Name].
+Description:
+$[X] cocktails | Half-off wines | Bar bites all evening
 
-**CTA Button Recommendation:**
-Use **"Get Directions"** — happy hour is a spontaneous, location-triggered behavior. People see this ad while they're already out or finishing work, and they need to know exactly where you are fast. Pair this with location-based ad targeting (people within [X] miles of your restaurant) for maximum relevance. If you want to track reservations, **"Book Now"** works too, but many guests won't book a 90-minute happy hour window — they'll just show up.
-
----
-
-### Ad Set 4: Valentine's Day Dinner
-
-**Primary Text:**
-You've got [X] weeks to lock in a table — don't be the person who waits until February 13th. [Restaurant Name] is serving a special Valentine's Day prix fixe dinner on [date(s)]: [X] courses, curated wine pairings, and an atmosphere that does all the right things. $[X] per person. Seats are limited and they go fast every year. Make the reservation now — future you will be very grateful.
-
-**Headline:**
-Valentine's Dinner at [Restaurant Name]
-
-**Description:**
-[X]-course prix fixe. $[X]/person. Limited seats — reserve now.
-
-**CTA Button Recommendation:**
-Use **"Book Now"** — urgency is everything for Valentine's Day campaigns. This ad should run starting 3–4 weeks before February 14th with escalating urgency ("only [X] tables left" language works well in the second week). Pair with a retargeting campaign aimed at people who visited your website or engaged with previous posts but haven't booked yet. Deadline-driven language in the primary text significantly lifts conversion on seasonal event ads.
+CTA: Get Directions
 
 ---
 
-### Ad Set 5: Mother's Day Brunch
+**AD 4 — Valentine's Day Dinner**
 
-**Primary Text:**
-She raised you. The least you can do is book the table. [Restaurant Name]'s Mother's Day brunch is one of the most popular things we do all year — and we mean that as a warning to book early. We're serving [brief menu highlight, e.g., "our full brunch menu plus a special à la carte Mother's Day addition, complimentary mimosas for all moms, and a take-home treat from our pastry team"]. Seatings on [Date] from [Time] to [Time]. Reserve at the link.
+Primary Text:
+This Valentine's Day, skip the overcrowded chain and give the evening it actually deserves. [Restaurant Name] is offering a [Number]-course prix fixe dinner on [Date(s)] — [specific dish teaser, e.g., "think hand-rolled pasta, a slow-braised centerpiece, and a chocolate dessert built for two"]. Tables are limited and we fill up every year. If you want to make it a night they remember, now is the time to book.
 
-**Headline:**
-Mother's Day Brunch — [Restaurant Name]
+Headline:
+Valentine's Day at [Restaurant Name] — Reserve Now
 
-**Description:**
-[Date] | [Time]–[Time] | Reservations required.
+Description:
+[Number]-course prix fixe | $[Amount] per person | Limited seatings available
 
-**CTA Button Recommendation:**
-Use **"Book Now"** — Mother's Day is one of the highest-reservation-intent dining days of the year. People searching for Mother's Day restaurants are almost always in buying mode. Run this ad starting 2–3 weeks out and target adults aged 25–50 in your area, with an interest overlay in "family dining" and "brunch." Consider a separate ad variation with copy that speaks directly to the kids buying this experience ("Treat Mom to something she'll actually love").
-
----
-
-### Ad Set 6: Private Events / Party Packages
-
-**Primary Text:**
-Planning a birthday, a corporate dinner, a rehearsal dinner, or just a night your whole group will remember? [Restaurant Name]'s private dining room seats up to [X] guests and our team handles every detail — from customized menus to cake cutting. No cookie-cutter event packages. Just your evening, done exactly the way you want it. Tell us about your event and we'll take it from there.
-
-**Headline:**
-Private Dining at [Restaurant Name]
-
-**Description:**
-Up to [X] guests. Custom menus. Full-service coordination.
-
-**CTA Button Recommendation:**
-Use **"Send Message"** (for Facebook) or **"Learn More"** (for Instagram, where messaging flows are less native). Private event inquiries are high-value leads that benefit from a conversation, not a direct booking form. When someone taps "Send Message," your Messenger or Instagram DM becomes a qualification and sales tool. If you have an event inquiry form on your website, **"Learn More"** linked to that page also converts well. Avoid "Shop Now" — it creates the wrong expectation for a high-touch purchase.
+CTA: Book Now
 
 ---
 
-### Ad Set 7: Gift Cards (Holiday Season)
+**AD 5 — Mother's Day Brunch**
 
-**Primary Text:**
-Still looking for a gift for the person who has everything? Give them dinner at [Restaurant Name] — because everyone has to eat, and not everyone eats this well. Our gift cards are available in any amount, they never expire, and they're available online so you don't have to brave the mall. The easiest gift you'll give this season, and honestly probably the best one. Order by [date] for [holiday] delivery.
+Primary Text:
+She deserves more than flowers. Treat Mom to something she'll actually remember — brunch at [Restaurant Name] on Mother's Day, [Date]. We're serving a special menu from [Time] to [Time] featuring [brief description, e.g., "seasonal egg dishes, a smoked fish spread, house-baked pastries, and brunch cocktails worth lingering over"]. Reservations are filling up — book now so the most important woman in your life gets the table she deserves.
 
-**Headline:**
-[Restaurant Name] Gift Cards — Order Online
+Headline:
+Mother's Day Brunch — [Date] at [Restaurant Name]
 
-**Description:**
-Available in any amount. Never expire. Ships [free / to your door].
+Description:
+Special menu | [Time]–[Time] | Reserve at [link]
 
-**CTA Button Recommendation:**
-Use **"Shop Now"** — gift card purchases are transactional, and "Shop Now" signals that action clearly. Link directly to your gift card purchasing page (Square, Toast, or your POS provider's gift card portal), not your homepage. Every extra click after the ad loses a percentage of conversions. Run this campaign from [holiday] through [holiday] and increase the budget in the 5 days before each major gift-giving deadline.
-
----
-
-### Ad Set 8: New Menu Launch
-
-**Primary Text:**
-We've been working on this for a while, and it's finally here. [Restaurant Name] just launched [our new fall menu / our summer cocktail program / our new brunch menu], and it's the best thing we've put on the table in [X] years. Chef [Name] built this menu around [seasonal ingredients / a new direction / a specific inspiration], and we're genuinely excited for you to try it. Come in this week and see what we've been up to.
-
-**Headline:**
-New Menu, Just Dropped — [Restaurant Name]
-
-**Description:**
-Now serving [menu name]. Come try it this week.
-
-**CTA Button Recommendation:**
-Use **"Learn More"** linked to your updated menu on your website or a specific landing page about the new menu. This drives curiosity and lets people explore the dishes before deciding to book. If your new menu is reservation-only or tasting-menu style, switch to **"Book Now."** New menu launches are excellent moments to run a video ad (a short clip of dishes being plated performs significantly better than static images for this content type).
+CTA: Book Now
 
 ---
 
-### Ad Set 9: Delivery / Takeout Promotion
+**AD 6 — Private Events / Party Packages**
 
-**Primary Text:**
-[Restaurant Name] is now just [X] minutes from wherever you are. Order online and we'll have [our [cuisine type] / your favorites] ready for pickup or delivered to your door. No minimum order. No disappointment. Just the food you actually want, on your schedule. Order at [website] or find us on [DoorDash / Uber Eats / Grubhub].
+Primary Text:
+Planning a birthday, anniversary, rehearsal dinner, retirement party, or corporate event? [Restaurant Name] has a private dining room with your name on it. We handle everything — the menu, the setup, the little details that turn a dinner into a memory — so you can show up and actually enjoy the evening with your guests. We've hosted everything from intimate dinners for 10 to full buyouts for 80, and every single one has felt personal. Let us take the stress off your plate (pun intended).
 
-**Headline:**
-[Restaurant Name] — Order Online Now
+Headline:
+Private Dining at [Restaurant Name] — Inquire Today
 
-**Description:**
-Pickup + delivery available. Order in minutes.
+Description:
+Intimate gatherings to full buyouts | Custom menus | [Phone Number]
 
-**CTA Button Recommendation:**
-Use **"Order Now"** — Facebook and Instagram both support this CTA, and it creates the most direct path from hungry to fed. Link to your direct ordering page (your own website's ordering system is preferred over a third-party app link, since you pay no commission on direct orders). If you use a third-party platform exclusively, link directly to your restaurant's page on that app. Run this ad heavily on Thursday evenings through Sunday, when food delivery intent peaks.
+CTA: Send Message
 
 ---
 
-### Ad Set 10: Loyalty Program / Email List Signup
+**AD 7 — Gift Cards (Holiday Season)**
 
-**Primary Text:**
-Join the [Restaurant Name] inner circle and never miss a thing. Sign up for our email list and be the first to know about new menu launches, exclusive events, happy hour specials, and the occasional offer we save just for subscribers. Takes 10 seconds. No spam, ever. Just the good stuff from your favorite neighborhood restaurant. Sign up below.
+Primary Text:
+If you've ever stared at someone's wish list and thought "I have no idea what to get them" — here's your answer. A [Restaurant Name] gift card is the gift that actually gets used, actually gets remembered, and doesn't require you to guess their size. Perfect for the foodie, the date-night couple, the hard-to-shop-for parent, or the colleague who deserves more than a candle. Available in any amount, online or in-restaurant. No expiration date. Instant delivery available.
 
-**Headline:**
-Get Exclusive Offers from [Restaurant Name]
+Headline:
+Give the Gift of a Great Night Out
 
-**Description:**
-Join our email list — free, no spam, unsubscribe anytime.
+Description:
+[Restaurant Name] Gift Cards — purchase at [link] or in person
 
-**CTA Button Recommendation:**
-Use **"Sign Up"** — this is the correct CTA for a lead generation objective and signals the user exactly what action they're taking. Run this as a Facebook Lead Ad so the form opens inside the app (pre-filled with the user's name and email from their Facebook profile), which dramatically increases completion rates versus sending people to an external landing page. Use this campaign type to build your email list during slower periods, then activate that list with promotional campaigns during peak seasons.
+CTA: Shop Now
+
+---
+
+**AD 8 — New Menu Launch**
+
+Primary Text:
+We've been in the kitchen. Here's what we've been working on. [Restaurant Name] just launched a new seasonal menu — and it might be the best cooking we've ever done. Without giving too much away: there's a [dish or ingredient teaser, e.g., "hand-rolled pappardelle with a short rib ragu that's been going since Tuesday"], a [second dish teaser, e.g., "roasted half chicken with a preserved lemon gremolata we're genuinely proud of"], and a dessert situation that the team refuses to stop talking about. Come see for yourself.
+
+Headline:
+New Menu. New Season. Come Try It.
+
+Description:
+[Restaurant Name] | [Address] | Reservations at [link]
+
+CTA: See Menu
+
+---
+
+**AD 9 — Delivery / Takeout Promotion**
+
+Primary Text:
+Restaurant-quality food. Your couch. No reservation required. [Restaurant Name] is now available for takeout [and delivery via (platform name)], and we pack everything to travel well — no soggy containers, no sad presentation. Just the same food we're proud of in the dining room, ready when you are. [Specific dish, e.g., "Our chicken parm travels beautifully."] Order online or call us directly — we'll have it ready in [X] minutes.
+
+Headline:
+[Restaurant Name] To Go — Order Now
+
+Description:
+Pickup and delivery available | Order at [link] or call [Phone Number]
+
+CTA: Order Now
+
+---
+
+**AD 10 — Loyalty Program / Email List Signup**
+
+Primary Text:
+If you're a regular — or you'd like to be — this is for you. Join the [Restaurant Name] insider list and get first access to new menu launches, special event invitations, occasional exclusive offers, and the kind of updates that actually feel worth reading. We don't email often. When we do, it means something good is happening. Sign up below and we'll send you [incentive, e.g., "a welcome offer — 10% off your next visit / a complimentary dessert on your birthday / early access to our next wine dinner"]. It takes 30 seconds.
+
+Headline:
+Join the [Restaurant Name] Insiders List
+
+Description:
+Exclusive offers, event invites, and news you'll actually want — [sign up here]
+
+CTA: Sign Up
 
 ---
 
 ## SECTION 2 — GOOGLE BUSINESS PROFILE POSTS
 
-*Google Business Profile posts appear in local search results and on your Google Maps listing. They are indexed for local SEO and serve as real-time signals of an active, relevant business. Keep each post under 300 characters for best display, include a clear action, and post at least once per week.*
-
 ---
 
-**Post 1 — Weekly Specials**
+**Post 1 — Weekly Special**
 
-This week at [Restaurant Name]: [Dish Name] featuring [key ingredient] — [one-line description]. Available [days] only while supplies last. Dine in or order online. [website URL] #[CityName]Eats #[RestaurantName]
+This week at [Restaurant Name]: [Dish Name] — [one-sentence description, e.g., "pan-seared halibut with spring pea puree, crispy capers, and a brown butter vinaigrette"]. Available through [Day] while ingredients last. Reservations at [link] or walk-ins welcome. We're open [hours], [days of week], at [address].
 
 ---
 
 **Post 2 — Upcoming Event**
 
-Join us [Date] for [Event Name] at [Time]. [One line description — e.g., "Live music, drink specials, and the full dinner menu."]. Reservations recommended. Book at [website/link] or call [phone]. Limited seats available.
+Joining us on [Date]? We're hosting [Event Name, e.g., "a live jazz evening / a wine and food pairing dinner / our monthly Chef's Table"] starting at [Time]. [One-sentence description of the event.] Tickets/reservations at [link] or call [Phone Number]. Space is limited — don't wait. [Restaurant Name] | [Address]
 
 ---
 
 **Post 3 — Seasonal Menu**
 
-[Season] is here and so is our new [season] menu. Chef [Name] is featuring [key seasonal ingredient] across [X] new dishes this month. Come taste what's in season. Dine in, takeout, or catering available. [website URL]
+Autumn has arrived at [Restaurant Name] — and so has our new seasonal menu. We're cooking with [seasonal ingredient], [seasonal ingredient], and [seasonal ingredient] this month, and the results are some of the best dishes we've put out all year. Come try the season before it changes. Open [days] | [hours] | [address] | Reserve at [link]
 
 ---
 
-**Post 4 — Holiday Hours / Holiday Special**
+**Post 4 — Holiday Hours / Holiday Offer**
 
-[Holiday] hours at [Restaurant Name]: [Date] — [hours], [Date] — [hours]. Closed [Date if applicable]. Celebrating [holiday]? Reserve your table for our special [holiday] menu — [X] courses, $[X]/person. Book: [link] or call [phone].
+Holiday hours update for [Holiday / Date Range]: We will be open [adjusted hours and dates]. [If closed on a specific day: "We will be closed on [Date] to give our team time with their families."] Gift cards are available for purchase online at [link] — a perfect last-minute gift. Wishing everyone a wonderful [holiday] from the team at [Restaurant Name].
 
 ---
 
-**Post 5 — New Team Member / Milestone**
+**Post 5 — Customer Review Highlight**
 
-Big news: [Restaurant Name] just celebrated [milestone — e.g., "5 years in [neighborhood]" / "welcoming Chef [Name] to our kitchen" / "serving our 100,000th guest"]. Thank you to every guest who's been part of this journey. We're just getting started. Come in and celebrate with us. [website]
+We received a review this week that stopped us in our tracks: "[Pull a genuine, specific review excerpt — e.g., 'The pasta was unlike anything I've had outside of Italy, and the server remembered my name from my last visit. This is what hospitality looks like.']" — [First Name or username, if public]
+
+This is exactly why we do what we do. Thank you, [First Name]. And thank you to everyone who takes the time to share their experience — it means everything. [Restaurant Name] | [Address] | Reserve at [link]
 
 ---
 
 ## SECTION 3 — AD COPY PRINCIPLES FOR RESTAURANTS
 
+---
+
 ### What Makes Restaurant Ads Convert
 
-The single biggest mistake restaurants make in paid advertising is writing ads that describe the restaurant rather than triggering a feeling in the reader. Descriptive ads — "Family-owned Italian restaurant with fresh pasta and great service" — tell people facts. Converting ads make people feel something: hunger, nostalgia, the relief of a problem solved, the desire to belong. The shift from description to sensation is what separates ads that drive reservations from ads that generate impressions and nothing else.
+- **Strong visual is non-negotiable.** In Facebook and Instagram feed ads, you have roughly one to two seconds to stop a scroll. That stop almost always comes from the image or video, not the copy. Invest in food photography before you invest in ad spend — a $200 photography session will outperform a $1,000 budget behind a bad phone photo every time.
 
-**Urgency** is one of the most reliable conversion mechanisms in restaurant advertising. Scarcity of time (Valentine's Day is in two weeks, happy hour ends at 6pm, the tasting menu is only running through Sunday) and scarcity of availability (limited seats, filling fast, only X tables left) both work because they convert passive interest into active intent. An ad that a reader can act on "someday" is an ad they will never act on. Build a natural deadline into every campaign you run.
+- **Hunger-trigger language works.** Words that are specific, sensory, and evocative — "slow-braised," "hand-rolled," "crispy," "wood-fired," "still warm" — consistently outperform generic descriptors like "delicious" or "amazing." The goal is to make the reader feel something before they've even clicked.
 
-**Social proof** is particularly powerful for restaurants because dining is inherently social and people rely on collective judgment when choosing where to spend money on an experience. Specific, credible proof outperforms generic claims dramatically. "Voted Best Brunch in [City] 2024" beats "Amazing brunch." "Our shakshuka has been shared [X] times" beats "Our food is Instagrammable." If you have reviews, awards, press mentions, or quantitative milestones, work them into your ad copy naturally. One line of genuine social proof can lift click-through rates significantly.
+- **Time-of-day targeting amplifies relevance.** A brunch ad served at 7 PM on a weeknight lands flat. The same ad served at 10 AM on a Saturday morning, when people are already thinking about where they might go for the day, converts at a dramatically higher rate. Use Ads Manager's scheduling tools to run meal-specific ads during the hours when that decision is actually being made.
 
-**Sensory language** activates the reader's imagination in a way that purely logical copy cannot. The brain processes sensory descriptions in the same regions that process actual sensory experience. "Slow-braised short rib with caramelized onion and bone marrow butter" does something to a hungry reader that "braised beef dish" does not. Use texture words (crispy, silky, pillowy, charred), aroma words (smoky, herby, buttery, citrus-bright), temperature words (warm, chilled, piping hot, cool and refreshing), and sound words (crackle, sizzle, crunch) whenever they can be used authentically. Don't force it — but don't hold back either.
+- **Geo-targeting radius matters more than you think.** Most restaurant guests come from within a two to five mile radius. Don't waste budget advertising to someone 30 miles away who isn't going to drive in on a Tuesday for dinner. Set your radius tightly, especially for regular dining promotions. You can expand for special events or large-ticket prix fixe dinners where the occasion justifies the trip.
+
+- **Social proof in copy reduces friction.** If you can reference something verifiable — a James Beard nomination, a Yelp or Google rating, a quote from a real guest, a press mention — include it in your copy. Even a simple "our most-reviewed dish" or "the table most requested by guests" creates social proof without requiring you to brag directly.
+
+- **Offers don't always have to be discounts.** Restaurant ad copy often converts better when the offer is experiential rather than financial. "Reserve your spot for our Chef's Table" outperforms "10% off" for most full-service restaurants. Save discounts for specific, strategic moments — a dead slow Tuesday night, an off-season push, a first-time delivery order incentive.
+
+- **Keep the primary text scannable.** The first two sentences of your primary text need to earn the "See More" click. Lead with your most interesting point — the specific dish, the occasion hook, the urgency — and save the supporting detail for the lines that follow.
 
 ---
 
 ### Food Photography Tips for Ads
 
-The quality of your food photography is often more determinative of your ad's performance than the copy. A great photo with mediocre copy will usually outperform mediocre photography with great copy. Here's what to prioritize:
+- **Natural light is your best friend.** Shoot near a window on an overcast day for soft, even light with no harsh shadows. Direct sunlight creates unflattering hot spots on food. If you're shooting in the evening or in a dark restaurant, invest in a small LED panel light — not the overhead fluorescents.
 
-**Lighting:** Natural light is almost always your best friend. Shoot near a window during the day, with the light coming from the side (not directly above or directly behind the food). Avoid overhead fluorescent restaurant lighting — it flattens food and creates unflattering color casts. If natural light isn't available, invest in a simple LED photography light panel with adjustable color temperature. Aim for "warm" light temperatures (around 3500K–4500K) for cooked foods and cocktails; slightly cooler light works well for salads, raw ingredients, and brunch plates.
+- **The 45-degree angle is the workhorse.** A slight overhead angle (roughly 45 degrees from the side, not straight down) works for most dishes because it shows depth, texture, and the full plate composition simultaneously. Reserve true overhead (flat lay) shots for dishes with a strong graphic layout — a cheese board, a pizza, a composed salad. Reserve eye-level for drinks, burgers, and anything where height and layers are the selling point.
 
-**Framing and Angle:** The most common mistake in food photography is shooting everything from directly above (the "flat lay") regardless of whether that angle serves the dish. Flat lay works beautifully for grain bowls, pizza, charcuterie boards, and dishes where the pattern and variety of the top surface is the story. Shoot at a 45-degree angle — roughly eye-level with the table — for tall items (burgers, layer cakes, tacos, cocktails), so the height and structure of the dish is visible. Get close enough to fill the frame with the hero element; unused negative space on the edges of a food photo is wasted real estate in an ad.
+- **Negative space earns attention.** Don't crowd the frame. A single beautiful dish against a clean, neutral surface will always outperform a cluttered table shot with hands, menus, and half-eaten appetizers in the frame. Give the dish room to breathe.
 
-**Background and Props:** Keep backgrounds simple. A worn wooden table, a marble surface, a clean linen napkin, or a dark matte surface works for almost any type of food. Avoid backgrounds that compete with the food for attention. Props should support the story (a glass of wine next to a pasta dish, a lemon wedge beside a fish taco, a sweating cocktail glass) but never overwhelm it. The food is always the subject.
+- **Edit for warmth, not perfection.** Restaurant photos should feel inviting and slightly warm, not sterile and over-edited. Bump your highlights, warm your whites, and increase clarity slightly. Avoid heavy filters that distort the actual color of the food — what someone sees in the ad should match what arrives at the table.
 
-**The "Money Shot" Moment:** The highest-performing food ad images tend to capture a single, specific moment of appeal — the stretch of melted cheese on a pulled slice of pizza, steam rising from a bowl of ramen, a cocktail mid-pour, a cake being cut to reveal a layered interior. These are not always the easiest shots to capture, but they are the ones that stop a scroll.
+- **Shoot multiple angles, pick one.** Take 15 to 20 shots of each dish before choosing. What looks beautiful in person sometimes reads flat on a phone screen, and what looks ordinary through the lens sometimes surprises you in editing. The best restaurants shoot every dish from at least three angles — overhead, 45-degree, and eye-level — and then decide.
 
-**For Ads Specifically:** Always shoot in natural or near-natural color. Heavily filtered food photography looks dated and can make food look less appetizing. Shoot in portrait or square aspect ratio for Facebook and Instagram feed and stories. Always leave visual space at the top of the image (if text will be overlaid) and at the bottom (for the ad headline and description that appear below). Test both photography and video in your campaigns — short-form video showing food being prepared or plated consistently outperforms static images for awareness and reach objectives.
+- **Garnish matters in photography even when it's minimal on the plate.** A small sprig of fresh herb, a drizzle of good olive oil, or a light dusting of finishing salt added just before the shot elevates the visual dramatically. This is standard practice in food photography — not deception, just presentation.
 
 ---
 
-### How to Write for Hungry Audiences
+### How to Write for a Hungry Audience
 
-The foundational principle of restaurant ad copywriting is this: always lead with the food or the experience, not the restaurant's credentials. Your reader did not open Instagram to hear about your chef's culinary philosophy — but they might stop scrolling for a close-up of your pasta glistening with a brown-butter pan sauce.
+The single biggest mistake restaurants make in their ad copy is writing in abstractions. "Amazing food," "great atmosphere," "unforgettable experience" — these phrases are invisible. They register as background noise because they say nothing specific about what someone will actually taste, smell, see, or feel. The fix is deceptively simple: replace every vague word with a specific one.
 
-Start sensory. Open your ad with the specific, vivid, concrete detail that will trigger physical hunger or desire. "Our new rack of lamb comes off the fire with a crispy herb crust, pink all the way through, served with a mint gremolata that cuts right through the richness" is a better opening than "Try our new lamb dish." Once you have the reader's appetite engaged, you can bring in the context: when is this available, how much does it cost, what should they do next.
+"Delicious pasta" becomes "hand-rolled tagliatelle with a 36-hour beef and pork ragu, finished with Parmigiano-Reggiano and a handful of fresh basil." The second version takes longer to read, yes — but it also makes you hungry. It activates the imagination. It makes the reader feel like they've almost eaten the dish before they've even clicked. Specificity is the engine of food copy. The more precisely you describe a dish, the more effectively you communicate both quality and care.
 
-Write at a conversational register. Restaurant ad copy that sounds like it was written by a marketing department tends to be ignored; copy that sounds like a friend texting you a recommendation gets clicks. Contractions, informal phrasing, and first-person voice all help. "This is the best thing we've put on the menu in two years" is more believable and more compelling than "Experience the finest new addition to our seasonal menu."
+Texture, temperature, and contrast are your most reliable sensory levers. A dish isn't just "good" — it's "crispy on the outside, still tender in the middle." A cocktail isn't just "refreshing" — it's "cold enough to cloud the glass, with a citrus bite that opens into something smoky and slow." These details do two things at once: they make the reader feel the experience in advance, and they signal that your kitchen and your bar actually think about these things. That signal is what separates a restaurant people feel good about choosing from one they just end up at.
 
-Match the copy tone to the restaurant concept. A fast-casual breakfast spot should sound energetic and quick-paced; a fine dining room should sound confident and understated; a neighborhood bar-and-grill should sound warm and no-nonsense. Mismatched tone — a casual brunch spot writing like a Michelin-starred restaurant — creates subtle dissonance that undermines trust even when readers can't articulate why.
+Write for how people actually eat, not how food critics write about it. Your guest isn't looking for a deconstructed etymology of the dish's regional origins — they want to know it's going to be good and why. Lead with the sensory experience, follow with the story, and always end with a clear reason to act now rather than later. Scarcity, timing, and occasion give people permission to stop deliberating and book.
 
-Keep it short. Most people see your restaurant ad while doing something else. Primary text of 50–90 words performs well for most restaurant campaigns. If you need more words to tell the story (for events, tasting menus, or complex offers), front-load the most compelling content in the first two lines, which are always visible before the "See More" cut-off in mobile feeds.
+The final principle: read your copy out loud before publishing it. If it sounds like something a real person would say to a friend — "you have to try this place, the short rib has been going since Tuesday morning and it shows" — it's working. If it sounds like a press release or a Yelp about-us section, rewrite it until a human voice comes through. That voice is what makes people feel a connection to your restaurant before they've ever sat down.
 
 ---
 
 ### Timing Your Ad Spend
 
-Restaurant advertising is one of the highest context-dependent ad categories because people eat at specific times and plan meals in predictable windows. Understanding when your audience is thinking about food — and when they're making decisions — is as important as what your ads say.
+Match your ad timing to the meal decision cycle — not the mealtime itself. For lunch, run your ads from 10 AM to noon on weekdays, when people are thinking ahead about where they'll eat or ordering in advance. For dinner, the highest-intent window is typically 3 PM to 6 PM, when people are wrapping up their workday and deciding whether to cook, order, or go out. Brunch ads perform best Thursday through Saturday morning, catching people when weekend plans are forming.
 
-**Day of week:** For dinner reservations, Thursday and Friday are your highest-intent days. People are planning their weekend on Thursday and Friday afternoon and are most receptive to "where should we go this weekend?" messaging. For brunch campaigns, Friday afternoon through Saturday morning is peak intent time. Happy hour ads perform best Tuesday through Thursday between noon and 4pm, when people are thinking about how to end their workday.
+Align your ad spend with your slow periods, not your busy ones. Advertising on a packed Friday night is wasted money — those tables fill themselves. The real ROI comes from running targeted campaigns on Monday through Wednesday nights, during post-holiday January lulls, or in the shoulder season between summer and fall. Think of paid ads as a tool for smoothing the revenue curve, not amplifying what's already working.
 
-**Time of day:** Run your ads during the 2–3 hours before the relevant meal. Lunch ads perform best between 10am and 11:30am. Dinner ads peak between 3pm and 6pm. Late-night promotion hits during the 9pm–11pm window. Avoid heavy ad spending at 7am or during the middle of the night — low intent periods — unless you're running an always-on awareness campaign where cost per impression is low enough to justify it.
-
-**Seasonal spend strategy:** Plan your biggest ad budgets around the four to six highest-traffic restaurant periods of the year: Valentine's Day, Mother's Day, the summer (late May through August for outdoor dining and travel), the fall menu launch (September/October), the holiday season (Thanksgiving through New Year's), and any local events or festivals that drive foot traffic to your area. Build your campaigns 3–4 weeks in advance of each occasion, with budget increasing in the final 7–10 days as decision-making urgency rises.
-
-**Day-part and offer alignment:** The offer in your ad should always match the time the ad is being seen. Running a dinner reservation ad at 7am is a timing mismatch. Running a breakfast delivery ad at 10pm is a mismatch. Set your ad scheduling (also called dayparting) in your Facebook Ads Manager to run ads at the times when they are most relevant to the behavior you want to drive.
+For event and seasonal promotions, begin running ads two to three weeks before the event date and increase spend in the final 72 hours. People who saw your Valentine's Day ad on February 1st and didn't act on it need a nudge on February 10th when the urgency is real. Layer in a retargeting campaign (see below) for people who clicked but didn't book. Your highest-intent audience is always the people who already showed interest — reach them again.
 
 ---
 
 ### Remarketing Basics for Restaurants
 
-Remarketing — showing ads specifically to people who have already interacted with your brand — is one of the highest-ROI advertising strategies available to restaurants, and it is dramatically underused by small restaurant operators. Here is how to set it up and why it works.
+Remarketing — also called retargeting — means showing ads specifically to people who have already interacted with your restaurant online: visited your website, watched a video, clicked an ad, or engaged with your Instagram profile. These people are far more likely to convert than cold audiences because they already know you exist and have already shown some level of interest. In Ads Manager, you can create these "Custom Audiences" from your website pixel, your video views, or your page engagement, and then serve them a second ad that references where they left off — "Still thinking about that brunch reservation?" or "Spots are still available for Saturday night."
 
-**Why remarketing works for restaurants:** Most people who visit your website, browse your menu, or engage with your Instagram post do not make a reservation or place an order on that first interaction. They might get interrupted, decide to save it for later, or simply not be ready to commit at that moment. Remarketing lets you follow up with exactly those people — the people who have already shown interest — with a targeted message designed to close the loop.
-
-**Website visitor remarketing:** Install the Facebook Pixel on your restaurant's website (found in your Facebook Business Manager under Events Manager — it's a small snippet of code your web developer or website platform can add). Once installed, Facebook tracks everyone who visits your site and lets you build a custom audience of those visitors. You can then run ads exclusively to that audience — people who already know who you are — with conversion-focused messaging like "You checked us out — ready to book your table?" or a specific offer tied to what page they visited (menu page visitors get an ad about a new dish; reservation page visitors get an ad about a special event).
-
-**Instagram engagement remarketing:** In Facebook Ads Manager, you can build a custom audience of people who have engaged with your Instagram profile — anyone who liked a post, watched a video, saved a reel, or visited your profile — in the last 30, 60, or 90 days. This is an extremely warm audience. These are people who stopped to look at your food or your content and moved on without taking an action. A well-timed remarketing ad with urgency ("Last few tables for Valentine's Day — don't miss it") often converts this audience at significantly higher rates than cold audiences.
-
-**Lookalike audiences:** Once you have a custom audience of real customers or website visitors (you need at least 100 people in the audience for this to work), Facebook can build a "lookalike audience" — a targeting pool of people in your geographic area who share characteristics with your existing customers. This is one of the most efficient prospecting strategies available because you're reaching people who statistically resemble your best existing customers. Use your email list, your website visitors, or your Instagram engagers as the seed for your lookalike audiences and test them against interest-based targeting to see which converts better for your specific restaurant.
-
-**Practical starting setup:** If you're new to remarketing, start simple. Install the Facebook Pixel on your website. Wait 2–4 weeks for it to accumulate data (you need at least a few hundred website visitors for the audience to be viable). Then create one remarketing campaign aimed at website visitors from the last 30 days, with your best current offer or event as the hook. Measure the cost per result against your cold-audience campaigns. In most cases, remarketing will convert at 2–4x the rate of cold traffic at a fraction of the cost per click — and that data will make a compelling case for investing more in your audience-building over time.
+For restaurants with a local audience, even a small remarketing budget of $5 to $15 per day can meaningfully move the needle. The cost-per-reservation from a warm remarketing audience is almost always lower than from a cold audience, because you're spending less effort on the first introduction and more on a gentle, well-timed reminder to someone who was already halfway there.
