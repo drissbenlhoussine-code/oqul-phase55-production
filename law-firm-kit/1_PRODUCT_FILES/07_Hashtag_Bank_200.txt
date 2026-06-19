@@ -1,0 +1,16 @@
+# Law Firm Hashtag Bank
+
+## PRIMARY
+#LawFirm #Attorney #Lawyer #LegalAdvice #LawLife #LegalHelp #LegalServices #AttorneyAtLaw #LegalCounsel #LawOffice
+
+## PRACTICE AREAS
+#FamilyLaw #EstatePlanning #PersonalInjury #CriminalDefense #BusinessLaw #ImmigrationLaw #RealEstateLaw #EmploymentLaw #BankruptcyLaw #IntellectualProperty
+
+## EDUCATION
+#KnowYourRights #LegalTips #LegalEducation #LegalAwareness #LegalLiteracy #YourRights #LegalFacts #LawExplained
+
+## TRUST
+#ExperiencedAttorney #TrustedLawyer #ClientFirst #LegalExcellence #5StarAttorney #ClientAdvocate
+
+## LOCAL (customize)
+#[City]Lawyer #[City]Attorney #[City]LawFirm #[State]Law #[City]LegalServices #LocalAttorney #[City]LegalHelp

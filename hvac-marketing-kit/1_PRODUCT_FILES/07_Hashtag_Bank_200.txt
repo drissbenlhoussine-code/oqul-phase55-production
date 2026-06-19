@@ -1,0 +1,19 @@
+# HVAC Hashtag Bank — 200 Tags
+
+## PRIMARY
+#HVAC #HVACTech #HVACLife #HVACContractor #AirConditioning #ACRepair #HeatingAndCooling #HVACService #HVACCompany #Furnace
+
+## SERVICES
+#ACTuneUp #FurnaceRepair #HeatPump #AirDuctCleaning #IndoorAirQuality #ACInstallation #HeatingRepair #CentralAir #MiniSplit #SmartThermostat
+
+## SEASONAL
+#SummerAC #ACSeasonReady #WinterHeating #FallHVAC #SpringTuneUp #HeatWave #StayC00l #Heatingseason
+
+## TRUST
+#LicensedHVAC #CertifiedTechnician #HVACPros #5StarHVAC #HonestHVAC #LocalHVAC
+
+## LOCATION (customize)
+#[City]HVAC #[City]AirConditioning #[State]HVAC #[City]Heating #LocalContractor
+
+## HOMEOWNER
+#HomeComfort #HomeOwner #HomeMaintenence #EnergyEfficiency #LowerEnergyBills #SmartHome #HomeImprovement
