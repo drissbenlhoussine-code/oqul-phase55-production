@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Agency Dashboard — Notion Template</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#191919;color:#e8e8e8;min-height:100vh}
+.sidebar{position:fixed;left:0;top:0;width:230px;height:100vh;background:#1f1f1f;padding:16px 0;border-right:1px solid #2d2d2d;overflow-y:auto;z-index:100}
+.sb-logo{padding:12px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #2d2d2d;margin-bottom:8px}
+.sb-icon{background:#0F3460;color:#fff;border-radius:8px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:14px}
+.sb-name{font-size:14px;font-weight:700;color:#e8e8e8}
+.sb-sub{font-size:11px;color:#666}
+.nav-sec{padding:4px 8px;font-size:10px;color:#555;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:14px 0 4px}
+.nav-item{padding:7px 14px;font-size:13px;color:#888;cursor:pointer;border-radius:4px;margin:1px 8px;display:flex;align-items:center;gap:9px}
+.nav-item:hover,.nav-item.active{background:#2d2d2d;color:#e8e8e8}
+.nav-badge{margin-left:auto;background:#E74C3C;color:#fff;border-radius:20px;padding:1px 7px;font-size:10px;font-weight:700}
+.main{margin-left:230px;padding:36px 52px;max-width:1200px}
+.page-title{font-size:30px;font-weight:700;color:#fff;margin-bottom:4px}
+.page-date{font-size:13px;color:#555;margin-bottom:28px}
+.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:28px}
+.kpi{background:#242424;border:1px solid #2d2d2d;border-radius:10px;padding:18px 16px}
+.kpi-val{font-size:26px;font-weight:700;color:#fff;line-height:1}
+.kpi-label{font-size:11px;color:#555;text-transform:uppercase;letter-spacing:.07em;margin-top:6px}
+.kpi-change{font-size:11px;margin-top:4px}
+.up{color:#27AE60}.down{color:#E74C3C}.neu{color:#666}
+.section-hdr{font-size:13px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.1em;margin:28px 0 14px;padding-bottom:8px;border-bottom:1px solid #2d2d2d;display:flex;align-items:center;justify-content:space-between}
+.section-hdr a{font-size:11px;color:#0F3460;font-weight:600;cursor:pointer;text-transform:none;letter-spacing:0}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.panel{background:#242424;border:1px solid #2d2d2d;border-radius:8px;overflow:hidden}
+.panel-hdr{padding:14px 18px;border-bottom:1px solid #2d2d2d;font-size:13px;font-weight:700;color:#e8e8e8;display:flex;align-items:center;justify-content:space-between}
+.panel-body{padding:4px 0}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{padding:8px 14px;text-align:left;font-size:10px;color:#555;font-weight:700;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid #2d2d2d}
+td{padding:10px 14px;border-bottom:1px solid #252525;vertical-align:middle}
+tr:hover td{background:#282828}
+.badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:10px;font-weight:700}
+.b-active{background:#0e2d1a;color:#27AE60}
+.b-risk{background:#2d1a0e;color:#E67E22}
+.b-pipeline{background:#0e1a2d;color:#2980B9}
+.b-due{background:#2d0e0e;color:#E74C3C}
+.b-done{background:#0e2d1a;color:#27AE60}
+.b-prog{background:#1a1a2d;color:#8E44AD}
+.avatar{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff}
+.client-row{display:flex;align-items:center;gap:8px}
+.health-bar{display:flex;align-items:center;gap:6px}
+.hb{width:50px;height:4px;background:#2d2d2d;border-radius:2px}
+.hf{height:4px;border-radius:2px}
+.todo-item{display:flex;align-items:flex-start;gap:12px;padding:12px 18px;border-bottom:1px solid #252525}
+.todo-check{width:16px;height:16px;border:1.5px solid #3d3d3d;border-radius:3px;flex-shrink:0;margin-top:1px}
+.todo-check.done{background:#27AE60;border-color:#27AE60;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px}
+.todo-text{font-size:12px;color:#aaa;line-height:1.4}
+.todo-text.done-text{text-decoration:line-through;color:#555}
+.todo-tag{font-size:10px;color:#555;margin-top:3px}
+.rev-bar{display:flex;align-items:center;gap:10px;padding:12px 18px;border-bottom:1px solid #252525}
+.rev-label{font-size:12px;color:#888;width:140px;flex-shrink:0}
+.rev-track{flex:1;height:6px;background:#2d2d2d;border-radius:3px}
+.rev-fill{height:6px;border-radius:3px;background:#0F3460}
+.rev-val{font-size:12px;color:#e8e8e8;font-weight:600;width:60px;text-align:right;flex-shrink:0}
+.notif{display:flex;gap:12px;padding:12px 18px;border-bottom:1px solid #252525;align-items:flex-start}
+.notif-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.notif-text{font-size:12px;color:#aaa;line-height:1.4}
+.notif-time{font-size:10px;color:#555;margin-top:2px}
+.setup-box{background:#1a2a1a;border:1px solid #27AE60;border-radius:8px;padding:20px;margin:28px 0;font-size:13px}
+.setup-title{font-size:14px;font-weight:700;color:#27AE60;margin-bottom:12px}
+.setup-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px}
+.setup-item{display:flex;gap:8px;align-items:flex-start}
+.setup-num{width:20px;height:20px;background:#27AE60;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;margin-top:1px}
+.setup-text{font-size:12px;color:#aaa;line-height:1.5}
+.setup-text strong{color:#e8e8e8}
+</style>
+</head>
+<body>
+<div class="sidebar">
+  <div class="sb-logo">
+    <div class="sb-icon">🏢</div>
+    <div><div class="sb-name">Agency OS</div><div class="sb-sub">Your Agency Name</div></div>
+  </div>
+  <div class="nav-sec">Overview</div>
+  <div class="nav-item active">📊 Agency Dashboard</div>
+  <div class="nav-item">💰 Revenue Tracker</div>
+  <div class="nav-item">📈 Growth Board</div>
+  <div class="nav-sec">Clients</div>
+  <div class="nav-item">👥 All Clients</div>
+  <div class="nav-item">⚠️ At-Risk <span class="nav-badge">1</span></div>
+  <div class="nav-item">🎯 Pipeline</div>
+  <div class="nav-item">📋 Onboarding</div>
+  <div class="nav-sec">Operations</div>
+  <div class="nav-item">✅ Task Manager</div>
+  <div class="nav-item">📅 Content Hub</div>
+  <div class="nav-item">📨 Reports Due <span class="nav-badge">3</span></div>
+  <div class="nav-item">🤝 Team</div>
+  <div class="nav-sec">Finance</div>
+  <div class="nav-item">🧾 Invoices</div>
+  <div class="nav-item">📊 P&L Tracker</div>
+  <div class="nav-sec">Growth</div>
+  <div class="nav-item">🚀 Lead Pipeline</div>
+  <div class="nav-item">🎯 My Marketing</div>
+</div>
+
+<div class="main">
+  <div class="page-title">Agency Dashboard</div>
+  <div class="page-date">Week of January 20, 2025 · Good morning — here's your agency at a glance</div>
+
+  <div class="kpi-grid">
+    <div class="kpi"><div class="kpi-val" style="color:#27AE60">€14,200</div><div class="kpi-label">Monthly Revenue</div><div class="kpi-change up">▲ +€1,200 vs Dec</div></div>
+    <div class="kpi"><div class="kpi-val">7</div><div class="kpi-label">Active Clients</div><div class="kpi-change up">▲ +1 this month</div></div>
+    <div class="kpi"><div class="kpi-val" style="color:#E67E22">1</div><div class="kpi-label">At-Risk Clients</div><div class="kpi-change neu">Review today</div></div>
+    <div class="kpi"><div class="kpi-val">4</div><div class="kpi-label">Pipeline Leads</div><div class="kpi-change up">▲ €8,500 value</div></div>
+    <div class="kpi"><div class="kpi-val" style="color:#27AE60">3</div><div class="kpi-label">Reports Due</div><div class="kpi-change down">↓ By Jan 28</div></div>
+  </div>
+
+  <div class="setup-box">
+    <div class="setup-title">⚡ Agency Dashboard — Notion Setup Guide</div>
+    <div class="setup-col">
+      <div class="setup-item"><div class="setup-num">1</div><div class="setup-text"><strong>Create main Agency page</strong> → Add all sub-pages from the sidebar as linked databases</div></div>
+      <div class="setup-item"><div class="setup-num">2</div><div class="setup-text"><strong>Link your CRM database</strong> → Use "Linked database" view → Filter by Status for each view</div></div>
+      <div class="setup-item"><div class="setup-num">3</div><div class="setup-text"><strong>Set up Revenue Tracker</strong> → New database with Month, Client, Amount, Paid? columns</div></div>
+      <div class="setup-item"><div class="setup-num">4</div><div class="setup-text"><strong>Create Task Manager</strong> → Link to client database → Filter by due date for weekly view</div></div>
+      <div class="setup-item"><div class="setup-num">5</div><div class="setup-text"><strong>Add KPI summary</strong> → Use Notion's linked database rollup properties for auto-calculated totals</div></div>
+      <div class="setup-item"><div class="setup-num">6</div><div class="setup-text"><strong>Weekly review ritual</strong> → Open this page every Monday morning → Update health scores → Clear tasks</div></div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <!-- CLIENT HEALTH -->
+    <div>
+      <div class="section-hdr">Client Health Monitor <a>View All →</a></div>
+      <div class="panel">
+        <div class="panel-hdr"><span>All Active Clients</span><span style="font-size:11px;color:#555">Score / 100</span></div>
+        <div class="panel-body">
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#0F3460">GL</div> Green Leaf Bakery</div></div><div class="rev-track"><div class="rev-fill" style="width:88%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">88</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#8E44AD">FZ</div> FitZone Studio</div></div><div class="rev-track"><div class="rev-fill" style="width:92%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">92</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#27AE60">TS</div> TechStart Agency</div></div><div class="rev-track"><div class="rev-fill" style="width:75%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">75</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#E74C3C">BB</div> Bella Beauty Spa</div></div><div class="rev-track"><div class="rev-fill" style="width:48%;background:#E74C3C"></div></div><div class="rev-val" style="color:#E74C3C">48 ⚠</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#E67E22">UE</div> Urban Eats</div></div><div class="rev-track"><div class="rev-fill" style="width:83%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">83</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#2980B9">NC</div> NextGen Coach</div></div><div class="rev-track"><div class="rev-fill" style="width:96%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">96</div></div>
+          <div class="rev-bar"><div class="rev-label"><div class="client-row"><div class="avatar" style="background:#1A5276">PG</div> PureGlow Skin</div></div><div class="rev-track"><div class="rev-fill" style="width:79%;background:#27AE60"></div></div><div class="rev-val" style="color:#27AE60">79</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REVENUE BY CLIENT -->
+    <div>
+      <div class="section-hdr">Revenue Breakdown <a>Full Report →</a></div>
+      <div class="panel">
+        <div class="panel-hdr"><span>Jan 2025 — €14,200 total</span></div>
+        <div class="panel-body">
+          <div class="rev-bar"><div class="rev-label">FitZone Studio</div><div class="rev-track"><div class="rev-fill" style="width:100%"></div></div><div class="rev-val">€3,200</div></div>
+          <div class="rev-bar"><div class="rev-label">TechStart Agency</div><div class="rev-track"><div class="rev-fill" style="width:78%"></div></div><div class="rev-val">€2,500</div></div>
+          <div class="rev-bar"><div class="rev-label">NextGen Coach</div><div class="rev-track"><div class="rev-fill" style="width:63%"></div></div><div class="rev-val">€2,000</div></div>
+          <div class="rev-bar"><div class="rev-label">Green Leaf Bakery</div><div class="rev-track"><div class="rev-fill" style="width:56%"></div></div><div class="rev-val">€1,800</div></div>
+          <div class="rev-bar"><div class="rev-label">Urban Eats</div><div class="rev-track"><div class="rev-fill" style="width:56%"></div></div><div class="rev-val">€1,800</div></div>
+          <div class="rev-bar"><div class="rev-label">PureGlow Skincare</div><div class="rev-track"><div class="rev-fill" style="width:38%"></div></div><div class="rev-val">€1,200</div></div>
+          <div class="rev-bar"><div class="rev-label">Bella Beauty Spa</div><div class="rev-track"><div class="rev-fill" style="width:25%"></div></div><div class="rev-val">€800</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top:20px">
+    <!-- THIS WEEK'S TASKS -->
+    <div>
+      <div class="section-hdr">This Week's Tasks <a>Task Manager →</a></div>
+      <div class="panel">
+        <div class="panel-body">
+          <div class="todo-item"><div class="todo-check done">✓</div><div><div class="todo-text done-text">Send January content calendar to FitZone</div><div class="todo-tag">FitZone · Completed</div></div></div>
+          <div class="todo-item"><div class="todo-check done">✓</div><div><div class="todo-text done-text">Monthly report — Green Leaf Bakery</div><div class="todo-tag">Green Leaf · Completed</div></div></div>
+          <div class="todo-item"><div class="todo-check"></div><div><div class="todo-text">⚠️ Retention call with Bella Beauty Spa</div><div class="todo-tag" style="color:#E67E22">At-Risk · Due today</div></div></div>
+          <div class="todo-item"><div class="todo-check"></div><div><div class="todo-text">Submit content batch for February (TechStart)</div><div class="todo-tag">TechStart · Due Jan 22</div></div></div>
+          <div class="todo-item"><div class="todo-check"></div><div><div class="todo-text">Monthly report — Urban Eats + NextGen Coach</div><div class="todo-tag">2 reports · Due Jan 28</div></div></div>
+          <div class="todo-item"><div class="todo-check"></div><div><div class="todo-text">Follow up with Summit Real Estate (proposal)</div><div class="todo-tag">Pipeline · Due Jan 22</div></div></div>
+          <div class="todo-item"><div class="todo-check"></div><div><div class="todo-text">Send invoice to all clients (Feb retainer)</div><div class="todo-tag">Finance · Due Jan 31</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTIFICATIONS -->
+    <div>
+      <div class="section-hdr">Notifications & Alerts <a>Mark all read</a></div>
+      <div class="panel">
+        <div class="panel-body">
+          <div class="notif"><div class="notif-dot" style="background:#E74C3C"></div><div><div class="notif-text">⚠️ <strong>Bella Beauty Spa</strong> health score dropped to 48. Retention action required.</div><div class="notif-time">Today · High Priority</div></div></div>
+          <div class="notif"><div class="notif-dot" style="background:#E67E22"></div><div><div class="notif-text">📋 <strong>3 monthly reports</strong> due by January 28. TechStart, Urban Eats, NextGen Coach.</div><div class="notif-time">Today</div></div></div>
+          <div class="notif"><div class="notif-dot" style="background:#27AE60"></div><div><div class="notif-text">🎉 <strong>FitZone Studio</strong> Reel hit 41K views — screenshot for case study.</div><div class="notif-time">Jan 19</div></div></div>
+          <div class="notif"><div class="notif-dot" style="background:#2980B9"></div><div><div class="notif-text">📅 <strong>NextGen Coach</strong> contract renewal in 30 days. Prepare renewal proposal.</div><div class="notif-time">Jan 18</div></div></div>
+          <div class="notif"><div class="notif-dot" style="background:#27AE60"></div><div><div class="notif-text">✅ <strong>Summit Real Estate</strong> booked a discovery call for Jan 25.</div><div class="notif-time">Jan 17</div></div></div>
+          <div class="notif"><div class="notif-dot" style="background:#8E44AD"></div><div><div class="notif-text">💰 <strong>PureGlow Skincare</strong> invoice paid — €1,200 received.</div><div class="notif-time">Jan 15</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- UPCOMING REPORTS DUE -->
+  <div class="section-hdr" style="margin-top:28px">Reports Due This Month</div>
+  <div class="panel">
+    <table>
+      <tr><th>Client</th><th>Report Month</th><th>Due Date</th><th>Status</th><th>Sent?</th></tr>
+      <tr><td>Green Leaf Bakery</td><td>January 2025</td><td>Jan 28</td><td><span class="badge b-done">✓ Complete</span></td><td>✓ Jan 27</td></tr>
+      <tr><td>FitZone Studio</td><td>January 2025</td><td>Jan 28</td><td><span class="badge b-prog">In Progress</span></td><td>—</td></tr>
+      <tr><td>TechStart Agency</td><td>January 2025</td><td>Jan 28</td><td><span class="badge b-prog">In Progress</span></td><td>—</td></tr>
+      <tr><td>Bella Beauty Spa</td><td>January 2025</td><td>Jan 28</td><td><span class="badge" style="background:#2d0e0e;color:#E74C3C">Not Started</span></td><td>—</td></tr>
+      <tr><td>Urban Eats</td><td>January 2025</td><td>Jan 28</td><td><span class="badge b-prog">In Progress</span></td><td>—</td></tr>
+      <tr><td>NextGen Coach</td><td>January 2025</td><td>Jan 28</td><td><span class="badge" style="background:#2d0e0e;color:#E74C3C">Not Started</span></td><td>—</td></tr>
+      <tr><td>PureGlow Skincare</td><td>January 2025</td><td>Jan 28</td><td><span class="badge b-done">✓ Complete</span></td><td>✓ Jan 25</td></tr>
+    </table>
+  </div>
+
+  <div style="margin-top:40px;padding:20px;background:#1f1f1f;border-radius:8px;border:1px solid #2d2d2d;font-size:12px;color:#555;text-align:center">
+    SMM Agency OS — Agency Dashboard Template · © All rights reserved · For buyer use only, not for resale
+  </div>
+</div>
+</body>
+</html>

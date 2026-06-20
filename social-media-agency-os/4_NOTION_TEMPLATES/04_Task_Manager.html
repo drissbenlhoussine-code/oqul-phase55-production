@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMM Agency Task Manager — Notion Template</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #191919; color: #e0e0e0; display: flex; min-height: 100vh; }
+
+  /* SIDEBAR */
+  .sidebar { width: 240px; background: #1f1f1f; padding: 12px 0; display: flex; flex-direction: column; border-right: 1px solid #2d2d2d; flex-shrink: 0; }
+  .sidebar-header { padding: 8px 16px 16px; border-bottom: 1px solid #2d2d2d; margin-bottom: 8px; }
+  .workspace-name { font-size: 14px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; }
+  .ws-icon { background: #5865F2; width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 12px; }
+  .sidebar-section { padding: 4px 8px; margin-bottom: 4px; }
+  .sidebar-label { font-size: 11px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 8px; margin-bottom: 2px; }
+  .sidebar-item { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 4px; font-size: 13px; color: #aaa; cursor: pointer; transition: background 0.15s; text-decoration: none; }
+  .sidebar-item:hover, .sidebar-item.active { background: #2d2d2d; color: #e0e0e0; }
+  .sidebar-item .icon { width: 18px; text-align: center; font-size: 14px; }
+  .sidebar-item .badge { margin-left: auto; background: #e74c3c; color: #fff; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 10px; }
+  .sidebar-item .badge-yellow { background: #f39c12; }
+  .sidebar-item .badge-blue { background: #3498db; }
+
+  /* MAIN */
+  .main { flex: 1; overflow-y: auto; }
+  .page-header { padding: 40px 48px 0; }
+  .page-emoji { font-size: 48px; margin-bottom: 12px; }
+  .page-title { font-size: 36px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+  .page-subtitle { font-size: 14px; color: #666; }
+  .page-content { padding: 24px 48px 60px; }
+
+  /* BANNER */
+  .setup-banner { background: #1a2744; border: 1px solid #2980b9; border-radius: 8px; padding: 16px 20px; margin-bottom: 28px; display: flex; align-items: flex-start; gap: 12px; }
+  .setup-banner .icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+  .setup-banner h3 { font-size: 13px; font-weight: 700; color: #5dade2; margin-bottom: 6px; }
+  .setup-banner p { font-size: 12px; color: #aaa; line-height: 1.6; }
+  .setup-banner strong { color: #e0e0e0; }
+
+  /* SECTION TITLE */
+  .section-title { font-size: 12px; font-weight: 700; color: #666; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; margin-top: 32px; display: flex; align-items: center; gap: 8px; }
+  .section-title::after { content: ''; flex: 1; height: 1px; background: #2d2d2d; }
+
+  /* STATS ROW */
+  .stats-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 8px; }
+  .stat-box { background: #242424; border: 1px solid #2d2d2d; border-radius: 8px; padding: 16px; text-align: center; }
+  .stat-box .stat-num { font-size: 28px; font-weight: 800; margin-bottom: 4px; }
+  .stat-box .stat-label { font-size: 11px; color: #666; font-weight: 500; }
+  .stat-box.purple .stat-num { color: #9b59b6; }
+  .stat-box.red .stat-num { color: #e74c3c; }
+  .stat-box.orange .stat-num { color: #f39c12; }
+  .stat-box.green .stat-num { color: #27ae60; }
+  .stat-box.blue .stat-num { color: #3498db; }
+
+  /* KANBAN */
+  .kanban-board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 8px; }
+  .kanban-col { background: #1f1f1f; border: 1px solid #2d2d2d; border-radius: 10px; overflow: hidden; }
+  .kanban-header { padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #2d2d2d; }
+  .kanban-title { font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .kanban-count { font-size: 11px; background: #2d2d2d; color: #888; padding: 2px 7px; border-radius: 10px; font-weight: 600; }
+  .kanban-col.col-inbox .kanban-header { border-top: 3px solid #666; }
+  .kanban-col.col-progress .kanban-header { border-top: 3px solid #3498db; }
+  .kanban-col.col-review .kanban-header { border-top: 3px solid #f39c12; }
+  .kanban-col.col-done .kanban-header { border-top: 3px solid #27ae60; }
+  .kanban-body { padding: 12px; display: flex; flex-direction: column; gap: 8px; min-height: 200px; }
+  .task-card { background: #2a2a2a; border: 1px solid #333; border-radius: 8px; padding: 12px; cursor: pointer; transition: border-color 0.15s; }
+  .task-card:hover { border-color: #555; }
+  .task-card .task-title { font-size: 13px; font-weight: 600; color: #e0e0e0; margin-bottom: 8px; line-height: 1.4; }
+  .task-card .task-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .task-tag { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 4px; }
+  .tag-content { background: #1a2744; color: #5dade2; }
+  .tag-client { background: #1a3a2a; color: #58d68d; }
+  .tag-admin { background: #2a1a1a; color: #e74c3c; }
+  .tag-reporting { background: #2a2a1a; color: #f39c12; }
+  .tag-sales { background: #2a1a3a; color: #bb8fce; }
+  .task-due { font-size: 10px; color: #888; margin-left: auto; display: flex; align-items: center; gap: 3px; }
+  .task-due.overdue { color: #e74c3c; }
+  .task-due.today { color: #f39c12; }
+  .task-priority { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .prio-high { background: #e74c3c; }
+  .prio-med { background: #f39c12; }
+  .prio-low { background: #27ae60; }
+  .task-assignee { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; }
+  .add-task { display: flex; align-items: center; gap: 6px; padding: 8px; border-radius: 6px; font-size: 12px; color: #555; cursor: pointer; border: 1px dashed #333; transition: all 0.15s; justify-content: center; margin-top: 4px; }
+  .add-task:hover { color: #aaa; border-color: #555; background: #252525; }
+
+  /* SPRINT / TABLE */
+  .table-wrap { background: #1f1f1f; border: 1px solid #2d2d2d; border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
+  .table-toolbar { padding: 12px 16px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid #2d2d2d; background: #1a1a1a; }
+  .tb-btn { font-size: 12px; background: #2d2d2d; color: #aaa; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; display: flex; align-items: center; gap: 4px; }
+  .tb-btn.active { background: #5865F2; color: #fff; }
+  .tb-title { font-size: 13px; font-weight: 700; color: #e0e0e0; }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { background: #1a1a1a; }
+  thead th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.07em; border-bottom: 1px solid #2d2d2d; white-space: nowrap; }
+  tbody tr { border-bottom: 1px solid #242424; transition: background 0.1s; }
+  tbody tr:hover { background: #252525; }
+  tbody tr:last-child { border-bottom: none; }
+  tbody td { padding: 10px 14px; font-size: 13px; }
+  .task-name-cell { font-weight: 600; color: #e0e0e0; display: flex; align-items: center; gap: 8px; }
+  .check-circle { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #444; flex-shrink: 0; }
+  .check-circle.done { background: #27ae60; border-color: #27ae60; display: flex; align-items: center; justify-content: center; }
+  .check-circle.done::after { content: '✓'; color: #fff; font-size: 9px; font-weight: 800; }
+  .status-pill { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; white-space: nowrap; }
+  .s-todo { background: #2a2a2a; color: #888; }
+  .s-progress { background: #1a2744; color: #5dade2; }
+  .s-review { background: #2a2215; color: #f39c12; }
+  .s-done { background: #1a3a1a; color: #58d68d; }
+  .s-blocked { background: #2a1a1a; color: #e74c3c; }
+  .priority-pill { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 3px; display: inline-block; }
+  .p-high { background: #2a1a1a; color: #e74c3c; }
+  .p-med { background: #2a2215; color: #f39c12; }
+  .p-low { background: #1a2a1a; color: #27ae60; }
+  .avatar-sm { width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; }
+  .av-blue { background: #1a3a5a; color: #5dade2; }
+  .av-purple { background: #2a1a3a; color: #bb8fce; }
+  .av-green { background: #1a3a1a; color: #58d68d; }
+  .av-orange { background: #3a2215; color: #f39c12; }
+  .date-cell { font-size: 12px; color: #888; white-space: nowrap; }
+  .date-cell.late { color: #e74c3c; }
+  .date-cell.today-date { color: #f39c12; font-weight: 600; }
+
+  /* RECURRING */
+  .recurring-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .recurring-card { background: #1f1f1f; border: 1px solid #2d2d2d; border-radius: 10px; padding: 16px; }
+  .rec-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .rec-title { font-size: 13px; font-weight: 700; color: #e0e0e0; display: flex; align-items: center; gap: 8px; }
+  .rec-freq { font-size: 10px; background: #2d2d2d; color: #888; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+  .rec-task { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid #242424; font-size: 12px; color: #aaa; }
+  .rec-task:last-child { border-bottom: none; }
+  .rec-check { width: 14px; height: 14px; border-radius: 3px; border: 1.5px solid #444; flex-shrink: 0; }
+  .rec-check.done-check { background: #27ae60; border-color: #27ae60; display: flex; align-items: center; justify-content: center; }
+  .rec-check.done-check::after { content: '✓'; color: #fff; font-size: 8px; font-weight: 800; }
+  .rec-task .task-text { color: #e0e0e0; }
+
+  /* SETUP GUIDE */
+  .setup-card { background: #1f1f1f; border: 1px solid #2d2d2d; border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
+  .setup-card-header { padding: 14px 20px; background: #1a1a1a; border-bottom: 1px solid #2d2d2d; font-size: 14px; font-weight: 700; color: #e0e0e0; }
+  .setup-steps { padding: 0; }
+  .setup-step { display: flex; align-items: flex-start; gap: 14px; padding: 16px 20px; border-bottom: 1px solid #242424; }
+  .setup-step:last-child { border-bottom: none; }
+  .step-num { width: 28px; height: 28px; border-radius: 50%; background: #5865F2; color: #fff; font-size: 12px; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .step-content h4 { font-size: 13px; font-weight: 700; color: #e0e0e0; margin-bottom: 4px; }
+  .step-content p { font-size: 12px; color: #888; line-height: 1.6; }
+  .step-content code { background: #2d2d2d; color: #f39c12; padding: 1px 6px; border-radius: 3px; font-size: 11px; font-family: monospace; }
+
+  /* PROPERTY TABLE */
+  .prop-table { width: 100%; border-collapse: collapse; }
+  .prop-table th { padding: 9px 14px; text-align: left; font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; letter-spacing: 0.07em; background: #1a1a1a; border-bottom: 1px solid #2d2d2d; }
+  .prop-table td { padding: 9px 14px; font-size: 12px; color: #aaa; border-bottom: 1px solid #242424; }
+  .prop-table tr:last-child td { border-bottom: none; }
+  .prop-table td:first-child { color: #e0e0e0; font-weight: 600; }
+  .prop-icon { font-size: 14px; margin-right: 6px; }
+  .prop-type { background: #2d2d2d; color: #888; font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
+
+  /* SPRINT PLANNING */
+  .sprint-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .sprint-info { display: flex; align-items: center; gap: 12px; }
+  .sprint-badge { background: #5865F2; color: #fff; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 5px; }
+  .sprint-dates { font-size: 12px; color: #666; }
+  .sprint-progress-bar { height: 8px; background: #2d2d2d; border-radius: 4px; overflow: hidden; margin-bottom: 6px; }
+  .sprint-fill { height: 100%; background: linear-gradient(90deg, #5865F2, #9b59b6); border-radius: 4px; width: 68%; }
+  .sprint-pct { font-size: 11px; color: #888; text-align: right; }
+
+  /* FOOTER */
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #2d2d2d; text-align: center; }
+  .footer p { font-size: 12px; color: #444; }
+  .footer strong { color: #666; }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="workspace-name">
+      <div class="ws-icon">🚀</div>
+      SMM Agency OS
+    </div>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Main</div>
+    <a class="sidebar-item" href="#">⚡ Agency Dashboard</a>
+    <a class="sidebar-item" href="#">👥 CRM Database</a>
+    <a class="sidebar-item active" href="#">✅ Task Manager</a>
+    <a class="sidebar-item" href="#">🗓 Content Calendar</a>
+    <a class="sidebar-item" href="#">📊 KPI Tracker</a>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Tasks</div>
+    <a class="sidebar-item" href="#">📥 Inbox <span class="badge">4</span></a>
+    <a class="sidebar-item" href="#">🔥 Today <span class="badge badge-yellow">3</span></a>
+    <a class="sidebar-item" href="#">📅 This Week <span class="badge badge-blue">11</span></a>
+    <a class="sidebar-item" href="#">🗃 All Tasks</a>
+    <a class="sidebar-item" href="#">✅ Completed</a>
+    <a class="sidebar-item" href="#">🔁 Recurring</a>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Views</div>
+    <a class="sidebar-item" href="#">📋 Kanban Board</a>
+    <a class="sidebar-item" href="#">📝 Sprint Table</a>
+    <a class="sidebar-item" href="#">📆 Timeline View</a>
+    <a class="sidebar-item" href="#">👤 By Assignee</a>
+    <a class="sidebar-item" href="#">🏷 By Category</a>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-label">Clients</div>
+    <a class="sidebar-item" href="#">🏢 StyleHive Studio</a>
+    <a class="sidebar-item" href="#">🛍 FreshMarket Co</a>
+    <a class="sidebar-item" href="#">🏋 FitLife Pro</a>
+    <a class="sidebar-item" href="#">🍽 TasteOfMediterranean</a>
+    <a class="sidebar-item" href="#">💄 LuxeBeauty</a>
+    <a class="sidebar-item" href="#">🏠 HomeDesign Studio</a>
+    <a class="sidebar-item" href="#">⚖ LegalEdge Partners</a>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+  <div class="page-header">
+    <div class="page-emoji">✅</div>
+    <div class="page-title">Task Manager</div>
+    <div class="page-subtitle">Manage agency tasks, sprints, and recurring work — all in one place.</div>
+  </div>
+
+  <div class="page-content">
+
+    <!-- SETUP BANNER -->
+    <div class="setup-banner">
+      <div class="icon">📋</div>
+      <div>
+        <h3>HOW TO USE THIS TEMPLATE IN NOTION</h3>
+        <p>This is a preview of your Notion Task Manager. To recreate in Notion: <strong>Create a new database</strong> called "Tasks" → add all properties below → create views: Kanban (group by Status), Table (Sprint View), Calendar (group by Due Date), and By Assignee (filter by person). Enable <strong>Recurring tasks</strong> via a separate "Recurring Checklist" database with a "Frequency" property. See the Setup Guide at the bottom of this page for step-by-step instructions.</p>
+      </div>
+    </div>
+
+    <!-- SPRINT STATUS -->
+    <div class="section-title">Current Sprint</div>
+    <div style="background:#1f1f1f; border:1px solid #2d2d2d; border-radius:10px; padding:16px 20px; margin-bottom:8px;">
+      <div class="sprint-header">
+        <div class="sprint-info">
+          <span class="sprint-badge">Sprint 12</span>
+          <span class="sprint-dates">📅 June 16 – June 30, 2026</span>
+        </div>
+        <span style="font-size:12px; color:#888;">7 days remaining</span>
+      </div>
+      <div class="sprint-progress-bar"><div class="sprint-fill"></div></div>
+      <div class="sprint-pct">68% complete — 17 of 25 tasks done</div>
+    </div>
+
+    <!-- STATS -->
+    <div class="section-title">This Week at a Glance</div>
+    <div class="stats-row">
+      <div class="stat-box purple">
+        <div class="stat-num">25</div>
+        <div class="stat-label">Total Tasks</div>
+      </div>
+      <div class="stat-box red">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Overdue</div>
+      </div>
+      <div class="stat-box orange">
+        <div class="stat-num">5</div>
+        <div class="stat-label">Due Today</div>
+      </div>
+      <div class="stat-box blue">
+        <div class="stat-num">11</div>
+        <div class="stat-label">In Progress</div>
+      </div>
+      <div class="stat-box green">
+        <div class="stat-num">17</div>
+        <div class="stat-label">Completed</div>
+      </div>
+    </div>
+
+    <!-- KANBAN BOARD -->
+    <div class="section-title">Kanban Board</div>
+    <div class="kanban-board">
+
+      <!-- INBOX -->
+      <div class="kanban-col col-inbox">
+        <div class="kanban-header">
+          <div class="kanban-title" style="color:#aaa;">⬜ Inbox <span class="kanban-count">4</span></div>
+        </div>
+        <div class="kanban-body">
+
+          <div class="task-card">
+            <div class="task-title">Prepare onboarding deck for new client TasteOf</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-client">Client</span>
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-due today">⚠ Today</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Research competitor content — LuxeBeauty Q3 brief</div>
+            <div class="task-meta">
+              <span class="task-priority prio-med"></span>
+              <span class="task-tag tag-content">Content</span>
+              <div class="task-due">Jun 24</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Follow up with HomeDesign re: contract renewal</div>
+            <div class="task-meta">
+              <span class="task-priority prio-med"></span>
+              <span class="task-tag tag-sales">Sales</span>
+              <div class="task-due">Jun 23</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Update agency bio + portfolio on website</div>
+            <div class="task-meta">
+              <span class="task-priority prio-low"></span>
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-due">Jun 28</div>
+            </div>
+          </div>
+
+          <div class="add-task">+ Add task</div>
+        </div>
+      </div>
+
+      <!-- IN PROGRESS -->
+      <div class="kanban-col col-progress">
+        <div class="kanban-header">
+          <div class="kanban-title" style="color:#5dade2;">🔵 In Progress <span class="kanban-count">5</span></div>
+        </div>
+        <div class="kanban-body">
+
+          <div class="task-card">
+            <div class="task-title">Write 20 Instagram captions — StyleHive June batch</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-content">Content</span>
+              <div class="task-assignee av-blue">YA</div>
+              <div class="task-due today">⚠ Today</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Design 12 Reels covers for FreshMarket</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-content">Content</span>
+              <div class="task-assignee av-purple">LK</div>
+              <div class="task-due today">⚠ Today</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Build June reporting template — all clients</div>
+            <div class="task-meta">
+              <span class="task-priority prio-med"></span>
+              <span class="task-tag tag-reporting">Reporting</span>
+              <div class="task-assignee av-green">MM</div>
+              <div class="task-due">Jun 25</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Schedule FitLife Pro content for July week 1</div>
+            <div class="task-meta">
+              <span class="task-priority prio-med"></span>
+              <span class="task-tag tag-content">Content</span>
+              <div class="task-assignee av-blue">YA</div>
+              <div class="task-due">Jun 24</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Respond to client feedback — LegalEdge portal</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-client">Client</span>
+              <div class="task-assignee av-orange">SR</div>
+              <div class="task-due overdue">⚠ Jun 18 (Late)</div>
+            </div>
+          </div>
+
+          <div class="add-task">+ Add task</div>
+        </div>
+      </div>
+
+      <!-- IN REVIEW -->
+      <div class="kanban-col col-review">
+        <div class="kanban-header">
+          <div class="kanban-title" style="color:#f39c12;">🟡 In Review <span class="kanban-count">3</span></div>
+        </div>
+        <div class="kanban-body">
+
+          <div class="task-card">
+            <div class="task-title">May performance report — StyleHive Studio</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-reporting">Reporting</span>
+              <div class="task-assignee av-green">MM</div>
+              <div class="task-due">Jun 21</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Q2 strategy deck — FreshMarket Co</div>
+            <div class="task-meta">
+              <span class="task-priority prio-med"></span>
+              <span class="task-tag tag-client">Client</span>
+              <div class="task-assignee av-purple">LK</div>
+              <div class="task-due">Jun 22</div>
+            </div>
+          </div>
+
+          <div class="task-card">
+            <div class="task-title">Contract revision — HomeDesign Studio v2</div>
+            <div class="task-meta">
+              <span class="task-priority prio-high"></span>
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-assignee av-orange">SR</div>
+              <div class="task-due overdue">⚠ Jun 17 (Late)</div>
+            </div>
+          </div>
+
+          <div class="add-task">+ Add task</div>
+        </div>
+      </div>
+
+      <!-- DONE -->
+      <div class="kanban-col col-done">
+        <div class="kanban-header">
+          <div class="kanban-title" style="color:#27ae60;">✅ Done <span class="kanban-count">6</span></div>
+        </div>
+        <div class="kanban-body">
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">Send welcome kit — TasteOfMediterranean</div>
+            <div class="task-meta">
+              <span class="task-tag tag-client">Client</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 18</div>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">Social audit — FitLife Pro Q2</div>
+            <div class="task-meta">
+              <span class="task-tag tag-reporting">Reporting</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 17</div>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">Invoice batch — June 2026</div>
+            <div class="task-meta">
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 16</div>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">LuxeBeauty June content calendar</div>
+            <div class="task-meta">
+              <span class="task-tag tag-content">Content</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 15</div>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">Hire + onboard new content writer</div>
+            <div class="task-meta">
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 14</div>
+            </div>
+          </div>
+
+          <div class="task-card" style="opacity:0.6;">
+            <div class="task-title" style="text-decoration: line-through; color:#666;">Agency SOP documentation v1</div>
+            <div class="task-meta">
+              <span class="task-tag tag-admin">Admin</span>
+              <div class="task-due" style="color:#27ae60;">✓ Jun 12</div>
+            </div>
+          </div>
+
+          <div class="add-task">+ Add task</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPRINT TABLE -->
+    <div class="section-title">Sprint Table View — All Active Tasks</div>
+    <div class="table-wrap">
+      <div class="table-toolbar">
+        <span class="tb-title">Sprint 12 — Active Tasks</span>
+        <button class="tb-btn active">All (25)</button>
+        <button class="tb-btn">🔴 Overdue (3)</button>
+        <button class="tb-btn">🔵 In Progress (11)</button>
+        <button class="tb-btn">🟡 Review (3)</button>
+        <button class="tb-btn">👤 My Tasks</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:36px;"></th>
+            <th>Task Name</th>
+            <th>Client</th>
+            <th>Category</th>
+            <th>Assignee</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Due Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Write 20 Instagram captions — StyleHive June batch</div></td>
+            <td style="font-size:12px; color:#aaa;">StyleHive Studio</td>
+            <td><span class="task-tag tag-content" style="font-size:10px;">Content</span></td>
+            <td><span class="avatar-sm av-blue">YA</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-progress">▶ In Progress</span></td>
+            <td><div class="date-cell today-date">Jun 20</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Design 12 Reels covers for FreshMarket</div></td>
+            <td style="font-size:12px; color:#aaa;">FreshMarket Co</td>
+            <td><span class="task-tag tag-content" style="font-size:10px;">Content</span></td>
+            <td><span class="avatar-sm av-purple">LK</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-progress">▶ In Progress</span></td>
+            <td><div class="date-cell today-date">Jun 20</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Respond to client feedback — LegalEdge portal</div></td>
+            <td style="font-size:12px; color:#aaa;">LegalEdge Partners</td>
+            <td><span class="task-tag tag-client" style="font-size:10px;">Client</span></td>
+            <td><span class="avatar-sm av-orange">SR</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-blocked">⛔ Blocked</span></td>
+            <td><div class="date-cell late">Jun 18 ⚠</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Contract revision — HomeDesign Studio v2</div></td>
+            <td style="font-size:12px; color:#aaa;">HomeDesign Studio</td>
+            <td><span class="task-tag tag-admin" style="font-size:10px;">Admin</span></td>
+            <td><span class="avatar-sm av-orange">SR</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-review">👁 In Review</span></td>
+            <td><div class="date-cell late">Jun 17 ⚠</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">May performance report — StyleHive Studio</div></td>
+            <td style="font-size:12px; color:#aaa;">StyleHive Studio</td>
+            <td><span class="task-tag tag-reporting" style="font-size:10px;">Reporting</span></td>
+            <td><span class="avatar-sm av-green">MM</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-review">👁 In Review</span></td>
+            <td><div class="date-cell">Jun 21</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Prepare onboarding deck for TasteOf</div></td>
+            <td style="font-size:12px; color:#aaa;">TasteOfMediterranean</td>
+            <td><span class="task-tag tag-client" style="font-size:10px;">Client</span></td>
+            <td><span class="avatar-sm av-blue">YA</span></td>
+            <td><span class="priority-pill p-high">🔴 High</span></td>
+            <td><span class="status-pill s-todo">⬜ Not Started</span></td>
+            <td><div class="date-cell today-date">Jun 20</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Build June reporting template — all clients</div></td>
+            <td style="font-size:12px; color:#aaa;">Internal</td>
+            <td><span class="task-tag tag-reporting" style="font-size:10px;">Reporting</span></td>
+            <td><span class="avatar-sm av-green">MM</span></td>
+            <td><span class="priority-pill p-med">🟡 Med</span></td>
+            <td><span class="status-pill s-progress">▶ In Progress</span></td>
+            <td><div class="date-cell">Jun 25</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Q2 strategy deck — FreshMarket Co</div></td>
+            <td style="font-size:12px; color:#aaa;">FreshMarket Co</td>
+            <td><span class="task-tag tag-client" style="font-size:10px;">Client</span></td>
+            <td><span class="avatar-sm av-purple">LK</span></td>
+            <td><span class="priority-pill p-med">🟡 Med</span></td>
+            <td><span class="status-pill s-review">👁 In Review</span></td>
+            <td><div class="date-cell">Jun 22</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Schedule FitLife Pro content — July week 1</div></td>
+            <td style="font-size:12px; color:#aaa;">FitLife Pro</td>
+            <td><span class="task-tag tag-content" style="font-size:10px;">Content</span></td>
+            <td><span class="avatar-sm av-blue">YA</span></td>
+            <td><span class="priority-pill p-med">🟡 Med</span></td>
+            <td><span class="status-pill s-progress">▶ In Progress</span></td>
+            <td><div class="date-cell">Jun 24</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Research competitors — LuxeBeauty Q3 brief</div></td>
+            <td style="font-size:12px; color:#aaa;">LuxeBeauty</td>
+            <td><span class="task-tag tag-content" style="font-size:10px;">Content</span></td>
+            <td><span class="avatar-sm av-purple">LK</span></td>
+            <td><span class="priority-pill p-med">🟡 Med</span></td>
+            <td><span class="status-pill s-todo">⬜ Not Started</span></td>
+            <td><div class="date-cell">Jun 24</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Follow up with HomeDesign re: renewal</div></td>
+            <td style="font-size:12px; color:#aaa;">HomeDesign Studio</td>
+            <td><span class="task-tag tag-sales" style="font-size:10px;">Sales</span></td>
+            <td><span class="avatar-sm av-orange">SR</span></td>
+            <td><span class="priority-pill p-med">🟡 Med</span></td>
+            <td><span class="status-pill s-todo">⬜ Not Started</span></td>
+            <td><div class="date-cell">Jun 23</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle"></div></td>
+            <td><div class="task-name-cell">Update agency portfolio on website</div></td>
+            <td style="font-size:12px; color:#aaa;">Internal</td>
+            <td><span class="task-tag tag-admin" style="font-size:10px;">Admin</span></td>
+            <td><span class="avatar-sm av-green">MM</span></td>
+            <td><span class="priority-pill p-low">🟢 Low</span></td>
+            <td><span class="status-pill s-todo">⬜ Not Started</span></td>
+            <td><div class="date-cell">Jun 28</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle done"></div></td>
+            <td><div class="task-name-cell" style="text-decoration: line-through; color:#555;">Send welcome kit — TasteOfMediterranean</div></td>
+            <td style="font-size:12px; color:#444;">TasteOf</td>
+            <td><span class="task-tag tag-client" style="font-size:10px; opacity:0.5;">Client</span></td>
+            <td><span class="avatar-sm av-blue" style="opacity:0.5;">YA</span></td>
+            <td><span class="priority-pill p-high" style="opacity:0.4;">🔴 High</span></td>
+            <td><span class="status-pill s-done">✅ Done</span></td>
+            <td><div class="date-cell" style="color:#27ae60;">✓ Jun 18</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle done"></div></td>
+            <td><div class="task-name-cell" style="text-decoration: line-through; color:#555;">Social audit — FitLife Pro Q2</div></td>
+            <td style="font-size:12px; color:#444;">FitLife Pro</td>
+            <td><span class="task-tag tag-reporting" style="font-size:10px; opacity:0.5;">Reporting</span></td>
+            <td><span class="avatar-sm av-green" style="opacity:0.5;">MM</span></td>
+            <td><span class="priority-pill p-med" style="opacity:0.4;">🟡 Med</span></td>
+            <td><span class="status-pill s-done">✅ Done</span></td>
+            <td><div class="date-cell" style="color:#27ae60;">✓ Jun 17</div></td>
+          </tr>
+          <tr>
+            <td><div class="check-circle done"></div></td>
+            <td><div class="task-name-cell" style="text-decoration: line-through; color:#555;">Invoice batch — June 2026</div></td>
+            <td style="font-size:12px; color:#444;">Internal</td>
+            <td><span class="task-tag tag-admin" style="font-size:10px; opacity:0.5;">Admin</span></td>
+            <td><span class="avatar-sm av-orange" style="opacity:0.5;">SR</span></td>
+            <td><span class="priority-pill p-high" style="opacity:0.4;">🔴 High</span></td>
+            <td><span class="status-pill s-done">✅ Done</span></td>
+            <td><div class="date-cell" style="color:#27ae60;">✓ Jun 16</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RECURRING TASKS -->
+    <div class="section-title">Recurring Checklists</div>
+    <div class="recurring-grid">
+
+      <div class="recurring-card">
+        <div class="rec-header">
+          <div class="rec-title">📅 Daily Tasks <span class="rec-freq">DAILY</span></div>
+        </div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Check DMs and comments (all platforms)</span></div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Engage with 5 posts per client account</span></div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Monitor scheduled posts went live</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Flag urgent client messages</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Update content calendar status</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Log time for billing (if applicable)</span></div>
+      </div>
+
+      <div class="recurring-card">
+        <div class="rec-header">
+          <div class="rec-title">📋 Weekly Tasks <span class="rec-freq">WEEKLY</span></div>
+        </div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Content batch & schedule for next 7 days</span></div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Review last week's performance metrics</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Send weekly pulse email to all clients</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Update lead pipeline CRM</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Team stand-up / sync call (30 min)</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Review + close completed tasks</span></div>
+      </div>
+
+      <div class="recurring-card">
+        <div class="rec-header">
+          <div class="rec-title">📊 Monthly Tasks <span class="rec-freq">MONTHLY</span></div>
+        </div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Send all client monthly performance reports</span></div>
+        <div class="rec-task"><div class="rec-check done-check"></div><span class="task-text">Issue all client invoices</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Run client health check — flag at-risk</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Review own agency social media metrics</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Update SOPs if anything changed</span></div>
+        <div class="rec-task"><div class="rec-check"></div><span>Profit & loss review (revenue - expenses)</span></div>
+      </div>
+
+    </div>
+
+    <!-- SETUP GUIDE -->
+    <div class="section-title">Setup Guide — Recreate in Notion</div>
+    <div class="setup-card">
+      <div class="setup-card-header">📐 How to Build This Task Manager in Notion (Step-by-Step)</div>
+      <div class="setup-steps">
+        <div class="setup-step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Create the Tasks Database</h4>
+            <p>In Notion, create a new <strong>Full-page database</strong> called <code>📋 Tasks</code>. Switch to Table view. This will be your master task list — every task for every client goes here.</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Add Required Properties</h4>
+            <p>Add these properties to your database: <code>Task Name</code> (Title) · <code>Client</code> (Relation → Clients DB) · <code>Category</code> (Select: Content / Client / Reporting / Admin / Sales) · <code>Assignee</code> (Person) · <code>Priority</code> (Select: 🔴 High / 🟡 Medium / 🟢 Low) · <code>Status</code> (Select: ⬜ Inbox / ▶ In Progress / 👁 In Review / ✅ Done / ⛔ Blocked) · <code>Due Date</code> (Date) · <code>Sprint</code> (Select: Sprint 1, Sprint 2…) · <code>Notes</code> (Text)</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Build the Kanban Board View</h4>
+            <p>Add a new <strong>Board view</strong> → Group by <code>Status</code>. You'll get 5 columns: Inbox / In Progress / In Review / Done / Blocked. This is your main working view — drag cards between columns to update status.</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>Create Filtered Table Views</h4>
+            <p>Add these filtered views: <code>Today</code> (Table, filter: Due Date = Today) · <code>This Week</code> (Table, filter: Due Date = Next 7 days) · <code>My Tasks</code> (Table, filter: Assignee = Me) · <code>By Client</code> (Table, group by Client) · <code>Overdue</code> (Table, filter: Due Date &lt; Today AND Status ≠ Done)</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <h4>Set Up Recurring Checklists</h4>
+            <p>Create a <strong>second database</strong> called <code>🔁 Recurring Checklists</code> with properties: <code>Task</code> (Title) · <code>Frequency</code> (Select: Daily / Weekly / Monthly) · <code>Done This Period</code> (Checkbox) · <code>Owner</code> (Person). Reset checkboxes at the start of each period. Alternatively, use the <strong>Notion Recurring Tasks</strong> template from the Notion template gallery.</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">6</div>
+          <div class="step-content">
+            <h4>Sprint Planning Setup</h4>
+            <p>Add a <strong>Sprint</strong> Select property (Sprint 1, Sprint 2…). Create a view filtered to the current sprint only. Each sprint = 2 weeks. At sprint start: assign tasks to sprint → at sprint end: review + roll over incomplete tasks to next sprint. Add a <code>Story Points</code> Number property to estimate task effort (1=easy, 3=medium, 5=hard).</p>
+          </div>
+        </div>
+        <div class="setup-step">
+          <div class="step-num">7</div>
+          <div class="step-content">
+            <h4>Connect to Other Databases</h4>
+            <p>Use <strong>Relation</strong> properties to link: Tasks → <code>CRM Database</code> (per client) and Tasks → <code>Content Calendar</code> (for content tasks). This lets you see all tasks for a client in their CRM profile, and all content creation tasks in the content calendar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROPERTY SCHEMA -->
+    <div class="section-title">Database Property Schema</div>
+    <div class="table-wrap">
+      <table class="prop-table">
+        <thead>
+          <tr>
+            <th>Property Name</th>
+            <th>Type</th>
+            <th>Options / Notes</th>
+            <th>Required</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="prop-icon">📝</span>Task Name</td>
+            <td><span class="prop-type">Title</span></td>
+            <td>Main task description — be specific</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🏢</span>Client</td>
+            <td><span class="prop-type">Relation</span></td>
+            <td>Links to CRM Database. Use "Internal" for agency tasks</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🏷</span>Category</td>
+            <td><span class="prop-type">Select</span></td>
+            <td>Content / Client / Reporting / Admin / Sales / Strategy</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">👤</span>Assignee</td>
+            <td><span class="prop-type">Person</span></td>
+            <td>Team member responsible. Tag yourself or team member</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🚨</span>Priority</td>
+            <td><span class="prop-type">Select</span></td>
+            <td>🔴 High / 🟡 Medium / 🟢 Low</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">📊</span>Status</td>
+            <td><span class="prop-type">Select</span></td>
+            <td>⬜ Inbox / ▶ In Progress / 👁 In Review / ✅ Done / ⛔ Blocked</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">📅</span>Due Date</td>
+            <td><span class="prop-type">Date</span></td>
+            <td>Enable date range for multi-day tasks. Used in Calendar view</td>
+            <td style="color:#27ae60; font-weight:700;">Yes</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🏃</span>Sprint</td>
+            <td><span class="prop-type">Select</span></td>
+            <td>Sprint 1, Sprint 2… (2-week intervals). Filter views by sprint</td>
+            <td style="color:#f39c12; font-weight:700;">Rec.</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">⏱</span>Story Points</td>
+            <td><span class="prop-type">Number</span></td>
+            <td>Effort estimate: 1 (quick, &lt;1hr) / 3 (medium, ~3hr) / 5 (complex, &gt;5hr)</td>
+            <td style="color:#f39c12; font-weight:700;">Rec.</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🕐</span>Created</td>
+            <td><span class="prop-type">Created time</span></td>
+            <td>Auto-filled. Used to track when tasks were added</td>
+            <td style="color:#888;">Auto</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">✅</span>Completed On</td>
+            <td><span class="prop-type">Date</span></td>
+            <td>Manually set when moving task to Done. Enables reporting</td>
+            <td style="color:#f39c12; font-weight:700;">Rec.</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">📎</span>Attachments</td>
+            <td><span class="prop-type">Files</span></td>
+            <td>Attach briefs, drafts, client feedback PDFs</td>
+            <td style="color:#888;">Optional</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">🔗</span>Related Content</td>
+            <td><span class="prop-type">Relation</span></td>
+            <td>Links to Content Calendar entry (for content tasks)</td>
+            <td style="color:#888;">Optional</td>
+          </tr>
+          <tr>
+            <td><span class="prop-icon">💬</span>Notes</td>
+            <td><span class="prop-type">Text</span></td>
+            <td>Extra context, blockers, or client instructions</td>
+            <td style="color:#888;">Optional</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      <p><strong>Ultimate Social Media Agency OS PRO</strong> — Task Manager Template v1.0</p>
+      <p style="margin-top:6px;">Part of a 62-file agency system: 52 SOPs + 5 Google Sheets + 4 Notion Templates · Replace all sample data with your own clients &amp; tasks</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

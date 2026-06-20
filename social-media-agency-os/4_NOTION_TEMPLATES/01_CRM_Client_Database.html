@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMM Agency CRM — Notion Template</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#191919;color:#e8e8e8;min-height:100vh}
+  .sidebar{position:fixed;left:0;top:0;width:240px;height:100vh;background:#1f1f1f;padding:16px 0;border-right:1px solid #2d2d2d;overflow-y:auto;z-index:100}
+  .sidebar-logo{padding:12px 16px;font-size:13px;font-weight:600;color:#e8e8e8;display:flex;align-items:center;gap:8px;border-bottom:1px solid #2d2d2d;margin-bottom:8px}
+  .sidebar-logo span{background:#0F3460;color:#fff;border-radius:6px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:13px}
+  .nav-section{padding:4px 8px;font-size:11px;color:#666;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin:12px 0 4px}
+  .nav-item{padding:6px 12px;font-size:13px;color:#aaa;cursor:pointer;border-radius:4px;margin:1px 8px;display:flex;align-items:center;gap:8px;transition:all .15s}
+  .nav-item:hover,.nav-item.active{background:#2d2d2d;color:#e8e8e8}
+  .nav-item.active{color:#fff}
+  .nav-emoji{width:18px;text-align:center;font-size:14px}
+  .main{margin-left:240px;padding:40px 60px;max-width:1200px}
+  .page-icon{font-size:48px;margin-bottom:8px}
+  .page-title{font-size:36px;font-weight:700;color:#fff;margin-bottom:4px}
+  .page-subtitle{font-size:14px;color:#666;margin-bottom:32px}
+  .properties-bar{display:flex;gap:32px;margin-bottom:32px;padding:20px;background:#242424;border-radius:8px;border:1px solid #2d2d2d;flex-wrap:wrap}
+  .prop{display:flex;flex-direction:column;gap:4px}
+  .prop-label{font-size:11px;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+  .prop-value{font-size:13px;color:#e8e8e8;font-weight:500}
+  .prop-badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:600}
+  .tabs{display:flex;gap:0;margin-bottom:0;border-bottom:1px solid #2d2d2d}
+  .tab{padding:8px 16px;font-size:13px;color:#666;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+  .tab.active{color:#e8e8e8;border-bottom-color:#e8e8e8}
+  .filters-bar{display:flex;gap:8px;padding:12px 0;align-items:center}
+  .filter-btn{padding:4px 12px;background:#2d2d2d;border:1px solid #3d3d3d;border-radius:4px;color:#aaa;font-size:12px;cursor:pointer}
+  .filter-btn:hover{background:#333;color:#e8e8e8}
+  .new-btn{margin-left:auto;padding:6px 14px;background:#0F3460;color:#fff;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer}
+  table{width:100%;border-collapse:collapse;margin-top:4px;font-size:13px}
+  th{padding:8px 12px;text-align:left;font-size:11px;color:#666;font-weight:600;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid #2d2d2d;background:#1f1f1f;position:sticky;top:0}
+  td{padding:10px 12px;border-bottom:1px solid #252525;vertical-align:middle}
+  tr:hover td{background:#222}
+  .badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600}
+  .badge-new{background:#2d1f0e;color:#E67E22}
+  .badge-call{background:#0e1f2d;color:#2980B9}
+  .badge-qual{background:#0e1f2d;color:#1A5276}
+  .badge-prop{background:#1f0e2d;color:#8E44AD}
+  .badge-neg{background:#2d1f0e;color:#E67E22}
+  .badge-won{background:#0e2d1a;color:#27AE60}
+  .badge-lost{background:#2d0e0e;color:#E74C3C}
+  .badge-pause{background:#1a1a1a;color:#666}
+  .score-bar{display:flex;align-items:center;gap:8px}
+  .score-bg{width:60px;height:6px;background:#2d2d2d;border-radius:3px}
+  .score-fill{height:6px;border-radius:3px}
+  .avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff}
+  .client-cell{display:flex;align-items:center;gap:10px}
+  .client-info{display:flex;flex-direction:column}
+  .client-name{font-weight:600;color:#e8e8e8}
+  .client-type{font-size:11px;color:#666}
+  .tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;margin-right:4px}
+  .section-header{font-size:20px;font-weight:700;color:#fff;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #2d2d2d}
+  .db-card{background:#242424;border:1px solid #2d2d2d;border-radius:8px;overflow:hidden;margin-bottom:32px}
+  .db-header{padding:16px 20px;border-bottom:1px solid #2d2d2d;display:flex;align-items:center;justify-content:space-between}
+  .db-title{font-size:15px;font-weight:700;color:#e8e8e8}
+  .db-count{font-size:12px;color:#666;background:#2d2d2d;padding:2px 8px;border-radius:20px}
+  .setup-box{background:#1a2a1a;border:1px solid #27AE60;border-radius:8px;padding:24px;margin:32px 0}
+  .setup-title{font-size:16px;font-weight:700;color:#27AE60;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .setup-step{display:flex;gap:12px;margin-bottom:12px;align-items:flex-start}
+  .step-num{width:24px;height:24px;background:#27AE60;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;margin-top:1px}
+  .step-text{font-size:13px;color:#aaa;line-height:1.5}
+  .step-text strong{color:#e8e8e8}
+  .prop-table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+  .prop-table th{padding:8px 12px;background:#1f1f1f;color:#666;font-size:11px;text-transform:uppercase;letter-spacing:.06em;text-align:left;border-bottom:1px solid #2d2d2d}
+  .prop-table td{padding:10px 12px;border-bottom:1px solid #252525;color:#aaa}
+  .prop-table td:first-child{color:#e8e8e8;font-weight:500}
+  .type-badge{background:#2d2d2d;color:#aaa;padding:2px 8px;border-radius:4px;font-size:11px;font-family:monospace}
+  .callout{background:#1a1a2e;border-left:4px solid #0F3460;border-radius:4px;padding:16px 20px;margin:24px 0;font-size:13px;color:#aaa;line-height:1.6}
+  .callout strong{color:#e8e8e8}
+  @media print{.sidebar{display:none}.main{margin-left:0}}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-logo"><span>🏢</span> SMM Agency OS</div>
+  <div class="nav-section">CRM</div>
+  <div class="nav-item active"><span class="nav-emoji">👥</span> All Clients</div>
+  <div class="nav-item"><span class="nav-emoji">🔥</span> Active Clients</div>
+  <div class="nav-item"><span class="nav-emoji">🎯</span> Pipeline</div>
+  <div class="nav-item"><span class="nav-emoji">⚠️</span> At-Risk Clients</div>
+  <div class="nav-section">ANALYTICS</div>
+  <div class="nav-item"><span class="nav-emoji">📊</span> Revenue Board</div>
+  <div class="nav-item"><span class="nav-emoji">📈</span> Growth Tracker</div>
+  <div class="nav-section">TOOLS</div>
+  <div class="nav-item"><span class="nav-emoji">📋</span> Onboarding Hub</div>
+  <div class="nav-item"><span class="nav-emoji">📅</span> Content Calendars</div>
+  <div class="nav-item"><span class="nav-emoji">📨</span> Communication Log</div>
+  <div class="nav-item"><span class="nav-emoji">📁</span> Asset Library</div>
+  <div class="nav-section">SETTINGS</div>
+  <div class="nav-item"><span class="nav-emoji">⚙️</span> Agency Settings</div>
+  <div class="nav-item"><span class="nav-emoji">📝</span> Templates</div>
+</div>
+
+<div class="main">
+  <div class="page-icon">👥</div>
+  <div class="page-title">Client CRM</div>
+  <div class="page-subtitle">Manage every client relationship from pipeline to renewal — SMM Agency OS</div>
+
+  <div class="properties-bar">
+    <div class="prop"><div class="prop-label">Active Clients</div><div class="prop-value" style="color:#27AE60;font-size:20px;font-weight:700">7</div></div>
+    <div class="prop"><div class="prop-label">Monthly Revenue</div><div class="prop-value" style="color:#27AE60;font-size:20px;font-weight:700">€14,200</div></div>
+    <div class="prop"><div class="prop-label">Pipeline Value</div><div class="prop-value" style="color:#E67E22;font-size:20px;font-weight:700">€8,500</div></div>
+    <div class="prop"><div class="prop-label">Avg Retention</div><div class="prop-value" style="font-size:20px;font-weight:700">8.4 months</div></div>
+    <div class="prop"><div class="prop-label">At-Risk</div><div class="prop-value" style="color:#E74C3C;font-size:20px;font-weight:700">1</div></div>
+  </div>
+
+  <!-- DATABASE SETUP GUIDE -->
+  <div class="setup-box">
+    <div class="setup-title">⚡ How to Set Up This Template in Notion</div>
+    <div class="setup-step"><div class="step-num">1</div><div class="step-text"><strong>Create a new Notion page</strong> → Title it "Client CRM" → Add the 🏢 icon</div></div>
+    <div class="setup-step"><div class="step-num">2</div><div class="step-text"><strong>Add a Database (Full Page)</strong> → Click + → Database → Full page → Name it "All Clients"</div></div>
+    <div class="setup-step"><div class="step-num">3</div><div class="step-text"><strong>Add all properties</strong> from the Property Schema table below → Delete default "Tags" property</div></div>
+    <div class="setup-step"><div class="step-num">4</div><div class="step-text"><strong>Create 6 Views</strong>: Table (All Clients), Board (Pipeline by Stage), Gallery (Active Clients), Calendar (Renewal Dates), Filter (At-Risk), Filter (This Month's Check-ins)</div></div>
+    <div class="setup-step"><div class="step-num">5</div><div class="step-text"><strong>Add your first client</strong> by filling in all properties → Use this page as your reference</div></div>
+  </div>
+
+  <!-- PROPERTY SCHEMA -->
+  <div class="section-header">📐 Property Schema — Add These to Your Database</div>
+  <div class="db-card">
+    <div class="db-header"><div class="db-title">All Client Properties</div><div class="db-count">22 properties</div></div>
+    <table class="prop-table">
+      <tr><th>Property Name</th><th>Type</th><th>Options / Notes</th></tr>
+      <tr><td>Client Name</td><td><span class="type-badge">Title</span></td><td>Primary field — company or person name</td></tr>
+      <tr><td>Status</td><td><span class="type-badge">Select</span></td><td>Active · On Hold · Churned · Pipeline · Discovery</td></tr>
+      <tr><td>Package</td><td><span class="type-badge">Select</span></td><td>Starter · Growth · Agency · Custom</td></tr>
+      <tr><td>Monthly Retainer (€)</td><td><span class="type-badge">Number</span></td><td>Format: Euro</td></tr>
+      <tr><td>Industry</td><td><span class="type-badge">Select</span></td><td>Restaurant · Fitness · Beauty · E-comm · Coach · Real Estate · B2B · Other</td></tr>
+      <tr><td>Platforms</td><td><span class="type-badge">Multi-select</span></td><td>Instagram · LinkedIn · TikTok · Facebook · Pinterest · Twitter</td></tr>
+      <tr><td>Primary Contact</td><td><span class="type-badge">Text</span></td><td>Name of main contact person</td></tr>
+      <tr><td>Email</td><td><span class="type-badge">Email</span></td><td>Primary contact email</td></tr>
+      <tr><td>Phone</td><td><span class="type-badge">Phone</span></td><td>Optional</td></tr>
+      <tr><td>Start Date</td><td><span class="type-badge">Date</span></td><td>Contract start date</td></tr>
+      <tr><td>Renewal Date</td><td><span class="type-badge">Date</span></td><td>Next contract renewal — add reminder</td></tr>
+      <tr><td>Months Active</td><td><span class="type-badge">Formula</span></td><td>dateBetween(prop("Start Date"), now(), "months")</td></tr>
+      <tr><td>Health Score</td><td><span class="type-badge">Number</span></td><td>1–100 · Update monthly · &lt;60 = at risk</td></tr>
+      <tr><td>Next Check-in</td><td><span class="type-badge">Date</span></td><td>Date of next scheduled call or touchpoint</td></tr>
+      <tr><td>Last Report Sent</td><td><span class="type-badge">Date</span></td><td>Date monthly report was sent</td></tr>
+      <tr><td>Contract Signed</td><td><span class="type-badge">Checkbox</span></td><td>✓ when contract is in place</td></tr>
+      <tr><td>NDA Signed</td><td><span class="type-badge">Checkbox</span></td><td>✓ when NDA is signed</td></tr>
+      <tr><td>Onboarding Complete</td><td><span class="type-badge">Checkbox</span></td><td>✓ when all onboarding steps done</td></tr>
+      <tr><td>Drive Folder Link</td><td><span class="type-badge">URL</span></td><td>Link to client's Google Drive folder</td></tr>
+      <tr><td>Slack Channel</td><td><span class="type-badge">Text</span></td><td>#client-name in your Slack workspace</td></tr>
+      <tr><td>LTV (€)</td><td><span class="type-badge">Formula</span></td><td>prop("Monthly Retainer (€)") * prop("Months Active")</td></tr>
+      <tr><td>Notes</td><td><span class="type-badge">Text</span></td><td>Key context, personality notes, preferences</td></tr>
+    </table>
+  </div>
+
+  <!-- LIVE DATABASE PREVIEW -->
+  <div class="section-header">👁 Live Preview — All Clients View</div>
+  <div class="db-card">
+    <div class="db-header">
+      <div class="db-title">All Clients</div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="db-count">9 records</div>
+        <div style="padding:4px 10px;background:#0F3460;color:#fff;border-radius:4px;font-size:12px;font-weight:600;cursor:pointer">+ New</div>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="tab active">Table</div>
+      <div class="tab">Board</div>
+      <div class="tab">Gallery</div>
+      <div class="tab">Calendar</div>
+      <div class="tab">🔴 At-Risk</div>
+    </div>
+    <div style="padding:0 0 4px">
+    <table>
+      <tr>
+        <th>Client</th><th>Status</th><th>Package</th><th>Retainer</th>
+        <th>Health</th><th>Platforms</th><th>Next Check-in</th><th>Months Active</th>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#0F3460">GL</div><div class="client-info"><div class="client-name">Green Leaf Bakery</div><div class="client-type">Restaurant · Sarah M.</div></div></div></td>
+        <td><span class="badge badge-won">🟢 Active</span></td>
+        <td><span class="badge" style="background:#1a1a2e;color:#8E44AD">Growth</span></td>
+        <td style="color:#27AE60;font-weight:700">€1,800</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:88%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60;font-weight:600">88</span></div></td>
+        <td><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span><span class="tag" style="background:#0e1f2d;color:#1A5276">FB</span></td>
+        <td style="color:#aaa">Jan 15</td><td style="color:#aaa;text-align:center">6</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#8E44AD">FZ</div><div class="client-info"><div class="client-name">FitZone Studio</div><div class="client-type">Fitness · Mark T.</div></div></div></td>
+        <td><span class="badge badge-won">🟢 Active</span></td>
+        <td><span class="badge" style="background:#0e2d1a;color:#27AE60">Agency</span></td>
+        <td style="color:#27AE60;font-weight:700">€3,200</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:92%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60;font-weight:600">92</span></div></td>
+        <td><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span><span class="tag" style="background:#4A235A;color:#ccc">TK</span><span class="tag" style="background:#0e1f2d;color:#1A5276">FB</span></td>
+        <td style="color:#aaa">Jan 10</td><td style="color:#aaa;text-align:center">11</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#27AE60">TS</div><div class="client-info"><div class="client-name">TechStart Agency</div><div class="client-type">B2B · Lisa R.</div></div></div></td>
+        <td><span class="badge badge-won">🟢 Active</span></td>
+        <td><span class="badge" style="background:#0e2d1a;color:#27AE60">Agency</span></td>
+        <td style="color:#27AE60;font-weight:700">€2,500</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:75%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60;font-weight:600">75</span></div></td>
+        <td><span class="tag" style="background:#0e1f2d;color:#2980B9">LI</span><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span></td>
+        <td style="color:#aaa">Jan 18</td><td style="color:#aaa;text-align:center">4</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#E74C3C">BB</div><div class="client-info"><div class="client-name">Bella Beauty Spa</div><div class="client-type">Beauty · Ana K.</div></div></div></td>
+        <td><span class="badge" style="background:#2d1f0e;color:#E67E22">⚠️ At Risk</span></td>
+        <td><span class="badge" style="background:#1a1a2e;color:#666">Starter</span></td>
+        <td style="color:#27AE60;font-weight:700">€800</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:48%;background:#E74C3C"></div></div><span style="font-size:12px;color:#E74C3C;font-weight:600">48</span></div></td>
+        <td><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span></td>
+        <td style="color:#E74C3C;font-weight:600">Jan 9 ⚠</td><td style="color:#aaa;text-align:center">2</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#E67E22">UE</div><div class="client-info"><div class="client-name">Urban Eats</div><div class="client-type">Restaurant · James B.</div></div></div></td>
+        <td><span class="badge badge-won">🟢 Active</span></td>
+        <td><span class="badge" style="background:#1a1a2e;color:#8E44AD">Growth</span></td>
+        <td style="color:#27AE60;font-weight:700">€1,800</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:83%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60;font-weight:600">83</span></div></td>
+        <td><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span><span class="tag" style="background:#0e1f2d;color:#1A5276">FB</span><span class="tag" style="background:#C0392B22;color:#C0392B">PT</span></td>
+        <td style="color:#aaa">Jan 22</td><td style="color:#aaa;text-align:center">5</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#2980B9">NC</div><div class="client-info"><div class="client-name">NextGen Coach</div><div class="client-type">Coaching · Emma D.</div></div></div></td>
+        <td><span class="badge badge-won">🟢 Active</span></td>
+        <td><span class="badge" style="background:#0e2d1a;color:#27AE60">Agency</span></td>
+        <td style="color:#27AE60;font-weight:700">€2,000</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:96%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60;font-weight:600">96</span></div></td>
+        <td><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span><span class="tag" style="background:#0e1f2d;color:#2980B9">LI</span><span class="tag" style="background:#4A235A;color:#ccc">TK</span></td>
+        <td style="color:#aaa">Jan 25</td><td style="color:#aaa;text-align:center">3</td>
+      </tr>
+      <tr>
+        <td><div class="client-cell"><div class="avatar" style="background:#1A5276">SR</div><div class="client-info"><div class="client-name">Summit Real Estate</div><div class="client-type">Real Estate · David L.</div></div></div></td>
+        <td><span class="badge badge-call">🔵 Discovery</span></td>
+        <td><span class="badge" style="background:#0e1f2d;color:#2980B9">Pipeline</span></td>
+        <td style="color:#666">€3,000 est.</td>
+        <td><div class="score-bar"><div class="score-bg"><div class="score-fill" style="width:62%;background:#E67E22"></div></div><span style="font-size:12px;color:#E67E22;font-weight:600">62</span></div></td>
+        <td><span class="tag" style="background:#0e1f2d;color:#2980B9">LI</span><span class="tag" style="background:#2d0e0e;color:#E74C3C">IG</span></td>
+        <td style="color:#E67E22">Jan 15</td><td style="color:#666;text-align:center">—</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+
+  <!-- VIEWS SETUP -->
+  <div class="section-header">📂 Views to Create</div>
+  <div class="db-card">
+    <table class="prop-table">
+      <tr><th>View Name</th><th>Type</th><th>Filter / Group By</th><th>Purpose</th></tr>
+      <tr><td>📋 All Clients</td><td><span class="type-badge">Table</span></td><td>No filter — sort by Status</td><td>Master view of all clients</td></tr>
+      <tr><td>🟢 Active Clients</td><td><span class="type-badge">Table</span></td><td>Status = Active</td><td>Your current paying clients</td></tr>
+      <tr><td>🎯 Pipeline Board</td><td><span class="type-badge">Board</span></td><td>Group by: Status</td><td>Visual pipeline with drag & drop</td></tr>
+      <tr><td>📅 Renewal Calendar</td><td><span class="type-badge">Calendar</span></td><td>Date: Renewal Date</td><td>See when contracts renew</td></tr>
+      <tr><td>⚠️ At-Risk Clients</td><td><span class="type-badge">Table</span></td><td>Health Score &lt; 60</td><td>Clients needing attention</td></tr>
+      <tr><td>💰 Revenue Board</td><td><span class="type-badge">Table</span></td><td>Sort: Monthly Retainer ↓</td><td>Highest to lowest revenue</td></tr>
+    </table>
+  </div>
+
+  <div class="callout">
+    <strong>💡 Pro Tip:</strong> Add a Notion reminder on the "Next Check-in" date for each client. Set it 2 days before so you have time to prepare. 
+    A proactive check-in call once per month — even 15 minutes — reduces churn by 40%. Use the Communication Log (linked from each client page) to track every conversation.
+  </div>
+
+  <div style="margin-top:48px;padding:24px;background:#1f1f1f;border-radius:8px;border:1px solid #2d2d2d;font-size:12px;color:#555;text-align:center">
+    SMM Agency OS — Client CRM Template · © All rights reserved · For buyer use only, not for resale
+  </div>
+</div>
+</body>
+</html>
