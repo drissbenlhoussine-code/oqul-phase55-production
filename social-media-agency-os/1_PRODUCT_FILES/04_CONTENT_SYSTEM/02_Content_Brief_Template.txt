@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        PER-POST CONTENT BRIEF                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Brief #: _______  Client: ________________  Date Created: ___________
+Created by: _____________  Assigned to: _____________  Due: ___________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+POST DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Platform:     □ Instagram  □ Facebook  □ LinkedIn  □ TikTok  □ Pinterest
+Format:       □ Static Post  □ Carousel  □ Reel  □ Story  □ LinkedIn Article
+Publish Date: ___________  Publish Time: ___________
+Content Pillar: □ Educate  □ Inspire  □ Connect  □ Showcase  □ Promote
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT STRATEGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Post Goal:
+□ Brand Awareness  □ Engagement  □ Lead Generation  □ Sales/Conversion
+□ Follower Growth  □ Traffic to Website  □ Community Building
+
+Target Audience for this post:
+[Who specifically are we speaking to with this post?]
+________________________________________________________________
+
+HOOK (first 3 seconds for video / first line for caption):
+________________________________________________________________
+
+KEY MESSAGE (the ONE thing the viewer should take away):
+________________________________________________________________
+
+Supporting Points (2-3 bullets that support the key message):
+• _______________________________________________________________
+• _______________________________________________________________
+• _______________________________________________________________
+
+Call to Action (exact wording):
+□ "Comment below with..."
+□ "Save this for later"
+□ "Link in bio to..."
+□ "DM us the word [KEYWORD]"
+□ "Tag someone who..."
+□ Custom: ______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREATIVE DIRECTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Visual Style:
+□ Brand template (existing)  □ New design  □ Stock photo  □ Client photo
+□ Infographic  □ Quote card  □ Product photo  □ Behind-the-scenes
+
+Visual Description (be specific — angles, colors, mood, props):
+________________________________________________________________
+________________________________________________________________
+
+Text Overlay (if any — exact copy):
+________________________________________________________________
+
+Brand Colors to Use:  Primary: ______  Secondary: ______  Accent: ______
+Font:  Heading: ____________  Body: ____________
+Logo Placement:  □ Top-left  □ Bottom-right  □ None
+
+Reference Images (attach or link):
+________________________________________________________________
+
+For VIDEO — additional fields:
+Hook moment (what's happening in the first 2 seconds?): ________________
+Background music mood: □ Upbeat  □ Calm  □ Trending audio  □ None
+On-screen text needed? □ Yes  □ No  — If yes: ______________________
+Voiceover? □ Yes  □ No  — If yes, tone: ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Caption Draft:
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Hashtags (group # from Hashtag Framework):  Group ___
+Additional specific hashtags: _______________________________________
+
+Approval Deadline: ___________  Revisions Notes: ___________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXAMPLE COMPLETED BRIEF
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Client: Bloom Bakery  |  Platform: Instagram  |  Format: Carousel
+Publish: Tuesday, Jan 14, 2025 at 9:00am  |  Pillar: Educational
+
+Goal: Engagement (saves) + brand authority
+Target Audience: Home bakers aged 25-45 who follow baking accounts
+
+Hook: "5 things professional bakers do that home bakers don't (but should)"
+Key Message: Small professional habits make a huge difference in results
+Supporting Points:
+• Weigh ingredients instead of measuring by volume
+• Let dough rest at the right temperature, not just "room temp"
+• Taste at every stage, not just at the end
+
+CTA: "Save this for your next bake — and comment which tip surprised you most"
+
+Visual: 6-slide carousel. Slide 1: Bold text on cream background with brand
+fonts. Slides 2-6: each tip on its own slide with a relevant product/ingredient
+photo from client's photo bank (top-down, warm lighting, on marble surface).
+Final slide: "Want more tips? Follow @bloombakery for weekly baking guides."
+
+Caption: "5 habits that separate a good bake from a great one. 🧁
+Most home bakers skip these — but once you know them, you can't un-know them.
+[List each tip briefly in caption with line breaks]
+Save this for your next baking session and let us know which one was new to you!"
+
+Hashtags: Group 3 (Food & Baking) + #homebaking #bakingtips #bakingfromscratch

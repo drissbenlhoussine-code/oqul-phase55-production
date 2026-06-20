@@ -1,0 +1,105 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    PRICING CALCULATOR & RATE GUIDE                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+STEP 1 — YOUR MINIMUM VIABLE RATE
+────────────────────────────────────────────────────────────────────────────────
+
+Before setting prices, know your floor:
+
+Monthly personal expenses:              $________
+Monthly business expenses:              $________
+  (software, tools, contractor fees)
+Taxes (estimate 25-30%):                $________
+Desired profit / savings:               $________
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL you need per month:               $________
+
+Divide by max number of clients you
+can handle (recommend 4-6):           ÷ ________
+
+= MINIMUM RETAINER PER CLIENT:         $________
+
+If this number is under $800, you are undercharging.
+
+STEP 2 — COST-BASED PRICING (per client)
+────────────────────────────────────────────────────────────────────────────────
+
+Hours spent per client per month:
+• Strategy & planning:                  ___ hrs
+• Content creation (graphics/copy):     ___ hrs
+• Scheduling & posting:                 ___ hrs
+• Community management:                 ___ hrs
+• Reporting & client comms:             ___ hrs
+Total hours:                            ___ hrs
+
+Your target hourly rate: $___/hour (recommend minimum $75-$150)
+
+Raw cost = Hours × Hourly Rate = $________
+Add 30% for overhead + profit:   $________
+= YOUR MINIMUM PRICE:             $________
+
+STEP 3 — VALUE-BASED PRICING
+────────────────────────────────────────────────────────────────────────────────
+
+For premium positioning, price based on VALUE delivered, not hours worked.
+
+Ask yourself:
+• If social media generates 2 new clients/month for this business,
+  and each client is worth $2,000 to them, that's $4,000 in new revenue.
+• Charging $1,500/month means you're delivering 2.7x ROI.
+• Charging $2,500/month still delivers 1.6x ROI — easy to justify.
+
+Value-based pricing formula:
+Expected monthly value to client:  $________
+Your fee as % of that value:         ___% (aim for 20-40%)
+= Value-Based Price:                $________
+
+STEP 4 — MARKET POSITIONING
+────────────────────────────────────────────────────────────────────────────────
+
+Budget Range ($300-$800/mo):
+  • One-person show, 1-2 platforms
+  • Basic graphics, no strategy
+  • Target: micro-businesses, solopreneurs
+  • Risk: high churn, low-quality clients
+
+Mid-Range ($1,000-$2,500/mo):
+  • Professional service, 1-3 platforms
+  • Strategy included, full content creation
+  • Target: established small businesses
+  • This is where most agencies should position
+
+Premium ($3,000-$6,000+/mo):
+  • Full-service agency, 3+ platforms
+  • Team of specialists, paid ad management
+  • Target: funded businesses, larger SMBs
+  • Requires strong case studies and authority
+
+RECOMMENDATION: Start at mid-range and move up as you build case studies.
+
+STEP 5 — WHEN TO RAISE YOUR RATES
+────────────────────────────────────────────────────────────────────────────────
+
+Raise rates when ANY of these are true:
+• You have a waitlist of 2+ potential clients
+• You've had the same rates for 12+ months
+• You have 3+ strong case studies / testimonials
+• Your time is 90%+ booked
+• You're attracting difficult clients (symptom of undercharging)
+• Your expenses have increased significantly
+• You've added certifications or expertise
+
+Rate increase notice: Give current clients 30-60 days' notice.
+Script: "As of [DATE], my rates will increase to $[NEW RATE]/month.
+Your current service will remain the same, and this reflects the
+growing results and investment I'm making in your account."
+
+ADD-ON SERVICES (charge separately):
+• Platform setup/audit:                $297-$497 one-time
+• Brand photography direction:         $200-$400/session
+• Paid ads management:                 15-20% of ad spend + $300/mo mgmt
+• Email marketing (monthly):           $500-$1,200
+• Influencer campaign:                 $500-$1,500 + influencer fee
+• Website copy refresh:                $500-$2,000
+• Social media strategy only (no exec): $800-$2,500 one-time

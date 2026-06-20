@@ -1,0 +1,99 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         SOCIAL MEDIA ROI CALCULATOR                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+THE ATTRIBUTION PROBLEM — AND HOW TO TALK ABOUT IT
+────────────────────────────────────────────────────────────────────────────────
+Social media ROI is genuinely hard to prove perfectly because the customer
+journey is non-linear. Someone might:
+• See your Instagram post → Google you → Find a friend's review → Book a call
+
+Which touchpoint gets credit? This is called the attribution problem.
+
+YOUR APPROACH: Don't promise perfect attribution. Instead, measure what you CAN
+measure, educate clients on the full-funnel role of social media, and use
+multiple ROI indicators together to build a strong case.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4 TYPES OF MEASURABLE ROI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TYPE 1 — DIRECT SALES ROI (most measurable)
+Tools: UTM links, discount codes, social-specific landing pages
+How: Every social media link uses a UTM parameter → tracks in Google Analytics
+Setup: utm_source=instagram&utm_medium=social&utm_campaign=jan_promo
+What you can prove: "X visitors came from Instagram → Y% converted → $Z in revenue"
+
+TYPE 2 — LEAD GENERATION ROI
+How to track: Ask every new lead "How did you hear about us?"
+Implement a social-specific referral code or DM funnel
+Count leads from DMs, Comments ("comment INTERESTED"), Story swipe-ups
+What you can prove: "Social generated X leads this month, valued at $Y each = $Z pipeline"
+
+TYPE 3 — BRAND AWARENESS ROI
+Harder to quantify but critical for long-term value
+Metrics: Share of Voice, Brand mention volume, Direct website traffic (people who typed your URL directly — often driven by social recognition)
+What you can prove: "Brand mention volume up 40%, direct traffic up 22% since we started social management — indicating stronger brand recall"
+
+TYPE 4 — CUSTOMER RETENTION ROI
+Social keeps existing customers engaged, reducing churn
+Track: Repeat purchase rate among social followers vs. non-followers
+What you can prove: "Clients who engage with our social content reorder at 2x the rate of those who don't"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE CORE ROI FORMULA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Social Media ROI = (Value Generated - Cost of Social Media) ÷ Cost × 100
+
+WORKED EXAMPLE — SERVICE BUSINESS:
+Client pays $2,000/month for social media management
+Social media generates: 3 new clients/month from DMs and profile visits
+Average client value: $1,500
+Monthly revenue from social: 3 × $1,500 = $4,500
+ROI = ($4,500 - $2,000) ÷ $2,000 × 100 = 125% ROI
+
+WORKED EXAMPLE — E-COMMERCE:
+Client pays $1,500/month for social management
+UTM tracking shows: 250 social visitors → 12 purchases → avg. $85 order = $1,020
+Plus brand awareness driving 15% more direct traffic = estimated +$800 in revenue
+Total estimated value from social: $1,820
+ROI = ($1,820 - $1,500) ÷ $1,500 × 100 = 21.3% ROI (improve with better CTAs)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO SET UP UTM TRACKING IN GOOGLE ANALYTICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Go to Google's Campaign URL Builder (search "Google UTM builder")
+
+STEP 2: Fill in these fields:
+Website URL: https://www.clientwebsite.com
+Campaign Source: instagram (or facebook, linkedin, tiktok)
+Campaign Medium: social
+Campaign Name: [month-year] or [campaign-name] (e.g., jan-2025 or summer-launch)
+
+STEP 3: Copy the generated URL and shorten with bit.ly
+
+STEP 4: Use this link everywhere — bio, stories, DMs, posts
+
+STEP 5: View results in Google Analytics:
+Reports > Acquisition > Traffic Acquisition > Filter by "Session source/medium"
+
+PRO TIP: Create a new UTM for each campaign so you can compare performance.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE ROI CONVERSATION WITH SKEPTICAL CLIENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When a client says: "I can't see the ROI in social media"
+
+Step 1: Validate. "That's a completely fair question. You're investing real money and you want to see it work. I respect that."
+
+Step 2: Ask. "When someone finds you — whether through Google, word of mouth, or a referral — do they check your social media before deciding to contact you?"
+[They almost always say yes.]
+
+Step 3: Reframe. "So social media isn't just generating leads — it's also the first thing people check to decide if you're worth contacting. That validation is worth a lot. A weak social presence LOSES you clients that word-of-mouth sent your way."
+
+Step 4: Show data. Pull up what you CAN track: reach, profile visits, website clicks from social.
+
+Step 5: Commit. "Let's implement proper UTM tracking this month so we can measure exactly what social is contributing. In 90 days we'll have real data."

@@ -1,0 +1,86 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    NON-DISCLOSURE AGREEMENT (NDA)                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+This Non-Disclosure Agreement ("Agreement") is entered into as of [DATE]
+between [YOUR AGENCY NAME] ("Disclosing Party") and [CLIENT/CONTRACTOR NAME]
+("Receiving Party"), collectively referred to as the "Parties."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Confidential Information" means any non-public information disclosed by
+either Party that is designated as confidential or that reasonably should
+be understood to be confidential given the nature of the information,
+including but not limited to:
+
+• Business strategies, plans, and financial data
+• Client lists, pricing, and contract terms
+• Content strategies, creative briefs, and unreleased campaigns
+• Proprietary processes, systems, and templates
+• Technical data, analytics, and performance data
+• Personnel information and contractor relationships
+• Unpublished marketing materials and brand assets
+
+Confidential Information does NOT include information that:
+(a) Is or becomes publicly available through no fault of Receiving Party
+(b) Was already known to Receiving Party before disclosure
+(c) Is independently developed by Receiving Party without use of Confidential Information
+(d) Is required to be disclosed by law or court order (with prior written notice to Disclosing Party)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. OBLIGATIONS OF RECEIVING PARTY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Receiving Party agrees to:
+(a) Keep all Confidential Information strictly confidential
+(b) Use Confidential Information only for the purpose of the business relationship between the Parties
+(c) Not disclose Confidential Information to any third party without prior written consent
+(d) Protect Confidential Information with at least the same degree of care used to protect its own confidential information (minimum: reasonable care)
+(e) Immediately notify Disclosing Party of any unauthorized disclosure or breach
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. TERM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This Agreement is effective from the date signed and shall remain in force
+for two (2) years following the termination of the business relationship
+between the Parties.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. RETURN OR DESTRUCTION OF INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Upon termination of the business relationship or upon written request,
+Receiving Party shall promptly return or destroy all Confidential Information
+and certify in writing that such return or destruction has been completed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. REMEDIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Receiving Party acknowledges that breach of this Agreement may cause
+irreparable harm for which monetary damages would be inadequate.
+Accordingly, Disclosing Party shall be entitled to seek injunctive or
+other equitable relief without the requirement of posting a bond, in
+addition to any other legal remedies available.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. GOVERNING LAW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This Agreement shall be governed by and construed in accordance with the
+laws of [YOUR STATE/COUNTRY], without regard to conflict of law principles.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SIGNATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Disclosing Party:
+Signature: _______________________________  Date: _____________
+Name: [YOUR NAME]  |  [AGENCY NAME]
+
+Receiving Party:
+Signature: _______________________________  Date: _____________
+Name: [RECIPIENT NAME]  |  [COMPANY/ROLE]

@@ -1,0 +1,270 @@
+╔══════════════════════════════════════════════════════════════════╗
+║               SOCIAL MEDIA CRISIS RESPONSE PROTOCOL              ║
+║              Social Media Manager Agency OS — File 09.05        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+PURPOSE
+───────
+A step-by-step crisis response plan for 6 common social media emergencies.
+When a crisis hits, you don't have time to think — you execute this protocol.
+
+══════════════════════════════════════════════════════════════════
+SECTION 1: CRISIS SEVERITY LEVELS
+══════════════════════════════════════════════════════════════════
+
+LEVEL 1 — MINOR INCIDENT (Handle yourself, notify client)
+  Examples:
+  - Typo or factual error in a published post
+  - Single negative comment that's gaining traction
+  - Wrong photo or caption published accidentally
+  - Scheduling error (post went live at wrong time)
+  
+  Response time: Within 2 hours
+  Action: Fix, apologize if needed, inform client same day
+
+LEVEL 2 — MODERATE CRISIS (Escalate to client within 1 hour)
+  Examples:
+  - Multiple negative comments on one post
+  - A customer service complaint going viral in comments
+  - Offensive or insensitive post published by mistake
+  - Competitor or third party publicly calling out the brand
+  - A post or campaign misunderstood by audience at scale
+
+  Response time: Within 1 hour
+  Action: Pause all scheduled content, assess, client call, respond
+
+LEVEL 3 — FULL CRISIS (Emergency — drop everything)
+  Examples:
+  - Brand mentioned in major news story (negative)
+  - Hate campaign or coordinated pile-on
+  - Data breach or security incident announced publicly
+  - Executive/spokesperson involved in scandal
+  - Product recall or safety issue trending on social
+
+  Response time: Within 30 minutes
+  Action: STOP ALL CONTENT. Crisis team assembled. See Section 3.
+
+══════════════════════════════════════════════════════════════════
+SECTION 2: 30-MINUTE CRISIS RESPONSE CHECKLIST
+══════════════════════════════════════════════════════════════════
+
+THE FIRST 30 MINUTES — CRITICAL WINDOW
+
+  MINUTE 0–5: ASSESS
+  □ Screenshot everything (evidence before deletion)
+  □ Identify: What is the crisis? Where is it happening?
+  □ Determine severity level (1, 2, or 3)
+  □ Do NOT post anything yet
+  □ Do NOT delete original post yet (may escalate "why did they delete?")
+  □ Notify client/brand contact immediately via phone or Slack
+
+  MINUTE 5–10: PAUSE
+  □ Log in to scheduling tool
+  □ PAUSE ALL scheduled posts immediately
+  □ Put all campaigns on hold
+  □ Do NOT run any paid ads during crisis
+  □ Notify any team members working on this account
+
+  MINUTE 10–20: EVALUATE
+  □ How many people have seen/engaged with the crisis content?
+  □ Is it spreading to other platforms?
+  □ Is media or influencers involved?
+  □ Is there a legal risk? (If yes → client contacts lawyer ASAP)
+  □ What is the root cause?
+  □ What does the audience expect the brand to do?
+  □ Who should the official response come from? (Brand, CEO, department?)
+
+  MINUTE 20–30: DRAFT RESPONSE
+  □ Write initial holding statement (see templates in Section 4)
+  □ Client reviews and approves statement
+  □ Post to affected platform(s)
+  □ Determine if the post should be deleted or left up with a response
+  □ Prepare FAQ for common questions coming in DMs/comments
+  □ Set up monitoring: check every 15 minutes for next 4 hours
+
+══════════════════════════════════════════════════════════════════
+SECTION 3: SIX CRISIS TYPES — RESPONSE PLANS
+══════════════════════════════════════════════════════════════════
+
+CRISIS TYPE 1: OFFENSIVE/INSENSITIVE POST PUBLISHED BY MISTAKE
+────────────────────────────────────────────────────────────────
+
+This could be a tone-deaf caption, wrong post sent to wrong account,
+or content that reads badly in current cultural context.
+
+Response Plan:
+  Step 1: Take immediate screenshot
+  Step 2: Delete post (in this case, delete quickly before it spreads)
+  Step 3: Post a genuine apology (not a "sorry you were offended" — a real one)
+  Step 4: In your apology: acknowledge what happened, own it, commit to better
+  Step 5: Turn off comments if the ratio is extreme (only if necessary)
+  Step 6: Don't over-explain or argue in comments
+  Step 7: Internal debrief: How did this pass QC? Update content approval process.
+
+CRISIS TYPE 2: NEGATIVE REVIEW/COMMENT GOING VIRAL
+────────────────────────────────────────────────────
+
+A customer complaint or critical post gaining shares, likes, and secondary commentary.
+
+Response Plan:
+  Step 1: DO NOT ignore or delete the comment
+  Step 2: Respond publicly with empathy + action:
+          "We're so sorry to hear this, [Name]. This isn't the experience
+          we want for our customers. Please DM us [or email X] so we can
+          make this right immediately."
+  Step 3: Take the conversation to private (DM/email) — resolve it there
+  Step 4: If you resolve it: ask the customer to update their comment
+  Step 5: Do not engage with pile-on commenters — respond once, calmly
+  Step 6: If it's a verified bad experience: acknowledge it openly
+  Step 7: Follow-up post (if warranted): "Here's what we changed."
+
+CRISIS TYPE 3: HACKED ACCOUNT
+───────────────────────────────
+
+Signs: Posts you didn't make, password change notification, locked out.
+
+Response Plan:
+  MINUTE 0:   Alert client immediately. This is Level 3.
+  Step 1: Attempt to recover account via platform's official recovery flow
+  Step 2: Post to OTHER platforms: "Our [Platform] account has been compromised.
+           We are working to recover it. Do not engage with recent posts."
+  Step 3: Contact platform support (Meta, TikTok, LinkedIn)
+  Step 4: Change passwords on ALL connected accounts + email
+  Step 5: Enable 2FA on recovery email before re-accessing socials
+  Step 6: Revoke access for all third-party apps on compromised account
+  Step 7: Conduct full security audit of all connected tools
+  Step 8: Post account recovery announcement with context
+
+CRISIS TYPE 4: PRODUCT/SERVICE COMPLAINT CAMPAIGN
+────────────────────────────────────────────────────
+
+Multiple customers posting the same complaint simultaneously — could
+indicate a real product/service issue or coordinated campaign.
+
+Response Plan:
+  Step 1: Determine if complaints are legitimate (real customers) or bots
+  Step 2: If legitimate → pause all marketing content immediately
+  Step 3: Post acknowledgment: "We've seen your feedback about [X].
+           We take this seriously and are looking into it right now."
+  Step 4: Privately reach out to each complainant
+  Step 5: Coordinate with client's customer service team for resolution
+  Step 6: Post resolution/update within 24–48 hours
+  Step 7: If issue is large → consider proactive press release/statement
+
+CRISIS TYPE 5: PLATFORM OUTAGE CAUSING MISSED POSTS/CAMPAIGNS
+───────────────────────────────────────────────────────────────
+
+Instagram/Facebook/TikTok goes down during a major campaign launch.
+
+Response Plan:
+  Step 1: Check DownDetector.com to confirm platform outage
+  Step 2: Do NOT republish immediately when platform comes back (algorithm chaos)
+  Step 3: Wait 2–4 hours after platform recovery before posting
+  Step 4: Inform client: "Platform outage confirmed. Campaign delayed, not canceled."
+  Step 5: Adjust scheduled content timeline
+  Step 6: If time-sensitive: post to alternative platforms first
+  Step 7: Document for client report (this is NOT your fault)
+
+CRISIS TYPE 6: VIRAL BACKLASH ON A CAMPAIGN
+─────────────────────────────────────────────
+
+A campaign you carefully planned lands badly with the audience at scale.
+
+Response Plan:
+  Step 1: Stop all campaign promotion immediately
+  Step 2: Assess whether to keep content up or remove:
+          Keep up if: Backlash is from a small vocal minority
+          Remove if: Widespread negative reaction + media attention
+  Step 3: Post a genuine, specific response (not PR-speak)
+  Step 4: Engage with feedback constructively
+  Step 5: Brief client on what happened and what you're doing
+  Step 6: Redesign or pause the campaign
+  Step 7: Post a "what we heard + what we're changing" update if warranted
+
+══════════════════════════════════════════════════════════════════
+SECTION 4: FIVE CRISIS RESPONSE SCRIPTS
+══════════════════════════════════════════════════════════════════
+
+SCRIPT 1 — GENERAL HOLDING STATEMENT
+(Use when you need to say something fast but don't have full information yet)
+
+  "We've seen the conversation happening around [topic/post/situation] and
+  want you to know we're taking this seriously. We're looking into it right
+  now and will have a full response within [timeframe]. Thank you for bringing
+  this to our attention — it matters to us."
+
+SCRIPT 2 — APOLOGY FOR INSENSITIVE POST
+
+  "We made a mistake. [Post/image/caption] that we published today was [tone-deaf /
+  insensitive / factually wrong], and we've removed it. We sincerely apologize
+  to anyone who was hurt or offended. This does not reflect who we are or what
+  we stand for. We're reviewing our content approval process to make sure this
+  doesn't happen again. Thank you for holding us accountable."
+
+SCRIPT 3 — CUSTOMER COMPLAINT RESPONSE
+
+  "We're really sorry to hear about your experience, [Name]. This isn't the
+  level of service we're known for, and we want to make it right. Could you
+  please DM us or email [address] with your order/account details? Someone
+  from our team will reach out to you directly today."
+
+SCRIPT 4 — HACKED ACCOUNT ANNOUNCEMENT
+
+  "Important notice: Our [platform] account was temporarily compromised
+  earlier today. We have since regained control and secured the account.
+  Any posts made between [time] and [time] were not from us. We apologize
+  for any confusion and have reported the incident to [platform]. Your
+  security is our priority."
+
+SCRIPT 5 — POST-CRISIS WRAP-UP STATEMENT
+
+  "Over the past [timeframe], many of you shared concerns about [topic].
+  We heard you. Here's what we've done: [action 1], [action 2], [action 3].
+  We're committed to doing better. Thank you to everyone who spoke up —
+  your feedback makes us a better [company/brand]."
+
+══════════════════════════════════════════════════════════════════
+SECTION 5: POST-CRISIS DEBRIEF (24–48 Hours Later)
+══════════════════════════════════════════════════════════════════
+
+Complete this with your client within 48 hours of crisis resolution:
+
+  □ What was the root cause of the crisis?
+  □ How long did it take us to respond? (Target: < 1 hour)
+  □ Was our response effective? (Audience reaction positive/negative?)
+  □ What would we do differently?
+  □ What processes need to change to prevent recurrence?
+  □ Are there any ongoing reputation concerns to monitor?
+  □ Do we need to continue monitoring for the next 30 days?
+  □ Any legal follow-up required?
+
+POLICY UPDATES TO MAKE AFTER A CRISIS:
+  → Update content approval checklist to catch similar issues
+  → Add new trigger words to the content review process
+  → Brief any team members or contractors on what happened
+  → Update the "sensitive topics to avoid" section of content brief
+  → Strengthen social listening (set up alerts for brand name mentions)
+
+══════════════════════════════════════════════════════════════════
+SECTION 6: PREVENTIVE MEASURES
+══════════════════════════════════════════════════════════════════
+
+Avoid crises before they happen:
+
+  □ Social listening tool set up (Mention, Brand24, or Google Alerts)
+  □ Content review checklist followed for every post
+  □ Sensitive dates and news events checked before posting
+  □ Two-person review for major campaigns
+  □ All team/contractor accounts secured with 2FA
+  □ Shared passwords stored in a password manager (LastPass, 1Password)
+  □ Crisis plan shared with client before one is needed
+  □ Emergency contact list maintained:
+      → Client's direct phone number
+      → Client's PR contact (if they have one)
+      → Client's lawyer (for legal crises)
+      → Platform support contacts bookmarked
+
+═══════════════════════════════════════════════════════════════════
+© Social Media Manager Agency OS | All rights reserved
+This document is for the buyer's business use only. Not for resale.
+═══════════════════════════════════════════════════════════════════

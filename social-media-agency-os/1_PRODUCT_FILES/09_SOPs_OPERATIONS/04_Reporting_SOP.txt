@@ -1,0 +1,265 @@
+╔══════════════════════════════════════════════════════════════════╗
+║             REPORTING STANDARD OPERATING PROCEDURE               ║
+║              Social Media Manager Agency OS — File 09.04        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+PURPOSE
+───────
+A repeatable reporting system that delivers clear, professional analytics
+reports to clients every month — positioning you as a data-driven expert,
+not just a content creator.
+
+══════════════════════════════════════════════════════════════════
+SECTION 1: DATA COLLECTION SCHEDULE
+══════════════════════════════════════════════════════════════════
+
+WEEKLY MICRO-TRACKING (every Friday — 20 minutes)
+───────────────────────────────────────────────────
+Record these in your internal analytics tracker spreadsheet:
+
+  □ Total followers (each platform)
+  □ Net new followers this week (+/-)
+  □ Total post reach this week
+  □ Average engagement rate this week
+  □ Top performing post (platform, format, reach, engagement)
+  □ Lowest performing post (note format for pattern recognition)
+  □ Story views (if applicable)
+  □ Link clicks (if applicable)
+  □ DMs received this week
+  □ Any viral or unusually high-performing content — screenshot
+
+DATA SOURCES BY PLATFORM:
+  Instagram:    Instagram Insights (Creator/Business account)
+  Facebook:     Facebook Page Insights + Meta Business Suite
+  LinkedIn:     LinkedIn Analytics (Creator Mode or Company Page)
+  TikTok:       TikTok Analytics (Pro Account)
+  Pinterest:    Pinterest Analytics
+  All:          Metricool / Later / Sprout Social (if using third-party)
+  Website:      Google Analytics 4 (if driving traffic)
+
+MONTHLY DATA PULL (Day 21–25 of each month)
+─────────────────────────────────────────────
+
+  □ Export native analytics from each platform (CSV or screenshot)
+  □ Pull from third-party scheduling tool (if applicable)
+  □ Export Google Analytics data (sessions, traffic sources)
+  □ Pull UTM/Bitly link data for tracked campaigns
+  □ Note any paid ad data separately (if running ads)
+  □ Screenshot top 5 performing posts for visual inclusion in report
+  □ Note the date range: 1st to last day of previous month
+
+METRICS TO PULL (per platform):
+  Instagram:
+    → Follower count (start vs. end of month)
+    → Total reach (all posts combined)
+    → Total impressions
+    → Total engagement (likes + comments + saves + shares)
+    → Average engagement rate
+    → Reel views and completion rate
+    → Story views and tap-forward rate
+    → Profile visits
+    → Link-in-bio clicks
+    → Best performing post (reach, engagement rate)
+
+  LinkedIn:
+    → Follower count (start vs. end)
+    → Total impressions
+    → Total engagement
+    → Engagement rate
+    → Profile views
+    → Post clicks
+    → Best performing content
+
+  TikTok:
+    → Follower count (start vs. end)
+    → Video views total
+    → Average watch time
+    → Profile views
+    → Likes, comments, shares total
+    → Best performing video (views, completion rate)
+
+  Facebook:
+    → Page likes / followers
+    → Total reach
+    → Total engagement
+    → Page views
+    → Best performing post
+
+══════════════════════════════════════════════════════════════════
+SECTION 2: REPORTING TIMELINE
+══════════════════════════════════════════════════════════════════
+
+MONTHLY REPORT DELIVERY SCHEDULE:
+
+  Day 21–23:   Pull all platform data and enter into tracker
+  Day 24:      Write insights narrative (Section 3 below)
+  Day 25:      Build report document (use File 05.01 template)
+  Day 26:      Internal review — proofread and QC check
+  Day 27:      Send report to client via email
+  Day 28–30:   Schedule report walkthrough call (optional, value-add)
+
+REPORT EMAIL SUBJECT LINE:
+  "[CLIENT NAME] | [MONTH YEAR] Social Media Performance Report"
+
+REPORT EMAIL BODY:
+  "Hi [Name],
+
+  Your [Month] social media report is ready! Here's a quick snapshot:
+
+  ✅ [Highlight 1 — e.g., Reached 15K accounts (+23%)]
+  ✅ [Highlight 2 — e.g., Your top Reel got 4,200 views]
+  ✅ [Highlight 3 — e.g., Engagement rate above industry average]
+
+  Full report attached. I've included next month's strategy focus at the end.
+
+  Want to jump on a quick 20-minute call to walk through it?
+  [Calendly link]
+
+  [Your name]"
+
+══════════════════════════════════════════════════════════════════
+SECTION 3: WRITING THE INSIGHTS NARRATIVE
+══════════════════════════════════════════════════════════════════
+
+The narrative section turns numbers into meaning. This is what separates
+a great SMM from someone who just sends a screenshot of analytics.
+
+NARRATIVE FRAMEWORK (use this structure every month):
+
+SECTION A — WHAT HAPPENED
+  Write 2–3 sentences summarizing overall performance.
+  
+  Template:
+  "In [Month], [Client Name]'s social media presence [grew/maintained/
+  experienced some challenges with] [key metric]. Overall, the accounts
+  reached [X] people across [platforms], generating [X] engagements —
+  [comparison to last month: up/down X%]."
+
+SECTION B — WHAT WORKED (and why)
+  Identify 2–3 top-performing pieces of content and explain WHY.
+  
+  Template:
+  "[Content piece] was your top performer this month, reaching [X] people
+  with an engagement rate of [X%]. This worked because [reason — format,
+  topic, timing, hook, trend leverage, etc.]. We'll replicate this
+  [format/approach] in [next month]."
+
+SECTION C — WHAT WE LEARNED (what to improve)
+  Be honest but solution-focused. Don't just report problems.
+  
+  Template:
+  "[Content type/topic] underperformed relative to benchmarks this month.
+  Based on the data, [reason — audience not resonating with X, wrong
+  time, oversaturated topic, etc.]. Next month we'll [specific action
+  to address it]."
+
+SECTION D — NEXT MONTH FOCUS
+  End every report looking forward. Clients feel reassured when
+  you have a clear plan.
+  
+  Template:
+  "In [Next Month], our focus will be:
+  1. [Specific strategy or content initiative]
+  2. [Platform or format to double down on]
+  3. [Any campaigns, promotions, or seasonal content]
+  We're aiming to [specific goal with number, e.g., reach 20K accounts]."
+
+TONE GUIDELINES FOR REPORTS:
+  ✓ Confident, not apologetic
+  ✓ Solution-focused (every problem → action)
+  ✓ Plain language (no jargon the client doesn't understand)
+  ✓ Brief narrative (clients want insights, not essays)
+  ✓ Celebrate wins (even small ones — client morale matters)
+  ✗ Never blame the client ("If you gave us better photos...")
+  ✗ Never over-explain failure without a clear fix
+  ✗ Never send a report without narrative — numbers alone are useless
+
+══════════════════════════════════════════════════════════════════
+SECTION 4: QUARTERLY REPORTING (90-DAY REVIEW)
+══════════════════════════════════════════════════════════════════
+
+At the end of every quarter, deliver a strategic 90-day review.
+Full template in File 05.04. Summary of what to include:
+
+  □ 90-day performance summary (all 3 months side-by-side)
+  □ Goal vs. actual comparison
+  □ Top 5 content pieces of the quarter
+  □ Audience growth trend line (chart if possible)
+  □ Content mix performance analysis
+  □ Q+1 strategy recommendation
+  □ Revised goals for next quarter
+  □ ROI calculation (if e-commerce or lead gen in scope)
+
+QUARTERLY REVIEW MEETING AGENDA (60 minutes):
+  0:00–0:10   Relationship check-in (how are they feeling overall?)
+  0:10–0:20   90-day highlights and wins
+  0:20–0:35   Performance deep-dive (data review together)
+  0:35–0:50   Q+1 strategy presentation
+  0:50–0:60   Questions, scope review, retainer renewal discussion
+
+PRO TIP: Use the 90-day review as your retention and upsell meeting.
+If results are strong → ask for referral or testimonial.
+If growth has plateaued → propose an upgrade (new platform, paid ads add-on).
+If the client seems hesitant → address concerns head-on and offer a guarantee.
+
+══════════════════════════════════════════════════════════════════
+SECTION 5: REPORTING TOOLS SETUP
+══════════════════════════════════════════════════════════════════
+
+FREE OPTION:
+  • Native platform analytics (pull manually each month)
+  • Google Sheets for tracking (create one tab per client per month)
+  • Google Slides for report presentation
+  • Canva for visual report design
+
+PAID OPTION (recommended once you have 5+ clients):
+  • Metricool ($18+/month) — all platforms, white-label reports
+  • Sprout Social ($249+/month) — enterprise-grade, beautiful reports
+  • Databox ($72+/month) — real-time dashboards, automated
+
+ANALYTICS TRACKER SPREADSHEET SETUP:
+  Columns:
+  A: Date/Week
+  B: Platform
+  C: Followers (start)
+  D: Followers (end)
+  E: Net Growth
+  F: Reach
+  G: Impressions
+  H: Engagements
+  I: Engagement Rate %
+  J: Top Post URL
+  K: Notes
+
+  Create one Sheet tab per client.
+  Archive each month's data — you'll need it for quarterly reviews.
+
+══════════════════════════════════════════════════════════════════
+SECTION 6: REPORTING RED FLAGS
+══════════════════════════════════════════════════════════════════
+
+Investigate immediately if you see:
+  □ Follower drop of 5%+ in one week (check for spam/bot purge)
+  □ Engagement rate drops below 1% on Instagram (algorithm issue)
+  □ Reach drop of 30%+ with no content change (possible shadowban)
+  □ Traffic from social to website drops to near zero
+  □ Sudden increase in negative comments or DMs
+  □ Post flagged or removed by platform
+  □ Ad account restricted or suspended (if running paid ads)
+
+WHEN TO COMMUNICATE BAD NEWS TO CLIENTS:
+  → Proactively — never let them find it first
+  → With context — explain what happened
+  → With a plan — what you're doing to fix it
+  → Quickly — the same day you notice it
+
+SCRIPT FOR BAD NEWS:
+  "Hi [Name], I wanted to give you a heads-up: [platform/metric] dipped
+  this week, and here's why I think it happened: [reason]. I'm already
+  [action you're taking]. Expect [timeframe] for recovery. Let me know
+  if you have questions — happy to chat."
+
+═══════════════════════════════════════════════════════════════════
+© Social Media Manager Agency OS | All rights reserved
+This document is for the buyer's business use only. Not for resale.
+═══════════════════════════════════════════════════════════════════

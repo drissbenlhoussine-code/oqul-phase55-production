@@ -1,0 +1,277 @@
+╔══════════════════════════════════════════════════════════════════╗
+║         CLIENT MANAGEMENT STANDARD OPERATING PROCEDURE          ║
+║              Social Media Manager Agency OS — File 09.01        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+PURPOSE
+───────
+This SOP ensures every client receives consistent, professional management
+from day one through renewal. Follow this procedure for every active client
+to eliminate miscommunication, missed deadlines, and scope creep.
+
+══════════════════════════════════════════════════════════════════
+SECTION 1: MONTHLY WORKFLOW (DAY-BY-DAY)
+══════════════════════════════════════════════════════════════════
+
+WEEK 1 — PLANNING PHASE (Days 1–7)
+────────────────────────────────────
+
+DAY 1 (1st of month):
+  □ Review client's previous month analytics report
+  □ Note top 3 performing content pieces
+  □ Note 3 content types that underperformed
+  □ Pull any notes from last month's check-in call
+  □ Review competitor activity from past 30 days
+  □ Check industry news / trends for current month
+  □ Update content pillars if needed based on data
+
+DAY 2:
+  □ Draft Month [X] content plan in Google Sheets/Notion
+  □ Map 4 content pillars to specific days/formats
+  □ Create 30-day content calendar with platform notes
+  □ Identify 3–5 promotional moments or events this month
+  □ Flag any campaign content needed (launches, promos)
+  □ Add client approval deadline to shared calendar
+
+DAY 3:
+  □ Write all long-form content: blog excerpts, newsletters
+  □ Draft caption copy for first 2 weeks of posts
+  □ Build 3 carousel or educational slide decks (outlines)
+  □ Create 5–10 Reel hooks/scripts if video is in scope
+  □ Send first batch for client review (Week 1–2 content)
+
+DAYS 4–5:
+  □ Design graphics batch #1 (if design is in scope)
+  □ Source licensed UGC, stock images, product photos
+  □ Schedule Week 1 posts after client approves
+  □ Set up UTM links for any promotional content
+  □ Respond to pending DMs and comments (if in scope)
+
+DAY 7:
+  □ Confirm Week 1 posts are scheduled and live
+  □ Send client brief update message: "Week 1 live ✓"
+  □ Pull engagement data from any prior live posts
+  □ Update analytics tracker spreadsheet
+
+WEEK 2 — EXECUTION PHASE (Days 8–14)
+───────────────────────────────────────
+
+DAY 8:
+  □ Monitor Week 1 post performance
+  □ Boost top post if paid ads are in scope
+  □ Respond to all comments within 2 business hours
+  □ Screenshot any client tags/mentions for reporting
+  □ DM outreach to engaged followers (if community management in scope)
+
+DAY 10:
+  □ Check content approval status for Week 3 batch
+  □ Chase client if content approval is overdue (use Email Template #3)
+  □ Draft Week 3–4 caption copy
+  □ Begin designing graphics batch #2
+
+DAY 14:
+  □ Mid-month performance check-in (2-line internal note):
+      - Follower growth on track? Y/N
+      - Engagement rate above benchmark? Y/N
+  □ Adjust Week 3–4 content strategy based on data
+  □ Send client a mid-month "pulse update" message if engagement is notably high or low
+
+WEEK 3 — MOMENTUM PHASE (Days 15–21)
+───────────────────────────────────────
+
+DAY 15:
+  □ Send Week 3–4 content for client approval
+  □ Schedule approved content
+  □ Continue community management (2x/day checks)
+
+DAY 18:
+  □ Pull mid-month analytics from each platform
+  □ Update internal tracker
+  □ Note any viral posts, tag client, celebrate wins
+
+DAY 21:
+  □ Begin monthly report data collection
+  □ Export platform analytics (native + third-party tool)
+  □ Pull engagement, reach, follower change numbers
+
+WEEK 4 — WRAP-UP PHASE (Days 22–End)
+───────────────────────────────────────
+
+DAY 22:
+  □ Schedule final week of content
+  □ Confirm no gaps in content calendar for month-end
+  □ Check upcoming month: any holidays, awareness days, launches?
+
+DAY 25:
+  □ Draft monthly analytics report
+  □ Write insights narrative (what worked, why, what's next)
+  □ Prepare next month content plan draft
+
+DAY 28:
+  □ Finalize and send monthly report to client
+  □ Send month-end check-in message
+  □ Schedule or confirm next monthly call
+
+DAY 30/31:
+  □ Log all performance data in master tracker
+  □ Archive month's content copies to client folder
+  □ Confirm next month retainer invoice sent (if applicable)
+  □ Review: Is this client at risk of churning? If yes, flag for retention action.
+
+══════════════════════════════════════════════════════════════════
+SECTION 2: TOOL STACK
+══════════════════════════════════════════════════════════════════
+
+CLIENT COMMUNICATION
+  Primary:      Slack (workspace per client or agency workspace)
+  Backup:       Email (professional address, same domain)
+  Video Calls:  Zoom or Google Meet (record all calls)
+  Call Notes:   Otter.ai or Read.ai for auto-transcripts
+
+CONTENT CREATION
+  Copywriting:  Claude AI / ChatGPT (drafts) → human editing
+  Design:       Canva Pro or Adobe Express (templates per client brand)
+  Video:        CapCut (Reels) / DaVinci Resolve (advanced)
+  Stock:        Unsplash, Pexels, Pixabay (free) / Storyblocks (paid)
+
+CONTENT SCHEDULING
+  Multi-platform: Later, Publer, Buffer, or Metricool
+  Facebook/IG:    Meta Business Suite (free, backup scheduler)
+  LinkedIn:       Native scheduler (best performance)
+  Pinterest:      Tailwind (best for SEO + scheduling)
+
+ANALYTICS & REPORTING
+  Primary:      Metricool (all platforms in one dashboard)
+  Social:       Native analytics (always pull natively as backup)
+  Link tracking: Bitly Pro or UTM Builder + Google Analytics
+  Reports:      Google Slides or Notion (client-facing)
+
+PROJECT MANAGEMENT
+  Internal:     Notion, ClickUp, or Asana
+  Client-facing: Notion client portal or Trello
+  Files:        Google Drive (organized per client/month)
+
+INVOICING & FINANCE
+  Invoices:     Wave (free) / HoneyBook / FreshBooks
+  Contracts:    HoneyBook / Bonsai / DocuSign
+  Payments:     Stripe, PayPal Business, or Wise (international)
+
+RECOMMENDED FOLDER STRUCTURE (Google Drive):
+  📁 [CLIENT NAME]/
+     📁 01_Onboarding
+     📁 02_Brand_Assets
+     📁 03_Content_[YEAR]/
+        📁 01_January
+        📁 02_February
+        (etc.)
+     📁 04_Reports
+     📁 05_Contracts_Invoices
+     📁 06_Analytics_Data
+
+══════════════════════════════════════════════════════════════════
+SECTION 3: CLIENT COMMUNICATION PROTOCOLS
+══════════════════════════════════════════════════════════════════
+
+RESPONSE TIME STANDARDS
+  Slack messages:      Within 4 business hours
+  Email:               Within 8 business hours (same business day)
+  Urgent issues:       Within 1 hour (define "urgent" in contract)
+  Weekend/holiday:     Next business day (set auto-reply)
+
+CONTENT APPROVAL PROTOCOL
+  Step 1: Send content batch via agreed method (Slack, email, or portal)
+  Step 2: Allow 48 hours for client review
+  Step 3: If no response in 48h → send one reminder
+  Step 4: If no response in 72h → auto-approve and schedule
+           (This policy must be in your contract. See File 03.01)
+  Step 5: Never hold up posting for unapproved content — protect your schedule
+
+MONTHLY CALL AGENDA (30 minutes)
+  0:00–0:05   Wins & highlights from past month
+  0:05–0:15   Analytics review (top 3 metrics)
+  0:15–0:20   Next month strategy preview
+  0:20–0:25   Any feedback, questions, changes
+  0:25–0:30   Action items recap + next call scheduled
+
+ESCALATION PROTOCOL
+  Level 1 — Minor issue (typo, wrong color):
+    Fix within 4 hours, message client, no meeting needed
+  Level 2 — Strategic concern (campaign not performing):
+    Schedule 20-min call within 48 hours, bring data + solution
+  Level 3 — Crisis (negative PR, major complaint):
+    Use Crisis Protocol SOP (File 09.05), respond within 1 hour
+
+══════════════════════════════════════════════════════════════════
+SECTION 4: SCOPE CREEP PREVENTION
+══════════════════════════════════════════════════════════════════
+
+SCOPE CREEP RED FLAGS
+  □ "Can you also quickly do X?" outside of agreed deliverables
+  □ Requests for platforms not in the contract
+  □ Asking you to manage paid ads when contract is organic-only
+  □ "I know it's not in the scope but..." (it IS out of scope)
+  □ Increasing revision rounds beyond what's agreed
+
+RESPONSE SCRIPT FOR SCOPE CREEP:
+  "That sounds like a great idea! That falls outside our current
+   agreement, but I'd love to add it. I can put together a quick
+   add-on proposal for [X] — would that work for you?"
+
+ADD-ON PRICING EXAMPLES
+  Extra platform:      +$300–$500/month
+  Paid ads management: +$400–$800/month + 10% of ad spend
+  Extra revision round: $75–$150 per round
+  Rush content (<48h):  25–50% surcharge
+  Story management add-on: +$200/month
+
+══════════════════════════════════════════════════════════════════
+SECTION 5: CLIENT HEALTH MONITORING
+══════════════════════════════════════════════════════════════════
+
+MONTHLY CLIENT HEALTH SCORE (rate 1–5 each)
+  [ ] Communication responsiveness: ___/5
+  [ ] Content approval timeliness:   ___/5
+  [ ] Asset provision (photos, info): ___/5
+  [ ] Invoice payment timeliness:    ___/5
+  [ ] Overall satisfaction signals:  ___/5
+  
+  TOTAL: ___/25
+
+  20–25: Excellent — consider asking for referral or case study
+  15–19: Good — maintain current approach
+  10–14: Concern — schedule a strategy call
+  Below 10: At-risk — initiate retention conversation immediately
+
+CHURN PREVENTION TRIGGERS (act immediately if any apply):
+  □ Client hasn't responded to messages in 5+ business days
+  □ Client questioned the value of your service
+  □ Client mentioned "budget cuts" or "reviewing expenses"
+  □ Client asked what would happen if they paused
+  □ Invoice was late 2+ months in a row
+
+RETENTION SCRIPT:
+  "I wanted to check in — I've noticed [specific observation].
+   I want to make sure you're getting maximum value from our work
+   together. Could we schedule 20 minutes to align on your goals
+   for the next quarter?"
+
+══════════════════════════════════════════════════════════════════
+SECTION 6: CLIENT OFFBOARDING TRIGGER CHECKLIST
+══════════════════════════════════════════════════════════════════
+
+  □ Client gave notice to cancel — acknowledge within 24h
+  □ Review contract for notice period requirements
+  □ Calculate final invoice amount and send immediately
+  □ Begin offboarding process (see File 06.01 — Goodbye Packet)
+  □ Complete 40-point offboarding checklist (File 06.02)
+  □ Transfer all assets: passwords, content, analytics data
+  □ Send final wrap-up report (File 06.04)
+  □ Request referral/testimonial (File 06.03)
+  □ Archive client folder in Google Drive
+  □ Remove from active client tracker
+  □ Send to former client email sequence (every 6 months)
+
+═══════════════════════════════════════════════════════════════════
+© Social Media Manager Agency OS | All rights reserved
+This document is for the buyer's business use only. Not for resale.
+═══════════════════════════════════════════════════════════════════

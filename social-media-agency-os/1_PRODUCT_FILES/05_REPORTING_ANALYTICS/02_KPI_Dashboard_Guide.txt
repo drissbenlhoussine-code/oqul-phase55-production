@@ -1,0 +1,155 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      KPI DASHBOARD GUIDE                                   ║
+║         20 Metrics, What They Mean, and How to Track Them                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+INTRODUCTION
+────────────────────────────────────────────────────────────────────────────────
+Not all metrics matter equally. Most clients fixate on follower count because
+it's visible. Your job is to shift their focus to metrics that actually
+indicate whether social media is working as a business tool.
+
+This guide covers the 20 KPIs that matter most, what they tell you,
+and what "good" looks like across industries.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE 20 KPIS — DEFINED WITH FORMULAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ENGAGEMENT RATE
+Formula: (Likes + Comments + Shares + Saves) ÷ Followers × 100
+What it tells you: How interested your audience is in your content.
+Good benchmark: 1-5% for Instagram, 0.5-1% for Facebook, 2-5% for LinkedIn
+Pro tip: Track by content type — your Reels may have 8% while posts have 1.5%
+
+2. REACH RATE
+Formula: Reach ÷ Followers × 100
+What it tells you: What % of your followers actually saw the content.
+Good benchmark: 10-25% for Instagram organic content
+Pro tip: If reach rate drops below 10%, your content strategy needs a reset.
+
+3. FOLLOWER GROWTH RATE
+Formula: (New Followers ÷ Total Followers at Start of Period) × 100
+What it tells you: How quickly your audience is growing.
+Good benchmark: 3-8% monthly for active accounts
+Pro tip: Sudden drops in growth rate often coincide with algorithm changes — document them.
+
+4. SAVE RATE
+Formula: Saves ÷ Reach × 100
+What it tells you: How valuable your content is (saves = "I want to come back to this")
+Good benchmark: 1-3% save rate is strong for Instagram
+Pro tip: High save rate = evergreen educational content that works for months.
+
+5. STORY COMPLETION RATE
+Formula: (Views on last frame ÷ Views on first frame) × 100
+What it tells you: Whether viewers are staying through your Stories
+Good benchmark: 70%+ is excellent; below 50% means Stories need improvement
+Pro tip: Completion drops at every swipe. Keep Stories to 5-7 frames max.
+
+6. CLICK-THROUGH RATE (CTR)
+Formula: Link Clicks ÷ Impressions × 100
+What it tells you: How effective your CTA is at driving action
+Good benchmark: 0.5-1% is average; 2%+ is strong for organic
+Pro tip: A/B test CTAs ("Link in bio" vs "Comment READY and I'll DM you") to find what converts.
+
+7. AMPLIFICATION RATE
+Formula: Shares ÷ Followers × 100
+What it tells you: How often your audience shares content with their network
+Good benchmark: 0.1-0.5% is typical; viral posts hit 2%+
+Pro tip: Shares signal algorithm that content is worth distributing — prioritize shareable content formats.
+
+8. RESPONSE RATE
+Formula: (Comments/DMs you replied to ÷ Total comments/DMs received) × 100
+What it tells you: How actively you're engaging the community
+Good benchmark: 100% — every comment and DM should get a response
+Pro tip: Response time matters too. Within 1 hour of posting = strong algorithm signal.
+
+9. PROFILE VISIT RATE
+Formula: Profile Visits ÷ Reach × 100
+What it tells you: Whether content is compelling enough to make people want to know more
+Good benchmark: 2-5% profile visit rate from reach
+Pro tip: Low profile visits + high reach = content is seen but not compelling enough to investigate further.
+
+10. VIDEO VIEW RATE
+Formula: (Views ÷ Impressions) × 100 for Facebook/LinkedIn; Watch Time % for TikTok
+What it tells you: How engaging your video content is
+Good benchmark: 10-20% view rate; 50%+ watch time on TikTok is strong
+Pro tip: If watch time is low, the problem is almost always the first 3 seconds.
+
+11. NET FOLLOWER CHANGE
+Formula: New Followers Gained - Followers Lost
+What it tells you: Real net growth after unfollows
+Good benchmark: Positive. Any negative number needs investigation.
+Pro tip: Sudden spikes in unfollows often happen after promotional content. Monitor and balance.
+
+12. POST FREQUENCY
+Formula: Total posts ÷ Days in period
+What it tells you: How consistent you are
+Good benchmark: Instagram 3-5x/week; LinkedIn 3-4x/week; TikTok daily
+Pro tip: Consistency > quantity. 3 great posts/week beats 7 mediocre ones.
+
+13. SHARE OF VOICE
+Formula: Brand Mentions ÷ (Brand + Competitor Mentions) × 100
+What it tells you: What % of your niche's online conversation your brand owns
+Good benchmark: Depends on industry; tracking trend over time matters more than absolute number
+Pro tip: Use Brand24 or Mention to track this automatically.
+
+14. AUDIENCE SENTIMENT SCORE
+Formula: Positive Mentions ÷ (Positive + Negative Mentions) × 100
+What it tells you: How people FEEL about the brand in comments/DMs
+Good benchmark: 80%+ positive
+Pro tip: Monitor spikes in negative sentiment — they're early warning signs of a PR issue.
+
+15. WEBSITE TRAFFIC FROM SOCIAL
+Where to track: Google Analytics > Acquisition > Social
+What it tells you: How many website visits social media generates
+Good benchmark: 10-20% of total traffic from social for most SMBs
+Pro tip: Set up UTM parameters on all links to track which posts drive traffic.
+
+16. LEAD CONVERSION FROM SOCIAL
+Formula: Leads from social ÷ Total website visitors from social × 100
+What it tells you: Whether social traffic actually converts
+Good benchmark: 1-3% conversion rate from social traffic
+Pro tip: Use a dedicated landing page for social traffic to track this accurately.
+
+17. COST PER LEAD (PAID CAMPAIGNS)
+Formula: Total Ad Spend ÷ Leads Generated
+What it tells you: Efficiency of paid social
+Good benchmark: Varies wildly by industry; track trend over time
+Pro tip: Your organic cost per lead should be near $0 (just your time).
+
+18. SOCIAL MEDIA ROI
+Formula: (Revenue from Social - Cost of Social) ÷ Cost × 100
+What it tells you: The business return on social media investment
+Good benchmark: 2:1 ROI minimum ($2 returned per $1 spent); 5:1 is excellent
+Pro tip: Requires proper attribution — see ROI Calculator document.
+
+19. AUDIENCE GROWTH BY DEMOGRAPHICS
+Where to track: Platform insights (audience tab)
+What it tells you: Whether you're attracting the right people
+Good benchmark: 70%+ of audience should match your ideal customer profile
+Pro tip: If your audience skews outside your ICA, content strategy needs adjustment.
+
+20. CONTENT SHELF LIFE
+Formula: How long after posting does a piece of content continue getting engagement?
+What it tells you: Whether you're creating evergreen vs. time-sensitive content
+Good benchmark: Carousels and infographics get engagement for 7-14 days; Reels can resurface for weeks
+Pro tip: High shelf-life content = better ROI on production effort.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GOOGLE SHEETS DASHBOARD SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Tab 1: MONTHLY OVERVIEW
+Columns: Month | Followers | New Followers | Reach | Impressions | Eng Rate | Top Post | Notes
+
+Tab 2: POST TRACKER
+Columns: Date | Platform | Format | Topic | Pillar | Likes | Comments | Shares | Saves | Reach | Eng Rate
+
+Tab 3: KPI PROGRESS
+Columns: KPI Name | Baseline | Month 1 | Month 2 | Month 3 | Target | % to Target
+
+Tab 4: CONTENT PERFORMANCE
+Columns: Format | Avg Likes | Avg Comments | Avg Saves | Avg Reach | Avg Eng Rate | Best Performer
+
+PRO TIP: Use conditional formatting — red for below target, yellow for near target, green for on/above target.

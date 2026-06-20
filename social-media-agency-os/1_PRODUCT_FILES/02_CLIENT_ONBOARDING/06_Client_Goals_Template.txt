@@ -1,0 +1,69 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    CLIENT GOALS & KPI TRACKER                              ║
+║           Set measurable goals from Day 1                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client: _____________________  Start Date: _____________
+Agency Contact: _____________  Package: _______________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+90-DAY GOALS (Short-Term)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goal 1: [PLATFORM] Followers
+  Current baseline: ________
+  90-day target:    ________
+  Tracking method:  Monthly follower count
+
+Goal 2: Engagement Rate
+  Current baseline: ________%
+  90-day target:    ________%
+  Tracking method:  (Likes + Comments + Shares) / Followers × 100
+
+Goal 3: Reach / Impressions
+  Current baseline: ________/month
+  90-day target:    ________/month
+  Tracking method:  Platform analytics
+
+Goal 4: [CUSTOM — e.g., Website clicks from social]
+  Current baseline: ________
+  90-day target:    ________
+  Tracking method:  _________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6-MONTH GOALS (Medium-Term)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goal 1: ___________________________
+  Target: ________  Timeline: ________
+
+Goal 2: ___________________________
+  Target: ________  Timeline: ________
+
+Goal 3: ___________________________
+  Target: ________  Timeline: ________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONTHLY KPI TRACKING TABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Metric               │ Baseline │ Month 1 │ Month 2 │ Month 3 │ Month 6
+─────────────────────┼──────────┼─────────┼─────────┼─────────┼─────────
+Instagram Followers  │          │         │         │         │
+Engagement Rate (%)  │          │         │         │         │
+Monthly Reach        │          │         │         │         │
+Profile Visits       │          │         │         │         │
+Story Views (avg)    │          │         │         │         │
+Reel Plays (avg)     │          │         │         │         │
+Link Clicks          │          │         │         │         │
+DMs Received         │          │         │         │         │
+New Followers/Month  │          │         │         │         │
+[CUSTOM METRIC]      │          │         │         │         │
+
+SUCCESS BENCHMARKS BY GOAL TYPE
+────────────────────────────────────────────────────────────────────────────────
+
+AWARENESS Goal: Target 20-40% monthly reach increase, 10-15% follower growth
+ENGAGEMENT Goal: Target 2%+ engagement rate (industry avg: 0.5-1.5%)
+LEAD GEN Goal: Track DMs/inquiries from social, link clicks to booking page
+SALES Goal: Use UTM links to track social-attributed revenue in Google Analytics

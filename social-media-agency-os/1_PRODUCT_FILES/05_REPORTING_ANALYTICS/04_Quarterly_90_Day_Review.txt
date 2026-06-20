@@ -1,0 +1,130 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    QUARTERLY 90-DAY STRATEGY REVIEW                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client:           [CLIENT BUSINESS NAME]
+Quarter:          Q[X] [YEAR]  (Months: [MONTH] — [MONTH])
+Prepared by:      [YOUR NAME], [AGENCY NAME]
+Review Date:      [DATE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUARTER OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goals set at start of quarter:
+1. _______________________________________________________________
+2. _______________________________________________________________
+3. _______________________________________________________________
+
+Key changes during the quarter:
+• [Platform algorithm change, new product launch, seasonal shift, client pivot]
+• _______________________________________________________________
+• _______________________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GOAL VS. ACTUAL RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goal                        │ Target    │ Actual    │ Achieved?
+────────────────────────────┼───────────┼───────────┼──────────
+Instagram Follower Growth   │           │           │
+Engagement Rate             │           │           │
+Monthly Reach               │           │           │
+Website Clicks from Social  │           │           │
+[CUSTOM GOAL 1]             │           │           │
+[CUSTOM GOAL 2]             │           │           │
+
+OVERALL QUARTER SCORE: ___/10
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLATFORM DEEP DIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INSTAGRAM — QUARTER SUMMARY:
+Start followers: ______  End followers: ______  Growth: ______ (___%)
+Best month: ______  Worst month: ______
+Top content format: ______  Least effective format: ______
+Biggest win: _____________________________________________________
+Biggest challenge: _______________________________________________
+
+FACEBOOK — QUARTER SUMMARY:
+[Same structure as above]
+
+LINKEDIN — QUARTER SUMMARY:
+[Same structure as above]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STRATEGY WINS — WHAT WORKED AND WHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WIN 1: [e.g., "Educational carousel series drove 3x more saves than any other content type"]
+WHY: [e.g., "Audience is information-hungry and shares how-to content with colleagues"]
+IMPLICATION: [e.g., "Double down on educational carousels in Q2"]
+
+WIN 2: [OBSERVATION]
+WHY: [EXPLANATION]
+IMPLICATION: [WHAT TO DO WITH THIS INFORMATION]
+
+WIN 3: [OBSERVATION]
+WHY: [EXPLANATION]
+IMPLICATION: [WHAT TO DO WITH THIS INFORMATION]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT DIDN'T WORK — HONEST ASSESSMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXPERIMENT 1: [What we tested — e.g., "Daily Stories for 30 days"]
+Result: [What happened — e.g., "No significant engagement increase; team time cost too high"]
+Learning: [e.g., "5x/week is sufficient; daily Stories didn't move the needle for this client"]
+
+EXPERIMENT 2: [What we tested]
+Result: [What happened]
+Learning: [What this tells us]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPETITOR LANDSCAPE UPDATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Competitor 1: [NAME] — Notable this quarter: ____________________________
+Competitor 2: [NAME] — Notable this quarter: ____________________________
+Competitor 3: [NAME] — Notable this quarter: ____________________________
+
+Competitive gap we can exploit next quarter: _____________________________
+New competitive threat we should be aware of: ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q[NEXT] STRATEGY RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRATEGY SHIFT 1: [e.g., "Add TikTok — competitor gaining 40K views/video; you're missing this audience"]
+RATIONALE: ___________________________________________________________
+SUCCESS METRIC: ______________________________________________________
+
+STRATEGY SHIFT 2: [e.g., "Double Reel production to 4/month — Reels delivering 3x the organic reach of posts"]
+RATIONALE: ___________________________________________________________
+SUCCESS METRIC: ______________________________________________________
+
+STRATEGY SHIFT 3: [e.g., "Launch a weekly educational series for brand authority"]
+RATIONALE: ___________________________________________________________
+SUCCESS METRIC: ______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Q[NEXT] CONTENT FORMAT PLAN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Priority Format 1: [Reels] — Why: [Highest reach per post this quarter]
+Priority Format 2: [Carousels] — Why: [Best save rate and shareability]
+Priority Format 3: [Stories] — Why: [Most direct engagement, DM driver]
+Reduce: [Static single image posts] — Why: [Consistently lowest reach in our data]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTRACT REVIEW & VALUE DISCUSSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Use this section to naturally transition into a renewal or upsell conversation]
+
+Current package: ____________  Monthly investment: $____________
+Next quarter recommendation: ____________  Proposed investment: $____________
+
+Reason for recommendation: ___________________________________________
+Optional add-ons for Q[NEXT]: _________________________________________
