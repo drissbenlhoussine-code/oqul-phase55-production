@@ -1,0 +1,9 @@
+﻿Database,Field Name,Field Type,Description
+Clients,Status,Select,Prospect / Onboarding / Active / Paused / Churned
+Clients,Services,Multi-Select,Bookkeeping / Payroll / Sales Tax / Tax Prep / CFO Advisory
+Tasks,Priority,Select,Low / Medium / High / Urgent
+Tasks,Category,Select,Monthly Close / Report Delivery / Tax / Payroll / Onboarding / Marketing
+Monthly Deadlines,Status,Select,Upcoming / In Progress / Complete / Overdue
+Document Requests,Status,Select,Pending / Received / Not Required
+Services,Pricing Basis,Select,Per month / Per filing / Per form / Annual / Per quarter
+SOP Library,Version,Text,"v1.0, v1.1, v2.0 etc."

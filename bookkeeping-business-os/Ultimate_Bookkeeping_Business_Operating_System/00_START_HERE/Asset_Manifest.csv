@@ -1,0 +1,63 @@
+﻿File Path,Folder,Format,Editable In
+00_START_HERE/README_FIRST.txt,00_START_HERE,TXT,Any text editor
+00_START_HERE/START_HERE_Implementation_Guide.pdf,00_START_HERE,PDF,View only
+01_CLIENT_ACQUISITION/Client_Acquisition_CRM.xlsx,01_CLIENT_ACQUISITION,XLSX,Excel / Google Sheets
+01_CLIENT_ACQUISITION/Cold_Outreach_Templates.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+01_CLIENT_ACQUISITION/Discovery_Call_Script.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+01_CLIENT_ACQUISITION/Follow_Up_Sequence.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+01_CLIENT_ACQUISITION/Objection_Handling_Scripts.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+01_CLIENT_ACQUISITION/Pricing_Guide.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+01_CLIENT_ACQUISITION/Service_Proposal_Template.docx,01_CLIENT_ACQUISITION,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Client_Intake_Form.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Client_Onboarding_Tracker.xlsx,02_CLIENT_ONBOARDING,XLSX,Excel / Google Sheets
+02_CLIENT_ONBOARDING/Kickoff_Call_Script.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Onboarding_Checklist_SOP.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Service_Agreement_Template.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Welcome_Email_Templates.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+03_BOOKKEEPING_SERVICES/Accounts_Payable_SOP.docx,03_BOOKKEEPING_SERVICES,DOCX,Microsoft Word / Google Docs
+03_BOOKKEEPING_SERVICES/Accounts_Receivable_SOP.docx,03_BOOKKEEPING_SERVICES,DOCX,Microsoft Word / Google Docs
+03_BOOKKEEPING_SERVICES/Bank_Reconciliation_SOP.docx,03_BOOKKEEPING_SERVICES,DOCX,Microsoft Word / Google Docs
+03_BOOKKEEPING_SERVICES/Chart_of_Accounts_Guide.docx,03_BOOKKEEPING_SERVICES,DOCX,Microsoft Word / Google Docs
+03_BOOKKEEPING_SERVICES/Monthly_Bookkeeping_SOP.docx,03_BOOKKEEPING_SERVICES,DOCX,Microsoft Word / Google Docs
+04_PAYROLL_SERVICES/New_Employee_Setup_Checklist.docx,04_PAYROLL_SERVICES,DOCX,Microsoft Word / Google Docs
+04_PAYROLL_SERVICES/Payroll_Compliance_Checklist.docx,04_PAYROLL_SERVICES,DOCX,Microsoft Word / Google Docs
+04_PAYROLL_SERVICES/Payroll_Processing_SOP.docx,04_PAYROLL_SERVICES,DOCX,Microsoft Word / Google Docs
+04_PAYROLL_SERVICES/Payroll_Troubleshooting_Guide.docx,04_PAYROLL_SERVICES,DOCX,Microsoft Word / Google Docs
+05_TAX_PREPARATION/Client_Tax_Document_Checklist.docx,05_TAX_PREPARATION,DOCX,Microsoft Word / Google Docs
+05_TAX_PREPARATION/Quarterly_Tax_Estimates_Guide.docx,05_TAX_PREPARATION,DOCX,Microsoft Word / Google Docs
+05_TAX_PREPARATION/Tax_Season_SOP.docx,05_TAX_PREPARATION,DOCX,Microsoft Word / Google Docs
+05_TAX_PREPARATION/Year_End_Close_Checklist.docx,05_TAX_PREPARATION,DOCX,Microsoft Word / Google Docs
+06_CLIENT_COMMUNICATION/Client_Questions_Scripts.docx,06_CLIENT_COMMUNICATION,DOCX,Microsoft Word / Google Docs
+06_CLIENT_COMMUNICATION/Difficult_Conversation_Scripts.docx,06_CLIENT_COMMUNICATION,DOCX,Microsoft Word / Google Docs
+06_CLIENT_COMMUNICATION/Monthly_Report_Email_Templates.docx,06_CLIENT_COMMUNICATION,DOCX,Microsoft Word / Google Docs
+06_CLIENT_COMMUNICATION/Newsletter_Templates.docx,06_CLIENT_COMMUNICATION,DOCX,Microsoft Word / Google Docs
+07_COMPLIANCE_LEGAL/Confidentiality_Policy.docx,07_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+07_COMPLIANCE_LEGAL/Data_Security_Policy.docx,07_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+07_COMPLIANCE_LEGAL/Engagement_Letter_Template.docx,07_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+07_COMPLIANCE_LEGAL/Legal_Template_Use_Guide.pdf,07_COMPLIANCE_LEGAL,PDF,View only
+08_FINANCIAL_REPORTING/Cash_Flow_Analysis_Guide.docx,08_FINANCIAL_REPORTING,DOCX,Microsoft Word / Google Docs
+08_FINANCIAL_REPORTING/Financial_Dashboard.xlsx,08_FINANCIAL_REPORTING,XLSX,Excel / Google Sheets
+08_FINANCIAL_REPORTING/Financial_Review_Meeting_Script.docx,08_FINANCIAL_REPORTING,DOCX,Microsoft Word / Google Docs
+08_FINANCIAL_REPORTING/KPI_Reporting_Guide.docx,08_FINANCIAL_REPORTING,DOCX,Microsoft Word / Google Docs
+08_FINANCIAL_REPORTING/Monthly_Financial_Report_Template.docx,08_FINANCIAL_REPORTING,DOCX,Microsoft Word / Google Docs
+09_BUSINESS_OPERATIONS/Bookkeeper_Training_Manual.docx,09_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+09_BUSINESS_OPERATIONS/Business_Goals_Workbook.docx,09_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+09_BUSINESS_OPERATIONS/Business_KPI_Dashboard.xlsx,09_BUSINESS_OPERATIONS,XLSX,Excel / Google Sheets
+09_BUSINESS_OPERATIONS/Team_Management_Guide.docx,09_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+10_NOTION_WORKSPACE/Clients_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Database_Field_Map.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Document_Requests_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Monthly_Deadlines_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/NOTION_WORKSPACE_SETUP.md,10_NOTION_WORKSPACE,MD,Notion / Text Editor
+10_NOTION_WORKSPACE/Notion_Workspace_Setup_Guide.pdf,10_NOTION_WORKSPACE,PDF,View only
+10_NOTION_WORKSPACE/SOP_Library.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Services_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Tasks_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+11_BONUSES/100_Bookkeeping_Content_Ideas.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+11_BONUSES/365_Bookkeeping_Content_Captions.csv,11_BONUSES,CSV,Excel / Google Sheets / Notion
+11_BONUSES/Bookkeeper_Success_Framework.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+11_BONUSES/Bookkeeping_Business_Growth_Roadmap.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Client_Proposal.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Monthly_Report.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Social_Post_Pack.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Tax_Season_Checklist.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
