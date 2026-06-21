@@ -1,0 +1,4 @@
+﻿Placement ID,Candidate Name,Client Company,Role Placed,Start Date,Base Salary,Fee %,Fee Amount,Guarantee End,Status,Recruiter
+PL-001,Previous Candidate A,Acme Corp,Director of Sales,Oct 1,"$145,000",20%,"$29,000",Dec 30,Active — Guaranteed,[Recruiter]
+PL-002,Previous Candidate B,Beta Inc,Sr. Engineer,Nov 15,"$165,000",20%,"$33,000",Feb 13,Active — Guaranteed,[Recruiter]
+PL-003,Previous Candidate C,Gamma Co,CFO,Sep 1,"$210,000",25%,"$52,500",Nov 30,Guarantee Expired,[Recruiter]

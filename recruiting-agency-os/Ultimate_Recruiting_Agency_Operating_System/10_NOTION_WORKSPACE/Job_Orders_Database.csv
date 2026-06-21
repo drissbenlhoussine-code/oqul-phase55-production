@@ -1,0 +1,5 @@
+﻿Job Order ID,Client,Role Title,Department,Salary Min,Salary Max,Location,Remote,Start Date Target,Date Opened,Status,Recruiter,Priority
+JO-001,Acme Corp,VP of Sales,Sales,"$130,000","$150,000","New York, NY",Hybrid,Feb 1,Jan 5,Active,[Recruiter],High
+JO-002,Beta Inc,Senior Engineer,Engineering,"$150,000","$180,000",Remote,Full Remote,Feb 15,Jan 3,Interviewing,[Recruiter],High
+JO-003,Gamma Co,Marketing Manager,Marketing,"$110,000","$130,000","Chicago, IL",Hybrid,Jan 20,Dec 28,Offer Stage,[Recruiter],Urgent
+JO-004,Delta LLC,Operations Director,Operations,"$120,000","$140,000","Austin, TX",On-Site,Mar 1,Jan 10,Sourcing,[Recruiter],Medium
