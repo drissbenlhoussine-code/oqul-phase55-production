@@ -1,0 +1,21 @@
+﻿Tool,Category,Use Case,Pricing,Rating,Notes
+Make (Integromat),Automation Platform,Complex multi-step automations,$9-$29/mo,5/5,Best for agency use
+Zapier,Automation Platform,"Simple automations, client-facing",$19-$69/mo,4/5,Most integrations
+n8n,Automation Platform,"Self-hosted, code-friendly",Free (self-hosted),4/5,Best for technical teams
+OpenAI API,AI Model,GPT-4 for all AI tasks,Pay per use,5/5,Industry standard
+Anthropic Claude API,AI Model,"Long docs, complex instructions",Pay per use,5/5,Best for analysis
+Google Gemini,AI Model,"High volume, multimodal",Pay per use,4/5,Best cost for volume
+Clearbit,Data Enrichment,Enrich leads with company data,$99/mo+,4/5,B2B lead enrichment
+Apollo.io,Data Enrichment,B2B email finder + database,$49/mo,5/5,Best value data tool
+Hunter.io,Data Enrichment,Email finder,Free-$49/mo,4/5,Simple email finding
+Tidio,Chatbot Platform,AI chatbot implementation,$19-$65/mo,4/5,Easy to implement
+Intercom,Chatbot Platform,Enterprise customer service AI,$74/mo+,5/5,Best enterprise option
+Airtable,Database,No-code database for automations,$10-$20/mo,4/5,Great for data storage
+Notion,Documentation,Agency ops and client portals,$8-$16/mo,5/5,Essential for agencies
+DocuSign,E-Signature,Contract signing,$25/mo,5/5,Most trusted e-sign
+Loom,Video,Client delivery and training,$12-$15/mo,5/5,Best for async video
+Browse AI,Web Scraping,Competitor monitoring,$19-$99/mo,4/5,No-code scraping
+Phantombuster,LinkedIn Automation,LinkedIn data extraction,$59/mo,4/5,LinkedIn outreach
+Twilio,SMS/Communication,SMS automations,Pay per use,5/5,Best SMS API
+Mailchimp,Email Marketing,Email automation campaigns,Free-$59/mo,4/5,Most popular
+Klaviyo,Email Marketing,E-commerce email automation,$20-$150/mo,5/5,Best for Shopify

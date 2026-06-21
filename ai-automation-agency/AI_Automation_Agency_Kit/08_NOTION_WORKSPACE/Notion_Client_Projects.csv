@@ -1,0 +1,6 @@
+﻿Project ID,Client,Automation Type,Status,Value,Start Date,Delivery Date,Notes
+P001,Apex Dental Group,Appointment Reminder,In Build,"$3,800","Jan 10, 2026","Jan 24, 2026",SMS + email reminders
+P002,Metro Real Estate,Lead Qualification AI,Testing,"$8,500","Jan 5, 2026","Jan 20, 2026",GPT-4 ICP scoring
+P003,TechFlow SaaS,Customer Onboarding,Delivered,"$12,000","Dec 1, 2025","Dec 20, 2025",7-step onboarding flow
+P004,Sunrise E-Commerce,Abandoned Cart,Proposal,"$3,200",--,--,3-email sequence
+P005,Pacific Law Firm,Client Intake,Discovery,"$7,500",--,--,Needs intake form built

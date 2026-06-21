@@ -1,0 +1,7 @@
+﻿Invoice #,Client,Issue Date,Due Date,Amount,Status,Payment Date,Method
+INV-2026-001,Rodriguez Family LLC,"Jan 1, 2026","Jan 15, 2026",$450,Paid,"Jan 12, 2026",ACH
+INV-2026-002,Coastal Plumbing Co.,"Jan 1, 2026","Jan 15, 2026",$650,Paid,"Jan 14, 2026",Check
+INV-2026-003,Sunrise Yoga Studio,"Jan 1, 2026","Jan 15, 2026",$350,Paid,"Jan 10, 2026",ACH
+INV-2026-004,Hartwell Construction,"Jan 1, 2026","Jan 15, 2026",$950,Paid,"Jan 8, 2026",ACH
+INV-2026-005,Blossom Boutique,"Jan 1, 2026","Jan 15, 2026",$350,Paid,"Jan 16, 2026",Credit Card
+INV-2026-006,TechStart Solutions,"Jan 1, 2026","Jan 15, 2026",$650,Outstanding,,

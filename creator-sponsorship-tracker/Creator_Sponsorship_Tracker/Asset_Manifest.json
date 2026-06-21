@@ -1,0 +1,95 @@
+{
+  "product": "Content Creator Sponsorship Tracker",
+  "files": [
+    {
+      "folder": "01_SPONSORSHIP_TRACKER",
+      "file": "Master_Sponsorship_Tracker.xlsx",
+      "size_kb": 7.2
+    },
+    {
+      "folder": "02_BRAND_DEAL_PIPELINE",
+      "file": "Brand_Deal_Pipeline.xlsx",
+      "size_kb": 5.7
+    },
+    {
+      "folder": "02_BRAND_DEAL_PIPELINE",
+      "file": "Pipeline_Management_Guide.docx",
+      "size_kb": 36.6
+    },
+    {
+      "folder": "03_INCOME_AND_TAXES",
+      "file": "Creator_Tax_Guide.docx",
+      "size_kb": 36.7
+    },
+    {
+      "folder": "03_INCOME_AND_TAXES",
+      "file": "Income_Tax_Tracker.xlsx",
+      "size_kb": 7.5
+    },
+    {
+      "folder": "04_CONTENT_CALENDAR",
+      "file": "Annual_Content_Plan.csv",
+      "size_kb": 1.1
+    },
+    {
+      "folder": "04_CONTENT_CALENDAR",
+      "file": "Sponsored_Content_Calendar.xlsx",
+      "size_kb": 6.0
+    },
+    {
+      "folder": "05_BRAND_PITCH_SYSTEM",
+      "file": "Brand_Pitch_System.docx",
+      "size_kb": 37.5
+    },
+    {
+      "folder": "06_ANALYTICS_DASHBOARD",
+      "file": "Channel_Analytics_Dashboard.xlsx",
+      "size_kb": 7.1
+    },
+    {
+      "folder": "07_CONTRACTS_AND_INVOICES",
+      "file": "Invoice_Guide.docx",
+      "size_kb": 36.5
+    },
+    {
+      "folder": "07_CONTRACTS_AND_INVOICES",
+      "file": "Sponsorship_Agreement_Template.docx",
+      "size_kb": 37.5
+    },
+    {
+      "folder": "08_NOTION_DATABASES",
+      "file": "Brand_Contact_Database.csv",
+      "size_kb": 1.2
+    },
+    {
+      "folder": "08_NOTION_DATABASES",
+      "file": "Sponsorship_Master_DB.csv",
+      "size_kb": 1.1
+    },
+    {
+      "folder": "09_YOUTUBE_SPECIFIC",
+      "file": "YouTube_Sponsorship_Playbook.docx",
+      "size_kb": 37.3
+    },
+    {
+      "folder": "10_INSTAGRAM_SPECIFIC",
+      "file": "Instagram_Sponsorship_Playbook.docx",
+      "size_kb": 37.0
+    },
+    {
+      "folder": "11_TIKTOK_SPECIFIC",
+      "file": "TikTok_Sponsorship_Playbook.docx",
+      "size_kb": 37.1
+    },
+    {
+      "folder": "12_BONUS_RESOURCES",
+      "file": "Creator_Sponsorship_Deck.pptx",
+      "size_kb": 31.3
+    },
+    {
+      "folder": "12_BONUS_RESOURCES",
+      "file": "Sponsorship_Rate_Guide.docx",
+      "size_kb": 36.5
+    }
+  ]
+}

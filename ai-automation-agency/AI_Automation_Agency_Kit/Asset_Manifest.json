@@ -1,0 +1,96 @@
+{
+  "product": "AI Automation Agency Starter Kit",
+  "total_files": 18,
+  "files": [
+    {
+      "path": "AI_Automation_Agency_Guide.pdf",
+      "type": "PDF",
+      "size": "2.5 KB"
+    },
+    {
+      "path": "00_START_HERE/Welcome_and_Overview.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Business_Plan_Template.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Financial_Model_and_Pricing.xlsx",
+      "type": "XLSX",
+      "size": "6.3 KB"
+    },
+    {
+      "path": "02_SERVICE_MENU/Complete_Service_Menu.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "03_CLIENT_ACQUISITION/Lead_Pipeline_Tracker.xlsx",
+      "type": "XLSX",
+      "size": "5.6 KB"
+    },
+    {
+      "path": "03_CLIENT_ACQUISITION/Outreach_Templates.docx",
+      "type": "DOCX",
+      "size": "37.1 KB"
+    },
+    {
+      "path": "04_PROPOSAL_TEMPLATES/Automation_Proposal_Template.docx",
+      "type": "DOCX",
+      "size": "37.1 KB"
+    },
+    {
+      "path": "05_AUTOMATION_BLUEPRINTS/30_Automation_Blueprints.docx",
+      "type": "DOCX",
+      "size": "39.3 KB"
+    },
+    {
+      "path": "06_DELIVERY_PROCESS/Delivery_SOP.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "07_TOOLS_AND_TECH/Tools_and_Tech_Stack.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "08_NOTION_WORKSPACE/Notion_Automation_Library.csv",
+      "type": "CSV",
+      "size": "0.9 KB"
+    },
+    {
+      "path": "08_NOTION_WORKSPACE/Notion_Client_Projects.csv",
+      "type": "CSV",
+      "size": "0.6 KB"
+    },
+    {
+      "path": "08_NOTION_WORKSPACE/Notion_Revenue_Tracker.csv",
+      "type": "CSV",
+      "size": "0.4 KB"
+    },
+    {
+      "path": "08_NOTION_WORKSPACE/Notion_Setup_Guide.md",
+      "type": "MD",
+      "size": "0.7 KB"
+    },
+    {
+      "path": "09_CANVA_TEMPLATES/Agency_Pitch_Deck.pptx",
+      "type": "PPTX",
+      "size": "34.8 KB"
+    },
+    {
+      "path": "10_BONUSES/AI_Tools_Directory.csv",
+      "type": "CSV",
+      "size": "1.7 KB"
+    },
+    {
+      "path": "10_BONUSES/Agency_Growth_Guide.docx",
+      "type": "DOCX",
+      "size": "36.6 KB"
+    }
+  ]
+}

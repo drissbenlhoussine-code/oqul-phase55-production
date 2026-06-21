@@ -1,0 +1,56 @@
+TITLE:
+Notion Client Portal for Agencies | Client Management System | 5 Databases | Canva Templates | Editable
+
+DESCRIPTION:
+Give your agency clients a premium, professional client experience with this complete Notion-based client portal system. Stop sending files via email -- centralize everything in a beautiful, branded workspace.
+
+WHAT'S INCLUDED:
+
+CLIENT PORTAL DATABASES (5 CSV files - import directly to Notion):
+- Client Master Database (track all clients, packages, MRR, status)
+- Project Tracker (all deliverables with status, due dates, owners)
+- Content Calendar (post planning with approval workflow)
+- Invoice and Payments Log
+- Analytics Report Log
+
+PROJECT MANAGEMENT TEMPLATES (CSV):
+- Sprint Board template
+- Deliverables Tracker
+
+CLIENT ONBOARDING:
+- Complete onboarding workbook (brand discovery, audience, goals, access)
+
+REPORTING TEMPLATES:
+- Professional monthly report template (platform metrics, top content, next month strategy)
+
+COMMUNICATION HUB:
+- Agency-client communication SOP (response times, monthly rhythm, content approval workflow)
+
+CANVA TEMPLATES:
+- Client Portal Overview Deck (3 slides, PPTX - import to Canva)
+
+SETUP GUIDES:
+- Complete Notion setup guide (step-by-step, 6 pages)
+
+BONUS:
+- Agency KPI Dashboard (XLSX)
+
+PERFECT FOR:
+- Social media agencies wanting professional client portals
+- Marketing agencies tired of email chains
+- Freelancers ready to impress clients with a polished system
+- OBMs and VAs wanting a client-facing workspace
+- Any agency wanting to reduce client confusion and increase retention
+
+HOW IT WORKS:
+1. Import CSVs to Notion
+2. Create a portal page for each client
+3. Share ONLY their page with them
+4. Clients approve content, view reports, and communicate -- all in one place
+
+FORMATS: CSV (Notion), DOCX, XLSX, PDF, PPTX (Canva), MD (Markdown)
+
+INSTANT DIGITAL DOWNLOAD
+
+TAGS:
+notion template, client portal, agency client management, notion client portal, social media agency, project management notion, client management system, notion database, agency templates, client onboarding, notion agency, content calendar notion, crm notion, client dashboard, agency toolkit

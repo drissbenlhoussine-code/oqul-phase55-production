@@ -1,0 +1,24 @@
+﻿Term,Definition,Used In
+ATS,Applicant Tracking System. Software used to manage candidates and job orders,Operations
+Bill Rate,The hourly rate charged to the client for a contract worker,Contract Staffing
+Boolean Search,Search technique using operators (AND/OR/NOT) to find specific candidates,Sourcing
+Counter Offer,When a candidate's current employer makes an offer to retain them,Placements
+Direct Hire,Permanent placement where agency recruits a candidate for a full-time role,Services
+Fall-Off,When a placed candidate leaves or is terminated during the guarantee period,Placements
+Fill Rate,Percentage of job orders filled by the agency. Benchmark: 40-60%,Metrics
+Guarantee Period,Time period during which agency will replace a placed candidate at no charge,Services
+Hiring Manager,The person at the client company who will directly manage the new hire,Client Dev
+InMail,LinkedIn's premium direct message feature for reaching non-connections,Sourcing
+Job Order,A formal request from a client for staffing assistance on a specific role,Operations
+Mark-Up,The percentage added above a contractor's pay rate to arrive at the bill rate,Contract
+Passive Candidate,Someone who is employed and not actively job searching but open to opportunities,Sourcing
+Pay Rate,The hourly or salary rate paid directly to the contractor or placed employee,Compensation
+Placement Fee,The one-time fee paid by the client for a direct hire placement,Direct Hire
+Retained Search,Executive search where client pays upfront retainer; agency works exclusively,Services
+Screening,Initial evaluation of a candidate for basic qualifications and fit,Process
+Slate,"A group of pre-screened, submitted candidates presented to a client",Process
+Sourcing,The process of identifying and reaching out to potential candidates,Process
+Split Placement,"When two agencies share a placement: one has the job, one has the candidate",Industry
+Submission,Sending a candidate's profile to a client for consideration,Process
+Time-to-Fill,The number of days from job order open date to candidate start date,Metrics
+W-2 Employee,"Employee on the agency's payroll, receiving a W-2 tax form",Contract

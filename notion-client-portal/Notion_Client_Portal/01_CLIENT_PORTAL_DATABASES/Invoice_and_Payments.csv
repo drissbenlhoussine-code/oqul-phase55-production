@@ -1,0 +1,7 @@
+﻿Invoice #,Client,Month,Amount,Issue Date,Due Date,Status,Payment Method
+INV-2026-001,TechVenture Inc,January 2026,"$3,500","Jan 1, 2026","Jan 10, 2026",Paid,ACH
+INV-2026-002,Bloom Marketing,January 2026,"$2,000","Jan 1, 2026","Jan 10, 2026",Paid,Credit Card
+INV-2026-003,Pacific Dental Group,January 2026,"$5,500","Jan 1, 2026","Jan 10, 2026",Paid,ACH
+INV-2026-004,Green Living Co,January 2026,"$3,500","Jan 1, 2026","Jan 10, 2026",Outstanding,
+INV-2026-005,Summit Law Firm,January 2026,"$2,000","Jan 1, 2026","Jan 10, 2026",Paid,Check
+INV-2026-006,Creative Studio X,January 2026,"$3,500","Jan 10, 2026","Jan 20, 2026",Draft,
