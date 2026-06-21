@@ -1,0 +1,375 @@
+{
+  "product": "Ultimate Real Estate Agent Operating System",
+  "version": "1.0",
+  "price_original": "\u20ac149",
+  "price_launch": "\u20ac39",
+  "total_files": 61,
+  "files": [
+    {
+      "file": "05_TRANSACTION_MANAGEMENT/Appraisal_Management_SOP.docx",
+      "folder": "05_TRANSACTION_MANAGEMENT",
+      "type": "DOCX",
+      "size_bytes": 37599
+    },
+    {
+      "file": "05_TRANSACTION_MANAGEMENT/Closing_Day_Checklist.docx",
+      "folder": "05_TRANSACTION_MANAGEMENT",
+      "type": "DOCX",
+      "size_bytes": 37614
+    },
+    {
+      "file": "05_TRANSACTION_MANAGEMENT/Contract_To_Close_SOP.docx",
+      "folder": "05_TRANSACTION_MANAGEMENT",
+      "type": "DOCX",
+      "size_bytes": 37585
+    },
+    {
+      "file": "05_TRANSACTION_MANAGEMENT/Transaction_Checklist.docx",
+      "folder": "05_TRANSACTION_MANAGEMENT",
+      "type": "DOCX",
+      "size_bytes": 37288
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Buyer_Consultation_Presentation.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 35106
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Listing_Presentation_Template.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 36178
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Monthly_Market_Update_Template.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 32410
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Social_Media_Content_Pack.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 33551
+    },
+    {
+      "file": "03_SELLER_SERVICES/Listing_Marketing_Checklist.docx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37721
+    },
+    {
+      "file": "03_SELLER_SERVICES/Listing_Pipeline_Tracker.xlsx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "XLSX",
+      "size_bytes": 5531
+    },
+    {
+      "file": "03_SELLER_SERVICES/Listing_Presentation_Script.docx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 38035
+    },
+    {
+      "file": "03_SELLER_SERVICES/Price_Reduction_Scripts.docx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37840
+    },
+    {
+      "file": "03_SELLER_SERVICES/Pricing_Strategy_Guide.docx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37810
+    },
+    {
+      "file": "03_SELLER_SERVICES/Seller_Communication_SOP.docx",
+      "folder": "03_SELLER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37602
+    },
+    {
+      "file": "11_BONUSES/365_Social_Media_Captions.csv",
+      "folder": "11_BONUSES",
+      "type": "CSV",
+      "size_bytes": 53370
+    },
+    {
+      "file": "11_BONUSES/Real_Estate_Marketing_Playbook.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 38431
+    },
+    {
+      "file": "11_BONUSES/Real_Estate_Scripts_Vault.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 39033
+    },
+    {
+      "file": "11_BONUSES/Top_Producer_Success_System.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 38162
+    },
+    {
+      "file": "01_LEAD_GENERATION/Cold_Outreach_Templates.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 38346
+    },
+    {
+      "file": "01_LEAD_GENERATION/Digital_Lead_Nurture_Sequence.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37839
+    },
+    {
+      "file": "01_LEAD_GENERATION/Lead_Generation_CRM.xlsx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "XLSX",
+      "size_bytes": 6444
+    },
+    {
+      "file": "01_LEAD_GENERATION/Open_House_Lead_System.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37829
+    },
+    {
+      "file": "01_LEAD_GENERATION/Referral_Partner_Scripts.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37734
+    },
+    {
+      "file": "01_LEAD_GENERATION/Social_Media_Lead_Strategy.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37899
+    },
+    {
+      "file": "01_LEAD_GENERATION/Sphere_Of_Influence_System.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37900
+    },
+    {
+      "file": "08_POST_CLOSING_RETENTION/Client_Reviews_Testimonials_System.docx",
+      "folder": "08_POST_CLOSING_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 37918
+    },
+    {
+      "file": "08_POST_CLOSING_RETENTION/Post_Closing_Follow_Up_System.docx",
+      "folder": "08_POST_CLOSING_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 38350
+    },
+    {
+      "file": "08_POST_CLOSING_RETENTION/Sphere_Of_Influence_Nurture_Plan.docx",
+      "folder": "08_POST_CLOSING_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 37931
+    },
+    {
+      "file": "00_START_HERE/README_FIRST.txt",
+      "folder": "00_START_HERE",
+      "type": "TXT",
+      "size_bytes": 1636
+    },
+    {
+      "file": "07_COMPLIANCE_LEGAL/Agency_Relationship_Guide.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "type": "DOCX",
+      "size_bytes": 37515
+    },
+    {
+      "file": "07_COMPLIANCE_LEGAL/Disclosure_Requirements_Guide.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "type": "DOCX",
+      "size_bytes": 37726
+    },
+    {
+      "file": "07_COMPLIANCE_LEGAL/Fair_Housing_Compliance_Guide.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "type": "DOCX",
+      "size_bytes": 37769
+    },
+    {
+      "file": "07_COMPLIANCE_LEGAL/Real_Estate_Compliance_Guide.pdf",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "type": "PDF",
+      "size_bytes": 3699
+    },
+    {
+      "file": "07_COMPLIANCE_LEGAL/Record_Keeping_Policy.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "type": "DOCX",
+      "size_bytes": 37463
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Annual_Business_Plan.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37388
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Business_Operations_Dashboard.xlsx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "type": "XLSX",
+      "size_bytes": 7821
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Commission_Tracking_System.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37736
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Real_Estate_Business_Growth_Workbook.pdf",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "type": "PDF",
+      "size_bytes": 3219
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Weekly_Agent_Schedule_Template.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37664
+    },
+    {
+      "file": "04_NEGOTIATION/Counter_Offer_SOP.docx",
+      "folder": "04_NEGOTIATION",
+      "type": "DOCX",
+      "size_bytes": 37520
+    },
+    {
+      "file": "04_NEGOTIATION/Inspection_Negotiation_Scripts.docx",
+      "folder": "04_NEGOTIATION",
+      "type": "DOCX",
+      "size_bytes": 37910
+    },
+    {
+      "file": "04_NEGOTIATION/Multiple_Offer_Guide.docx",
+      "folder": "04_NEGOTIATION",
+      "type": "DOCX",
+      "size_bytes": 37830
+    },
+    {
+      "file": "04_NEGOTIATION/Offer_Negotiation_Scripts.docx",
+      "folder": "04_NEGOTIATION",
+      "type": "DOCX",
+      "size_bytes": 37904
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Active_Clients.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1076
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Lead_Tracker.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1536
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Listing_Inventory.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 820
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Notion_Workspace_Setup_Guide.md",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "MD",
+      "size_bytes": 3262
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Open_House_Tracker.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 627
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Real_Estate_Agent_OS_User_Guide.pdf",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "PDF",
+      "size_bytes": 4432
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Referral_Partner_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1234
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Showing_Feedback_Log.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 785
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Transaction_Pipeline.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 709
+    },
+    {
+      "file": "02_BUYER_SERVICES/Buyer_Consultation_Script.docx",
+      "folder": "02_BUYER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 38032
+    },
+    {
+      "file": "02_BUYER_SERVICES/Buyer_Pipeline_Tracker.xlsx",
+      "folder": "02_BUYER_SERVICES",
+      "type": "XLSX",
+      "size_bytes": 5458
+    },
+    {
+      "file": "02_BUYER_SERVICES/First_Time_Buyer_Guide.docx",
+      "folder": "02_BUYER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 38135
+    },
+    {
+      "file": "02_BUYER_SERVICES/Home_Showing_Checklist.docx",
+      "folder": "02_BUYER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37569
+    },
+    {
+      "file": "02_BUYER_SERVICES/Offer_Writing_SOP.docx",
+      "folder": "02_BUYER_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37875
+    },
+    {
+      "file": "06_CLIENT_COMMUNICATION/Difficult_Conversation_Scripts.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37778
+    },
+    {
+      "file": "06_CLIENT_COMMUNICATION/Email_Templates.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 38008
+    },
+    {
+      "file": "06_CLIENT_COMMUNICATION/Text_Templates.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37610
+    },
+    {
+      "file": "06_CLIENT_COMMUNICATION/Weekly_Update_Scripts.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37480
+    }
+  ]
+}

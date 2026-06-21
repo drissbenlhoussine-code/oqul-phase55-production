@@ -1,0 +1,7 @@
+﻿Client ID,Full Name,Phone,Email,Type,Status,Property Address,Price,Contract Date,Close Date,Lender,Notes
+C001,Thomas Brown,(555) 112-2334,tbrown@email.com,Buyer,Under Contract,"456 Maple Ave, Riverside","$412,000",2024-01-15,2024-02-15,First National Bank,"20% down, conventional loan"
+C002,Patricia Lee,(555) 223-3445,plee@email.com,Seller,Active Listing,"789 Pine Road, Lakewood","$365,000",2024-01-10,,N/A,"Listed 1/10, 3 showings scheduled"
+C003,Christopher Harris,(555) 334-4556,charris@email.com,Buyer,Active Search,,"$290,000-$350,000",,,Riverside Credit Union,"Need 3BR, 2BA, fenced yard"
+C004,Barbara Clark,(555) 445-5667,bclark@email.com,Seller,Under Contract,"321 Elm Drive, Hillside","$525,000",2024-01-20,2024-02-28,,"Cash offer, quick close"
+C005,Kevin Lewis,(555) 556-6778,klewis@email.com,Buyer,Offer Pending,147 Willow Way,"$445,000",,,Summit Mortgage,"Offer submitted, waiting on response"
+C006,Margaret Walker,(555) 667-7889,mwalker@email.com,Seller,Pre-Listing,"987 Cedar Lane, Westport","$620,000",,,N/A,"Pre-listing prep, staging consult 1/25"

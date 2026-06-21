@@ -1,0 +1,5 @@
+﻿Transaction ID,Property,Client,Type,Status,Contract Price,Commission,Close Date,Lender,Title Company,Inspector,Days to Close,Notes
+TXN-001,456 Maple Ave,Thomas Brown,Buyer,Active,"$412,000","$10,300",2024-02-15,First National Bank,Premier Title,HomeCheck Pro,21,Appraisal ordered
+TXN-002,321 Elm Drive,Barbara Clark,Seller,Inspections,"$525,000","$13,125",2024-02-28,Cash,Lakeside Title,Done,28,Inspection repair list negotiation
+TXN-003,147 Willow Way,Kevin Lewis,Buyer,Offer Pending,"$445,000","$13,350",Projected 2/28,Summit Mortgage,TBD,TBD,35,Waiting seller response
+TXN-004,987 Cedar Lane,Margaret Walker,Seller,Pre-Listing,"$620,000","$15,500",Projected 3/15,N/A,TBD,TBD,55,Staging in progress
