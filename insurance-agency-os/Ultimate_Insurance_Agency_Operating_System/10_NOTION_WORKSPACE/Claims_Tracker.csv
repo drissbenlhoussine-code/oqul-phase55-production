@@ -1,0 +1,6 @@
+﻿Claim #,Client Name,Policy Type,Date Filed,Carrier,Loss Type,Status,Settlement,Days Open,Adjuster,Last Update,Agent Notes
+CLM-001,Thomas Brown,Auto,2024-01-05,Travelers,Rear-end collision,Open,TBD,15,Mike Torres,Adjuster inspected vehicle 1/12,Awaiting repair estimate
+CLM-002,Patricia Davis,Home,2023-12-20,Nationwide,Wind damage,Settled,"$8,500",40,Sarah Chen,Check issued 1/29,Client satisfied with outcome
+CLM-003,Linda Martinez,Home+Flood,2024-01-10,Allstate,Water damage,Open,TBD,10,James Wu,Inspector scheduled 1/18,Flood adjuster separate from homeowner adjuster
+CLM-004,Michael Lee,WC,2023-11-15,Hartford,Employee injury,Open,"$24,000 reserve",65,Tom Hill,IME scheduled 2/1,Employee back to work light duty
+CLM-005,Sandra Wilson,Auto,2023-12-28,Progressive,Parking lot fender bender,Settled,"$1,200",22,Lena Park,Closed 1/19,"Minor claim, no rate impact expected"

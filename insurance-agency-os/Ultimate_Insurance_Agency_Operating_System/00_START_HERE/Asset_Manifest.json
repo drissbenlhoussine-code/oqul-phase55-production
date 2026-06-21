@@ -1,0 +1,369 @@
+{
+  "product": "Ultimate Insurance Agency Operating System",
+  "version": "1.0",
+  "price_original": "\u20ac149",
+  "price_launch": "\u20ac39",
+  "total_files": 60,
+  "files": [
+    {
+      "file": "06_COMPLIANCE_LICENSING/Agency_Compliance_Reference_Guide.pdf",
+      "folder": "06_COMPLIANCE_LICENSING",
+      "type": "PDF",
+      "size_bytes": 3234
+    },
+    {
+      "file": "06_COMPLIANCE_LICENSING/Carrier_Appointment_SOP.docx",
+      "folder": "06_COMPLIANCE_LICENSING",
+      "type": "DOCX",
+      "size_bytes": 37572
+    },
+    {
+      "file": "06_COMPLIANCE_LICENSING/Compliance_Checklist.docx",
+      "folder": "06_COMPLIANCE_LICENSING",
+      "type": "DOCX",
+      "size_bytes": 37573
+    },
+    {
+      "file": "06_COMPLIANCE_LICENSING/E_and_O_Best_Practices.docx",
+      "folder": "06_COMPLIANCE_LICENSING",
+      "type": "DOCX",
+      "size_bytes": 37806
+    },
+    {
+      "file": "06_COMPLIANCE_LICENSING/State_Licensing_Guide.docx",
+      "folder": "06_COMPLIANCE_LICENSING",
+      "type": "DOCX",
+      "size_bytes": 37561
+    },
+    {
+      "file": "04_CLAIMS_SUPPORT/Claims_Advocacy_Guide.docx",
+      "folder": "04_CLAIMS_SUPPORT",
+      "type": "DOCX",
+      "size_bytes": 37921
+    },
+    {
+      "file": "04_CLAIMS_SUPPORT/Claims_Communication_Templates.docx",
+      "folder": "04_CLAIMS_SUPPORT",
+      "type": "DOCX",
+      "size_bytes": 37729
+    },
+    {
+      "file": "04_CLAIMS_SUPPORT/First_Notice_Of_Loss_SOP.docx",
+      "folder": "04_CLAIMS_SUPPORT",
+      "type": "DOCX",
+      "size_bytes": 37831
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Insurance_Review_Presentation.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 34573
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Market_Update_Template.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 30793
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/New_Client_Welcome_Presentation.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 30904
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Social_Media_Content_Pack.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "type": "PPTX",
+      "size_bytes": 33782
+    },
+    {
+      "file": "07_CARRIER_RELATIONSHIPS/Carrier_Negotiation_Guide.docx",
+      "folder": "07_CARRIER_RELATIONSHIPS",
+      "type": "DOCX",
+      "size_bytes": 37614
+    },
+    {
+      "file": "07_CARRIER_RELATIONSHIPS/Market_Access_Strategy.docx",
+      "folder": "07_CARRIER_RELATIONSHIPS",
+      "type": "DOCX",
+      "size_bytes": 37414
+    },
+    {
+      "file": "07_CARRIER_RELATIONSHIPS/Underwriting_Submission_Guide.docx",
+      "folder": "07_CARRIER_RELATIONSHIPS",
+      "type": "DOCX",
+      "size_bytes": 37643
+    },
+    {
+      "file": "11_BONUSES/365_Social_Media_Captions.csv",
+      "folder": "11_BONUSES",
+      "type": "CSV",
+      "size_bytes": 57786
+    },
+    {
+      "file": "11_BONUSES/Agency_Growth_Playbook.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 37926
+    },
+    {
+      "file": "11_BONUSES/Insurance_Product_Knowledge_Guide.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 37808
+    },
+    {
+      "file": "11_BONUSES/Insurance_Scripts_Vault.docx",
+      "folder": "11_BONUSES",
+      "type": "DOCX",
+      "size_bytes": 38077
+    },
+    {
+      "file": "09_POST_SALE_RETENTION/Annual_Review_Scripts.docx",
+      "folder": "09_POST_SALE_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 37773
+    },
+    {
+      "file": "09_POST_SALE_RETENTION/Client_Appreciation_Program.docx",
+      "folder": "09_POST_SALE_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 37583
+    },
+    {
+      "file": "09_POST_SALE_RETENTION/Client_Retention_System.docx",
+      "folder": "09_POST_SALE_RETENTION",
+      "type": "DOCX",
+      "size_bytes": 37901
+    },
+    {
+      "file": "09_POST_SALE_RETENTION/Client_Retention_Workbook.pdf",
+      "folder": "09_POST_SALE_RETENTION",
+      "type": "PDF",
+      "size_bytes": 2905
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Client_Email_Templates.docx",
+      "folder": "05_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37938
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Client_Newsletter_Template.docx",
+      "folder": "05_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37924
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Phone_Script_Library.docx",
+      "folder": "05_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37456
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Text_Message_Templates.docx",
+      "folder": "05_CLIENT_COMMUNICATION",
+      "type": "DOCX",
+      "size_bytes": 37494
+    },
+    {
+      "file": "01_LEAD_GENERATION/Agency_CRM.xlsx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "XLSX",
+      "size_bytes": 8495
+    },
+    {
+      "file": "01_LEAD_GENERATION/Cold_Outreach_Templates.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 38007
+    },
+    {
+      "file": "01_LEAD_GENERATION/Digital_Lead_Nurture_Sequence.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 38204
+    },
+    {
+      "file": "01_LEAD_GENERATION/Networking_Event_Scripts.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37758
+    },
+    {
+      "file": "01_LEAD_GENERATION/Phone_Prospecting_Scripts.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 38174
+    },
+    {
+      "file": "01_LEAD_GENERATION/Referral_Partner_Program.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 38021
+    },
+    {
+      "file": "01_LEAD_GENERATION/Social_Media_Lead_Strategy.docx",
+      "folder": "01_LEAD_GENERATION",
+      "type": "DOCX",
+      "size_bytes": 37739
+    },
+    {
+      "file": "08_AGENCY_OPERATIONS/Agency_Hiring_Guide.docx",
+      "folder": "08_AGENCY_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37910
+    },
+    {
+      "file": "08_AGENCY_OPERATIONS/Agency_KPI_Dashboard.xlsx",
+      "folder": "08_AGENCY_OPERATIONS",
+      "type": "XLSX",
+      "size_bytes": 6751
+    },
+    {
+      "file": "08_AGENCY_OPERATIONS/Agency_Operations_Manual.docx",
+      "folder": "08_AGENCY_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37601
+    },
+    {
+      "file": "08_AGENCY_OPERATIONS/Agency_Training_Program.docx",
+      "folder": "08_AGENCY_OPERATIONS",
+      "type": "DOCX",
+      "size_bytes": 37621
+    },
+    {
+      "file": "02_SALES_PROCESS/Closing_Techniques.docx",
+      "folder": "02_SALES_PROCESS",
+      "type": "DOCX",
+      "size_bytes": 37628
+    },
+    {
+      "file": "02_SALES_PROCESS/Insurance_Proposal_Template.docx",
+      "folder": "02_SALES_PROCESS",
+      "type": "DOCX",
+      "size_bytes": 37924
+    },
+    {
+      "file": "02_SALES_PROCESS/Multi_Carrier_Quoting_SOP.docx",
+      "folder": "02_SALES_PROCESS",
+      "type": "DOCX",
+      "size_bytes": 37810
+    },
+    {
+      "file": "02_SALES_PROCESS/Needs_Analysis_Framework.docx",
+      "folder": "02_SALES_PROCESS",
+      "type": "DOCX",
+      "size_bytes": 37946
+    },
+    {
+      "file": "02_SALES_PROCESS/Objection_Handling_Scripts.docx",
+      "folder": "02_SALES_PROCESS",
+      "type": "DOCX",
+      "size_bytes": 37851
+    },
+    {
+      "file": "00_START_HERE/Product_Overview.docx",
+      "folder": "00_START_HERE",
+      "type": "DOCX",
+      "size_bytes": 37427
+    },
+    {
+      "file": "00_START_HERE/Quick_Start_Checklist.docx",
+      "folder": "00_START_HERE",
+      "type": "DOCX",
+      "size_bytes": 37403
+    },
+    {
+      "file": "00_START_HERE/README_FIRST.txt",
+      "folder": "00_START_HERE",
+      "type": "TXT",
+      "size_bytes": 1776
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Claims_Tracker.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 882
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Client_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1088
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Commission_Tracker.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 693
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Insurance_Agency_OS_User_Guide.pdf",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "PDF",
+      "size_bytes": 3679
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Lead_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1312
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Notion_Setup_Guide.md",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "MD",
+      "size_bytes": 2722
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Policy_Renewal_Queue.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 826
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Producer_Activity_Log.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 1079
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Referral_Partner_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "type": "CSV",
+      "size_bytes": 971
+    },
+    {
+      "file": "03_POLICY_SERVICES/Annual_Policy_Review_SOP.docx",
+      "folder": "03_POLICY_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 38005
+    },
+    {
+      "file": "03_POLICY_SERVICES/Cross_Sell_Upsell_Playbook.docx",
+      "folder": "03_POLICY_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37934
+    },
+    {
+      "file": "03_POLICY_SERVICES/New_Client_Onboarding_SOP.docx",
+      "folder": "03_POLICY_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37935
+    },
+    {
+      "file": "03_POLICY_SERVICES/Policy_Endorsement_Request_SOP.docx",
+      "folder": "03_POLICY_SERVICES",
+      "type": "DOCX",
+      "size_bytes": 37533
+    },
+    {
+      "file": "03_POLICY_SERVICES/Policy_Renewal_Tracker.xlsx",
+      "folder": "03_POLICY_SERVICES",
+      "type": "XLSX",
+      "size_bytes": 6975
+    }
+  ]
+}
