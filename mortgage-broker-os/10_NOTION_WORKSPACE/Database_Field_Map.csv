@@ -1,0 +1,11 @@
+﻿Database,Field Name,Field Type,Links To,Notes
+Leads,Name,Title,,Primary identifier
+Leads,Stage,Select,,Pipeline stage
+Leads,Owner,Person,,Assigned broker
+Clients,Name,Title,,Primary identifier
+Clients,Loan Type,Select,,Conv/FHA/VA/USDA
+Applications,Client,Relation,Clients,Links to client record
+Applications,Stage,Select,,Pipeline stage
+Tasks,Client,Relation,Clients,Links to client record
+Tasks,Assignee,Person,,Team member responsible
+Compliance Log,Client,Relation,Clients,Links to client record
