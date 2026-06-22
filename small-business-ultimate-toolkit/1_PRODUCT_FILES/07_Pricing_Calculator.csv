@@ -1,0 +1,15 @@
+Metric,Scenario A - Product,Scenario B - Service,Scenario C - Digital Product
+Cost of Materials/Product,$12.50,$0.00,$0.00
+Labour/Time Spent (hours),2,3,1
+Hourly Rate ($),$25.00,$75.00,$50.00
+Labour Cost (Time x Rate),$50.00,$225.00,$50.00
+Overhead Cost (monthly share),$8.00,$15.00,$5.00
+Total Cost,$70.50,$240.00,$55.00
+Desired Profit Margin %,40%,50%,70%
+Suggested Selling Price,$117.50,$480.00,$183.33
+Estimated Profit per Sale,$47.00,$240.00,$128.33
+Break-Even Units per Month,22,6,14
+Monthly Target Revenue,$2585.00,$2880.00,$2566.62
+NOTES - Scenario A,Physical product with materials and packaging,Adjust hourly rate to your market rate,Include material cost if applicable
+NOTES - Scenario B,Service-based pricing at premium rate,Consider value-based pricing above cost+margin,Track time accurately for profitability
+NOTES - Scenario C,Digital product sold repeatedly,Low ongoing cost = high margin potential,Factor in platform fees (Etsy/Gumroad etc)

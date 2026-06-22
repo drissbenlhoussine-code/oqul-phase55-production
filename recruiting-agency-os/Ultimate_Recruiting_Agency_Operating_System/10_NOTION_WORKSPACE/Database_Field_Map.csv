@@ -1,0 +1,11 @@
+﻿Database,Field Name,Field Type,Description
+Candidates,Name,Title,Candidate full name
+Candidates,Stage,Select,Phone Screen / Submitted / Interviewing / Offer / Placed / Rejected
+Candidates,Score,Number,1–10 assessment score
+Job Orders,Status,Select,Sourcing / Active / Interviewing / Offer / Filled / On Hold / Cancelled
+Job Orders,Priority,Select,Low / Medium / High / Urgent
+Clients,Status,Select,Prospect / Onboarding / Active / Inactive
+Placements,Guarantee End,Date,90 days from start date
+Tasks,Priority,Select,Low / Medium / High / Urgent
+BD Pipeline,Stage,Select,Cold / Contacted / Discovery / Proposal / Negotiation / Won / Lost
+Content Calendar,Status,Select,Idea / Drafted / Scheduled / Published

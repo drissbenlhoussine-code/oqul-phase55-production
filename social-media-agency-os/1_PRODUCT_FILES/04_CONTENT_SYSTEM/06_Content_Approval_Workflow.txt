@@ -1,0 +1,116 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    CONTENT APPROVAL WORKFLOW                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+THE WORKFLOW AT A GLANCE
+────────────────────────────────────────────────────────────────────────────────
+
+[BRIEF] → [CREATE] → [INTERNAL REVIEW] → [CLIENT PREVIEW] → [REVISIONS] → [FINAL APPROVAL] → [SCHEDULE] → [POST] → [ARCHIVE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STAGE-BY-STAGE BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STAGE 1 — BRIEF (Day 1-2 of each month)
+Who: Account Manager
+What: Fill out Content Brief for each post. Add to content calendar.
+Trigger to move on: Brief is complete and assigned to creator.
+Time: 30-60 mins per client per month for full batch briefing
+
+STAGE 2 — CREATE (Day 3-8)
+Who: Content Creator (graphics) + Copywriter (captions)
+What: Produce all visuals and captions per brief. Save to shared folder.
+Naming convention: CLIENT-IG-POST-2025-01-15-v1
+Trigger to move on: All files saved and marked "Ready for Internal Review"
+Time: 2-4 hours per client per batch (10-12 posts)
+
+STAGE 3 — INTERNAL REVIEW (Day 8-9)
+Who: Account Manager or Agency Owner
+What: Review every post against the 15-point checklist below.
+Trigger to move on: All posts pass internal review OR revisions requested from creator.
+Time: 45-90 mins per client batch
+
+INTERNAL REVIEW CHECKLIST (15 items):
+□ No spelling or grammar errors
+□ Brand voice is consistent throughout
+□ Caption hook is strong (would YOU stop scrolling?)
+□ Key message is clear in the first 2 lines
+□ CTA is present and specific
+□ Hashtags are appropriate (not banned, count is correct)
+□ Image is high resolution (no pixelation or blur)
+□ Brand colors are correct (check HEX codes)
+□ Logo is present where required
+□ No incorrect claims, exaggerations, or brand inconsistencies
+□ Dimensions are correct for the platform and format
+□ Any links in caption/bio are working
+□ Content aligns with brand strategy and content pillars
+□ No competitor mentions or comparisons
+□ Content feels appropriate for platform (LinkedIn ≠ TikTok tone)
+
+STAGE 4 — CLIENT PREVIEW (Day 9-10)
+Who: Account Manager sends to client
+What: Package up all posts in a clean document (PDF or Google Slides)
+Format per post: Image/graphic + Caption draft + Hashtags + Publish date + Format
+Delivery: Email or shared Google Drive folder
+Subject line: "[CLIENT NAME] — Content Preview — [MONTH] — Please review by [DATE]"
+Trigger to move on: Client responds with feedback OR deadline passes
+
+STAGE 5 — REVISIONS (Day 10-12)
+Who: Creator or Copywriter
+What: Make approved changes only. Do not redesign without new brief.
+Max rounds: Per contract (Starter: 1, Growth: 2, Agency: Unlimited)
+Revision request policy: Changes must be specific ("Change headline color to navy" ✓ vs "it doesn't feel right" ✗)
+For vague feedback: "Could you help me get more specific? For example, is it the color, the font, or the overall layout that doesn't feel right?"
+Trigger to move on: Revisions complete, files updated to v2, sent back to client
+
+STAGE 6 — FINAL APPROVAL (Day 12-13)
+Who: Client
+What: Final sign-off. "Approved" reply or checkmark per post.
+If no response within 48 hours: Send reminder. If still no response 24 hours before post: post as-is per contract clause.
+Trigger to move on: Written approval received
+
+STAGE 7 — SCHEDULE (Day 13-14)
+Who: Account Manager or Scheduler
+What: Upload all approved content to scheduling tool (Later, Hootsuite, Buffer)
+Pre-schedule checklist:
+□ Image uploaded at correct dimensions
+□ Caption pasted exactly as approved
+□ Hashtags included
+□ Posting time set for optimal time (check analytics)
+□ Link in bio updated if required
+□ Tagged accounts added if applicable
+Trigger to move on: All posts scheduled, confirmed in tool
+
+STAGE 8 — POST & MONITOR (Publish Day)
+Who: Community Manager or Account Manager
+What: Confirm post went live (sometimes scheduling tools fail). Monitor first 60 minutes.
+First 60 Minutes Protocol:
+• 0-5 min: Check post is live. Reply to first comment immediately if any.
+• 5-15 min: Share to Stories (if Instagram). Add poll or question sticker if relevant.
+• 15-30 min: Engage on 5-10 posts from similar accounts in the same niche.
+• 30-60 min: Reply to ALL comments. Respond to DMs triggered by post. Check early insights.
+
+STAGE 9 — ARCHIVE (End of month)
+Who: Account Manager
+What: Move all posted content to the client's archive folder.
+Folder structure: /[CLIENT]/[YEAR]/[MONTH]/[PLATFORM]/Posted
+Keep: Final approved versions. Delete: Drafts and rejected versions after 30 days.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMERGENCY POST PROCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When client needs a post live in under 24 hours:
+1. Client submits emergency request with full brief via [preferred channel]
+2. Agency confirms receipt and capacity within 2 hours
+3. Emergency fee applied: $75-$150 depending on complexity (in contract)
+4. Turnaround: 6-12 hours for simple post, 12-18 hours for Reel
+5. Approval window: 1 hour for emergency posts (client must be available)
+6. No guarantee of production quality equal to standard workflow
+
+VERSION CONTROL NAMING SYSTEM:
+CLIENT-PLATFORM-TYPE-DATE-VERSION
+Example: ABC_IG_POST_2025-01-15_v1
+                                   _v2 (after revisions)
+                                   _FINAL (after approval)
+                                   _POSTED (after going live)

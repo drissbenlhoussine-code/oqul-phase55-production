@@ -1,0 +1,7 @@
+﻿Policy #,Client Name,Line,Carrier,Renewal Date,Current Premium,Status,Action,Priority,Agent
+POL-001,Linda Martinez,Home+Auto+Flood,Allstate,2024-04-15,"$3,900",Shop Market,Call by 3/15,HIGH,Agent Smith
+POL-002,Sandra Wilson,Home+Auto+Life,Progressive,2024-05-30,"$5,400",Review,Annual review scheduled 5/1,MEDIUM,Agent Smith
+POL-003,Thomas Brown,Home+Auto,Travelers,2024-06-15,"$2,850",Auto-Renew,Confirm + cross-sell umbrella,MEDIUM,Agent Smith
+POL-004,Patricia Davis,Home+Auto+Umbrella,Nationwide,2024-07-01,"$4,100",Review,VIP review — in-person meeting,HIGH,Agent Smith
+POL-005,Kevin Thompson,Auto,GEICO,2024-09-01,"$1,100",Cross-Sell,Upsell opportunity — buying a home,MEDIUM,Agent Jones
+POL-006,Michael Lee,BOP+WC+Auto,Hartford,2024-08-15,"$11,200",Loss Runs,Request 5-yr loss runs by 7/1,HIGH,Agent Jones

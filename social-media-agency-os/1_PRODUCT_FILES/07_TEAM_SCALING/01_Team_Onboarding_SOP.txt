@@ -1,0 +1,83 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    NEW TEAM MEMBER / CONTRACTOR ONBOARDING SOP             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PRE-HIRE CHECKLIST (Before Day 1)
+────────────────────────────────────────────────────────────────────────────────
+□ Contractor Agreement signed (see Freelancer Hire Contract)
+□ NDA signed
+□ Invoice/payment terms confirmed
+□ Role description and first 30-day expectations shared in writing
+□ Access granted to tools (see tool list below)
+□ Scheduling tool access set up with their email
+□ Added to Slack/Discord with correct channels
+□ Added to Notion workspace (view-only until confirmed competent)
+□ Welcome email sent with Day 1 agenda
+
+WEEK 1 — DAY BY DAY
+────────────────────────────────────────────────────────────────────────────────
+
+DAY 1: WELCOME & ORIENTATION (2-3 hours together)
+• Introduction call: who you are, how the agency works, team structure
+• Agency values and client service standards explained
+• Walk through the tools stack (screen share): Notion, scheduling tool, Canva, Slack
+• Assign first test task (low stakes — see below)
+• Share the Client Management SOP and ask them to read it by Day 3
+• Answer any questions — make them feel genuinely welcomed
+
+DAY 2-3: SHADOW PHASE
+• They shadow you on an existing client's content workflow
+• They review 2-3 recently published posts and analyze why they performed
+• They read the Content Creation SOP completely
+• Small assignment: write 3 caption drafts for an existing client (you review)
+
+DAY 4-5: FIRST SUPERVISED TASK
+• Assign their first real task: content brief for one client post
+• They complete it, you review and give detailed feedback
+• If quality is acceptable: assign Week 2 tasks
+• If not: give clear written feedback and one revision round
+
+FIRST 30 DAYS — MILESTONES
+────────────────────────────────────────────────────────────────────────────────
+
+By Day 7:   Can fill out a Content Brief independently for any client
+By Day 14:  Can write on-brand captions for 2+ clients with minimal edits
+By Day 21:  Can manage a full content batch (brief → draft → submit) independently
+By Day 30:  Client work reviewed directly; passes internal review first try 80%+ of the time
+
+TOOLS & ACCESS SETUP
+────────────────────────────────────────────────────────────────────────────────
+
+Tool              Access Level          How to Set Up
+─────────────────────────────────────────────────────────────────────
+Later/Buffer      Content Creator       Invite via email — workspace member
+Canva             Editor               Invite to brand team — limit to client templates only
+Notion            Editor (assigned)    Add as workspace guest, assign relevant client pages
+Slack             Member               Add to #general, #client-[name] channels only
+Google Drive      Viewer → Editor      Share specific client folder, not full agency drive
+Asana/Trello      Member               Add to client project board only
+
+BRAND VOICE TRAINING
+────────────────────────────────────────────────────────────────────────────────
+For each new client they'll work on:
+1. Share the completed Brand Strategy Worksheet
+2. Share 5 examples of approved posts they wrote well
+3. Share 3 examples of content that was rejected and WHY
+4. Have them write 5 caption drafts before going live
+5. Review together — give specific feedback on voice, not just grammar
+
+PERFORMANCE EXPECTATIONS
+────────────────────────────────────────────────────────────────────────────────
+
+Communication: Respond to Slack messages within 2 hours during business hours
+Deadlines:     All work delivered by deadline or proactively communicated 24 hrs early
+Quality:       First drafts should require no more than 1 round of revisions after 30 days
+Professionalism: All client information is strictly confidential at all times
+
+COMMON ONBOARDING MISTAKES (and how to avoid them):
+────────────────────────────────────────────────────────────────────────────────
+• Rushing to give them client access before they've proven quality — SLOW DOWN
+• Not giving written feedback — verbal feedback is forgotten; write it
+• Not having a test assignment — always give a low-stakes first task
+• Assuming they understand your brand voice instinctively — always train explicitly
+• Skipping the NDA — non-negotiable before sharing any client info

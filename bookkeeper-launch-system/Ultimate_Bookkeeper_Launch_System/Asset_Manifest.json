@@ -1,0 +1,197 @@
+{
+  "product": "Ultimate Bookkeeper Launch System",
+  "version": "2.0",
+  "total_files": 38,
+  "files": [
+    {
+      "path": "Bookkeeper_Launch_Guide.pdf",
+      "type": "PDF",
+      "size": "3.4 KB"
+    },
+    {
+      "path": "00_START_HERE/Product_Overview.docx",
+      "type": "DOCX",
+      "size": "38.5 KB"
+    },
+    {
+      "path": "00_START_HERE/Quick_Start_Checklist.docx",
+      "type": "DOCX",
+      "size": "38.5 KB"
+    },
+    {
+      "path": "00_START_HERE/README_FIRST.txt",
+      "type": "TXT",
+      "size": "4.9 KB"
+    },
+    {
+      "path": "01_BUSINESS_SETUP/Brand_Identity_Guide.docx",
+      "type": "DOCX",
+      "size": "39.8 KB"
+    },
+    {
+      "path": "01_BUSINESS_SETUP/Business_Plan_Template.docx",
+      "type": "DOCX",
+      "size": "38.9 KB"
+    },
+    {
+      "path": "01_BUSINESS_SETUP/Business_Registration_Checklist.docx",
+      "type": "DOCX",
+      "size": "39.9 KB"
+    },
+    {
+      "path": "02_TECH_STACK_SETUP/Accounting_Software_Comparison.docx",
+      "type": "DOCX",
+      "size": "38.8 KB"
+    },
+    {
+      "path": "02_TECH_STACK_SETUP/Chart_of_Accounts_Setup_Guide.docx",
+      "type": "DOCX",
+      "size": "38.5 KB"
+    },
+    {
+      "path": "02_TECH_STACK_SETUP/Software_Setup_Checklist.docx",
+      "type": "DOCX",
+      "size": "38.1 KB"
+    },
+    {
+      "path": "02_TECH_STACK_SETUP/Tech_Stack_Recommendations.docx",
+      "type": "DOCX",
+      "size": "38.9 KB"
+    },
+    {
+      "path": "03_PRICING_PACKAGING/Service_Packages_Guide.docx",
+      "type": "DOCX",
+      "size": "39.2 KB"
+    },
+    {
+      "path": "03_PRICING_PACKAGING/Value_Pricing_Guide.docx",
+      "type": "DOCX",
+      "size": "39.5 KB"
+    },
+    {
+      "path": "04_CLIENT_MANAGEMENT/Client_Communication_Templates.docx",
+      "type": "DOCX",
+      "size": "37.3 KB"
+    },
+    {
+      "path": "04_CLIENT_MANAGEMENT/Client_Database_Tracker.xlsx",
+      "type": "XLSX",
+      "size": "7.4 KB"
+    },
+    {
+      "path": "04_CLIENT_MANAGEMENT/Client_Onboarding_Guide.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "05_BOOKKEEPING_SYSTEMS/Bookkeeping_Systems_Workbook.xlsx",
+      "type": "XLSX",
+      "size": "8.3 KB"
+    },
+    {
+      "path": "05_BOOKKEEPING_SYSTEMS/Financial_Statements_Guide.docx",
+      "type": "DOCX",
+      "size": "37.0 KB"
+    },
+    {
+      "path": "05_BOOKKEEPING_SYSTEMS/Reconciliation_Guide.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "06_TAX_PREP_SUPPORT/Tax_Basics_Guide.docx",
+      "type": "DOCX",
+      "size": "37.0 KB"
+    },
+    {
+      "path": "06_TAX_PREP_SUPPORT/Tax_Planning_Workbook.xlsx",
+      "type": "XLSX",
+      "size": "6.4 KB"
+    },
+    {
+      "path": "06_TAX_PREP_SUPPORT/Tax_Prep_Document_Checklist.docx",
+      "type": "DOCX",
+      "size": "36.6 KB"
+    },
+    {
+      "path": "07_SOFTWARE_TOOLS/QuickBooks_Setup_Guide.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "07_SOFTWARE_TOOLS/Software_Comparison_Guide.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "08_BUSINESS_OPERATIONS/Business_Planning_Workbook.xlsx",
+      "type": "XLSX",
+      "size": "6.2 KB"
+    },
+    {
+      "path": "08_BUSINESS_OPERATIONS/Marketing_Guide.docx",
+      "type": "DOCX",
+      "size": "37.0 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Client_Roster.csv",
+      "type": "CSV",
+      "size": "0.8 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Expense_Log.csv",
+      "type": "CSV",
+      "size": "0.7 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Invoice_Log.csv",
+      "type": "CSV",
+      "size": "0.6 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Lead_Pipeline.csv",
+      "type": "CSV",
+      "size": "0.6 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Monthly_Task_Board.csv",
+      "type": "CSV",
+      "size": "0.5 KB"
+    },
+    {
+      "path": "09_NOTION_WORKSPACE/Notion_Setup_Guide.md",
+      "type": "MD",
+      "size": "1.2 KB"
+    },
+    {
+      "path": "10_CANVA_TEMPLATES/Client_Welcome_Deck.pptx",
+      "type": "PPTX",
+      "size": "32.8 KB"
+    },
+    {
+      "path": "10_CANVA_TEMPLATES/Services_Overview_Deck.pptx",
+      "type": "PPTX",
+      "size": "34.6 KB"
+    },
+    {
+      "path": "11_BONUSES/52_Week_Content_Calendar.csv",
+      "type": "CSV",
+      "size": "7.4 KB"
+    },
+    {
+      "path": "11_BONUSES/Bookkeeper_Growth_Playbook.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "11_BONUSES/Bookkeeper_Scripts_Vault.docx",
+      "type": "DOCX",
+      "size": "37.2 KB"
+    },
+    {
+      "path": "12_ETSY_RESOURCES/Etsy_Bookkeeping_Resource_Guide.docx",
+      "type": "DOCX",
+      "size": "36.4 KB"
+    }
+  ]
+}

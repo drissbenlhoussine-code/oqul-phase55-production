@@ -1,0 +1,307 @@
+{
+  "product": "AI Social Media Agency OS",
+  "version": "2.0",
+  "total_files": 60,
+  "files": [
+    {
+      "path": "AI_SMMA_OS_User_Guide.pdf",
+      "type": "PDF",
+      "size": "4.4 KB"
+    },
+    {
+      "path": "SMMA_Agency_Growth_Guide.pdf",
+      "type": "PDF",
+      "size": "3.8 KB"
+    },
+    {
+      "path": "00_START_HERE/Product_Overview.docx",
+      "type": "DOCX",
+      "size": "37.9 KB"
+    },
+    {
+      "path": "00_START_HERE/Quick_Start_7Day_Guide.docx",
+      "type": "DOCX",
+      "size": "38.8 KB"
+    },
+    {
+      "path": "00_START_HERE/README_FIRST.txt",
+      "type": "TXT",
+      "size": "2.6 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Agency_SOPs_Master_Guide.docx",
+      "type": "DOCX",
+      "size": "38.1 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Brand_Identity_Guide.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Niche_Selection_Framework.docx",
+      "type": "DOCX",
+      "size": "38.0 KB"
+    },
+    {
+      "path": "01_AGENCY_SETUP/Service_Menu_and_Pricing.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "02_CLIENT_ACQUISITION/Cold_DM_Scripts.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "02_CLIENT_ACQUISITION/Cold_Email_Templates.docx",
+      "type": "DOCX",
+      "size": "38.6 KB"
+    },
+    {
+      "path": "02_CLIENT_ACQUISITION/Discovery_Call_Script.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "02_CLIENT_ACQUISITION/Lead_Tracker_CRM.xlsx",
+      "type": "XLSX",
+      "size": "8.8 KB"
+    },
+    {
+      "path": "02_CLIENT_ACQUISITION/Objection_Handling_Scripts.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "03_PROPOSALS_CONTRACTS/Non_Disclosure_Agreement.docx",
+      "type": "DOCX",
+      "size": "37.2 KB"
+    },
+    {
+      "path": "03_PROPOSALS_CONTRACTS/Pricing_Calculator.xlsx",
+      "type": "XLSX",
+      "size": "8.7 KB"
+    },
+    {
+      "path": "03_PROPOSALS_CONTRACTS/Proposal_Writing_Guide.docx",
+      "type": "DOCX",
+      "size": "38.2 KB"
+    },
+    {
+      "path": "03_PROPOSALS_CONTRACTS/SMMA_Retainer_Agreement_Template.docx",
+      "type": "DOCX",
+      "size": "38.3 KB"
+    },
+    {
+      "path": "04_CLIENT_ONBOARDING/Brand_Discovery_Questionnaire.docx",
+      "type": "DOCX",
+      "size": "37.7 KB"
+    },
+    {
+      "path": "04_CLIENT_ONBOARDING/Client_Onboarding_SOP.docx",
+      "type": "DOCX",
+      "size": "37.7 KB"
+    },
+    {
+      "path": "04_CLIENT_ONBOARDING/Platform_Access_Setup_Guide.docx",
+      "type": "DOCX",
+      "size": "37.5 KB"
+    },
+    {
+      "path": "04_CLIENT_ONBOARDING/Social_Media_Audit_Template.xlsx",
+      "type": "XLSX",
+      "size": "8.5 KB"
+    },
+    {
+      "path": "04_CLIENT_ONBOARDING/Welcome_Email_Sequence.docx",
+      "type": "DOCX",
+      "size": "38.0 KB"
+    },
+    {
+      "path": "05_CONTENT_CREATION/AI_Prompt_Library.docx",
+      "type": "DOCX",
+      "size": "41.9 KB"
+    },
+    {
+      "path": "05_CONTENT_CREATION/Caption_Writing_Framework.docx",
+      "type": "DOCX",
+      "size": "38.4 KB"
+    },
+    {
+      "path": "05_CONTENT_CREATION/Content_Creation_SOP.docx",
+      "type": "DOCX",
+      "size": "38.0 KB"
+    },
+    {
+      "path": "05_CONTENT_CREATION/Hashtag_Strategy_Guide.docx",
+      "type": "DOCX",
+      "size": "37.5 KB"
+    },
+    {
+      "path": "05_CONTENT_CREATION/Visual_Content_Brief_Template.docx",
+      "type": "DOCX",
+      "size": "37.3 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/Community_Management_SOP.docx",
+      "type": "DOCX",
+      "size": "37.8 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/Content_Calendar_Tracker.xlsx",
+      "type": "XLSX",
+      "size": "11.2 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/Facebook_Strategy_Guide.docx",
+      "type": "DOCX",
+      "size": "37.6 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/Instagram_Strategy_Guide.docx",
+      "type": "DOCX",
+      "size": "38.2 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/LinkedIn_Strategy_Guide.docx",
+      "type": "DOCX",
+      "size": "37.6 KB"
+    },
+    {
+      "path": "06_SOCIAL_MEDIA_MANAGEMENT/TikTok_Strategy_Guide.docx",
+      "type": "DOCX",
+      "size": "37.7 KB"
+    },
+    {
+      "path": "07_CLIENT_REPORTING/Agency_Revenue_Tracker.xlsx",
+      "type": "XLSX",
+      "size": "7.0 KB"
+    },
+    {
+      "path": "07_CLIENT_REPORTING/Client_Report_Email_Templates.docx",
+      "type": "DOCX",
+      "size": "36.9 KB"
+    },
+    {
+      "path": "07_CLIENT_REPORTING/KPI_ROI_Dashboard.xlsx",
+      "type": "XLSX",
+      "size": "7.1 KB"
+    },
+    {
+      "path": "07_CLIENT_REPORTING/Monthly_Report_Writing_Guide.docx",
+      "type": "DOCX",
+      "size": "37.2 KB"
+    },
+    {
+      "path": "08_AI_TOOLS_STACK/AI_Tools_Directory.docx",
+      "type": "DOCX",
+      "size": "37.0 KB"
+    },
+    {
+      "path": "08_AI_TOOLS_STACK/Agency_Automation_Guide.docx",
+      "type": "DOCX",
+      "size": "36.8 KB"
+    },
+    {
+      "path": "08_AI_TOOLS_STACK/Prompt_Engineering_Guide.docx",
+      "type": "DOCX",
+      "size": "37.1 KB"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Agency_Hiring_Guide.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Agency_KPI_Dashboard.xlsx",
+      "type": "XLSX",
+      "size": "6.1 KB"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Annual_Business_Plan_Template.docx",
+      "type": "DOCX",
+      "size": "36.7 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Client_Database.csv",
+      "type": "CSV",
+      "size": "0.8 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Content_Calendar.csv",
+      "type": "CSV",
+      "size": "0.8 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Invoice_Log.csv",
+      "type": "CSV",
+      "size": "0.5 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Lead_Tracker.csv",
+      "type": "CSV",
+      "size": "0.6 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Proposal_Pipeline.csv",
+      "type": "CSV",
+      "size": "0.4 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Referral_Partners.csv",
+      "type": "CSV",
+      "size": "0.4 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Setup_Guide.md",
+      "type": "MD",
+      "size": "2.0 KB"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Task_Board.csv",
+      "type": "CSV",
+      "size": "0.8 KB"
+    },
+    {
+      "path": "11_BONUSES/365_Social_Media_Captions.csv",
+      "type": "CSV",
+      "size": "75.0 KB"
+    },
+    {
+      "path": "11_BONUSES/AI_Prompt_Vault.docx",
+      "type": "DOCX",
+      "size": "37.4 KB"
+    },
+    {
+      "path": "11_BONUSES/Agency_Growth_Playbook.docx",
+      "type": "DOCX",
+      "size": "37.1 KB"
+    },
+    {
+      "path": "11_BONUSES/SMMA_Scripts_Vault.docx",
+      "type": "DOCX",
+      "size": "38.1 KB"
+    },
+    {
+      "path": "12_CANVA_TEMPLATES/Agency_Proposal_Deck.pptx",
+      "type": "PPTX",
+      "size": "36.1 KB"
+    },
+    {
+      "path": "12_CANVA_TEMPLATES/Case_Study_Template.pptx",
+      "type": "PPTX",
+      "size": "33.2 KB"
+    },
+    {
+      "path": "12_CANVA_TEMPLATES/Monthly_Report_Template.pptx",
+      "type": "PPTX",
+      "size": "34.0 KB"
+    },
+    {
+      "path": "12_CANVA_TEMPLATES/Social_Media_Strategy_Deck.pptx",
+      "type": "PPTX",
+      "size": "34.7 KB"
+    }
+  ]
+}

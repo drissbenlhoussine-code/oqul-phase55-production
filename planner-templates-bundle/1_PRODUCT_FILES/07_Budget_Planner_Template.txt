@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║           BUDGET PLANNER TEMPLATE — Monthly Financial Organizer            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+TEMPLATE: Monthly Budget Planner + Expense Tracker
+FORMAT: Canva Editable + Adobe Illustrator
+SIZE: A4 / US Letter — Print-Ready
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MONTHLY BUDGET OVERVIEW:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MONTH: _______________   FINANCIAL GOAL: _____________________________
+
+INCOME SOURCES:
+  Primary Income:       $___________
+  Side Income:          $___________
+  Other:                $___________
+  TOTAL INCOME:         $___________
+
+FIXED EXPENSES:
+  Rent/Mortgage:        $___________    □ Paid
+  Car Payment:          $___________    □ Paid
+  Insurance:            $___________    □ Paid
+  Subscriptions:        $___________    □ Paid
+  Phone:                $___________    □ Paid
+  Internet:             $___________    □ Paid
+  TOTAL FIXED:          $___________
+
+VARIABLE EXPENSES:
+  Groceries:            $___________
+  Dining Out:           $___________
+  Gas/Transport:        $___________
+  Entertainment:        $___________
+  Clothing:             $___________
+  Health/Personal:      $___________
+  Gifts/Misc:           $___________
+  TOTAL VARIABLE:       $___________
+
+SAVINGS:
+  Emergency Fund:       $___________
+  Investments:          $___________
+  Short-term goal:      $___________
+  TOTAL SAVINGS:        $___________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL INCOME:           $___________
+TOTAL EXPENSES:         $___________
+TOTAL SAVINGS:          $___________
+REMAINING:              $___________
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+50/30/20 RULE CHECK:
+  Needs (50%):   should be $___________  actual $___________
+  Wants (30%):   should be $___________  actual $___________
+  Savings (20%): should be $___________  actual $___________

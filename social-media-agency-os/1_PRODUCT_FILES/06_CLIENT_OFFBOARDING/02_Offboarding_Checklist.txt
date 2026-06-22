@@ -1,0 +1,68 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     40-POINT OFFBOARDING CHECKLIST                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client: _____________________  Final Month: _____________
+Offboarding Start Date: _______  Target Completion: _______
+
+Legend: [A] = Agency task  [C] = Client task  [B] = Both
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1 — CONTENT & ASSETS (8 items)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ [A]  Complete and deliver all content through last day of contract
+□ [A]  Organize full content archive (all months, by platform)
+□ [A]  Export content calendar templates in editable format
+□ [A]  Deliver all graphic design source files (Canva, AI, PSD if applicable)
+□ [A]  Transfer brand assets folder (logos, fonts, photos) to client
+□ [A]  Deliver brand strategy document and content pillar framework
+□ [A]  Prepare all hashset documents and copy research notes
+□ [B]  Confirm all assets have been received and can be accessed by client
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2 — PLATFORM ACCESS (8 items)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ [A]  Remove agency from Facebook Business Manager
+□ [A]  Remove scheduling tool integration from Instagram (Later/Hootsuite/Buffer)
+□ [A]  Remove agency admin from Facebook Page
+□ [A]  Remove agency from LinkedIn Company Page
+□ [A]  Remove any TikTok Business Center access
+□ [A]  Remove Pinterest board/account editor access
+□ [C]  Confirm 2-factor authentication is enabled on all accounts
+□ [C]  Change any shared passwords that agency had access to
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3 — DATA & REPORTING (8 items)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ [A]  Deliver final monthly analytics report
+□ [A]  Compile and deliver full analytics history (all months in one document)
+□ [A]  Export Instagram Insights data (if downloadable)
+□ [A]  Export Facebook Page Insights data
+□ [A]  Prepare final KPI summary report (start vs. end comparison)
+□ [A]  Export audience demographic data from all platforms
+□ [A]  Deliver complete Project Wrap-Up Report
+□ [A]  Document top-performing content with reasons (future reference for client)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4 — TOOLS & SUBSCRIPTIONS (8 items)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ [A]  Remove client from agency scheduling tool account
+□ [A]  Transfer any client-owned tool subscriptions to client billing
+□ [A]  Cancel any subscriptions that were client-specific and agency-paid
+□ [C]  Set up their own scheduling tool account if continuing to post
+□ [C]  Ensure Canva brand kit access is transferred to client's Canva account
+□ [A]  Remove client data from agency project management tools (Notion, Asana)
+□ [A]  Archive client files in agency archive — do not delete for 12 months
+□ [B]  Confirm Google Drive shared folder ownership transferred to client
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 5 — RELATIONSHIP MANAGEMENT (8 items)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+□ [A]  Schedule farewell call (30 minutes — celebrate wins, discuss next steps)
+□ [A]  Send professional Goodbye Packet (see Goodbye Packet document)
+□ [A]  Request written testimonial (send specific prompts — see Referral Scripts)
+□ [A]  Request Google/social review with direct link
+□ [A]  Ask for referrals (see Referral Request Scripts)
+□ [A]  Update CRM — move to "Former Client" status with full notes
+□ [A]  Add to "Re-engagement" list at 3 months, 6 months, 12 months
+□ [A]  Confirm all outstanding invoices are paid before final delivery

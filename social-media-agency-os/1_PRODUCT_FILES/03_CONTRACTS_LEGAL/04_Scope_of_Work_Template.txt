@@ -1,0 +1,108 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        SCOPE OF WORK (SOW)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Project/Engagement Title: [DESCRIBE PROJECT]
+Client:     [CLIENT BUSINESS NAME]
+Agency:     [YOUR AGENCY NAME]
+SOW Date:   [DATE]
+SOW Number: SOW-[YEAR]-[001]
+Valid Until: [DATE + 30 DAYS]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1 — PROJECT OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[2-3 sentence description of what this engagement covers and the purpose.
+Example: "Agency will provide full social media management for Client's
+Instagram and Facebook accounts for Q1 2025. The focus will be on building
+brand awareness, growing the follower base, and driving traffic to Client's
+website through strategic, high-quality content."]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2 — OBJECTIVES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. [Primary objective — e.g., "Grow Instagram following from 1,200 to 2,000 by March 31"]
+2. [Secondary objective — e.g., "Achieve an average engagement rate of 2%+"]
+3. [Tertiary objective — e.g., "Generate minimum 30 website click-throughs per month from social"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3 — DELIVERABLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MONTHLY RECURRING DELIVERABLES:
+□ Content calendar (sent by [DAY] of each month for review)
+□ [X] Instagram feed posts — custom graphics + captions
+□ [X] Facebook posts
+□ [X] Instagram Stories per week
+□ [X] Reels (scripted, directed)
+□ Hashtag research and rotation (updated monthly)
+□ Community management — Mon-Fri, respond within [X] hours
+□ Monthly analytics report (delivered by the [X] of each month)
+□ [X] strategy calls per month ([X] minutes each)
+
+ONE-TIME DELIVERABLES (first month only):
+□ Platform profile optimization (bio, highlights, links)
+□ Competitor audit and content strategy document
+□ Brand voice and content pillar guide
+□ Content calendar template setup
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4 — WHAT IS NOT INCLUDED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+To prevent scope creep, the following are explicitly NOT included in this SOW:
+• Paid advertising management (Meta Ads, Google Ads, etc.)
+• Video filming or on-location production
+• Platform management outside listed platforms above
+• Influencer identification, negotiation, or campaign management
+• Email marketing or newsletter management
+• Website updates or SEO work
+• Graphic design for purposes other than social media content
+• Crisis PR beyond social media channels
+
+Any additional services must be quoted separately and added via written amendment.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 5 — TIMELINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Phase               Deliverable                     Deadline
+─────────────────────────────────────────────────────────────
+Onboarding          Kickoff call                    [DATE]
+Onboarding          Brand strategy completed        [DATE]
+Month 1             Content calendar sent           [DATE]
+Month 1             First content batch delivered   [DATE]
+Month 1             Content goes live               [DATE]
+Month 1             Analytics report delivered      [DATE]
+[Continue as needed]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 6 — CHANGE REQUEST PROCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Any changes to the scope of this SOW must be submitted in writing via email.
+Agency will provide a written Change Order within 48 hours, including the
+impact on timeline and cost. Work on the changed scope begins only after
+Client approves the Change Order in writing.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 7 — FEES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Monthly Retainer: $[AMOUNT]
+Setup Fee (one-time): $[AMOUNT]
+Total for Initial 3-Month Term: $[AMOUNT]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SIGN-OFF
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+By signing below, both parties agree to the scope of work defined herein.
+
+Agency: _______________________  Date: _______
+[YOUR NAME], [AGENCY NAME]
+
+Client: _______________________  Date: _______
+[CLIENT NAME], [BUSINESS NAME]

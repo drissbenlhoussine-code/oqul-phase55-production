@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Success Guide — 365 Captions for Barbers</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #1A1A1A;
+    --gold: #C9A84C;
+    --cream: #F5F0E8;
+    --gray: #6B6B6B;
+    --white: #FFFFFF;
+  }
+  body { font-family: 'DM Sans', sans-serif; background: #E8E8E8; }
+  .page {
+    width: 794px;
+    min-height: 1123px;
+    margin: 40px auto;
+    background: var(--white);
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+
+  /* COVER */
+  .cover {
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+  }
+  .cover .top-bar { position: absolute; top: 0; left: 0; right: 0; height: 7px; background: var(--gold); }
+  .cover .bottom-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 7px; background: var(--gold); }
+  .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 28px; }
+  .cover-title { font-family: 'Playfair Display', serif; font-size: 50px; font-weight: 700; color: var(--white); line-height: 1.1; margin-bottom: 20px; }
+  .cover-sub { font-family: 'DM Sans', sans-serif; font-size: 14px; color: var(--gold); font-style: italic; margin-bottom: 40px; }
+  .cover-rule { width: 50px; height: 1px; background: var(--gold); margin: 0 auto 36px; }
+  .cover-intro { font-family: 'DM Sans', sans-serif; font-size: 11.5px; color: rgba(255,255,255,0.7); line-height: 1.7; max-width: 480px; }
+
+  /* CONTENT PAGES */
+  .cp { padding: 64px 72px 80px; }
+  .gold-top { height: 4px; background: var(--gold); position: absolute; top: 0; left: 0; right: 0; }
+  .sec-label { font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+  .sec-title { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--black); margin-bottom: 28px; line-height: 1.2; }
+  .divider { height: 1px; background: #E5E0D8; margin: 24px 0; }
+  p { font-family: 'DM Sans', sans-serif; font-size: 11px; color: var(--gray); line-height: 1.7; margin-bottom: 14px; }
+  strong { color: var(--black); font-weight: 600; }
+
+  /* WEEKLY SCHEDULE */
+  .schedule-grid { width: 100%; border-collapse: collapse; margin-bottom: 28px; }
+  .schedule-grid th { font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); background: var(--black); padding: 10px 12px; text-align: left; }
+  .schedule-grid td { font-family: 'DM Sans', sans-serif; font-size: 10.5px; color: var(--black); padding: 10px 12px; border-bottom: 1px solid #E5E0D8; vertical-align: top; }
+  .schedule-grid tr:nth-child(even) td { background: var(--cream); }
+  .pillar-tag { display: inline-block; background: var(--gold); color: var(--black); font-size: 8px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 2px 7px; }
+
+  /* MISTAKES */
+  .mistake-block { margin-bottom: 22px; display: flex; gap: 16px; }
+  .mistake-icon { font-size: 18px; min-width: 28px; }
+  .mistake-text h4 { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--black); margin-bottom: 4px; }
+  .mistake-text p { font-size: 11px; color: var(--gray); margin-bottom: 0; line-height: 1.55; }
+
+  /* HASHTAG ROTATION */
+  .rotation-block { background: var(--cream); padding: 20px 24px; margin-bottom: 16px; border-left: 3px solid var(--gold); }
+  .rotation-week { font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+  .rotation-sets { font-family: 'DM Sans', sans-serif; font-size: 11px; color: var(--black); line-height: 1.65; }
+
+  /* FOOTER */
+  .footer-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 44px; background: var(--black); display: flex; align-items: center; justify-content: space-between; padding: 0 36px; }
+  .footer-text { font-family: 'DM Sans', sans-serif; font-size: 9px; color: rgba(255,255,255,0.5); letter-spacing: 1px; }
+  .footer-page { font-family: 'DM Sans', sans-serif; font-size: 9px; color: var(--gold); }
+
+  .highlight-box { background: var(--black); padding: 24px 28px; margin: 24px 0; }
+  .highlight-box .label { font-family: 'DM Sans', sans-serif; font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+  .highlight-box .quote { font-family: 'Playfair Display', serif; font-size: 16px; color: var(--white); line-height: 1.5; }
+
+  @media print { body { background: white; } .page { margin: 0; } }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="page cover">
+  <div class="top-bar"></div>
+  <div class="bottom-bar"></div>
+  <div class="eyebrow">30-Day Growth Strategy</div>
+  <div class="cover-title">Customer<br>Success<br>Guide</div>
+  <div class="cover-sub">365 Instagram Captions for Barbers &amp; Hair Salons</div>
+  <div class="cover-rule"></div>
+  <div class="cover-intro">
+    This guide helps you use your caption bank strategically — not just randomly. Follow this system for 30 days and you'll have a stronger local presence, a more engaged audience, and more clients booking through Instagram.
+  </div>
+</div>
+
+<!-- PAGE 2: WEEKLY SCHEDULE + PILLAR MIX -->
+<div class="page cp">
+  <div class="gold-top"></div>
+  <div class="sec-label">Your Posting Blueprint</div>
+  <div class="sec-title">The Weekly Content Mix<br>That Builds a Following</div>
+
+  <p>Post 4–5 times per week. Use this rotation to balance content types and build every part of your audience relationship: trust, bookings, community, and loyalty.</p>
+
+  <table class="schedule-grid">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Content Type</th>
+        <th>Goal</th>
+        <th>Best Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Monday</strong></td>
+        <td><span class="pillar-tag">Educational</span></td>
+        <td>Build authority. Get saves.</td>
+        <td>7–9 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Tuesday</strong></td>
+        <td><span class="pillar-tag">Promotional</span></td>
+        <td>Drive bookings. Push CTA.</td>
+        <td>12–2 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Wednesday</strong></td>
+        <td><span class="pillar-tag">Behind Scenes</span></td>
+        <td>Build connection. Show the craft.</td>
+        <td>6–8 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Thursday</strong></td>
+        <td><span class="pillar-tag">Engagement</span></td>
+        <td>Trigger comments. Boost reach.</td>
+        <td>7–9 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Friday</strong></td>
+        <td><span class="pillar-tag">Promotional</span></td>
+        <td>Capture weekend booking intent.</td>
+        <td>8–10 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Saturday</strong></td>
+        <td><span class="pillar-tag">Testimonial</span></td>
+        <td>Social proof. Convert new followers.</td>
+        <td>8–10 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Sunday</strong></td>
+        <td><span class="pillar-tag">Seasonal</span></td>
+        <td>Stay timely. Tie to what's happening.</td>
+        <td>6–9 PM</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="highlight-box">
+    <div class="label">The Most Important Rule</div>
+    <div class="quote">"Post 4 times consistently every week. That beats 7 times one week and 0 the next — every time."</div>
+  </div>
+
+  <div class="sec-label" style="margin-top: 32px;">Local Growth Tactic</div>
+  <p><strong>Add your city to every promotional post.</strong> "#AtlantaBarber" has 100× less competition than "#Barber" and is searched by people who are actively looking to book in your area. This is the single highest-ROI tactic for local barbershops on Instagram.</p>
+
+  <p>Minimum local hashtags per post: <strong>#[YOURCITY]barber · #[YOURCITY]barbershop · #[YOURCITY]haircut</strong></p>
+
+  <div class="footer-bar">
+    <span class="footer-text">365 Instagram Captions for Barbers — Customer Success Guide</span>
+    <span class="footer-page">02</span>
+  </div>
+</div>
+
+<!-- PAGE 3: HASHTAG ROTATION + MISTAKES -->
+<div class="page cp">
+  <div class="gold-top"></div>
+  <div class="sec-label">Hashtag Strategy</div>
+  <div class="sec-title">4-Week Rotation Plan<br>to Maximize Reach</div>
+
+  <p>Rotating hashtag sets prevents Instagram from reducing your reach for using identical tags repeatedly. Follow this 4-week cycle, then repeat.</p>
+
+  <div class="rotation-block">
+    <div class="rotation-week">Week 1</div>
+    <div class="rotation-sets">Monday: SET 1 (Educational) · Tuesday: SET 4 (Booking CTA) · Wednesday: SET 6 (BTS) · Thursday: SET 7 (Engagement) · Friday: SET 4 (Booking) · Saturday: SET 8 (Testimonial)</div>
+  </div>
+
+  <div class="rotation-block">
+    <div class="rotation-week">Week 2</div>
+    <div class="rotation-sets">Monday: SET 10 (Kids' Cuts / variation) · Tuesday: SET 19 (New Client) · Wednesday: SET 6 (BTS) · Thursday: SET 20 (Hot Take) · Friday: SET 2 (Fade Showcase) · Saturday: SET 5 (Before/After)</div>
+  </div>
+
+  <div class="rotation-block">
+    <div class="rotation-week">Week 3</div>
+    <div class="rotation-sets">Monday: SET 8 (Educational tips) · Tuesday: SET 4 (Booking CTA) · Wednesday: SET 6 (BTS) · Thursday: SET 7 (Engagement) · Friday: SET 17 (Men's Style) · Saturday: SET 8 (Testimonial)</div>
+  </div>
+
+  <div class="rotation-block">
+    <div class="rotation-week">Week 4</div>
+    <div class="rotation-sets">Monday: SET 3 (Beard) · Tuesday: SET 18 (Premium) · Wednesday: SET 6 (BTS) · Thursday: SET 20 (Community) · Friday: SET 14 (Skin Fade) · Saturday: SET 5 (Transformation)</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="sec-label">Avoid These Mistakes</div>
+  <div class="sec-title">5 Things That Kill<br>Barber Accounts on Instagram</div>
+
+  <div class="mistake-block">
+    <div class="mistake-icon">✗</div>
+    <div class="mistake-text">
+      <h4>Only posting when you feel inspired</h4>
+      <p>Inspiration is unreliable. The algorithm rewards consistency. Use the 30-Day Calendar to post on schedule regardless of your mood.</p>
+    </div>
+  </div>
+
+  <div class="mistake-block">
+    <div class="mistake-icon">✗</div>
+    <div class="mistake-text">
+      <h4>Using the same 10 hashtags on every post</h4>
+      <p>Instagram may flag this as spam behavior. Use the 4-week rotation above to vary your sets and maintain organic reach.</p>
+    </div>
+  </div>
+
+  <div class="mistake-block">
+    <div class="mistake-icon">✗</div>
+    <div class="mistake-text">
+      <h4>Never asking for the booking</h4>
+      <p>Engagement captions build community. Educational posts build trust. But at least 30% of your posts should have a clear "book now" CTA. Use Pillar 2 consistently.</p>
+    </div>
+  </div>
+
+  <div class="mistake-block">
+    <div class="mistake-icon">✗</div>
+    <div class="mistake-text">
+      <h4>Posting without local hashtags</h4>
+      <p>#Barber has 50M+ posts. #AtlantaBarber has thousands. The smaller, local hashtag brings clients who can actually visit you. Always add your city.</p>
+    </div>
+  </div>
+
+  <div class="mistake-block">
+    <div class="mistake-icon">✗</div>
+    <div class="mistake-text">
+      <h4>Ignoring comments after posting</h4>
+      <p>Responding to every comment within the first hour doubles your engagement rate and signals quality content to the algorithm. Set a 1-hour reminder after each post.</p>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <span class="footer-text">365 Instagram Captions for Barbers — Customer Success Guide</span>
+    <span class="footer-page">03</span>
+  </div>
+</div>
+
+<!-- PAGE 4: 30-DAY PLAN + PERSONALIZATION -->
+<div class="page cp">
+  <div class="gold-top"></div>
+  <div class="sec-label">30-Day Milestone Plan</div>
+  <div class="sec-title">What Success Looks Like<br>Week by Week</div>
+
+  <p>Use this milestone map alongside the 30-Day Content Calendar (your CSV file). Track progress weekly — not daily.</p>
+
+  <div style="display: flex; gap: 20px; margin-bottom: 28px;">
+    <div style="flex:1; background: var(--cream); padding: 20px; border-top: 3px solid var(--gold);">
+      <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">Week 1</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--black); line-height:1.65;">
+        Set up your profile bio with your city, specialty, and booking link.<br><br>
+        Post 4–5 times using the Calendar.<br><br>
+        Reply to every comment, every DM.
+      </div>
+    </div>
+    <div style="flex:1; background: var(--cream); padding: 20px; border-top: 3px solid var(--gold);">
+      <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">Week 2</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--black); line-height:1.65;">
+        Add Stories (3–4 per week) reposting your feed content.<br><br>
+        Use Stories polls from the Engagement pillar.<br><br>
+        First check: which posts got the most saves?
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 20px; margin-bottom: 28px;">
+    <div style="flex:1; background: var(--cream); padding: 20px; border-top: 3px solid var(--gold);">
+      <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">Week 3</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--black); line-height:1.65;">
+        Double down on the post type that got the most saves and comments in Week 2.<br><br>
+        Post your first before/after transformation with a Testimonial caption.
+      </div>
+    </div>
+    <div style="flex:1; background: var(--cream); padding: 20px; border-top: 3px solid var(--gold);">
+      <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:8px;">Week 4</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--black); line-height:1.65;">
+        Review your top 3 posts from the month.<br><br>
+        Ask 3 loyal clients to leave a Google review or tag you in a story.<br><br>
+        Plan Month 2 using the same system.
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="sec-label">Personalization Tips</div>
+  <div class="sec-title">Make the Captions Sound<br>100% Like You</div>
+
+  <p><strong>If your brand is casual and community-focused:</strong> Add "fr" or "real talk" where it feels natural. Start sentences with "Bro," when writing peer-to-peer. Reference your neighborhood. Use first names freely.</p>
+
+  <p><strong>If your brand is premium and upscale:</strong> Replace "guys" with "clients." Replace "cut" with "service." Add words like "craftsmanship," "precision," and "elevated experience" to promotional captions.</p>
+
+  <p><strong>If you serve a multicultural clientele:</strong> Rotate caption types to represent different textures and styles. The Educational pillar has captions on type 4 hair, waves, and coily hair that will resonate specifically with natural hair clients.</p>
+
+  <div class="highlight-box" style="margin-top: 28px;">
+    <div class="label">Your 30-Day Goal</div>
+    <div class="quote">"Post consistently for 30 days. At day 30, you will have more followers, more engagement, and at least one new client who found you through Instagram. That's the return."</div>
+  </div>
+
+  <div style="margin-top: 28px; text-align: center; padding: 20px;">
+    <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:8px;">Thank You For Your Purchase</div>
+    <div style="font-family:'Playfair Display',serif; font-size:14px; color:var(--black);">Questions? Message us on Etsy. We respond to every buyer.</div>
+  </div>
+
+  <div class="footer-bar">
+    <span class="footer-text">365 Instagram Captions for Barbers — Customer Success Guide</span>
+    <span class="footer-page">04</span>
+  </div>
+</div>
+
+</body>
+</html>

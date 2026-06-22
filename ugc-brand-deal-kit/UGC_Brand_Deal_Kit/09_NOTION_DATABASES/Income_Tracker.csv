@@ -1,0 +1,9 @@
+﻿Date,Client,Invoice #,Amount,Type,Status,Payment Method,Notes
+2024-01-05,GlowSkin Co,INV-001,$450,Deposit 50%,PAID,PayPal,Q1 campaign deposit
+2024-01-10,StyleSelf,INV-002,$300,Full Payment,PAID,Stripe,Organic-only rights
+2024-01-18,GlowSkin Co,INV-003,$450,Balance 50%,PAID,PayPal,Q1 campaign balance
+2024-01-20,FitFuel Pro,INV-004,$350,Deposit 50%,PAID,Bank Transfer,Launch campaign deposit
+2024-01-25,CleanHome,INV-005,$350,Deposit 50%,PAID,PayPal,TikTok package deposit
+2024-01-28,PetPaws,INV-006,$250,Deposit 50%,PENDING,Stripe,Awaiting payment
+2024-02-01,FitFuel Pro,INV-007,$350,Balance 50%,PENDING,Bank Transfer,Due on delivery
+2024-02-05,CleanHome,INV-008,$350,Balance 50%,PENDING,PayPal,Due on delivery

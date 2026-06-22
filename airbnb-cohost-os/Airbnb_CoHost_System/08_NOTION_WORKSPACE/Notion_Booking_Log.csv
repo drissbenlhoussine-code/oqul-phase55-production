@@ -1,0 +1,7 @@
+﻿Booking ID,Property,Guest,Check-in,Check-out,Revenue,Status,Review Score
+B001,Ocean View Dr,Michael Brown,Jan 15,Jan 18,$555,Completed,5.0
+B002,Mountain Cabin,Jennifer Lee,Jan 16,Jan 21,$725,Completed,5.0
+B003,Downtown Loft,David Kim,Jan 18,Jan 20,$190,Active,--
+B004,Beach House,Amanda Foster,Jan 20,Jan 25,"$1,625",Confirmed,--
+B005,Lakeside Cottage,Tom Nelson,Jan 22,Jan 25,$480,Confirmed,--
+B006,Ocean View Dr,Sophie Martin,Jan 25,Jan 28,$555,Confirmed,--

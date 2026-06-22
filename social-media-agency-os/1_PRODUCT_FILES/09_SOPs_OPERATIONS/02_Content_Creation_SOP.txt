@@ -1,0 +1,288 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           CONTENT CREATION STANDARD OPERATING PROCEDURE         ║
+║              Social Media Manager Agency OS — File 09.02        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+PURPOSE
+───────
+A repeatable, quality-controlled content creation process that ensures
+every piece of content is strategic, on-brand, and approved before
+publishing — without chaos or missed deadlines.
+
+══════════════════════════════════════════════════════════════════
+SECTION 1: THE 6-STAGE CONTENT CREATION PROCESS
+══════════════════════════════════════════════════════════════════
+
+STAGE 1: STRATEGY BRIEF (Day 1 of content batch)
+──────────────────────────────────────────────────
+
+Before writing a single word, complete the content brief:
+
+  CLIENT: _______________________________________________
+  MONTH/BATCH: __________________________________________
+  CONTENT PILLARS THIS MONTH:
+    Pillar 1 (Education):   ____________________________
+    Pillar 2 (Inspiration): ____________________________
+    Pillar 3 (Promotion):   ____________________________
+    Pillar 4 (Community):   ____________________________
+  
+  TOP PERFORMING POST LAST MONTH: _______________________
+  FORMAT TO REPLICATE: __________________________________
+  UPCOMING PROMOTIONS/EVENTS: ___________________________
+  NEW PRODUCTS/SERVICES TO FEATURE: _____________________
+  CONTENT CONSTRAINTS (topics to avoid): ________________
+
+  PLATFORM FOCUS THIS MONTH:
+    □ Instagram (Feed + Stories + Reels)
+    □ Facebook (Feed + Stories + Groups)
+    □ TikTok (short-form video)
+    □ LinkedIn (thought leadership)
+    □ Pinterest (long-tail SEO)
+    □ Twitter/X (engagement + news)
+
+STAGE 2: RESEARCH (30–60 minutes per batch)
+─────────────────────────────────────────────
+
+  □ Review 5 competitor accounts for content inspiration
+  □ Check industry trending topics (Google Trends, Exploding Topics)
+  □ Pull platform-specific trending audio (Reels/TikTok)
+  □ Research 3 industry hashtags for new additions
+  □ Note any viral formats in the niche right now
+  □ Check client's DMs/comments for audience questions (content gold)
+  □ Review saved posts from inspiration boards
+
+RESEARCH SOURCES BY PLATFORM:
+  Instagram:  Instagram Reels Trending tab, Explore page for niche
+  TikTok:     TikTok Creative Center → Trending Songs + Hashtags
+  LinkedIn:   LinkedIn News, industry newsletters
+  Pinterest:  Pinterest Trends tool (trends.pinterest.com)
+  General:    BuzzSumo, SparkToro, Feedly (industry RSS)
+
+STAGE 3: COPYWRITING
+─────────────────────
+
+CAPTION WRITING PROCESS (per post):
+  Step 1: Choose hook type (see Hook Library below)
+  Step 2: Write hook line — stop the scroll
+  Step 3: Body (2–4 sentences) — deliver the value
+  Step 4: CTA — one clear action
+  Step 5: Hashtags (if applicable) — see hashtag framework File 04.04
+  Step 6: Read aloud — does it sound human?
+  Step 7: Edit for clarity — remove filler words
+
+HOOK LIBRARY (rotate through these):
+  Question hooks:
+    → "Did you know that [counterintuitive fact]?"
+    → "What if I told you [unexpected truth about niche]?"
+    → "Are you making this [topic] mistake?"
+
+  Statement hooks:
+    → "The truth about [topic] nobody talks about:"
+    → "I made $[X] doing [Y]. Here's exactly how:"
+    → "Stop doing [X]. Here's what actually works:"
+
+  Number hooks:
+    → "[#] reasons your [problem] isn't getting fixed:"
+    → "I tested [X] strategies. [#] actually work."
+    → "[#] things every [ICA] should know about [topic]:"
+
+  Story hooks:
+    → "Two years ago I [situation]. Today [result]."
+    → "My client went from [before] to [after] in [timeframe]:"
+    → "This one mistake cost me [consequence]."
+
+CAPTION QUALITY CHECKLIST:
+  □ Hook stops the scroll (first 1–2 lines before "more")
+  □ Body delivers real value or emotional resonance
+  □ CTA is clear and singular (one action, not three)
+  □ Length matches platform best practice:
+      Instagram: 150–300 words (value) or 1–3 lines (aesthetic)
+      Facebook: 80–120 words
+      LinkedIn: 600–1,200 words (long-form performs well)
+      TikTok: 100–150 words
+  □ No grammar errors (run through Grammarly)
+  □ Brand voice matches (see brand strategy worksheet)
+  □ No generic filler phrases ("In today's digital landscape...")
+
+STAGE 4: DESIGN / VISUALS
+──────────────────────────
+
+DESIGN PROCESS:
+  Step 1: Choose from brand template library in Canva
+  Step 2: Resize for each platform needed
+  Step 3: Apply brand colors, fonts, and logo
+  Step 4: Match visual to the content type:
+            Education → Clean, readable, slide-style
+            Inspiration → Bold typography or quote overlay
+            Promotion → Product-forward, clear offer
+            Behind the scenes → Raw/authentic feel
+  Step 5: Review at mobile size (90% of users are on mobile)
+  Step 6: Export at platform-recommended specs (see below)
+
+EXPORT SPECS BY PLATFORM:
+  Instagram Feed (Square):    1080 × 1080 px
+  Instagram Feed (Portrait):  1080 × 1350 px
+  Instagram Story:            1080 × 1920 px
+  Instagram Reel:             1080 × 1920 px (vertical)
+  Facebook Feed:              1200 × 630 px
+  LinkedIn:                   1200 × 627 px (landscape)
+  Pinterest:                  1000 × 1500 px (2:3 ratio)
+  TikTok:                     1080 × 1920 px (vertical)
+  Twitter/X:                  1200 × 675 px
+
+FILE NAMING CONVENTION:
+  [CLIENT]_[PLATFORM]_[DATE]_[POST#]_[TYPE]
+  Example: ACME_IG_2025-03-15_P01_CAROUSEL.jpg
+
+STAGE 5: CONTENT APPROVAL
+───────────────────────────
+
+  Step 1: Compile batch into approval document
+           (Google Slides, Notion page, or PDF)
+  Step 2: Include for each post:
+           - Visual (mockup or actual graphic)
+           - Caption copy
+           - Platform(s)
+           - Scheduled date/time
+           - Notes/context for client
+
+  Step 3: Send to client via agreed method with subject:
+           "[CLIENT NAME] — Content Batch [DATE RANGE] for Approval"
+
+  Step 4: Set 48-hour approval deadline
+  Step 5: Follow up once if no response at 24 hours
+  Step 6: Auto-approve at 72 hours (must be in contract)
+
+REVISION POLICY:
+  Round 1:  Included in all packages
+  Round 2:  Included in Growth and Agency packages
+  Round 3+: Billed at $75–$150 per round (or package add-on)
+
+STAGE 6: SCHEDULING & PUBLISHING
+───────────────────────────────────
+
+OPTIMAL POSTING TIMES (2025 benchmarks):
+  Instagram:
+    Best days:    Tuesday, Wednesday, Friday
+    Best times:   9–10am, 12–1pm, 7–9pm (client's local time)
+  Facebook:
+    Best days:    Tuesday, Wednesday, Thursday
+    Best times:   9am, 1pm, 3pm
+  LinkedIn:
+    Best days:    Tuesday, Wednesday, Thursday
+    Best times:   8–9am, 12pm, 5–6pm
+  TikTok:
+    Best days:    Tuesday, Thursday, Friday
+    Best times:   7–9am, 12–3pm, 7–11pm
+  Pinterest:
+    Best days:    Saturday, Sunday (evergreen — less time-sensitive)
+    Best times:   8–11pm (users planning mode)
+
+SCHEDULING CHECKLIST (per post):
+  □ Caption copy pasted (no formatting errors)
+  □ Visual attached at correct specs
+  □ Hashtags added in correct field
+  □ Geotag added (local businesses)
+  □ Tagged accounts added (collaborations/features)
+  □ Cross-platform scheduling confirmed (where applicable)
+  □ UTM link added if post contains a link
+  □ First comment pre-written (if hashtags go in comments on IG)
+  □ Date/time confirmed in client's timezone
+
+══════════════════════════════════════════════════════════════════
+SECTION 2: BATCH CREATION EFFICIENCY SYSTEM
+══════════════════════════════════════════════════════════════════
+
+BATCH BY TYPE, NOT BY CLIENT
+  Instead of: Client A post 1 → Client A post 2 → Client B post 1
+  Do this:    All captions for all clients → All graphics → Schedule all
+
+TIME BLOCKING FOR CONTENT CREATION:
+  Monday:     Research + strategy briefs for all clients
+  Tuesday:    All copywriting (captions, scripts, copy)
+  Wednesday:  All design/graphics
+  Thursday:   Review, revisions, approval submissions
+  Friday:     Scheduling + community management setup
+
+AI ACCELERATION WORKFLOW:
+  Step 1: Input content brief into Claude/ChatGPT
+  Step 2: Generate 3 variations per post
+  Step 3: Select best version as base
+  Step 4: Edit for client voice (30% rewrite minimum)
+  Step 5: Run through brand voice checklist
+  Step 6: Human review before submitting to client
+
+  IMPORTANT: Never submit raw AI output without editing.
+  It's a starting point, not a finished product.
+
+CONTENT REPURPOSING MATRIX:
+  One piece of content → Multiple formats:
+  
+  Long-form LinkedIn post → IG carousel (key points)
+                          → 3 tweets/X posts
+                          → Reel script
+                          → Newsletter section
+                          → Pinterest pin (if visual)
+  
+  Podcast/video → Quote graphics
+               → Transcript blog post
+               → Short clips for Reels/TikTok
+               → LinkedIn article
+
+══════════════════════════════════════════════════════════════════
+SECTION 3: QUALITY CONTROL STANDARDS
+══════════════════════════════════════════════════════════════════
+
+PRE-PUBLISHING FINAL CHECKS:
+  □ Spelling and grammar (Grammarly Pass)
+  □ Brand voice consistency (read 2 previous posts for comparison)
+  □ No competitor mentions (unintentional)
+  □ No copyrighted music (if video)
+  □ Links work and go to correct destination
+  □ Client hasn't announced anything that makes post outdated
+  □ Visual is pixel-perfect at mobile view
+  □ No sensitive topics in context of current news cycle
+  □ All tagged accounts/handles spelled correctly
+  □ Post has been approved by client (or auto-approval timer passed)
+
+COMMON MISTAKES TO PREVENT:
+  ✗ Scheduling for wrong timezone (always double-check)
+  ✗ Using client A's brand colors in client B's content
+  ✗ Forgetting to switch scheduling tool to correct client profile
+  ✗ Posting sales content on a holiday (check awareness calendar)
+  ✗ Typos in CTA links
+  ✗ Captions that end without a CTA
+  ✗ Wrong file dimensions causing blurry visuals
+
+══════════════════════════════════════════════════════════════════
+SECTION 4: VIDEO CONTENT SOP (REELS/TIKTOK)
+══════════════════════════════════════════════════════════════════
+
+SCRIPT STRUCTURE (30–60 second Reel):
+  :00–:03   Hook — visual or verbal pattern interrupt
+  :03–:08   Problem/context setup
+  :08–:45   Value delivery (main content)
+  :45–:55   CTA (follow, comment, save)
+  :55–:60   Brand sign-off or visual logo
+
+PRE-PRODUCTION CHECKLIST:
+  □ Script approved or outlined
+  □ Location/backdrop is clean and professional
+  □ Lighting is adequate (ring light or natural light)
+  □ Audio check (quiet environment or mic connected)
+  □ Trending audio identified (if applicable)
+  □ Outfit/brand colors considered for on-camera content
+
+POST-PRODUCTION CHECKLIST:
+  □ Captions added (85% of video watched on mute)
+  □ Correct aspect ratio (9:16)
+  □ Max 30MB file size for smooth upload
+  □ No third-party watermarks (TikTok watermark = IG reach penalty)
+  □ B-roll or text overlays keep viewer engaged
+  □ Hook is clear in first 1–3 seconds
+  □ Sound/music licensed for commercial use
+
+═══════════════════════════════════════════════════════════════════
+© Social Media Manager Agency OS | All rights reserved
+This document is for the buyer's business use only. Not for resale.
+═══════════════════════════════════════════════════════════════════

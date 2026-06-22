@@ -1,0 +1,9 @@
+﻿Lead ID,Full Name,Phone,Email,Source,Status,Type,Budget,Timeline,Neighborhood,Last Contact,Next Follow Up,Notes,Agent
+L001,Michael Johnson,(555) 234-5678,mjohnson@email.com,Zillow,Hot,Buyer,"$350,000-$450,000",2-3 months,Westside,2024-01-10,2024-01-17,"Pre-approved, motivated",Sarah Mitchell
+L002,Jennifer Davis,(555) 345-6789,jdavis@email.com,Referral,Warm,Seller,"$425,000",3-4 months,Northview,2024-01-11,2024-01-18,Home needs minor updates,Sarah Mitchell
+L003,Robert Martinez,(555) 456-7890,rmartinez@email.com,Open House,Hot,Buyer,"$280,000-$320,000",1-2 months,Eastside,2024-01-12,2024-01-15,"First-time buyer, needs guidance",Sarah Mitchell
+L004,Amanda Wilson,(555) 567-8901,awilson@email.com,Social Media,Warm,Buyer,"$500,000+",4-6 months,Luxury District,2024-01-13,2024-01-20,Looking for executive home,Sarah Mitchell
+L005,James Thompson,(555) 678-9012,jthompson@email.com,SOI,Hot,Seller,"$695,000",Immediate,Premium Heights,2024-01-14,2024-01-16,"Divorce situation, urgent",Sarah Mitchell
+L006,Lisa Anderson,(555) 789-0123,landerson@email.com,Website,Cold,Buyer,"$200,000-$250,000",6+ months,Affordable Acres,2024-01-15,2024-02-15,"Just browsing, not ready yet",Sarah Mitchell
+L007,David Garcia,(555) 890-1234,dgarcia@email.com,Zillow,Warm,Buyer/Seller,"$380,000",2-3 months,Midtown,2024-01-16,2024-01-23,"Moving up, selling first",Sarah Mitchell
+L008,Nancy Rodriguez,(555) 901-2345,nrodriguez@email.com,Referral,Hot,Seller,"$520,000",1 month,Lakeview,2024-01-17,2024-01-19,Ready to list next week,Sarah Mitchell

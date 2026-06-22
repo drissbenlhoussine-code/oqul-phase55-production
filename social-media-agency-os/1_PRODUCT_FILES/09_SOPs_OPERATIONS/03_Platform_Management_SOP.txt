@@ -1,0 +1,243 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          PLATFORM MANAGEMENT STANDARD OPERATING PROCEDURE        ║
+║              Social Media Manager Agency OS — File 09.03        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+PURPOSE
+───────
+Daily, weekly, and monthly platform tasks to keep every client's
+accounts growing, algorithms happy, and audiences engaged in 2025.
+
+══════════════════════════════════════════════════════════════════
+SECTION 1: DAILY PLATFORM TASKS
+══════════════════════════════════════════════════════════════════
+
+MORNING CHECK-IN (15–20 minutes, per client)
+  Time: 8:30–9:00am (before your work day starts)
+
+  □ Check notifications on all active platforms
+  □ Respond to any comments on posts from last 24 hours
+  □ Respond to DMs (if DM management is in scope)
+  □ Like/acknowledge meaningful comments (not all, prioritize)
+  □ Check if scheduled posts published correctly
+  □ Note any unusual engagement spikes (screenshot for report)
+  □ Quick scan of competitors/industry accounts
+
+AFTERNOON CHECK-IN (15 minutes)
+  Time: 1:00–2:00pm
+
+  □ Second round of comment responses
+  □ Monitor for any negative comments or reviews
+  □ Check if Stories are live (24-hour lifespan — replace if expired)
+  □ Engage with 5–10 ideal client accounts (like, comment genuinely)
+  □ Share any relevant industry content to Stories (with commentary)
+
+EVENING CHECK-IN (10 minutes — optional based on client package)
+  Time: 6:00–7:00pm
+
+  □ Final comment sweep
+  □ DM responses for any afternoon messages
+  □ Note if any post is trending above normal → screenshot for report
+
+DAILY ENGAGEMENT QUOTA (per platform, per client):
+  Instagram:  Reply to 100% of comments + DMs within scope
+              Engage with 10–20 accounts in target audience
+  LinkedIn:   Reply to all comments + DMs
+              Engage with 5–10 relevant posts in industry
+  TikTok:     Reply to all comments (algorithm rewards this heavily)
+              Duet or Stitch 1 relevant piece per week (if applicable)
+  Facebook:   Reply to all comments and messages
+              Engage in 1–2 relevant Facebook Groups (if in scope)
+
+══════════════════════════════════════════════════════════════════
+SECTION 2: INSTAGRAM MANAGEMENT SOP
+══════════════════════════════════════════════════════════════════
+
+INSTAGRAM ALGORITHM FACTORS (2025)
+  Top signals Instagram rewards:
+  1. Sends (shares to DMs) — #1 signal for Reels and feed
+  2. Saves — indicates high-value content
+  3. Comments (especially conversations, not one-word)
+  4. Watch time (Reels) — complete views most important
+  5. Profile visits from discovery
+  6. Story replies and reactions
+  7. Consistent posting (gaps hurt reach)
+
+FEED POST BEST PRACTICES:
+  □ Post 3–5x per week (4x is the sweet spot)
+  □ Mix format: 60% Carousels + 25% Reels + 15% static
+  □ First slide of carousel must be a hook (not the title)
+  □ Always include a save-worthy component in carousels
+  □ Use 5–10 targeted hashtags (not 30 generic ones)
+  □ Reply to every comment within 60 minutes of posting (boosts reach)
+  □ Pin top 3 posts that best represent the brand
+
+REELS BEST PRACTICES (2025):
+  □ 15–30 seconds outperforms longer (unless educational)
+  □ Hook in first 0.5–1 second (visual, not verbal)
+  □ Native vertical video preferred over repurposed TikTok
+  □ Add captions (accessibility + mute viewing)
+  □ Use trending audio with < 10K Reels on it (sweet spot)
+  □ Do NOT watermark with TikTok logo
+  □ Share to Stories immediately after posting
+  □ Post Reels 3–5x per week for algorithm acceleration
+
+STORIES BEST PRACTICES:
+  □ Post 5–10 Stories per day (maintain "active" status)
+  □ Mix types: Polls, Quizzes, Sliders, Behind-scenes, Reposts
+  □ First Story of day: high-engagement (poll or quiz)
+  □ Use the "Close Friends" list for VIP/exclusive content
+  □ Add location tag when relevant (local discovery)
+  □ Cross-post feed content to Stories immediately (first 3 hours matter)
+  □ Add CTA Stories pointing to link in bio
+
+HASHTAG STRATEGY (2025 update):
+  Best practice: 5–8 highly targeted hashtags in caption
+  Mix: 2 large (500K–1M posts), 3 medium (50K–500K), 2–3 niche (under 50K)
+  Do NOT: Use banned hashtags (check regularly)
+  Do NOT: Use the same 30 hashtags on every post (shadowban risk)
+  Rotate: Keep 3–5 hashtag sets per content category
+
+══════════════════════════════════════════════════════════════════
+SECTION 3: LINKEDIN MANAGEMENT SOP
+══════════════════════════════════════════════════════════════════
+
+LINKEDIN ALGORITHM FACTORS (2025)
+  Top signals:
+  1. Early comments (first 60–90 minutes are critical)
+  2. Profile-to-profile sharing (direct messages > shares)
+  3. Reactions AND comments weighted equally
+  4. Dwell time (how long people read the post)
+  5. Connection depth (1st degree comments >> 3rd degree)
+  6. Creator Mode enabled (expands reach significantly)
+
+POSTING BEST PRACTICES:
+  □ Post 3–5x per week for growth (3x for maintenance)
+  □ Long-form text (600–1,200 words) outperforms short posts for authority
+  □ Line breaks every 1–2 sentences (makes mobile reading easy)
+  □ Don't include external links IN post (kills reach) — put in comments
+  □ End every post with a question to drive comments
+  □ First comment = link to resource or additional context
+  □ Best formats: Text-only, Document/PDF carousels, native video
+
+ENGAGEMENT STRATEGY:
+  □ Comment on 5–10 posts in target industry daily
+  □ Comments must be substantive (3+ sentences adds value)
+  □ Never post generic "Great insight!" comments
+  □ Reply to everyone who comments on your posts (conversation signals)
+  □ Connect with people who engage with your content
+  □ Send personalized connection requests (not generic)
+
+CREATOR MODE CHECKLIST:
+  □ Enable Creator Mode in LinkedIn settings
+  □ Add 5 topic hashtags to profile
+  □ Newsletter enabled (if content strategy includes long-form)
+  □ Featured section: top 3 content pieces or portfolio pieces
+
+══════════════════════════════════════════════════════════════════
+SECTION 4: TIKTOK MANAGEMENT SOP
+══════════════════════════════════════════════════════════════════
+
+TIKTOK ALGORITHM FACTORS (2025)
+  Top signals:
+  1. Video completion rate (watch entire video = massive boost)
+  2. Rewatches (second view signals = algorithm push)
+  3. Shares (sent to DMs = strongest signal)
+  4. Comments (especially early comments)
+  5. Follows from video (conversion from content)
+  6. Saves (bookmarks = "watch later" intent)
+
+CONTENT STRATEGY:
+  □ Post 1–3x daily (TikTok rewards volume more than other platforms)
+  □ Keep videos 15–30 seconds for max completion rate
+  □ Use trending sounds EARLY (first 2–3 days they trend)
+  □ Engage with comments within first hour (algorithm watches this)
+  □ Post during off-peak hours (7–9am, 7–9pm local time)
+  □ Never delete videos (hurts account standing)
+  □ Reply to comments with video replies (shows up as fresh content)
+
+HOOKS THAT WORK ON TIKTOK:
+  "POV: You're a [ICA] who..."
+  "The [topic] hack nobody talks about:"
+  "Wait for it..." (pattern interrupt + curiosity)
+  "I can't believe this worked:"
+  "[Number] secrets [authority] don't want you to know:"
+  Direct camera: "[Statement]. Let me explain."
+
+══════════════════════════════════════════════════════════════════
+SECTION 5: FACEBOOK MANAGEMENT SOP
+══════════════════════════════════════════════════════════════════
+
+FACEBOOK ALGORITHM FACTORS (2025)
+  Facebook now deprioritizes public posts in favor of:
+  1. Facebook Groups content (massive organic reach)
+  2. Reels (still heavily promoted)
+  3. Stories (high visibility in feed)
+  4. Personal profiles (more reach than business pages)
+  5. Paid content (reality: organic reach is ~2–5% for pages)
+
+STRATEGY FOR BUSINESS PAGES:
+  □ Cross-post Instagram Reels to Facebook Reels
+  □ Post 3–5x per week but focus heavily on Facebook Groups
+  □ Use Facebook Stories daily (high position in feed)
+  □ Go Live 1x per month minimum (massive reach boost)
+  □ Respond to all Messenger inquiries within 1 hour (Page rating)
+  □ Set up auto-reply for Messenger (first response template)
+
+FACEBOOK GROUPS STRATEGY (if applicable):
+  □ Post valuable content in 3–5 relevant groups weekly
+  □ Answer questions genuinely — never spam with links
+  □ Build relationships before promoting
+  □ If client has own Group: post daily, moderate actively
+
+══════════════════════════════════════════════════════════════════
+SECTION 6: PINTEREST MANAGEMENT SOP
+══════════════════════════════════════════════════════════════════
+
+PINTEREST ALGORITHM FACTORS (2025)
+  Pinterest is a SEARCH ENGINE, not a social network.
+  Top signals:
+  1. Keyword-rich pin titles and descriptions
+  2. Fresh pins (new images, not repins of your own content)
+  3. Saves to relevant boards
+  4. Click-through rate (sending to website)
+  5. Board authority and organization
+  6. Consistent pinning (daily preferred)
+
+PINTEREST BEST PRACTICES:
+  □ Pin 5–15 fresh pins per day (use Tailwind for scheduling)
+  □ Create 10–15 boards organized by keyword topics
+  □ Board descriptions must include target keywords
+  □ Pin title: lead with keyword (first 40 characters most important)
+  □ Pin description: 100–200 words, natural keyword use
+  □ 2:3 ratio (1000 × 1500px) — taller pins take more real estate
+  □ Link every pin to a relevant website page
+  □ Seasonal content: pin 30–45 days BEFORE the season/holiday
+
+KEYWORD RESEARCH FOR PINTEREST:
+  1. Open Pinterest search bar
+  2. Type core niche keyword (e.g., "meal prep")
+  3. Note the bubble suggestions that appear — these are searched terms
+  4. Include 5–10 of these in pin descriptions and board names
+
+══════════════════════════════════════════════════════════════════
+SECTION 7: WEEKLY PLATFORM AUDIT CHECKLIST
+══════════════════════════════════════════════════════════════════
+
+Complete every Friday (15 minutes per client):
+
+  □ Did all scheduled posts publish correctly? (Check each platform)
+  □ Any posts with unusually high or low engagement? (Note for report)
+  □ Any negative comments or reviews to address?
+  □ Did follower/connection count increase? By how much?
+  □ Are all bio links working correctly?
+  □ Stories highlights up to date?
+  □ Profile photo/banner current and professional?
+  □ Any platform algorithm changes announced this week?
+  □ Competitor content audit: What worked for them this week?
+  □ Next week content calendar finalized and scheduled?
+
+═══════════════════════════════════════════════════════════════════
+© Social Media Manager Agency OS | All rights reserved
+This document is for the buyer's business use only. Not for resale.
+═══════════════════════════════════════════════════════════════════

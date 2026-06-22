@@ -1,0 +1,14 @@
+Month,Total Revenue,Total Expenses,Net Profit,Profit Margin %,Break-Even Point,Notes
+INSTRUCTIONS,Enter your monthly revenue in Total Revenue column,Enter all expenses in Total Expenses column,Net Profit = Revenue minus Expenses,Profit Margin = (Net Profit / Revenue) x 100,Break-Even = Total Fixed Costs / Profit Margin %,Use this to track profitability month by month
+January 2024,$4200.00,$3100.00,$1100.00,26.19%,$2860.00,Slow start to year - focused on lead generation
+February 2024,$5800.00,$3400.00,$2400.00,41.38%,$2600.00,Valentine promo worked well - 3 new clients
+March 2024,$7200.00,$4100.00,$3100.00,43.06%,$2950.00,Best month Q1 - retainer clients stable
+April 2024,$6500.00,$3800.00,$2700.00,41.54%,$2800.00,One large project delayed payment to May
+May 2024,$8900.00,$5200.00,$3700.00,41.57%,$3100.00,Received delayed April payment - inflated slightly
+June 2024,$9400.00,$5800.00,$3600.00,38.30%,$3400.00,Hired part-time assistant - expenses up
+July 2024,$7100.00,$4900.00,$2200.00,30.99%,$3200.00,Summer slowdown expected - pushed marketing
+August 2024,$5200.00,$5600.00,-$400.00,-7.69%,$3500.00,LOSS MONTH - equipment purchase + slow bookings
+September 2024,$8300.00,$4700.00,$3600.00,43.37%,$2900.00,Strong comeback - 4 new project starts
+October 2024,$10200.00,$6100.00,$4100.00,40.20%,$3300.00,Q4 surge - holiday prep clients
+November 2024,$11500.00,$7000.00,$4500.00,39.13%,$3600.00,Best month of year - holiday campaigns
+December 2024,$6800.00,$4200.00,$2600.00,38.24%,$2800.00,Holiday wind-down - fewer working days

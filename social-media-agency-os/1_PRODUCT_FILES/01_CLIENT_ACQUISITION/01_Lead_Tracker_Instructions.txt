@@ -1,0 +1,73 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     LEAD TRACKER — SETUP & INSTRUCTIONS                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+OVERVIEW
+────────────────────────────────────────────────────────────────────────────────
+Your lead tracker is the heartbeat of your agency's sales pipeline. Without it,
+leads fall through the cracks and revenue stays unpredictable. This system turns
+your pipeline into something you can review in 10 minutes every Monday morning.
+
+SPREADSHEET COLUMN SETUP (copy these headers exactly)
+────────────────────────────────────────────────────────────────────────────────
+
+Column A  │ Lead Name / Business Name
+Column B  │ Contact Name
+Column C  │ Email Address
+Column D  │ Phone / WhatsApp
+Column E  │ Platform Found (Instagram / LinkedIn / Referral / Cold Email / DM)
+Column F  │ Date Added
+Column G  │ Stage (see Stage System below)
+Column H  │ Deal Value / Monthly Retainer Estimate
+Column I  │ Discovery Call Date
+Column J  │ Proposal Sent Date
+Column K  │ Follow-Up Date (next action)
+Column L  │ Notes (pain points, budget mentioned, objections)
+Column M  │ Outcome (Won / Lost / Ghosted / Not Ready Yet)
+Column N  │ Why Lost (Too Expensive / Chose Competitor / DIY / Timing)
+
+STAGE SYSTEM (Color-Code Each Row)
+────────────────────────────────────────────────────────────────────────────────
+
+Stage 1 — NEW LEAD          (Gray)    Just discovered, no contact yet
+Stage 2 — CONTACTED         (Yellow)  Initial DM/email sent, awaiting reply
+Stage 3 — RESPONDED         (Blue)    They replied, building rapport
+Stage 4 — CALL BOOKED       (Orange)  Discovery call scheduled
+Stage 5 — PROPOSAL SENT     (Purple)  Proposal delivered, awaiting decision
+Stage 6 — NEGOTIATING       (Pink)    Active back-and-forth on terms/price
+Stage 7 — WON ✅             (Green)   Contract signed, onboarding in progress
+Stage 8 — LOST ✗             (Red)     Deal did not close — log reason
+
+LEAD QUALITY SCORING (Score 1-5 on each criterion = max 25)
+────────────────────────────────────────────────────────────────────────────────
+
+1. Budget Fit       — Can they clearly afford your minimum retainer?
+2. Decision Speed   — Do they sound ready to move within 30 days?
+3. Pain Urgency     — How badly do they need social media help RIGHT NOW?
+4. Communication    — Are they responsive and professional in messages?
+5. Niche Fit        — Do you have experience or case studies in their niche?
+
+Score 20-25 = Priority A (pursue aggressively)
+Score 14-19 = Priority B (nurture with follow-ups)
+Score below 14 = Priority C (low effort until they warm up)
+
+WEEKLY REVIEW PROCESS (Monday, 15 minutes)
+────────────────────────────────────────────────────────────────────────────────
+
+• Review all Stage 4-6 leads — what's the next action?
+• Archive any lead inactive for 60+ days into "Cold Leads" tab
+• Identify top 3 Priority A leads to focus on this week
+• Update Follow-Up Date column for all open leads
+• Calculate your pipeline value (sum of all Stage 1-6 Deal Values)
+• Set a revenue goal for the week based on pipeline
+
+FOLLOW-UP CADENCE
+────────────────────────────────────────────────────────────────────────────────
+
+After initial contact:       Follow up Day 3, Day 7, Day 14, Day 30
+After proposal sent:         Follow up Day 2, Day 5, Day 10
+After "I need to think":     Follow up Day 5, Day 14, Day 30
+After going cold:            Re-engage at 60 days and 90 days
+
+RULE: The fortune is in the follow-up. 80% of deals close after 5+ touchpoints.
+Most SMMs give up after 1-2 follow-ups and leave money on the table.

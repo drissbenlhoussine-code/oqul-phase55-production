@@ -1,0 +1,131 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       FULL PLATFORM AUDIT TEMPLATE                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client: _____________________  Audit Date: _____________
+Auditor: ____________________  Audit Period: ____________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INSTAGRAM AUDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROFILE HEALTH:
+Username: @___________  Account Type: □ Personal  □ Creator  □ Business
+Profile Photo: □ High quality  □ Brand-consistent  □ Needs updating
+Bio: [Copy current bio here]
+__________________________________________________________________
+Bio Score: /10  |  Issues: ____________________________________________
+Link in Bio: □ Present  □ Optimized  □ Missing
+Highlights: □ Present  □ Organized  □ Missing  Number: ____
+
+CONTENT AUDIT (last 30 posts):
+Posts/Month: ____  Avg Likes: ____  Avg Comments: ____  Avg Saves (est.): ____
+Avg Engagement Rate: ____%  (Industry avg: ____)
+Content Mix: Posts ____%  Reels ____%  Carousels ____%
+
+TOP 3 PERFORMING POSTS:
+1. [Date / Topic / Format] — Likes: __ Comments: __ Why it worked: ___________
+2. [Date / Topic / Format] — Likes: __ Comments: __ Why it worked: ___________
+3. [Date / Topic / Format] — Likes: __ Comments: __ Why it worked: ___________
+
+BOTTOM 3 POSTS:
+1. [Date / Topic / Format] — Why it underperformed: ________________________
+2. [Date / Topic / Format] — Why it underperformed: ________________________
+3. [Date / Topic / Format] — Why it underperformed: ________________________
+
+AUDIENCE HEALTH:
+Followers: ____  Following: ____  Follower/Following Ratio: ____
+Follower Growth (last 30 days): +____  (___%)
+Audience Quality: □ High (real, engaged)  □ Medium  □ Low (bots/inactive)
+
+COMPETITOR COMPARISON:
+Competitor 1: @________  Followers: ____  Eng Rate: ____  Posts/Week: ____
+Competitor 2: @________  Followers: ____  Eng Rate: ____  Posts/Week: ____
+Competitor 3: @________  Followers: ____  Eng Rate: ____  Posts/Week: ____
+
+INSTAGRAM QUICK WINS (immediate improvements):
+□ _______________________________________________________________
+□ _______________________________________________________________
+□ _______________________________________________________________
+
+INSTAGRAM 90-DAY RECOMMENDATIONS:
+1. ______________________________________________________________
+2. ______________________________________________________________
+3. ______________________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FACEBOOK AUDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Page Likes: ____  Followers: ____  Page Score: ___/5 stars
+Cover Photo: □ Updated  □ Branded  □ Outdated
+About Section: □ Complete  □ Partial  □ Missing
+CTA Button: □ Present  □ Correct  □ Missing — Current: ____________
+
+Posts/Month: ____  Avg Reach: ____  Avg Engagement: ____  Eng Rate: ____%
+Best Format: □ Video  □ Photo  □ Link  □ Text-only
+
+QUICK WINS: ________________________________________________________
+90-DAY RECS: _______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LINKEDIN AUDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Account Type: □ Company Page  □ Personal Profile  □ Both
+Followers: ____  Connections (if personal): ____
+Profile Completeness: ____%
+Headline: [Copy here] _______________________________________________
+About Section: □ Complete  □ Needs rewriting  □ Missing
+
+Posts/Month: ____  Avg Impressions: ____  Avg Engagement Rate: ____%
+Top Content Type: □ Text posts  □ Documents  □ Native video  □ Polls
+
+QUICK WINS: ________________________________________________________
+90-DAY RECS: _______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TIKTOK AUDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Followers: ____  Total Likes: ____  Avg Views: ____  Avg Watch Time %: ____%
+Posts/Month: ____  Best Performing Video: ______________________________
+
+QUICK WINS: ________________________________________________________
+90-DAY RECS: _______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PINTEREST AUDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Monthly Views: ____  Followers: ____  Boards: ____  Pins: ____
+Best Performing Board: ______________________________________________
+Profile Optimization: □ Business account  □ Claimed website  □ Rich pins enabled
+
+QUICK WINS: ________________________________________________________
+90-DAY RECS: _______________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OVERALL AUDIT SCORE & PRIORITY ACTION LIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Overall Score: ___/10
+
+PRIORITY 1 (Do immediately — Week 1):
+□ _______________________________________________________________
+□ _______________________________________________________________
+□ _______________________________________________________________
+
+PRIORITY 2 (Do in first month):
+□ _______________________________________________________________
+□ _______________________________________________________________
+□ _______________________________________________________________
+
+PRIORITY 3 (Do in first 90 days):
+□ _______________________________________________________________
+□ _______________________________________________________________
+□ _______________________________________________________________
+
+Summary note to client:
+[2-3 sentences of overall findings written in plain English for client presentation]
+________________________________________________________________

@@ -1,0 +1,290 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    12 CLIENT EMAIL TEMPLATES                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 1 — MONTHLY REPORT DELIVERY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: [BUSINESS NAME] — [MONTH] Social Media Report 📊
+
+Hi [NAME],
+
+Your [MONTH] social media report is attached! Here are the highlights:
+
+📈 [PLATFORM] Followers: [NUMBER] (+[X] this month, [X]% growth)
+❤️ Average engagement rate: [X]% (industry avg: [X]%)
+👁️ Total reach: [X] accounts reached
+🏆 Top post: [Brief description] — [X] saves/shares
+
+[2-3 sentences of narrative: what drove results, what you noticed, what you're adjusting]
+
+For [NEXT MONTH], we'll be focusing on [1-2 strategy changes and why].
+
+The full report is attached with complete platform breakdowns.
+Want to jump on a 20-minute call to go through it together? Here's my booking link: [LINK]
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 2 — CONTENT APPROVAL REQUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: [BUSINESS NAME] Content — Please review by [DATE] ✨
+
+Hi [NAME],
+
+Your content for [DATE RANGE] is ready for review! I'm excited about this batch —
+especially [specific post you're proud of and why].
+
+You'll find [X] posts for [platforms], scheduled to go live starting [DATE].
+
+Review here: [GOOGLE DRIVE / NOTION LINK]
+
+How to review:
+✅ Happy with a post? Comment "Approved" or reply here with "all good"
+✏️ Want changes? Leave a comment directly on the post with your specific feedback
+🚫 Want to remove a post entirely? Flag it and I'll replace with something new
+
+Please review by [DEADLINE — 48 hours from now].
+Content goes live starting [START DATE].
+
+If you have any questions before then, just reply here!
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 3 — REVISION RECEIVED CONFIRMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Got your feedback — revisions coming by [DATE]
+
+Hi [NAME],
+
+Thanks for your notes — really helpful!
+
+Here's what I'll be updating:
+• [Specific revision 1]
+• [Specific revision 2]
+• [Specific revision 3 — if applicable]
+
+You'll have the revised version in your inbox by [DATE/TIME].
+
+Quick question on [any unclear feedback piece]: when you mentioned [X], did you mean [Option A] or [Option B]? Just want to make sure I get it exactly right.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 4 — STRATEGY CHANGE RECOMMENDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: A content shift I want to suggest for [BUSINESS NAME]
+
+Hi [NAME],
+
+After reviewing your [MONTH] data, I want to propose a content strategy adjustment.
+
+Here's what the data is showing us:
+• [Format/content type] is consistently getting [X]% more reach than other posts
+• [Another observation — e.g., "Reels are driving 60% of all profile visits"]
+• [Third observation if applicable]
+
+My recommendation: Starting next month, I'd like to shift to [specific change — e.g., "3 Reels per month instead of 1, and reduce static posts from 12 to 8 per month"].
+
+Why: [2-3 sentences explaining the data-driven rationale]
+
+This won't change your current investment. I just want to put our effort where it's working best for you.
+
+Thoughts? Happy to jump on a quick call if you want to talk through it.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 5 — MISSED APPROVAL DEADLINE FOLLOW-UP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Quick reminder — content goes live in 24 hours
+
+Hi [NAME],
+
+Just a quick reminder — your content review deadline was [DATE] and I haven't
+heard back yet. Content is scheduled to go live on [DATE].
+
+Per our agreement, if I don't receive feedback by [TIME TODAY], content will
+go live as submitted.
+
+If you've been busy — totally fine! Just reply here:
+• "All approved" — and I'll schedule everything
+• Any specific changes needed — and I'll make them if there's time
+
+Happy to reschedule the start date if you need a bit more time — just let me know.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 6 — CONTRACT RENEWAL OFFER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: We're coming up on [X] months together 🎉
+
+Hi [NAME],
+
+Hard to believe we're already [X] months in — time flies when results are happening!
+
+Your current contract is up on [DATE]. I'd love to continue what we've been building.
+
+For the next [3/6]-month term, I'd like to propose:
+• Same service as current: $[AMOUNT]/month
+• OR an upgrade to our [HIGHER PACKAGE]: $[AMOUNT]/month — this adds [specific benefit]
+
+What I'm excited to focus on in [NEXT QUARTER]: [2-3 specific strategies based on what you've learned]
+
+Can we hop on a 20-minute call this week to discuss? Here's my booking link: [LINK]
+
+And if you'd prefer to stay on month-to-month, just say the word — that works too.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 7 — RATE INCREASE ANNOUNCEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: A note about [AGENCY NAME] pricing from [DATE]
+
+Hi [NAME],
+
+I'm reaching out to give you advance notice of an upcoming pricing update.
+
+Starting [DATE — 30 days from now], my monthly retainer rates will be increasing
+to $[NEW RATE] per month (from $[CURRENT RATE]).
+
+This increase reflects the ongoing investment I'm making in tools, team, and
+delivering the level of service and results I hold myself to.
+
+As a valued long-term client, your rate will remain at $[CURRENT] for one
+additional month (through [DATE]), giving you time to plan.
+
+Your service will continue at the same standard — and I'm more committed than
+ever to delivering results for [BUSINESS NAME].
+
+If you have any questions, please don't hesitate to reply or call me.
+
+Thank you for your continued trust. It genuinely means a lot.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 8 — NEW PLATFORM RECOMMENDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Should [BUSINESS NAME] be on [PLATFORM]? My honest take.
+
+Hi [NAME],
+
+I've been looking at your analytics alongside what's happening in your industry,
+and I want to bring something to your attention.
+
+[PLATFORM — e.g., TikTok] is currently delivering results for [similar businesses]
+that we're not seeing on [current platforms]. Specifically:
+• [Your competitor X] is getting [Y views/followers] on TikTok with [minimal effort/similar content]
+• [Your target audience] demographic is highly active there
+• Content from [your niche] performs particularly well in [short-form/educational/entertainment] format
+
+My honest recommendation: [Should they add it or not, and why]
+
+If you want to add [PLATFORM]: I can put together an add-on proposal for $[AMOUNT]/month
+to cover [what's included]. We'd start with 2 months to test before committing fully.
+
+Thoughts? Worth a quick conversation?
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 9 — ONBOARDING DELAY NOTIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Quick update on your onboarding timeline
+
+Hi [NAME],
+
+I wanted to give you a heads-up on a slight delay in getting your first
+content batch delivered.
+
+[Reason — be honest and specific: "I'm still waiting on your brand assets /
+I've been working through your questionnaire responses and want to make sure
+the strategy is right / We've had a scheduling conflict on the team."]
+
+Here's the updated timeline:
+• First content calendar: [NEW DATE]
+• First content batch: [NEW DATE]
+• Content goes live: [NEW DATE]
+
+I apologize for the adjustment — I'd rather tell you now than rush content
+that doesn't meet the standard we both want.
+
+If this timeline causes any issues for you, please let me know and I'll do
+everything I can to accommodate.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 10 — PROACTIVE HAPPY CLIENT CHECK-IN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Quick check-in — how are things looking from your side?
+
+Hi [NAME],
+
+We're about halfway through the month and I just wanted to check in.
+
+From our side: [2-3 sentences on what's been performing well or interesting this month so far]
+
+One thing I noticed this week: [specific observation — e.g., "Your Tuesday posts
+are consistently outperforming your Thursday ones — might be worth adjusting the
+schedule slightly"]
+
+From your side — anything coming up in the next few weeks I should know about?
+Promotions, events, a product launch, a staff change — anything that should
+influence the content is good to know early.
+
+Hope [BUSINESS NAME] is having a great month. Talk soon!
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 11 — END OF PAID TRIAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: Your trial month is done — here's what happened
+
+Hi [NAME],
+
+Your trial month with [AGENCY NAME] wraps up on [DATE], and I wanted to share
+what we accomplished and propose next steps.
+
+Here's what the trial delivered:
+📊 Content published: [X] posts across [platforms]
+📈 Reach: [X] accounts
+❤️ Engagement rate: [X]% (you started at [X]%)
+🏆 Best post: [description] — [X] reach
+
+My honest assessment: [What worked, what you'd do differently next month, confidence level in continued results]
+
+For ongoing management, I'd recommend [SPECIFIC PACKAGE] at $[AMOUNT]/month.
+This makes sense because [1-2 specific reasons tied to what you learned in the trial].
+
+To move forward: reply here with "Let's go" and I'll send the contract right away.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EMAIL 12 — SERVICE PAUSE ACKNOWLEDGMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Subject: [BUSINESS NAME] account — confirmed pause from [DATE]
+
+Hi [NAME],
+
+Completely understood — I've noted your account is paused effective [DATE].
+
+Here's what's happening on our end:
+• All scheduled content through [LAST DATE INCLUDED] will still go live
+• After [DATE], posting and community management will pause
+• Your account access, brand assets, and content archive remain safe with us
+• To resume: simply reply to this email with at least 7 days' notice
+
+When you're ready to restart, we'll be here. No re-onboarding needed —
+we'll pick up exactly where we left off.
+
+Is there anything you'd like handed over in the meantime (your analytics history,
+content files, etc.)? Happy to package that up for you.
+
+[YOUR NAME]

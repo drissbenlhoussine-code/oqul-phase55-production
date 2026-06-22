@@ -1,0 +1,7 @@
+﻿Invoice#,Client,Date Issued,Due Date,Amount,Status,Date Paid,Payment Method,Notes
+INV-2025-001,Alpha Dental,2025-06-01,2025-06-08,2400,Paid,2025-06-06,ACH,
+INV-2025-002,Luxe Spa,2025-06-01,2025-06-08,1800,Paid,2025-06-07,Credit Card,
+INV-2025-003,TechFlow SaaS,2025-06-01,2025-06-08,3500,Paid,2025-06-03,ACH,
+INV-2025-004,Green Thumb,2025-06-01,2025-06-08,1200,Paid,2025-06-09,Check,
+INV-2025-005,Bella Cucina,2025-06-01,2025-06-08,1500,Overdue,,,Follow up June 13
+INV-2025-006,Metro Fitness,2025-06-01,2025-06-08,1600,Sent,,Credit Card,

@@ -1,0 +1,68 @@
+﻿File Path,Folder,Format,Editable In
+00_START_HERE/README_FIRST.txt,00_START_HERE,TXT,Any text editor
+00_START_HERE/START_HERE_Implementation_Guide.pdf,00_START_HERE,PDF,Adobe Acrobat (view)
+01_BUSINESS_DEVELOPMENT/Business_Development_CRM.xlsx,01_BUSINESS_DEVELOPMENT,XLSX,Microsoft Excel / Google Sheets
+01_BUSINESS_DEVELOPMENT/Client_Proposal_Template.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+01_BUSINESS_DEVELOPMENT/Cold_Outreach_Templates.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+01_BUSINESS_DEVELOPMENT/Discovery_Call_Script.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+01_BUSINESS_DEVELOPMENT/Follow_Up_Sequence.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+01_BUSINESS_DEVELOPMENT/Objection_Handling_Scripts.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+01_BUSINESS_DEVELOPMENT/Pricing_Guide.docx,01_BUSINESS_DEVELOPMENT,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Client_Expectations_Guide.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Client_Kickoff_Call_Script.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Client_Onboarding_Tracker.xlsx,02_CLIENT_ONBOARDING,XLSX,Microsoft Excel / Google Sheets
+02_CLIENT_ONBOARDING/Job_Order_Intake_Form.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/SOP_For_New_Clients.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+02_CLIENT_ONBOARDING/Welcome_Email_Templates.docx,02_CLIENT_ONBOARDING,DOCX,Microsoft Word / Google Docs
+03_CANDIDATE_SOURCING/Boolean_Search_Library.docx,03_CANDIDATE_SOURCING,DOCX,Microsoft Word / Google Docs
+03_CANDIDATE_SOURCING/Candidate_Sourcing_Checklist.docx,03_CANDIDATE_SOURCING,DOCX,Microsoft Word / Google Docs
+03_CANDIDATE_SOURCING/Job_Board_Strategy_Guide.docx,03_CANDIDATE_SOURCING,DOCX,Microsoft Word / Google Docs
+03_CANDIDATE_SOURCING/LinkedIn_Sourcing_Playbook.docx,03_CANDIDATE_SOURCING,DOCX,Microsoft Word / Google Docs
+03_CANDIDATE_SOURCING/Passive_Candidate_Outreach.docx,03_CANDIDATE_SOURCING,DOCX,Microsoft Word / Google Docs
+04_CANDIDATE_MANAGEMENT/Candidate_Assessment_Framework.docx,04_CANDIDATE_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+04_CANDIDATE_MANAGEMENT/Candidate_Communication_Templates.docx,04_CANDIDATE_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+04_CANDIDATE_MANAGEMENT/Candidate_Pipeline_Tracker.xlsx,04_CANDIDATE_MANAGEMENT,XLSX,Microsoft Excel / Google Sheets
+04_CANDIDATE_MANAGEMENT/Candidate_Screening_Script.docx,04_CANDIDATE_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+04_CANDIDATE_MANAGEMENT/Interview_Preparation_Guide.docx,04_CANDIDATE_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+04_CANDIDATE_MANAGEMENT/Reference_Check_Script.docx,04_CANDIDATE_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+05_CLIENT_MANAGEMENT/Candidate_Submittal_Template.docx,05_CLIENT_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+05_CLIENT_MANAGEMENT/Client_Activity_Tracker.xlsx,05_CLIENT_MANAGEMENT,XLSX,Microsoft Excel / Google Sheets
+05_CLIENT_MANAGEMENT/Client_Feedback_Collection.docx,05_CLIENT_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+05_CLIENT_MANAGEMENT/Difficult_Conversation_Scripts.docx,05_CLIENT_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+05_CLIENT_MANAGEMENT/Weekly_Client_Update_Template.docx,05_CLIENT_MANAGEMENT,DOCX,Microsoft Word / Google Docs
+06_COMPLIANCE_LEGAL/Anti_Discrimination_Policy.docx,06_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+06_COMPLIANCE_LEGAL/EEOC_Compliance_Checklist.docx,06_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+06_COMPLIANCE_LEGAL/Legal_Template_Use_Guide.pdf,06_COMPLIANCE_LEGAL,PDF,Adobe Acrobat (view)
+06_COMPLIANCE_LEGAL/Record_Retention_Policy.docx,06_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+06_COMPLIANCE_LEGAL/Recruiting_Service_Agreement.docx,06_COMPLIANCE_LEGAL,DOCX,Microsoft Word / Google Docs
+07_PLACEMENT_PROCESS/Offer_Management_SOP.docx,07_PLACEMENT_PROCESS,DOCX,Microsoft Word / Google Docs
+07_PLACEMENT_PROCESS/Onboarding_Handoff_Checklist.docx,07_PLACEMENT_PROCESS,DOCX,Microsoft Word / Google Docs
+07_PLACEMENT_PROCESS/Post_Placement_Follow_Up.docx,07_PLACEMENT_PROCESS,DOCX,Microsoft Word / Google Docs
+07_PLACEMENT_PROCESS/Salary_Negotiation_Scripts.docx,07_PLACEMENT_PROCESS,DOCX,Microsoft Word / Google Docs
+08_BUSINESS_OPERATIONS/Business_Goals_Workbook.docx,08_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+08_BUSINESS_OPERATIONS/Business_KPI_Dashboard.xlsx,08_BUSINESS_OPERATIONS,XLSX,Microsoft Excel / Google Sheets
+08_BUSINESS_OPERATIONS/Recruiter_Training_Manual.docx,08_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+08_BUSINESS_OPERATIONS/Team_Management_Guide.docx,08_BUSINESS_OPERATIONS,DOCX,Microsoft Word / Google Docs
+09_MARKETING_GROWTH/Content_Marketing_Strategy.docx,09_MARKETING_GROWTH,DOCX,Microsoft Word / Google Docs
+09_MARKETING_GROWTH/LinkedIn_Growth_Playbook.docx,09_MARKETING_GROWTH,DOCX,Microsoft Word / Google Docs
+09_MARKETING_GROWTH/Personal_Brand_Guide.docx,09_MARKETING_GROWTH,DOCX,Microsoft Word / Google Docs
+09_MARKETING_GROWTH/Referral_Partner_System.docx,09_MARKETING_GROWTH,DOCX,Microsoft Word / Google Docs
+10_NOTION_WORKSPACE/Business_Development_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Candidates_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Clients_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Content_Calendar_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Database_Field_Map.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Job_Orders_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/NOTION_WORKSPACE_SETUP.md,10_NOTION_WORKSPACE,MD,Notion / Any text editor
+10_NOTION_WORKSPACE/Notion_Workspace_Setup_Guide.pdf,10_NOTION_WORKSPACE,PDF,Adobe Acrobat (view)
+10_NOTION_WORKSPACE/Placements_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/SOP_Library.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+10_NOTION_WORKSPACE/Tasks_Database.csv,10_NOTION_WORKSPACE,CSV,Excel / Google Sheets / Notion
+11_BONUSES/100_Recruiting_Content_Ideas.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+11_BONUSES/365_Recruiting_Content_Captions.csv,11_BONUSES,CSV,Excel / Google Sheets / Notion
+11_BONUSES/Recruiter_Success_Framework.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+11_BONUSES/Recruiting_Agency_Growth_Roadmap.docx,11_BONUSES,DOCX,Microsoft Word / Google Docs
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Candidate_Profile.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Client_Proposal.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Job_Opportunity.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint
+12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Social_Post_Pack.pptx,12_CANVA_IMPORTABLE_TEMPLATES,PPTX,Upload to Canva / PowerPoint

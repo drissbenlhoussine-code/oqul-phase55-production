@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Client Portal — Notion Template</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#fff;color:#1a1a2e;min-height:100vh}
+  .header{background:linear-gradient(135deg,#0F3460 0%,#16213E 100%);padding:48px 60px 40px;color:#fff}
+  .header-logo{font-size:13px;color:rgba(255,255,255,.5);margin-bottom:16px;letter-spacing:.1em;text-transform:uppercase}
+  .header-brand{display:flex;align-items:center;gap:16px;margin-bottom:24px}
+  .brand-avatar{width:56px;height:56px;background:rgba(255,255,255,.15);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px}
+  .brand-name{font-size:28px;font-weight:700}
+  .brand-tag{font-size:13px;color:rgba(255,255,255,.6);margin-top:2px}
+  .header-stats{display:flex;gap:40px;margin-top:8px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1)}
+  .stat{display:flex;flex-direction:column;gap:4px}
+  .stat-val{font-size:22px;font-weight:700;color:#fff}
+  .stat-label{font-size:11px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.08em}
+  .main{padding:40px 60px;max-width:1100px}
+  .section-title{font-size:13px;font-weight:700;color:#666;text-transform:uppercase;letter-spacing:.1em;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #f0f0f0}
+  .cards-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:8px}
+  .card{background:#f8f9fb;border:1px solid #e8eaed;border-radius:10px;padding:20px;transition:all .15s}
+  .card:hover{border-color:#0F3460;box-shadow:0 4px 16px rgba(15,52,96,.08)}
+  .card-icon{font-size:24px;margin-bottom:10px}
+  .card-title{font-size:13px;font-weight:700;color:#1a1a2e;margin-bottom:4px}
+  .card-sub{font-size:12px;color:#888}
+  .card-cta{margin-top:12px;font-size:12px;color:#0F3460;font-weight:600;cursor:pointer}
+  .card-big{background:#0F3460;color:#fff;border:none}
+  .card-big .card-title,.card-big .card-sub,.card-big .card-cta{color:#fff}
+  .card-big .card-cta{color:rgba(255,255,255,.7)}
+  .card-green{background:#0B5345;color:#fff;border:none}
+  .card-green .card-title,.card-green .card-sub,.card-green .card-cta{color:#fff}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-top:4px}
+  th{padding:10px 14px;text-align:left;font-size:11px;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid #f0f0f0;background:#fafafa}
+  td{padding:12px 14px;border-bottom:1px solid #f0f0f0;vertical-align:middle}
+  tr:hover td{background:#fafafa}
+  .badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
+  .b-done{background:#D5F5E3;color:#1E8449}
+  .b-review{background:#EBF5FB;color:#1A5276}
+  .b-sched{background:#F4ECF7;color:#6C3483}
+  .b-draft{background:#FEF9E7;color:#B7770D}
+  .b-live{background:#EAFAF1;color:#27AE60}
+  .progress-wrap{display:flex;align-items:center;gap:10px}
+  .progress-bar{flex:1;height:6px;background:#f0f0f0;border-radius:3px}
+  .progress-fill{height:6px;border-radius:3px;background:#0F3460}
+  .platform-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
+  .timeline-item{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid #f0f0f0}
+  .timeline-dot{width:10px;height:10px;border-radius:50%;background:#0F3460;margin-top:4px;flex-shrink:0}
+  .timeline-date{font-size:11px;color:#aaa;white-space:nowrap;width:80px;flex-shrink:0}
+  .timeline-content{flex:1}
+  .timeline-title{font-size:13px;font-weight:600;color:#1a1a2e}
+  .timeline-sub{font-size:12px;color:#888;margin-top:2px}
+  .approval-item{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid #e8eaed;border-radius:8px;margin-bottom:8px}
+  .approval-thumb{width:48px;height:48px;border-radius:6px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+  .approval-info{flex:1}
+  .approval-title{font-size:13px;font-weight:600}
+  .approval-sub{font-size:11px;color:#888;margin-top:2px}
+  .approval-actions{display:flex;gap:8px}
+  .btn-approve{padding:6px 14px;background:#27AE60;color:#fff;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer}
+  .btn-revise{padding:6px 14px;background:#f0f0f0;color:#666;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer}
+  .setup-box{background:#EBF5FB;border:1px solid #AED6F1;border-radius:10px;padding:24px;margin:32px 0}
+  .setup-title{font-size:15px;font-weight:700;color:#1A5276;margin-bottom:16px}
+  .setup-step{display:flex;gap:12px;margin-bottom:10px;align-items:flex-start}
+  .step-num{width:22px;height:22px;background:#1A5276;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+  .step-text{font-size:13px;color:#555;line-height:1.5}
+  .step-text strong{color:#1a1a2e}
+  .metrics-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:8px}
+  .metric-box{background:#f8f9fb;border:1px solid #e8eaed;border-radius:8px;padding:16px}
+  .metric-val{font-size:24px;font-weight:700;color:#0F3460}
+  .metric-change{font-size:11px;margin-top:2px}
+  .metric-label{font-size:11px;color:#888;margin-top:6px;text-transform:uppercase;letter-spacing:.06em}
+  .green{color:#27AE60}
+  .red{color:#E74C3C}
+  footer{margin-top:48px;padding:24px;background:#f8f9fb;border-radius:8px;font-size:12px;color:#aaa;text-align:center}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-logo">SMM Agency OS · Client Portal Template</div>
+  <div class="header-brand">
+    <div class="brand-avatar">🏢</div>
+    <div>
+      <div class="brand-name">[Client Name] Portal</div>
+      <div class="brand-tag">Managed by [Your Agency Name] · Started [Date]</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><div class="stat-val">📅 Jan 2025</div><div class="stat-label">Current Month</div></div>
+    <div class="stat"><div class="stat-val">Growth</div><div class="stat-label">Package</div></div>
+    <div class="stat"><div class="stat-val">€1,800</div><div class="stat-label">Monthly Retainer</div></div>
+    <div class="stat"><div class="stat-val">6 months</div><div class="stat-label">Partnership</div></div>
+    <div class="stat"><div class="stat-val">Jan 28</div><div class="stat-label">Next Report</div></div>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="setup-box">
+    <div class="setup-title">⚡ How to Set Up This Client Portal in Notion</div>
+    <div class="setup-step"><div class="step-num">1</div><div class="step-text"><strong>Duplicate this page</strong> for each new client → Rename with their company name</div></div>
+    <div class="setup-step"><div class="step-num">2</div><div class="step-text"><strong>Fill in the header properties</strong>: Client name, package, retainer, start date</div></div>
+    <div class="setup-step"><div class="step-num">3</div><div class="step-text"><strong>Share with client</strong>: Click "Share" → "Share to web" OR invite their email → Set to "Can view" or "Can comment"</div></div>
+    <div class="setup-step"><div class="step-num">4</div><div class="step-text"><strong>Update monthly</strong>: Drop new report, update content calendar, refresh KPIs each month</div></div>
+    <div class="setup-step"><div class="step-num">5</div><div class="step-text"><strong>Pro tip:</strong> Lock the template sections so clients can only view/comment, not delete your structure</div></div>
+  </div>
+
+  <!-- QUICK LINKS -->
+  <div class="section-title">🔗 Quick Access</div>
+  <div class="cards-row">
+    <div class="card card-big"><div class="card-icon">📊</div><div class="card-title">Latest Report</div><div class="card-sub">January 2025 — Sent Jan 28</div><div class="card-cta">→ Open Report</div></div>
+    <div class="card card-green"><div class="card-icon">📅</div><div class="card-title">Content Calendar</div><div class="card-sub">February 2025 — 20 posts planned</div><div class="card-cta">→ View Calendar</div></div>
+    <div class="card"><div class="card-icon">✅</div><div class="card-title">Content Approvals</div><div class="card-sub">3 posts awaiting your review</div><div class="card-cta" style="color:#E67E22">→ Review Now</div></div>
+  </div>
+  <div class="cards-row" style="margin-top:12px">
+    <div class="card"><div class="card-icon">🎯</div><div class="card-title">Goals & KPIs</div><div class="card-sub">Q1 2025 targets and tracking</div><div class="card-cta">→ View Goals</div></div>
+    <div class="card"><div class="card-icon">💬</div><div class="card-title">Communication Log</div><div class="card-sub">All calls, emails, and messages</div><div class="card-cta">→ View Log</div></div>
+    <div class="card"><div class="card-icon">📁</div><div class="card-title">Brand Assets</div><div class="card-sub">Logos, colors, photography</div><div class="card-cta">→ Open Drive</div></div>
+  </div>
+
+  <!-- THIS MONTH'S KPIs -->
+  <div class="section-title">📈 This Month's Performance (January 2025)</div>
+  <div class="metrics-grid">
+    <div class="metric-box"><div class="metric-val">12,400</div><div class="metric-change green">▲ +38% vs Dec</div><div class="metric-label">Total Reach</div></div>
+    <div class="metric-box"><div class="metric-val">4.2%</div><div class="metric-change green">▲ +1.1% vs Dec</div><div class="metric-label">Engagement Rate</div></div>
+    <div class="metric-box"><div class="metric-val">+340</div><div class="metric-change green">▲ Best month</div><div class="metric-label">New Followers</div></div>
+    <div class="metric-box"><div class="metric-val">8</div><div class="metric-change green">▲ +5 vs Dec</div><div class="metric-label">DM Inquiries</div></div>
+  </div>
+
+  <!-- CONTENT APPROVAL -->
+  <div class="section-title">✅ Content Pending Your Approval</div>
+  <div class="approval-item">
+    <div class="approval-thumb">🖼</div>
+    <div class="approval-info">
+      <div class="approval-title">Carousel: "5 signs your social media isn't working"</div>
+      <div class="approval-sub">Instagram · 7 slides · Educational · Scheduled: Feb 3</div>
+    </div>
+    <div class="approval-actions">
+      <div class="btn-approve">✓ Approve</div>
+      <div class="btn-revise">✎ Request Edit</div>
+    </div>
+  </div>
+  <div class="approval-item">
+    <div class="approval-thumb">🎬</div>
+    <div class="approval-info">
+      <div class="approval-title">Reel: "Day in the life at [Brand Name]"</div>
+      <div class="approval-sub">Instagram + TikTok · 30 sec · Behind the Scenes · Scheduled: Feb 5</div>
+    </div>
+    <div class="approval-actions">
+      <div class="btn-approve">✓ Approve</div>
+      <div class="btn-revise">✎ Request Edit</div>
+    </div>
+  </div>
+  <div class="approval-item">
+    <div class="approval-thumb">📝</div>
+    <div class="approval-info">
+      <div class="approval-title">LinkedIn Post: "How we helped clients grow 3x in Q4"</div>
+      <div class="approval-sub">LinkedIn · Long-form text · Proof · Scheduled: Feb 7</div>
+    </div>
+    <div class="approval-actions">
+      <div class="btn-approve">✓ Approve</div>
+      <div class="btn-revise">✎ Request Edit</div>
+    </div>
+  </div>
+
+  <!-- CONTENT CALENDAR PREVIEW -->
+  <div class="section-title">📅 February Content Calendar</div>
+  <table>
+    <tr><th>#</th><th>Date</th><th>Platform</th><th>Format</th><th>Topic</th><th>Status</th><th>Approved?</th></tr>
+    <tr><td>1</td><td>Feb 3</td><td>Instagram</td><td>Carousel</td><td>5 signs your social media isn't working</td><td><span class="badge b-review">In Review</span></td><td>⏳</td></tr>
+    <tr><td>2</td><td>Feb 5</td><td>IG + TikTok</td><td>Reel</td><td>Day in the life at [Brand]</td><td><span class="badge b-review">In Review</span></td><td>⏳</td></tr>
+    <tr><td>3</td><td>Feb 7</td><td>LinkedIn</td><td>Post</td><td>Q4 growth results case study</td><td><span class="badge b-review">In Review</span></td><td>⏳</td></tr>
+    <tr><td>4</td><td>Feb 10</td><td>Instagram</td><td>Story Series</td><td>Valentine's week campaign — Day 1</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>5</td><td>Feb 12</td><td>Instagram</td><td>Reel</td><td>Valentine's product/service feature</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>6</td><td>Feb 14</td><td>All platforms</td><td>Campaign Post</td><td>Valentine's Day — hero post</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>7</td><td>Feb 17</td><td>Instagram</td><td>Carousel</td><td>How to [educational topic for niche]</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>8</td><td>Feb 19</td><td>LinkedIn</td><td>Post</td><td>Industry insight + your take</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>9</td><td>Feb 21</td><td>Instagram</td><td>Reel</td><td>Behind the scenes [process]</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+    <tr><td>10</td><td>Feb 24</td><td>Instagram</td><td>Carousel</td><td>Client testimonial / social proof</td><td><span class="badge b-draft">Draft</span></td><td>—</td></tr>
+  </table>
+
+  <!-- GOALS TRACKER -->
+  <div class="section-title">🎯 Q1 2025 Goals</div>
+  <table>
+    <tr><th>Goal</th><th>Target</th><th>Current</th><th>Progress</th><th>On Track?</th></tr>
+    <tr>
+      <td>Instagram Followers</td><td>5,000</td><td>4,200</td>
+      <td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:84%"></div></div><span style="font-size:12px;color:#666">84%</span></div></td>
+      <td><span class="badge b-done">✓ On Track</span></td>
+    </tr>
+    <tr>
+      <td>Monthly Reach</td><td>15,000</td><td>12,400</td>
+      <td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:83%"></div></div><span style="font-size:12px;color:#666">83%</span></div></td>
+      <td><span class="badge b-done">✓ On Track</span></td>
+    </tr>
+    <tr>
+      <td>Engagement Rate</td><td>4.0%</td><td>4.2%</td>
+      <td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:100%;background:#27AE60"></div></div><span style="font-size:12px;color:#27AE60">✓</span></div></td>
+      <td><span class="badge b-live">🏆 Exceeded</span></td>
+    </tr>
+    <tr>
+      <td>Monthly DM Inquiries</td><td>15</td><td>8</td>
+      <td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:53%;background:#E67E22"></div></div><span style="font-size:12px;color:#E67E22">53%</span></div></td>
+      <td><span class="badge b-draft">⚠ Building</span></td>
+    </tr>
+    <tr>
+      <td>LinkedIn Followers</td><td>1,500</td><td>1,340</td>
+      <td><div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width:89%"></div></div><span style="font-size:12px;color:#666">89%</span></div></td>
+      <td><span class="badge b-done">✓ On Track</span></td>
+    </tr>
+  </table>
+
+  <!-- COMMUNICATION LOG -->
+  <div class="section-title">💬 Recent Communication</div>
+  <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">Jan 28</div><div class="timeline-content"><div class="timeline-title">Monthly Report Sent — January 2025</div><div class="timeline-sub">Sent via email + shared in portal. Client confirmed receipt.</div></div></div>
+  <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">Jan 22</div><div class="timeline-content"><div class="timeline-title">Monthly Strategy Call — 30 min</div><div class="timeline-sub">Discussed Q1 strategy, Valentine's campaign, LinkedIn expansion.</div></div></div>
+  <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">Jan 15</div><div class="timeline-content"><div class="timeline-title">Content Batch Submitted for February</div><div class="timeline-sub">20 posts sent for review. Awaiting approval on 3 items.</div></div></div>
+  <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-date">Jan 10</div><div class="timeline-content"><div class="timeline-title">Reel went viral — 41K views 🎉</div><div class="timeline-sub">Top performing content of the month. Client notified immediately.</div></div></div>
+
+  <footer>SMM Agency OS — Client Portal Template · © All rights reserved · For buyer use only, not for resale</footer>
+</div>
+</body>
+</html>

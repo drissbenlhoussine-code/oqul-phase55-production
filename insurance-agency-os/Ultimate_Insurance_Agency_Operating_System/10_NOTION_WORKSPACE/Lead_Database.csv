@@ -1,0 +1,9 @@
+﻿Lead ID,Name,Phone,Email,Source,Line of Business,Status,Est. Premium,Last Contact,Next Action,Notes,Agent
+L001,James Parker,(555) 201-3344,jparker@email.com,Zillow Ad,Home+Auto,Hot,"$2,400",2024-01-10,Send quote,"Pre-qualified, good credit",Agent Smith
+L002,Susan Hill,(555) 312-4455,shill@email.com,Referral,Auto,Warm,"$1,100",2024-01-11,Follow-up call,"Single mom, price-sensitive",Agent Smith
+L003,Robert Chen,(555) 423-5566,rchen@email.com,LinkedIn,Commercial BOP,Hot,"$8,500",2024-01-12,Appointment set,"Restaurant owner, 12 employees",Agent Jones
+L004,Maria Gonzalez,(555) 534-6677,mgonzalez@email.com,Facebook,Home+Auto+Life,Warm,"$4,200",2024-01-13,Needs analysis,"Young family, life insurance interest",Agent Smith
+L005,David Kim,(555) 645-7788,dkim@email.com,Cold Call,GL Only,Cold,"$3,200",2024-01-14,Email follow-up,Skeptical about switching,Agent Jones
+L006,Jennifer White,(555) 756-8899,jwhite@email.com,SOI,Full Package,Hot,"$5,100",2024-01-15,Quote presentation,Neighbor of existing client,Agent Smith
+L007,Carlos Rivera,(555) 867-9900,crivera@email.com,Chamber,Commercial,Warm,"$6,800",2024-01-16,Send questionnaire,Construction company owner,Agent Jones
+L008,Amy Johnson,(555) 978-0011,ajohnson@email.com,Website,Auto,Cold,$900,2024-01-17,Send email,Just browsing rates,Agent Smith

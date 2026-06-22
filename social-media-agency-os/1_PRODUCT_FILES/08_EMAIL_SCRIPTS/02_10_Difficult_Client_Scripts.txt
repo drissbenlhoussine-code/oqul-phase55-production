@@ -1,0 +1,213 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  10 DIFFICULT CLIENT SITUATION SCRIPTS                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 1 — SCOPE CREEP ("Can you also manage our TikTok?")
+Channel: Email
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: TikTok management — happy to help! Here's how.
+
+Hi [NAME],
+
+I'd love to add TikTok to what we're doing — it's actually a great platform for [their niche].
+
+Just to be transparent: TikTok management isn't included in our current package, as it's a significantly different platform with its own strategy, content format, and time investment.
+
+To add TikTok, I'd propose a $[AMOUNT] add-on per month, which includes [X posts, Y strategy elements]. Alternatively, we could create a new proposal that combines everything.
+
+Happy to put together an updated scope this week if you'd like to move forward. Just say the word!
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 2 — ABUSIVE OR DISRESPECTFUL CLIENT
+Channel: Email (not call — everything in writing)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Re: [Previous conversation]
+
+Hi [NAME],
+
+I want to address the tone of the recent exchange. I understand you're frustrated, and I want to resolve this — but I'm not able to work productively in a communication environment that includes [name the behavior: personal insults / shouting / threats].
+
+I'm committed to delivering excellent work and resolving whatever issue is at the root of your frustration. I'm also committed to maintaining a professional environment.
+
+Can we reset? I'd like to hop on a call at [TIME] to address the underlying concerns directly and professionally. If that doesn't work, I'm happy to schedule an alternative time.
+
+[YOUR NAME]
+
+[If the behavior continues after this: escalate to a formal warning or contract termination]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 3 — CLIENT GOES SILENT (No approvals, no responses)
+Channel: Email, then text/WhatsApp if no response
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email (Day 3 of silence):
+Subject: Checking in — content review needed by [DATE]
+
+Hi [NAME],
+
+I've sent across your content for review but haven't heard back. I want to make sure everything is on track.
+
+Content is scheduled to go live on [DATE]. To meet that deadline, I need your feedback by [TOMORROW at TIME].
+
+If you're overwhelmed right now — no worries. Just reply with "post everything as is" or "hold everything" and I'll act accordingly.
+
+If I don't hear back by [DATE/TIME], per our agreement I'll proceed with publishing as scheduled.
+
+[YOUR NAME]
+
+Text/WhatsApp (Day 5):
+"Hey [NAME] — just following up on my email from [DATE] about your social media content. Can you give it a quick look when you get a chance? Content is scheduled to go live [DATE] and I want to make sure you're happy with it first. 🙂"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 4 — CHRONIC DISAPPROVER (Hates every piece of content)
+Channel: Call first, then email to confirm
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On the call:
+"[NAME], I want to make sure we get the content right for you — and I want to be honest: we've gone through several rounds now and I'm not landing where you want to be. That tells me one of two things: either my interpretation of your brand needs to shift, or our brief-to-execution process has a gap.
+
+Can we do something different? I'd like to schedule a 30-minute visual direction call where I share some reference content and you tell me in real time what resonates and what doesn't. That way I can recalibrate exactly to your taste before creating anything new.
+
+Would [DATE/TIME] work for that?"
+
+Follow-up email:
+Subject: Next steps — aligning on creative direction
+
+Hi [NAME],
+
+Following our conversation, I'll be putting together a creative direction document based on our call to serve as our north star for all future content. I'll send that to you by [DATE] for your review.
+
+Going forward, I'll also send visual concept mockups before creating full posts — this way we're aligned before production begins.
+
+I'm committed to getting this right. Thank you for your patience.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 5 — THREATENS TO LEAVE IF YOU DON'T LOWER YOUR PRICE
+Channel: Call (urgent) + follow-up email
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+On the call:
+"I hear you — and I appreciate you being direct with me.
+
+Let me ask: is this primarily a budget concern, or is there a specific value gap you feel exists between what you're paying and what you're getting?
+
+[Listen to the answer]
+
+If it's budget: I genuinely want to find a solution that works. I could offer [scaled-down version at lower price]. The trade-off would be [reduced deliverables]. Would that work?
+
+If it's value: Tell me specifically what you wish you were getting. I'd rather adjust the service than lose a client I enjoy working with.
+
+What I can't do is reduce the price without reducing the scope — that would be unfair to both of us."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 6 — CLIENT ADDS PLATFORMS WITHOUT PAYING
+Channel: Email
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Re: LinkedIn content request
+
+Hi [NAME],
+
+I'd be happy to help with LinkedIn! Just to clarify the scope: LinkedIn isn't included in our current agreement, which covers [PLATFORMS LISTED].
+
+To add LinkedIn, I'd propose either:
+A) A monthly add-on of $[AMOUNT] to include [X LinkedIn posts]
+B) A package upgrade that encompasses all three platforms at $[NEW RATE]/month
+
+Let me know which direction you'd like to go and I can update the scope of work accordingly.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 7 — CLIENT SENDS REQUESTS AT MIDNIGHT EXPECTING SAME-DAY
+Channel: Reply the next business morning + follow-up call
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email reply (next business morning):
+Subject: Re: Urgent post request
+
+Hi [NAME],
+
+Got your message — happy to help with this!
+
+Just a heads-up: my working hours are [HOURS], so late-night messages are picked up the following business morning. Going forward, for any same-day requests, please reach out by [TIME] and I'll do my best to accommodate.
+
+For your request: [address the actual request — can you do it? Can you do it today or by when?]
+
+Happy to discuss a rush turnaround process if last-minute posts come up frequently — sometimes a small rush fee makes sense for both of us.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 8 — CLIENT SHARING ACCESS WITH IN-HOUSE TEAM WITHOUT TELLING YOU
+Channel: Friendly email — don't accuse, clarify
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Quick check-in — noticed some account activity
+
+Hi [NAME],
+
+I noticed some activity on your [PLATFORM] account that looks like it may have come from outside our workflow — a few posts/changes that I wasn't notified about.
+
+No issue at all if there's someone else managing certain things — I just want to make sure we're coordinating properly so nothing gets duplicated or conflicts with the content I've scheduled.
+
+Could you let me know who else has access? That way I can loop them into the approval workflow and avoid any overlap.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 9 — CLIENT WANTS TO POST SOMETHING YOU THINK IS A BAD IDEA
+Channel: Email (give your professional opinion, then defer)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: My thoughts on [the post idea] — happy to post either way
+
+Hi [NAME],
+
+Thanks for sharing that idea — and I want to be honest with you because that's what you're paying me for.
+
+My concern with [the specific content] is: [specific reason — e.g., "it focuses heavily on price discounting which can train your audience to wait for sales / it mentions a competitor by name which could invite backlash / the tone feels off-brand compared to the content that's been performing best"].
+
+That said — you know your business and your audience better than I do. If you'd like to go ahead with it, I'll produce and post it as requested. I just wanted to flag this so you could make an informed call.
+
+Which direction would you like me to go?
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SITUATION 10 — CLIENT TERMINATES AND REFUSES TO PAY FINAL INVOICE
+Channel: Formal email, then legal escalation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email 1 (Day 3 after termination):
+Subject: Final invoice — INV-[NUMBER] — $[AMOUNT] due [DATE]
+
+Hi [NAME],
+
+As we've discussed, our work together has concluded. I wanted to ensure you received Invoice #INV-[NUMBER] for $[AMOUNT] covering [DATES].
+
+This is due by [DATE]. Per our signed agreement (Section 3.3), outstanding invoices remain due upon termination.
+
+Payment can be made via [METHODS]. If you believe there is an error on the invoice, please reply with the specific concern and I'll address it right away.
+
+[YOUR NAME]
+
+Email 2 (Day 14 if unpaid — firmer):
+Subject: INV-[NUMBER] — OVERDUE — Final request before escalation
+
+[NAME],
+
+Invoice #INV-[NUMBER] for $[AMOUNT] is now [X] days overdue. This constitutes a breach of our signed contract.
+
+If payment is not received by [DATE], I will pursue collection through [small claims court / collections agency / legal counsel] for the outstanding amount plus any applicable late fees and costs.
+
+I would prefer to resolve this directly. Please contact me at [PHONE] or reply here before [DATE].
+
+[YOUR NAME]

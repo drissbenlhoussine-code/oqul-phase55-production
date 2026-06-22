@@ -1,0 +1,19 @@
+# Salon & Beauty Hashtag Bank — 200 Tags
+
+## PRIMARY
+#HairSalon #HairStylist #HairGoals #HairInspo #HairColor #SalonLife #HairColorist #Balayage #HairCut #HairTransformation
+
+## COLOR
+#BalayageHair #OmbreHair #BlondeHair #BrunettHair #RedHair #ColorCorrection #HairPainting #Highlights #RootSmudge #GlossColor #TonedHair #PlatinumBlonde #CopperHair #ChestnutHair
+
+## SERVICES
+#Keratin #DeepConditioning #HairTreatment #BrazilianBlowout #GlossService #HairMask #ProteinTreatment #ScalpTreatment
+
+## STYLE
+#NaturalHair #CurlyHair #WavyHair #StraightHair #ShortHair #LongHair #MediumLength #PixieCut #BobHaircut #ShagHaircut
+
+## SALON LIFE
+#StylistLife #BehindTheChair #SalonVibes #HairArtist #ColorArtist #SalonOwner #SmallSalon #BookedAndBusy
+
+## LOCATION (customize)
+#[City]Salon #[City]Hairstylist #[City]Hair #[State]Salon #LocalSalon #[Neighborhood]Salon

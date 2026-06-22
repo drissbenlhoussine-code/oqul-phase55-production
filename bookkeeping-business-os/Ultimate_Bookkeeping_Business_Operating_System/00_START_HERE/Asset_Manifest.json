@@ -1,0 +1,331 @@
+{
+  "product": "Ultimate Bookkeeping Business Operating System",
+  "version": "1.0",
+  "total_files": 62,
+  "folders": 13,
+  "pricing": {
+    "original": "\u20ac149",
+    "launch": "\u20ac39"
+  },
+  "formats": [
+    "PPTX",
+    "PDF",
+    "TXT",
+    "CSV",
+    "DOCX",
+    "MD",
+    "XLSX"
+  ],
+  "files": [
+    {
+      "path": "00_START_HERE/README_FIRST.txt",
+      "folder": "00_START_HERE",
+      "format": "TXT"
+    },
+    {
+      "path": "00_START_HERE/START_HERE_Implementation_Guide.pdf",
+      "folder": "00_START_HERE",
+      "format": "PDF"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Client_Acquisition_CRM.xlsx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "XLSX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Cold_Outreach_Templates.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Discovery_Call_Script.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Follow_Up_Sequence.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Objection_Handling_Scripts.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Pricing_Guide.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "01_CLIENT_ACQUISITION/Service_Proposal_Template.docx",
+      "folder": "01_CLIENT_ACQUISITION",
+      "format": "DOCX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Client_Intake_Form.docx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "DOCX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Client_Onboarding_Tracker.xlsx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "XLSX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Kickoff_Call_Script.docx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "DOCX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Onboarding_Checklist_SOP.docx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "DOCX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Service_Agreement_Template.docx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "DOCX"
+    },
+    {
+      "path": "02_CLIENT_ONBOARDING/Welcome_Email_Templates.docx",
+      "folder": "02_CLIENT_ONBOARDING",
+      "format": "DOCX"
+    },
+    {
+      "path": "03_BOOKKEEPING_SERVICES/Accounts_Payable_SOP.docx",
+      "folder": "03_BOOKKEEPING_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "03_BOOKKEEPING_SERVICES/Accounts_Receivable_SOP.docx",
+      "folder": "03_BOOKKEEPING_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "03_BOOKKEEPING_SERVICES/Bank_Reconciliation_SOP.docx",
+      "folder": "03_BOOKKEEPING_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "03_BOOKKEEPING_SERVICES/Chart_of_Accounts_Guide.docx",
+      "folder": "03_BOOKKEEPING_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "03_BOOKKEEPING_SERVICES/Monthly_Bookkeeping_SOP.docx",
+      "folder": "03_BOOKKEEPING_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "04_PAYROLL_SERVICES/New_Employee_Setup_Checklist.docx",
+      "folder": "04_PAYROLL_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "04_PAYROLL_SERVICES/Payroll_Compliance_Checklist.docx",
+      "folder": "04_PAYROLL_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "04_PAYROLL_SERVICES/Payroll_Processing_SOP.docx",
+      "folder": "04_PAYROLL_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "04_PAYROLL_SERVICES/Payroll_Troubleshooting_Guide.docx",
+      "folder": "04_PAYROLL_SERVICES",
+      "format": "DOCX"
+    },
+    {
+      "path": "05_TAX_PREPARATION/Client_Tax_Document_Checklist.docx",
+      "folder": "05_TAX_PREPARATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "05_TAX_PREPARATION/Quarterly_Tax_Estimates_Guide.docx",
+      "folder": "05_TAX_PREPARATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "05_TAX_PREPARATION/Tax_Season_SOP.docx",
+      "folder": "05_TAX_PREPARATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "05_TAX_PREPARATION/Year_End_Close_Checklist.docx",
+      "folder": "05_TAX_PREPARATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "06_CLIENT_COMMUNICATION/Client_Questions_Scripts.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "06_CLIENT_COMMUNICATION/Difficult_Conversation_Scripts.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "06_CLIENT_COMMUNICATION/Monthly_Report_Email_Templates.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "06_CLIENT_COMMUNICATION/Newsletter_Templates.docx",
+      "folder": "06_CLIENT_COMMUNICATION",
+      "format": "DOCX"
+    },
+    {
+      "path": "07_COMPLIANCE_LEGAL/Confidentiality_Policy.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "format": "DOCX"
+    },
+    {
+      "path": "07_COMPLIANCE_LEGAL/Data_Security_Policy.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "format": "DOCX"
+    },
+    {
+      "path": "07_COMPLIANCE_LEGAL/Engagement_Letter_Template.docx",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "format": "DOCX"
+    },
+    {
+      "path": "07_COMPLIANCE_LEGAL/Legal_Template_Use_Guide.pdf",
+      "folder": "07_COMPLIANCE_LEGAL",
+      "format": "PDF"
+    },
+    {
+      "path": "08_FINANCIAL_REPORTING/Cash_Flow_Analysis_Guide.docx",
+      "folder": "08_FINANCIAL_REPORTING",
+      "format": "DOCX"
+    },
+    {
+      "path": "08_FINANCIAL_REPORTING/Financial_Dashboard.xlsx",
+      "folder": "08_FINANCIAL_REPORTING",
+      "format": "XLSX"
+    },
+    {
+      "path": "08_FINANCIAL_REPORTING/Financial_Review_Meeting_Script.docx",
+      "folder": "08_FINANCIAL_REPORTING",
+      "format": "DOCX"
+    },
+    {
+      "path": "08_FINANCIAL_REPORTING/KPI_Reporting_Guide.docx",
+      "folder": "08_FINANCIAL_REPORTING",
+      "format": "DOCX"
+    },
+    {
+      "path": "08_FINANCIAL_REPORTING/Monthly_Financial_Report_Template.docx",
+      "folder": "08_FINANCIAL_REPORTING",
+      "format": "DOCX"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Bookkeeper_Training_Manual.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "format": "DOCX"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Business_Goals_Workbook.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "format": "DOCX"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Business_KPI_Dashboard.xlsx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "format": "XLSX"
+    },
+    {
+      "path": "09_BUSINESS_OPERATIONS/Team_Management_Guide.docx",
+      "folder": "09_BUSINESS_OPERATIONS",
+      "format": "DOCX"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Clients_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Database_Field_Map.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Document_Requests_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Monthly_Deadlines_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/NOTION_WORKSPACE_SETUP.md",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "MD"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Notion_Workspace_Setup_Guide.pdf",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "PDF"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/SOP_Library.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Services_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "10_NOTION_WORKSPACE/Tasks_Database.csv",
+      "folder": "10_NOTION_WORKSPACE",
+      "format": "CSV"
+    },
+    {
+      "path": "11_BONUSES/100_Bookkeeping_Content_Ideas.docx",
+      "folder": "11_BONUSES",
+      "format": "DOCX"
+    },
+    {
+      "path": "11_BONUSES/365_Bookkeeping_Content_Captions.csv",
+      "folder": "11_BONUSES",
+      "format": "CSV"
+    },
+    {
+      "path": "11_BONUSES/Bookkeeper_Success_Framework.docx",
+      "folder": "11_BONUSES",
+      "format": "DOCX"
+    },
+    {
+      "path": "11_BONUSES/Bookkeeping_Business_Growth_Roadmap.docx",
+      "folder": "11_BONUSES",
+      "format": "DOCX"
+    },
+    {
+      "path": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Client_Proposal.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "format": "PPTX"
+    },
+    {
+      "path": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Monthly_Report.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "format": "PPTX"
+    },
+    {
+      "path": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Social_Post_Pack.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "format": "PPTX"
+    },
+    {
+      "path": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Tax_Season_Checklist.pptx",
+      "folder": "12_CANVA_IMPORTABLE_TEMPLATES",
+      "format": "PPTX"
+    }
+  ]
+}

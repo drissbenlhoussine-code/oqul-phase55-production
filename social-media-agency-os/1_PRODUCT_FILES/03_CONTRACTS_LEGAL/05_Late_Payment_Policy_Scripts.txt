@@ -1,0 +1,148 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              LATE PAYMENT POLICY & COLLECTION SCRIPTS                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OFFICIAL LATE PAYMENT POLICY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Payment Terms:    Net 14 (14 days from invoice date)
+Grace Period:     3 days past due date (no action taken)
+Late Fee:         1.5% per month of outstanding balance, activated Day 14
+Service Pause:    Day 30 — all services paused until account is current
+Collections:      Day 60 — formal collections or legal action initiated
+Contract Clause:  All clients acknowledge this policy in their signed contract
+
+PREVENTION SYSTEM:
+• Require a deposit (25-50%) for new clients before work begins
+• Offer autopay via Stripe with card on file
+• Send invoice on the 1st, due the 15th (mid-month vs. start-of-month)
+• Use accounting software (QuickBooks, FreshBooks, Wave) for automated reminders
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 1 — DAY 14 POLITE REMINDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Invoice #INV-[NUMBER] — Payment Due Today
+
+Hi [NAME],
+
+Just a friendly reminder that Invoice #INV-[NUMBER] for $[AMOUNT] was due
+today. I wanted to check in to make sure it didn't get buried in your inbox.
+
+If you've already sent payment, please ignore this — and thank you!
+
+If not, you can pay via:
+• Bank transfer to [ACCOUNT DETAILS]
+• PayPal: [EMAIL]
+• Stripe: [LINK]
+
+Please reference invoice number INV-[NUMBER] with your payment.
+
+Let me know if you have any questions about the invoice.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 2 — DAY 21 FIRM REMINDER WITH LATE FEE NOTICE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Invoice #INV-[NUMBER] — 7 Days Overdue — Late Fee Notice
+
+Hi [NAME],
+
+Invoice #INV-[NUMBER] for $[AMOUNT] is now 7 days overdue. Per our contract,
+a late fee of 1.5% per month ($[FEE AMOUNT]) has been added to your balance.
+
+Updated amount due: $[NEW TOTAL]
+
+I'd really like to resolve this quickly so we can keep things moving smoothly.
+If there's an issue with the invoice or if you'd like to discuss a brief
+payment plan, please reply to this email today.
+
+Payment options: [PAYMENT METHODS]
+
+Please note: If this invoice remains unpaid after [DATE — Day 30], services
+will be paused in accordance with our agreement.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 3 — DAY 30 SERVICE PAUSE NOTIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Services Paused — Invoice #INV-[NUMBER] Outstanding
+
+Hi [NAME],
+
+Per the terms of our contract, all services for [BUSINESS NAME] have been
+paused effective today as Invoice #INV-[NUMBER] remains unpaid at 30 days
+overdue.
+
+Current amount due: $[AMOUNT] (includes late fees per our agreement)
+
+To resume services immediately, please arrange payment via [METHODS].
+Once payment is confirmed, services will resume within one business day.
+
+I genuinely enjoy working with you and want to continue this partnership.
+Please reach out directly if there is a situation we can work through together.
+
+[YOUR NAME]
+[PHONE — for urgent response]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 4 — DAY 45 FINAL NOTICE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Final Notice — Invoice #INV-[NUMBER] — Action Required
+
+Hi [NAME],
+
+This is a final notice regarding Invoice #INV-[NUMBER], now 31 days overdue.
+The total outstanding balance is $[AMOUNT] including accrued late fees.
+
+If this balance is not settled by [DATE — 7 days from now], I will be
+compelled to refer this account to a collections agency and/or pursue
+legal remedies to recover the outstanding amount, as provided for in
+our signed agreement.
+
+I would strongly prefer to resolve this directly. Please contact me
+immediately at [PHONE] or [EMAIL] to discuss.
+
+[YOUR NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT 5 — DAY 60 FORMAL COLLECTIONS NOTICE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject: Formal Notice of Debt — Account Referred to Collections
+
+[CLIENT NAME],
+
+Despite multiple notices, Invoice #INV-[NUMBER] for $[AMOUNT] remains
+unpaid at 46 days past the final notice date.
+
+This account has been referred to [COLLECTIONS AGENCY NAME] for recovery.
+All future correspondence regarding this debt should be directed to them.
+
+This constitutes the final communication from [AGENCY NAME] regarding
+this matter.
+
+[YOUR NAME], [AGENCY NAME]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PAYMENT PLAN GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHEN TO OFFER: Only to clients with good payment history who are facing
+a temporary hardship. Not for clients who are habitually late.
+
+HOW TO STRUCTURE: Maximum 3 instalments over 45 days.
+Example: $3,000 debt → $1,000 now, $1,000 in 15 days, $1,000 in 30 days.
+
+REQUIRE WRITTEN AGREEMENT: Always get the payment plan agreed in writing
+via email before resuming services.
+
+WHEN TO LET IT GO: If a client owes less than $500 and the cost of pursuing
+(time, stress, legal) outweighs recovery, write it off and do not work with
+them again. Update your CRM with a "DO NOT REHIRE" note.

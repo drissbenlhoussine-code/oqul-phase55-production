@@ -1,0 +1,11 @@
+﻿Automation Name,Category,Tools Used,Complexity,Sell Price Range,Build Time
+Website Lead to CRM,Lead Gen,Make + HubSpot + Gmail,Medium,"$2,500-$4,500",4-6 hours
+AI Lead Scoring,Lead Gen,Make + OpenAI + CRM,High,"$4,000-$8,000",8-12 hours
+Review Request System,Customer Service,Make + CRM + Twilio,Low,"$1,500-$3,000",2-4 hours
+AI Chatbot,Customer Service,Make + OpenAI + Tidio,High,"$5,000-$12,000",15-25 hours
+Blog to Social Suite,Content,Make + WordPress + OpenAI + Buffer,Medium,"$4,000-$8,000",6-10 hours
+Invoice Processing AI,Operations,Make + Gmail + OpenAI + QB,High,"$4,000-$8,000",10-15 hours
+Employee Onboarding,HR,Make + BambooHR + G Suite,High,"$4,000-$9,000",10-20 hours
+Appointment Reminder,Healthcare,Make + CRM + Twilio,Low,"$2,500-$5,000",3-5 hours
+Competitor Monitor,Marketing,Make + Browse AI + OpenAI,Medium,"$3,000-$7,000",6-10 hours
+Abandoned Cart Recovery,E-Commerce,Make + Shopify + Klaviyo,Medium,"$2,000-$4,000",4-6 hours

@@ -1,0 +1,316 @@
+{
+  "product": "Ultimate Mortgage Broker Operating System",
+  "total_files": 62,
+  "files": [
+    {
+      "file": "07_CLOSING_PROCESS/Post_Closing_Follow_Up.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "07_CLOSING_PROCESS/Pre_Closing_Checklist.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Client_Proposal.pptx",
+      "type": "pptx",
+      "size_kb": 39.5
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Loan_Status_Update.pptx",
+      "type": "pptx",
+      "size_kb": 30.9
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Social_Post_Pack.pptx",
+      "type": "pptx",
+      "size_kb": 37.7
+    },
+    {
+      "file": "12_CANVA_IMPORTABLE_TEMPLATES/Canva_Import_Welcome_Packet.pptx",
+      "type": "pptx",
+      "size_kb": 35.4
+    },
+    {
+      "file": "11_BONUSES/100_Mortgage_Content_Ideas.docx",
+      "type": "docx",
+      "size_kb": 36.7
+    },
+    {
+      "file": "11_BONUSES/365_Mortgage_Content_Captions.csv",
+      "type": "csv",
+      "size_kb": 155.8
+    },
+    {
+      "file": "11_BONUSES/First_Time_Buyer_FAQ_Guide.docx",
+      "type": "docx",
+      "size_kb": 36.8
+    },
+    {
+      "file": "11_BONUSES/Mortgage_Broker_Growth_Roadmap.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/20_Email_Templates.docx",
+      "type": "docx",
+      "size_kb": 38.5
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Difficult_Conversation_Scripts.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/SMS_Text_Templates.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "05_CLIENT_COMMUNICATION/Status_Update_Scripts.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Client_Expectations_Document.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Client_Intake_Form.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Client_Onboarding_System.xlsx",
+      "type": "xlsx",
+      "size_kb": 6.6
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Kickoff_Call_Script.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Pre_Application_Checklist.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/SOP_For_New_Clients.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "02_CLIENT_ONBOARDING/Welcome_Packet.docx",
+      "type": "docx",
+      "size_kb": 36.6
+    },
+    {
+      "file": "06_REFERRAL_PARTNER_SYSTEM/Co_Marketing_Guide.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "06_REFERRAL_PARTNER_SYSTEM/Realtor_Partnership_Scripts.docx",
+      "type": "docx",
+      "size_kb": 36.7
+    },
+    {
+      "file": "06_REFERRAL_PARTNER_SYSTEM/Referral_Partner_CRM.xlsx",
+      "type": "xlsx",
+      "size_kb": 5.6
+    },
+    {
+      "file": "06_REFERRAL_PARTNER_SYSTEM/Referral_Thank_You_System.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Application_Pipeline_Tracker.xlsx",
+      "type": "xlsx",
+      "size_kb": 5.6
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Application_Submission_SOP.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Appraisal_Management_SOP.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Lender_Selection_Framework.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Loan_Product_Comparison.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "03_LOAN_APPLICATIONS/Underwriting_Conditions_SOP.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "01_LEAD_GENERATION/Cold_Outreach_Templates.docx",
+      "type": "docx",
+      "size_kb": 37.1
+    },
+    {
+      "file": "01_LEAD_GENERATION/Discovery_Call_Script.docx",
+      "type": "docx",
+      "size_kb": 36.7
+    },
+    {
+      "file": "01_LEAD_GENERATION/Follow_Up_Templates.docx",
+      "type": "docx",
+      "size_kb": 36.6
+    },
+    {
+      "file": "01_LEAD_GENERATION/Lead_Qualification_Checklist.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "01_LEAD_GENERATION/Mortgage_Lead_CRM.xlsx",
+      "type": "xlsx",
+      "size_kb": 6.8
+    },
+    {
+      "file": "01_LEAD_GENERATION/Referral_Partner_Outreach.docx",
+      "type": "docx",
+      "size_kb": 36.7
+    },
+    {
+      "file": "01_LEAD_GENERATION/Social_Media_Post_Templates.docx",
+      "type": "docx",
+      "size_kb": 36.7
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Anti_Discrimination_Policy.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Compliance_Checklist.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Legal_Template_Use_Guide.pdf",
+      "type": "pdf",
+      "size_kb": 4.4
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Privacy_Notice_Template.docx",
+      "type": "docx",
+      "size_kb": 36.2
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Record_Retention_Policy.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "04_COMPLIANCE_LEGAL/Service_Agreement.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "00_START_HERE/README_FIRST.txt",
+      "type": "txt",
+      "size_kb": 0.6
+    },
+    {
+      "file": "00_START_HERE/START_HERE_Implementation_Guide.pdf",
+      "type": "pdf",
+      "size_kb": 7.3
+    },
+    {
+      "file": "08_CLIENT_RETENTION/Annual_Mortgage_Review_SOP.docx",
+      "type": "docx",
+      "size_kb": 36.5
+    },
+    {
+      "file": "08_CLIENT_RETENTION/Referral_Request_Scripts.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "08_CLIENT_RETENTION/Retention_Playbook.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Business_Goals_Workbook.docx",
+      "type": "docx",
+      "size_kb": 36.3
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Business_KPI_Dashboard.xlsx",
+      "type": "xlsx",
+      "size_kb": 7.1
+    },
+    {
+      "file": "09_BUSINESS_OPERATIONS/Marketing_Planner.docx",
+      "type": "docx",
+      "size_kb": 36.4
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Applications_Database.csv",
+      "type": "csv",
+      "size_kb": 0.3
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Clients_Database.csv",
+      "type": "csv",
+      "size_kb": 0.2
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Compliance_Log_Database.csv",
+      "type": "csv",
+      "size_kb": 0.2
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Database_Field_Map.csv",
+      "type": "csv",
+      "size_kb": 0.5
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Leads_Database.csv",
+      "type": "csv",
+      "size_kb": 0.2
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/NOTION_WORKSPACE_SETUP.md",
+      "type": "md",
+      "size_kb": 1.1
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Notion_Workspace_Setup_Guide.pdf",
+      "type": "pdf",
+      "size_kb": 4.4
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Referral_Partners_Database.csv",
+      "type": "csv",
+      "size_kb": 0.2
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/SOP_Library.csv",
+      "type": "csv",
+      "size_kb": 0.5
+    },
+    {
+      "file": "10_NOTION_WORKSPACE/Tasks_Database.csv",
+      "type": "csv",
+      "size_kb": 0.3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Insurance Agent Hashtag Bank
+
+## PRIMARY
+#InsuranceAgent #LifeInsurance #InsuranceTips #InsuranceAdvice #ProtectYourFamily #FinancialProtection #InsuranceBroker #IndependentAgent #InsuranceHelp
+
+## TYPES
+#LifeInsuranceTips #HomeInsurance #AutoInsurance #HealthInsurance #DisabilityInsurance #TermLife #WholeLife #UniversalLife #BusinessInsurance #CommercialInsurance
+
+## AUDIENCE
+#FamilyProtection #IncomeProtection #FinancialPlanning #WealthProtection #RiskManagement #FinancialLiteracy #MoneyTips #FinancialEducation
+
+## LOCAL (customize)
+#[City]Insurance #[State]Insurance #[City]LifeInsurance #LocalInsuranceAgent #[City]FinancialPlanning
+
+## PROFESSIONAL
+#InsuranceLife #AgentLife #InsuranceProfessional #ProtectWhatMatters #PeaceOfMind

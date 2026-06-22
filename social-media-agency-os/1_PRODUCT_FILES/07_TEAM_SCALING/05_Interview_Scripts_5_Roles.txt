@@ -1,0 +1,167 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   INTERVIEW SCRIPTS FOR 5 KEY ROLES                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE 1 — CONTENT CREATOR / GRAPHIC DESIGNER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 INTERVIEW QUESTIONS:
+1. Walk me through your design process from brief to final file.
+   Look for: systematic approach, asks questions vs. assumes
+2. How many Canva templates would you say you've created from scratch?
+   Look for: actual experience, not just "I use Canva"
+3. How do you handle it when a client or manager gives vague creative direction?
+   Look for: asks clarifying questions, provides options
+4. What's the fastest you've ever turned around a full graphic for a social post?
+   Look for: understanding of speed requirements in agency work
+5. Can you show me 3-5 examples from your portfolio and walk me through the brief for each?
+   Look for: ability to articulate design choices, not just pretty work
+6. How do you ensure designs match the brand guidelines when working across multiple clients?
+   Look for: use of style guides, brand kits, checklists
+7. What's one design trend you think is overused right now and why?
+   Look for: actual design knowledge and opinion
+8. How would you handle receiving negative feedback on your work?
+   Look for: professional response, ability to separate ego from work
+9. Walk me through how you'd design a 6-slide Instagram carousel from a content brief.
+   Look for: thought process, platform knowledge, workflow
+10. What would you do if you missed a deadline?
+    Look for: accountability, communication, proactivity
+
+PRACTICAL TEST:
+Give them a real content brief (use a mock client) and ask them to produce one carousel design in 24 hours. Evaluate: brand adherence, readability on mobile, quality at full scale, file format delivered correctly.
+
+RED FLAGS: Misses the test deadline / Sends a low-resolution file / Can't explain design choices / Defensive about feedback
+
+GREEN FLAGS: Asks a clarifying question before starting / Sends the correct file format / Delivers before the deadline / Can articulate why specific design choices serve the brief
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE 2 — COPYWRITER / CAPTION WRITER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 INTERVIEW QUESTIONS:
+1. How do you get into a client's brand voice when writing for them?
+   Look for: reads existing content, asks about tone, uses brand guides
+2. What's the difference between a hook that works and one that doesn't?
+   Look for: specific answer about stopping the scroll, curiosity gaps
+3. Walk me through how you write a caption — from brief to final copy.
+   Look for: structured process (draft → hook → CTA → hashtag consideration)
+4. How many captions could you realistically produce in an 8-hour day?
+   Look for: honest estimate; 10-15 for a good copywriter is realistic
+5. Can you write 2 different hooks for this topic right now? [Give a topic]
+   Look for: speed, creativity, platform awareness
+6. How do you balance writing for engagement vs. writing for conversion?
+   Look for: understands both goals and when each applies
+7. What platform do you write for most, and how does your approach differ by platform?
+   Look for: understands LinkedIn ≠ Instagram ≠ TikTok copy
+8. How do you handle writing for a topic you know nothing about?
+   Look for: research process, asks client questions, uses brand voice
+9. What's the worst caption feedback you've ever received, and how did you respond?
+   Look for: takes feedback constructively, learns from it
+10. Write me a CTA for this post right now: [describe a post scenario]
+    Look for: specific, action-oriented CTA tailored to the platform
+
+PRACTICAL TEST: Send them a completed content brief and ask for 5 captions in 24 hours. Evaluate: hook strength, brand voice match, CTA quality, correct length for platform.
+
+RED FLAGS: Generic captions / No clear hook / All captions sound the same / Defensive about edits
+
+GREEN FLAGS: Different hooks for different pillars / Asks about the ICA before writing / Naturally adapts to brand voice / Delivers formatted copy ready to use
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE 3 — VIDEO EDITOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 INTERVIEW QUESTIONS:
+1. What editing software do you use and how long have you been using it?
+   Look for: professional tool (CapCut Pro, Premiere Pro, DaVinci Resolve, Final Cut)
+2. Walk me through how you approach editing a 30-second Instagram Reel.
+   Look for: structured process — hook first, pacing, audio sync, captions
+3. How do you handle footage that's poorly filmed or lit?
+   Look for: color correction skills, audio enhancement, crop techniques
+4. What's your average turnaround time for a 30-60 second short-form video?
+   Look for: 2-6 hours for simple, up to 12 for complex
+5. Can you add subtitles/captions to videos, and what tool do you use?
+   Look for: Captions app, CapCut auto-captions, or manual process
+6. What makes a great hook in the first 3 seconds of a Reel?
+   Look for: visual movement, text contrast, surprising moment, no dead air
+7. Show me your best short-form video from your portfolio and explain your editing choices.
+   Look for: pacing, audio sync, visual clarity, CTA at end
+8. How do you handle trending audio — how do you find it and implement it?
+   Look for: TikTok Creative Center, CapCut trending sounds, Instagram Reels audio
+9. What aspect ratios are you most comfortable with?
+   Look for: 9:16 (Reels/TikTok), 1:1 (feed), 4:5 (feed), 16:9 (YouTube)
+10. What do you do when the raw footage you receive is unusable?
+    Look for: communicates immediately, doesn't guess or guess-and-submit
+
+PORTFOLIO REVIEW CRITERIA:
+✓ Pacing matches the energy of the content
+✓ Audio is clean and synced perfectly
+✓ Text overlays are readable on mobile
+✓ Hook happens within the first 2-3 seconds
+✓ File quality is high — no blurriness or compression artifacts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE 4 — COMMUNITY MANAGER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 INTERVIEW QUESTIONS:
+1. How do you maintain a brand voice when responding to comments — when you're not the brand?
+   Look for: reads existing content, has a brand voice guide, checks before publishing
+2. Walk me through how you would handle 50+ comments on a post.
+   Look for: prioritization (questions first, then appreciation), batch approach
+3. What would you do if you received a comment that was aggressively negative?
+   Look for: doesn't delete immediately (usually wrong), responds professionally, escalates if needed
+4. Scenario: A follower DMs accusing the brand of fraud. What do you do?
+   Look for: screenshots, escalates immediately, does not respond without approval
+5. How do you engage with other accounts proactively — and why is it important?
+   Look for: understands that engagement drives algorithm reach
+6. What's the difference between a DM worth escalating vs. one you handle yourself?
+   Look for: handles: basic questions, praise, simple complaints. Escalates: complaints with legal implications, press inquiry, anything unusual
+7. What tools have you used for community management at scale?
+   Look for: Sprout Social, Hootsuite, Later's inbox feature, native platform tools
+8. How many comments/DMs could you realistically manage per day per client?
+   Look for: honest estimate — 50-100 is realistic; more is difficult to do well
+9. How do you keep track of DM conversations that span multiple days?
+   Look for: labeling/tagging system, notes in DM thread, CRM-style tracking
+10. What makes you genuinely good at community management?
+    Look for: patience, empathy, good judgment, enjoys people
+
+SCENARIO QUESTIONS (ask these live):
+• "A follower says 'your prices are a scam.' What do you write back?"
+• "A celebrity comments on a post. How do you respond?"
+• "A DM comes in at 11pm asking about pricing. Do you respond? When?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE 5 — ACCOUNT MANAGER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10 INTERVIEW QUESTIONS:
+1. How many client accounts have you managed simultaneously, and how did you stay organized?
+   Look for: real experience, system they used, not just "I'm organized"
+2. Walk me through how you'd handle a client who is unhappy with their results after Month 1.
+   Look for: data-first, honest assessment, strategic pivot, keeps client informed
+3. How do you communicate bad news to a client?
+   Look for: direct but empathetic, leads with the plan, not just the problem
+4. A client wants you to post something you think is a bad idea. What do you do?
+   Look for: shares opinion professionally, explains reasoning, ultimately defers if it's not unethical
+5. How do you manage a content team to ensure quality on deadline?
+   Look for: written briefs, clear deadlines, checklist-based review, not just "checking in"
+6. What metrics do you focus on in the first 30 days of a new client?
+   Look for: baseline-setting, engagement rate, reach, not follower count as the primary metric
+7. How do you prepare for a monthly strategy call with a client?
+   Look for: pulls data, reviews against goals, has 3 recommendations ready, not just reporting
+8. A client threatens to cancel. What's your immediate response?
+   Look for: asks why, listens fully before responding, addresses root cause, doesn't immediately offer a discount
+9. How have you handled managing multiple contractors or team members?
+   Look for: task briefs, deadline tracking, quality review, feedback culture
+10. What do you consider a success metric for your role as Account Manager?
+    Look for: client retention, client satisfaction, meeting KPIs, not just "they're happy"
+
+ROLE PLAY SCENARIO:
+You (interviewer) play a frustrated client who is unhappy because their follower count hasn't grown in 30 days. See how the candidate handles it. Look for: doesn't get defensive, pulls up data context (engagement rate might be up), acknowledges the frustration, presents a clear path forward.
+
+COMPENSATION OPTIONS FOR ACCOUNT MANAGERS:
+• Hourly: $25-$50/hour (good for part-time or new hire)
+• Per client: $300-$600/client/month managed
+• Salary: $3,000-$6,000/month for full-time depending on market
+• Bonus: tie 10-20% of their pay to client retention rate

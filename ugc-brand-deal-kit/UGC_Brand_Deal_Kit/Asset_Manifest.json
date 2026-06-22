@@ -1,0 +1,95 @@
+{
+  "product": "UGC Creator Brand Deal Kit",
+  "files": [
+    {
+      "folder": "01_BRAND_IDENTITY",
+      "file": "Creator_Brand_Audit.xlsx",
+      "size_kb": 5.8
+    },
+    {
+      "folder": "01_BRAND_IDENTITY",
+      "file": "Creator_Brand_Identity_Kit.docx",
+      "size_kb": 37.2
+    },
+    {
+      "folder": "02_RATE_CARDS_AND_PRICING",
+      "file": "Media_Kit_Guide.docx",
+      "size_kb": 36.6
+    },
+    {
+      "folder": "02_RATE_CARDS_AND_PRICING",
+      "file": "UGC_Rate_Card.xlsx",
+      "size_kb": 8.1
+    },
+    {
+      "folder": "03_PITCH_AND_OUTREACH",
+      "file": "Brand_Outreach_Tracker.xlsx",
+      "size_kb": 5.8
+    },
+    {
+      "folder": "03_PITCH_AND_OUTREACH",
+      "file": "Brand_Pitch_Playbook.docx",
+      "size_kb": 37.5
+    },
+    {
+      "folder": "04_CONTRACT_TEMPLATES",
+      "file": "Content_Brief_Template.docx",
+      "size_kb": 36.9
+    },
+    {
+      "folder": "04_CONTRACT_TEMPLATES",
+      "file": "UGC_Service_Agreement.docx",
+      "size_kb": 37.5
+    },
+    {
+      "folder": "05_CONTENT_CREATION",
+      "file": "UGC_Content_Creation_System.docx",
+      "size_kb": 38.5
+    },
+    {
+      "folder": "06_ANALYTICS_AND_REPORTING",
+      "file": "Analytics_Guide.docx",
+      "size_kb": 36.9
+    },
+    {
+      "folder": "06_ANALYTICS_AND_REPORTING",
+      "file": "Content_Performance_Dashboard.xlsx",
+      "size_kb": 6.8
+    },
+    {
+      "folder": "07_NEGOTIATION_SCRIPTS",
+      "file": "Negotiation_Scripts.docx",
+      "size_kb": 37.2
+    },
+    {
+      "folder": "08_CLIENT_MANAGEMENT",
+      "file": "Client_Management_System.docx",
+      "size_kb": 37.0
+    },
+    {
+      "folder": "09_NOTION_DATABASES",
+      "file": "Content_Library.csv",
+      "size_kb": 1.0
+    },
+    {
+      "folder": "09_NOTION_DATABASES",
+      "file": "Income_Tracker.csv",
+      "size_kb": 0.7
+    },
+    {
+      "folder": "09_NOTION_DATABASES",
+      "file": "UGC_Brand_Deal_Tracker.csv",
+      "size_kb": 1.0
+    },
+    {
+      "folder": "10_BONUS_RESOURCES",
+      "file": "UGC_Creator_Bonus_Resources.docx",
+      "size_kb": 37.2
+    },
+    {
+      "folder": "10_BONUS_RESOURCES",
+      "file": "UGC_Creator_Pitch_Deck.pptx",
+      "size_kb": 33.0
+    }
+  ]
+}

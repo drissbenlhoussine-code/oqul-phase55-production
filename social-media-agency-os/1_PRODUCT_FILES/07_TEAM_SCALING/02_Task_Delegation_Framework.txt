@@ -1,0 +1,133 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      TASK DELEGATION FRAMEWORK                             ║
+║         What to keep, what to delegate, and how to do it right             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+THE DELEGATION DECISION MATRIX
+────────────────────────────────────────────────────────────────────────────────
+
+KEEP (Owner/Founder handles):
+• Client strategy and direction
+• Proposal writing and pricing
+• Discovery calls and sales
+• Client onboarding (first call)
+• Final approval on all content before it goes to client
+• Hiring and performance management
+• Billing and financial decisions
+
+DELEGATE FIRST (your first hire):
+• Caption writing / copywriting
+• Graphic design / template execution
+• Scheduling and publishing
+• Community management (responses)
+• Hashtag research
+• Analytics data collection (the pulling, not the analysis)
+
+DELEGATE LATER (as you scale):
+• Content strategy development (Account Manager)
+• Analytics analysis and report writing (Account Manager)
+• Client check-in calls (Account Manager)
+• Contractor management (Senior team member)
+
+ROLE DEFINITIONS
+────────────────────────────────────────────────────────────────────────────────
+
+CONTENT CREATOR / GRAPHIC DESIGNER:
+Does: Creates graphics, visual assets, Canva posts, image selection
+Doesn't do: Write captions, make strategy decisions, communicate with clients
+Pay range: $15-$35/hour or $20-$50/post depending on complexity
+
+COPYWRITER / CAPTION WRITER:
+Does: Writes captions, scripts for Reels, content calendar copy, email drafts
+Doesn't do: Design graphics, post content, communicate with clients
+Pay range: $20-$50/hour or $25-$75/caption depending on depth
+
+VIDEO EDITOR:
+Does: Edits Reels, TikToks, short-form video content
+Doesn't do: Film content, write scripts, make strategy decisions
+Pay range: $25-$75/video depending on complexity and length
+
+COMMUNITY MANAGER:
+Does: Responds to comments and DMs, engages with similar accounts, reports issues
+Doesn't do: Create content, make decisions about content direction
+Pay range: $15-$30/hour; or per-client flat rate ($150-$400/month per account)
+
+ACCOUNT MANAGER (higher level hire):
+Does: Manages client relationships, writes reports, runs strategy calls, oversees content team
+Doesn't do: Replace owner in sales, make major client decisions alone
+Pay range: $25-$60/hour or salaried at $3,000-$6,000/month depending on market
+
+HOW TO WRITE A TASK BRIEF FOR A CONTRACTOR
+────────────────────────────────────────────────────────────────────────────────
+
+Every task you delegate needs a written brief. Verbal briefs = wrong output.
+
+BRIEF TEMPLATE:
+─────────────────────────────────
+Task: [Clear one-sentence description]
+Client: [Client name]
+Due: [Date and time]
+Deliverable: [Exactly what you expect to receive — file format, length, etc.]
+Context: [Why this post exists — campaign, promotion, content pillar]
+Brand voice: [Link to brand guide OR 2-3 sentences describing tone]
+Reference examples: [Link to 2-3 approved posts that hit the mark]
+Questions?: [Your Slack handle or email for questions before deadline]
+─────────────────────────────────
+
+CONTRACTOR MANAGEMENT SYSTEM
+────────────────────────────────────────────────────────────────────────────────
+
+Track each contractor in a spreadsheet:
+Columns: Name | Role | Hourly/Flat Rate | Active Clients | Total Hours (month) | Invoice Due | Quality Score (1-5)
+
+Quality scoring system:
+5 — Consistently excellent. No revisions needed.
+4 — Good. One revision round typically needed.
+3 — Average. Needs improvement in [specific area].
+2 — Below standard. On performance improvement or being replaced.
+1 — Do not hire again.
+
+QUALITY CONTROL PROCESS
+────────────────────────────────────────────────────────────────────────────────
+
+Step 1: Contractor submits work to you (NOT to client directly)
+Step 2: You review against the internal checklist (see Approval Workflow doc)
+Step 3: If approved → forward to client with your name on it
+Step 4: If revision needed → send written notes to contractor with specific changes
+Step 5: Log quality score for the month
+
+SCALING TIMELINE — WHEN TO HIRE
+────────────────────────────────────────────────────────────────────────────────
+
+Hire #1 (Copywriter or Designer):
+Trigger: You're spending 30+ hours/week on client work; at 4+ clients
+Goal: Reduce your time per client by 30-40%
+Cost: $500-$1,500/month depending on volume
+
+Hire #2 (Second specialist or add capacity):
+Trigger: 6+ clients; consistently hitting 40+ hours/week on delivery
+Goal: Create bandwidth for sales; take on 2-3 more clients
+Cost: Another $500-$1,500/month
+
+Hire #3 (Account Manager or Project Manager):
+Trigger: 10+ clients; quality control becoming a bottleneck
+Goal: Remove yourself from day-to-day delivery; focus on growth and strategy
+Cost: $2,000-$4,000/month for part-time; $4,000-$6,000 for full-time
+
+CONTRACTOR PAY STRUCTURES
+────────────────────────────────────────────────────────────────────────────────
+
+Per Post (best for small volume):
+Caption: $25-$50/caption
+Graphic: $20-$50/design
+Reel edit: $50-$150
+
+Per Hour (best for variable work):
+Copywriter: $30-$60/hour
+Designer: $25-$50/hour
+Community Manager: $20-$35/hour
+
+Per Client/Month (best for consistent workload):
+Community Manager: $200-$500/client/month
+Caption Writer: $300-$800/client/month depending on volume
+Designer: $300-$700/client/month depending on volume

@@ -1,0 +1,126 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       PROJECT WRAP-UP REPORT                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client:           [CLIENT BUSINESS NAME]
+Engagement Period: [START DATE] — [END DATE]
+Total Duration:   [X months]
+Prepared by:      [YOUR NAME], [AGENCY NAME]
+Report Date:      [DATE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROJECT OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Scope:      [Package name and what was included]
+Platforms:  [List all platforms managed]
+Investment: $[MONTHLY] × [X months] = $[TOTAL]
+
+Starting situation: [2-3 sentences describing where the client was when you started]
+Objective:          [What they hired you to achieve]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESULTS VS. GOALS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Goal                        │ Initial Target │ Final Result  │ Exceeded?
+────────────────────────────┼────────────────┼───────────────┼──────────
+Instagram Follower Growth   │                │               │
+Engagement Rate             │                │               │
+Monthly Reach               │                │               │
+[CUSTOM GOAL 1]             │                │               │
+[CUSTOM GOAL 2]             │                │               │
+Content Pieces Produced     │                │               │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE GROWTH STORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Write a 3-5 paragraph narrative of the full engagement. Where did they start?
+What was the turning point? What drove the best results? Where did they end up?
+Write this as a story, not a list of stats — this is the most memorable part of the report.]
+
+Example:
+"When [CLIENT NAME] first came to us in [MONTH], their Instagram had [X] followers
+and a [X]% engagement rate — well below the industry average. More importantly,
+there was no content strategy — posts went up inconsistently, with no clear message
+or audience in mind.
+
+In the first 30 days, we established a content strategy, rebuilt the profile, and
+launched a consistent publishing schedule. The results were immediate: within the first
+month, engagement rate jumped from [X]% to [X]% — a [X]% improvement.
+
+The real breakthrough came in [MONTH] when we launched the [CONTENT TYPE] series.
+These posts consistently outperformed everything else, and [SPECIFIC POST] became
+the top-performing piece of the entire engagement at [X] reach..."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOP 10 PERFORMING POSTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Rank  Date        Format      Topic/Description          Key Stats          Why It Worked
+────────────────────────────────────────────────────────────────────────────────
+1.    [DATE]      [FORMAT]    [DESCRIPTION]              Reach: ___         [1 sentence]
+2.    [DATE]      [FORMAT]    [DESCRIPTION]              Reach: ___         [1 sentence]
+3.    [DATE]      [FORMAT]    [DESCRIPTION]              Reach: ___         [1 sentence]
+4-10. [Continue]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STRATEGY WINS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. [Win — e.g., "Carousel posts drove 3x more saves than single-image posts"]
+2. [Win — e.g., "Posting at 8am consistently outperformed our original 12pm schedule"]
+3. [Win — e.g., "Behind-the-scenes content had the highest story completion rate"]
+4. [Win — e.g., "Question CTAs generated 4x more comments than statements"]
+5. [Win — e.g., "Reels published on Tuesday performed better than any other day"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LESSONS LEARNED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Being honest here builds massive trust. Share 2-3 things that didn't work.]
+
+1. [e.g., "In Month 2 we tested daily Stories — it didn't improve engagement and wasn't worth the effort. We scaled back to 5x/week."]
+2. [e.g., "Promotional content consistently underperformed in this niche — we learned to keep it below 10% of the content mix."]
+3. [e.g., "LinkedIn didn't move the needle for this client's audience — Instagram and Facebook were the right platforms."]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL PLATFORM ANALYTICS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INSTAGRAM:
+Start Followers: ___  →  Final: ___  (___%)
+Start Eng Rate:  ___%  →  Final: ___%
+Total posts published: ___  Total Reels: ___
+
+FACEBOOK:  Start Followers: ___  →  Final: ___
+LINKEDIN:  Start Followers: ___  →  Final: ___
+[Add all platforms managed]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RECOMMENDATIONS FOR THE FUTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Write genuine, specific recommendations for their next phase]
+1. _______________________________________________________________
+2. _______________________________________________________________
+3. _______________________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TESTIMONIAL REQUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you're willing to share your experience, we'd be incredibly grateful for
+a short testimonial. A few sentences answering these questions is perfect:
+
+1. What was your social media situation before working with us?
+2. What was it like working with [AGENCY NAME]?
+3. What specific results did you achieve?
+
+You can share it however you prefer:
+• Email it to [EMAIL]
+• Leave it as a Google Review: [LINK]
+• Post it on LinkedIn and tag us: [LINKEDIN]
+
+Thank you, [NAME]. It was a genuine privilege.

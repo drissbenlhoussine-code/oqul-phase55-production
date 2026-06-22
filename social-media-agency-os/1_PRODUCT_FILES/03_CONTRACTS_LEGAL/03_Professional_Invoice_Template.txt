@@ -1,0 +1,88 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         PROFESSIONAL INVOICE                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+                                          [YOUR AGENCY LOGO / NAME]
+                                          [YOUR NAME]
+                                          [ADDRESS]
+                                          [EMAIL] | [PHONE]
+                                          [WEBSITE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVOICE DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Invoice Number:   INV-[YEAR]-[001]
+Invoice Date:     [DATE]
+Due Date:         [DATE + 14 DAYS]
+Payment Terms:    Net 14
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BILL TO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CLIENT BUSINESS NAME]
+Attn: [CLIENT CONTACT NAME]
+[CLIENT ADDRESS]
+[CLIENT EMAIL]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SERVICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Description                                   Qty    Unit Price    Amount
+─────────────────────────────────────────────────────────────────────────────
+Social Media Management — [PACKAGE NAME]        1     $[AMOUNT]    $[AMOUNT]
+[Month: MONTH YEAR]
+Platforms: [PLATFORMS]
+
+Content Creation & Strategy                     1     $[AMOUNT]    $[AMOUNT]
+[Description of deliverables]
+
+Community Management — [PLATFORM]               1     $[AMOUNT]    $[AMOUNT]
+[Number of hours or flat rate]
+
+[ADD-ON: Reel Production x 2]                  2     $[AMOUNT]    $[AMOUNT]
+
+─────────────────────────────────────────────────────────────────────────────
+                                              Subtotal:            $[AMOUNT]
+                                              Tax ([X]%):          $[AMOUNT]
+                                              ─────────────────────────────
+                                              TOTAL DUE:           $[AMOUNT]
+─────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PAYMENT INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bank Transfer:
+  Bank Name:       [BANK NAME]
+  Account Name:    [YOUR NAME / AGENCY NAME]
+  Account Number:  [ACCOUNT NUMBER]
+  Routing/Sort:    [ROUTING NUMBER]
+  Reference:       INV-[YEAR]-[NUMBER]
+
+PayPal:           [YOUR PAYPAL EMAIL]
+Stripe:           [PAYMENT LINK]
+
+Payment is due by [DUE DATE]. Payments received after the due date are
+subject to a 1.5% monthly late fee per the terms of your contract.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INVOICE NUMBERING SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Use format: INV-YYYY-NNN  (e.g., INV-2025-001, INV-2025-002...)
+• Restart numbering each January 1st
+• Keep a master invoice log in your accounting software or spreadsheet
+• Column headers: Invoice #, Client, Date, Amount, Due Date, Paid Date, Status
+
+FOLLOW-UP SEQUENCE FOR UNPAID INVOICES:
+• Day 0:   Invoice sent
+• Day 10:  Reminder email ("Just checking in...")
+• Day 14:  Due date — auto-reminder
+• Day 16:  Polite first chase ("Payment appears outstanding...")
+• Day 21:  Firm reminder with late fee notice
+• Day 30:  Service pause notification
+
+Thank you for your business!

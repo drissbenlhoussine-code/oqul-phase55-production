@@ -1,0 +1,160 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  MONTHLY SOCIAL MEDIA ANALYTICS REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Client:           [CLIENT BUSINESS NAME]
+Reporting Period: [MONTH YEAR]
+Prepared by:      [YOUR NAME], [AGENCY NAME]
+Date:             [DATE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This month's biggest wins:
+• [WIN 1 — specific and positive, e.g., "Instagram reach increased 34% month-over-month"]
+• [WIN 2 — e.g., "Best-performing Reel hit 12,400 views — our highest ever"]
+• [WIN 3 — e.g., "Engagement rate reached 3.2%, above the 2.5% industry benchmark"]
+• [WIN 4 — if applicable]
+
+Overall performance: □ Above target  □ On target  □ Below target (see details)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+INSTAGRAM PERFORMANCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FOLLOWERS:
+  End of last month:        ______
+  End of this month:        ______
+  New followers gained:     ______
+  Net change:               ______ (____%)
+  Monthly target:           ______
+  □ Target met  □ Target missed
+
+REACH & IMPRESSIONS:
+  Total monthly reach:      ______
+  Total impressions:        ______
+  vs. Last month:           ______  (____%)
+  Avg. reach per post:      ______
+
+ENGAGEMENT:
+  Total engagements:        ______
+  Avg. engagement per post: ______
+  Engagement rate:          ______%
+  Industry benchmark:       ______%
+  □ Above benchmark  □ Below benchmark
+
+CONTENT BREAKDOWN:
+  Posts published:          ______
+  Reels published:          ______
+  Stories published:        ______
+  Best performing format:   ______
+
+TOP 3 POSTS THIS MONTH:
+Post 1: [Brief description]  |  Likes: __  Comments: __  Saves: __  Shares: __
+        Why it worked: _________________________________________________
+Post 2: [Brief description]  |  Likes: __  Comments: __  Saves: __  Shares: __
+        Why it worked: _________________________________________________
+Post 3: [Brief description]  |  Likes: __  Comments: __  Saves: __  Shares: __
+        Why it worked: _________________________________________________
+
+ADDITIONAL METRICS:
+  Profile visits:           ______
+  Website clicks:           ______
+  Story views (avg):        ______
+  Story replies:            ______
+  Reel plays (avg):         ______
+  DMs received:             ______
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FACEBOOK PERFORMANCE  [include if managing]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Page followers (end of month):  ______  Change: ______ (____%)
+Total reach:                    ______
+Total engagements:              ______
+Engagement rate:                ______%
+Posts published:                ______
+Best performing post:           ______________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LINKEDIN PERFORMANCE  [include if managing]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Followers (end of month):    ______  Change: ______ (____%)
+Total impressions:           ______
+Total engagements:           ______
+Engagement rate:             ______%
+Click-through rate:          ______%
+Top performing post:         ______________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KPI PROGRESS TRACKER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KPI                    │ Start Baseline │ This Month │ 90-Day Target │ On Track?
+───────────────────────┼────────────────┼────────────┼───────────────┼──────────
+Instagram Followers    │                │            │               │
+Engagement Rate (IG)   │                │            │               │
+Monthly Reach          │                │            │               │
+Website Clicks (social)│                │            │               │
+[CUSTOM GOAL 1]        │                │            │               │
+[CUSTOM GOAL 2]        │                │            │               │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT PERFORMANCE ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Best performing content PILLAR this month:
+□ Educational  □ Inspirational  □ Behind-the-Scenes  □ Showcase  □ Promotional
+
+Best performing FORMAT:
+□ Static Post  □ Carousel  □ Reel  □ Story
+
+Analysis: [2-3 sentences explaining WHY certain content outperformed]
+________________________________________________________________
+________________________________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WORKED THIS MONTH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. [Specific observation about what drove results — e.g., "Educational carousels drove 45% more saves than single posts"]
+2. [Specific observation — e.g., "Posting at 8am on weekdays outperformed our previous 12pm schedule by 28% in reach"]
+3. [Specific observation — e.g., "The behind-the-scenes Reel got 3x the engagement of regular posts — audience loves BTS"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WHAT WE'RE TESTING NEXT MONTH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Hypothesis: [e.g., "Adding a question to every caption will increase comments by 20%"]
+   How we'll measure: _____________________________________________
+
+2. Hypothesis: [e.g., "Posting 2 Reels/week instead of 1 will increase reach by 30%"]
+   How we'll measure: _____________________________________________
+
+3. Strategy change: [e.g., "We'll shift from 70% educational to 60% educational + 20% BTS based on this month's data"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STRATEGIC RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Priority 1: [Action — e.g., "Add TikTok to the strategy — your competitor is seeing 40K views/Reel and you're not there yet"]
+Priority 2: [Action — e.g., "Increase Story frequency to daily — Story engagement is tracking 2x our feed engagement"]
+Priority 3: [Action — e.g., "Introduce a weekly educational series to build anticipation and regular viewership"]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+APPENDIX — FULL DATA TABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DATE       │ PLATFORM  │ FORMAT    │ LIKES │ COMMENTS │ SHARES │ SAVES │ REACH
+───────────┼───────────┼───────────┼───────┼──────────┼────────┼───────┼───────
+[Date]     │ Instagram │ Post      │       │          │        │       │
+[Date]     │ Instagram │ Reel      │       │          │        │       │
+[Date]     │ Instagram │ Carousel  │       │          │        │       │
+[Date]     │ Facebook  │ Post      │       │          │        │       │
+[Date]     │ LinkedIn  │ Post      │       │          │        │       │
+[Continue filling for all posts published this month]
+
+Questions about this report? Schedule a call: [BOOKING LINK]
+Next report due: [DATE]

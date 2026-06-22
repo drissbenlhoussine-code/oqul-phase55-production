@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Start Guide — 365 Instagram Captions for Estheticians</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --primary: #1A1A1A;
+    --gold: #C9A84C;
+    --gold-light: #E8D5A0;
+    --bg: #F5F0E8;
+    --white: #FFFFFF;
+    --gray: #6B6B6B;
+    --light-gray: #E8E4DC;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--primary);
+    font-size: 11pt;
+    line-height: 1.7;
+  }
+
+  /* ─── PAGE WRAPPER ─── */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: var(--bg);
+    position: relative;
+    page-break-after: always;
+    overflow: hidden;
+  }
+
+  /* ─── COVER PAGE ─── */
+  .cover {
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 50px;
+    position: relative;
+  }
+
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: var(--gold);
+  }
+
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 5px;
+    background: var(--gold);
+  }
+
+  .cover-badge {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9pt;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    margin-bottom: 40px;
+  }
+
+  .cover-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36pt;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 16px;
+    max-width: 480px;
+  }
+
+  .cover-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    color: var(--gold);
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+
+  .cover-divider {
+    width: 60px;
+    height: 1px;
+    background: var(--gold);
+    margin: 0 auto 50px;
+  }
+
+  .cover-tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12pt;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    max-width: 360px;
+  }
+
+  .cover-version {
+    position: absolute;
+    bottom: 28px;
+    left: 0; right: 0;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 1px;
+  }
+
+  /* ─── CONTENT PAGES ─── */
+  .content-page {
+    padding: 48px 52px;
+    position: relative;
+  }
+
+  .content-page::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gold);
+  }
+
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--light-gray);
+    margin-bottom: 36px;
+  }
+
+  .page-header-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .page-number {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    color: var(--gray);
+  }
+
+  /* ─── SECTION TITLES ─── */
+  .section-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26pt;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 12px;
+    margin-top: 32px;
+  }
+
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 6px;
+    margin-top: 20px;
+  }
+
+  p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5pt;
+    color: var(--primary);
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+
+  p.lead {
+    font-size: 13pt;
+    color: var(--gray);
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  /* ─── STEP CARDS ─── */
+  .steps-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 28px 0;
+  }
+
+  .step-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    padding: 18px 22px;
+  }
+
+  .step-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    min-width: 36px;
+  }
+
+  .step-content h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 4px;
+  }
+
+  .step-content p {
+    font-size: 9.5pt;
+    color: var(--gray);
+    margin: 0;
+    line-height: 1.55;
+  }
+
+  .step-content .example {
+    display: inline-block;
+    background: var(--bg);
+    border-left: 2px solid var(--gold-light);
+    padding: 6px 12px;
+    margin-top: 8px;
+    font-size: 9pt;
+    color: var(--gray);
+    font-style: italic;
+    width: 100%;
+  }
+
+  /* ─── 5-MINUTE BANNER ─── */
+  .highlight-box {
+    background: var(--primary);
+    padding: 28px 32px;
+    margin: 28px 0;
+    position: relative;
+  }
+
+  .highlight-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--gold);
+  }
+
+  .highlight-box h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt;
+    color: var(--white);
+    margin: 0 0 10px;
+  }
+
+  .highlight-box p {
+    color: rgba(255,255,255,0.7);
+    font-size: 9.5pt;
+    margin: 0;
+  }
+
+  .highlight-box .timer-badge {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--primary);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    margin-bottom: 14px;
+  }
+
+  /* ─── MINI WORKFLOW ─── */
+  .workflow {
+    display: flex;
+    gap: 0;
+    margin: 24px 0;
+    background: var(--white);
+  }
+
+  .workflow-step {
+    flex: 1;
+    padding: 16px 14px;
+    text-align: center;
+    border-right: 1px solid var(--light-gray);
+  }
+
+  .workflow-step:last-child { border-right: none; }
+
+  .workflow-step .wf-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 18pt;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .workflow-step .wf-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+  }
+
+  .workflow-step .wf-time {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7.5pt;
+    color: var(--gray);
+    display: block;
+    margin-top: 2px;
+  }
+
+  /* ─── FAQ ─── */
+  .faq-item {
+    border-bottom: 1px solid var(--light-gray);
+    padding: 14px 0;
+  }
+
+  .faq-item:last-child { border-bottom: none; }
+
+  .faq-q {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 5px;
+  }
+
+  .faq-a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5pt;
+    color: var(--gray);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ─── SCREENSHOT PLACEHOLDER ─── */
+  .screenshot-placeholder {
+    border: 1.5px dashed var(--gold-light);
+    background: var(--white);
+    padding: 24px;
+    text-align: center;
+    margin: 18px 0;
+  }
+
+  .screenshot-placeholder .ph-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .screenshot-placeholder .ph-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9pt;
+    color: var(--gray);
+  }
+
+  /* ─── PRINT ─── */
+  @media print {
+    body { background: white; }
+    .page { margin: 0; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     COVER PAGE
+═══════════════════════════════════════════════════ -->
+<div class="page cover">
+  <span class="cover-badge">Quick Start Guide</span>
+  <h1 class="cover-title">365 Instagram Captions<br>for Estheticians</h1>
+  <p class="cover-subtitle">Use This Product In Under 5 Minutes</p>
+  <div class="cover-divider"></div>
+  <p class="cover-tagline">Everything you need to start posting professionally — today.</p>
+  <span class="cover-version">Part of the Done-For-You Caption Bank Series</span>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 2 — THE 5-STEP SYSTEM
+═══════════════════════════════════════════════════ -->
+<div class="page content-page">
+  <div class="page-header">
+    <span class="page-header-title">Quick Start Guide</span>
+    <span class="page-number">02</span>
+  </div>
+
+  <span class="section-label">Getting Started</span>
+  <h1>Post in 5 Steps.<br>Start in 5 Minutes.</h1>
+  <p class="lead">You already have everything you need. Open your caption bank, follow these five steps, and you'll have your first post ready before you finish reading this guide.</p>
+
+  <div class="steps-grid">
+
+    <div class="step-card">
+      <span class="step-number">01</span>
+      <div class="step-content">
+        <h3>Open Your Caption Bank</h3>
+        <p>Open <strong>365_Captions_Estheticians.md</strong> in Google Docs or any text editor. Use Ctrl+F (or Cmd+F on Mac) to search by keyword — type "acne," "SPF," "booking," or any topic to jump directly to relevant captions.</p>
+        <span class="example">💡 Tip: Save the file to your Google Drive for easy mobile access while posting.</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">02</span>
+      <div class="step-content">
+        <h3>Choose Your Caption</h3>
+        <p>Pick a caption that matches your content for today. Use the <strong>30-Day Content Plan</strong> if you want guidance — it tells you exactly which caption number to use each day.</p>
+        <span class="example">💡 Monday = Educational. Thursday = Promotional. Check your content plan.</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">03</span>
+      <div class="step-content">
+        <h3>Add Your Business Details</h3>
+        <p>Replace any <strong>[BRACKETED PLACEHOLDER]</strong> with your real information. This takes 30–60 seconds per caption.</p>
+        <span class="example">Example: Replace [SERVICE NAME] → "HydraFacial" &nbsp;|&nbsp; [YOUR BUSINESS] → "Glow by Sofia"</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">04</span>
+      <div class="step-content">
+        <h3>Add Your Local Call to Action</h3>
+        <p>End every promotional caption with a location-specific CTA. Even one word changes conversion significantly.</p>
+        <span class="example">Example: "Book your facial in [CITY] — link in bio." &nbsp;or&nbsp; "Now accepting new clients in [NEIGHBORHOOD]."</span>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <span class="step-number">05</span>
+      <div class="step-content">
+        <h3>Select Hashtags &amp; Post</h3>
+        <p>Open <strong>Hashtag_Bank_200.txt</strong>, pick the Ready-to-Use Set that matches your post type, copy it, paste below your caption, and publish.</p>
+        <span class="example">Educational post → Set 1 &nbsp;|&nbsp; Promotional post → Set 2 &nbsp;|&nbsp; BTS post → Set 3</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="screenshot-placeholder">
+    <span class="ph-label">Screenshot Placeholder</span>
+    <span class="ph-desc">Add a screenshot of the Google Doc open with a caption highlighted and being edited</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     PAGE 3 — WORKFLOW + FAQ
+═══════════════════════════════════════════════════ -->
+<div class="page content-page">
+  <div class="page-header">
+    <span class="page-header-title">Quick Start Guide</span>
+    <span class="page-number">03</span>
+  </div>
+
+  <div class="highlight-box">
+    <span class="timer-badge">⏱ Under 5 Minutes</span>
+    <h2>Your Complete Posting Workflow</h2>
+    <p>From blank screen to published post — this is the exact sequence. Once you've done it twice, it takes under 3 minutes.</p>
+  </div>
+
+  <div class="workflow">
+    <div class="workflow-step">
+      <span class="wf-num">1</span>
+      <span class="wf-label">Open File</span>
+      <span class="wf-time">10 sec</span>
+    </div>
+    <div class="workflow-step">
+      <span class="wf-num">2</span>
+      <span class="wf-label">Find Caption</span>
+      <span class="wf-time">30 sec</span>
+    </div>
+    <div class="workflow-step">
+      <span class="wf-num">3</span>
+      <span class="wf-label">Personalize</span>
+      <span class="wf-time">60 sec</span>
+    </div>
+    <div class="workflow-step">
+      <span class="wf-num">4</span>
+      <span class="wf-label">Add Hashtags</span>
+      <span class="wf-time">15 sec</span>
+    </div>
+    <div class="workflow-step">
+      <span class="wf-num">5</span>
+      <span class="wf-label">Post</span>
+      <span class="wf-time">30 sec</span>
+    </div>
+  </div>
+
+  <div class="screenshot-placeholder">
+    <span class="ph-label">Screenshot Placeholder</span>
+    <span class="ph-desc">Add a split screenshot: left = caption bank open on phone, right = published Instagram post</span>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">Do I need to use every caption in order?</p>
+    <p class="faq-a">No. Jump to any caption that fits your content for the day. Use the 30-Day Content Plan to stay organized, or search by keyword to find exactly what you need.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Can I use the same caption more than once?</p>
+    <p class="faq-a">Yes. Your audience grows and changes. A caption posted 2–3 months ago is fresh content to someone who just followed you. Rotate freely.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What if a caption doesn't sound like me?</p>
+    <p class="faq-a">Change one sentence. Add your own opener. Adjust the tone. Every caption is a starting point — not a script. The Customization Guide has before-and-after examples showing exactly how to do this.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How many hashtags should I use?</p>
+    <p class="faq-a">Instagram's current best practice is 5–10 targeted hashtags per post. Use the pre-grouped sets in your Hashtag Bank — each set is already calibrated for a specific content type.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Can I use these on TikTok or Facebook?</p>
+    <p class="faq-a">Yes. Every caption works across Instagram, Facebook, and LinkedIn as-is. For TikTok, trim to the first 2–3 sentences to match shorter attention spans.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What if I need help?</p>
+    <p class="faq-a">Contact the seller through your Etsy purchase. Most questions are answered within 24–48 hours.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
