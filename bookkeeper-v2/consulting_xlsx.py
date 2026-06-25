@@ -7,7 +7,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter, column_index_from_string
 from openpyxl.worksheet.datavalidation import DataValidation
-from openpyxl.formatting.rule import CellIsRule
+from openpyxl.formatting.rule import CellIsRule, FormulaRule
 import os
 
 OUT = '/home/user/oqul-phase55-production/bookkeeper-v2/v2-consulting/02-Practice-Dashboard'
@@ -236,9 +236,133 @@ def kpi_card(ws, row, col, label, value, note='', accent=TEAL):
     )
 
 
+# ── Print Settings Helper ─────────────────────────────────────────────────────
+
+def apply_print_settings(ws, header_end_row=7):
+    """Apply landscape print settings with header row repeat."""
+    ws.print_title_rows = f'1:{header_end_row}'
+    ws.page_setup.orientation = 'landscape'
+    ws.page_setup.fitToPage = True
+    ws.page_setup.fitToWidth = 1
+    ws.page_setup.fitToHeight = 0
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # Sheet Builders
 # ══════════════════════════════════════════════════════════════════════════════
+
+def build_navigation(ws):
+    """Branded landing / navigation sheet — first sheet in workbook."""
+    ws.sheet_view.showGridLines = False
+    ws.column_dimensions['A'].width = 2
+    ws.column_dimensions['B'].width = 28
+    ws.column_dimensions['C'].width = 60
+    ws.column_dimensions['D'].width = 2
+
+    # ── Dark navy full-width header ───────────────────────────────────────────
+    ws.row_dimensions[1].height = 6    # top margin
+    ws.row_dimensions[2].height = 46
+    mc(ws, 2, 1, 2, 20,
+       value='NOVAOPS  ·  Bookkeeper Practice Dashboard  ·  v2.0',
+       font=F(bold=True, size=22, color=WHITE, name='Calibri'),
+       fill=Fill(DARK_NAVY),
+       align=Align('center', 'center'))
+
+    ws.row_dimensions[3].height = 20
+    mc(ws, 3, 1, 3, 20,
+       value='Your complete practice operations system',
+       font=F(size=10, color=MUTED, italic=True),
+       fill=Fill(DARK_NAVY),
+       align=Align('center', 'center'))
+
+    ws.row_dimensions[4].height = 3
+    mc(ws, 4, 1, 4, 20, fill=Fill(TEAL))   # teal rule
+
+    ws.row_dimensions[5].height = 14       # spacer
+
+    # ── Navigation table header ───────────────────────────────────────────────
+    ws.row_dimensions[6].height = 20
+    sc(ws, 6, 2, value='Sheet Name',
+       font=F(bold=True, size=9, color=WHITE),
+       fill=Fill(TEAL),
+       align=Align('center', 'center'),
+       border=border_all(TEAL))
+    sc(ws, 6, 3, value='Description',
+       font=F(bold=True, size=9, color=WHITE),
+       fill=Fill(TEAL),
+       align=Align('center', 'center'),
+       border=border_all(TEAL))
+
+    # ── Sheet list ────────────────────────────────────────────────────────────
+    nav_items = [
+        ('Navigation',         'This landing page — start here'),
+        ('Setup',              'Enter your practice name, pricing tiers, and settings'),
+        ('Client CRM',         'Master record for all active and former clients'),
+        ('Lead Pipeline',      'Track every prospect from first contact to closed deal'),
+        ('Pricing Calculator', 'Calculate client fees and cleanup estimates instantly'),
+        ('Monthly Close',      'Track monthly close status and checklist for every client'),
+        ('Invoice Tracker',    'Log invoices, payment status, and outstanding balances'),
+        ('Tax Documents',      'Year-end document collection tracker per client'),
+        ('Capacity Planner',   'Plan available hours vs. committed client time'),
+        ('Dashboard',          'Live KPI overview — auto-populates from all sheets'),
+        ('Instructions',       'Full usage guide for every sheet in this system'),
+    ]
+
+    r = 7
+    for i, (sheet_name, desc) in enumerate(nav_items):
+        ws.row_dimensions[r].height = 20
+        fill_color = BG_SOFT if i % 2 == 0 else WHITE
+        sc(ws, r, 2, value=sheet_name,
+           font=F(bold=True, size=9, color=TEAL if sheet_name != 'Navigation' else INK),
+           fill=Fill(fill_color),
+           align=Align('left', 'center', indent=1),
+           border=border_all(RULE))
+        sc(ws, r, 3, value=desc,
+           font=F(size=9, color=INK),
+           fill=Fill(fill_color),
+           align=Align('left', 'center', indent=1),
+           border=border_all(RULE))
+        r += 1
+
+    ws.row_dimensions[r].height = 16   # spacer
+    r += 1
+
+    # ── HOW TO START callout box ──────────────────────────────────────────────
+    ws.row_dimensions[r].height = 18
+    mc(ws, r, 2, r, 3,
+       value='HOW TO START',
+       font=F(bold=True, size=10, color=AMBER),
+       fill=Fill(AMBER_10),
+       align=Align('left', 'center', indent=1),
+       border=Border(left=Side(style='medium', color=AMBER),
+                     right=thin_side(RULE), top=thin_side(RULE), bottom=thin_side(RULE)))
+    r += 1
+
+    ws.row_dimensions[r].height = 54
+    mc(ws, r, 2, r, 3,
+       value=(
+           'Step 1: Go to Setup sheet and fill all amber cells.\n'
+           'Step 2: Add your clients in Client CRM.\n'
+           'Step 3: Use Dashboard to track everything at a glance.'
+       ),
+       font=F(size=9, color=INK),
+       fill=Fill(AMBER_10),
+       align=Align('left', 'center', wrap=True, indent=1),
+       border=Border(left=Side(style='medium', color=AMBER),
+                     right=thin_side(RULE), top=thin_side(RULE), bottom=thin_side(RULE)))
+    r += 1
+
+    ws.row_dimensions[r].height = 14   # spacer before footer
+    r += 1
+
+    # ── NovaOps brand footer ──────────────────────────────────────────────────
+    ws.row_dimensions[r].height = 22
+    mc(ws, r, 1, r, 20,
+       value='© 2025 NovaOps  ·  Bookkeeper Practice Launch System  ·  Commercial Use License',
+       font=F(size=8, color=MUTED, italic=True),
+       fill=Fill(DARK_NAVY),
+       align=Align('center', 'center'))
+
 
 def build_setup(ws):
     ws.sheet_view.showGridLines = False
@@ -246,6 +370,9 @@ def build_setup(ws):
 
     r = page_header(ws, 1, 'Setup',
                     'Fill in the amber cells — do not edit white formula cells')
+
+    # Freeze panes below the page header (row 7 is first content row, freeze at col B)
+    ws.freeze_panes = ws.cell(row=7, column=2)
 
     r = section_label(ws, r, 1, 'Practice Information')
 
@@ -262,6 +389,7 @@ def build_setup(ws):
         ('Fiscal Year End Month', 'December'),
     ]
 
+    input_cells = []
     for label, default in setup_fields:
         ws.row_dimensions[r].height = 20
         sc(ws, r, 2, value=label,
@@ -270,14 +398,25 @@ def build_setup(ws):
            align=Align('left', 'center', indent=1),
            border=border_all(RULE))
         ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=5)
-        sc(ws, r, 6, value=default,
+        input_cell = sc(ws, r, 6, value=default,
            font=F(size=9, bold=True, color=INK),
            fill=Fill(AMBER_10),
            align=Align('left', 'center', indent=1),
            border=Border(left=Side(style='medium', color=AMBER),
                          right=thin_side(RULE), top=thin_side(RULE), bottom=thin_side(RULE)))
         ws.merge_cells(start_row=r, start_column=6, end_row=r, end_column=9)
+        input_cells.append(f'F{r}')
         r += 1
+
+    # Data validation with error messages on amber input cells
+    for cell_ref in input_cells:
+        dv = DataValidation(type='textLength', operator='greaterThan', formula1='0',
+                            allow_blank=False)
+        dv.error = 'Please enter a value'
+        dv.errorTitle = 'Required Field'
+        dv.showErrorMessage = True
+        dv.sqref = cell_ref
+        ws.add_data_validation(dv)
 
     r = section_label(ws, r, 2, 'Service Tiers')
 
@@ -292,6 +431,8 @@ def build_setup(ws):
             data_row(ws, r, col, val, center=(col>2), nf='€#,##0' if col in [5,6] else None)
         r += 1
 
+    apply_print_settings(ws, header_end_row=7)
+
 
 def build_client_crm(ws):
     ws.sheet_view.showGridLines = False
@@ -300,14 +441,18 @@ def build_client_crm(ws):
     r = page_header(ws, 2, 'Client CRM', 'Master record for all active and former clients')
 
     headers = [
-        ('B','Client Name',24),('C','Status',14),('D','Entity Type',14),
-        ('E','Software',14),('F','Monthly Fee (€)',15),('G','Close Day',10),
+        ('B','Client Name',24),('C','Status',16),('D','Entity Type',14),
+        ('E','Software',14),('F','Monthly Fee (€)',16),('G','Close Day',10),
         ('H','Primary Contact',18),('I','Email',22),('J','Tax Preparer',18),
-        ('K','Start Date',12),('L','Service Package',16),('M','Notes',24),
+        ('K','Start Date',14),('L','Service Package',16),('M','Notes',30),
     ]
     for col_letter, label, width in headers:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
     header_row = r
+
+    # Freeze panes so column headers stay visible
+    ws.freeze_panes = ws.cell(row=r + 1, column=2)
+
     r += 1
 
     data = [
@@ -360,6 +505,8 @@ def build_client_crm(ws):
                      right=thin_side(TEAL), top=thin_side(TEAL), bottom=thin_side(TEAL)),
        nf='€#,##0')
 
+    apply_print_settings(ws, header_end_row=header_row)
+
 
 def build_lead_pipeline(ws):
     ws.sheet_view.showGridLines = False
@@ -370,11 +517,15 @@ def build_lead_pipeline(ws):
     headers = [
         ('B','Lead / Contact Name',22),('C','Company',20),('D','Stage',16),
         ('E','Source',14),('F','Est. Monthly Fee (€)',16),('G','Cleanup Est. (€)',14),
-        ('H','Next Action',22),('I','Next Action Date',14),('J','Email',22),('K','Notes',24),
+        ('H','Next Action',22),('I','Next Action Date',14),('J','Email',22),('K','Notes',30),
     ]
     for col_letter, label, width in headers:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
     header_row = r
+
+    # Freeze panes below column headers
+    ws.freeze_panes = ws.cell(row=r + 1, column=2)
+
     r += 1
 
     data = [
@@ -430,12 +581,17 @@ def build_lead_pipeline(ws):
            nf='€#,##0' if end_col==5 else '0')
         r += 1
 
+    apply_print_settings(ws, header_end_row=header_row)
+
 
 def build_pricing_calc(ws):
     ws.sheet_view.showGridLines = False
     ws.column_dimensions['A'].width = 1.5
 
     r = page_header(ws, 4, 'Pricing Calculator', 'Calculate client fees based on scope — fill amber cells')
+
+    # Freeze below the page header
+    ws.freeze_panes = ws.cell(row=7, column=2)
 
     r = section_label(ws, r, 1, 'Client Inputs')
 
@@ -529,6 +685,8 @@ def build_pricing_calc(ws):
        nf='€#,##0')
     ws.merge_cells(start_row=r, start_column=8, end_row=r, end_column=10)
 
+    apply_print_settings(ws, header_end_row=7)
+
 
 def build_monthly_close(ws):
     ws.sheet_view.showGridLines = False
@@ -538,14 +696,19 @@ def build_monthly_close(ws):
 
     headers = [
         ('B','Period',12),('C','Client',22),('D','Status',16),('E','Owner',14),
-        ('F','Bank Rec.',10),('G','Card Rec.',10),('H','Questions Sent',12),
+        ('F','Bank Rec.',10),('G','Card Rec.',10),('H','Questions Sent',14),
         ('I','Questions Answered',16),('J','Reports Delivered',14),
-        ('K','Due Date',12),('L','Review Notes',28),
+        ('K','Due Date',14),('L','Review Notes',30),
     ]
     for col_letter, label, width in headers:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
     header_row = r
+
+    # Freeze panes below column headers
+    ws.freeze_panes = ws.cell(row=r + 1, column=2)
+
     r += 1
+    data_start = r
 
     data = [
         ['2026-07','Harbor Design LLC','In Progress','[OWNER]','Yes','No','No','No','No','2026-08-15',''],
@@ -570,6 +733,8 @@ def build_monthly_close(ws):
             data_row(ws, r, col, val, center=(col > 4))
         r += 1
 
+    data_end = r - 1
+
     ws.conditional_formatting.add(f'D{header_row+1}:D500',
         CellIsRule(operator='equal', formula=['"Delivered"'],
                    fill=PatternFill('solid', fgColor=TEAL_10[2:]),
@@ -587,6 +752,40 @@ def build_monthly_close(ws):
                    fill=PatternFill('solid', fgColor='FFFEE2E2'),
                    font=Font(color=DANGER_R[2:], name='Calibri', size=8.5)))
 
+    # ── Progress Bar Row ──────────────────────────────────────────────────────
+    r += 1
+    ws.row_dimensions[r].height = 24
+    progress_formula = (
+        f'=IFERROR(COUNTIF(D{data_start}:D{data_end},"Delivered")'
+        f'/COUNTA(C{data_start}:C{data_end}),0)'
+    )
+    mc(ws, r, 2, r, 3, value='CLOSE PROGRESS',
+       font=F(bold=True, size=9, color=WHITE),
+       fill=Fill(TEAL),
+       align=Align('right', 'center'),
+       border=border_all(TEAL))
+    progress_cell = sc(ws, r, 4, value=progress_formula,
+       font=F(bold=True, size=11, color=WHITE),
+       fill=Fill(TEAL),
+       align=Align('center', 'center'),
+       border=Border(left=Side(style='medium', color=TEAL),
+                     right=thin_side(TEAL), top=thin_side(TEAL), bottom=thin_side(TEAL)),
+       nf='0%')
+
+    # Conditional formatting on progress cell: green >80%, amber >50%, red <50%
+    prog_ref = f'D{r}'
+    ws.conditional_formatting.add(prog_ref,
+        CellIsRule(operator='greaterThan', formula=['0.8'],
+                   fill=PatternFill('solid', fgColor=SUCCESS_G[2:])))
+    ws.conditional_formatting.add(prog_ref,
+        CellIsRule(operator='between', formula=['0.5', '0.8'],
+                   fill=PatternFill('solid', fgColor=WARN_Y[2:])))
+    ws.conditional_formatting.add(prog_ref,
+        CellIsRule(operator='lessThan', formula=['0.5'],
+                   fill=PatternFill('solid', fgColor=DANGER_R[2:])))
+
+    apply_print_settings(ws, header_end_row=header_row)
+
 
 def build_invoice_tracker(ws):
     ws.sheet_view.showGridLines = False
@@ -595,13 +794,17 @@ def build_invoice_tracker(ws):
     r = page_header(ws, 6, 'Invoice Tracker', 'Track all invoices, payment status, and outstanding balances')
 
     headers = [
-        ('B','Invoice #',12),('C','Client',22),('D','Issue Date',12),('E','Due Date',12),
-        ('F','Amount (€)',12),('G','Status',14),('H','Paid Date',12),
-        ('I','Service Period',12),('J','Method',12),('K','Notes',24),
+        ('B','Invoice #',12),('C','Client',22),('D','Issue Date',14),('E','Due Date',14),
+        ('F','Amount (€)',14),('G','Status',16),('H','Paid Date',14),
+        ('I','Service Period',14),('J','Method',14),('K','Notes',30),
     ]
     for col_letter, label, width in headers:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
     header_row = r
+
+    # Freeze panes below column headers
+    ws.freeze_panes = ws.cell(row=r + 1, column=2)
+
     r += 1
 
     data = [
@@ -653,6 +856,8 @@ def build_invoice_tracker(ws):
                    fill=PatternFill('solid', fgColor='FFFEE2E2'),
                    font=Font(color=DANGER_R[2:], bold=True, name='Calibri', size=8.5)))
 
+    apply_print_settings(ws, header_end_row=header_row)
+
 
 def build_tax_docs(ws):
     ws.sheet_view.showGridLines = False
@@ -661,14 +866,18 @@ def build_tax_docs(ws):
     r = page_header(ws, 7, 'Tax Documents', 'Track year-end document collection status per client')
 
     headers = [
-        ('B','Client',22),('C','Fiscal Year',10),('D','Income Docs',12),
-        ('E','Bank Stmts',10),('F','Payroll',10),('G','Expenses',10),
-        ('H','Assets/Debt',12),('I','Tax/Compliance',14),('J','Owner Activity',14),
-        ('K','Package Delivered',16),('L','Tax Preparer',18),('M','Notes',20),
+        ('B','Client',22),('C','Fiscal Year',10),('D','Income Docs',14),
+        ('E','Bank Stmts',14),('F','Payroll',14),('G','Expenses',14),
+        ('H','Assets/Debt',14),('I','Tax/Compliance',14),('J','Owner Activity',14),
+        ('K','Package Delivered',16),('L','Tax Preparer',18),('M','Notes',30),
     ]
     for col_letter, label, width in headers:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
     header_row = r
+
+    # Freeze panes below column headers
+    ws.freeze_panes = ws.cell(row=r + 1, column=2)
+
     r += 1
 
     data = [
@@ -696,12 +905,17 @@ def build_tax_docs(ws):
                    fill=PatternFill('solid', fgColor=TEAL_10[2:]),
                    font=Font(color=TEAL[2:], bold=True, name='Calibri', size=8.5)))
 
+    apply_print_settings(ws, header_end_row=header_row)
+
 
 def build_capacity(ws):
     ws.sheet_view.showGridLines = False
     ws.column_dimensions['A'].width = 1.5
 
     r = page_header(ws, 8, 'Capacity Planner', 'Plan your available hours vs. committed client time')
+
+    # Freeze below page header
+    ws.freeze_panes = ws.cell(row=7, column=2)
 
     r = section_label(ws, r, 1, 'Weekly Capacity Inputs')
 
@@ -744,8 +958,8 @@ def build_capacity(ws):
     r = section_label(ws, r, 2, 'Client Time Commitments')
 
     headers_cap = [
-        ('B','Client',22),('C','Package',14),('D','Avg Hours/Month',16),
-        ('E','Hours/Week',12),('F','Notes',28),
+        ('B','Client',22),('C','Package',16),('D','Avg Hours/Month',16),
+        ('E','Hours/Week',14),('F','Notes',30),
     ]
     for col_letter, label, width in headers_cap:
         col_header(ws, r, column_index_from_string(col_letter), label, width)
@@ -783,14 +997,16 @@ def build_capacity(ws):
                      right=thin_side(RULE), top=thin_side(RULE), bottom=thin_side(RULE)),
        nf='0.0')
 
+    apply_print_settings(ws, header_end_row=7)
+
 
 def build_dashboard(ws):
     ws.sheet_view.showGridLines = False
 
-    # Cover header: dark navy, minimal
+    # Cover header: dark navy with NovaOps branding
     ws.row_dimensions[1].height = 14   # top margin
     ws.row_dimensions[2].height = 44
-    mc(ws, 2, 1, 2, 20, value='BOOKKEEPER PRACTICE DASHBOARD',
+    mc(ws, 2, 1, 2, 20, value='NOVAOPS  ·  BOOKKEEPER PRACTICE DASHBOARD',
        font=F(bold=True, size=20, color=WHITE, name='Calibri'),
        fill=Fill(DARK_NAVY),
        align=Align('left', 'center', indent=2))
@@ -908,6 +1124,32 @@ def build_dashboard(ws):
             ws.merge_cells(start_row=r, start_column=col, end_row=r, end_column=col+1)
         r += 1
 
+    # ── LAST UPDATED status bar ───────────────────────────────────────────────
+    ws.row_dimensions[r].height = 8   # spacer
+    r += 1
+    ws.row_dimensions[r].height = 20
+    mc(ws, r, 1, r, 8,
+       value='Dashboard auto-updates when you open this file',
+       font=F(size=8, color=MUTED, italic=True),
+       fill=Fill(BG_SOFT),
+       align=Align('left', 'center', indent=1),
+       border=border_all(RULE))
+    sc(ws, r, 9, value='LAST UPDATED',
+       font=F(bold=True, size=8, color=MUTED),
+       fill=Fill(BG_SOFT),
+       align=Align('right', 'center'),
+       border=border_all(RULE))
+    ws.merge_cells(start_row=r, start_column=9, end_row=r, end_column=11)
+    sc(ws, r, 12, value='=TEXT(NOW(),"MMMM D, YYYY")',
+       font=F(bold=True, size=8.5, color=TEAL),
+       fill=Fill(TEAL_10),
+       align=Align('center', 'center'),
+       border=Border(left=Side(style='medium', color=TEAL),
+                     right=thin_side(TEAL), top=thin_side(TEAL), bottom=thin_side(TEAL)))
+    ws.merge_cells(start_row=r, start_column=12, end_row=r, end_column=16)
+
+    apply_print_settings(ws, header_end_row=5)
+
 
 def build_instructions(ws):
     ws.sheet_view.showGridLines = False
@@ -915,16 +1157,20 @@ def build_instructions(ws):
 
     r = page_header(ws, 9, 'Instructions', 'How to use every sheet in this dashboard')
 
+    # Freeze below the page header
+    ws.freeze_panes = ws.cell(row=7, column=2)
+
     instructions = [
+        ('00 — NAVIGATION', 'Branded landing page. Overview of all sheets and quick-start guide.'),
         ('01 — SETUP', 'Fill in the amber cells only. White cells contain formulas that reference Setup data — do not edit them. Changes to Practice Name and pricing cascade to the Pricing Calculator.'),
         ('02 — CLIENT CRM', 'Add one row per client. The Status column (Active/Churned/On Hold) drives the Dashboard KPIs. Use the Package dropdown to match your service tiers. The MRR formula at the bottom sums only Active clients.'),
         ('03 — LEAD PIPELINE', 'Add a row for each prospect. The Pipeline Value at the bottom sums all leads not marked Closed Lost. Move Stage through the dropdown — from New Inquiry to Closed Won.'),
         ('04 — PRICING CALCULATOR', 'Enter the prospect\'s details in the amber cells. The calculator produces a recommended monthly fee and cleanup estimate. Use it during diagnostic calls.'),
-        ('05 — MONTHLY CLOSE', 'Add one row per client per period (e.g., "2026-07"). Use the Status and checkbox dropdowns (Yes/No) to track progress. Conditional formatting turns cells teal when complete.'),
+        ('05 — MONTHLY CLOSE', 'Add one row per client per period (e.g., "2026-07"). Use the Status and checkbox dropdowns (Yes/No) to track progress. The Close Progress row at the bottom shows your completion percentage.'),
         ('06 — INVOICE TRACKER', 'Add one row per invoice. Status drives the Outstanding balance formula at the bottom. Mark Paid invoices with the payment date. Overdue rows turn red automatically.'),
         ('07 — TAX DOCUMENTS', 'Use this sheet at year-end. One row per client per fiscal year. Track document collection across all categories. Mark items N/A if they do not apply to that client.'),
         ('08 — CAPACITY PLANNER', 'Enter your weekly available hours and admin time. Add one row per client with their average monthly hours. The sheet shows whether you are over or under capacity.'),
-        ('09 — DASHBOARD', 'This sheet auto-populates from all other sheets. Do not enter data here directly. KPI cards show active clients, MRR, pipeline value, and close status in real time.'),
+        ('09 — DASHBOARD', 'This sheet auto-populates from all other sheets. Do not enter data here directly. KPI cards show active clients, MRR, pipeline value, and close status in real time. Last Updated shows today\'s date.'),
         ('10 — INSTRUCTIONS', 'This sheet. Reference it anytime you are unsure about a feature.'),
     ]
 
@@ -956,6 +1202,8 @@ def build_instructions(ws):
        border=Border(left=Side(style='medium', color=AMBER),
                      right=thin_side(RULE), top=thin_side(RULE), bottom=thin_side(RULE)))
 
+    apply_print_settings(ws, header_end_row=7)
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Main build
@@ -965,6 +1213,7 @@ def build():
     wb = openpyxl.Workbook()
 
     sheet_defs = [
+        ('Navigation',        build_navigation),
         ('Setup',             build_setup),
         ('Client CRM',        build_client_crm),
         ('Lead Pipeline',     build_lead_pipeline),
@@ -981,8 +1230,8 @@ def build():
     for name, _ in sheet_defs[1:]:
         wb.create_sheet(name)
 
-    # Tab colors — all teal family for a unified look
-    tab_colors = [TEAL,TEAL,TEAL,AMBER,TEAL,TEAL,TEAL,MUTED,DARK_NAVY,'00000000']
+    # Tab colors — Navigation gets teal; rest follow original scheme
+    tab_colors = [TEAL, TEAL, TEAL, TEAL, AMBER, TEAL, TEAL, TEAL, MUTED, DARK_NAVY, '00000000']
     for ws, tc in zip(wb.worksheets, tab_colors):
         if tc and tc != '00000000':
             ws.sheet_properties.tabColor = tc[2:]

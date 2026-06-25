@@ -55,10 +55,13 @@ def _page_template(c, doc, doc_title='', section=''):
     c.setLineWidth(1.5)
     c.line(20*mm, H - 14*mm, W - 20*mm, H - 14*mm)
 
-    # Product name (left, tiny)
+    # Product name (left): NOVAOPS wordmark + product name
+    c.setFillColor(C_TEAL)
+    c.setFont('Helvetica-Bold', 7)
+    c.drawString(20*mm, H - 11*mm, 'NOVAOPS')
     c.setFillColor(C_MUTED)
     c.setFont('Helvetica', 7)
-    c.drawString(20*mm, H - 11*mm, 'BOOKKEEPER PRACTICE LAUNCH SYSTEM  ·  v2.0')
+    c.drawString(38*mm, H - 11*mm, '·  Bookkeeper Practice Launch System  ·  v2.0')
 
     # Document title (right, tiny)
     if doc_title:
@@ -75,7 +78,7 @@ def _page_template(c, doc, doc_title='', section=''):
     # Left: confidential notice
     c.setFillColor(C_MUTED)
     c.setFont('Helvetica', 6.5)
-    c.drawString(20*mm, 10*mm, 'Confidential  ·  Commercial Use License  ·  © 2025 Bookkeeper Practice Launch System')
+    c.drawString(20*mm, 10*mm, '© 2025 NovaOps  ·  Commercial Use License  ·  Bookkeeper Practice Launch System')
 
     # Right: page number
     c.setFillColor(C_TEAL)
