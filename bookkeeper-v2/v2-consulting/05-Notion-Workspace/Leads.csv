@@ -1,0 +1,4 @@
+Lead,Company,Stage,Source,Estimated Monthly Fee,Cleanup Estimate,Next Action,Next Action Date,Email,Phone,Industry,Software,Avg Transactions,Has Payroll,Referred By,Proposal Sent Date,Notes
+Jamie Chen,Oak & Pine Co.,Diagnostic Scheduled,Referral,1200,2400,Run diagnostic call,2026-07-03,jamie@example.com,+353-1-555-0002,Retail,Xero,280,Yes,Alex Morgan,,Sample — already converted to client
+Sarah Li,Bright Coast Events,Intake Sent,LinkedIn,800,0,Follow up on intake form,2026-07-10,sarah@example.com,,Events / Hospitality,QuickBooks Online,90,No,,,Reached out via DM
+[Lead Name],[Company],New Inquiry,[Source],0,0,[Next Action],,[Email],,[Industry],[Software],0,No,,,

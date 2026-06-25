@@ -1,0 +1,6 @@
+Task,Client,Period,Owner,Status,Priority,Due Date,Recurring,Category,Completed Date,Notes
+Reconcile operating account,Harbor Design LLC,2026-07,[OWNER],In Progress,High,2026-08-08,Monthly,Monthly Close,,
+Categorize uncategorized transactions,Harbor Design LLC,2026-07,[OWNER],Not Started,High,2026-08-06,Monthly,Monthly Close,,3 transactions flagged
+Send question list to client,Harbor Design LLC,2026-07,[OWNER],Not Started,Medium,2026-08-10,Monthly,Client Communication,,
+Request July payroll summary,Oak & Pine Co.,2026-07,[OWNER],Done,High,2026-08-05,Monthly,Document Collection,2026-08-01,
+[Task Name],[Client Name],[Period],[OWNER],Not Started,Medium,,Monthly,[Category],,

@@ -1,0 +1,5 @@
+Invoice,Client,Issue Date,Due Date,Amount,VAT Amount,Total Amount,Status,Paid Date,Payment Method,Service Period,Invoice Type,Notes
+INV-001,Harbor Design LLC,2026-07-01,2026-07-08,850,0,850,Paid,2026-07-05,Bank Transfer,2026-07,Monthly,
+INV-002,Oak & Pine Co.,2026-07-01,2026-07-08,1200,0,1200,Paid,2026-07-03,Bank Transfer,2026-07,Monthly,
+INV-003,Harbor Design LLC,2026-08-01,2026-08-08,850,0,850,Sent,,,2026-08,Monthly,
+INV-004,[Client Name],,,0,0,0,Draft,,,,Monthly,

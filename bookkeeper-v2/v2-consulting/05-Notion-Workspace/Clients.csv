@@ -1,0 +1,4 @@
+Client,Status,Entity Type,Jurisdiction,Software,Monthly Fee,Close Day,Primary Contact,Email,Phone,Tax Preparer,Tax Preparer Email,Start Date,Service Package,Accounts Count,Avg Monthly Transactions,Has Payroll,Has Sales Tax/VAT,Portal Link,Notes
+Harbor Design LLC,Active,LLC,Ireland,QuickBooks Online,850,15,Alex Morgan,alex@example.com,+353-1-555-0001,Smith & Co. Accountants,tax@smithco.ie,2025-01-15,Growth,3,120,No,No,https://portal.example.com/harbor,Sample row — replace with real client data
+Oak & Pine Co.,Active,S-Corp,Ireland,Xero,1200,15,Jamie Chen,jamie@example.com,+353-1-555-0002,Jones & Partners,tax@jonespartners.ie,2025-03-01,Advanced,6,280,Yes,Yes,https://portal.example.com/oak,Multi-class tracking; payroll via Thrive
+[Client Name],Active,[Entity Type],[Jurisdiction],[Software],0,15,[Contact Name],[email@example.com],[Phone],[Tax Preparer],[Tax Email],,Essentials,0,0,No,No,[Portal URL],
