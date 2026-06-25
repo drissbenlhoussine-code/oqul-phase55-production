@@ -1,0 +1,6 @@
+Item,Client,Section,Status,Owner,Due Date,Link,Client Visible,Item Type,Period,Notes
+June 2026 P&L Report,Harbor Design LLC,Reports,Ready,[OWNER],2026-07-13,[LINK],Yes,Report,2026-06,Delivered early
+June 2026 Balance Sheet,Harbor Design LLC,Reports,Ready,[OWNER],2026-07-13,[LINK],Yes,Report,2026-06,
+July bank statement request,Harbor Design LLC,Document Requests,Pending,[OWNER],2026-08-05,,Yes,Document Request,2026-07,
+July 2026 P&L Report,Harbor Design LLC,Reports,Not Ready,[OWNER],2026-08-15,,Yes,Report,2026-07,
+[Item Name],[Client Name],[Section],Not Ready,[OWNER],,,Yes,[Type],[Period],

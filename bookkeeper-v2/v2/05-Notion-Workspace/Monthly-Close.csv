@@ -1,0 +1,4 @@
+Period,Client,Status,Owner,Bank Reconciled,Cards Reconciled,Loans Reconciled,Payroll Reconciled,Questions Sent,Questions Answered,Adjustments Posted,Reports Delivered,Due Date,Delivered Date,Report Package,Review Notes
+2026-07,Harbor Design LLC,In Progress,[OWNER],Yes,No,N/A,N/A,No,No,No,No,2026-08-15,,"P&L, Balance Sheet",
+2026-07,Oak & Pine Co.,Not Started,[OWNER],No,No,No,No,No,No,No,No,2026-08-15,,"P&L, Balance Sheet, Class Report",
+2026-06,Harbor Design LLC,Delivered,[OWNER],Yes,Yes,N/A,N/A,Yes,Yes,Yes,Yes,2026-07-15,2026-07-13,"P&L, Balance Sheet",Delivered early — clean month

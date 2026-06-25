@@ -1,0 +1,5 @@
+Document,Client,Period,Category,Status,Requested Date,Due Date,Received Date,Secure Link,Reminder Sent,Notes
+July bank statement — operating account,Harbor Design LLC,2026-07,Banking,Requested,2026-08-01,2026-08-05,,[LINK],No,
+July Stripe merchant report,Harbor Design LLC,2026-07,Income,Received,2026-08-01,2026-08-05,2026-08-03,[LINK],No,
+July payroll summary,Oak & Pine Co.,2026-07,Payroll,Requested,2026-08-01,2026-08-04,,[LINK],Yes,Second reminder sent 08-03
+[Document Name],[Client Name],[Period],[Category],Requested,,,,[LINK],No,
