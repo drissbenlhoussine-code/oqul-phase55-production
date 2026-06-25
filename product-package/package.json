@@ -1,0 +1,12 @@
+{
+  "name": "oqul-product-package-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Premium product package generator for OQUL EdTech OS",
+  "scripts": {
+    "generate": "node generate.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

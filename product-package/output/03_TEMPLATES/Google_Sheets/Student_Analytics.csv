@@ -1,0 +1,21 @@
+Student Analytics — OQUL EdTech OS v1.0,,,,
+,,,,
+STUDENT PERFORMANCE TRACKER,,,,
+Student ID,Name,Grade Level,Lessons Completed,Avg Score (%),Streak (Days),Last Active,Status
+S001,,Grade 1,0,0,0,,Active
+S002,,Grade 1,0,0,0,,Active
+S003,,Grade 2,0,0,0,,Active
+,,,,
+SUBJECT PERFORMANCE,,,,
+Subject,Students,Avg Score,Completion Rate,Trend
+Arabic Language,0,0,0%,—
+Mathematics,0,0,0%,—
+French,0,0,0%,—
+Science,0,0,0%,—
+,,,,
+ENGAGEMENT METRICS,,,,
+Metric,Week 1,Week 2,Week 3,Week 4,Monthly Avg
+Daily Active Users,0,0,0,0,=AVERAGE(B18:E18)
+Sessions per User,0,0,0,0,=AVERAGE(B19:E19)
+Avg Session Length (min),0,0,0,0,=AVERAGE(B20:E20)
+Lessons Completed,0,0,0,0,=AVERAGE(B21:E21)

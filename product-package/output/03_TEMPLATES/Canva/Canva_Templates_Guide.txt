@@ -1,0 +1,112 @@
+CANVA TEMPLATES GUIDE
+OQUL EdTech OS v1.0
+==============================================
+
+YOUR 12 CANVA TEMPLATES
+========================
+
+Template links are provided in your purchase confirmation email.
+Each template is fully editable in Canva (free account works for most features).
+
+1. CLIENT PROPOSAL DECK (16:9 Presentation — 20 slides)
+   Purpose: Present OQUL to schools, parents, investors
+   Key slides: Problem, Solution, Curriculum overview, Pricing, Next steps
+   Colors: Navy (#0F172A) + Blue (#2563EB) on white
+   How to use: Duplicate → Replace [Company Name] → Add your logo
+
+2. WELCOME PACKET (A4 Document — 6 pages)
+   Purpose: First document new students/parents receive
+   Key sections: Welcome, Platform overview, How-to guide, Contact
+   Colors: Clean white with blue accents
+   How to use: Download as PDF after customizing
+
+3. MONTHLY PROGRESS REPORT (A4 Document — 4 pages)
+   Purpose: Monthly student progress report for parents
+   Key sections: Stats summary, Subject breakdown, Achievements, Goals
+   Colors: Professional white/gray with green accents
+   How to use: Customize stats monthly, download PDF, email to parents
+
+4. BUSINESS PRESENTATION (16:9 — 30 slides)
+   Purpose: Investor/partner pitches
+   Key slides: Market size, Product demo, Team, Financials, Ask
+   Colors: Dark navy theme, premium feel
+   How to use: Full pitch deck, customize financial slides with your data
+
+5. CASE STUDY (A4 — 2 pages)
+   Purpose: Showcase student success stories
+   Key sections: Student background, Challenge, Solution, Results
+   Colors: Light background, photo-friendly layout
+   How to use: One per featured student, collect testimonials
+
+6. LEAD MAGNET (A4 PDF — 8 pages)
+   Purpose: Free resource to grow email list
+   Title: "5 Ways AI is Transforming Education in Morocco"
+   Colors: Bold brand colors, attention-grabbing
+   How to use: Download → Share via landing page / social media
+
+7. INSTAGRAM CAROUSEL (1:1 Square — 7 slides)
+   Purpose: Educational content for Instagram
+   Topics: Study tips, AI facts, Curriculum insights, Student wins
+   Colors: Vibrant brand colors, thumb-stopping design
+   How to use: Post 1 carousel per week for organic growth
+
+8. LINKEDIN CAROUSEL (4:5 Portrait — 8 slides)
+   Purpose: Thought leadership content for LinkedIn
+   Topics: EdTech insights, Parent tips, Platform features
+   Colors: Professional dark theme
+   How to use: Target parents, teachers, school administrators
+
+9. INVOICE TEMPLATE (A4 — 1 page)
+   Purpose: Professional invoice for subscription payments
+   Key fields: Client name, subscription tier, amount, bank details
+   Colors: Clean minimal with brand accents
+   How to use: Customize per client, download PDF
+
+10. CERTIFICATE OF COMPLETION (Landscape A4 — 1 page)
+    Purpose: Reward students who complete a curriculum module
+    Key elements: Student name, module completed, date, signature line
+    Colors: Gold and navy, premium feel
+    How to use: Award monthly to motivate continued learning
+
+11. BUSINESS REPORT (A4 — 8 pages)
+    Purpose: Annual/quarterly business performance report
+    Key sections: YoY growth, Revenue breakdown, Product updates, Goals
+    Colors: Executive dark navy theme
+    How to use: Annual investor update or internal review
+
+12. BRAND BOARD (Square — 1 page)
+    Purpose: Quick reference for OQUL brand identity
+    Shows: Logo, colors, fonts, icons, usage examples
+    Colors: All brand colors shown
+    How to use: Share with freelancers/agencies for consistency
+
+BRAND COLORS FOR CANVA
+=======================
+Primary Blue:    #2563EB
+Secondary Dark:  #0F172A
+Accent Green:    #10B981
+Background:      #F8FAFC
+White:           #FFFFFF
+Border Gray:     #E5E7EB
+
+FONTS IN CANVA
+==============
+Headings: Poppins Bold / Poppins ExtraBold
+Body:     Inter Regular / Inter Medium
+Numbers:  Inter SemiBold
+
+HOW TO APPLY BRAND COLORS
+==========================
+1. Select any element in Canva
+2. Click the color swatch
+3. Click "+" to add a new color
+4. Paste the hex code (e.g., 2563EB)
+5. Click "Add to brand kit" to save for future use
+
+CANVA PRO VS FREE
+=================
+Free Canva: Access to templates, basic editing, PNG/PDF export
+Canva Pro: Brand kits, Magic Resize (resize for all platforms at once),
+           Background remover, Team collaboration, Unlimited storage
+
+Recommendation: Start with free, upgrade to Pro when you have 3+ team members.

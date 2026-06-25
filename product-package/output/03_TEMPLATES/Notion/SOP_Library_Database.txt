@@ -1,0 +1,48 @@
+OQUL SOP LIBRARY — NOTION DATABASE EXPORT
+==========================================
+Use this to populate your Notion SOP Library database.
+
+SOP-001 | Student Onboarding Process | Operations | Active
+Standard procedure for onboarding new students: account creation, placement assessment, first session, parent notification.
+
+SOP-002 | Monthly Billing Cycle | Finance | Active
+Process for collecting subscription payments, handling failed payments, and generating receipts.
+
+SOP-003 | Parent Communication Protocol | Operations | Active
+When and how to communicate with parents: weekly reports, concern escalation, celebration milestones.
+
+SOP-004 | AI Tutor Performance Review | Technical | Active
+Monthly review of Leila AI response quality, accuracy checking, and prompt optimization.
+
+SOP-005 | New Curriculum Content Addition | Technical | Active
+Process for adding new lessons to the curriculum registry, QA checking, and deployment.
+
+SOP-006 | Student At-Risk Identification | Operations | Active
+How to identify students with declining engagement, intervention steps, and escalation protocol.
+
+SOP-007 | Subscription Cancellation Handling | Finance | Active
+Steps to handle cancellation requests: save attempt, exit survey, account suspension, data retention.
+
+SOP-008 | Platform Incident Response | Technical | Active
+Emergency response procedure when platform experiences downtime or critical bugs.
+
+SOP-009 | Social Media Content Creation | Marketing | Active
+Weekly content creation workflow for Instagram, LinkedIn, and TikTok educational posts.
+
+SOP-010 | B2B School Partnership Outreach | Marketing | Active
+Step-by-step process for prospecting, contacting, pitching, and closing school partnerships.
+
+SOP-011 | Tutor/Content Creator Hiring | HR | Active
+Job posting, screening, interview, trial project, and onboarding process for new team members.
+
+SOP-012 | Monthly Financial Close | Finance | Active
+End-of-month process for reconciling revenue, categorizing expenses, and generating P&L report.
+
+SOP-013 | Student Feedback Collection | Operations | Active
+How to collect NPS scores, session feedback, and feature requests from students and parents.
+
+SOP-014 | AI Prompt Library Update | Technical | Active
+Process for adding, testing, and deploying new prompts for Leila's teaching scenarios.
+
+SOP-015 | Platform Security Audit | Technical | Active
+Quarterly security review checklist: dependency updates, access review, log audit, pen test.

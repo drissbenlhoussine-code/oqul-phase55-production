@@ -1,0 +1,89 @@
+NOTION WORKSPACE SETUP GUIDE
+OQUL EdTech OS v1.0
+=====================================
+
+HOW TO SET UP YOUR OQUL NOTION WORKSPACE
+=========================================
+
+STEP 1: DUPLICATE THE TEMPLATE
+--------------------------------
+1. Open the Notion template link provided with your purchase
+2. Click "Duplicate" in the top-right corner
+3. Select your Notion workspace
+4. The template will copy to your workspace
+
+STEP 2: WORKSPACE MODULES
+--------------------------
+Your OQUL Notion workspace includes these pages:
+
+📋 OQUL OPERATIONS HUB (Main Dashboard)
+  └─ Navigation to all other sections
+  └─ Quick Stats overview
+  └─ This week's priorities
+
+👥 STUDENT CRM DATABASE
+  └─ Student Name, Email, Grade Level
+  └─ Subscription Tier, Join Date
+  └─ Last Active, Total Lessons, Progress Score
+  └─ Parent Contact, Notes
+  └─ Views: All Students | Active | At-Risk | Premium
+
+📅 CONTENT CALENDAR
+  └─ Monthly content planning
+  └─ Social media posts, emails, webinars
+  └─ Status: Draft | Scheduled | Published
+  └─ Views: Calendar | Board | Table
+
+📚 SOP LIBRARY DATABASE
+  └─ 40+ Standard Operating Procedures
+  └─ Category: Operations | Marketing | Finance | HR | Technical
+  └─ Owner, Last Updated, Version
+  └─ Linked to: Team Handbook
+
+👔 TEAM MANAGEMENT
+  └─ Staff & tutor roster
+  └─ Role, Department, Start Date
+  └─ Performance metrics
+  └─ Leave tracker
+  └─ Linked to: SOPs
+
+💰 FINANCE DASHBOARD
+  └─ Monthly revenue tracking
+  └─ Expense categories
+  └─ Student tier breakdown
+  └─ Profit/Loss summary
+  └─ Linked charts (import from Google Sheets)
+
+📈 90-DAY GROWTH TRACKER
+  └─ Week-by-week milestones
+  └─ Acquisition goals
+  └─ Revenue targets
+  └─ Progress: Not Started | In Progress | Done | Blocked
+
+STEP 3: CUSTOMIZE YOUR WORKSPACE
+----------------------------------
+After duplicating:
+1. Replace [Your Company Name] in the cover pages
+2. Update brand colors in Gallery covers (use #2563EB for primary)
+3. Add your team members to the Team database
+4. Import your first students into the CRM
+5. Customize SOP categories to match your workflow
+
+STEP 4: CONNECT DATABASES
+---------------------------
+The template uses Notion Relations to connect:
+- Students ↔ Content Calendar (which content students see)
+- SOPs ↔ Team (who owns each procedure)
+- Finance ↔ Students (revenue attribution)
+
+NOTION PRO TIPS
+---------------
+• Use /template buttons to create recurring content
+• Filter database views by status for daily focus
+• Use @-mentions to link pages and databases
+• Export to PDF for professional client reports
+• Enable Notion AI for summarizing student progress notes
+
+TEMPLATE LINK
+-------------
+[Your Notion template link is provided in your purchase confirmation email]

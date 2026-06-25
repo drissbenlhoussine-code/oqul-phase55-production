@@ -1,0 +1,17 @@
+Revenue Tracker — OQUL EdTech OS v1.0,,,,,
+,,,,,,
+ANNUAL REVENUE TRACKER,,,,,
+Month,New Students,Active Students,Revenue (€),Expenses (€),Net Profit (€)
+January 2026,0,0,0,0,=D4-E4
+February 2026,0,=C4+B5,0,0,=D5-E5
+March 2026,0,=C5+B6,0,0,=D6-E6
+April 2026,0,=C6+B7,0,0,=D7-E7
+May 2026,0,=C7+B8,0,0,=D8-E8
+June 2026,0,=C8+B9,0,0,=D9-E9
+July 2026,0,=C9+B10,0,0,=D10-E10
+August 2026,0,=C10+B11,0,0,=D11-E11
+September 2026,0,=C11+B12,0,0,=D12-E12
+October 2026,0,=C12+B13,0,0,=D13-E13
+November 2026,0,=C13+B14,0,0,=D14-E14
+December 2026,0,=C14+B15,0,0,=D15-E15
+TOTALS,=SUM(B4:B15),=AVERAGE(C4:C15),=SUM(D4:D15),=SUM(E4:E15),=SUM(F4:F15)

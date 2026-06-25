@@ -1,0 +1,32 @@
+KPI Dashboard — OQUL EdTech OS,,,,
+Last Updated:,=TODAY(),,Sheet by OQUL v1.0,
+,,,,
+MONTHLY OVERVIEW,,,,
+Metric,Current Month,Previous Month,Change (%),Status
+Total Active Students,0,0,=IF(B6=0,0,(B6-C6)/MAX(C6,1)*100),=IF(E6>=0,"↑ Growth","↓ Decline")
+New Registrations (Month),0,0,=IF(B7=0,0,(B7-C7)/MAX(C7,1)*100),=IF(E7>=0,"↑ Growth","↓ Decline")
+Paid Subscribers,0,0,=IF(B8=0,0,(B8-C8)/MAX(C8,1)*100),=IF(E8>=0,"↑ Growth","↓ Decline")
+Monthly Revenue (€),0,0,=IF(B9=0,0,(B9-C9)/MAX(C9,1)*100),=IF(E9>=0,"↑ Growth","↓ Decline")
+Churn Rate (%),0,0,=IF(B10=0,0,(B10-C10)/MAX(C10,1)*100),=IF(E10<=0,"↑ Improved","↓ Worsened")
+AI Sessions (Leila),0,0,=IF(B11=0,0,(B11-C11)/MAX(C11,1)*100),=IF(E11>=0,"↑ Growth","↓ Decline")
+Avg Session Duration (min),0,0,=IF(B12=0,0,(B12-C12)/MAX(C12,1)*100),=IF(E12>=0,"↑ Growth","↓ Decline")
+Lessons Completed,0,0,=IF(B13=0,0,(B13-C13)/MAX(C13,1)*100),=IF(E13>=0,"↑ Growth","↓ Decline")
+,,,,
+REVENUE BREAKDOWN,,,,
+Tier,Subscribers,Price (€),Revenue (€),% of Total
+Free,0,0,=B17*C17,=IF(SUM(D17:D20)=0,0,D17/SUM(D17:D20)*100)
+Student (Individual),0,14,=B18*C18,=IF(SUM(D17:D20)=0,0,D18/SUM(D17:D20)*100)
+Family Plan,0,29,=B19*C19,=IF(SUM(D17:D20)=0,0,D19/SUM(D17:D20)*100)
+School License,0,0,=B20*C20,=IF(SUM(D17:D20)=0,0,D20/SUM(D17:D20)*100)
+TOTAL,=SUM(B17:B20),,=SUM(D17:D20),100%
+,,,,
+COST TRACKING,,,,
+Cost Center,Monthly (€),Annual Est. (€),Notes,
+Server / Hosting,0,=B24*12,VPS or cloud hosting,
+Groq API,0,=B25*12,AI inference costs,
+Email Service,0,=B26*12,SMTP provider,
+Domain & SSL,0,=B27*12,Annual cost / 12,
+Marketing,0,=B28*12,Ads content tools,
+TOTAL COSTS,=SUM(B24:B28),=SUM(C24:C28),,
+,,,,
+NET MONTHLY,=D21-B29,,,

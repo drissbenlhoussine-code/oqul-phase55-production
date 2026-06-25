@@ -1,0 +1,38 @@
+GOOGLE SHEETS SETUP GUIDE
+OQUL EdTech OS v1.0
+
+HOW TO IMPORT CSV FILES INTO GOOGLE SHEETS
+==========================================
+
+1. Open Google Drive (drive.google.com)
+2. Click "+ New" → "File upload"
+3. Upload the CSV file (e.g., KPI_Dashboard.csv)
+4. Right-click the uploaded file → "Open with Google Sheets"
+5. Google Sheets will convert the CSV and preserve formulas
+
+ENABLING FORMULAS
+================
+After import, verify formulas are active:
+- Click any cell containing "=SUM" or "=IF"
+- Press F2 to edit, then Enter to confirm
+- If formulas show as text, go to Format → Number → Automatic
+
+RECOMMENDED FORMATTING
+======================
+- Freeze Row 1: View → Freeze → 1 row
+- Add header background: select Row 1, fill with #2563EB, text color white
+- Column widths: expand all columns for readability (double-click column borders)
+- Enable alternating colors: Format → Alternating colors
+
+SHARING WITH YOUR TEAM
+=======================
+- Click "Share" in top-right
+- Add team member emails
+- Set permission: "Viewer" for dashboards, "Editor" for trackers
+- Always keep one "master" copy that only you can edit
+
+CONNECTING TO OQUL DATA
+========================
+For advanced users: use Google Sheets' IMPORTDATA function or Google Apps Script
+to automatically pull data from your OQUL PostgreSQL database via an API endpoint.
+The platform exposes analytics data at: /api/analytics/export (requires auth token)
