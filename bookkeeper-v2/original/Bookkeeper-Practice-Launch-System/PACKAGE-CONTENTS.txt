@@ -1,0 +1,34 @@
+BOOKKEEPER PRACTICE LAUNCH SYSTEM
+
+01-Start-Here
+- START-HERE.docx
+
+02-Practice-Dashboard
+- Bookkeeper-Practice-Dashboard.xlsx
+  Sheets: Setup, Client CRM, Lead Pipeline, Pricing Calculator, Monthly Close,
+  Invoice Tracker, Tax Documents, Capacity, Dashboard, and Instructions.
+
+03-Client-Documents
+- Bookkeeping-Service-Guide.docx
+- Client-Intake-and-Onboarding-Pack.docx
+- Bookkeeping-Proposal-Template.docx
+- Bookkeeping-Engagement-Agreement.docx
+- Canva-Bookkeeping-Proposal-Deck.pptx
+
+04-Operations-Library
+- Bookkeeping-SOPs-and-Checklists.docx
+- Client-Communication-Scripts.docx
+
+05-Notion-Import
+- Clients.csv
+- Leads.csv
+- Monthly-Close.csv
+- Document-Requests.csv
+- Invoices.csv
+- Tasks.csv
+- Client-Portal.csv
+
+IMPORTANT
+Customize bracketed placeholders before use. These templates do not provide
+legal, tax, audit, assurance, payroll, or regulatory advice. Adapt them to
+your credentials, jurisdiction, permitted scope, and professional standards.
