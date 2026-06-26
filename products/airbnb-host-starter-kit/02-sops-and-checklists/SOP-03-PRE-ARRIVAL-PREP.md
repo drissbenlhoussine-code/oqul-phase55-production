@@ -1,119 +1,143 @@
 # SOP-03: Pre-Arrival Preparation
-## Standard Operating Procedure — 48 Hours Before Every Check-In
+## 48-Hour → Day-of Host Protocol
 
-**Run time:** 30–45 minutes active time  
-**Trigger:** 48 hours before each guest check-in  
-**Owner:** Host (delegate cleaning coordination to team; host retains communication)  
-**Frequency:** Every booking, without exception
+---
+
+**When to use:** Every booking, beginning 48 hours before check-in.
+**Time required:** 20 minutes at 48h; 10 minutes at 24h; 30-minute final walkthrough on the day.
+**Output:** A property ready for check-in that requires no contact from the guest to access.
 
 ---
 
 ## 48 HOURS BEFORE CHECK-IN
 
-### Step 1: Send Pre-Arrival Information Message
-1.1 Open Airbnb inbox for this booking  
-1.2 Send MSG-02-PRE-ARRIVAL-INFO.md (saved as "📋 Pre-Arrival Info")  
-1.3 Confirm the message contains correct, personalised details: guest name, property-specific check-in instructions, WiFi password, parking instructions, your contact number  
-1.4 Log message sent in your Booking Tracker (Tab-03)
+### Guest Communication
 
-### Step 2: Confirm Cleaning Team
-2.1 Message or call your cleaner to confirm they are scheduled for the turnover  
-2.2 Confirm the exact time slot: ideally starting no later than 10:30am on check-out day  
-2.3 If cleaning team not confirmed by 24hrs before → activate backup cleaner immediately  
-2.4 Provide cleaner with SOP-04-TURNOVER-CLEANING.md if they haven't been trained on it
+**Action:** Send MSG-02 (Pre-Arrival Info) at 48h exactly (not 3 days before, not the morning of — 48 hours before is the window when guests are actively thinking about the trip).
 
-### Step 3: Smart Lock Access Code
-3.1 Generate a new unique access code for this guest in your smart lock app (Yale, Nuki, Igloohome, etc.)  
-3.2 Set the code active window: from check-in time on arrival day → 11:00am on check-out day  
-3.3 Confirm the code generates correctly by testing it yourself if possible  
-3.4 Note the code in your Booking Log  
-3.5 Do NOT send the access code in this message — you will send it on the day of check-in (MSG-03)
+Confirm before sending:
+- [ ] Guest's name is correct (matches their Airbnb profile — not a nickname)
+- [ ] Check-in time in the message matches what is in the booking
+- [ ] Check-in instructions in the message are current (smart lock code changed from last guest? confirm.)
+- [ ] WiFi name and password in the message are correct
+- [ ] Your phone number in the message is current and reachable
 
-### Step 4: Property Status Check
-4.1 If you have a noise monitor (Minut/NoiseAware): verify it is online and active  
-4.2 If you have a smart thermostat: check it is set to standard comfort range  
-4.3 Confirm no maintenance issues are outstanding from the previous stay  
-4.4 If any maintenance is needed: schedule it to be completed before check-in time
+**If you have not sent this message by 36 hours before check-in:** Send it now and note the late send. If you send it at less than 12 hours before check-in, you risk the guest not seeing it in time.
+
+### Booking Confirmation Check
+
+- [ ] Verify the booking details in Airbnb: arrival date, departure date, guest count, booked price, Airbnb payment received (payout scheduled)
+- [ ] Confirm guest count matches your capacity
+- [ ] Check for any notes from the guest (arrival time, early check-in request, special occasion)
+- [ ] If guest requested early check-in: confirm whether the property will be ready and send a YES or NO response. Do not leave it unanswered.
 
 ---
 
 ## 24 HOURS BEFORE CHECK-IN
 
-### Step 5: Coordinate Turnover Logistics
-5.1 Confirm checkout time with outgoing guest (if there is one) — check Airbnb booking for their checkout date  
-5.2 Confirm cleaning team will be on-site by 10:30am post-checkout  
-5.3 Confirm any restocking items are available (toilet paper, coffee pods, toiletries)  
-5.4 If buying restocking items: use the consumables list in SOP-04
+### Cleaning Team Coordination
 
-### Step 6: Welcome Pack Preparation
-6.1 Prepare the welcome basket:  
-   - 1 bottle local wine or quality soft drink  
-   - 4 locally-sourced chocolates or biscuits  
-   - 1 handwritten welcome card (use template in GUEST-EXPERIENCE-STANDARDS.md)  
-   - Fill water jug or set out 1 water bottle per guest  
-6.2 If welcome pack was used by previous guest: restock all items  
-6.3 Place welcome pack on kitchen counter (not hidden — make it immediately visible)
+- [ ] Confirm cleaning team arrival time (minimum 2 hours before check-in time to allow for unexpected issues)
+- [ ] Confirm cleaning team has access (smart lock code updated? They need the code for the turnover between guests)
+- [ ] Confirm the supply inventory (Section below) has been restocked since the previous checkout
 
----
+**Restocking checklist (24h before):**
 
-## DAY OF CHECK-IN (3 Hours Before Check-In Time)
+| Item | Minimum Stock for This Turnover |
+|---|---|
+| Toilet rolls | 4 |
+| Hand soap (pump) | 1 full |
+| Shampoo | 100ml+ (not a travel bottle remnant) |
+| Conditioner | 100ml+ |
+| Body wash | 100ml+ |
+| Coffee pods or ground coffee | 2 pods or 50g minimum |
+| Tea bags | 4 |
+| Dishwasher tablets (if applicable) | 3 minimum |
+| Bin bags (kitchen) | 3 minimum |
+| Cleaning spray under sink | Check quantity — refill if below 30% |
+| Spare light bulbs | None required unless one was reported out |
 
-### Step 7: Send Check-In Instructions
-7.1 At approximately 12:00 noon (or 2 hours before your stated check-in time), send MSG-03-CHECKIN-INSTRUCTIONS.md  
-7.2 The message must include:  
-   - The full property address  
-   - Step-by-step entry instructions  
-   - The access code or smart lock PIN for this booking  
-   - WiFi network name and password  
-   - Emergency contact number (yours)  
-7.3 Confirm message sent and read receipt visible in Airbnb  
-7.4 Log in Booking Tracker
+If any item is below minimum: order or purchase before the cleaning team's arrival tomorrow.
 
-### Step 8: Post-Cleaning Inspection (if time allows)
-8.1 If you can visit the property after the cleaners finish and before check-in: do it  
-8.2 Use the Inspection Checklist from SOP-04 Step 9  
-8.3 Check for anything a guest would photograph and post in a review  
-8.4 If issues found: fix immediately or contact cleaner to return  
-8.5 If you cannot attend: ask a trusted co-host or cleaner supervisor to do the walk-through
+### Maintenance Check
 
-### Step 9: Confirm Guest Arrival Details
-9.1 If guest hasn't responded to either message: send one brief follow-up 2 hours before check-in:
-```
-Hi [Name] — just checking in! Your check-in details are in my previous message. 
-Let me know if you have any questions. Looking forward to welcoming you. [Your Name]
-```
-9.2 If guest indicates a delayed arrival: note the time and confirm your lock will be accessible whenever they arrive  
-9.3 If guest indicates early arrival request: check if turnover is complete; if yes, offer early access; if not, explain you'll confirm as soon as the property is ready
+- [ ] Smart lock battery level: check via the app (Yale, Nuki, or Igloohome all have battery indicators). Replace if below 20%.
+- [ ] Any maintenance request from the previous guest: confirm it has been addressed or has a confirmed contractor date.
+- [ ] Any known issues with the property (boiler, heating, appliance): confirm status.
 
 ---
 
-## POST-CHECK-IN CONFIRMATION (1 Hour After Stated Check-In Time)
+## DAY OF CHECK-IN
 
-### Step 10: Confirm Successful Entry
-10.1 If you haven't heard from the guest and they haven't messaged any issues: they're in. No need to message unless check-in time is unusual.  
-10.2 If check-in time has passed and no confirmation: send one short message:
-```
-Hi [Name], hope you arrived safely! Just checking the key access all worked smoothly for you? Let me know if you need anything at all. [Your Name]
-```
-10.3 Log successful check-in in Booking Tracker  
-10.4 Set calendar reminder for: mid-stay check-in message (Day 2) → See MSG-04  
-10.5 Set calendar reminder for: check-out reminder message (night before checkout) → See MSG-05
+### Morning (Before Cleaning Team Arrives)
+
+- [ ] Confirm cleaning team is confirmed for their arrival time (a quick message: "Reminder — cleaning at [PROPERTY NAME] today at [TIME]. The previous guests checked out this morning.")
+- [ ] Confirm previous guests have checked out (check Airbnb checkout — if guests are still in at 11am and checkout was 10am, message them via Airbnb: "Hi [NAME], just checking you were able to get everything sorted for checkout. The cleaning team arrives at noon — please let me know if you need a few more minutes.")
+
+### After Cleaning Is Complete
+
+The cleaning team should send you a "done" message and/or a photo confirmation. If you use TAB-04 (Cleaning Schedule), update the record.
+
+**Do your own final walkthrough remotely or in person:**
+
+If you have a noise monitor (Minut): confirm it is online and active in the app.
+
+If you do a physical walkthrough — this is strongly recommended for the first 10 turnovers with a new cleaning team and periodically thereafter:
+
+**Bedroom:**
+- [ ] Bed made to hotel standard (straight edges, no wrinkles, pillows symmetric)
+- [ ] Bedside tables clear and clean
+- [ ] Floor clear
+- [ ] Blackout blind operational
+- [ ] No items left from previous guests
+
+**Bathroom:**
+- [ ] No hair visible in drain or on surfaces
+- [ ] All toiletries stocked (from checklist above)
+- [ ] Mirror clean (no water spots)
+- [ ] Fresh towels — folded and positioned correctly
+- [ ] Toilet clean inside and out
+- [ ] Bin liner in bin, bin empty
+
+**Kitchen:**
+- [ ] Hob clean (all rings, no grease)
+- [ ] Surfaces clear and wiped
+- [ ] Fridge empty of previous guest food, clean inside
+- [ ] Dishes clean and stored (not left on the drying rack)
+- [ ] Bin liner in bin, bin empty
+
+**Living area:**
+- [ ] Cushions arranged
+- [ ] TV remote visible and operational
+- [ ] No personal items from previous guests
+
+**Entry:**
+- [ ] Welcome basket in position (if providing)
+- [ ] House manual visible
+- [ ] WiFi card visible
+
+### Smart Lock Code Check
+
+- [ ] Confirm the smart lock code for this booking is active (test it via the app or by entering the code on the physical device)
+- [ ] Confirm the code deactivates at the checkout time listed in the booking
+- [ ] If there is a lockbox as backup: confirm the lockbox code is current and the key is inside
+
+### Final Check-In Message Preparation
+
+**One hour before check-in time:** Send a brief same-day message to the guest (especially for first-time platform users or guests who have not responded to MSG-02):
+
+> "Just a quick note — everything is ready for your arrival at [TIME]. Smart lock code: [CODE]. If you arrive and have any trouble, my number is [PHONE]. Safe travels."
+
+This message takes 60 seconds to send and eliminates the single most common guest frustration: arriving to find a code that doesn't work and no one reachable.
 
 ---
 
-## PRE-ARRIVAL PREP SIGN-OFF
+## POST-CHECK-IN (Within 2 Hours of Check-In Time)
 
-| Task | Completed (✓) | Notes |
-|---|---|---|
-| Pre-arrival info sent (48hrs before) | | |
-| Cleaning team confirmed | | |
-| Access code generated and tested | | |
-| Property maintenance check done | | |
-| Welcome pack prepared | | |
-| Check-in instructions sent (day of) | | |
-| Post-cleaning inspection completed | | |
-| Guest arrival confirmed | | |
+- [ ] If the guest has checked in (you can tell via smart lock activity or noise monitor motion): good. No action needed.
+- [ ] If no check-in activity and it is 90+ minutes past check-in time: send a brief message: "Just checking in — did you arrive okay? Everything is ready on our end."
+- [ ] If guest cannot access the property: this is a genuine emergency. Call them. Do not message.
 
 ---
 
-*Run time: 30–45 minutes | Owner: Host | Frequency: Every booking*
+*Last updated: v1.0.0 · This SOP triggers 48 hours before every check-in*

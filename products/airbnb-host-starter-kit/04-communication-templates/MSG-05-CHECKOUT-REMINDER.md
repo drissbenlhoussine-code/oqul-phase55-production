@@ -1,42 +1,59 @@
-# MSG-05: Check-Out Reminder
-## Send: Evening before checkout, 8:00–9:00pm
-
-**Save in Airbnb as:** 🧳 Check-Out Reminder  
-**When to send:** Evening of the night before every checkout  
-**Variables:** [GUEST NAME], [CHECKOUT DATE], [CHECKOUT TIME], [HOST NAME]
+# MSG-05: Checkout Reminder
+## Night-Before Checkout Message · Save as "🧳 Checkout Reminder"
 
 ---
 
-## MESSAGE
+**When to send:** Evening before checkout, between 7pm and 9pm.
+**Purpose:** Remind guests of checkout time and required actions. Prevent the 10:30am knock from a cleaning team waiting outside.
+**Tone:** Friendly and practical — not demanding.
+
+---
+
+## TEMPLATE
+
+---
 
 Hi [GUEST NAME],
 
-Your last night at [PROPERTY NAME] — I hope it's been everything you hoped for!
+Just a quick note ahead of your checkout tomorrow ([CHECKOUT DATE]).
 
-A quick reminder that **check-out is at 11:00am tomorrow** ([CHECKOUT DATE]).
+**Checkout time:** by [CHECKOUT TIME]
 
-When you're ready to leave, just a couple of things would be brilliant:
+To help us prepare for the next guests:
+- Take all food and drinks from the fridge
+- Collect all personal items — we're not able to post forgotten items internationally
+- Leave the door code on the kitchen table if you have a physical key card (smart lock guests: just leave — the code deactivates automatically)
+- Leave windows closed and lights off
 
-→ Strip the bed and leave the linen in a pile on the mattress (no need to fold!)
-→ Leave used towels in the bath or shower
-→ If you've used any dishes, a quick wash or pop them in the dishwasher would be much appreciated
-→ Empty your rubbish into the bin outside the building ([location — e.g., "through the gate on the left side of the building"])
-→ Close all the windows and switch off the lights and heating
-→ The door locks itself when you pull it closed — no need to do anything with the key/code
+If you spot anything that needs attention before you go — a stain, a broken item — please let me know now rather than after checkout. It is always easier to handle things directly.
 
-That's it! No need to message me when you leave — the smart lock will let me know.
+If you need a slightly later checkout, message me now. I cannot always accommodate it, but when the schedule allows, I am happy to help.
 
-**Late checkout:** If you'd love an extra hour or two in the morning, I can offer until **12:00 noon for €15**, or **1:00pm for €25** — just message me tonight or first thing and I'll confirm. (Subject to availability!)
+I'll be in touch later today with a thank-you note.
 
-Thank you so much for choosing [PROPERTY NAME]. I genuinely hope [CITY] treated you well. Safe travels tomorrow 🙏
+Thanks again for staying.
 
 [HOST NAME]
 
 ---
 
-## NOTES FOR HOST
+## PERSONALISATION VARIABLES TO REPLACE BEFORE SAVING
 
-- Always include the late checkout upsell — it generates €15–€25 with zero effort
-- The checkout instructions reduce cleaning time by 15–20 minutes (guests who know what to do actually do it)
-- "The door locks itself" reduces the single most common checkout anxiety (most guests worry about leaving it unlocked)
-- Confirm you have the correct checkout date before sending — booking changes can shift dates
+- [GUEST NAME]
+- [CHECKOUT DATE] — e.g., "Thursday 18 January"
+- [CHECKOUT TIME] — e.g., "10am"
+- [HOST NAME]
+
+---
+
+## NOTES ON TONE
+
+The line "please let me know now rather than after checkout" is important and deliberate. It opens a damage disclosure channel before the guest leaves. Guests who might not mention a broken item in a review will sometimes mention it directly when given a clear, non-threatening opportunity. This allows you to address it proactively and reduces the likelihood of it appearing in a review.
+
+**Do not include:** A review request. That comes tomorrow after MSG-06. Combining checkout instructions with a review request is the most common template mistake — it makes the review request feel transactional.
+
+**Do not include:** Extensive house rules or threats about what happens if checkout is late. Your Airbnb house rules are already agreed — repeating them in the farewell message is unnecessary and changes the tone.
+
+---
+
+*Save in Airbnb Saved Messages as: "🧳 Checkout Reminder"*

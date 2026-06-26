@@ -1,165 +1,155 @@
-# SOP-07: Check-Out Process
-## Standard Operating Procedure — Check-Out & Damage Review
-
-**Run time:** 15 minutes host time; 5 minutes guest experience  
-**Trigger:** Night before checkout; morning of checkout  
-**Owner:** Host  
-**Frequency:** Every booking
+# SOP-07: Checkout Process
+## Checkout Protocol · Damage Review · Deposit Claim Procedure
 
 ---
 
-## STEP 1: Night Before Checkout — Send Reminder (8:00–9:00pm)
-
-1.1 The evening before checkout, open the Airbnb booking  
-1.2 Send MSG-05-CHECKOUT-REMINDER.md (saved as "🧳 Check-Out Reminder")  
-1.3 The message must include:  
-   - Check-out time (11:00am unless agreed otherwise)  
-   - The checkout instructions — specific, complete:  
-     - Strip the bed and leave linen in the [bathroom / laundry area / at the bedroom door]  
-     - Place used towels in the bath/shower  
-     - Wash any dishes used or place in dishwasher and run a cycle  
-     - Empty rubbish into the outdoor bin (location: [specific location])  
-     - Leave the key/return the access card to [specific location — lockbox, hook inside door, etc.]  
-     - Make sure all windows are closed  
-     - Switch off all lights and the heating/air conditioning  
-   - A thank-you for their stay  
-   - Offer for late checkout if you can accommodate (even 30 minutes feels generous)  
-1.4 Log message sent in Booking Tracker
+**When to use:** Every checkout.
+**Time required:** 10 minutes host-side on the day; 30-minute physical walkthrough if possible.
+**Output:** Booking closed, damage assessed, cleaning team dispatched, review window open.
 
 ---
 
-## STEP 2: Morning of Checkout — Coordination
+## SECTION 1 — NIGHT-BEFORE CHECKOUT REMINDER
 
-2.1 Confirm cleaning team is scheduled and confirmed for this morning  
-2.2 Confirm no guest message requesting an extension of checkout time  
-2.3 If guest requests late checkout:  
-   - Check calendar: is the next booking same-day? If yes: you can only extend by 30–60 minutes maximum  
-   - If same-day booking: "I wish I could extend — I have guests arriving later today. 11am is the latest I can offer. Happy to store your luggage in the [wardrobe/hallway] if you want to explore for longer"  
-   - If no same-day booking: "Of course! 1pm works perfectly — enjoy your last morning."  
-   - Communicate the late checkout to your cleaning team immediately  
-2.4 At 11:05am: confirm the guest has checked out (smart lock log or noise monitor should confirm no activity)
+Send MSG-05 (Checkout Reminder) the evening before checkout (between 7pm and 9pm).
 
----
+The message must include:
+- Checkout time (exactly as booked)
+- Key actions required from guest: remove all food from fridge, take all personal belongings, leave keys/access card on kitchen table, close all windows, report any damage before they leave
+- What happens after checkout: "I'll be in touch later today with a thank-you note"
+- No pressure to write a review yet (the review request comes after the post-checkout thank-you)
 
-## STEP 3: Property Inspection (Immediately After Checkout)
-
-**Host or appointed co-host visits the property within 60 minutes of checkout.**
-
-If you cannot visit in person, have your cleaner conduct this inspection and send you photos.
-
-3.1 Walk every room using the post-checkout inspection sequence:
-
-**ENTRANCE:**
-- [ ] No guest items left behind
-- [ ] Access key or card returned (if applicable)
-
-**LIVING AREA:**
-- [ ] No damage to furniture, walls, or fixtures
-- [ ] Nothing missing (remote, games, books)
-- [ ] Any items left behind by guest (photograph and set aside)
-
-**KITCHEN:**
-- [ ] All dishes washed or in dishwasher
-- [ ] No food left in fridge (except sealed packets you provided)
-- [ ] No damage to appliances
-- [ ] Hob clean
-
-**BEDROOM(S):**
-- [ ] Linen stripped (if guest followed instructions) or note if not
-- [ ] No damage to bed, mattress, furniture
-- [ ] No items left behind in drawers, under bed, wardrobe
-- [ ] Mattress protector checked for damage/stains
-
-**BATHROOM(S):**
-- [ ] Towels used and left in bath/shower as requested
-- [ ] No damage to fixtures
-- [ ] No excessive mould or mess beyond normal use
-
-**GENERAL:**
-- [ ] No smoking detected (smell test in every room)
-- [ ] No pet evidence (hair, smell, scratches) if no-pets property
-- [ ] All windows and doors secure
+**Do not include** a request for a 5-star review in the checkout reminder. It reads as anxious and reduces the authentic quality of any review that follows.
 
 ---
 
-## STEP 4: Damage Assessment
+## SECTION 2 — CHECKOUT DAY PROTOCOL
 
-4.1 Any damage found → photograph immediately with timestamp (most phones do this automatically)  
-4.2 Document in your Maintenance Log: description, location, estimated cost  
-4.3 Compare to your pre-arrival photos (taken at the end of the previous turnover) — this is your evidence baseline  
-4.4 Assess: normal wear and tear vs. guest-caused damage
+### 10am (Or Your Standard Checkout Time)
 
-**Normal wear and tear (do NOT claim):**
-- Minor scuffs on walls
-- Light marks on furniture consistent with normal use
-- Wear on mattress protector from normal use
+**Smart lock:** Check your smart lock app. Most smart locks can be set to expire the guest's code at checkout time automatically. Confirm the code has expired or manually deactivate it via the app.
 
-**Guest-caused damage (DO claim on Airbnb Resolution Centre):**
-- Broken furniture
-- Stains on mattress, carpet, or sofa
-- Damaged appliances beyond normal use
-- Missing items (towels, chargers, keys)
-- Evidence of smoking in a non-smoking property
-- Evidence of a pet in a no-pets property
-- Any damage exceeding €50 replacement cost
+**Noise monitor:** If your Minut is active, you will see motion data drop to zero when guests leave. This is your signal that the property is empty.
 
-4.5 Submit a claim on Airbnb Resolution Centre within 14 days of checkout (ideally within 24 hours — Airbnb prioritises fast claims)  
-4.6 Airbnb AirCover covers up to $3 million USD in property damage and $1 million in liability — document everything
+**If guests are still inside 30 minutes after checkout time:**
+Send a brief, polite message: "Hi [GUEST NAME], just checking — we have a cleaning team arriving at [TIME]. Were you able to get away okay, or do you need a few extra minutes?"
+
+In most cases, the guest has already left and there is a monitoring lag. In rare cases, guests need a gentle prompt. Do not be aggressive — the tone of your message will influence whether they leave a review.
+
+### Cleaning Team Dispatch
+
+Confirm the cleaning team's arrival time. Standard: 30–60 minutes after checkout time, to allow for delays.
+
+Brief the cleaning team: "Checkout was [TIME] — please message me when you arrive and let me know condition on entry."
 
 ---
 
-## STEP 5: Send Post-Checkout Message
+## SECTION 3 — DAMAGE ASSESSMENT
 
-5.1 Within 2 hours of checkout, send MSG-06-POST-CHECKOUT-THANKS.md  
-5.2 The message tone: warm, genuine, brief. This is not the review request — that comes later.  
-5.3 Log message sent
+### The First 14 Days
 
----
+AirCover (Airbnb's host damage protection) requires claims to be submitted within **14 days of checkout** or **before the next guest checks in, whichever comes first**.
 
-## STEP 6: Leave a Guest Review
+The clock starts the moment the guest checks out. Build your damage assessment process around this deadline.
 
-6.1 Within 24 hours of checkout, write your review of the guest  
-6.2 Airbnb shows both reviews simultaneously after both are submitted (or after 14 days)  
-6.3 Writing a positive review for a good guest first incentivises them to submit theirs
+### What to Check (Room-by-Room)
 
-**Review structure for a good guest:**
-```
-[Name] was an excellent guest — [one specific positive observation, e.g., "the apartment 
-was left immaculate" or "they communicated perfectly throughout"]. I'd recommend them 
-to any host without hesitation and welcome them back anytime.
-```
+Photograph every room after every checkout. These photos are your baseline for any claim.
 
-**Review structure for a neutral/average guest:**
-```
-[Name] had a smooth stay. Property was left in reasonable condition. Communication was fine.
-```
+**Bedroom:**
+- Mattress: any staining (remove mattress protector to check)
+- Headboard: any marks, dents, or staining
+- Wardrobe: anything broken, shelves intact
+- Walls: any scuffs or marks not present before
 
-**Review structure for a problematic guest (be factual, not emotional):**
-```
-Unfortunately, [Name]'s stay had some challenges — [state the specific factual issue: 
-"the property was left in a worse condition than expected," "the check-out time was not 
-respected"]. I'd recommend other hosts review the profile before booking.
-```
+**Bathroom:**
+- Towels: any non-laundry damage (chemical staining, tears, unusual colour changes)
+- Shower screen: any cracks
+- Toilet: seat intact, no cracks in porcelain
+- Fittings: any detached towel rails, toilet roll holders, or fixtures
 
-6.4 Private feedback: Airbnb allows you to leave private notes (only visible to the guest). Use this for constructive feedback that might embarrass the guest publicly but could help them be better guests.  
-6.5 Star ratings: rate honestly across all 5 dimensions — this protects future hosts
+**Kitchen:**
+- Hob: any cracking, permanent burning, or unusual damage
+- Oven interior: excessive damage beyond normal use
+- Appliances: any broken handles, door seals, or non-functioning components
+- Dishes and glasses: any broken items (check the bin first — guests often bin what they broke)
 
----
+**Living area:**
+- Sofa: any staining beyond normal wear
+- TV: any damage to screen or stand
+- Walls: any marks or holes
 
-## STEP 7: Review Request
+**Outside (if applicable):**
+- Terrace: any furniture damage, plant damage, or debris
 
-7.1 Exactly 2 hours after checkout (optimal response window, per Airbnb data): send MSG-07-REVIEW-REQUEST.md  
-7.2 Log in your Review Scorecard (Tab-06)  
-7.3 Leave your own review within 24 hours if not already done
+### Damage Categories
 
----
-
-## CHECK-OUT LOG
-
-| Date | Guest | On-Time? | Damage Found | Claim Filed | Review Left | Review Received | Rating |
-|---|---|---|---|---|---|---|---|
-| | | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No | |
+| Category | Action | Claim Type |
+|---|---|---|
+| Minor (mark on wall, small chip) | Note for records; photograph. Claim not warranted unless part of a pattern. | Record only |
+| Moderate (broken appliance, single stained linen item) | Photograph + cost estimate. Consider AirCover claim. | AirCover if >€50 |
+| Major (significant furniture damage, multiple items, structural) | Photograph extensively + professional repair quote. File AirCover claim immediately. | AirCover + STR insurance if >AirCover limit |
 
 ---
 
-*Run time: 15 minutes host time | Owner: Host | Frequency: Every booking*
+## SECTION 4 — HOW TO FILE AN AIRCOVER CLAIM
+
+1. **Document everything first.** Take time-stamped photographs of all damage within 2 hours of checkout.
+2. **Request a resolution through Airbnb:** Go to the booking → Resolution Centre → Request money from guest.
+3. **Describe the damage specifically.** "Sofa cushion has a wine stain approximately 20cm in diameter — replacement cushion cost €85" is a valid claim. "Guests damaged my property" is not a valid claim.
+4. **Attach all photos** taken at checkout.
+5. **Get a professional quote** for repair or replacement if the claim is above €200.
+6. **Timeline:** Submit within 14 days. Airbnb reviews within 72 hours. If the guest disputes: Airbnb Support mediates.
+
+**What AirCover does not cover:**
+- Normal wear and tear (faded upholstery, small scuffs, worn door handles)
+- Pre-existing damage (you must have photos proving condition before the stay)
+- Cash or jewellery
+- Currency exchange differences
+- Loss of revenue
+
+---
+
+## SECTION 5 — POST-CHECKOUT MESSAGE SEQUENCE
+
+### Immediately After Checkout Confirmed (MSG-06)
+
+Send MSG-06 (Post-Checkout Thanks) within 3 hours of checkout. This message:
+- Thanks the guest for their stay
+- Opens the door for any feedback before the review
+- Signals you are a professional host
+
+**Important:** Do not mention the review in this message. Send the review request separately (MSG-07), 2–3 hours after MSG-06.
+
+### Review Request (MSG-07)
+
+Send MSG-07 (Review Request) 2–3 hours after MSG-06. The optimal window for review response is within 6 hours of checkout. Guests who receive a message while still in transit (train, airport) have idle time and the stay fresh in their minds.
+
+See `04-communication-templates/MSG-07-REVIEW-REQUEST.md` for the complete template.
+
+### Leave Your Review First
+
+Leave a review for the guest within the 14-day review window. Do this within 24 hours of checkout. When you leave a review first, it increases the probability the guest will leave a review (they receive a notification that you reviewed them and are prompted to reciprocate).
+
+**Positive guest review template:**
+> "[GUEST NAME] was a fantastic guest — they treated the property with care, communicated promptly throughout the stay, and left everything in great condition. I'd welcome them back without hesitation. Highly recommended to other hosts."
+
+Adjust based on actual experience. Do not leave a positive review if the stay had genuine problems.
+
+**Neutral guest review template (minor issues):**
+> "[GUEST NAME] stayed at our property. The apartment was left in reasonable condition. Communication was adequate."
+
+This signals to other hosts without being punitive for minor issues.
+
+**Negative guest review template (document honestly):**
+> "This stay presented some challenges. The property was left in a condition that required significant additional cleaning, and [specific issue, e.g., 'guests exceeded the registered guest count']. I would encourage other hosts to review the booking carefully before confirming."
+
+---
+
+## SECTION 6 — SECURITY DEPOSIT CLAIMS (If Applicable)
+
+If you collect a security deposit through an off-platform tool (not all hosts do — Airbnb does not offer a traditional security deposit), claims must be processed through that tool's dispute process. Document the same as AirCover claims: timestamped photos, repair quotes, specific damage descriptions.
+
+---
+
+*Last updated: v1.0.0 · Submit any damage claims within 14 days of checkout — set a reminder immediately*

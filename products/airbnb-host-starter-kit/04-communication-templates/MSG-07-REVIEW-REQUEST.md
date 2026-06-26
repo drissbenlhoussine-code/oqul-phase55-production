@@ -1,55 +1,68 @@
 # MSG-07: Review Request
-## Send: 2 hours after checkout (separate from post-checkout thanks)
-
-**Save in Airbnb as:** ⭐ Review Request  
-**When to send:** Exactly 2 hours after checkout time (optimal response window)  
-**Variables:** [GUEST NAME], [PROPERTY NAME], [HOST NAME]
+## Review Nudge + Follow-Up · Save as "⭐ Review Request"
 
 ---
 
-## MESSAGE
-
-Hi [GUEST NAME],
-
-I've just left you a review — thank you again for being such a great guest.
-
-If you have a moment, we'd genuinely love to hear about your stay at [PROPERTY NAME]. Your feedback helps future guests make confident choices, and it means a lot to us as hosts.
-
-There's a link in your Airbnb app under "Trips" — it only takes about 2 minutes.
-
-Thanks so much 🙏
-
-[HOST NAME]
+**When to send:** 2–3 hours after MSG-06 (Post-Checkout Thanks). Do not send on the same day as MSG-06 unless checkout was before noon.
+**Purpose:** Ask directly for a review at the moment when the guest has the most idle time (in transit) and the stay is fresh in their mind.
+**Critical rule:** Do not ask for a "5-star review" or a "positive review." This violates Airbnb's terms and can be flagged by guests.
 
 ---
 
-## NOTES FOR HOST
-
-- Send as a SEPARATE message from MSG-06 (post-checkout thanks) — two messages perform better than one combined message
-- The 2-hour window is deliberate: guest is in transit, thinking about their trip, and not yet absorbed by their next destination
-- "I've just left you a review" creates a social reciprocity dynamic — they feel naturally inclined to leave one too
-- Telling them where to find it ("Trips in your app") removes friction
-- Never say "5-star review" — Airbnb discourages this and it can read as pressure
-- Never send a second follow-up until Day 5 — see SOP-09 Step 4 for the one permitted follow-up
-
----
-
-## ALTERNATIVE VERSION (for guests who mentioned a small issue)
-
-If a guest raised a concern during their stay but it was resolved well, use this version:
+## TEMPLATE — PRIMARY VERSION
 
 ---
 
 Hi [GUEST NAME],
 
-I'm so glad we got the [issue] sorted for you — and thank you again for staying at [PROPERTY NAME].
+One more thing — if you have a couple of minutes, a review on Airbnb would mean a lot. It takes about 2 minutes and really helps other travellers find the right place.
 
-If you have a moment to share your experience in a review, we'd really appreciate it. The link is under "Trips" in your Airbnb app.
+I'll leave one for you too.
 
-Thank you for being so understanding — it made hosting you a pleasure.
+Thanks again for staying at [PROPERTY NAME].
 
 [HOST NAME]
 
 ---
 
-*This version acknowledges the issue proactively, which disarms any review defensiveness and often results in generous reviews from guests who had small problems resolved quickly.*
+## TEMPLATE — FOLLOW-UP VERSION (Send if No Review After 48 Hours)
+
+Send once, 48–72 hours after the primary version, if no review has been submitted:
+
+---
+
+Hi [GUEST NAME],
+
+Just a quick follow-up in case my earlier note got buried — if you have a moment, leaving a review for [PROPERTY NAME] on Airbnb would be really helpful. It only takes a couple of minutes.
+
+Hope the trip home was smooth.
+
+[HOST NAME]
+
+---
+
+## WHAT NOT TO INCLUDE
+
+**Do not say:**
+- "A 5-star review would be amazing" — this asks for a specific rating
+- "Please leave me a perfect score" — prohibited by Airbnb terms
+- "I left you a 5-star review, so please return the favour" — manipulation
+- "It would really help my business if..." — too much pressure
+- "I hope you enjoyed everything and would love a positive review" — too transparent
+
+**Do not offer:**
+- Discounts in exchange for reviews
+- Future booking benefits conditional on reviews
+- Any incentive for review content
+
+---
+
+## NOTES ON TIMING
+
+The optimal review submission window is 2–8 hours after checkout. Guests in transit have phone time and the stay is vivid. After 24 hours, recall fades and competing priorities crowd out the action.
+
+Leaving your own review before sending MSG-07 doubles the effectiveness of the request. When Airbnb notifies the guest that you reviewed them, the review prompt appears prominently on their home screen.
+
+---
+
+*Save in Airbnb Saved Messages as: "⭐ Review Request"*

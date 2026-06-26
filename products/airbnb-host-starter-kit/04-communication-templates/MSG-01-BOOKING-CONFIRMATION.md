@@ -1,36 +1,59 @@
 # MSG-01: Booking Confirmation
-## Send: Within 2 hours of booking confirmation
-
-**Save in Airbnb as:** ✅ Booking Confirmed  
-**When to send:** Immediately or within 2 hours of every new booking  
-**Variables to personalise:** [GUEST NAME], [CHECK-IN DATE], [CHECKOUT DATE], [PROPERTY NAME]
+## Post-Booking Message · Save as "✅ Booking Confirmed"
 
 ---
 
-## MESSAGE
+**When to send:** Within 2 hours of booking confirmation.
+**Purpose:** Confirm the booking, set expectations, and open communication warmly.
+**Do not:** Include check-in details (save those for MSG-02 and MSG-03). Do not ask for a review here.
 
-Hi [GUEST NAME]!
+---
 
-Thank you so much for booking [PROPERTY NAME] — I'm genuinely delighted to be hosting you.
+## TEMPLATE
 
-Your stay is confirmed for [CHECK-IN DATE] to [CHECKOUT DATE]. Here's what to expect:
+---
 
-→ **About 48 hours before you arrive**, I'll send you the full check-in guide with everything you need — directions, access instructions, WiFi details, and a few local tips.
+Hi [GUEST NAME],
 
-→ **On the morning of check-in**, you'll receive your personal access code so you can arrive completely at your own pace. Check-in is from 3pm, though if you let me know you'll be arriving later or earlier, I'll do what I can to accommodate you.
+Thank you for booking [PROPERTY NAME] — looking forward to welcoming you on [CHECK-IN DATE].
 
-In the meantime, if you have any questions at all about the property or the area, just reply here and I'll get back to you quickly.
+A quick confirmation of your stay:
+- Check-in: [CHECK-IN DATE] from [CHECK-IN TIME]
+- Checkout: [CHECK-OUT DATE] by [CHECKOUT TIME]
+- Guests: [NUMBER]
 
-Looking forward to welcoming you!
+I'll send you the full check-in instructions 48 hours before your arrival, including the door code and WiFi details. If you have any questions in the meantime — arrival time, parking, local transport — just message here and I'll get back to you within an hour.
+
+Looking forward to your stay.
 
 [HOST NAME]
 [PROPERTY NAME]
 
 ---
 
-## NOTES FOR HOST
+## PERSONALISATION VARIABLES TO REPLACE BEFORE SAVING
 
-- Send this within 2 hours of booking or guests wonder if their booking is real
-- Do NOT include the access code in this message — send it day-of (MSG-03)
-- Personalise the property name — generic "my apartment" reads as automated
-- If you know anything about the guest's trip from their booking message, acknowledge it ("I hope the conference goes well!")
+- [GUEST NAME] — pull from booking; first name only
+- [PROPERTY NAME] — your property name (e.g., "Alfama Studio")
+- [CHECK-IN DATE] — formatted as "Monday 15 January"
+- [CHECK-IN TIME] — your standard check-in time (e.g., "3pm")
+- [CHECK-OUT DATE] — formatted as "Thursday 18 January"
+- [CHECKOUT TIME] — your standard checkout time (e.g., "10am")
+- [NUMBER] — number of guests on the booking
+- [HOST NAME] — your first name
+
+---
+
+## NOTES ON TONE
+
+Keep this message short. The guest just booked — they do not need detailed house rules or a paragraph of excitement. They need three things: confirmation of dates, an expected next contact point, and confidence that you are available.
+
+If the guest included a note in their booking request, acknowledge it briefly:
+
+Example: If they mentioned "anniversary trip" — add one sentence: "I see you're celebrating your anniversary — I'll make sure everything is especially ready for you."
+
+Do not add this line if they left no note. It reads as template filler if inserted generically.
+
+---
+
+*Save in Airbnb Saved Messages as: "✅ Booking Confirmed"*

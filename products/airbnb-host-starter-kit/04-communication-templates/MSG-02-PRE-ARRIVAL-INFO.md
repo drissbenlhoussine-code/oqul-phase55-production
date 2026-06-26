@@ -1,49 +1,65 @@
-# MSG-02: Pre-Arrival Information
-## Send: 48 hours before check-in
-
-**Save in Airbnb as:** 📋 Pre-Arrival Info  
-**When to send:** 48 hours before each guest's check-in  
-**Variables:** [GUEST NAME], [CHECK-IN DATE], [PROPERTY ADDRESS], [PARKING NOTES], [NEAREST TRANSPORT], [HOST PHONE]
+# MSG-02: Pre-Arrival Info
+## 48-Hour Pre-Arrival Message · Save as "📋 Pre-Arrival Info"
 
 ---
 
-## MESSAGE
+**When to send:** Exactly 48 hours before check-in.
+**Purpose:** Deliver arrival logistics, prepare the guest for the check-in, and capture any last-minute requests before they arrive.
+**Do not:** Include the door code here (save it for MSG-03, sent on check-in day). This message is for logistics, not access.
+
+---
+
+## TEMPLATE
+
+---
 
 Hi [GUEST NAME],
 
-Your stay at [PROPERTY NAME] is just two days away — exciting! Here's everything you need to arrive smoothly.
+Your stay at [PROPERTY NAME] is two days away — here is everything you need for arrival.
 
-**📍 Address**
-[FULL STREET ADDRESS, CITY, POSTCODE]
+**Address:** [FULL PROPERTY ADDRESS]
+The building has [DESCRIPTION OF ENTRANCE: e.g., "a dark green door with a brass number 14"]. The nearest landmark is [LANDMARK, e.g., "the Pingo Doce supermarket on the corner"].
 
-[Add 1–2 sentences of navigation context: e.g., "We're on the second floor of a blue-tiled building — you'll see the blue door on the left side of the street. There's a small buzzer panel at the entrance; you won't need to use it."]
+**Nearest transport:**
+- [TRANSPORT OPTION 1: e.g., "Bus 28 stops 80m from the front door — every 8 minutes from the city centre, €1.50 cash or contactless"]
+- [TRANSPORT OPTION 2: e.g., "Metro: Rossio station, 12 minutes on foot"]
+- [PARKING INFO if applicable: e.g., "Street parking is available on Rua do Século — free after 8pm and on weekends"]
 
-**🚇 Getting Here**
-[Nearest metro/tram/bus stop and walking time: e.g., "The Alfama/Sé tram stop is a 3-minute walk — take the 28 tram from Martim Moniz."]
-[Taxi/rideshare note: e.g., "Uber and Bolt both work well in Lisbon and are usually faster than taxis."]
+**Check-in time:** From [CHECK-IN TIME]. If you're arriving earlier, I'm happy to store your bags if the property is available — just let me know.
 
-**🚗 Parking**
-[If street parking: "Street parking is available on [street name] — it's free after 6pm on weekdays and all day on weekends. During the day, the paid zones cost €1.20/hour."]
-[If no parking: "There's no private parking — the nearest paid car park is [name/address], approximately [distance] away."]
+**Check-in instructions:** I'll send the door code and step-by-step entry instructions on the morning of your arrival.
 
-**✅ Check-In**
-Check-in is from **3:00pm** on [CHECK-IN DATE]. I'll send you your personal access code on the morning of your arrival — you'll be able to go straight in without waiting for anyone.
+**Anything I should know?**
+If you have any specific arrival time, need an early check-in, or have any requirements I should prepare for, please reply here.
 
-If you're arriving before 3pm, your bags are very welcome in the property while we finish preparing — just message me and I'll let you know when it's ready.
-
-**📞 Direct Contact**
-If you need to reach me for anything, my mobile number is: [HOST MOBILE NUMBER]
-I'm also here via Airbnb messages — whichever you prefer.
-
-Can't wait to welcome you — see you on [CHECK-IN DATE]!
+See you [DAY OF ARRIVAL].
 
 [HOST NAME]
 
 ---
 
-## NOTES FOR HOST
+## PERSONALISATION VARIABLES TO REPLACE BEFORE SAVING
 
-- Replace all bracketed fields with your specific property details before saving this as your template
-- The parking section often prevents the most common pre-arrival questions
-- Always include your direct mobile number here — guests feel more confident knowing they can call if needed
-- Sending 48 hours (not 24) gives guests time to plan and reduces last-minute panics
+- [GUEST NAME]
+- [PROPERTY NAME]
+- [FULL PROPERTY ADDRESS] — include postcode
+- [DESCRIPTION OF ENTRANCE] — be specific; this is what they look for
+- [LANDMARK] — nearest easily identified landmark
+- [TRANSPORT OPTION 1] — specific bus/tram number, frequency, fare
+- [TRANSPORT OPTION 2] — metro, train, or second option
+- [PARKING INFO] — or delete this line if no parking nearby
+- [CHECK-IN TIME] — standard time (e.g., "3pm")
+- [DAY OF ARRIVAL] — e.g., "Monday"
+- [HOST NAME]
+
+---
+
+## NOTES ON TONE
+
+This message should feel like a friend who knows the neighbourhood briefing you, not a corporate checklist. The transport information should be specific enough that a guest who has never been to the city can navigate independently. Generic directions ("the city centre is nearby") add no value.
+
+**What not to include:** House rules, checkout instructions, WiFi password, door code. Those come later. This message is focused entirely on getting them to the building without stress.
+
+---
+
+*Save in Airbnb Saved Messages as: "📋 Pre-Arrival Info"*

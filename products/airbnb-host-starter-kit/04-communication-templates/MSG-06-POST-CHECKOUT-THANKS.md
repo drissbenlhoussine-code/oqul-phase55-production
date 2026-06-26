@@ -1,31 +1,79 @@
-# MSG-06: Post-Checkout Thank-You
-## Send: Within 2 hours of checkout
-
-**Save in Airbnb as:** 🙏 Post-Checkout Thanks  
-**When to send:** Within 2 hours of each guest checkout  
-**Variables:** [GUEST NAME], [CITY], [PROPERTY NAME], [HOST NAME]
+# MSG-06: Post-Checkout Thanks
+## Debrief + Thank-You Message · Save as "🙏 Post-Checkout Thanks"
 
 ---
 
-## MESSAGE
+**When to send:** Within 3 hours of checkout.
+**Purpose:** Close the stay warmly, invite private feedback, and set up the review request (MSG-07, sent 2–3 hours later).
+**Do not:** Ask for a review here. That is MSG-07. This message is about the guest's experience, not your rating.
+
+---
+
+## TEMPLATE — STANDARD VERSION
+
+---
 
 Hi [GUEST NAME],
 
-Thank you so much for staying at [PROPERTY NAME] — it was a real pleasure having you.
+Thank you for staying at [PROPERTY NAME] — I hope [CITY] was everything you were looking for.
 
-I hope [CITY] gave you everything you were looking for. If you got to [specific local place you recommended — e.g., Time Out Market / the Alfama viewpoints / the Saturday market], I'd love to know what you thought!
+If there is anything about the stay you would like to share privately before the review — positive or otherwise — I am always glad to hear it. It helps me keep the property running well.
 
-We'll always have a warm welcome for you if you ever find yourself back this way.
+Safe travels home.
 
-All the best,
 [HOST NAME]
 
 ---
 
-## NOTES FOR HOST
+## TEMPLATE — AFTER A GREAT STAY (Use When Mid-Stay Check-In Got a Positive Response)
 
-- This is NOT the review request — that comes 2 hours later (MSG-07) as a separate message
-- Keep it warm and short — one paragraph. Do not write a lengthy debrief.
-- The personalised local reference ("if you got to X") shows you remembered what they were excited about, and reads as human rather than automated
-- Do not include checkout instructions, damage notices, or any administrative content in this message — it kills the warm tone
-- Wait for the cleaner's post-clean report before sending if there's a damage concern — if damage is found, adjust your tone accordingly and handle through Airbnb Resolution Centre separately
+---
+
+Hi [GUEST NAME],
+
+Glad to hear you had a good time at [PROPERTY NAME]. Thanks for being such a considerate guest — the cleaning team mentioned everything was in excellent shape.
+
+Hope to see you back in [CITY] sometime.
+
+[HOST NAME]
+
+---
+
+## TEMPLATE — AFTER A STAY WHERE AN ISSUE WAS RESOLVED
+
+Use when a problem occurred during the stay and you fixed it:
+
+---
+
+Hi [GUEST NAME],
+
+Thank you for staying at [PROPERTY NAME] and for handling [THE ISSUE, e.g., "the boiler situation"] so understanding — I appreciate your patience. I have already arranged for that to be fully resolved before our next guests arrive.
+
+If there is anything else about the stay you would like me to know, I'm listening.
+
+Safe travels.
+
+[HOST NAME]
+
+---
+
+## PERSONALISATION VARIABLES TO REPLACE BEFORE SAVING
+
+- [GUEST NAME]
+- [PROPERTY NAME]
+- [CITY]
+- [HOST NAME]
+
+For the "after issue resolved" version: replace [THE ISSUE] with a brief, specific reference to what went wrong. Do not be generic — "handling the boiler situation" is better than "handling the inconvenience."
+
+---
+
+## TIMING NOTE
+
+Send MSG-06 within 3 hours of checkout. Send MSG-07 (Review Request) 2–3 hours after MSG-06.
+
+The 2–3 hour gap between them is intentional. Sending the review request immediately after the thank-you reads as the thank-you being a set-up for the request. The gap makes each feel independent.
+
+---
+
+*Save in Airbnb Saved Messages as: "🙏 Post-Checkout Thanks"*

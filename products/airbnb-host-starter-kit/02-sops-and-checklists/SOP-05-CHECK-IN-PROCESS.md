@@ -1,137 +1,166 @@
 # SOP-05: Check-In Process
-## Standard Operating Procedure — Self Check-In Flow
-
-**Run time:** 10 minutes host time; 8–10 minutes guest experience  
-**Trigger:** Day of each guest check-in  
-**Owner:** Host  
-**Prerequisite:** SOP-03 pre-arrival prep complete; cleaning confirmed; access code generated
+## Self Check-In Flow · Backup Procedures · Guest Orientation
 
 ---
 
-## THE SELF CHECK-IN PHILOSOPHY
-
-Self check-in, done correctly, is a 5-star experience. It gives guests flexibility and privacy. Done poorly (confusing instructions, failed codes), it's the number one cause of 1-star check-in ratings. This SOP makes self check-in feel effortless.
-
----
-
-## STEP 1: Morning Preparation (Check-In Day, 9:00–10:00am)
-
-1.1 Open your Airbnb host app — review all check-ins for today  
-1.2 Confirm cleaning team is scheduled and on track  
-1.3 Confirm access codes are set and active windows are correct in smart lock app  
-1.4 Confirm no maintenance issues were reported since the last check  
-1.5 Check the weather — if extreme weather (heavy rain, storms): add a weather note to your check-in message  
-1.6 If a guest has an unusually early arrival request (before noon): message them to confirm whether the property will be ready and set realistic expectations
+**When to use:** Every check-in.
+**Format:** Self check-in (no host present). This SOP covers the host-side process and the guest experience design.
+**Goal:** Guest inside the property within 5 minutes of arrival, without calling you.
 
 ---
 
-## STEP 2: Send Check-In Instructions (12:00 noon or 2hrs before check-in time)
+## SECTION 1 — SELF CHECK-IN DESIGN
 
-2.1 Open the Airbnb booking for today's arrival  
-2.2 Send MSG-03-CHECKIN-INSTRUCTIONS.md (saved as "🔑 Check-In Instructions")  
-2.3 Confirm the message includes — check every item:
+The check-in experience is judged on two things: did it work, and was it easy to follow?
 
-**Required in the message:**
-- [ ] Guest's first name (personalisation matters)
-- [ ] Exact property address
-- [ ] How to find the building entrance (street-level navigation details)
-- [ ] Building entry instructions if there's an intercom or exterior gate
-- [ ] Floor/apartment number
-- [ ] Smart lock instructions (type of lock, where to find it, button sequence)
-- [ ] The unique access code for this booking
-- [ ] WiFi network name
-- [ ] WiFi password
-- [ ] Your direct mobile number (for emergencies)
-- [ ] One sentence about where to find more info (guest welcome guide on coffee table)
+A check-in that works but requires the guest to contact you twice is a 4-star Check-in review. A check-in that works the first time without questions is a 5-star Check-in review.
 
-2.4 Proofread the complete message before sending — one wrong digit in the access code = locked-out guest = 1-star review  
-2.5 Log message sent time in your Booking Tracker
+### Check-In Instruction Hierarchy
+
+Layer 1 — Airbnb app: Guest receives the check-in instructions you entered in your Airbnb listing under "Check-in instructions." Airbnb displays this on the app as a step-by-step guide. Fill every field.
+
+Layer 2 — MSG-03 (Check-In Instructions message): This is your pre-arrival message 24 hours before check-in. It repeats the key information from Layer 1, adds anything Airbnb's fields cannot accommodate, and puts everything in one place.
+
+Layer 3 — Physical house manual at the property: Once inside, the guest should find a printed welcome card or house manual with the same information plus WiFi credentials, appliance guides, and checkout instructions. Template: `GUEST-01-WELCOME-GUIDE.md`.
 
 ---
 
-## STEP 3: Check-In Window Monitoring (Check-In Time ±2hrs)
+## SECTION 2 — AIRBNB CHECK-IN INSTRUCTIONS FIELDS
 
-3.1 Keep your phone accessible during the check-in window  
-3.2 Respond to any guest messages within 15 minutes during this window (non-negotiable)  
-3.3 Common check-in messages and responses:
+Fill every field in Airbnb's "Check-in method" and "Check-in instructions" sections:
 
-**"I can't find the building"**
-→ Send: "The entrance is [specific landmark nearby]. You'll see [specific identifying feature]. Let me know if that doesn't work and I'll call you."
+**Check-in method:** Select "Smart lock" (not "Other").
 
-**"The code isn't working"**
-→ First: Confirm you sent the correct code  
-→ If code is correct: check smart lock app — is the active window correct? Is the lock online?  
-→ If lock is offline: Give them the physical backup key lockbox code (always have this ready)  
-→ Send: "I'm so sorry — let me sort this immediately. The backup physical key is in the lockbox at [exact location]. Code: [lockbox code]. I'll reset the smart lock remotely now."
+**Arriving:**
+> From the street: [Property Name] is at [FULL ADDRESS]. The building has a [grey / red / green] door. If arriving by [metro/bus/tram]: exit at [STATION NAME], turn [direction], walk [NUMBER] minutes. The entrance is on your [left/right], marked with [identifying feature — house number, buzzer panel, etc.].
 
-**"I'm running late / arriving [time]"**
-→ Confirm your smart lock will be accessible whenever they arrive (it will be if the code is set correctly)  
-→ Send: "No problem at all — the code is valid until 11am on [checkout date], so you're all set whenever you arrive."
+**Building entry (if applicable):**
+> The building entrance code is [CODE]. Press the numbers on the keypad, then the green button. Push the door immediately after the green light flashes — it closes after 4 seconds.
 
-**"Can I leave my bags before check-in?"**
-→ If property is clean and available: "Of course! I'll have the property ready early."  
-→ If cleaning in progress: "The cleaners are still finishing up — they'll be done by [time]. I'll message you as soon as it's ready. Would [nearby café name] work for an hour?"
+**Apartment:**
+> Take the stairs/lift to floor [NUMBER]. The apartment is door [NUMBER]. 
+> To open: enter code [CODE] on the keypad, then press the ✓ button. The lock will beep once and the handle will release. Push the door to open.
+> **Do not try the handle before the beep — it will not open.**
+
+**Inside:**
+> WiFi: [NETWORK NAME] · Password: [PASSWORD]
+> You will find a welcome card on the kitchen table with everything you need.
 
 ---
 
-## STEP 4: Confirm Successful Entry (1 Hour After Stated Check-In Time)
+## SECTION 3 — MSG-03 CHECK-IN MESSAGE (Sent 24 Hours Before)
 
-4.1 If no contact from guest: they're in. No need to disturb them.  
-4.2 If check-in time + 1 hour passes with no word from a guest who hasn't checked in: send one brief message:
-```
-Hi [Name] — hope the journey went well! Just checking that you managed to get in 
-and everything's looking good? I'm just a message away if you need anything. [Name]
-```
-4.3 If guest hasn't responded to this and it's more than 2 hours after check-in time: call the guest. A guest who can't find the property needs help, not silence.  
-4.4 Log successful check-in confirmation in Booking Tracker  
-4.5 Note in guest profile any unusual check-in notes (late arrival, early arrival, luggage storage provided, etc.)
+See `04-communication-templates/MSG-03-CHECK-IN-INSTRUCTIONS.md` for the full template.
 
----
-
-## STEP 5: Post-Check-In Setup (Your End)
-
-5.1 Set a calendar reminder for Day 2 mid-stay check-in message (see SOP-06)  
-5.2 Set a calendar reminder for night-before checkout reminder (see SOP-07)  
-5.3 Note check-in completion in your Booking Log (Tab-03)  
-5.4 If the smart lock logged entry: confirm in the app that the correct time of entry was recorded  
-5.5 Review noise monitor app (Minut/NoiseAware): confirm it shows normal readings
+Before sending, confirm:
+- [ ] Smart lock code for this booking is entered correctly in the message
+- [ ] The code in the Airbnb instructions matches the code in the message
+- [ ] Any building entry codes in the message are current
+- [ ] Your phone number in the message is active
+- [ ] Any special guest notes (late arrival? early arrival?) are addressed in the message
 
 ---
 
-## BACKUP PROCEDURES
+## SECTION 4 — BACKUP PROCEDURES
 
-### If Smart Lock Fails Completely
-- Physical key lockbox is always installed at the property (you tested this in Phase 3 of setup)
-- Lockbox code is stored in your Notion Property Hub
-- Give guest the lockbox code via Airbnb message (do not share over SMS — keep all communication on platform)
-- Contact smart lock manufacturer support immediately after guest is inside
-- Schedule technician visit before next check-in
+If the smart lock fails, you need a working backup that resolves the problem in under 15 minutes without the host needing to be on-site.
 
-### If Property Is Not Ready on Time
-- Message the guest proactively — before they arrive and find it themselves
-- Never let a guest discover the problem before you've communicated it
-- Offer options: "The cleaners are running 45 minutes over — I can offer you early access to our nearby café recommendation, and I'll send you a voucher for two coffees as my apology."
-- If delay exceeds 2 hours: contact Airbnb and consider partial refund for significant inconvenience
+### Physical Key Lockbox
 
-### If Guest Has an Accessibility Need Not Stated in Booking
-- Respond with genuine helpfulness  
-- Document in guest profile for future reference  
-- If the property genuinely cannot accommodate the need: escalate to Airbnb for rebooking assistance  
-- Never make a guest feel their needs are an inconvenience
+**Location:** [Describe the exact location: e.g., "mounted on the left side of the building entrance, approximately 1.3m off the ground, behind the small blue sign"]
+
+**Lockbox code:** [CODE] — this is a host-only code. Do not include in guest messages by default. Provide only when smart lock fails.
+
+**How to use (tell the guest by phone if needed):**
+> "Go back to the front of the building. On the [left/right] side of the entrance, at about chest height, there is a small [colour] key box. The code is [CODE]. Turn each dial to the correct number, then press the release button. Take the key — it opens both the building entrance and the apartment door. Please return it to the box when your stay ends."
+
+**Lockbox maintenance:**
+- Test the lockbox code every 30 days
+- Change the lockbox code every 3 months (or after every time it is used by a guest)
+- Keep 1 spare key inside the lockbox at all times
+
+### Smart Lock Battery Failure
+
+If the smart lock displays "battery low" or is unresponsive:
+1. Use the physical key lockbox as above
+2. Order replacement batteries immediately (order same day — the batteries go out without warning once the low-battery indicator appears)
+3. Replace batteries at next available opportunity (do not wait until the next cleaning turnover)
+
+**Battery type for your lock:**
+- Yale Linus / Yale Keyless Connected: 4 × AA batteries
+- Nuki Smart Lock: 4 × AA batteries
+- Igloohome Deadbolt: 4 × AA batteries
+
+### Smart Lock App Failure (Code Doesn't Work Even With Good Batteries)
+
+1. Try the physical lockbox immediately — do not troubleshoot in front of a frustrated guest at 11pm
+2. Call the guest: tell them to use the lockbox while you investigate
+3. Log into your smart lock app: check if the code was generated correctly for this booking period
+4. If you used PMS software to generate the code automatically: check the sync between PMS and smart lock
 
 ---
 
-## CHECK-IN QUALITY LOG
+## SECTION 5 — EARLY AND LATE CHECK-IN MANAGEMENT
 
-Rate every check-in after it happens:
+### Early Check-In Requests
 
-| Date | Guest | Check-in Rating (1–5) | Notes |
-|---|---|---|---|
-| | | | |
-| | | | |
+Guests frequently request early check-in. Do not commit to a time until you know the previous checkout and cleaning schedule.
 
-Review this log monthly. Any check-in rated 3 or below: identify the root cause and update this SOP.
+**When you can offer early check-in:**
+- No guest checked out the same day (there is a buffer day)
+- Cleaning team confirms they can finish by the requested time
+
+**When you cannot:**
+- Same-day checkout from another guest: cleaning takes 90–120 minutes minimum after checkout, so if checkout is 10am and cleaning takes 2 hours, the earliest ready time is 12pm
+
+**Pricing:** Early check-in within 2 hours of the standard time: complimentary. More than 2 hours early: €15–€25 depending on the complexity of your cleaning schedule.
+
+**Response to early check-in request:**
+> "Thanks for reaching out about early check-in. The property [is/is not] available for early arrival at [TIME]. [If yes: I'll have everything ready by [TIME] and will confirm the morning of your arrival.] [If no: Standard check-in from [TIME] is what I can confirm — I want to make sure everything is perfect before you arrive.]"
+
+### Late Check-In Requests
+
+Any check-in after 10pm.
+
+**Action required:**
+- Confirm the smart lock code is set to activate from the date of arrival (not from the standard check-in time — if your code is set to activate at 3pm and the guest arrives at 11pm, confirm the code is still valid)
+- Send a brief message the evening of arrival: "Just checking — you're arriving late tonight. Your code is [CODE]. I'm available by phone until midnight — after that, text and I'll see it first thing. Safe travels."
 
 ---
 
-*Run time: 10 minutes host time | Owner: Host | Frequency: Every booking*
+## SECTION 6 — QUARTERLY CHECK-IN AUDIT
+
+Every 90 days, test your own check-in process:
+
+1. Stand at your property's street entrance as if arriving for the first time
+2. Follow your written check-in instructions from the beginning
+3. Do not use knowledge you have as the owner — follow only what is written
+4. Time yourself from street to inside the property
+5. Note any step where you hesitated, guessed, or used prior knowledge
+
+**Target:** Under 3 minutes from building entrance to inside the apartment, following only the written instructions.
+
+Any step that requires prior knowledge = rewrite it.
+
+---
+
+## SECTION 7 — PROPERTY ORIENTATION (What Guests Need to Know Immediately)
+
+When the guest enters, they must be able to find these without asking:
+
+| Item | Location in Your Property |
+|---|---|
+| WiFi password | [e.g., printed card on kitchen table] |
+| Emergency contacts | [e.g., printed card on fridge] |
+| TV remote | [e.g., on coffee table or TV unit shelf] |
+| Heating/AC controls | [e.g., wall thermostat in hallway] |
+| Extra blankets | [e.g., top shelf of bedroom wardrobe] |
+| Bin bags | [e.g., under the kitchen sink] |
+| Hair dryer | [e.g., in the bathroom cabinet, not a locked drawer] |
+| House manual | [e.g., on the kitchen table] |
+
+The first 10 minutes in a new property are disorienting for guests. Every item they have to search for — especially the WiFi password — degrades the check-in experience. Make critical items visible before they need to find them.
+
+---
+
+*Last updated: v1.0.0 · Run the quarterly check-in audit every 90 days — schedule it now*

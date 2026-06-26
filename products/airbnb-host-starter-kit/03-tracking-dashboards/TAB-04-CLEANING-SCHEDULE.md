@@ -1,90 +1,126 @@
 # TAB-04: Cleaning Schedule
-## Spreadsheet Tab Specification
-
-**Tab name:** Cleaning  
-**Purpose:** Schedule and confirm every turnover cleaning; track cleaning team performance  
-**Updated:** At booking confirmation (schedule) and post-cleaning (confirmation)
+## Turnover Schedule · Cleaner Coordination · Quality Tracking
 
 ---
 
-## COLUMN HEADERS
+## PURPOSE
 
-| Column | Header | Data Type | Input or Formula | Notes |
-|---|---|---|---|---|
-| A | Checkout Date | Date | Input | The day the outgoing guest leaves |
-| B | Check-In Date | Date | Input | The day the incoming guest arrives |
-| C | Gap (Hours) | Number | Formula: =(B2-A2)*24 | Hours between checkout and check-in |
-| D | Booking Ref (Out) | Text | Input | Outgoing guest's booking ref |
-| E | Booking Ref (In) | Text | Input | Incoming guest's booking ref |
-| F | Cleaner Assigned | Text | Dropdown | Primary cleaner name |
-| G | Cleaning Start Time | Time | Input | Agreed start time |
-| H | Cleaning End Time | Time | Input | Actual finish time |
-| I | Duration (Hrs) | Number | Formula: =H2-G2 | |
-| J | Confirmed? | Checkbox | Input | Did cleaner confirm the booking? |
-| K | Completed? | Checkbox | Input | Did cleaner report completion? |
-| L | Photos Received? | Checkbox | Input | Did cleaner send post-clean photos? |
-| M | Host Inspected? | Checkbox | Input | Did host or co-host inspect? |
-| N | Quality Rating | Number (1–5) | Input | Your rating of this cleaning |
-| O | Issues Found | Text | Input | Any issues noted during inspection |
-| P | Cleaning Fee Paid (€) | Currency | Input | Amount paid to cleaner |
-| Q | Notes | Text | Input | |
+One row per cleaning event. This tab is the operational schedule for your cleaning team and your quality assurance record. Use it to dispatch cleaners, track completion, and log quality issues.
 
 ---
 
-## 3 EXAMPLE ROWS
+## COLUMN STRUCTURE
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 13/01/26 | 14/01/26 | 24 | HM123456 | HM555001 | Maria S | 10:30 | 12:45 | 2.25 | ✓ | ✓ | ✓ | ✓ | 5 | None | €55 | Same-day turn |
-| 22/01/26 | 23/01/26 | 24 | HM987654 | HM555002 | Maria S | 10:30 | 13:00 | 2.50 | ✓ | ✓ | ✓ | No | 4 | Hair in shower drain | €55 | Follow-up required |
-| 07/02/26 | 09/02/26 | 48 | HM456123 | HM555003 | Maria S | 11:30 | 13:30 | 2.00 | ✓ | ✓ | ✓ | ✓ | 5 | None | €55 | 2-day gap, no rush |
-
----
-
-## SUMMARY METRICS
-
-| Metric | Formula | Target |
-|---|---|---|
-| Total turnovers | =COUNTIF(K:K,TRUE) | Track monthly |
-| Average cleaning duration | =AVERAGE(I:I) | ≤2.5 hrs (1BR) |
-| Average quality rating | =AVERAGE(N:N) | ≥4.5 |
-| % completed on time | =COUNTIF(K:K,TRUE)/COUNTA(A:A) | 100% |
-| % photos received | =COUNTIF(L:L,TRUE)/COUNTA(A:A) | 100% |
-| Total cleaning costs | =SUM(P:P) | Track vs. budget |
-
----
-
-## SCHEDULE VIEW (CALENDAR-STYLE)
-
-For visual planning, create a weekly view:
-
-| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
-|---|---|---|---|---|---|---|---|
-| 12–18 Jan | | Turnover (9→13) | | | | Turnover (10→13) | |
-| 19–25 Jan | | Turnover (10→13) | | | | | |
-
-Colour code: BLUE = turnover cleaning | GREEN = confirmed | RED = not yet confirmed
+| Col | Header | Format | Data Entry |
+|---|---|---|---|
+| A | Cleaning Date | Date DD/MM/YYYY | Date cleaning should occur (checkout day) |
+| B | Booking Ref (Out) | Text | Booking reference of guest checking out |
+| C | Checkout Time | Time | Standard checkout time (e.g., 10:00) |
+| D | Booking Ref (In) | Text | Booking reference of guest checking in |
+| E | Check-In Time | Time | Standard check-in time (e.g., 15:00) |
+| F | Cleaning Window | Number (hours) | =E2-C2 — hours available for cleaning |
+| G | Cleaner Name | Text | Which cleaner is assigned |
+| H | Cleaner Confirmed | Checkbox | ✓ when cleaner has confirmed the booking |
+| I | Cleaning Start Time | Time | Actual time cleaner arrived |
+| J | Cleaning End Time | Time | Actual time cleaner finished |
+| K | Duration (mins) | Number | =(J2-I2)*1440 (converts fraction-of-day to minutes) |
+| L | Photo Confirmation | Dropdown | Received / Not Received |
+| M | Quality Score | Dropdown | Pass / Minor Issues / Major Issues |
+| N | Issues Found | Text | Description if M = Minor or Major Issues |
+| O | Welcome Items Set | Checkbox | ✓ when welcome basket and consumables confirmed |
+| P | Supplies Needed | Text | Any items needed for next cleaning |
+| Q | Cost (€) | Currency | Amount invoiced by cleaner |
+| R | Paid | Checkbox | ✓ when payment made |
+| S | Notes | Text | Any operational notes |
 
 ---
 
-## CLEANER PERFORMANCE SCORECARD
+## SECTION 2 — CLEANING WINDOW ANALYSIS
 
-Track each cleaner separately if you use more than one:
+The Cleaning Window (Column F) is the hours between the previous guest's checkout and the next guest's check-in. Track this because:
 
-| Cleaner | Total Turnovers | Avg Rating | Avg Duration | Issues Reported | Reliability % |
-|---|---|---|---|---|---|
-| Maria Santos | 24 | 4.8 | 2.2 hrs | 2 | 100% |
-| Backup Cleaner | 3 | 4.3 | 2.7 hrs | 1 | 100% |
+- Under 2 hours: high risk. One delay causes a chain reaction. Flag these in advance and confirm cleaner availability.
+- 2–4 hours: standard. The cleaning team should complete in 90–120 minutes, leaving buffer.
+- 4+ hours: comfortable. No coordination risk.
 
-Use this data quarterly to: affirm good performers, identify training needs, and make decisions about replacing underperforming cleaners.
+**Formula for cleaning window:** If C (checkout time) is entered as a time value and E (check-in time) is also a time value: `=E2-C2` and format as Number to display hours.
+
+**Conditional formatting:**
+- Cleaning Window < 2h: Red fill (risk)
+- Cleaning Window 2–4h: Yellow fill (standard)
+- Cleaning Window > 4h: Green fill (comfortable)
 
 ---
 
-## SHORT-TURNAROUND ALERT
+## SECTION 3 — CLEANER MANAGEMENT
 
-Apply conditional formatting:  
-- Column C (Gap in Hours) < 8 → highlight RED — same-day turn with less than 8 hours: flag as high risk, confirm extra resources  
-- Column C < 24 → highlight YELLOW — less than 1 day turnaround: confirm cleaner has adequate time  
-- Column J (Confirmed) = unchecked when Checkout Date is within 48 hours → highlight RED
+### Minimum Cleaner Coverage
 
-This prevents an unconfirmed cleaning from slipping through and causing a check-in with a dirty property.
+Never operate with one cleaner. You need a minimum of two cleaners who can cover the property:
+- Primary cleaner: your regular
+- Backup cleaner: available at short notice, briefed on SOP-04, has access to the property
+
+**Backup cleaner onboarding:** Give them SOP-04, take them through one turnover together, confirm they have the property access details.
+
+### Cleaner Communication Template
+
+Send this the day before every turnover:
+
+> "Hi [NAME], reminder — cleaning at [PROPERTY NAME] tomorrow [DATE]:
+> Checkout: [TIME]
+> Check-in: [TIME]
+> Window: [X] hours
+> Previous guest: [any relevant notes e.g., "reported shower running slow"]
+> Please message me when you arrive and when you're done. Thanks."
+
+For back-to-back turnovers (same-day checkout and check-in), also specify: "Please send a photo of the bedroom and bathroom when finished."
+
+---
+
+## SECTION 4 — QUALITY SCORING PROTOCOL
+
+After each cleaning, record a quality score based on the photo confirmation and any guest feedback:
+
+**Pass:** Photos show bed made correctly, bathroom clean, kitchen surfaces clear. Guest checks in without any cleanliness comments.
+
+**Minor Issues:** Photo shows a small issue (pillow not straight, one supply item missing), or guest mentions a minor cleanliness issue in the mid-stay message (e.g., "found a hair in the shower").
+
+**Major Issues:** Photo shows a significant problem (bed not made, bathroom not cleaned), or guest mentions a significant cleanliness issue that requires action during the stay.
+
+**Protocol for Major Issues:**
+1. Call the cleaner immediately
+2. Determine whether the guest's stay is affected
+3. Offer to send the cleaner back within 2 hours if guest agrees
+4. Note in TAB-05 (Maintenance Log) if any property issue contributed
+5. Brief discussion with cleaner: "This is the standard I need — let me show you [specific issue]"
+
+**If Major Issues occur 3 times in 30 days:** Schedule a full SOP-04 re-training session with the cleaner. If issues continue: find a replacement cleaner.
+
+---
+
+## SECTION 5 — MONTHLY CLEANING SUMMARY
+
+At the bottom of the tab, add a monthly summary section:
+
+| Month | Turnovers | Avg Duration (mins) | Pass Rate | Major Issues | Total Cost (€) | Fees Collected (€) |
+|---|---|---|---|---|---|---|
+| January | | | | | | |
+| February | | | | | | |
+| [continue] | | | | | | |
+
+**Pass Rate formula:** `=COUNTIF(M2:M200,"Pass")/COUNTA(M2:M200)` — format as percentage.
+
+**Cost Recovery Rate:** Fees Collected ÷ Total Cost. Target: ≥95%.
+
+---
+
+## EXAMPLE DATA
+
+| A | B | C | D | E | F | G | H | L | M | Q |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 18/01/2026 | HM3K5V6YB | 10:00 | HN7X2Q4PR | 15:00 | 5 | Maria Santos | ✓ | Received | Pass | 55.00 |
+| 25/01/2026 | HN7X2Q4PR | 10:00 | HP4M8W9TS | 15:00 | 5 | Maria Santos | ✓ | Received | Pass | 55.00 |
+
+---
+
+*Last updated: v1.0.0 · Update immediately when cleaning is confirmed — do not batch-update at month end*

@@ -1,89 +1,107 @@
 # MSG-08: Issue Response
-## Send: Within 30–45 minutes of any guest-reported problem
-
-**Save in Airbnb as:** 🔧 Issue Response  
-**When to send:** Immediately when a guest reports any problem during their stay  
-**Variables:** [GUEST NAME], [ISSUE], [SOLUTION/TIME], [HOST NAME]
+## Problem Acknowledgement · 4 Scenarios · Save as "🔧 Issue Response"
 
 ---
 
-## BASE TEMPLATE
+**When to send:** Within 30 minutes of a guest reporting any issue during their stay.
+**Purpose:** Acknowledge the problem, communicate the resolution plan, and prevent frustration from becoming a review complaint.
+**Rule:** Never argue with a guest's description of a problem. Acknowledge and resolve first. Dispute later if necessary.
+
+---
+
+## SCENARIO A — MAINTENANCE ISSUE (WiFi, Appliance, Hot Water)
+
+---
 
 Hi [GUEST NAME],
 
-I'm really sorry to hear about the [ISSUE] — that's not what your stay should feel like, and I'm on this right now.
+Thank you for letting me know — I'm sorry to hear about [BRIEF DESCRIPTION OF ISSUE, e.g., "the hot water problem"].
 
-[SOLUTION SENTENCE: e.g., "My plumber João is available to come by at 2:30pm today — does that work for you?" OR "I can walk you through a quick reset of the boiler — it takes about 2 minutes and usually solves this immediately."]
+I've [already contacted / am contacting] [a plumber / the provider / our maintenance team] right now. [Estimated resolution: [TIME / "within 2 hours" / "by this evening"]].
 
-I'll send you a message as soon as it's confirmed and let you know exactly what's happening.
+In the meantime: [specific temporary workaround if available, e.g., "The kettle is available if you need warm water urgently" / "I can share my mobile data hotspot details if you need internet access"].
 
-Really sorry for the inconvenience — I'll make sure this is sorted properly.
+I'll update you as soon as I have a confirmed time.
 
 [HOST NAME]
 
 ---
 
-## SPECIFIC ISSUE VERSIONS
+## SCENARIO B — CLEANLINESS ISSUE DISCOVERED ON ARRIVAL
 
-### WiFi Not Working
+---
+
 Hi [GUEST NAME],
 
-Sorry about the WiFi — let me get this sorted for you right now.
+I'm really sorry about that — this is not the standard we hold for [PROPERTY NAME].
 
-Could you try this first:
-1. Forget the network on your device and reconnect with the password: **[PASSWORD]**
-2. If that doesn't work, there's a white router on the [shelf in living room]. Just unplug it, wait 30 seconds, and plug it back in — it takes about a minute to come back on.
+Can you share a photo of the area? I want to resolve this correctly.
 
-If neither of those works, please let me know immediately and I'll connect you to my personal hotspot while I investigate. You won't be offline for more than a few minutes.
+Options:
+1. I can send the cleaning team back within [TIME — e.g., "2 hours"] to address it properly
+2. If you prefer, I can apply a partial adjustment to the booking for the inconvenience
+
+Please let me know which you'd prefer and I'll act on it now.
 
 [HOST NAME]
 
 ---
 
-### No Hot Water
+## SCENARIO C — NOISE OR DISTURBANCE (External — Neighbours, Construction)
+
+---
+
 Hi [GUEST NAME],
 
-So sorry about the hot water — I completely understand how frustrating that is.
+I'm sorry you're experiencing this — [construction / noise from the street / noise from neighbours] is not something I can directly control, but I want to help.
 
-The boiler is in the [utility cupboard]. There's a laminated instruction card on it — could you check if the pressure gauge is showing above 1 bar? (It's the small round dial.) If it's below 1, I can walk you through resetting the pressure in 2 minutes and you'll have hot water immediately.
+[If there is a practical step, e.g., "The bedroom windows face the courtyard and are significantly quieter — I recommend switching to sleep there tonight."]
 
-If the pressure is fine and it's still not working, my plumber can be there within [time — e.g., 2 hours]. I'll call him right now.
+[If no practical step available:] I will document this and it is fair feedback for the listing. As an acknowledgement of the disruption, I would like to offer [SPECIFIC OFFER: "10% adjustment on tonight's rate" or "late checkout tomorrow at no charge"].
+
+Please let me know if there is anything else I can do tonight.
 
 [HOST NAME]
 
 ---
 
-### Heating Not Working (Winter)
+## SCENARIO D — PROPERTY DOES NOT MATCH DESCRIPTION (Accuracy Issue)
+
+---
+
 Hi [GUEST NAME],
 
-I'm so sorry — no heating in this weather is completely unacceptable and I'm making this my priority right now.
+Thank you for raising this directly. I take accuracy seriously and want to address it properly.
 
-I'm calling my heating engineer immediately. While I wait to confirm a time, would it help if I sent over some extra blankets? I can have them at the door within [time].
+[If the guest is correct:] You are right — [THE SPECIFIC CLAIM] is not accurately reflected in the listing. I apologise for that. I will update the listing immediately and would like to offer [SPECIFIC PARTIAL REFUND/ADJUSTMENT] as an acknowledgement of the discrepancy.
 
-I'll update you within 30 minutes with a confirmed repair time.
+[If the guest is mistaken:] I understand your expectation. [The listing states X, which refers to Y — let me clarify: [BRIEF EXPLANATION WITHOUT BEING DEFENSIVE].] I am sorry the experience did not match your expectation. [Offer something concrete: "I would like to offer [small gesture] as a gesture."]
 
 [HOST NAME]
 
 ---
 
-### Lock Not Working
-Hi [GUEST NAME],
+## PERSONALISATION FOR EACH SCENARIO
 
-I am so sorry — please stay exactly where you are and I'll get you in immediately.
-
-There is a physical key lockbox just to the [left/right] of the main door, [height, e.g., "at knee height"]. The code for the lockbox is: **[LOCKBOX CODE]**
-
-That will give you a physical key to get straight in. I'm resetting the smart lock remotely right now and will have it working again within the hour.
-
-Let me know the moment you're inside — I won't stop until this is sorted.
-
-[HOST NAME]
+Replace before use:
+- [GUEST NAME]
+- [BRIEF DESCRIPTION OF ISSUE]
+- [ESTIMATED RESOLUTION TIME]
+- [SPECIFIC TEMPORARY WORKAROUND]
+- [PROPERTY NAME]
+- [SPECIFIC OFFER — always be specific; "something" is not an offer]
+- [HOST NAME]
 
 ---
 
-## NOTES FOR HOST
+## GENERAL RULES FOR ISSUE RESPONSES
 
-- Respond before you have a solution — silence is the biggest problem. "I'm on this now" buys you time.
-- Always offer something specific, not vague ("I'll try to find someone" is worse than saying nothing)
-- If you need to visit in person: ask permission first
-- Log every issue in your Maintenance Log (Tab-05) within 24 hours
+1. **Respond within 30 minutes.** A 3-hour response to a broken boiler is a 3-star Communication review.
+2. **Acknowledge before explaining.** "I'm sorry" comes before "here's why it happened."
+3. **Name a specific action and time.** "I'll look into it" is not a resolution. "A plumber will be there by 4pm" is.
+4. **Offer something concrete for inconveniences above Medium severity.** A €15 partial adjustment costs you less than a suppressed listing from a 3-star review.
+5. **Follow up when resolved.** "Just confirming the plumber has been and hot water is restored — please let me know if anything else comes up."
+
+---
+
+*Save in Airbnb Saved Messages as: "🔧 Issue Response"*

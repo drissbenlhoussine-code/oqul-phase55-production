@@ -1,43 +1,78 @@
 # MSG-12: Long-Stay Welcome
-## Send: Upon confirmation of 7+ night bookings
-
-**Save in Airbnb as:** 🏠 Long-Stay Welcome  
-**When to send:** At booking confirmation for any reservation of 7 nights or more  
-**Variables:** [GUEST NAME], [LENGTH], [PROPERTY NAME], [HOST NAME]
+## 7+ Night Welcome Message · Save as "🏠 Long-Stay Welcome"
 
 ---
 
-## MESSAGE
+**When to send:** On the morning of check-in (same timing as MSG-03), but replace MSG-03 with this for stays of 7+ nights. Or send MSG-03 first (access instructions) and this message separately, 2 hours after check-in.
+**Purpose:** Set the relationship for a long stay. Long-stay guests live in your property, not just pass through it. They have different needs from weekend guests.
+
+---
+
+## TEMPLATE
+
+---
 
 Hi [GUEST NAME],
 
-What a lovely booking — [LENGTH] nights at [PROPERTY NAME]! I'm really looking forward to hosting you for a longer stay.
+Welcome to [PROPERTY NAME] — glad you're here for a longer stay. I hope [CITY] treats you well.
 
-When you have guests for more than a week, I like to make sure the experience feels more like a home than a hotel. Here's what that looks like with me:
+A few things that are different for longer stays:
 
-**🛒 Local Setup Tips**
-The nearest supermarket is [NAME] on [STREET] — open daily until [TIME]. For fresh produce, [MARKET NAME] on [STREET] is excellent and far better value. I'll leave you a local area guide in the property that covers everything from where to get the best coffee to which pharmacy is 24-hour.
+**Linen refresh:** I offer a fresh towel and linen change at the midpoint of your stay (around [DATE, e.g., "Day 7"] — I'll message you closer to confirm a convenient time, and the cleaning team will come to you.
 
-**🧺 Laundry**
-There's a washing machine in the [location]. Pods are in the [cupboard location]. If you'd prefer laundry done for you, I can arrange a service pick-up for around €18 per load — just let me know.
+**Supplies:** The property is stocked with [X] days of consumables (coffee, tea, toiletries). If anything runs low before your mid-stay visit, just let me know and I'll arrange a drop-off.
 
-**🔧 Anything You Need**
-For longer stays, small things sometimes come up. Please don't wait — just message me directly and I'll sort it quickly. I'd rather know about something small on Day 3 than hear about it at checkout.
+**Waste collection:** Bin day is [DAY]. The general waste bin is [LOCATION]. Recycling (glass, cardboard, plastic) goes in [LOCATION]. The bins are collected from [TIME].
 
-**📦 Mid-Stay Refresh (Stays of 14+ Nights)**
-I'll arrange a light housekeeping visit around the midpoint of your stay — fresh linen, bathroom clean, and general tidy. I'll message you to arrange a time that works for you.
+**Any maintenance, any questions:** I check messages every morning and evening. I'm usually back within an hour during the day.
 
-Is there anything specific I should know before you arrive — dietary requirements for the welcome basket, preferred coffee style, anything at all? I'll do my best to have it ready.
+**One thing worth knowing:** [One specific local insider tip — nearest late-night supermarket, best café for remote work, day trip recommendation. Make it specific to your city and neighbourhood.]
 
-See you on [CHECK-IN DATE]!
+Have a great stay.
 
 [HOST NAME]
 
 ---
 
-## NOTES FOR HOST
+## PERSONALISATION VARIABLES TO REPLACE BEFORE SAVING
 
-- Long-stay guests are your most valuable: lower cost per night to acquire, fewer turnovers, often the most considerate
-- The "mid-stay refresh" offer is essential for stays of 14+ nights — don't skip it (property condition suffers without it)
-- The personalisation question at the end ("dietary requirements, coffee style") generates a reply, which starts a warm relationship from day one
-- Long-stay guests often become returning guests and refer friends — invest extra attention in their experience
+- [GUEST NAME]
+- [PROPERTY NAME]
+- [CITY]
+- [DATE] — midpoint of their stay, approximate
+- [X] — number of days of supplies
+- [DAY] — waste collection day
+- [LOCATION] — where the bins are
+- [TIME] — when they are collected
+- [One specific local tip] — make this genuinely useful; not tourist information they can find online
+- [HOST NAME]
+
+---
+
+## WHY LONG-STAY GUESTS MATTER
+
+Long-stay guests (7+ nights):
+- Generate the same revenue as 3–4 short stays with 1 cleaning cost instead of 3–4
+- Tend to leave more detailed, narrative reviews (which convert better for future bookings)
+- Are less likely to party (extended stays filter out this guest type automatically)
+- Are more likely to return if they are relocating, working in the city, or visiting regularly
+
+The investment in a slightly more personalised long-stay welcome pays back disproportionately in review quality.
+
+---
+
+## MID-STAY LINEN SERVICE (For Stays of 14+ Nights)
+
+For stays of 14 nights or more, offer the linen refresh at two midpoints:
+
+Message on Day 7:
+> "Hi [GUEST NAME], approaching the midpoint of your stay — would you like fresh towels and linen this week? I can arrange for the cleaning team to come at a time that suits you. There is no charge for this."
+
+Message on Day 14:
+> "Hi [GUEST NAME], another week in — I'll arrange a second linen refresh if you'd like. Just confirm a convenient time."
+
+For stays of 28+ nights: Airbnb's monthly discount bookings are subject to different financial terms. Include monthly cleaning as a confirmed service rather than an offer.
+
+---
+
+*Save in Airbnb Saved Messages as: "🏠 Long-Stay Welcome"*

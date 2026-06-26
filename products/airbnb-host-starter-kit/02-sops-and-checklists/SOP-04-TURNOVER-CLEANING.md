@@ -1,226 +1,229 @@
 # SOP-04: Turnover Cleaning
-## Standard Operating Procedure — Room-by-Room Cleaning & Reset
-
-**Run time:** 90–150 minutes (1-bedroom); 150–210 minutes (2-bedroom)  
-**Trigger:** Every guest checkout — begin no later than 30 minutes after checkout  
-**Owner:** Cleaning team (Host or professional cleaner)  
-**Tools required:** See consumables list at end of this document
+## Room-by-Room Cleaning Protocol · Consumables Checklist · Quality Standards
 
 ---
 
-## BEFORE YOU START
-
-B1. Photograph the property as you find it — before cleaning. Use the same sequence every time (entrance → living → kitchen → bathroom → bedroom). These photos are your damage record.  
-B2. Check for any visible damage — broken items, stains on furniture, missing items. Photograph immediately and message the host before cleaning around them.  
-B3. Open all windows for ventilation — minimum 15 minutes while you start the laundry.  
-B4. Strip all bed linen immediately and start the washing machine. Laundry takes the longest — start it first.  
-B5. Collect all guest rubbish to a single point for disposal.
+**When to use:** Every guest checkout. No exceptions.
+**Time required:** 90–120 minutes for a 1-bedroom apartment.
+**Who performs this:** Professional cleaner. This SOP is written to hand to your cleaning team. Give them a printed copy.
+**Standard:** Hotel-quality. Not "clean for a rental." Clean to a photographable standard.
 
 ---
 
-## ROOM 1: BATHROOM(S)
+## BEFORE YOU BEGIN
 
-*Bathroom is cleaned first and last — first to let products soak, last to inspect before leaving.*
+**Tools and supplies needed for every turnover:**
 
-### Initial Application (do this, then clean other rooms while products work)
-1.1 Apply toilet bowl cleaner under the rim — leave to soak  
-1.2 Spray bathroom cleaner on shower walls, bath, and sink — leave to work  
-1.3 Spray glass cleaner on shower screen (if applicable) — leave to work
-
-### Deep Clean (return after other rooms are complete)
-1.4 Scrub toilet bowl with brush — under rim, around bowl, into pipe  
-1.5 Wipe toilet exterior: lid (top and underside), seat (top and underside), base, behind the bowl  
-1.6 Scrub sink and basin — remove toothpaste, soap residue  
-1.7 Wipe taps and handles until chrome shines — no water marks  
-1.8 Scrub shower walls/bath with cloth — remove all soap scum  
-1.9 Clean shower screen with glass cleaner and dry with microfibre cloth — no streaks  
-1.10 Clean shower head — wipe nozzles, check for limescale  
-1.11 Clean plughole — remove hair (most common guest complaint if missed)  
-1.12 Mop the floor — under the toilet, behind the door, entire surface  
-1.13 Clean mirror — spray and dry until streak-free  
-1.14 Wipe all surfaces: shelf, toilet cistern top, window ledge  
-1.15 Replace: 1 new toilet roll on holder + 2 spare rolls visible in cupboard  
-1.16 Replace: shampoo, conditioner, body wash (refill dispensers or replace hotel-size)  
-1.17 Replace: hand soap (refill or replace)  
-1.18 Set out fresh towels — folded hotel-style:  
-   - Bath towels: tri-folded and placed on rail  
-   - Hand towels: folded in thirds, placed on hook or towel ring  
-   - Face cloths: folded in quarters, placed on shelf or bath edge  
-1.19 Empty and reline the bathroom bin with a new bag  
-1.20 Final wipe: door handle (inside and outside), light switch
-
-**Inspection check:** Kneel to eye level. If you can see dust, hair, or residue — clean it.
-
----
-
-## ROOM 2: BEDROOM(S)
-
-2.1 Open curtains/blinds fully — maximise natural light for inspection  
-2.2 Remove all decorative pillows from bed — set aside  
-2.3 Check mattress protector — if stained: replace with spare; if clean: keep  
-2.4 Make the bed with fresh linen:  
-   - Fitted sheet: pulled tight at all four corners, no bunching  
-   - Top sheet (if used): flat and smooth  
-   - Duvet: shaken out fully, inserted into duvet cover evenly (no bunching inside)  
-   - Duvet cover: fold top edge back 15cm to expose duvet  
-   - Pillows: plump and placed symmetrically, in clean pillow cases  
-   - Decorative pillows: arranged at front, centred  
-2.5 Wipe all surfaces: bedside table(s), lamp base(s), headboard  
-2.6 Open bedside drawer — remove any items left by guests; leave drawer empty and clean  
-2.7 Wipe wardrobe handles inside and out; organise hangers to face the same direction  
-2.8 Check under the bed — remove any items left by guests (common forgotten spot)  
-2.9 Dust: top of wardrobe, window ledges, skirting boards  
-2.10 Vacuum entire floor including under bed and under furniture  
-2.11 Check curtains/blinds work correctly  
-2.12 Wipe door handles and light switches  
-2.13 Plug in phone charging cables neatly at bedside (if provided)  
-2.14 Final: stand at door and view the room as a guest — is it symmetrical? Does it feel welcoming?
-
----
-
-## ROOM 3: KITCHEN
-
-3.1 Remove all items from surfaces — clean all surfaces before returning items  
-3.2 Clean hob/stovetop:  
-   - Remove grates or burner caps  
-   - Soak in hot soapy water  
-   - Scrub hob surface with degreaser cloth  
-   - Dry and replace  
-3.3 Clean oven (exterior + interior if used):  
-   - Wipe interior with damp cloth + degreaser  
-   - Clean oven window until streak-free  
-3.4 Clean microwave:  
-   - Remove turntable plate — wash in sink  
-   - Wipe interior walls and ceiling of microwave  
-   - Clean door seal and exterior  
-3.5 Clean fridge:  
-   - Remove all guest food items (dispose per house rules — do not leave)  
-   - Wipe all shelves with damp cloth  
-   - Check door seals — wipe if dirty  
-   - Leave one bicarbonate of soda box inside (absorbs odours)  
-3.6 Clean kettle: descale if interior shows limescale (use kettle descaler sachet)  
-3.7 Clean coffee machine per manufacturer instructions  
-3.8 Wash all used dishes, dry completely, and store in correct location  
-3.9 Wipe all cupboard fronts — fingerprints visible on dark finishes  
-3.10 Clean sink thoroughly: taps, basin, plughole  
-3.11 Wipe countertops with antibacterial cleaner — all of them, including behind appliances  
-3.12 Clean dishwasher door and run a rinse cycle if dishwasher was heavily used  
-3.13 Mop kitchen floor including under units and behind door  
-3.14 **Restock consumables:**  
-   - Coffee pods: minimum 6 (Nespresso or brand used)  
-   - Tea bags: 8 assorted  
-   - Sugar: minimum 6 sachets  
-   - Salt and pepper: check levels, refill if below 50%  
-   - Olive oil: check level  
-   - Milk: 1 small UHT carton  
-3.15 Replace kitchen bin with fresh bag  
-3.16 Replace dish cloth with fresh cloth  
-3.17 Replace sponges with new ones if worn  
-3.18 Wipe light switch and door handles
-
----
-
-## ROOM 4: LIVING AREA
-
-4.1 Fluff and arrange all sofa cushions — plump, symmetrically placed  
-4.2 Fold any throws or blankets neatly — draped over armrest or folded on shelf  
-4.3 Dust all surfaces: coffee table, shelving, TV console, window ledges  
-4.4 Clean TV screen with appropriate screen-safe cloth — no streaks  
-4.5 Straighten and organise all items on surfaces (books, décor) — neat, not cluttered  
-4.6 Check TV remote — working? Batteries? Place on coffee table  
-4.7 Remove any items left by previous guests  
-4.8 Vacuum full floor area — under sofa, under coffee table  
-4.9 Mop if hard floor  
-4.10 Dust blinds/curtains  
-4.11 Wipe door handles, light switches, and any smudges on walls
-
----
-
-## ROOM 5: ENTRANCE / HALLWAY
-
-5.1 Clear any items left by previous guest at entrance  
-5.2 Wipe front door handle (inside and outside)  
-5.3 Wipe door mat or replace if soiled  
-5.4 Test smart lock or key access — confirm working for incoming guest  
-5.5 Ensure entry area is clear and welcoming — no clutter  
-5.6 Check coat hooks — organise
-
----
-
-## STEP 6: LAUNDRY
-
-6.1 Transfer linen from washing machine to dryer or drying rack  
-6.2 If using laundry service: bundle and label per their instructions  
-6.3 Iron or steam press duvet covers and pillow cases before use  
-6.4 Fold spare linen sets neatly in wardrobe — visible to guest  
-6.5 Check all towel sets are complete: bath + hand + face cloth per guest
-
----
-
-## STEP 7: WELCOME PACK PLACEMENT
-
-7.1 Place welcome basket on kitchen counter or living room coffee table  
-7.2 Place handwritten welcome card propped visibly  
-7.3 Confirm WiFi password is visible on card near TV or on kitchen counter  
-7.4 Confirm house manual / guest welcome guide is on coffee table  
-7.5 Fill water jug or set out water bottles  
-7.6 Ensure all lights are switched off (except entry light if evening check-in)  
-7.7 Set thermostat to 20°C / 68°F (or appropriate seasonal temperature)
-
----
-
-## STEP 8: FULL PROPERTY WALKTHROUGH
-
-Walk every room in sequence. For each room answer: "If I were a paying guest arriving right now, would I give this room 5 stars?"
-
-8.1 Bathroom — Check plughole, toilet bowl inside, mirror, floor near toilet  
-8.2 Bedroom — Check under bed, pillow alignment, blackout blind operation  
-8.3 Kitchen — Check microwave interior, fridge smell, hob grates  
-8.4 Living area — Check under sofa cushions, TV remote  
-8.5 All rooms — Smell test: neutral (no cleaning chemicals, no previous guest smell)
-
----
-
-## STEP 9: POST-CLEAN PHOTOGRAPHS
-
-9.1 Photograph the completed property in the same sequence as Step B1:  
-   - Entrance  
-   - Living area (2 angles)  
-   - Kitchen (counter + hob)  
-   - Bathroom (full room + toilet)  
-   - Bedroom (bed made, full room)  
-9.2 Send photographs to host — confirm property is ready  
-9.3 Note completion time and any issues in your cleaning log
-
----
-
-## CONSUMABLES RESTOCKING LIST
-
-Keep this inventory. Reorder when stock drops below 2 units.
-
-| Item | Par Level | Reorder Point |
+| Item | Quantity | Notes |
 |---|---|---|
-| Toilet rolls | 3 per bathroom per booking | Order when <12 remaining |
-| Toilet bowl cleaner | — | Reorder when nearly empty |
-| Bathroom spray | — | Reorder when nearly empty |
-| Glass cleaner | — | Reorder when nearly empty |
-| Kitchen degreaser | — | Reorder when nearly empty |
-| Microfibre cloths | 8 per property | Replace when stained/worn |
-| Dish cloths | 1 per booking | Order 20 at a time |
-| Kitchen sponges | 1 per booking | Order 20 at a time |
-| Bin bags (kitchen) | 1 per booking | Order 50 at a time |
-| Bin bags (bathroom) | 1 per booking per bathroom | Order 50 at a time |
-| Laundry pods | 2 per wash | Order 50 at a time |
-| Nespresso pods | 6 per booking | Order 60 at a time |
-| Tea bags (assorted) | 8 per booking | Order 100 at a time |
-| Sugar sachets | 6 per booking | Order 100 at a time |
-| UHT milk (small) | 1 per booking | Order 24 at a time |
-| Shampoo (hotel size) | 1 per booking | Order 48 at a time |
-| Conditioner (hotel size) | 1 per booking | Order 48 at a time |
-| Body wash (hotel size) | 1 per booking | Order 48 at a time |
-| Hand soap (refill) | 1 per 5 bookings | Keep 2 refills in stock |
-| Welcome snacks/chocolates | 4 per booking | Order monthly |
+| Microfibre cloths | 6 minimum (separate for bathroom and kitchen) | Do not cross-contaminate |
+| Bathroom cleaning spray | 1 bottle | Bleach-based or antibacterial |
+| Kitchen cleaning spray | 1 bottle | Degreaser preferred for hob |
+| Glass cleaner | 1 bottle | Mirrors and glass surfaces |
+| Floor mop or steam mop | 1 | |
+| Vacuum cleaner | 1 | |
+| Toilet brush | 1 (dedicated to this property) | |
+| Bin bags | 3 | |
+| Rubber gloves | 1 pair | |
+
+**Fresh linen set needed:**
+- 1 fitted sheet per bed
+- 1 flat sheet or duvet cover per bed
+- 2 pillowcases per pillow
+- 2 bath towels per guest
+- 2 hand towels per guest
+- 1 bath mat
+
+If any linen item is stained, pilled, or yellowed: remove from service. Do not put it back.
 
 ---
 
-*Run time: 90–210 minutes depending on property size | Owner: Cleaning team*
+## PHASE 1 — ARRIVAL AND ASSESSMENT (10 minutes)
+
+**On arrival:**
+1. Enter and note the overall condition. Photograph any damage immediately (before cleaning). Send photos to the host.
+2. Check all rooms for forgotten guest items (phone chargers, clothing, toiletries). Collect them in one bag. Message the host: "Found [item] left behind — what should I do with it?"
+3. Open all windows for ventilation. Leave open for 20 minutes minimum.
+4. Strip all beds immediately. Bag all dirty linen for laundry.
+5. Collect all dirty towels and bath mats.
+6. Empty all bins. Replace bin liners.
+
+---
+
+## PHASE 2 — BEDROOM (20–25 minutes)
+
+Work from top to bottom: ceiling corners (cobwebs), then walls and surfaces, then floor.
+
+**Dust and wipe:**
+- [ ] Top of wardrobe (often missed)
+- [ ] Wardrobe interior: wipe shelves, straighten any hangers
+- [ ] Bedside tables: clear, wipe top and inside drawer
+- [ ] Headboard: wipe or dust
+- [ ] Window sills
+- [ ] Lampshades (dust)
+- [ ] TV and TV unit: dust, wipe screen with dry microfibre (no spray on screen)
+- [ ] Light switches and door handles
+
+**Make the bed:**
+1. Put on fresh mattress protector (if previous was soiled)
+2. Fitted sheet: pull over all four corners, no bunching
+3. Flat sheet (if used): centre it, tuck at the foot, fold down the top 20cm
+4. Duvet cover: inside out, reach in and grip the far corners, invert the cover over the duvet. Shake down. Button/zip all openings.
+5. Pillow covers: one per pillow. Fold the excess fabric to the underside.
+6. Centre the duvet on the bed. Equal overhang on both sides and foot.
+7. Fold back the top edge of the duvet neatly (hotel fold: 30cm fold showing the flat sheet or duvet underside).
+8. Pillows: two per side (for double bed), stacked or side by side — consistent between stays.
+
+**Floor:**
+- [ ] Vacuum all floor areas including under the bed and under the bedside tables
+- [ ] Check under bed: common location for forgotten guest items and dust build-up
+
+---
+
+## PHASE 3 — BATHROOM (25–30 minutes)
+
+**Spray and let sit (apply spray to toilet bowl, sink, and shower/bath before doing anything else — let it work while you do other tasks).**
+
+**Toilet:**
+- [ ] Inside bowl: brush and flush
+- [ ] Seat (both sides), lid, base of toilet, and floor behind toilet (grime accumulates here)
+- [ ] Outside of cistern (top and sides)
+- [ ] Floor around toilet base
+
+**Shower or bath:**
+- [ ] Scrub grout with bathroom spray and small brush or cloth — grout is where 3-star Cleanliness reviews begin
+- [ ] Showerhead: remove limescale if visible (white vinegar spray, 10-minute soak, wipe)
+- [ ] Glass or shower curtain: wipe clean, squeegee glass
+- [ ] Taps: polish until no water spots
+- [ ] Drain: remove hair (use rubber gloves). This is non-negotiable.
+
+**Sink:**
+- [ ] Wipe basin, taps, and under-counter (water spots on chrome)
+- [ ] Mirror: glass cleaner, dry microfibre, no streaks
+
+**Surfaces:**
+- [ ] Wipe all counters and shelving
+- [ ] Replace toilet rolls: minimum 2 visible in bathroom
+- [ ] Stock toiletries: shampoo, conditioner, body wash, hand soap (check levels — top up or replace if below 50%)
+- [ ] Fresh bath mat: fold in thirds or in half, position centred in front of shower
+- [ ] Fresh towels: fold neatly and hang on towel rail or fold on towel bar
+
+**Towel fold standard (both options acceptable — pick one and be consistent):**
+- Hotel fold: fold in half lengthwise, then in thirds. Hang on rail with edges inward.
+- Display fold: fold in half lengthwise, roll tightly, stand upright on shelf or counter edge.
+
+**Floor:**
+- [ ] Sweep and mop (bathroom floors show hair and dust acutely)
+- [ ] Around the base of the toilet again after mopping
+
+---
+
+## PHASE 4 — KITCHEN (25–30 minutes)
+
+**Hob:**
+- [ ] Remove burner covers or grates (if applicable) and clean underneath
+- [ ] Degrease hob surface — use a specific degreaser spray
+- [ ] Polish tap handles and sink (stainless steel polish if applicable)
+
+**Oven (inspect, clean if visibly used):**
+- [ ] Wipe oven door inside and out
+- [ ] If interior has food residue: apply oven cleaner, leave for 15 minutes per instructions, wipe clean
+- [ ] Oven trays: soak in hot soapy water and scrub
+
+**Fridge:**
+- [ ] Remove all food left by guest (do not keep it — health and liability risk)
+- [ ] Wipe all shelves with a damp cloth
+- [ ] Wipe the door seal (mould accumulates here)
+- [ ] Check freezer — defrost if ice build-up is visible
+
+**Microwave:**
+- [ ] Wipe inside (food splatter common), wipe door seal, wipe exterior
+
+**Surfaces:**
+- [ ] All countertops: clear and wipe with kitchen spray
+- [ ] Toaster: remove crumb tray, empty, replace
+- [ ] Kettle: descale if limescale visible inside (white vinegar + boil cycle)
+- [ ] Coffee maker or cafetière: clean to guest-ready standard
+- [ ] Cabinets: wipe exterior handles and door faces
+
+**Dishes:**
+- [ ] Confirm all dishes, cutlery, and glasses are clean and stored
+- [ ] Inspect glasses and mugs for water spots (common with hard water) — dry with a clean cloth
+
+**Consumables — stock:**
+- [ ] Coffee pods or ground coffee (minimum 2 pods or 50g)
+- [ ] Tea bags (minimum 4)
+- [ ] Sugar (small jar or sachets)
+- [ ] Olive oil or cooking oil (check bottle is not empty)
+- [ ] Salt and pepper
+- [ ] Dishwasher tablets (minimum 3 in visible location)
+- [ ] Washing-up liquid (at least 30% remaining in bottle)
+
+**Bin:**
+- [ ] New bin liner in place, bin clean
+
+**Floor:**
+- [ ] Sweep or vacuum, then mop
+
+---
+
+## PHASE 5 — LIVING AREA AND ENTRY (15 minutes)
+
+- [ ] Cushions and throws: straighten and fluff
+- [ ] TV remote: confirm on coffee table or TV unit (not hidden in a drawer)
+- [ ] Wipe surfaces: coffee table, TV unit, shelving
+- [ ] Vacuum sofa (guests sit on it — hair and crumbs accumulate)
+- [ ] Windows: wipe any fingerprints on the glass
+- [ ] Entry: clear, no clutter, mat clean
+- [ ] WiFi card: visible and correct (if password has changed, update the card)
+- [ ] House manual: in position, clean pages
+- [ ] Welcome basket: in position (if provided by host)
+
+---
+
+## PHASE 6 — FINAL CHECK (10 minutes)
+
+**The Guest Eye Test:**
+Stand at the front door, close your eyes, open them. The first visual impression is what the guest sees. If anything is out of place, wrong, or catches your eye: fix it.
+
+**The Smell Test:**
+No smell = correct. If there is any lingering food smell, damp smell, or cleaning product overwhelming smell: ventilate for an additional 10 minutes before closing windows.
+
+**Room-by-room final:**
+- [ ] Bedroom: bed perfect, no clutter, surfaces clean
+- [ ] Bathroom: no hair visible anywhere, all supplies stocked, towels straight
+- [ ] Kitchen: surfaces clear, hob clean, supplies stocked, bin liner in place
+- [ ] Living area: cushions straight, remotes visible, clean
+
+**Lock up:**
+- [ ] Confirm smart lock is set to guest code (not the host override code)
+- [ ] Close all windows (unless leaving slightly open per host instruction — confirm with host before leaving)
+- [ ] Take all linen to laundry (or leave for laundry service as agreed)
+- [ ] Send host "done" message with photo of the bed (this becomes your quality assurance record)
+
+---
+
+## QUALITY ASSURANCE PHOTO SET (Send to Host After Every Turnover)
+
+Send three photos minimum after every turnover:
+1. Bed (made to standard, centred, pillows straight)
+2. Bathroom (towels in position, toiletries stocked, no hair visible)
+3. Kitchen (hob clean, surfaces clear)
+
+These photos are your record. If a guest later reports a cleaning issue, you have timestamped evidence of the condition at handover.
+
+---
+
+## DAMAGE AND MISSING ITEMS REPORTING
+
+If you find any of the following, photograph immediately and message the host before continuing to clean:
+- Any breakage (glass, ceramic, appliances)
+- Any staining that may not clean out (carpet, sofa, mattress)
+- Any item that appears to have been removed from the property
+- Any damage to walls, fixtures, or fittings
+
+Do not attempt to conceal or clean around damage. The host needs photographic evidence within 14 days of checkout for AirCover claims.
+
+---
+
+*Last updated: v1.0.0 · Print and give a copy to every cleaner who works on this property*

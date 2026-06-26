@@ -1,145 +1,109 @@
 # SOP-02: Guest Screening
-## Standard Operating Procedure — Evaluating Booking Requests
-
-**Run time:** 5–10 minutes per request  
-**Trigger:** New booking request or inquiry received  
-**Owner:** Host  
-**Applies to:** Manual review requests (Instant Book reviews are retrospective)
+## Screening Decision Matrix · Inquiry Response Protocol · Risk Assessment
 
 ---
 
-## THE SCREENING FRAMEWORK
-
-Airbnb Instant Book limits your ability to decline without penalty. The goal of screening is not paranoia — it's pattern recognition. Most guests are excellent. This SOP helps you identify the rare exceptions before they check in.
-
----
-
-## STEP 1: Review the Guest Profile (2 minutes)
-
-1.1 Open the booking request or inquiry in the Airbnb inbox  
-1.2 Click the guest's profile — check every available field:
-
-**Check: Verification status**
-- [ ] Government ID verified (Airbnb will show this)  
-- [ ] Profile photo present (real photo, not blank or cartoon avatar)  
-- [ ] Phone number verified  
-- [ ] Email verified  
-
-**Check: Review history**
-- [ ] Read every review the guest has received from previous hosts  
-- [ ] Read reviews the guest has LEFT for hosts (visible on their profile)  
-- [ ] Count total stays — first-time Airbnb users require slightly more scrutiny  
-
-**Check: Profile completeness**
-- [ ] "About me" section written (even 1 sentence matters — blank profiles are a yellow flag)  
-- [ ] Member since date — very new accounts (< 30 days) for large bookings require caution  
-- [ ] Location listed
+**When to use:** Every booking request (Instant Book or Request to Book). Instant Book guests are screened retrospectively within 24 hours of confirmation. Request to Book guests are screened before approval.
+**Time required:** 5–10 minutes per booking.
+**Decision output:** Approve / Approve with conditions / Decline.
 
 ---
 
-## STEP 2: Evaluate the Message (1 minute)
+## SECTION 1 — THE SCREENING MATRIX
 
-2.1 Read the booking message or inquiry in full  
-2.2 Apply the following checklist:
+Evaluate every booking against this matrix. Score each row, then sum.
 
-**Green signals (book with confidence):**
-- References specific things about your listing ("I noticed you have a workspace — I'll be working remotely")
-- Explains the purpose of stay clearly ("Attending my cousin's wedding in [City]")
-- Well-written, polite message
-- Asks reasonable questions about the property
-
-**Yellow signals (ask a clarifying question before approving):**
-- Generic message ("looking forward to the stay") with no other information
-- Vague purpose of visit
-- Group size at or near maximum capacity of the property
-- First Airbnb stay with no explanation
-
-**Red signals (decline or carefully consider):**
-- Requests to pay outside Airbnb (scam indicator — report to Airbnb)
-- Asks to increase the number of guests above listed maximum
-- Vague about who is coming ("some friends")
-- Message history on their profile shows complaints from hosts about damage, parties, or noise
-- Multiple booking requests for your area on the same dates (fishing for options — not necessarily bad, but note it)
-
----
-
-## STEP 3: Check the Dates (1 minute)
-
-3.1 Confirm the requested dates don't overlap any existing bookings (Airbnb should prevent this, but verify)  
-3.2 Note if check-in falls on a holiday or day your cleaning team is unavailable  
-3.3 Note if check-out day creates a scheduling challenge  
-3.4 If the booking is same-day or next-day, confirm you can turn the property over in time
-
----
-
-## STEP 4: Decision Matrix
-
-Use this table to guide your decision:
-
-| Profile Score | Message Quality | History | Decision |
+| Factor | Green (+2) | Yellow (+1) | Red (−2) |
 |---|---|---|---|
-| Verified ID + photo + reviews | Clear purpose, polite | Good reviews | Accept immediately |
-| Verified ID + photo, no reviews | Clear message | First stay | Accept — send a warm welcome + ask to confirm guest count |
-| Verified, no photo | Clear message | Good reviews | Accept — low risk |
-| Unverified ID | Any | Any | Ask them to complete verification before accepting |
-| Verified but red-signal message | Vague/evasive | No history | Send one question; decline if answer unsatisfactory |
-| Previous bad reviews noted | Any | Negative host reviews | Decline |
-| Requesting payment outside Airbnb | — | — | Decline + report to Airbnb immediately |
+| Profile photo | Clear, identifiable face photo | Any photo | No photo |
+| Verified ID | ID verified by Airbnb | Not shown | No verification |
+| Review count | 3+ reviews | 1–2 reviews | 0 reviews |
+| Review content | All positive, mentions respect for property | Mixed or neutral | Any host complaint visible |
+| Profile age | Account >6 months old | 1–6 months | Account <1 month old |
+| Message tone | Specific, warm, mentions something about the property | Generic inquiry | Vague, no introduction, or requests that violate house rules |
+| Guest count vs. listed count | Matches exactly | 1 more than listed | More than 1 extra |
+| Booking purpose | Holiday, work trip, family visit, clear purpose | Mentioned but vague | No purpose stated |
+
+**Score interpretation:**
+- 12–16: Approve via Instant Book or Request to Book
+- 6–11: Proceed with a clarifying message before approval (see Section 2)
+- 0–5: Decline with MSG-11 (Soft Decline)
+- Any single Red on "Review content" (host complaint visible): Decline regardless of total score
 
 ---
 
-## STEP 5: Pre-Approval Message (if not declining)
+## SECTION 2 — CLARIFYING QUESTIONS (Yellow Zone Guests)
 
-If you want to confirm details before formally accepting:
+If a guest scores 6–11, send a brief, professional message asking for clarification. Do not interrogate.
 
-Send a short, friendly message:
-```
-Hi [Name],
+**Template:**
+> "Thanks for your booking request — your stay at [PROPERTY NAME] looks great for [dates]. A quick question before I confirm: could you let me know a bit about the purpose of your visit and who will be joining you? This helps me prepare the property and share local recommendations. Looking forward to welcoming you."
 
-Thanks for reaching out about [Property Name]!
-
-Before I confirm, I just wanted to check — how many guests will be staying in total? 
-The listing is set up for a maximum of [X] guests.
-
-Happy to go ahead once confirmed. Looking forward to hosting you!
-
-[Your Name]
-```
-
-Do not ask multiple questions in one message. One question gets answered. Multiple questions get ignored.
+Guests who respond quickly and specifically (e.g., "My partner and I are visiting for a long weekend to celebrate our anniversary") move to the Green zone. Guests who don't respond within 24 hours or give a vague non-answer move to the Red zone.
 
 ---
 
-## STEP 6: Declining a Request
+## SECTION 3 — RED FLAGS (Decline Regardless of Score)
 
-If you need to decline:
+Decline immediately with MSG-11 if any of the following are present:
 
-6.1 Airbnb will ask for a reason — be honest  
-6.2 Declining more than 20% of requests will affect your ranking (Airbnb measures acceptance rate)  
-6.3 Do NOT decline without a reason you'd be comfortable with Airbnb reviewing  
-6.4 Valid decline reasons: "Dates conflict with personal use," "Can't accommodate requested number of guests," "Property not suitable for guest's stated needs"  
-6.5 Send the soft decline message (MSG-11-INSTANT-BOOK-DECLINE.md) to preserve goodwill
+1. **Guest explicitly mentions a party or event:** "We're looking for a place for my birthday" or "We want to host some friends" — these phrases signal the guest intends to exceed the registered guest count.
 
----
+2. **Guest count exceeds maximum capacity by 2 or more:** An inquiry for 6 guests in a property that sleeps 4 is a firm decline.
 
-## STEP 7: Post-Booking Action (Instant Book bookings)
+3. **Guest asks to split the payment or pay outside Airbnb:** Any request to accept cash, bank transfer, or any payment outside the Airbnb platform is a scam. Decline and report.
 
-For Instant Book reservations (already confirmed):
+4. **Booking is same-day or next-day with no profile and no reviews:** High-risk combination for a short stay. Accept only if the rest of the profile is strong and you have noise monitoring.
 
-7.1 Review the guest profile within 24 hours of booking  
-7.2 If you find a red signal: contact Airbnb support immediately — you can cancel an Instant Book reservation within 24 hours with no penalty in cases of clear policy violations  
-7.3 If yellow signal: message the guest (use booking confirmation message) and address the concern directly  
-7.4 Do NOT cancel an accepted booking unless there is a genuine safety or policy violation concern — host cancellations are penalised severely by Airbnb
+5. **Guest has a prior negative review mentioning property damage, noise, or extra guests:** This is visible on their profile. The guest cannot hide it. Decline.
+
+6. **Guest message references a third party collecting the key on their behalf:** You have no visibility over who enters. Decline unless the guest provides a clear, verifiable reason (accessibility need, flight delay).
 
 ---
 
-## SCREENING LOG
+## SECTION 4 — AIRBNB INSTANT BOOK AND SCREENING
 
-Maintain a log in your Notion Guest database of any declined requests and the reason. Useful for:
-- Identifying patterns in your market (party season, local events attracting bad actors)
-- Documentation if Airbnb ever queries your acceptance rate
-- Year-over-year review of screening decisions
+With Instant Book enabled, bookings are confirmed automatically. You still have a 24-hour window after confirmation to review the guest and cancel without penalty if there is a significant concern (Airbnb's "guest does not meet requirements" cancellation category).
+
+Use this window for:
+1. Check their profile: photo, verified ID, reviews
+2. If anything scores Red: contact Airbnb Support immediately, cite "guest does not meet requirements," and use the no-penalty cancellation
+
+Do not cancel Instant Book guests habitually — this damages your cancellation rate and Superhost eligibility. Only cancel when there is a genuine red flag (item from Section 3) not flagged by Airbnb's automatic requirements.
 
 ---
 
-*Run time: 5–10 minutes per request | Owner: Host*
+## SECTION 5 — HOW TO DECLINE PROFESSIONALLY
+
+Use MSG-11 (Soft Decline). Never decline without sending a message — guests can leave a review even after a declined booking, and a no-message decline looks hostile.
+
+**Three versions of the soft decline:**
+
+**Version A — No availability (honest if true):**
+"Thanks for your interest in [PROPERTY NAME]. Unfortunately I'm not able to confirm this booking — I have some maintenance scheduled during that period that I had not yet blocked on the calendar. I hope you find a great place for your stay."
+
+**Version B — Guest count mismatch:**
+"Thanks for your request. The maximum guest count for [PROPERTY NAME] is [NUMBER] — I see your group is larger than this, so I'm not able to confirm the booking. I hope you find a property that fits your group perfectly."
+
+**Version C — No specific reason (when the red flag is a judgment call):**
+"Thanks for your interest. After reviewing the booking details, I'm not able to accept this request at this time. I wish you a great trip."
+
+**What not to say:** Never state a reason that implies discrimination. Never ask for personal information beyond what Airbnb provides. Decline on behaviour signals (no reviews, concerning messages, party indicators), not on personal characteristics.
+
+---
+
+## SECTION 6 — POST-STAY REVIEW OF YOUR SCREENING PROCESS
+
+After every stay where something went wrong (damage, noise complaint, excess guests), review which screening signals were present before the booking:
+
+| What happened | Were there yellow or red signals? | Was the decision correct? | Update to screening protocol |
+|---|---|---|---|
+| | | | |
+
+Over 12 months, this log will identify if there are patterns in your misses. Most hosts who experience repeated problems with certain guest types find in retrospect that they ignored yellow signals to avoid declining bookings during slow periods.
+
+During slow periods: maintain your screening standards. A €800 damage claim from a problem guest erases 10 nights of net revenue.
+
+---
+
+*Last updated: v1.0.0 · Screen every booking, including Instant Book confirmations within 24 hours*

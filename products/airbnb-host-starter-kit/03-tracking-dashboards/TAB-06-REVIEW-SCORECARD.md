@@ -1,103 +1,128 @@
 # TAB-06: Review Scorecard
-## Spreadsheet Tab Specification
-
-**Tab name:** Reviews  
-**Purpose:** Track every guest review received, analyse patterns, and monitor rating trajectory  
-**Updated:** Within 24 hours of each review received
+## Review Tracker · Subcategory Scores · Trend Analysis
 
 ---
 
-## COLUMN HEADERS
+## PURPOSE
 
-| Column | Header | Data Type | Input or Formula | Notes |
+One row per review received. This tab tracks every guest review across all six Airbnb subcategories, identifies trends, and feeds the review performance section of TAB-07 (KPI Dashboard). The 90-day rolling averages from this tab are the input for your monthly host review (SOP-10).
+
+---
+
+## COLUMN STRUCTURE
+
+| Col | Header | Format | Data Entry |
+|---|---|---|---|
+| A | Review Date | Date DD/MM/YYYY | Date the review was published on Airbnb |
+| B | Booking Ref | Text | Corresponding booking reference |
+| C | Guest Name | Text | Guest's first name |
+| D | Overall Score | Number 1–5 | Overall star rating |
+| E | Cleanliness | Number 1–5 | Cleanliness subcategory |
+| F | Accuracy | Number 1–5 | Accuracy subcategory |
+| G | Check-In | Number 1–5 | Check-in subcategory |
+| H | Communication | Number 1–5 | Communication subcategory |
+| I | Location | Number 1–5 | Location subcategory |
+| J | Value | Number 1–5 | Value subcategory |
+| K | Review Text | Text | Guest's written review (copy-paste from Airbnb) |
+| L | Host Response | Dropdown | Sent / Not Sent |
+| M | Response Date | Date | When you responded |
+| N | Response Type | Dropdown | Positive (MSG-13) / Negative (MSG-14) / Custom |
+| O | Issue Mentioned | Dropdown | None / Cleanliness / Accuracy / Check-in / Comm / Location / Value / Multiple |
+| P | Action Taken | Text | What you changed as a result (if anything) |
+| Q | Verified | Checkbox | ✓ when you have confirmed scores in Airbnb match what you recorded here |
+
+---
+
+## SECTION 2 — RUNNING AVERAGES SECTION
+
+Below your data rows (leave 200 rows), create a Running Averages block:
+
+| Metric | Last 5 Reviews | Last 10 Reviews | Last 30 Days | All Time |
 |---|---|---|---|---|
-| A | Review Date | Date | Input | When guest posted the review |
-| B | Guest Name | Text | Input | First name only |
-| C | Booking Ref | Text | Input | Cross-reference to Bookings tab |
-| D | Overall Rating | Number (1–5) | Input | Overall star rating |
-| E | Cleanliness | Number (1–5) | Input | Sub-category rating |
-| F | Accuracy | Number (1–5) | Input | Sub-category rating |
-| G | Check-In | Number (1–5) | Input | Sub-category rating |
-| H | Communication | Number (1–5) | Input | Sub-category rating |
-| I | Location | Number (1–5) | Input | Sub-category rating |
-| J | Value | Number (1–5) | Input | Sub-category rating |
-| K | Review Text | Text | Input | Copy the full review text here |
-| L | Review Request Sent? | Checkbox | Input | |
-| M | Review Request Timing | Number | Input | Hours after checkout when request sent |
-| N | Response Posted? | Checkbox | Input | Did you respond publicly? |
-| O | Response Date | Date | Input | When you responded |
-| P | Response Template Used | Text | Input | Which MSG template |
-| Q | Primary Theme (positive) | Text | Input | Main thing they praised |
-| R | Primary Theme (concern) | Text | Input | Main thing they flagged (if any) |
-| S | Action Taken | Text | Input | What you changed based on this review |
+| Overall | `=AVERAGE(D[-5]:D[-1])` | `=AVERAGE(D[-10]:D[-1])` | AVERAGEIFS with date range | `=AVERAGE(D2:D[last])` |
+| Cleanliness | | | | |
+| Accuracy | | | | |
+| Check-In | | | | |
+| Communication | | | | |
+| Location | | | | |
+| Value | | | | |
+
+**Simpler approach:** Use the AVERAGEIFS function to calculate averages for date ranges:
+`=AVERAGEIFS(D2:D200,A2:A200,">="&DATE(2026,1,1),A2:A200,"<="&DATE(2026,3,31))`
+This averages Column D (Overall Score) for reviews between January 1 and March 31, 2026. Adjust dates per quarter.
 
 ---
 
-## 3 EXAMPLE ROWS
+## SECTION 3 — TREND CHART
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 13/01/26 | Sophie | HM123456 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | "Absolutely perfect stay. The apartment was immaculate and the welcome basket was a lovely touch. Maria was incredibly responsive. We'll definitely be back." | ✓ | 2 | ✓ | 14/01/26 | MSG-13 | Cleanliness; welcome basket | None | None needed |
-| 22/01/26 | James | HM987654 | 4 | 4 | 5 | 5 | 5 | 5 | 5 | "Great apartment, very clean. Check-in was seamless. Bedroom could use a second pillow option. Would recommend." | ✓ | 2 | ✓ | 23/01/26 | MSG-13 | Check-in experience | Pillow quantity | Added extra pillows to both beds |
-| 07/02/26 | Mia | HM456123 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | "Wonderful stay in a beautiful city. The apartment is even nicer than the photos — and they're already stunning. Host communication was excellent. Location is perfect for exploring Alfama. Highly recommend." | ✓ | 2 | ✓ | 08/02/26 | MSG-13 | Property exceeds listing | Location context | None needed |
+After 10 reviews, create a line chart:
+1. Select Column A (dates) and Column D (overall scores)
+2. Insert → Chart → Line chart
+3. Title: "Review Trend — Overall Score"
+4. Set Y-axis minimum to 3.0 and maximum to 5.0 (the relevant range)
 
----
+This chart should live on TAB-07 (KPI Dashboard) but is built from TAB-06 data.
 
-## SUMMARY METRICS SECTION
-
-Place at top of sheet:
-
-| Metric | Formula | Current Value | Target |
-|---|---|---|---|
-| Total reviews | =COUNTA(D:D)-1 | | ≥30 |
-| Overall avg rating | =AVERAGE(D:D) | | ≥4.85 |
-| Avg cleanliness | =AVERAGE(E:E) | | ≥4.9 |
-| Avg accuracy | =AVERAGE(F:F) | | ≥4.9 |
-| Avg check-in | =AVERAGE(G:G) | | ≥4.9 |
-| Avg communication | =AVERAGE(H:H) | | ≥4.9 |
-| Avg location | =AVERAGE(I:I) | | ≥4.8 |
-| Avg value | =AVERAGE(J:J) | | ≥4.7 |
-| Review conversion rate | =COUNTA(D:D)/[total bookings] | | ≥70% |
-| % reviews responded to | =COUNTIF(N:N,TRUE)/COUNTA(D:D) | | 100% |
-| Avg response time (hrs) | =AVERAGE(O:O - A:A in hours) | | ≤24 |
+**What to look for:**
+- Any downward trend over 3+ consecutive reviews: investigate immediately
+- Any subcategory consistently below others: root cause analysis
+- Any review after a maintenance event: did the issue affect the score?
 
 ---
 
-## RATING TREND CHART
+## SECTION 4 — COMPETITIVE BENCHMARKS
 
-Create a line chart using:
-- X-axis: Review Date (Column A)
-- Y-axis: Overall Rating (Column D)
-- Add a horizontal reference line at 4.85 (Superhost threshold)
+Use these to assess your review performance:
 
-This makes rating trends visible at a glance. A declining trend needs immediate action.
+| Benchmark | Target |
+|---|---|
+| Superhost eligibility | ≥4.8 overall |
+| Top 10% listing tier | ≥4.9 overall |
+| Airbnb Guest Favourite status | ≥4.9 + 50+ reviews |
+| No ranking suppression | ≥4.7 overall |
+| No Superhost loss risk | ≥4.8 in assessment window |
 
----
-
-## THEME ANALYSIS (QUARTERLY)
-
-Tally all entries in Column Q and R:
-
-| Theme | Count (Positive) | Count (Concern) | Net |
-|---|---|---|---|
-| Cleanliness | 18 | 2 | +16 |
-| Check-in | 12 | 0 | +12 |
-| Welcome extras | 11 | 0 | +11 |
-| WiFi | 3 | 1 | +2 |
-| Pillow/bedding | 2 | 2 | 0 |
-| Parking | 0 | 3 | -3 |
-
-Items with a negative net score get added to your monthly improvement action (SOP-10 Step 5).
+If your overall score is between 4.7 and 4.79: you are in the risk zone. Any single 3-star review moves you below Superhost threshold. Identify your weakest subcategory and address it in the next turnover.
 
 ---
 
-## SUPERHOST TRACKING SECTION
+## SECTION 5 — REVIEW TEXT ANALYSIS (Quarterly)
 
-Airbnb resets Superhost status twice a year (April 1 and October 1, based on Jan–June and July–Dec performance).
+Every quarter, read through all review texts from the past 90 days. Create a simple tally:
 
-| Period | Stays Required (≥10) | Rating Required (≥4.8) | Response Rate (≥90%) | Cancellations (0%) | Superhost Eligible? |
-|---|---|---|---|---|---|
-| Jan–Jun 2026 | | | | | |
-| Jul–Dec 2026 | | | | | |
+**Positive mentions (what guests specifically praised):**
 
-Update this section monthly from your Airbnb dashboard.
+| Theme | Count | Example Quote |
+|---|---|---|
+| Location | | |
+| Cleanliness | | |
+| Check-in process | | |
+| Host communication | | |
+| Specific amenity (WiFi, coffee, etc.) | | |
+| Value | | |
+
+**Negative or neutral mentions:**
+
+| Theme | Count | Action Taken |
+|---|---|---|
+| | | |
+
+The positive mentions with high counts are your conversion assets — they should appear in your listing description.
+
+The negative mentions that appear 2+ times are systemic issues. Fix them.
+
+---
+
+## EXAMPLE DATA
+
+| A | B | C | D | E | F | G | H | I | J | L |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 21/01/2026 | HM3K5V6YB | Maria | 5 | 5 | 5 | 5 | 5 | 4 | 5 | Sent |
+| 28/01/2026 | HN7X2Q4PR | James | 5 | 5 | 5 | 5 | 5 | 4 | 5 | Sent |
+| 14/02/2026 | HP4M8W9TS | Sophie | 5 | 5 | 5 | 5 | 5 | 4 | 5 | Sent |
+
+*Note: Location scores of 4 are common for city-centre properties — guests often reserve a 5 for properties with exceptional views or premium locations. A consistent 4 on Location is not a problem if it matches your honest description.*
+
+---
+
+*Last updated: v1.0.0 · Log every review within 48 hours of receiving it — never batch*

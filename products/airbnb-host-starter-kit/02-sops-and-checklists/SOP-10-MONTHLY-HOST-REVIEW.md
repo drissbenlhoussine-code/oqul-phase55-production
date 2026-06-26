@@ -1,173 +1,185 @@
 # SOP-10: Monthly Host Review
-## Standard Operating Procedure — Monthly Operations & Performance Review
-
-**Run time:** 60–90 minutes  
-**Trigger:** First Monday of every month  
-**Owner:** Host  
-**Purpose:** Make one data-driven improvement per month to your hosting operation
+## Monthly Operations Review · KPI Analysis · Action Planning
 
 ---
 
-## OVERVIEW
-
-Running this review monthly is the difference between a host who plateaus at 4.7 stars and €18,000/year, and one who reaches Superhost at 4.95 stars and €28,000/year. The data already exists — this SOP turns it into decisions.
-
----
-
-## STEP 1: Pull the Numbers (20 minutes)
-
-1.1 Open Airbnb Host Dashboard → Performance → select the prior month  
-1.2 Record the following in your KPI Scorecard (Tab-07):
-
-**Revenue Metrics:**
-- Total gross revenue for the month: €___
-- Total nights booked: ___
-- ADR for the month: €___ (Total revenue ÷ booked nights)
-- RevPAN for the month: €___ (Total revenue ÷ available nights)
-- Occupancy rate: ___% (Booked nights ÷ available nights)
-
-**Quality Metrics:**
-- Average star rating for the month: ___
-- New reviews received: ___
-- Cumulative total reviews: ___
-- Response rate: ___%
-
-**Booking Metrics:**
-- Number of bookings completed: ___
-- Average length of stay: ___ nights
-- Average booking lead time: ___ days
-- Any cancellations (host or guest): ___
-
-1.3 Complete the monthly P&L from FINANCIAL-MODEL-GUIDE.md Section 2  
-1.4 Update your annual KPI tracker with this month's actuals
+**When to use:** On the 1st of every month, covering the previous month.
+**Time required:** 45–60 minutes.
+**Tools needed:** TAB-01 through TAB-07, Airbnb Performance tab.
+**Output:** One specific action item per flagged metric. Not a report — a decision.
 
 ---
 
-## STEP 2: Review Guest Feedback (15 minutes)
+## PREPARATION (Before the Review Session)
 
-2.1 Read every review received in the past month — read them in full, not just the star rating  
-2.2 Categorise each review theme (use the category table from SOP-09 Step 6)  
-2.3 Note: what was praised most frequently? What was criticised (or implied as below expectation)?  
-2.4 Private guest feedback from Airbnb's private rating system — is there a category where guests rate you lower privately?  
-2.5 Identify your single highest-leverage improvement:  
-   - If cleanliness is mentioned negatively → Retrain cleaner or adjust cleaning SOP  
-   - If check-in is mentioned → Test your own check-in process cold this week  
-   - If communication is slow → Set up Airbnb's notification system on all devices  
-   - If value is raised → Review pricing vs. competitors; improve one amenity  
-   - If location feedback → Check listing description for accuracy; adjust or add context
+Pull the following data and have it open before you start:
 
----
+- [ ] TAB-01 (Revenue Tracker): previous month's revenue figures
+- [ ] TAB-02 (Expense Ledger): previous month's costs
+- [ ] TAB-06 (Review Scorecard): all reviews received in the month
+- [ ] TAB-07 (KPI Dashboard): current month's KPIs
+- [ ] Airbnb Performance tab: views, conversion rate, response rate
+- [ ] TAB-05 (Maintenance Log): any open items
 
-## STEP 3: Review the Calendar (15 minutes)
-
-3.1 Open your Airbnb calendar — view the next 90 days  
-3.2 Check: What is your current booking rate for the next 30 days? 60 days? 90 days?  
-3.3 Compare to your occupancy targets by month (from HOST-BUSINESS-PLAN.md)  
-3.4 Decision matrix:
-
-| 30-Day Occupancy | Action |
-|---|---|
-| >80% booked | Excellent — consider raising rates 5–10% for remaining open dates |
-| 60–80% booked | On track — monitor for the next 2 weeks |
-| 40–60% booked | Apply 10% discount to open dates; check if pricing is competitive |
-| <40% booked | Apply 15–20% flash discount; review title and first photo; check Pricing Playbook |
-
-3.5 Check for upcoming local events in the next 60–90 days (see Pricing Playbook Section 3 — Event Premium Guide)  
-3.6 Adjust pricing in calendar for any events identified  
-3.7 Review and adjust seasonal minimums (are you correctly set to 1-night minimums for last-minute gaps?)
+Set a fixed time for this — 9am on the 1st, or another recurring slot that does not move. The review that gets moved to "this week" becomes "when I get around to it" within three months.
 
 ---
 
-## STEP 4: Maintenance Audit (10 minutes)
+## SECTION 1 — REVENUE REVIEW (15 minutes)
 
-4.1 Open your Maintenance Log (Tab-05) — review all entries from the past month  
-4.2 Confirm: every issue is marked as resolved  
-4.3 Identify any issue that recurred 2+ times — this is a systematic problem, not a one-off  
-4.4 Recurring issues need root-cause fixing, not repeated patch repairs  
-4.5 Seasonal checks — add the following items to your maintenance task list by season:
+Pull figures from TAB-01 and TAB-07:
 
-**Spring (March–May):**
-- [ ] Test air conditioning before summer season
-- [ ] Check garden furniture / terrace furniture condition
-- [ ] Deep clean grout in bathroom(s)
-- [ ] Test outdoor lighting
-
-**Summer (June–August):**
-- [ ] Verify AC is working at full capacity
-- [ ] Check fan availability
-- [ ] Inspect patio/terrace for wear
-
-**Autumn (September–November):**
-- [ ] Test heating system before winter season
-- [ ] Check boiler pressure
-- [ ] Check draughts around windows and doors
-- [ ] Verify smoke and CO alarms (replace batteries)
-
-**Winter (December–February):**
-- [ ] Check exterior pipes for freeze risk
-- [ ] Verify heating is efficient
-- [ ] Check linen is winter-weight
-
----
-
-## STEP 5: One-Action Improvement (5 minutes)
-
-Every monthly review must produce exactly one concrete action. Not a list — one action.
-
-Choose the single highest-impact improvement and define it specifically:
-
-**Format:**
-```
-THIS MONTH'S IMPROVEMENT:
-What: [Specific thing to change or add]
-Why: [Data or review feedback that identified this]
-How: [Exact steps to implement it]
-Deadline: [Date by which it will be done]
-Owner: [You / Cleaner / Contractor]
-Measure: [How you'll know it worked — e.g., next 5 reviews]
-```
-
-**Example completed:**
-```
-THIS MONTH'S IMPROVEMENT:
-What: Add a printed laminated card next to the boiler with pressure-reset instructions
-Why: Two guests this month messaged about no hot water; both were solved by a pressure reset
-How: Write instructions, print and laminate, install next to boiler
-Deadline: Before next check-in
-Owner: Me
-Measure: Zero boiler-related maintenance messages next month
-```
-
----
-
-## STEP 6: Update Your Notion Workspace
-
-6.1 Update KPI Dashboard with this month's actuals  
-6.2 Close any completed maintenance tasks in Task database  
-6.3 Add this month's improvement action as a new task in Task database with due date  
-6.4 Add any new contractors or contacts to Property Hub  
-6.5 Update the expense ledger if any one-time costs are not already logged
-
----
-
-## MONTHLY REVIEW SIGN-OFF
-
-| Month | Revenue | Occupancy | Rating | Lead Action | Done? |
+| Metric | Last Month Actual | Last Month Projected | Variance | YTD Actual | YTD Projected |
 |---|---|---|---|---|---|
-| January | €___ | ___% | ___ | | |
-| February | €___ | ___% | ___ | | |
-| March | €___ | ___% | ___ | | |
-| April | €___ | ___% | ___ | | |
-| May | €___ | ___% | ___ | | |
-| June | €___ | ___% | ___ | | |
-| July | €___ | ___% | ___ | | |
-| August | €___ | ___% | ___ | | |
-| September | €___ | ___% | ___ | | |
-| October | €___ | ___% | ___ | | |
-| November | €___ | ___% | ___ | | |
-| December | €___ | ___% | ___ | | |
-| **ANNUAL** | **€___** | **___%** | **___** | | |
+| Booked Nights | | | | | |
+| Occupancy Rate | | | | | |
+| ADR (€) | | | | | |
+| Gross Revenue (€) | | | | | |
+| Net Revenue (€) | | | | | |
+
+**If any metric is more than 10% below projection:**
+
+Work through this decision tree:
+1. **Occupancy below target AND ADR on target:** Demand problem — check competitor availability and your calendar open window. Are you priced too high relative to comparable open listings?
+2. **Occupancy on target AND ADR below target:** Pricing problem — are you accepting last-minute discounted bookings that are dragging the average down? Review your vacancy protocol.
+3. **Both below target:** Either a slow seasonal period (check last year if you have data, or against your Section 3 projection in `01-HOST-BUSINESS-PLAN.md`) OR a listing problem. Run the 90-day listing audit (`05-PLATFORM-OPTIMIZATION-GUIDE.md` Section 6) if both have been below target for 2+ consecutive months.
+
+**Record one action item:**
+
+| Variance Found | Action Identified | Action Owner | Due By |
+|---|---|---|---|
+| | | | |
 
 ---
 
-*Run time: 60–90 minutes | Owner: Host | Frequency: First Monday of every month*
+## SECTION 2 — COST REVIEW (10 minutes)
+
+Pull figures from TAB-02:
+
+| Cost Category | Last Month Actual (€) | Budget (€) | Variance |
+|---|---|---|---|
+| Fixed Costs (total) | | 276 | |
+| Cleaning (total paid) | | | |
+| Cleaning Fees Collected | | | |
+| Cleaning Net Cost | | | |
+| Consumables | | | |
+| One-off repairs/maintenance | | | |
+| **Total Operating Costs** | | | |
+
+**If cleaning costs significantly exceed cleaning fees collected:**
+Calculate Cleaning Cost Recovery Rate: Fees Collected ÷ Costs Paid.
+If below 85%: either raise your cleaning fee or negotiate a lower per-turnover rate with your cleaner.
+
+**If one-off maintenance costs were high:**
+Was this a preventive failure (something that could have been caught in the monthly preventive check) or an unforeseeable event? If preventive failure: update the maintenance schedule in SOP-08.
+
+---
+
+## SECTION 3 — REVIEW PERFORMANCE REVIEW (15 minutes)
+
+Pull data from TAB-06 (Review Scorecard):
+
+| Metric | This Month | Last Month | 90-Day Average | Superhost Threshold |
+|---|---|---|---|---|
+| Overall Rating | | | | 4.8 |
+| Cleanliness | | | | — |
+| Accuracy | | | | — |
+| Check-in | | | | — |
+| Communication | | | | — |
+| Location | | | | — |
+| Value | | | | — |
+| Review Count (month) | | | | — |
+| Review Response Rate | | | 100% target | — |
+| Response Rate (Airbnb) | | | | 90% (Superhost) |
+
+**For any subcategory below 4.7 (90-day average):**
+
+| Subcategory | Root Cause | Action |
+|---|---|---|
+| Cleanliness | Cleaning standard / specific issue | Walkthrough + brief cleaning team |
+| Accuracy | Listing overstates something | Audit listing and correct |
+| Check-in | Instructions unclear | Rewrite and test with third party |
+| Communication | Response time | Review notification settings |
+| Location | Proximity overstated | Update listing description |
+| Value | Missing amenity or expectation gap | Run value gap analysis (SOP-04 Section 7) |
+
+---
+
+## SECTION 4 — SUPERHOST STATUS CHECK (5 minutes)
+
+Next Superhost assessment date: **April 1 or October 1** (whichever is next).
+
+| Criterion | Status | Notes |
+|---|---|---|
+| Stays completed (trailing 12 months) | ___ of 10 required | |
+| Average rating | ___ (need 4.8+) | |
+| Response rate | ___% (need 90%+) | |
+| Host cancellations | ___ (need 0) | |
+
+If any criterion is at risk, this is your primary action item for the coming month.
+
+---
+
+## SECTION 5 — MAINTENANCE AND PROPERTY REVIEW (5 minutes)
+
+Review TAB-05 (Maintenance Log):
+- Any open issues from last month? Assign or escalate.
+- Any pattern in maintenance issues? (Second time same issue = systemic problem)
+- Any preventive tasks due this month?
+
+Pull the monthly maintenance checklist from SOP-08 Section 4 and confirm each item has been done.
+
+---
+
+## SECTION 6 — NEXT 30-DAY CALENDAR REVIEW (5 minutes)
+
+Open your Airbnb calendar for the next 30 days:
+- How many nights are booked? Calculate occupancy rate for the next month.
+- Are there any unpriced event periods? Check local event calendar.
+- Are there any gap nights that should be priced at 1-night minimum stay?
+- Are there any dates that have been open for 7+ days? Trigger the vacancy protocol from `02-PRICING-STRATEGY-PLAYBOOK.md`.
+
+---
+
+## SECTION 7 — ACTION LIST SUMMARY
+
+At the end of every monthly review, you should have no more than 3 action items. More than 3 and they do not all get done.
+
+| # | Action | Category | Owner | Due By | Status |
+|---|---|---|---|---|---|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+
+**Transfer these to your task system.** If you use the Notion workspace (`05-notion-workspace/`), add them to DB-03 (Tasks).
+
+---
+
+## SECTION 8 — REVIEW OF PREVIOUS MONTH'S ACTIONS
+
+Before closing, check the actions from last month's review:
+
+| Action from Last Month | Completed? | If Not: Carry Forward or Cancel? |
+|---|---|---|
+| | | |
+| | | |
+| | | |
+
+An action that carries forward 2+ times is either too big (break it down) or not important enough (cancel it).
+
+---
+
+## ANNUAL REVIEW ADDITIONS (January Only)
+
+In January, add these to the standard monthly review:
+
+- [ ] Annual financial review: actual vs. projected for the full year (Section 5 of `01-HOST-BUSINESS-PLAN.md`)
+- [ ] Pricing recalibration: set rates for the new year using `02-PRICING-STRATEGY-PLAYBOOK.md`
+- [ ] Listing refresh: update photos (any that are more than 18 months old), update description, review amenities
+- [ ] Insurance renewal check: confirm STR-rated policy is still in force and covers current nightly rate
+- [ ] Tax preparation: download Airbnb Transaction History CSV for previous year, pass to accountant
+- [ ] Multi-property decision: review Section 6 Q4 milestone from business plan — time to consider a second property?
+
+---
+
+*Last updated: v1.0.0 · Set this as a recurring calendar event on the 1st of every month. Do not let it slip.*
