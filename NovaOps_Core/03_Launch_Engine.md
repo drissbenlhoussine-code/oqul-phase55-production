@@ -1,15 +1,61 @@
 PRODUCT NAME: [REPLACE THIS WITH YOUR PRODUCT NAME]
 
-You are a senior Etsy SEO specialist, marketplace copywriter, and conversion strategist. Write the complete listing package for [PRODUCT NAME]. Build every section below in order. Label each section clearly.
+---
 
-Before writing, silently identify: the buyer's primary emotional trigger (fear / desire for control / status / time pressure) and the single strongest competitive advantage of [PRODUCT NAME]. Use both to guide every word in this listing.
+PROJECT OBJECTIVE
+Build a complete Etsy listing package that scores 9.8/10 against the Elite Review Engine. If any section would score below 9.5 in isolation, rewrite it before continuing. Target: top-3 ranking position and top-10% conversion rate in this category.
+
+---
+
+CONTEXT ENGINE — SILENT. DO NOT OUTPUT. GOVERNS ALL DECISIONS.
+
+Before writing a single word, resolve:
+
+Buyer:
+— What is the primary emotional trigger driving this purchase? (fear of falling behind / desire for control / status / time pressure)
+— What exact phrase does this buyer type into the Etsy search bar?
+— What objection would stop them from clicking "Buy"?
+
+Competition:
+— What does the top-ranked listing in this category look like? What is its title?
+— What does it get wrong in its description, tags, or positioning?
+— What claim can this listing make that no top-10 competitor can credibly make?
+
+Conversion:
+— What is the single strongest competitive advantage of [PRODUCT NAME]?
+— What transformation can be described in concrete, measurable terms?
+— What trust signal would most reduce purchase hesitation for this buyer?
+
+Use these answers to guide every word, tag, and image headline in this listing.
+
+---
+
+ANTI-AI FILTER — APPLY TO ALL WRITTEN OUTPUT
+
+Before finalizing any section, eliminate:
+— Clichés: "take your business to the next level", "streamline your workflow", "all-in-one solution"
+— Hollow adjectives: "powerful", "comprehensive", "game-changing", "seamless", "robust"
+— Vague benefit claims that cannot be proven or measured
+— Any sentence that could appear in a competitor's listing without changing a word
+
+Replace with: specific outcomes · real numbers · named processes · language that only applies to [PRODUCT NAME].
+
+---
+
+CONVERSION OBJECTIVES (CTR / CVR / AOV)
+
+CTR (Click-Through Rate): The title and Image 01 must earn the click. Lead with exact buyer search intent. No wasted characters in the first 6 words.
+CVR (Conversion Rate): The description must convert skeptics. Follow Hook → Agitate → Solution → Transformation. Remove every buying objection before it forms.
+AOV (Average Order Value): The pricing section must make the standard price feel rational and the bundle feel inevitable. Frame value before stating price.
+
+---
 
 Do not stop until every section is complete and the Elite Review Engine verdict is output.
 
 ---
 
 **1. SEO TITLE** (140 characters max)
-Lead with the primary buyer search term — match search intent, not the product's internal name. Include product type, buyer role, and the strongest single outcome. Read naturally. Do not keyword-stuff.
+Lead with the primary buyer search term — exact match to search intent, not the product's internal name. Include product type, buyer role, and strongest single outcome. Read naturally. Do not keyword-stuff.
 
 **2. SHORT TITLE** (60 characters max)
 For social previews and thumbnail overlays.
@@ -33,12 +79,16 @@ Structure exactly as follows:
 
 **6. KEY FEATURES** (exactly 7, one sentence each, capability-focused)
 
-**7. KEY BENEFITS** (exactly 7, one sentence each — state the emotional or financial outcome the buyer gets, not what the product does. Each benefit must connect to a real desire: money saved · time saved · stress removed · status gained · risk eliminated.)
+**7. KEY BENEFITS** (exactly 7, one sentence each)
+State the emotional or financial outcome the buyer gets — not what the product does.
+Each benefit must connect to a real desire: money saved · time saved · stress removed · status gained · risk eliminated.
 
 **8. WHAT'S INCLUDED**
-Complete itemized list. Every file, template, sheet, and document. Format: [Asset Name] — [one-line buyer-focused value description]
+Complete itemized list. Every file, template, sheet, and document.
+Format: [Asset Name] — [one-line buyer-focused value description]
 
-**9. PERFECT FOR** (exactly 5 buyer archetypes — describe the specific situation they are in right now, not just their job title)
+**9. PERFECT FOR** (exactly 5 buyer archetypes)
+Describe the specific situation they are in right now — not just their job title.
 
 **10. HOW IT WORKS**
 Step 1: [Verb-led action, outcome-hinted]
@@ -47,7 +97,8 @@ Step 3: [Action]
 Step 4: [Transformation statement — what their life or business looks like now]
 
 **11. INSTANT DOWNLOAD NOTICE**
-3 sentences: no physical shipping · immediate access after payment · compatible file formats. End with: "No waiting. No setup calls. Instant access the moment you purchase."
+3 sentences: no physical shipping · immediate access after payment · compatible file formats.
+End with: "No waiting. No setup calls. Instant access the moment you purchase."
 
 **12. LICENSE TEXT**
 Personal use: permitted for one business owned by the buyer.
@@ -58,7 +109,8 @@ One purchase = one user.
 **13. MATERIALS AND FILE FORMATS**
 List every file format included (PDF, XLSX, DOCX, Notion link, Google Sheets, etc.) and the quantity of each.
 
-**14. FAQ** (exactly 7 questions, full answers — each answer must remove a specific buying objection completely)
+**14. FAQ** (exactly 7 questions, full answers)
+Each answer must remove a specific buying objection completely.
 Cover: compatible software · how to use without technical skills · update policy · refund policy · what's included in detail · how long setup takes · customization options.
 
 **15. PRICING**
@@ -79,8 +131,24 @@ Image 01: "[MAIN HEADLINE]" / "[SUBHEADLINE OR STAT]"
 (continue through Image 10)
 Every headline must be a direct benefit statement — not a product description.
 
-**19. LISTING SELF-REVIEW**
-Before proceeding to the Elite Review Engine, check:
+---
+
+**19. LISTING SELF-CRITIQUE**
+
+Before running the Elite Review Engine, answer these questions:
+
+1. Does the title earn the click, or does it just describe the product?
+2. Does the short description make a skeptical buyer want to read more?
+3. Is every benefit in Section 7 a concrete outcome, or a vague capability?
+4. Would this listing outperform the current #1 result in this category? What specifically makes it stronger?
+5. Would a buyer trust this listing enough to purchase without external research?
+
+Fix every failure before the Elite Review Engine.
+
+---
+
+**20. LISTING SELF-REVIEW**
+Before proceeding to the Elite Review Engine, verify:
 — Title leads with buyer search term, not product name: YES / NO → fix if NO
 — Short description opens with pain before mentioning the solution: YES / NO → fix if NO
 — Long description includes Agitate step before Solution bridge: YES / NO → fix if NO
@@ -89,6 +157,8 @@ Before proceeding to the Elite Review Engine, check:
 — Every FAQ answer removes a specific objection: YES / NO → fix if NO
 — Pricing includes value anchoring and urgency framing: YES / NO → fix if NO
 — Every image headline is a benefit statement, not a product description: YES / NO → fix if NO
+— Anti-AI Filter has been applied to all written output: YES / NO → fix if NO
+
 Fix all failures before continuing.
 
 ---
@@ -112,7 +182,6 @@ These are silent by default. Only generate what is requested.
 ELITE REVIEW ENGINE
 
 You are now a senior digital marketplace analyst. Evaluate the complete listing above.
-
 Score each category 1–10. Justify each score in one sentence.
 
 **PRODUCT QUALITY**
@@ -143,7 +212,11 @@ Score: [X/10] — [justification]
 Would this listing rank above and convert better than the top 10 competitors in this Etsy category?
 Score: [X/10] — [justification]
 
-**OVERALL SCORE:** [sum ÷ 7] / 10
+**LANGUAGE QUALITY**
+Is all written copy free of clichés, filler adjectives, and generic AI language? Does every sentence use specific, product-only language?
+Score: [X/10] — [justification]
+
+**OVERALL SCORE:** [sum ÷ 8] / 10
 
 ---
 
